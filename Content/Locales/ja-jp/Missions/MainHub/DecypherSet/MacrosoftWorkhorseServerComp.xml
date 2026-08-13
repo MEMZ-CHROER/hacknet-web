@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="macrosoftWorkhorse04" name="Macrosoft Workhorse Server 04" ip="168.61.82.245" security="3" type="3">
+  <ports>21, 80, 1433</ports>
+  <portsForCrack val="3" />
+  <firewall level="-1"/>
+  <trace time="240" />
+  <proxy time="0" />
+
+  <file path="WORKLOGS" name="0118917.log">
+    作業: ファイルのエンコード
+    引数:
+    ファイル: LemonStealingWhore.avi
+    出力: SeriousBuisnessDocuments.dec
+    --------------------------------------
+    作業完了 - 0個のエラーを確認
+  </file>
+
+  <file path="WORKLOGS" name="8978163.log">
+    作業: ソースのコンパイル（C#）
+    引数:
+    ファイル: Main.cs
+    出力: WinC_DEBUG_NONRELEASE.exe
+    --------------------------------------
+    作業未完了 - 1個のエラーを確認
+    ファイル「Main.cs」が見つかりません
+  </file>
+
+  <file path="WORKLOGS" name="3345633.log">
+    作業: ファイルのエンコード
+    引数:
+    ファイル: WinCE_FirmwareSpecs.pdf
+    出力: WinCE_FirmwareSpecs.dec
+    パスワード: beepbeep
+    --------------------------------------
+    作業完了 - 0個のエラーを確認
+  </file>
+
+  <file path="WORKLOGS" name="489820.log">
+    作業: ソースのコンパイル（C#）
+    引数:
+    ファイル: Main.cs
+    出力: WinC_DEBUG_NONRELEASE.exe
+    --------------------------------------
+    作業完了 - 0個のエラーを確認
+    1個の警告を確認:
+    Main.cs 12段目 8行目: 到達できないコードを確認
+  </file>
+
+  <file path="WORKLOGS" name="9982711.log">
+    作業: ファイルのエンコード
+    引数:
+    ファイル: Naruto_Xrated_Collection.zip
+    出力: printer_Drivers.dec
+    パスワード: BELIEVEIT
+    --------------------------------------
+    作業完了 - 0個のエラーを確認
+  </file>
+  
+  
+</Computer>

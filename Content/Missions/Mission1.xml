@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="testMission">
+  <goals>
+  </goals>
+  <nextMission>Mission2.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>The First Mission</subject>
+    <body>
+      Man this is such a shitty email
+      I dont even know man
+      So wierd
+      how will this format?
+    </body>
+    <attachments>
+      <link comp="test01" />
+    </attachments>
+  </email>
+</mission>

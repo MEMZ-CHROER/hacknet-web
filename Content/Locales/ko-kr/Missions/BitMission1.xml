@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitMission01">
+  <goals>
+    <goal type="FileDeletion" target="bitMission01" file="@18907_Connection_From_XXX.XXX.XXX.XXX" path="log"/>
+    <goal type="FileDeletion" target="bitMission01" file="@18922_XXX.XXX.XXX.XXX_Given_Administrator_Access" path="log"/>
+    <goal type="FileDeletion" target="bitMission01" file="@18928_XXX.XXX.XXX.XXX_Acessed_File_[Valence_Dossier.pdf]" path="log"/>
+    <goal type="FileDeletion" target="bitMission01" file="@19002_XXX.XXX.XXX.XXX_Deleted_File_[Valence_Dossier.pdf]" path="log"/>
+    <goal type="FileDeletion" target="bitMission01" file="@19002_XXX.XXX.XXX.XXX_Disconnected" path="log"/>
+  </goals>
+  <nextMission>BitMission2.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>답신</subject>
+    <body>훌륭하군! 이제부터는 좀 어려워질 거야.
+
+ 부탁할 게 하나 있어. 
+조그마한 부주의가 나를 지금의 곤경에 빠지게 만들었지. 그래서 이 이메일을 쓰고 있는 거지만 말야. 아무튼, 몇몇 컴퓨터에 있는 로그를 삭제해줬으면 좋겠어. 
+내가 하는 말 다 잊어도 이것만은 기억해. 절대 주의를 게을리해선 안 돼. 로그는 반드시 삭제해야 해. 지금까지 그러지 않았다면, 이제부터라도 버릇을 들여. 요즘 OS들은 작업을 추적해서 ~/log 폴더 내에 로그 기록이 남거든. 들어가서 모두 &gt;rm * 해버리는 거야. 절대로 잊으면 안 돼. 
+
+부탁해. 행운을 빌어.
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <note title="요청 정보">대상 컴퓨터의 ~/log 폴더에 있는 모든
+ 파일 삭제 &quot;rm *&quot; 명령어는 현재 폴더에 있는 모든 파일을 삭제합니다. 신중하게 사용하세요!
+      </note>
+      <link comp="bitMission01"/>
+    </attachments>
+  </email>
+</mission>

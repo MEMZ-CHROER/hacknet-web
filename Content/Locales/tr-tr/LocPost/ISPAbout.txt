@@ -1,0 +1,12 @@
+Bu sunucu, üçünü taraf ISP şirketlerinin kolayca 
+kurulum yapması ve yönetimi sağlamasına olanak
+sağlayan bir ISP iletim ve yönetim sistemidir.
+Yönetim sistemini kullanabilmek için
+bu bilgisayarda yöneti erişimine
+sahip olmalı (sys yönetim ekibinizle görüşün),
+sonra ise söz konusu IP adresini bulmalısınız.
+
+
+Eğer sistemde teknik sorunlar meydana gelirse,
+1-800-827-6364 adlı numarayı
+arayarak teknik destek ekibine ulaşın.

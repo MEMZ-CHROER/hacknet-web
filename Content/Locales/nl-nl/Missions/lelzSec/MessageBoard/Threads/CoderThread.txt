@@ -1,0 +1,44 @@
+rommelCoder
+------------------------------------------
+#Academic
+Dagelijkse programmeer thread
+Waar werk je aan, /el/?
+------------------------------------------
+Probeer de kracht om te programeren weer te vinden.
+Het herinnert me aan mijn ex-bf. ;_;
+------------------------------------------
+Is het veilig om events zo te gebruiken? Gewoon een nieuwe thread maken?
+
+boost::thread( [] { boost::this_thread::sleep (boost:: posix_time :: seconds(5)); running = false;});
+>inb4 >C++ >boost
+------------------------------------------
+>>37334564
+Wees voorzichtig met die flags. Gebruik i.p.v. locks of atomics.
+------------------------------------------
+>>37334598
+Wat bedoel je met flags? En wat zijn atomics?
+------------------------------------------
+>>37334626
+>running = false
+
+Het probleem van C++'s diepe wortels is dat bij het ASM niveau dit gekke dingen doet.
+Atomics verzekeren dat alle opdrachten die je doet op een variabel als één operatie doen.
+------------------------------------------
+Iemand bekijk mijn Sudoku oplosser?
+http://pastebin.com/Q6Qhm66E
+------------------------------------------
+In de check functie, int tx en ty wroden als x/3 en y/3 gedefinieerd, maar daarna met 3 vermenigvuldigd. Waarom gewoon niet x en y direct?
+------------------------------------------
+Nou, te laat om te antwoorden maar,
+Ik zoek naar een specifiek blok waar ze zijn.
+Zeg, x = 5, y = 5.
+Dat preciese blok start bij 3,3. En dat is de enige manier die ik kon bedenken om dat te doen.
+------------------------------------------
+>>37334068 (OP)
+Werk aan blijer worden en de Windows API leren en misschien de FreeBSD kernel.
+------------------------------------------
+>>37343926
+>blijer
+>Windows API
+hhehehe
+------------------------------------------

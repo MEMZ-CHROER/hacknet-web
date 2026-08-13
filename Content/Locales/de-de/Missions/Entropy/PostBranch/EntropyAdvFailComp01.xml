@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="entropyAdvFail01" name="KyonBox" security="3" ip="176.194.38.111">
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <account username="admin" password="haruhi" />
+  <proxy time="2" />
+  <trace time="70" />
+  <file path="home/loot" name="Macrosoft_dox.txt">Macrosoft Storage Servers:
+  168.61.82.246
+  </file>
+  <file path="home/docs" name="jessie.txt">
+[lilsebastian] Also, meinst du, dass du kommen kannst?
+[kkswatch] Weiß nicht, meine Mutter nörgelt immer noch.
+[lilsebastian] Wir können ja was von Mecces holen.
+[kkswatch] Echt?
+[lilsebastian] Wie du willst.
+[kkswatch] Und danach?
+[lilsebastian] Ich dachte, wir könnten ja zum Aussichtsturm gehen.
+[lilsebastian] Uns die Sterne ansehen.
+[kkswatch] Aha? Das klingt irgendwie nach einem Date.
+[lilsebastian] Äh, wäre das denn ok?
+[kkswatch] Triff mich in ner halbe Stunde hinterm Haus. Ich warte auf dich.
+[lilsebastian] :D
+  </file>
+  
+  <file path="home/docs" name="lantime.txt">
+[jlord93] Alles für's Wochenende bereit?
+[xn00bslayerx] jup!
+[xn00bslayerx] Wir haben Alk und Snacks.
+[jlord93] 2 Tage 360NOSCOPE-n :P
+[xn00bslayerx] Ich hoffe, Jessie kommt auch noch zur LAN dieses Wochenende.
+[jlord93] Aha. -.~´´
+[xn00bslayerx] Halt die Fresse!
+[jlord93] Ich werde sie mit meinen 1337 Skillz voll beeindrucken
+[jlord93] Egal, muss jetzt los. Wir sehen uns morgen in der Schule.
+  </file>
+  
+  <file path="home/docs" name="update.txt">
+[slaggedfire] Ich kann nicht fassen, was für einen Bullshit in das neue Update gepackt wurde?
+[slaggedfire] Wen interresiert es, dass die Wiesen jetzt dynamisch animiert werden?  
+[slaggedfire] Ich will neuen Content! 
+[zuggj1] Und der wird dich dann 'n Arm und 'n Bein kosten.
+[slaggedfire] Sollen wir noch ne Runde wagen? 
+[zuggj1] Klar, warum nicht
+  </file>
+  
+</Computer>

@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitMission01">
+  <goals>
+    <goal type="FileDeletion" target="bitMission01" file="@18907_Connection_From_XXX.XXX.XXX.XXX" path="log"/>
+    <goal type="FileDeletion" target="bitMission01" file="@18922_XXX.XXX.XXX.XXX_Given_Administrator_Access" path="log"/>
+    <goal type="FileDeletion" target="bitMission01" file="@18928_XXX.XXX.XXX.XXX_Acessed_File_[Valence_Dossier.pdf]" path="log"/>
+    <goal type="FileDeletion" target="bitMission01" file="@19002_XXX.XXX.XXX.XXX_Deleted_File_[Valence_Dossier.pdf]" path="log"/>
+    <goal type="FileDeletion" target="bitMission01" file="@19002_XXX.XXX.XXX.XXX_Disconnected" path="log"/>
+  </goals>
+  <nextMission>BitMission2.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>Что-что  взамен</subject>
+    <body>Отличная работа! Здесь становится все труднее. 
+
+Хочу попросить об одолжении. 
+В последнее время, я немного небрежен, вот от чего все эти неприятности. Вот почему я пишу это в первую очередь. Дело в том, что на некоторых компьютерах есть логи, которых лучше бы там не было. 
+Помни это, даже если забудешь все остальное, я тебе говорил – Будь аккуратен Удали логи. Если ты еще не удалил, то сделай это сейчас, т.к. все что ты делаешь на любой современной ОС, отслеживается и регистрируется в директории ~/log. Просто зайди туда и &gt;rm *это все. Никогда не забывай это делать. 
+
+Спасибо. Удачи.
+
+--Bit
+0
+  
+    </body>
+    <attachments>
+      <note title="Детали запроса">Удали все на целевом компьютере в директории ~/log. 
+ Команда rm * сотрет все файлы в текущей папке, так что будь внимателен!
+      </note>
+      <link comp="bitMission01"/>
+    </attachments>
+  </email>
+</mission>

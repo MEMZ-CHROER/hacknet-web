@@ -1,0 +1,14 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-15.0">復号設定完了！</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-12.0">でもこのままじゃ不便だな。もっと共有しやすい.exeを新しく作らないと。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-7.0">とりあえずわかんないことは俺に聞いて。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-3.0">適切に設定してから渡してほしいんだけど、復号に時間かけすぎじゃないの。いつ完成するの。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="0.5">OK、恥ずかしい限りで。でもそれには答えられない。こいつは動くけど、時間をかければもっとよくなる。とりあえずはこいつでなんとかなるから-_-</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="3.2">なんとかしないといけないのね。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="3.5">-_-</AddIRCMessage>
+  </OnConnect>
+  
+</ConditionalActions>

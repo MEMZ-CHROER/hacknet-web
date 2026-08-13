@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ham2">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Hermetic Alchemists - D3f4ult">
+奇妙な哲学グループのサーバーシステムで、あるプログラムが開発されています。今後のプロジェクトで役に立ちそうなので入手したいところです。
+    </posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

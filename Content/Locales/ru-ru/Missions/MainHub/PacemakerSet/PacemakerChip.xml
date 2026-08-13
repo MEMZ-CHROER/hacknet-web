@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="pacemaker01" ip="202.6.141.219" name="KBT-PM 2.44 РЕГ.НОМЕР: 10811" security="1" icon="chip" type="4"> <!-- 1=  corporate, 2 = Home, 3 = server, 4= empty -->
+  <!-- Security Stuff -->
+  <trace time="-1"/>
+  <ports>104</ports>
+
+  <HeartMonitor patient="E_Whit"/>
+  
+  <file path="KBT_Pacemaker" name="readme.txt"> Все файлы в данной папке будут обнаружены программой Pacemaker и отображены в интерфейсе пользователя как обновление микропрограммы (если программа определит, что файлы правильно подписаны). 
+Если хотите дистанционно обновить ПО чипа, загрузите файл в эту папку, используя команду &quot;upload [ПУТЬ К ЛОКАЛЬНОМУ ФАЙЛУ]&quot;.
+  </file>
+  
+</Computer>

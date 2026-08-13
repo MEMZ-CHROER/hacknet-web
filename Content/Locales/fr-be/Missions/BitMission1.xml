@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitMission01">
+  <goals>
+    <goal type="FileDeletion" target="bitMission01" file="@18907_Connection_From_XXX.XXX.XXX.XXX" path="log"/>
+    <goal type="FileDeletion" target="bitMission01" file="@18922_XXX.XXX.XXX.XXX_Given_Administrator_Access" path="log"/>
+    <goal type="FileDeletion" target="bitMission01" file="@18928_XXX.XXX.XXX.XXX_Acessed_File_[Valence_Dossier.pdf]" path="log"/>
+    <goal type="FileDeletion" target="bitMission01" file="@19002_XXX.XXX.XXX.XXX_Deleted_File_[Valence_Dossier.pdf]" path="log"/>
+    <goal type="FileDeletion" target="bitMission01" file="@19002_XXX.XXX.XXX.XXX_Disconnected" path="log"/>
+  </goals>
+  <nextMission>BitMission2.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>Quelque chose en retour</subject>
+    <body>Bon travail ! Bon, ça va commencer à se compliquer, maintenant.
+
+J'ai besoin d'une faveur.
+J'ai été un peu négligent ces derniers temps, c'est ce qui m'a foutu dans ce pétrin. C'est pour ça que j'écris tout ça, j'imagine. Bref, le truc c'est que j'ai des logs sur des ordinateurs que j'aimerais bien voir disparaître. 
+N'oublie jamais, d'ailleurs, c'est extrêmement important, ne bâcle pas le travail. Supprime tes logs. Et si tu ne le faisais pas avant, commence tout de suite. Tout ce que tu fais sur un système d'exploitation moderne est laisse une trace et est loggué dans le répertoire ~/log. Il suffit d'y aller et de &gt;rm * l'ensemble. N'oublie jamais.
+
+Merci. Bonne chance. 
+--Bit
+0
+     
+    </body>
+    <attachments>
+      <note title="Détails de la requête">Supprime tous les fichiers du répertoire ~/log de l'ordinateur cible.
+La commande « rm * » supprime tous les fichiers du dossier actuel, prudence !
+      </note>
+      <link comp="bitMission01"/>
+    </attachments>
+  </email>
+</mission>

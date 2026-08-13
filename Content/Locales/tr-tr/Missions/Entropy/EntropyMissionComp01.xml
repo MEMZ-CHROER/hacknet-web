@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="entropy01" name="Entropy Asset Server" security="4">
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="home/backups" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="home" name="Mantra.txt">
+Entropy Mantrası
+
+Grubumuz her daim bağlı kalmaya çabaladığımız 3 koşul üzerine kurulmuştur:
+
+1) Ne olursa olsun adil ve dürüst olmaya çabalamak
+
+2) Yok ettiklerimizden fazlasını yaratmak ve paylaşmak
+
+3) Kendimizi geliştirmemek için asla bahane üretmemek
+
+Entropy, bu koşullara karşı olan işleri reddeder ve bu koşullara uymayan çalışanları ile ilişiğini keser.
+</file>
+  <account username="admin" password="rosebud" />
+</Computer>

@@ -1,0 +1,31 @@
+<ConditionalActions>
+
+  <OnAdminGained target="dpa_nethub">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="20">Şey... @channel, beyaz liste sunucusunda bir şeye ulaşabilen var mı?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="24">Sanırım bir yol buldum. Bir iki dakikalığına çökertebilirsen halledebilirim.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="25">Ne?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="30">Yani eminim bir yolunu buluruz da ne demek istediğini anlayamadım :\</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="34">Meslek sırrı ;). Hazır mısın? Saymaya başla.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="39">Tamam, bekle...</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="44">5</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="45">4</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="46">3</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="47">2</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="48">1</AddIRCMessage>
+    
+    <CrashComputer Delay="50" DelayHost="dhs" CrashSource="D3F_POD" TargetComp="dpa_whitelist" />
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="52">Tamamdır, yardır...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="74">Neredeyse bitti...</AddIRCMessage>
+    <DeleteFile Delay="82" DelayHost="dhs" TargetComp="dpa_whitelist" FilePath="Whitelist" FileName="authenticator.dll" />
+
+    
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="85">Tamamdır! Halloldu. D3f4ult, benim için göz atar mısın?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="90">Hassiktir, nasıl yaptın lan?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="93">;)</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="95">Heh, @#PLAYERNAME# - beyaz liste sunucusu çöktü!</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="101">Artık rezervasyon sunucusuna erişebilirsin.</AddIRCMessage>
+    
+  </OnAdminGained>
+  
+</ConditionalActions>

@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyMission1.1">
+  <goals>
+    <goal type="FileDeletion" target="entropy01.1" file="config.sys" path="MsgBoard"/>
+  </goals>
+  <missionEnd val="6">assignPlayerToEntropyFaction</missionEnd>
+  <nextMission>Entropy/EntropyMission1.2.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Mission de confirmation</subject>
+    <body>
+Salutations, #PLAYERNAME#,
+
+ Félicitations pour avoir trouvé et passé avec succès l'examen d'entrée au groupe Entropy. Si c'est une tâche relativement facile pour un hacker expérimenté, dans les faits, très peu d'entre eux semblent réussir. 
+
+Avant de confirmer officiellement ta place dans le groupe, nous devons confirmer tes talents. 
+Un serveur de nouvelles type tabloïd publie depuis peu des articles très négatifs sur Entropy, et nous voulons désactiver temporairement ses activités. Comme deuxième test de tes talents, nous te demandons de faire tomber le Forum de ce serveur. Si tu peux, laisse les articles non liés à Entropy et le reste du serveur intact. Nous ne voulons pas être destructeur sans raison. 
+Nous ne voulons pas supprimer tous les articles du serveur, juste supprimer ce programme. 
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy01.1"/>
+    </attachments>
+  </email>
+</mission>

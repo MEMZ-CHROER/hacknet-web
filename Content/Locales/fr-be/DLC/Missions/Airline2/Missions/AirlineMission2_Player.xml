@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="airline2_player">
+  <goals>
+    <goal type="fileupload" target="dHidden" file="sysinfo.bat" path="home" destTarget="dpa2_target" destPath="sys"/>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="#PLAYERNAME# - Décollage suite">
+Installe une porte dérobée sur un serveur sécurisé de Pacific Air
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Décollage suite</subject>
+    <!-- Translators notes - don't translate the folder name "sys"-->
+    <body>
+Installer une porte dérobée sur un serveur sécurisé de Pacific Air
+----
+#PLAYERNAME#, ton boulot consiste à mettre sur pied un plan de secours, dans le cas où mes suspicions sur ce que cherche Coel s'avèrent fondées. Si tout va bien, nous n'en aurons même pas besoin.
+J'ai mis la main sur un logiciel qui devrait nous permettre de pirater le matériel de diffusion de Pacific Air. Leur matériel fonctionne avec un ordinateur qu'ils nomment le « Skylink ». Si tu arrives à installer une porte dérobée sur ce serveur dans le dossier ~/sys/, je me chargerai du reste.
+
+J'ai transféré la porte dérobée à installer dans le dossier-racine du serveur de stockage. Sous le nom « sysinfo.bat ». Télécharge ça, pénètre le Skylink et uploade-le dans le dosser sys, je me chargerai du reste. Pas besoin de l'activer.
+Souviens-toi d'effacer tes traces, c'est pas le moment d'être négligent.
+
+Bonne chance.
+</body>
+    <attachments>
+      <note title="Objectifs de mission">Télécharge le « sysinfo.bat » depuis le dossier-racine sur le serveur de stockage et uploade-le vers ~/sys/ sur le serveur Skylink de Pacific Air.</note>
+      
+      <link comp="dhsDrop" />
+      <link comp="dpa2_start" />
+      <link comp="dpa2_target" />
+      
+    </attachments>
+  </email>
+</mission>

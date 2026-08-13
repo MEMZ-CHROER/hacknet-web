@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pressdemoMission03">
+  <goals>
+    <goal type="FileDownload" target="bitStashDemo" file="SQL_MemCorrupt.exe" path="bin" />
+    <goal type="FileDownload" target="bitStashDemo" file="SMTPOverflow.exe" path="bin" />
+    <goal type="FileDownload" target="bitStashDemo" file="Sequencer.exe" path="bin" />
+  </goals>
+  <nextMission>Demo/PressBuild/DemoMission04.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Aufrüstung</subject>
+    <body>Super,
+vielen Dank für deine Hilfe. Das bestärkt mich in meiner Meinung, dass du der richtige für diesen Job bist. Von hier an wird es nur noch schwerer - Es ist also Zeit zum Aufrüsten.
+
+Ich habe einen Link und den Login zu einem meiner Drop-Servers angehängt. Schau im /bin/ Ordner nach, da gibt es ein paar neue Programme.
+Keine Sachen, die ich so einfach im Netz rumschwirren sehen will, du bekommst sie also nur, weil mir die Möglichkeiten ausgehen - und mir bewiesen hast, dass man dir trauen kann.
+
+Auch wenn du sie alle brauchen wirst, ist der "Sequencer" besonders wichtig - Ich hab ihn vor langer Zeit geschrieben, um Attacken mit mehreren Hackern anonym zu koordinieren. Ich habe dir eine umfunktionierte Version hochgeladen.
+Ich erkläre dir, wie er funktioniert, nachdem du alles runtergeladen hast.
+
+Die anderen beiden Programme sind Port-Cracker - SMTPOverflow flutet den SMTP (Mail-Server) Port - üblicherweise Port #25.
+SQL_MemCorrupt führt eine SQL-Injektion aus - normalerweise wird für SQL Port 1433 benutzt.
+
+Lade die neuen Tools runter.
+--Bit
+0
+    </body>
+    <attachments>
+      <link comp="bitStashDemo" />
+      <account comp="bitStashDemo" user="admin" pass="traxxex12" />
+    </attachments>
+  </email>
+</mission>

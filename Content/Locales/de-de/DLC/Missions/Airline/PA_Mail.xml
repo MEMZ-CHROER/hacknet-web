@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa_mail" name="PacificAir_Mail" security="5" type="4" icon="PacificAir">
+
+  <!-- The mail server, will need to have three accounts. Two of these are critical, one is just flavor.
+  The player will never be able to break in here, so we only need to populate the contents of those three
+  accounts, nothing else.-->
+  
+  <proxy time="4" />
+  <trace time="75" />
+  <portsForCrack val="5" />
+  <ports>22, 25, 443, 1433, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dpa_nethub" position="90" total="360" extraDistance="0.03"/>
+  
+  <!--TRANSLATORS: Do not translate these account lines -->
+  <account username="awilburn" password="1234" type="2" />
+  <account username="kburnaby" password="noneofyourbusiness" type="2" />
+  <account username="YasuArai" password="9NINETWO2" type="2" />
+  
+  <mailServer name="Pacific Air Mail" color="153,195,209">
+    <email recipient="kburnaby" sender="YasuArai" subject="These cyber security guys">Gott, die nerven so sehr.
+Ich habe jemanden gebeten, etwas auf meinem Laptop zu machen, und einer von denen ist komplett AUSGERASTET. Musste sofort mein Passwort ändern und so.
+Habe am Ende nur eine 1 hinzugefügt, das sollte ich mir also leicht merken können. Trotzdem, ziemlich frustrierend.
+Was haben die bloß?
+-Yasu</email>
+    
+    <email recipient="kburnaby" sender="sp_alerts" subject="SPEAR-PHISHING-WARNUNG FÜR WOCHE 2">Dies ist eine automatische Zusammenfassung der Warnungen in der zweiten Woche von {$ActiveMonth}.
+Montag: 3 Warnungen
+Dienstag: 0 Warnungen
+Mittwoch: 4 Warnungen
+Donnerstag: 1 Warnung
+Freitag: 2 Warnungen</email>
+
+    <email recipient="kburnaby" sender="YasuArai" subject="Re: Lunch">Nein danke! Mir wäre es lieber, wenn unsere Beziehung rein beruflich bleibt.
+-Yasu</email>
+
+    <email recipient="kburnaby" sender="MailAdmin" subject="[ATTN: Admins] Meeting notes">Kommt schon, Leute. Ihr müsst wirklich eure Meeting-Notizen festhalten, sonst bekommen wir alle Schwierigkeiten.
+Besonders ich. 
+Bitte?</email>
+
+    <email recipient="kburnaby" sender="awilburn" subject="Phishing email?">Hallo Kim,
+Ich habe mich umgehört, und anscheinend bist du die beste Ansprechpartnerin.
+Ich habe eine E-Mail über das Zurücksetzen eines Passworts erhalten, bin mir aber nicht sicher, ob sie echt ist. Kannst du das bestätigen?
+> admin_password_security_reset@pacifiicaircom.org hat gesendet:
+> ""Sehr geehrte/r Mitarbeiter/in,
+> Hier ist Ihre Email zum Zurücksetzen Ihres Passwortes.
+> Bitte klicken Sie auf diesen Link, um Ihr Passwort zurückzusetzen.
+> Das ist aus Sicherheitsgründen sehr wichtig.
+> Danke,
+> Admin""
+- Alexina</email>
+    
+    <!-- NetAdmin Emails -->
+  
+  <email recipient="YasuArai" sender="kburnaby" subject="AW: These cyber security guys">Hallo J,
+ich muss darum bitten, dass du den Inhalt deiner E-Mails ausschließlich auf Geschäftliches beschränkst. Diese E-Mail wirkt wie eine persönliche Beschwerde und sie ist unprofessionell.
+Danke!
+-Kim</email>
+
+    <email recipient="YasuArai" sender="athurlow" subject="Re: Re: Password Reset">Was soll der Scheiß, ich bitte dich um eine einfache Sache. Kannst du das denn nicht für mich erledigen?
+> NetAdmin@pacificair.com hat gesendet:
+> Nein.
+> > athurlow@pacificair.com hat gesendet:
+> > He Kumpel, kannst du mein Passwort zurücksetzen? Danke!</email>
+
+    <email recipient="YasuArai" sender="kburnaby" subject="Fwd: Phishing Email?">Jap, noch eine.
+-Kim
+> awilburn@pacificair.com hat gesendet:
+> Hallo Kim,
+> Ich habe mich umgehört, und anscheinend bist du die beste Ansprechpartnerin.
+> Ich habe eine E-Mail über das Zurücksetzen eines Passworts erhalten, bin mir aber nicht sicher, ob sie echt ist. Kannst du das bestätigen?
+> > admin_password_security_reset@pacifiicaircom.org hat gesendet:
+> > ""Sehr geehrte/r Mitarbeiter/in,
+> > Hier ist Ihre Email zum Zurücksetzen Ihres Passwortes.
+> > Bitte klicken Sie auf diesen Link, um Ihr Passwort zurückzusetzen.
+> > Das ist aus Sicherheitsgründen sehr wichtig.
+> > Danke,
+> > Admin""
+> - Alexina</email>
+
+    <email recipient="YasuArai" sender="kburnaby" subject="Lunch">Hey J! Hast du am Wochenende Lust auf einen Kaffee oder so? Ich würde dich gerne besser kennenlernen - wir arbeiten jetzt schon monatelang zusammen und ich habe das Gefühl, dass wir uns kaum kennen. Gib mir bitte Bescheid. :)</email>
+
+    <email recipient="YasuArai" sender="MailAdmin" subject="[ATTN: Admins] Meeting notes">Kommt schon, Leute. Ihr müsst wirklich eure Meeting-Notizen festhalten, sonst bekommen wir alle Schwierigkeiten. 
+Besonders ich.
+Bitte?</email>
+
+    <email recipient="YasuArai" sender="sp_alerts" subject="SPEAR-PHISHING-WARNUNG FÜR WOCHE 2">Dies ist eine automatische Zusammenfassung der Warnungen in der zweiten Woche von {$ActiveMonth}.
+Montag: 3 Warnungen
+Dienstag: 0 Warnungen
+Mittwoch: 4 Warnungen
+Donnerstag: 1 Warnung
+Freitag: 2 Warnungen</email>
+    
+    
+  <!-- MiscPerson Email -->
+
+    <email recipient="awilburn" sender="temp_0340" subject="Plan für September">Hallo Alexina, kann ich bitte meine Zeiten für nächste Woche haben? Danke, j</email>
+
+    <email recipient="awilburn" sender="dwiklowski" subject="Bürolotto">Hallo Leute! Wollte euch nur schnell mitteilen, dass sich das Bürolotto verzögert. Anthony hat das iPad noch nicht besorgt, daher ... macht es kaum Sinn, es abzuhalten, oder? Trotzdem findet es noch statt, aber da um diese Jahreszeit immer so viel los ist, müssen wir uns vielleicht ein paar Wochen gedulden.
+LG, Dan
+P.S. Herzlichen Glückwunsch an Marta und Benita zur Geburt ihres wonnigen Sohnemanns! Ich hoffe, euch bald zu sehen!</email>
+
+    <email recipient="awilburn" sender="jadams" subject="Besprechung Donnerstag">Alexina,
+Nur so nebenbei: Du bist mit in der Auswahl für den „Mitarbeiter des Monats“.
+Wenn wir schon dabei sind, entscheiden wir auf einer Besprechung am Donnerstag über den Mitarbeiter des Monats. Ich sehe dich doch dort, oder?
+Jeremey</email>
+
+    <email recipient="awilburn" sender="employee_promotions" subject="[Z. Hd.: ALLE NICHT UNTER VERTRAG STEHENDE MITARBEITER] Reiseansprüche und du">~Denken Sie vor dem Ausdrucken dieser E-Mail bitte an die Umwelt.~
+Hallo Leute! Hier ist Brandi. In dieser E-Mail findet ihr Informationen und Erklärungen zu euren jährlichen Reiseansprüchen.
+Wie ihr sicher alle wisst, mussten wir dieses Jahr einige Mitarbeiter entlassen. Dies erfolgte im Rahmen der allgemeinen Sparmaßnahmen im ganzen Unternehmen - sogar unser CEO hat eine Gehaltskürzung akzeptiert, um die Auswirkung auf *eure* Gehaltskürzungen zu mindern. Nur um euch eine Vorstellung zu vermitteln.
+Also, das kostenlose Reiseprogramm für Pacific Air-Mitarbeiter ab der mittleren Ebene wurde überarbeitet, um Grauzonen zu entfernen und es für Mitarbeiter in den unteren Ebenen einfacher zu machen, ins Programm eingeführt zu werden.
+Ihr findet alle Einzelheiten im Unternehmensportal unter der Rubrik „NEWS“.
+Wendet euch bei Fragen bitte an mich.
+MFG,
+Brandi von HR</email>
+
+    <email recipient="awilburn" sender="mb_5f_broadcast" subject="[Z. Hd.: FÜNFTE ETAGE] Kloprobleme">AUFGEPASST
+WER AUCH IMMER AUF DEN BODEN SCHEISST, WIRD AUF DER STELLE ENTLASSEN
+WIR HABEN VOR DEM KLO KAMERAS INSTALLIERT
+MAN WIRD DICH FINDEN
+UND FEUERN
+HÖR AUF, DEM REINIGUNGSPERSONAL ALBTRÄUME ZU BESCHEREN
+ 
+Mit freundlichen Grüßen,
+Ramiro
+Lebe die Änderung vor, die du in der Welt sehen willst. - vermutlich Gandhi</email>
+
+    <email recipient="awilburn" sender="admin_password_security_reset@pacifiicaircom.org" subject="Pass-Wort zurücksetzen">Sehr geehrte/r Mitarbeiter/in,
+Hier ist Ihre Email zum Zurück-setzen Ihres Passwortes.
+Bitte klicken Sie auf Diesen Link, um Ihr Passwort zurückzusetzen.
+Das ist aus Sicherheitsgründen sehr wichtig.
+Vielen Dank
+Admin</email>
+    
+    
+  </mailServer>
+  
+</Computer>

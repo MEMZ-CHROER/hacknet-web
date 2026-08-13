@@ -1,0 +1,30 @@
+Notizen
+------------------------------------------
+#Speech
+Äh, was ist eigentlich mit den Notizen? So ein Müll, ne?
+Warum braucht der string "test note" an die 100mb ram? Wie geht das überhaupt?
+------------------------------------------
+>So ein Müll, ne?
+Hach. Wirklich? du verstehst es nicht, *ne*?
+------------------------------------------
+>Notizen
+>Müll
+Oje, duck guy in 3,2,1
+------------------------------------------
+#Duck
+>Oje, duck guy in 3,2,1
+ 
+>bedeutet, ich wär noch nicht da gewesen
+------------------------------------------
+#Academic
+Ok, ich hasse vorsagen ja auch, aber das muss aufhören. Die Notizfunktion ist unglaublich clever und du begreifst den Sinn und Zweck der Sache einfach nicht.
+
+SELBSTVERSTÄNDLICH braucht ein string nicht so viel ram, es wird schlichtweg das RAM display ausgenutzt, um die Nachricht auf dem Schirm anzuzeigen und füllt den ram mit genau so viel Datenmüll, wie für das Anzeigen der Nachricht gebraucht wird.
+Ist nicht optimal, schon klar, aber es heißt, dass Nachrichten auf jedem OS mit einem ram display angezeigt werden können - was bedeutet, dass es keine eigene UI braucht.
+Was wiederum bedeutet, dass du Nachrichten immer dann damit aufschreiben kannst, wenn du zu faul bist, dir nen verdammten Stift zu holen.
+
+
+
+
+
+------------------------------------------

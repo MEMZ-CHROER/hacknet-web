@@ -1,0 +1,8 @@
+Tebrikler,
+Kısa süre önce adına çalıştığınız müşterimiz işinizi başarıyla tamamladığınızı ve sizden gayet memnun kaldığını bildirdi.
+Veritabanı aracılığıyla başka işler alabilirsiniz.
+
+Şu anki dereceniz: {1} kişi içinde {0}. sıradasınız.
+
+Teşekkürler,
+{2}

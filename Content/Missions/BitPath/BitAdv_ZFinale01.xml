@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_finale01" >
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission> <!-- For real this time :D -->
+  <email>
+    <sender>Bit</sender>
+    <subject>Terminal</subject>
+    <body>Hey,
+I'm not sure if it's sensible to be writing this one first - if all's gone to plan, this should be basically the last you'll hear from me.
+Maybe the last anyone hears from me.... But hey, this one's optimistic! If this ever gets sent you, that's the best news I could hope for.
+
+So, thankyou. I cant imagine it'll be easy - (will have been easy?).. This tense is going to take some getting used to.
+
+There's still one last thing I want to ask of you - not that I haven't asked way too much already. Porthack's not quite a standalone thing - It was once, but, well, you can probably understand now why this cant exist as something people can just pass around.
+It's core - heart, is the last piece left. It's built to be untamperable, but I've done what i can. This is my last request, of far too many. 
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <link comp="porthackHeart" />
+    </attachments>
+  </email>
+</mission>

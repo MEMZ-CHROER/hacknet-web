@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="FOF_Screenplay.doc" path="home" destTarget="producerComp" destPath="home/scripts"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Help an aspiring writer" reqs="dechead,decypher">
+Один самоуверенный писатель хочет, чтобы мы доставили его рукописи продюсеру.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Убедительная заявка</subject>
+    <body>
+Некий писатель хочет, чтобы мы доставили его последнюю рукопись продюсеру и избавили его от головной боли с пропуском у секретарей и так далее.
+ Он всего лишь хочет, чтобы мы взломали компьютер и оставили его рукопись в папке с материалами для просмотра. 
+
+Его рукопись под названием &quot;FOF_Screenply.doc&quot; была загружена на наш общий сервер. 
+Он также предоставил нам рукопись конкурента в зашифрованном виде, 
+которую мы можем использовать для трассировки - T2_Screenply.dec. 
+
+Она тоже загружена на сервер. 
+Загрузите рукопись клиента в папку с рукописями на целевом компьютере. Напоминаем, что нажав Tab, можно автоматически завершить ввод команды загрузки. Введите &quot;upload bin/&quot;, затем нажмите клавишу Tab, чтобы увидеть список локальных файлов и выбрать один из них.
+
+ Удачи!
+ -CSEC
+    </body>
+    <attachments>
+      <link comp="hubCrossroads"/>
+      <note title="Детали задания">Загрузить FOF_Screenply.doc;
+      
+Трассировать T2_Screenplay.dec;
+
+ Загрузить FOF_Screenply.doc в папку с рукописями.</note>
+    </attachments>
+  </email>
+</mission>

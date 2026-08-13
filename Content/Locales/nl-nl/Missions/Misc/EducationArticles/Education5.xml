@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Traces - Passief">
+Als antwoord op de groeinde vijandigheid en activiteit in de wereld van computer hacking, nieuwe digitale beveilingspakketen zullen meestal een methode van het volgen van enige "vijandige" actifiteit maken tegen die server.
+
+Dit is natuurlijk een imperfecte wetenschap, dus er zijn 2 erkende vormen van traces, Actief en Passief.
+
+Dit artikel behandelt passieve traces.
+
+1: Passieve Traces
+-----------------
+Een passive trace is een computerprogramma op de machine dat vijandige actie probeert te ondernemen en start een trace ertegen. De methode veranderd van programma tot programma (en dus ook de tijd voordat het klaar is).
+Een passieve trace kan in theorie gepreventeerd worden door een zelf-veroorzaakte crash te doen als de ping arriveert van de vijandige server, het geen antwoord gevende zodat het aanneemt dat het pakket nooit is aangekomen.
+Dit zou een OS-niveau integratie vereisen en dat is geen bekende eigenschap van een erkent OS, wat dit een effectieve track methode houdt voor eventuele aanvallers.
+
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Ontvangen van deze email betekent dat er een onverwachte fout is opgetreden.
+Raak in paniek.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

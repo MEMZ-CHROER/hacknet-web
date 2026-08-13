@@ -1,0 +1,10 @@
+﻿﻿Agent,
+Un nouvel outil a été ajouté au serveur de ressources pour votre utilisation.
+C'est un x-server modifiant l'utilitaire  "ThemeChanger.exe" - vous pouvez le trouver sous :
+
+/bin/ThemeChanger/
+
+N'hésitez pas à télécharger une copie et l'utiliser de la manière qui vous convient.
+
+Merci,
+{0}

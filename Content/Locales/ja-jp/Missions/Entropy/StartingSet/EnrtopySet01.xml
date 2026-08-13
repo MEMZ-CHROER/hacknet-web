@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDeletion" target="pointclicker" file="Mengsk.pcsav" path="PointClicker/Saves" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Point Clicker">
+自らの実力をもう一度証明するため、クライアントはゲームサーバーに保存したセーブデータの消去を希望しています。
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Point Clicker</subject>
+    <body>ごきげんよう。
+
+私は差し迫った窮地に追い込まれている。残念なことに、私の職場にはこの問題を解決できない無能なスタッフしかいなくてね。こういった理由から、非常に不愉快ではあるのだが、外部に助けを
+求めざるを得なくなった。情報提供者は、ここに依頼すれば安全だと請け合ってくれた。簡潔に言うと、私は「ポイントクリッカー」というゲームを極めたのだが、このゲームにはリセットボタンが実装
+されていない。そのため、もう一度クリアして私の実力を証明したくても、やり直す手立てがないのだ。ゲームを再び攻略するため、君には彼らのサーバーに侵入し、私のセーブファイルを削除して
+もらいたい。私のユーザーネームは「Mengsk」。私の偉大な功績は、リセットする前に存分に眺めてくれてかまわない。
+
+用件は以上だ。
+-M
+    </body>
+    <attachments>
+      <link comp="pointclicker" />
+      <note title="Contact Handle">ハンドルネーム
+"Mengsk"に接触</note>
+    </attachments>
+  </email>
+</mission>

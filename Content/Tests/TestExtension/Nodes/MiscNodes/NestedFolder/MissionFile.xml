@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission00">
+  <goals>
+    <goal type="getAdmin" target="bitMission00"/>
+  </goals>
+  <missionStart val="7">changeSong</missionStart>
+  <nextMission>BitMission1.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>Maiden Flight</subject>
+    <body>Congratulations!
+I honestly have no way of knowing if you succeeded in this responder, but if you're seeing this it means you at least found SOMETHING. I'm going to assume it's something really useful.
+
+You should try breaking one of my old test servers - if Viper had the sort of thing he's known for getting lying around, you should have everything you need to get in.
+Remember, any non-basic programs you get need a port number to run - like this:
+
+>SSHCrack 22
+ ^filename ^portnumber
+     
+Just find a port you want to crack and run it on that.
+
+Oh, and incase you don't know already, you can hit tab to autocomplete commands - hitting "ssh" then tab should autocomplete it to the full name, etc. Works for everything!
+
+Good luck!
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <note title="Security Basics Guide">Security Basics
+      
+Use Probe to see what ports are open.
+Target one with a program and target the correct port
+I.E: "SSHCrack 22"
+      ^filename ^portnumber
+Breaking sufficient ports leaves the target vulnerable to a security breach using "Porthack".
+      </note>
+      <link comp="bitMission00" />
+    </attachments>
+  </email>
+</mission>

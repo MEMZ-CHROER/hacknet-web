@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Serveurs Proxy - Avancé">
+Les serveurs proxy sont essentiellement des ordinateurs secondaires que vous connectez à une cible et qui filtrent et mettent en antémémoire le trafic réseau pour garantir la sécurité et augmenter les performances web des informations très demandées.
+
+Les serveurs proxy sont configurés par défaut pour repousser le trafic pouvant être considéré comme une menace pour le réseau (comme les attaques FTP), au détriment d'autoriser le trafic désiré (tel que le trafic de streaming de vidéos Youtube).
+Cela signifie que, alors qu'ils peuvent être gênants pour certains utilisateurs, quand ils sont correctement configurés, ils peuvent empêcher totalement l'exécution de programmes pouvant compromettre un port ou un service de sécurité.
+
+La lacune la plus reconnue des serveurs proxy est leur limite supérieure de mémoire - si atteinte, ils seront forcés de, soit totalement fermer le réseau auquel ils sont connectés (une fonctionnalité rarement utilisée), soit de permettre à du trafic non contrôlé de passer.
+À cause de ceci, les budgets croissants pour la sécurité des réseaux ont introduit des serveurs proxy plus robustes avec beaucoup plus de mémoire, rendant le processus de surcharge une tâche longue et colossale, voire impossible avec une simple machine.
+
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERREUR</subject>
+    <body>
+Recevoir cet email indique qu'une erreur inattendue est survenue.
+Veuillez paniquer.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

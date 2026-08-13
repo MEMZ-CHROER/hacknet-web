@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="entropy01" name="Entropy Asset Server" security="4">
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="home/backups" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="home" name="Mantra.txt">
+Entropy 誓いの言葉
+
+我々Entropyには、守るべき3つの誓いがある。
+
+1) どんなときでも、正義と公正のために戦うこと
+
+2) 破壊より、創造と分かち合いを重んずること
+
+3) 常に向上を忘れないこと
+
+これらの誓いに背くなら、依頼は拒否し、エージェントは除名するものとする。
+</file>
+  <account username="admin" password="rosebud" />
+</Computer>

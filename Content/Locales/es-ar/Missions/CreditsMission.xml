@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="alphaCredits">
+  <goals>
+  </goals>
+  <missionStart val="5">changeSong</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>Fin</subject>
+    <body>
+¡Enhorabuena, 
+
+acabas de completar Hacknet! 
+Esto comenzó como un proyecto paralelo para una sesión de juegos de 48 horas entre amigos, y a la gente le gustó tanto que comencé a trabajar en él casualmente para producir una versión prototipo en 2012. 
+La respuesta fue increíble y, aunque terminé esa versión con un mensaje de correo diciendo que iba a dejar de trabajar en el juego para ponerme con otros proyectos, no podía dejarlo. 
+Así que seguí trabajando en él bastante en silencio, y con el tiempo (¡2 años y medio más tarde!) se convirtió en lo que acabas de terminar. 
+
+¡Gracias por jugar! Si te ha gustado el juego (o si no), envíame un correo a &quot;matt@hacknet-os.com&quot; y dime lo que piensas. ¡Se aceptan sugerencias! 
+
+Si estás interesado en seguir las otras cosas que hago, o si quieres darme la lata para que haga más esto o cosas que te gusten, puedes seguirme en twitter en @Orann. 
+
+Gracias, 
+-Matt 
+
+PD: ¡El ordenador del enlace tiene algunos secretos del juego, echa un vistazo!
+    </body>
+    <attachments>
+      <link comp="creditsComp"/>
+    </attachments>
+  </email>
+</mission>

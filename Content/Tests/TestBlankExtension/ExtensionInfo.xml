@@ -1,0 +1,6 @@
+<HacknetExtension>
+	<Name>Test Blank Extension</Name>
+	<AllowSaves>false</AllowSaves>
+	<StartingTheme>none</StartingTheme>
+	<StartingVisibleNodes>1,2,3,4</StartingVisibleNodes>
+</HacknetExtension>

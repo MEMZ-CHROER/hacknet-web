@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission00">
+  <goals>
+    <goal type="getAdmin" target="bitMission00"/>
+  </goals>
+  <missionStart val="7">changeSong</missionStart>
+  <nextMission>BitMission1.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>処女飛行</subject>
+    <body>おめでとう！
+正直言うと、君が成功したのかどうか、私には知る術がない。でもこれを受け取ったということは、少なくとも何か見つけてきたってことだ。
+役に立つものであることを願うよ。
+
+私が昔使っていたサーバーの一つで試してみるといい。Viperがうわさどおりのやつなら、手に入れてきたプログラムでサーバーをハッキング
+できるはずだ。気をつけてほしいんだが、基本プログラム以外のプログラムを使う時は、こんな感じでポートの番号を打ち込む必要がある。
+
+>SSHCrack 22
+ ^ファイル名 ^ポート番号
+     
+侵入したいポートを見つけて、プログラムを実行してみるといい。
+
+ああそうだ、もう知ってるかも知れないが、tabキーを押せばコマンドが自動的に補完されるぞ。たとえば「ssh」と打ち込んでからtabキーを
+押せば、ファイル名が自動で入力されるわけだ。このテクニックはなんにだって使えるぞ！
+
+幸運を祈る！
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <note title="セキュリティ基礎ガイド">セキュリティ基礎
+      
+コマンド「Probe」で開いているポートを確認する。
+プログラム名のあとに、目標ポートの番号を入力して実行する。
+例: "SSHCrack 22"
+   ^ファイル名 ^ポート番号
+十分な数のポートを破ればセキュリティが脆弱になり、目標に対して「PortHack」を実行できる。
+      </note>
+      <link comp="bitMission00" />
+    </attachments>
+  </email>
+</mission>

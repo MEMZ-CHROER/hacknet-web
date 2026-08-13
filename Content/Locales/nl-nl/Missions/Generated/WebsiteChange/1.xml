@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="generatedWebVandal01">
+  <generationKeys Data="Content/Web/BaseCorporateRecruiterPage.html"/>
+  <goals>
+    <goal type="FileChange" target="#COMP#" file="#FILE#" path="#PATH#" keyword="#LC_CLIENT#@jmail.com" />
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Help de werving voor #CLIENT#">
+#CLIENT# zoekt hulp bij hun moeizame werknemerswerving door sollicitaties door te verwijzen van een concurrent naar hun email.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Wervingshulp</subject>
+    <body>
+Agent,
+
+Onlangs heeft ons bedrijf moeite met het vinden van nieuwe werknemers, vooral vanwege het extreme wervingssucces van onze concurrenten.
+We willen dit eerlijker maken door tijdelijk hun sollicitatieverkeer naar ons te versturen.
+
+Hun wervingswebsite is te vinden via de link hieronder. We willen graag dat je hun contact email verplaatst met het onze:
+
+#LC_CLIENT#@jmail.com
+
+
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

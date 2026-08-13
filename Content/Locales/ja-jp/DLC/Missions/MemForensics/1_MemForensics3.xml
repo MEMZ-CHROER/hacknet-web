@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ds1m1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Memory Forensics (3/3)">
+    メモリダンプ（5と6）を解析し、セキュアサーバーへのリンクを見つけてください。
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission00">
+  <goals>
+    <goal type="getAdmin" target="practiceServer"/>
+  </goals>
+  <missionStart val="0">CSECTesterGameWorldSetup</missionStart>
+  <missionEnd val="0">assignPlayerToHubServerFaction</missionEnd>
+  <nextMission>MainHub/Intro/Intro01.xml</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>Superspezialgeheimtest Mission</subject>
+    <body>
+Yo,
+    
+Danke für deine Hilfe beim Testen! Das hier ist eine kleine Aufwärmübung, um dich wieder an die Spielmechaniken zu gewöhnen.
+Dir stehen ein Haufen Adminkonten, sowie 4 Programme (SSHCrack, WebServerWorm, SMTPOverflow, FTPBounce) zur Verfügung.
+    
+Erlange Adminzugriff und antworte auf diese Mail, um fortzufahren.
+Du wirst darin direkt zu CSEC gebracht und kannst neuere Aufträge annehmen.
+Vergiss nicht, zuerst auf dem CSEC-Asset-Server nachzuschauen!
+      
+-Matt
+    
+    
+    .
+    
+    
+    </body>
+    <attachments>
+      <link comp="practiceServer" />
+    </attachments>
+  </email>
+</mission>

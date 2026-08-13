@@ -1,0 +1,82 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kfcRecordsRepo" ip="202.7.177.65" name="CFC Records Repository" security="2" type="4">
+  <ports>80,25</ports>
+  <trace time="125" />
+  <proxy time="0" />
+  <firewall level="2" solution="CHICKEN" />
+  <positionNear target="kfcMainframe" position="1" total="3" />
+  <link target="kfcMainframe" />
+
+  <file path="home/Ordering" name="Seasoning_Order_Guidelines.docx">
+BESTEL VERDELINGS REGELS
+
+Kruidenmix bestellingen moeten verdeeld worden over twee bedrijven, ieder de helft van de mix (Nieuw Mexico bedrijf maakt kruiden 1 tot en met 6, lokaal Kentucky bedrijf mixt de overige 5 kruiden, op dit moment).
+De twee aparte bezorgingen worden gemixt bij het CFC Distributie HQ en in onopvallende witte zakken gedaan voor winkeldistributie.
+
+Voorbereide zakken van de kruidenmix worden verzonden naar winkels waar het gemengt wordt met bloem, ei, gedroogde melk en zout mix om het resultaat te creeëren.
+Dit verzekerd dat geen volledige digitale kopieën van het recept worden gedistribueert.
+  </file>
+
+  <file path="home/Ordering" name="Seasoning_Order_Placement_Template_Pt1.docx">
+    CFC DROGE GOEDEREN BEZORG TEMPLATE
+
+Bedrijf: 228 Esperenza Rd. New Mexico
+Product: Kruidenmix
+Volume per Unit: 1kg
+Totaal Units: [UNIT_VOLUME_NEEDED]
+
+Product Productie Gids:
+
+    Formule --
+    16% | Paprika.
+    09% | Saliewortel.
+    24% | Knoflookpoeder.
+    28% | Piment.
+    07% | Oregano.
+    16% | Marjolein.
+
+  </file>
+
+    <file path="home/Ordering" name="Seasoning_Order_Placement_Template_Pt2.docx">
+    CFC DROGE GOEDEREN BEZORG TEMPLATE
+
+Bedrijf: 11 Mt Eden Rd. Shelbyville, Kentucky
+Product: Kruiden mix
+Volume per Unit: 1kg
+Totaal Units: [UNIT_VOLUME_NEEDED]
+
+Product Productie Gids:
+
+    Formula --
+    14% | Basilicum.
+    04% | Chilipoeder.
+    42% | Mononatriumglutamaat.
+    24% | Ui Zout.
+    16% | Rode Peper(Kampot).
+
+  </file>
+
+  <file path="home/Ordering" name="Order_Requirement_Certs.docx">
+Voedsel Manager Certificaat - Engels PDF / Spaans PDF
+
+DBPR Formulier REF 5030-080,
+DBPR Formulier REF 5030-080, cut-sheet gebruikt door hotel en restaurant inspecteurs om licentiehouders te herinneren aan inspectie. (7 Mei, 2010)
+Voedsel Ophaal Gids - PDF
+
+Florida Afdeling van Landbouw en Consumentendiensten gids voor organisaties die intresse hebben getoont in het Voedsel Ophaal Programma, om overgebleven of extra houdbaar voedsel voor de behoeftigden op te halen en te transporteren naar dit soort organisaties.
+Voedsel Dienst Inspectie Rapport - PDF
+
+DBPR Formulier REF 5022-015, aftreksel van formulier gebruikt door het Ministerie van Hotels en Restaurants om inspecites te rapporteren bij publieke voedsel establissementen. (Herzien 1 Oktober, 2009)
+  </file>
+
+  <file path="home/Media" name="Logo.png">#BINARY#</file>
+  <file path="home/Media" name="Logo_Small.png">#BINARY#</file>
+  <file path="home/Media" name="MediaKit_2011.zip">#BINARY##BINARY#</file>
+  <file path="home/Media" name="Guide.txt">
+    Bij Colonels Food Corner hebben we een missie: serveer de best smakende kip ter wereld.
+    Dus starten we slechts met de beste ingredienten, hele kip die vers wordt bezorgd.
+    Dan wordt het vers bereid, met de hand in onze geheime recepten en vers gekookt voor jouw door gecertificeerde CFC koks in al onze restauranten.
+    Makkelijk? Nee. Maar er is slechts een hap nodig om te herinneren waarom het de moeite waard is.
+    Omdat vers beter smaakt. Stop bij je lokale CFC en proef het zelf.
+  </file>
+</Computer>

@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission01" name="P. Anderson's Bedroom PC" security="1" type="4">
+  <file path="log" name="@18907 Connection From XXX.XXX.XXX.XXX" >Connection from [IP MASKED] established.</file>
+  <file path="log" name="@18922 XXX.XXX.XXX.XXX Given Administrator Access">Connection from [IP MASKED] given administrator privileges.</file>
+  <file path="log" name="@18928 XXX.XXX.XXX.XXX Acessed File [Valence_Dossier.pdf]">File [Valence_Dossier.pdf] was read by [IP MASKED] -- System Administrator</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Deleted File [Valence_Dossier.pdf]">File [Valence_Dossier.pdf] was deleted by [IP MASKED] -- System Administrator</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Disconnected">[IP MASKED] Disconnected from system</file>
+
+  <file path="home/Documents" name="Laptop_PoliceReport.txt">
+警察番号
+14 L 510 66
+
+
+請求番号
+AAH 886</file>
+  
+  <file path="home/Documents/personal" name="letter_draft.txt">
+[下書き]
+
+05/08
+
+父さんへ。
+
+父さんが僕の選択に納得してくれないことはわかってるし、そうしてほしいとは思ってない。ただ、僕の選択を尊重してほしい。これからも父さんの息子でいさせてほしい。それだけだ。
+
+申し訳ないけど、父さんがそうしてくれるようになるまで、僕はボストンから離れるよ。僕のヒーロー、ずっと目標にしてきた人でも、ずっとひとつ屋根の下に暮らしてきた家族でも、僕の存在を無視する人と同じ街にいるなんて耐えられない。
+
+できるかぎり、努力はしてきたよ。合わせよう、理解しようってがんばってきたし、この引っ越しについてもなんとか説明しようともした。でも、もう限界なんだ。
+
+僕はJamesと一緒にロサンゼルスに行く。もし話がしたかったら、携帯に電話してほしい。
+
+軽い気持ちで決断したわけじゃないってことをわかってほしい。こうしなくちゃいけなかったんだ。いつか、父さんが本当の僕を受け止めてくれると信じてるよ。 
+
+愛してる。
+
+Paul
+  </file>
+
+  <file path="home/Documents" name="chatlog.txt">
+[HotRice] ストリーミングの準備できた？
+[Kiah] 場合によるだろ・・・
+[Kiah] 死ぬ準備はいいか？
+[M4cr0b4t] ｗｗｗ
+[HotRice] うるせえぞジョンソン！ 
+[HotRice] またピーナッツバターとマイクロチップおみまいしてやろうか :P
+[M4cr0b4t] 一言しか言ってないじゃんか！！
+[HotRice] 一言でも十分だ
+[HotRice] Hellerphantはどこだ？何か聞いてるか？
+[Kiah] あいつの居場所なんて誰も知らないよ
+[Kiah] どこからともなく現れる、摩訶不思議な野生児だぞ
+[HotRice] 真面目な話、俺らのストリーミングの予定はめちゃくちゃだ
+[HotRice] 俺が話に乗る度、毎回予定が狂いやがる。このスケジュール、ただの当てずっぽうにも程がある
+  </file>
+  
+  <file path="home/Documents" name="Laptop.txt">
+    総会本部より賠償金は払われない （請求、権利、その他？？）
+    個人保険
+    「事故の前に申告されていない」
+    （盗まれる前に貴重品を申告する必要がある？？？）
+    
+    警察：
+    「捜査はするが、賠償金は出せない」
+    こんなことってないよ・・・
+  </file>
+  
+  <file path="home/Documents" name="TaxReturn002.TAX">#BINARY#</file>
+
+  <file path="home/Work" name="ReportEmailDraft.txt">
+    -出だし
+    -確信は得ていないが、手がかりはつかんだ
+    -重要書類の入ったノートパソコンは総会で盗まれた
+    -バックアップは取ってあったはず ・・・ ？？？？？ 本当に？
+    -詳細はわかりしだい追加する
+  </file>
+</Computer>

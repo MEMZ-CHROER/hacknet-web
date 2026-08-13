@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="ds4_cafe" name="Router Merry Hill Café" ip="198.216.105.54" security="1" type="empty" icon="chip">
+
+  <proxy time="-1" />
+  <portsForCrack val="1" />
+  <ports>80, 6881</ports>
+  <portRemap>443=43</portRemap>
+  <trace time="80" />
+
+  <file path="home" name="stats.txt">v184_r8294
+current_connections=0
+daily_connections=10
+weekly_connections=102
+all_time_connections=16177</file>
+  
+  <file path="home" name="connections.txt">
+# Diese Liste wird ein Mal pro Tag zurückgesetzt.
+Damons eBook Pro 6,1 (76.186.229.34)
+Asdis Dagrunsdottirs Laptop (198.150.137.83)
+Aisha Blacks ePhone+++ (234.49.97.22)
+cornch1ps ePhone (41.52.132.177)
+Unbekanntes ePhone(92.70.126.14)
+Li Qiaomings ePhone+ (25.78.98.51)
+Blackwools ePhone (36.126.136.147)
+vapelord-laptop (217.23.54.116)
+Olivia-Senpais ePhone (214.167.105.117)
+argggh-laptop (32.246.246.44)</file>
+
+  
+</Computer>

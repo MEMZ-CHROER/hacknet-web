@@ -1,0 +1,149 @@
+#As of right now you are#
+#at risk!#
+Learn as quickly as possible. Begin the tutorial sequence by pressing the continue button below.
+
+%&%&%&%
+Connect to a computer by typing "connect [IP]" in the terminal - or by clicking on a node on the network map. 
+#Connect to your own computer#
+ on the map now by clicking the green circle.
+
+%&%&%&%
+Good work.
+ 
+The first thing to do on any system is scan it for adjacent nodes. This will reveal more computers on your map that you can use.
+
+#Scan this computer now#
+
+by pressing the Scan Network button on the display module.
+
+%&%&%&%
+That should be all you'll need from your own server for now.
+#Disconnect From Your#
+#Machine#
+
+
+%&%&%&%
+It's time for you to connect to an outside computer.
+ 
+Be aware that attempting to compromise the security of another's computer is Illegal under the U.S.C. Act 1030-18.
+ 
+Proceed at your own risk and
+#connect to an outside#
+#machine#
+by clicking a blue node on the network map.
+
+
+%&%&%&%
+This VM's Terminal module has been activated. This will be your primary interface for navigating and interacting with nodes.
+ 
+A command can be run by typing it out and pressing enter.
+ 
+A computer's security system and open ports can be analyzed using the 
+#probe#
+(nmap) command. analyze the computer you are currently connected to.
+
+
+%&%&%&%
+Here you can see the active ports, active security, and the number of open ports required to successfully crack this machine using PortHack.
+This Machine has no active security and requires no open ports to crack. If you are prepared to, it is possible to crack this computer using the program "PortHack".
+ 
+#Run the program PortHack#
+|To run a program you own on the machine you are connected to, type the name of the program as the terminal command.
+A program name will never require ".exe on the end"
+ 
+
+%&%&%&%
+Congratulations, You have taken control of an external system and are now it's 
+administrator. You can do whatever you like with it, however you should start by
+ 
+#Scanning for local nodes#
+to locate additional computers. Do this using the "Scan" command.
+
+
+%&%&%&%
+No results - not a problem.
+
+Next, you should investigate the filesystem.
+#List the files and folders#
+#in the current directory#
+ 
+
+|List file and folders by using the "ls" command.
+ 
+The Display module has been re-activated for use with this.
+
+
+%&%&%&%
+#Navigate to the "bin" folder#
+(Binaries folder) to search for useful executables using the command 
+ 
+"cd [FOLDER NAME]"
+
+
+%&%&%&%
+To view the contents of the current folder you are in use the command "ls".
+ 
+
+These are no programs here, but you should
+#look at config.txt#
+in case it contains useful information.
+ 
+|Read the contents of any file using the cat command. I.E:
+ 
+"cat config.txt"
+   
+NOTE: Reading data without permission illegal and punishable by prison sentence if detected under international law.
+ 
+
+
+%&%&%&%
+Totally useless!
+  
+Now to clear your tracks before you leave. 
+#Move up a folder in the#
+#directory tree#
+using "cd .."
+ 
+Note: the wildcard ".." indicates 'Back' or 'Up'.
+ 
+
+
+%&%&%&%
+#Move to the log folder.#
+"cd [FOLDER NAME]"
+
+
+%&%&%&%
+#Delete all files in this#
+#directory#
+ 
+You can delete a file using the command 
+#rm [FILENAME]#
+however you can delete ALL files in the current directory with the command 
+ 
+#rm *#
+ 
+Note: the wildcard "*" indicates 'All'.
+
+
+%&%&%&%
+Excellent work.
+ 
+#Disconnect from this computer#
+ 
+You can do so using the "dc" or "disconnect" command
+
+
+%&%&%&%
+Congratulations, You have completed the guided section of this tutorial.
+ 
+#To finish it, you must locate#
+#the Process ID of this tutorial#
+#program and kill it.#
+ 
+The "help" command will give you a complete command list at any time.  
+ 
+|The command "ps" will list the PID of every currently running process.
+
+
+%&%&%&%

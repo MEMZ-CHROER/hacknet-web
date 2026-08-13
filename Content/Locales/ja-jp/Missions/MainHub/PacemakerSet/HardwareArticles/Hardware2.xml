@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Using this server">
+このリファレンスサーバーはKellis社が独自に開発した技術を使用しており、あなたが購入した製品に関連するコンテンツのみを表示します。
+このサーバーに接続に使うアドレスは、あなたのアカウントの情報も保持している、非常に重要なものです。どうか無くさないでください！
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+このメールは、予期しないエラーが発生した場合に送信されます。
+どうぞ慌てふためいてください。
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

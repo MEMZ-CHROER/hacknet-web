@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ds2m1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Descodifica y configura el programa rompe SSL">Vuelve a configurar el programa rompe SSL para que lo pueda usar el equipo. Que sea flexible y modular, e intenta que venga con instrucciones.
+  </posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

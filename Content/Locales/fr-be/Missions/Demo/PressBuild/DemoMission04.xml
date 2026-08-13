@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pressdemoMission04" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="finalNodeDemo" file="@19002_185.11.124.4_Disconnected" path="log"/>
+    <goal type="FileDeletion" target="finalNodeDemo" file="@19002_logarchive" path="log"/>
+    <goal type="FileDeletion" target="finalNodeDemo" file="x-server.sys" path="sys"/>
+    <goal type="FileDeletion" target="finalNodeDemo" file="netcfgx.dll" path="sys"/>
+  </goals>
+  <missionStart>demoFinalMissionStart</missionStart>
+  <missionEnd>demoFinalMissionEnd</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Réclamation</subject>
+    <body>Nous sommes prêts. 
+
+Je veux que tu fasses une fermeture. Comme tu as pu le deviner, ce qui précédait a servi à te mettre à niveau, mais c'est ici que ça commence vraiment. 
+Quand tu lanceras « Sequencer », un script que j'ai laissé sur l'un de mes serveurs s'activera. Ça ouvrira une connexion à un serveur Web que je veux que tu détruises. Vas-y et supprime tout ce qui se trouve dans le répertoire /sys/. 
+
+Ça ne ressemblera pas à ce que tu as fait avant, ce serveur n'est pas caché pour rien. Celui-là sera plein de tracers. C'est là que le sequencer pourra t'aider. Il gardera la connexion ouverte aussi longtemps que possible et t'affichera à l'écran combien de temps il te reste. Fais-y bien attention. 
+
+Les détails sont joints, comme toujours. 
+Tu n'entendras plus parler de moi pour l'instant. Au fait, cette version était censée être temporaire, une bêta avant la version finale.
+
+ Bonne chance. 
+Bats-toi. 
+--Bit
+0
+    </body>
+    <attachments>
+      <note title="Aperçu de la mission">Avant de commencer, mémorise ces notes puis supprime-les. Tu vas avoir besoin de toutes tes ressources système. 
+
+Lance Sequencer 
+Connecte-toi à EnTech 
+Probe le système
+ Lance tes craqueurs de port 
+Porthack 
+Va dans le répertoire /sys/ 
+Supprime tout (rm *) 
+Supprime tous les logs
+ Déconnecte-toi
+      </note>
+    </attachments>
+  </email>
+</mission>

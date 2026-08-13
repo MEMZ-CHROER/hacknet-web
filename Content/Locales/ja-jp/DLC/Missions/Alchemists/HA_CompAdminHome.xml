@@ -1,0 +1,83 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dhaAdminHome" name="Nate Wesson Home" security="4" ip="66.175.58.9" type="4" icon="DLCPC1">
+  
+  <!-- This is the home computer of the architect of the system, it's more personal, less formal, and contains WIP files -->
+  
+  <proxy time="-1" />
+  <trace time="300" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 443, 80, 6881</ports>
+  
+  <positionNear target="dhaComp2" position="300" total="360" extraDistance="0.01"/>
+
+  <file path="sys" name="STOR-DRIVE_activesync.log">Local memory image established
+secure remote drive online responding to command ping
+BOOT SUCCSESS
+Errors: 0</file>
+
+  <file path="bin" name="SignalScrambler.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+
+  <file path="home/wip" name="todo_books.txt">執筆する本
+
+執筆中
+- 減量ガイド
+
+完成
+- こどものための錬金術（なぜ売れない？要調査）
+- 生命の樹の複雑性（編集者と相談）
+
+新作案
+- 食品の形而上学
+- CFC調理ガイド
+- 蜂の映画脚本（鋭い感覚を持つ蜂は今注目のテーマ）</file>
+
+  <file path="home/wip" name="weightloss.txt">すべてはあなたの頭の中に：減量はこんなにも楽しい！
+あるいは:
+ウェッソン式
+
+はじめに
+
+ドラッグは素晴らしい！食はあらゆる病への治癒です！すべては愛らしく、あなたにとってよいものなのです！ 
+
+私が読んだ本には例外なくこう書かれていました。私に言わせれば、あんなのは嘘っぱちです！人々は体重を減らそうとしては私に「どうしても体重が減らない、食事を減らして運動して健康に暮らしているのに！脂肪が筋肉になって、痩せたのは確かだけど、体重が全然減らない！」
+
+大事なことを教えましょう。食事制限、運動、辞典や「ドクター」が言うところの「健康」だけでは駄目なのです。ある画期的理論を実践しなければなりません。この本を読めば、まさにあなたが求めている理論が簡単にわかるようになるでしょう。</file>
+  
+  <file path="home/wip" name="weightloss_parody.txt">出版元候補へのメモ: 私は頭がおかしいわけではありません。これはダイエット本のパロディーです。読者は皮肉めいた30項目を書棚に加えることで、自分はなんて賢くてユーモアがあるんだろう、と思うことでしょう。どうかご一読を。
+</file>
+  
+  <file path="home/wip" name="weightloss_c2.txt">2章
+
+すべてのものを食べてあなたの旅を未知へと加速する
+
+構成:
+-食べたいものは全部食べる
+-減量理論を考える
+-完全体に近づかなければ体重は減らない
+-完全体に近づくことで体重は減る
+-錬金術の古文書との比較と対比
+</file>
+
+
+  <file path="home/wip" name="weightloss_c3.txt">3章
+
+-テレピン油や側溝から拾ったたばこの吸い殻など、悪いものを食べないこと。死にます。ただし、ジャンクフードの大量摂取（特にCFC）は問題ありません。</file>
+
+  <file path="home/wip" name="weightloss_c4.txt">4章
+
+-画期的理論の続きを書く。別売り。</file>
+  
+  
+  <Memory>
+    <Commands>
+      <Command>STOR-DRIVE upkeep ping @ 66.175.58.11 _ ACTIVE</Command>
+    </Commands>
+    <Images>
+      <Image>DLC/Sprites/Misc/Alchemy</Image>
+    </Images>
+  </Memory>
+  
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/RiptideTheme.xml"/>
+
+
+</Computer>

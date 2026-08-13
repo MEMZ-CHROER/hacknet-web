@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission00">
+  <goals>
+    <goal type="getAdmin" target="bitMission00"/>
+  </goals>
+  <missionStart val="7">changeSong</missionStart>
+  <nextMission>BitMission1.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>Jungfernflug</subject>
+    <body>Gratuliere!
+Ich habe offen gesagt zwar keine Ahnung, ob du Erfolg hattest, aber wenn du das hier liest, hast du wohl IRGENDETWAS gefunden. Ich nehme mal an, etwas sehr nützliches.
+
+Du solltest mal versuchen, einen meiner alten Test-Server zu knacken - falls Viper die Art von Code rumliegen hatte, für die er bekannt ist, sollte das mehr als ausreichend sein.
+Beachte, dass die meisten komplizierteren Anwendungen eine Portnummer brauchen - zum Beispiel:
+
+>SSHCrack   22
+ ^Anwendung ^Portnummer
+     
+Du musst nur den entsprechenden Port finden und dann das Programm starten.
+
+Ah und falls du es noch nicht wusstest, du kannst Befehle mithilfe von Tab auto-vervollständigen - Tippe "ssh" ein und drücke danach "Tab" - funktioniert auch bei Dateinamen!
+
+Viel Glück!
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <note title="Sicherheitsgrundlagen">Sicherheitsgrundlagen
+
+Verwende "probe", um offene Ports zu finden.
+Wähle Einen aus und starte das richtige Programm.
+z.B.: "SSHCrack    22"
+       ^Dateiname ^Portnummer
+
+Ausreichend viele offene Ports machen das System verwundbar und ermöglichen die Verwendung von "Porthack".
+      </note>
+      <link comp="bitMission00" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDeletion" target="ppMarketing" file="SECURE_MAILLIST.dec" path="home/WORKSPACE" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Counter-Hack">
+Wir haben vor Kurzem erfahren, dass ein Unternehmen Hacker für die illegale Beschaffung von internen Daten ihrer Konkurrenz anheuert. 
+Um zu verhindern, dass so etwas zur Regel wird, wollen wir sichergehen, dass ihre Transaktionen nicht so glatt laufen.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Counter-Hack</subject>
+    <body>Agent,
+    
+das Unternehmen "PP Marketing" hat kürzlich einen Hacker angeheuert, um ihrer Konkurrenz sensible Daten zu entwenden (vermutlich eine Mailliste), und PP selbst zukommen zu lassen.
+Das ist genau die Art von Wirtschaftsspionage, die der Hacker-Community ihren schlechten Ruf verleiht und auch wenn wir solche Geschäfte nicht vollständig verhindern können und wollen, ist das Jobangebot überall im Netz zu finden und damit öffentlich. Wir wollen nur sichergehen, dass sich ein solches Verhalten nicht auszahlt.
+
+Der exakte Dateiname ist unbekannt; Du wirst also etwas suchen müssen - Du suchst nach einer Mailliste - vielleicht verschlüsselt, oder komprimiert. Außerdem könnte es sein, dass PP mit diesem Schachzug rechnet und seine Sicherheitssysteme aufgestockt hat.
+
+-Entropy Admins
+    </body>
+    <attachments>
+      <link comp="ppMarketing" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,22 @@
+<ConditionalActions>
+  
+  <OnAdminGained target="dhaComp2">
+    
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="23.0">@channel Hé, j'ai trouvé un fichier encrypté sur "Solve" qui pourrait vous intéresser.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="32.2">Quand c'est décrypté, ça a l'air de dire que le mot de passe de "Rebis" est "clarity". Mais c'est bizarre, ça n'a pas l'air d'être le mot de passe Administrateur.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="50.2">Merci pour l'info, @D3f4ult</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="60.2">Au fait, vous êtes tous équipés d'un scanneur eOS ?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="66.0">Heu ouai, pour moi ça va... Pourquoi?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="72.2">Tu verras :P</AddIRCMessage>
+
+  </OnAdminGained>
+
+  <OnConnect target="dhaAdminPhone" needsMissionComplete="false">
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="17.0">@channel - Quelqu'un peut me rappeller le mot de passe Admin par défaut pour les devices sur eOS ?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="24">Par défaut, c'est "alpine".</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="27.0">Merci merci</AddIRCMessage>
+    
+  </OnConnect>
+  
+</ConditionalActions>

@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - 威かく戦術">
+ある重要クライアントから、無礼な同僚に警告を送りたいという依頼が届きました。
+作られたばかりのサーバーバックアップを破壊してください。
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>威かく戦術</subject>
+    <body>
+エージェントさん、こんにちは。
+
+最近私たちの同僚の1人が、一線を越えた無礼な態度をとっています。その同僚に警告を送ってやりたいのです。
+
+私たちの情報によれば、その同僚は先日、会社全体のデータパックアップを終え、別のサーバーに保存したようです。ここ最近の仕事のコピーには手を出さず、そのアーカイブだけ削除してやれば、同僚にはいい薬になるはずです。
+ターゲットの情報は添付しておきました。
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

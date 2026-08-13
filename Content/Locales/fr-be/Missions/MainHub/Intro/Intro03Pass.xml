@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubIntro3" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>Invitation CSEC - Félicitations</subject>
+    <body>
+#PLAYERNAME#,
+
+Joli ! J'ai, en fait, déjà un peu creusé leur ordinateur central avant, il y a un moment, et je ne l'ai pas trouvé - félicitations pour l'avoir localisé.
+Quelle belle entrée vous faites.
+
+J'en profite pour vous accueillir officiellement à CSEC - tout le monde ici sait ce qu'il fait, du moins dans une certaine mesure, vous devriez donc vous sentir chez vous si vous trouviez que la dernière mission était facile. 
+
+Je joins vos nouvelles données de connexion pour le serveur d'échange - de là vous pouvez décrocher des contrats, télécharger de nouveaux codes et l'utiliser, d'une manière générale, comme base principale. 
+Je garde le contact, allez choisir de nouveaux programmes dans la cachette comme cadeau de félicitations.
+
+-Vap0r 
+Administration CSEC
+    </body>
+    <attachments>
+      <link comp="mainHub"/>
+      <account comp="mainHub" user="#PLAYERNAME#" pass="reptile"/>
+      <link comp="mainHubAssets"/>
+      <account comp="mainHubAssets" user="admin" pass="csec-5xg3D11"/>
+    </attachments>
+  </email>
+</mission>

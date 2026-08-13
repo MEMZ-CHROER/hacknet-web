@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="milburgHigh" name="Milburg High IT Office" security="2" type="4">
+  
+  <proxy time="0.9" />
+  <portsForCrack val="1" />
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1" />
+
+  <adminPass pass="*******" />
+  
+  <file path="home/misc" name="People_not_To_Trust.txt" EduSafe="false">
+[jinkle] merhaba dostum, nereden ot bulabileceğime dair bilgin var mı?
+[jinkle] lacy'de ki bebelerden biri sana sormamı söyledi de.
+[marcy] doğru adrese geldin. sana ne kadar lazım?
+[jinkle] iyiymiş. 30 gramı ne kadar ediyo?
+[marcy] 145 dolarcık.
+[jinkI;tle] tamamdır. nerede buluşmak istersin?
+[marcy] o zaman anlaştık. 145 dolarlık kokainli esrar istiyorsun.
+[jinkle] aynen dostum.
+[marcy] güzel. IP adresinden yerini buldum. geçerken uğrarım.
+[jinkle] bi dakika. nasıl buldun ya?
+[marcy] polis olmanın da incelikleri var heralde koçum.....
+[jinkle] siktir lan. annem ağzıma sıçacak.
+  </file>
+  
+  <file path="home/MH_STAFF" name="Student_TopSearchHistory.txt" EduSafe="false">
+1  google
+2  memeler
+3  meme
+4  sikiş
+5  göğüsler
+6  porno
+7  porno filtresi nasıl kapatılır
+8  porno filtresini aşmanın yolları
+9  iş savaş tabloları
+10 gta
+11 meme sallama
+12 meme göt sallama
+13 meme sallama yöntemi
+14 fransız savaş tablosundaki çıplak fıstık
+15 spor
+16 top
+....
+  </file>
+  
+  <file path="home/MH_STAFF" name="Announcements.txt">
+İnternet / Proxy Sunucusu kesintisi duyurusu ile ilgili olarak,
+
+Personelimizin bir kısmı "Proxy sunucusu çöktü." cümlesinin anlamını bilmese de, bazı öğrencilerimizin bildiği çok açık.
+Daha önce dün gece kesinti yaşanacağını duyurmuştuk. Bazı öğrencilerimiz internetin etkin olup, arama filtresinin etkisiz olmasından faydalanıp 20 dakikalık kesinti süresince çeşitli bilgisayarlara 22 terabaytlık pornografik içerik indirmiş.
+Açıkça söylemek gerekirse, bunun bir daha yaşanmasını engellememiz gerekiyor. En azından, bir dahaki sefere kesinti yaşanacağı zaman lütfen öğrencilere duyurmayalım...
+
+Teşekkürler,
+-Okul Yönetimi
+  </file>
+  
+  <file path="home/MH_STAFF" name="pw_memo.log">
+4:37 ÖS - MBIT: güvenliği düşünüyorum da...
+4:37 ÖS - JBrooks: n'olmuş güvenliğe?
+4:37 ÖS - MBIT: tüm bu lanet eklentileri ayarlamak ve çalıştırmak soktuğumun karın ağrısından farksız
+4:37 ÖS - MBIT: şuna baksana
+4:38 ÖS - MBIT: kolay çözüm:
+4:38 ÖS - MBIT: BT'nin şifresini ayarlayacağız
+4:38 ÖS - MBIT: *******
+4:38 ÖS - JBrooks: anlamadım
+4:38 ÖS - MBIT: zaten anlamaman gerekiyor!
+4:38 ÖS - MBIT: 7 tane *
+4:38 ÖS - MBIT: şifre bu, yıldızlar
+4:38 ÖS - MBIT: şifrenin bu olduğu kimin aklına gelir ki? kimsenin gelmez. hackerların bile. yani hala korunuyor olacak!
+4:38 ÖS - MBIT: kısacası kimse aşamayacak!
+  </file>
+  
+  <file path="home/MH_STAFF/PRIVATE_STUDENT_EMAILS" name="mail.txt">Eğer bana adam akıllı e-postalar gelirse onları burada saklayacağım.
+Tanrım... çok yalnızım. Ah be Notepad.exe, beni bir tek sen anlıyorsun varya :(</file>
+  
+</Computer>

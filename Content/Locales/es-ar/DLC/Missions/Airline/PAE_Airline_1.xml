@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpae_airline_misc" name="Mark Robertson's Office Computer" security="2" ip="98.124.245.24" type="4" icon="DLCPC1">
+
+  <!-- Low security misc employee of the airline!
+  There's nothing mission critical here, this just exists to pad things out, give a little more variety
+  and have a location for a non-critical character to talk about stuff. Pretty free reign with this one!
+  -->
+  
+  <portsForCrack val="2" />
+  <ports>22, 21, 443, 6881, 80, 25, 192</ports>
+
+  <positionNear target="dpa_whitelist" position="180" total="360" extraDistance="0"/>
+
+  <file path="home" name="todolist.txt">todolist.txt
+
+- terminar GitV
+- conseguir horas para la semana que viene
+- ganar la discusión en animeFora
+- ponerme cachas
+- borrar Facebook
+- conseguir un abogado
+- mejor no conseguir un abogado
+- borrar abogado</file>
+
+  <file path="home" name="watchlist.txt">
+Lista de animes
+
+--Viendo--
+Nights in Cydonia
+Goats in the Veldt
+Two Samurai
+Ball Boy Chipstop
+Game: Hard Mode
+Shield Science Offline
+Hey-O!
+
+--Sin empezar--
+Goats in the Veldt: Stand on the Fence
+Die El Die
+¡El tío que da piñazos a la gente pero solo una vez y luego gana la pelea y ese es todo el episodio hasta la semana siguiente!
+Hey-O!!
+Hey-O!: Una peli que hemos hecho
+La complicada relación con mi culo
+La complicada relación con mi culo II
+La complicada relación con mi culo II OVA: Ponerse prieto
+Final poco satisfactorio
+Retcon Paradise
+Large Wizard Alchemia
+Starts;Fate
+Fate;Verbo/Sustantivo
+Gatherer y Gatherer
+Historia del generador secreto
+Spoon Collector!!!!!
+Lifeboat
+Three:Re:Hero
+Heavenyodel
+Two or Three Pieces
+Piece/Two
+Magical Friend Motoko Arcana
+Metacomentario de las condiciones laborales de la industria del anime
+Foolish Coolish
+Immobile Dressup
+Grandes luchadores....??</file>
+  
+  <file path="home" name="namegenerator.txt">Generador de nombres para frikis de los juegos de rol y eso.
+
+Registro de progreso: 
+Prefijos 0%
+Sufijos 92%
+
+Sufijo: terrenos
+
+Promesa, Extensión, Pacto, División, Acantilado, Montañas, Montaña, Llanuras, Llanura, Ladera, Peñasco, Isla, Islas, Islote, Islotes, Peñasco, Peñascos, Vacío, Ausencia, Cumbres, Monte, Montes, Cañón, Meseta, Pendiente, Ciénaga, Faros, Yermos, Yermo, Costa, Costas, Frente, Patrias, Cascada, Cascadas, Fronteras, Baldíos, Altiplano, Interiores, Pendientes, Glaciar, Volcán
+
+
+Sufijo: zonas de interior
+
+Valle, Bosque, Arboleda, Vega, Ruinas, Cima, Colina, Colinas, Cueva, Cuevas, Bosquecillo, Puesto, Estanque, Pantano, Lago, Arroyo, Pendientes, Ciénaga, Marisma, Paso, Riachuelo, Presa, Laguna
+
+Sufijo: aldeas/Campamentos
+
+División, Ciudad, Pueblo, Aldea, Carretera, Distrito, Fronterizo, Campamento, Municipio
+
+Sufijo: lugares cerca del agua
+
+Puerto, Ensenada, Muelle, Embarcadero, Fondeadero, Ancladero, Cala, Golfo, Malecón, Rada, Bahía, Fiordo, Amaraje, Canal, Balsa, Laguna, Fangal, Cuenca, Estuario, Istmo, Cauce, Puente, Reguero, Corriente, Playa, Travesía
+
+Sufijo: lugares militares
+
+Fortaleza, Fuerte, Castillo, Alcázar, Torreón, Baluarte, Reducto, Bastión, Ciudadela, Guarnición, Torre, Empalizada, Baluarte, Fortín, Depósito de suministros
+
+Sufijo: lugares de ciudadanos de bien
+
+Palacete, Castillo, Fortaleza, Mansión, Chateau, Casa, Villa, Finca, Palacio, Salón, Baluarte
+
+Sufijo: lugares de ciudadanos de a pie
+
+Apartamentos, Casa, Granja, Finca, Residencia, Chabola</file>
+  
+</Computer>

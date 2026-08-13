@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Shells">
+Shells sind kompakte, speicherarme Prozesse, die auf einer externen Maschine laufen und lokal von einem Nutzer über das Netzwerk gesteuert werden können.
+Sie können vielseitig eingesetzt werden, wobei ihr Nutzen durch den Typ der jeweiligen Shell bestimmt wird.
+Übliche Funktionen:
+
+Überlasten:
+Für Netzwerk- und Proxyservertests ausgelegt. Die Shell flutet hierbei den angegebenen Server mit Junk-Traffic, um dessen Speicher und CPU auszulasten/zu überlasten.
+
+Falle:
+Eine Shell in diesem Modus wird den Nutzer warnen, wenn ein fremder Benutzer sich mit der Maschine, auf der die Shell ausgeführt wird, verbindet. Das erlaubt die schnelle Ausführung einer Forkbomb, die alle anderen mit der Maschine verbundenen Benutzer trifft,
+was ein extrem praktischer Sicherheitsmechanismus ist, wenn man einen Rechner überwachen will, aber gerade mit anderen Dingen beschäftigt ist.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Wenn du diese Mail erhalten hast, ist ein unerwarteter Fehler aufgetreten.
+Bitte gerate in Panik.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ds2m1">
+  <goals>
+    <goal type="clearfolder" target="dDdoserComp" path="LOIC"/>
+    <goal type="clearfolder" target="dDdoserHomeComp" path="LOIC"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="DDOS-ер атакует важные серверы">
+Coel докопалась до причины выходов из строя сервера Grindcraft - надо положить конец этой проблеме.
+    </posting>
+  <email>
+    <sender>1</sender>
+    <subject>1</subject>
+    <body>
+Coel докопалась до причины выходов из строя сервера Grindcraft - надо положить конец этой проблеме.
+----
+Похоже кому-то пришла в голову блестящая мысль - обрушить DDOS-атаки на серверы Secrets of Grindcraft - как будто им и так мало нагрузки в эти дни, когда весь мир требует нового дополнения. В общем, Coel держит сервера на плаву - это одно из условий ее вступления в группу - но мы должны положить конец этим атакам.
+Полагаю, злоумышленник использует LOIC (Low Orbit Ion Cannon) - нам достаточно удалить папку, чтобы остановить атаки - но если тебе захочется что-нибудь удалить в папке /sys, никто тебя не останавливает.
+
+Помни: нужно как следует осмотреться и просканировать цель в поисках любых других угроз, чтобы полностью устранить опасность.
+    </body>
+    <attachments>
+      <link comp="dDdoserComp" />
+    </attachments>
+  </email>
+</mission>

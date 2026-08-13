@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dAttackMission_P">
+  <goals>
+    <goal type="fileupload" target="dAttackTarget" file="MemDumpGenerator.exe" path="bin" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="1">scanAndStartDLCVenganceHack</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Strikers Archiv">
+Ein relativ unbekannter Hacker namens „Striker“ hat angeblich einen recht netten Speicherauszugsgenerator erstellt. Wir hätten gerne eine Kopie davon.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Strikers Versteck</subject>
+    <body>
+Ein relativ unbekannter Hacker namens „Striker“ hat angeblich einen recht netten Speicherauszugsgenerator erstellt. Wir hätten gerne eine Kopie davon.
+----
+Das Zielsystem ist relativ gut gesichert, aber nichts, das dir Kopfzerbrechen bereiten sollte. Ich hätte gern, dass dieser Auftrag so sauber wie möglich abläuft - keine unnötige Zerstörung oder Probleme, wenn das möglich ist.
+Schnapp dir eine Kopie des Memory Dump Generators und lade ihn auf den Dropserver hoch.
+
+Viel Erfolg,
+-Kaguya</body>
+    <attachments>
+      <note title="Mission Guidelines">
+Untersuche Strikers Server.
+Suche nach einem Memory Dump Generator und lade eine Kopie herunter.
+Lade diese auf den Hub-Dropserver hoch.
+      </note>
+      
+      <link comp="dAttackTarget" />
+      
+    </attachments>
+  </email>
+</mission>

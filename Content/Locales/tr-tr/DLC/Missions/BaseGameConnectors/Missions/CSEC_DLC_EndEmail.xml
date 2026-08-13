@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="CSEC_DLC_End" activeCheck="true">
+  <goals>
+    <!-- No goals and autocomplete here - this exists to clear player missions and also send them back to their faction -->
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="">
+  </posting>
+  <email>
+    <sender>CSEC Hub Hizmeti</sender>
+    <subject>Yanıt:Kaguya Denemeleri</subject>
+    <body>Sayın temsilci,
+    
+Kaguya Denemeleri işini kabul ettiğinizden beri çevrimiçi olmadınız. Araştırmamız gereken bir şey var mı acaba?
+Eğer diğer projelerde çalışmak için bir süreliğine ara verdiyseniz, bunun sıkıntı oluşturmadığını bilin. CSEC'de ki konumunuz güvende olduğu gibi istediğiniz zaman anlaşma da kabul edebilirsiniz.
+
+-CSEC Ekibi
+    </body>
+    <attachments>
+      <link comp="mainHub" />
+    </attachments>
+  </email>
+</mission>

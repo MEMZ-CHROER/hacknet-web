@@ -1,0 +1,31 @@
+<ConditionalActions>
+
+  <OnAdminGained target="dpa_nethub">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="20">うへえ、 @channel みんな、このホワイトリストサーバーのレンガ塀に突っ込むの？</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="24">そうね。いい考えがある。1、2分時間稼ぎしてくれたら、私がなんとかするから。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="25">へ？</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="30">そりゃまあ、できないことはないけど、君の作戦は見当もつかない :\</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="34">企業秘密よ;) 準備はいい？カウントダウンして</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="39">じゃあ、いくよ</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="44">5</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="45">4</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="46">3</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="47">2</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="48">1</AddIRCMessage>
+    
+    <CrashComputer Delay="50" DelayHost="dhs" CrashSource="D3F_POD" TargetComp="dpa_whitelist" />
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="52">いいぞ。いけいけ</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="74">だいたい分かった……</AddIRCMessage>
+    <DeleteFile Delay="82" DelayHost="dhs" TargetComp="dpa_whitelist" FilePath="Whitelist" FileName="authenticator.dll" />
+
+    
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="85">はーい完了！これで行けるはず。D3f4ult、確かめてみて？</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="90">なんてこった、どうやったんだ？</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="93">;)</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="95"> おまたせ @#PLAYERNAME# - ホワイトリストサーバーはダウンしたわ！</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="101">これでBookings Mainframeに接続できるはずよ</AddIRCMessage>
+    
+  </OnAdminGained>
+  
+</ConditionalActions>

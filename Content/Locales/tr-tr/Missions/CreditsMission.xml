@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="alphaCredits">
+  <goals>
+  </goals>
+  <missionStart val="5">changeSong</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>Son</subject>
+    <body>
+Tebrikler!
+
+Hacknet'i bitirdiniz!
+Hacknet'i aslında 48 saatlik oyun aramda arkadaşlarımla geliştirilmeye başlamıştım. İnsanlar bunu o kadar sevdi ki 2012 yılında ilk prototipi sunana kadar zaman buldukça üzerinde çalıştım.
+İnanılmaz tepkiler aldım. Her ne kadar bir e-posta ile başka projelere yoğunlaşmak için Hacknet üzerinde çalışmayı kestiğimi açıklasam da uzak duramadım.
+Arkaplanda sessiz bir şekilde çalışmaya devam ettim ve Hacknet sonunda (2,5 yıl sonra) az önce bitirdiğiniz halini aldı.
+
+Oynadığın için teşekkür ederim! Eğer oyunu beğendiysen (veya beğenmediysen) "matt@hacknet-os.com" adresine e-posta gönderip düşüncelerini iletebilirsin. Önerilere açığım!
+
+Eğer yaptığım diğer şeylerle de ilgileniyorsan veya bu veya benzeri projeler üzerinde çalışmamı istiyorsan @Orann adlı Twitter hesabımı takip edebilirsin.
+
+Teşekkür ederim.
+-Matt
+
+NOT:Bağlantısını yolladığım bilgisayarda oyunun içinde bulunan birkaç gizli bilgi yer alıyor. Bence bir göz at!
+    </body>
+    <attachments>
+      <link comp="creditsComp" />
+    </attachments>
+  </email>
+</mission>

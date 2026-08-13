@@ -1,0 +1,99 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpae_airline_misc" name="Mark Robertson's Office Computer" security="2" ip="98.124.245.24" type="4" icon="DLCPC1">
+
+  <!-- Low security misc employee of the airline!
+  There's nothing mission critical here, this just exists to pad things out, give a little more variety
+  and have a location for a non-critical character to talk about stuff. Pretty free reign with this one!
+  -->
+  
+  <portsForCrack val="2" />
+  <ports>22, 21, 443, 6881, 80, 25, 192</ports>
+
+  <positionNear target="dpa_whitelist" position="180" total="360" extraDistance="0"/>
+
+  <file path="home" name="todolist.txt">todolist.txt
+
+- GitV bitirilecek
+- önümüzdeki haftanın saatleri ayarlanacak
+- animeFora iddiası kazanılacak
+- kas yapılacak
+- facebook silinecek
+- avukat tutulacak
+- aslında avukat tutulmayacak
+- avukatlı kısımlar silinecek</file>
+
+  <file path="home" name="watchlist.txt">
+Anime İzleme Listesi
+
+--Devam Edenler--
+Nights in Cydonia
+Goats in the Veldt
+Two Samurai
+Ball Boy Chipstop
+Game: Hard Mode
+Shield Science Offline
+Hey-O!
+
+--Başlanmayanlar--
+Goats in the Veldt: Stand on the Fence
+Die El Die
+The Guy Who Punches People But Only Once And Then He Wins The Fight And That's The Whole Episode See You Next Week!
+Hey-O!!
+Hey-O!: A Movie We Made
+My Complex Relationship With My Butt
+My Complex Relationship With My Butt II
+My Complex Relationship With My Butt II OVA : Firm Complex
+Unsatisfying Ending
+Retcon Paradise
+Large Wizard Alchemia
+Starts;Fate
+Fate;Verb/Noun
+Gatherer y Gatherer
+Story of the Secret Generator
+Spoon Collector!!!!!
+Lifeboat
+Three:Re:Hero
+Heavenyodel
+Two or Three Pieces
+Piece/Two
+Magical Friend Motoko Arcana
+Meta-Commentary On Working Conditions In The Anime Industry
+Foolish Coolish
+Immobile Dressup
+Big Fighters....???</file>
+  
+  <file path="home" name="namegenerator.txt">Aptallar için yer ismi oluşturucu.
+
+İlerleme Girdisi: 
+Ön Ekler %0
+Ard Ekler %92
+
+Ard Ek - Genişleme
+
+Ant,Açılım,Uyum,Sınır,Uçurum,Çöl,Dağlık,Dağ,Düzlük,Ova,Sahil,Bayır,Kayalık,Ada,Ada Zinciri,Adacık,Adalar,Sarp Kayalık,Yalçın Kayalık,Boşluk,Yokluk,Yükselti,Çıkıntı,Çıkan,Kanyon,Yüksek Ova,Meyil,Batak,Işık,Çorak,Atık,Kıyı,Cephe,Diyar,Kaskad,Çağlayan,Hudut,Vahşet,Plato,Artbölge,Çaylan,Buzul,Yanardağ
+
+Ard Ek - Kara 
+
+Vadi,Orman,Ağaçlık,Dere,Yıkıntı,Zirve,Tepe,Tepecik,Mağara,Çöküntü,Koru,Hat,Gölet,Bataklık,Göl,Nehir,Şelale,Küçük Vadi,Turbalık,Çayır,Geçit,Akak,Bent,Gölcük
+
+Ard Ek - Köy/Kamp 
+
+Hudut,Şehir,Kasaba,Köy,Yol,Kilise,Karakol,Kamp,İlçe
+
+Ard Ek - Su
+
+Liman,Haliç,Rıhtım,İskele,Borda,Yanaşlık,Dayanak,Koy,Körfez,Dalgakıran,Roda,Kula,Fiyort,Çıkarak,Boğaz,Göl,Lagün,Ağız,Havza,Mansap,Dargeçit,Karık,Köprü,Kanal,Çay,Sahil,Kesit
+
+Ard Ek - Askeri
+
+Hisar,Kale,İstihkam,Mevzi,İçkale,Sığınak,Tabya,Burç,Mevki,Garnizon,Kule,Kamp,Palanka,Koğuş,İkmal Deposu
+
+Ard Ek - Varlıklı Vatandaşlar
+
+Malikane,Kale,İçkale,Konak,Şato,Konut,Villa,Arsa,Saray,Köşk,Yalı
+
+Ard Ek - Vatandaşlar
+
+Apartman,Ev,Çiftlik,Arsa,Konut,Baraka,</file>
+  
+</Computer>

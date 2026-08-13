@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ds1m1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Çözümleme Aracı Yapımı">Şifrelenmiş dosyalarla karşılaşmaya devam ediyoruz. Bu dosyaları açmamızı sağlayacak bir şeye ihtiyacımız var. D3f4ult, dümen sende. Ne yapacağını biliyorsun.</posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet07">
+  <goals>
+    
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Check out a suspicious server">
+I ran into a strange looking server - security looks a bit tighter than I can manage so I didn't test it, but someone here might want to check it out.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Red Line</subject>
+    <body>
+Hey,
+
+Dont know if you'll find anything here but I thought you might want to check it out - I ran into this server with some scanning software - it's got a trace on it so I didn't poke around too much, but someone more experience might want to give it a look.
+Let me know if you find anything or it it's super secure or something!
+
+-Anon
+    </body>
+    <attachments>
+      <link comp="honeypot01" />
+    </attachments>
+  </email>
+</mission>

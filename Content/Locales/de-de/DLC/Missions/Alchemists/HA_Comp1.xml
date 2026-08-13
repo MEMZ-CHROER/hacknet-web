@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dhaComp1" name="HA_Coagula" security="4" icon="Alchemist" type="empty">
+  
+  <proxy time="-1" />
+  <trace time="200" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dhaComp2" position="320" total="360"/>
+
+  <file path="home" name="alchemy.txt">Die alten Alchemisten glaubten - fälschlicherweise, wie manche sagten -, dass Metalle auf seltsame Art lebendig waren, als Blei begannen, repräsentiert von Saturn, und sich im Laufe der Zeit zu verschiedenen Elementen entwickelten und schließlich zu Gold (der Sonne) wurden.
+
+Später begriff man, dass es sich dabei um eine Metapher handelte. Leben und Materie, die Materia, entwickelt sich zyklisch. So wie oben, so auch unten, besagt die Tabula Smaragdina. 
+
+Du, mein Freund, wirst dich entwickeln und einen neuen Zyklus beginnen, und er wird glorreich sein.</file>
+
+  <!-- Translators note: Do not translate this file! It's meant to stay in Latin -->
+  <file path="home" name="tablet_latin.txt">Tabula Smaragdina
+
+Verum, sine Mendacio, certum et verissimum:
+
+Quod est Inferius est sicut quod est Superius, et quod est Superius est sicut quod est Inferius, ad perpetranda Miracula Rei Unius. Et sicut res omnes fuerunt ab Uno, meditatione inius, sic Omnes Res natae ab hac una Re, adaptatione.
+
+Pater eius est Sol. Mater eius est Luna. Portavit illud Ventus in Ventre suo. Nutrix eius Terra est. Pater omnis Telesmi totius Mundi est hic. Virtus eius integra est si versa fuerit in Terram. Separabis Terram ab Igne, subtile ab spisso, suaviter, magno cum ingenio.
+
+Ascendit a Terra in Coelum, iterumque descendit in Terram, et recipit Vim superiorum et inferiorum. Sic habebis Gloriam totius Mundi. Idio fugiet a te omnis Obscuritas. Haec est totius Fortitudinis Fortitudo fortis, quia vincet Omnem rem subtilem, Omnemque Solidam penetrabit.
+
+Sic Mundus creatus est. Hic erunt Adaptationes Mirabiles, quarum Modus est hic. Itaque vocatus sum Hermis Trismegistus, habens tres partes Philosophiae totius Mundi.
+
+Completum est quod dixi de Operatione Solis.</file>
+
+  
+  <file path="home" name="tablet_newton.txt">Die Tabula Smaragdina
+
+Wahr, kein Zweifel daran, sicher, wahr!
+
+Siehe, das Obersteist dem Untersten gleich, und das Unterste dem Obersten, um die Wunder des Einzigen zu wirken.
+
+Und dass die Dinge alle von diesem Grundstoff durch ein einziges Verfahren entstanden sind.
+
+Sein Vater ist die Sonne, seine Mutter der Mond; der Wind hat ihn in seinem Bauch getragen, die Erde hat ihn genährt.
+
+Der der Vater aller Perfektion, die die Erde gibt, ist hier. 
+
+Eine Kraft ist vollkommen, wenn sie zu Erde wird.
+
+Nimm hinweg die Erde von dem Feuer, das Feine von dem Groben, mit Vorsicht und Kunst.
+
+Es steigt von der Erde in den Himmel und sinkt wieder zur Erde und besitzt die Macht des Obersten und Untersten. 
+
+Weil mit dir ist das Licht der Lichter,
+darum flieht vor dir die Finsternis.
+
+Mit der Kraft der Kräfte wirst du jegliches feine Ding bewältigen, wirst du in jegliches grobe Ding eindringen.
+
+Gemäß der Entstehung der großen Welt entsteht die kleine Welt, und das ist mein Ruhm.
+
+Das ist die Entstehung der kleinen Welt, und danach verfahren die Gelehrten. Darum bin ich Hermes der Dreimal Große genannt worden, weil ich die drei Teile der Weisheit der ganzen Welt besitze.
+
+Was gesagt sei über die Sonne wurde erreicht und beendet.</file>
+
+  <file path="home" name="nameofgod.txt">yod
+HE
+vau
+he
+</file>
+
+  <!-- This should be more cryptic than this, and require, ideally, a player to have read 
+  something on the entry comp to understand it properly. It does need to be an explicit hint 
+  for gameplay purposes though. -->
+  <file path="home" name="Rebis.txt">Muster von Illusion und Änderung treten in Zyklen auf, die sich über Generation, Bereiche und Themen hinweg wiederholen und spiegeln.
+  
+Das ist klar, denn auch die Technologien dieser Zeit folgen den Texten der Alchemisten, sogar in ihrer Sprache.
+
+Die "Feuerwand“ erscheint wieder, nicht als religiöses Symbol oder Kriegshandlung, sondern als Werkzeug in der Gesellschaft. Dennoch wird es gleich ausgesprochen, ist es das gleiche Wort.
+Erde, Prima Materia, K'un.
+
+von Rebis, Suche nach der Weisheit der Bewegung, Verbindung, Mobilität.
+</file>
+
+  <LogoDaemon Name="COAGULA" ShowsTitle="true" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/Alchemists1">
+Aus Tao wird Eins
+Aus Eins wird Zwei.
+Aus Zwei wird Drei.
+Aus Drei entstehen alle Dinge.
+  </LogoDaemon>
+  
+</Computer>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="xcRepBAD" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+UNKNOWN POSTING ERROR
+  </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>Re: Interne Untersuchungen</subject>
+    <body>
+Oh, ok.
+
+Das scheint etwas... unprofessionell. Ich schätze, ich werde nochmal ein ernstes Wörtchen mit unserem geschätzen Doktor haben und sie über ... die angemessene Nutzung unserer Forschungsgelder aufklären.
+
+Danke für den Hinweis,
+-C.O Bradford
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

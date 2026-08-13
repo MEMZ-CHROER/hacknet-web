@@ -1,0 +1,7 @@
+Sayın temsilci,
+
+Yöneticiler hesabınızı ciddi işleri kabul edebilmeniz için işaretlemiş bulunuyor.
+Listede {0} olarak görebilirsiniz.
+Bu işi aldığınızda çok uzun süre başından kalkamayabileceğinizin veya bir süreliğine diğer projelerinizi ihmal etmek zorunda kalabileceğinizi unutmayın. Bu süre boyunca diğer işleriniz ve muhtemelen {0} hizmeti etkisiz kalacak. Bu yüzden gerekli hassasiyeti ve gizliliği göstermelisiniz. 
+Teşekkürler,
+{0}

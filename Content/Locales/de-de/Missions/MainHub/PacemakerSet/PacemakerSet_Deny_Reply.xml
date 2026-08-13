@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitHubSet01" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Error">
+    
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Re: Projekt Junebug</subject>
+    <body>
+Wir können deine Entscheidung gut verstehen.
+
+Danke, dass du es in Erwägung gezogen hast.
+Es sollte klar sein, dass wir Diskretion in dieser Angelegenheit begrüßen würden.
+
+-CSEC Admins
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

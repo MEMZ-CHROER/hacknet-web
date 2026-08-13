@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyMission03">
+  <goals>
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS.rar" path="bin"/>
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Data.xnb" path="bin"/>
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Content.xnb" path="bin"/>
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS.rar" path="bin"/>
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Data.xnb" path="bin"/>
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Content.xnb" path="bin"/>
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS.rar_backup" path="bin"/>
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Data.xnb_backup" path="bin"/>
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Content.xnb_backup" path="bin"/>
+  </goals>
+  <missionStart val="0">entropyEndMissionSetup</missionStart>
+  <nextMission>AlphaCreditsMission.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Заключительное задание</subject>
+    <body>
+#PLAYERNAME#, 
+
+Это последняя вещь , которую entropy группа попросит, если ты выполнишь или провалишься, это будет слишком рискованно для нас  поддерживать такой… личный контакт. 
+
+Это одна из ликвидационных миссий. Крупная корпорация, за которой мы следили некоторое время, разрабатывает новую операционную систему известную как HacknetOS, основанную на исследовании недавно скончавшегося хакера Bit.
+ Это огромная угроза для безопасности цифрового мира, как мы знаем, инструменты, которые обеспечивает эта система могут сделать процесс взлома возможным даже для самого базового пользователя при некоторой тренировке. 
+
+Эта угроза должна быть полностью уничтожена. 
+У тебя есть  *full* поддержка entropy по этому вопросу, и в качестве таковых, два мощных (и дорогих) новых инструмента добавлено на Entropy asset сервер, чтобы использовать в решении этой задачи. Тебе вероятно понадобятся они. Я советую извлечь их немедленно. 
+
+Вложение это ссылка на машину внутренних  служб корпорации ответственной за это. Они будут иметь несколько резервных копий, без сомнения, и тебе будет нужно просканировать их сеть и убедится, что все следы этой угрозы полностью удалены. 
+
+Мы желаем тебе удачи. Не подведи нас. 
+-Tex
+    </body>
+    <attachments>
+      <link comp="corp0#IS"/>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dKaguyaTrialIntro" name="Kaguya Source" security="3" type="4">
+
+  <!-- This is the second DLC intro server, that gives the player the intro exe that wipes their mail icon
+  It's designed to be pretty empty - it's a recruitment server that's designed to be hackable and targeted,
+  but Kaguys is pretty dilligent and wipes it often. The sort of people that will be trying this are a higher
+  class of Hacker too, so not as much vandalism. Mostly clean, I think - maybe just a single note or so in
+  a different folder?-->
+  
+  <proxy time="-1" />
+  <portsForCrack val="2" />
+
+  <file path="bin" name="Recruitment.txt">
+私の名はKaguya。チームメンバーを募集しています。
+エリートのみにより、全リソースを共有して大きいことを成し遂げるための。
+志望者はここのexeファイルから申し込んでください。
+プログラムの実行と同時に、試験への参加に同意し、
+低評価を被る可能性があることを理解したとみなします。
+健闘を祈ります。
+  </file>
+
+  <file path="home/backups" name="KaguyaTrials.exe">#KAGUYA_EXE#</file>
+  <file path="home/reward" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+  <file path="bin" name="KaguyaTrials.exe">#KAGUYA_EXE#</file>
+  <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+
+  <encryptedFile path="home/msg" name="kenobi.dec" extension=".txt" ip="192.168.1.1" header="onlyhope" pass="Obi-Wan">
+このチームは正義のために戦うって聞いた。正しいことのために。 
+Kaguyaさん、助けてくれ、あなただけが頼りだ。
+クソ忌々しいスクリプトキディーがうちの親のネットワークを汚染して、銀行口座とパスポートと生命保険の情報を抜き取ったんだ。
+このゴミ溜めからアメリカへ渡るために、何年もかけて貯蓄してきたのに。
+パスポートの情報はどこかのブラックマーケットに流れてしまっただろう。当然、金もどこか遠くに…。
+助けが必要なんだ。頼むよ。
+俺は1337ハッカーじゃないけど、Kaguyaさんたちなら何とかできると思うんだ。
+後生だから。
+kingjoffery227@jmail.com 
+</encryptedFile>
+
+  
+  
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/MiamiThemeLight.xml"/>
+
+</Computer>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dAttackHome" name="Striker_Battlestation" security="3" ip="72.60.4.119" type="empty" >
+
+  <trace time="-1" />
+  <portsForCrack val="1" />
+  <ports>22, 21, 80, 6881, 443</ports>
+  <portRemap>ssh=1</portRemap>
+  <proxy time="0.1" />
+
+  <file path="home/uni" name="assignments.txt">Даже не знаю что проще: взломать университетский сервер и вписать туда то, что мне хочется, или честно сделать задания. Этот выбор, конечно, веселее, но, ух, эта штука напоминает крепость.
+Начинаю подозревать, что взламывать сервак, чтобы подделать оценки ради диплома по кибербезопасности, это как бежать впереди паровоза...
+  </file>
+
+  <file path="home/uni" name="notes.txt">список задач:
+  
+Понять Art 3 (UA101-3)
+Понять Art 4 (UA101-4)
+Связь 101 3
+
+выполняется:
+Введение в киноведение 1 (IFS-1)
+готово к сдаче:
+CMS101-1
+CMS101-2
+
+текущие мысли:
+я ненавижу это я ненавижу это я ненавижу это Я НЕНАВИЖУ ВСЕХ ЭТИХ ИДИОТОВ ПОЧЕМУ ВЫ НЕ МОЖЕТЕ ПИСАТЬ ПРЕДЛОЖЕНИЯ ВЫ ЖЕ УЖЕ В УНИВЕРСИТЕТЕ ВЫ ВСЕ ВЗРОСЛЫЕ!!!!!</file>
+
+  <file path="home/uni" name="IFS1-1-film_study.doc">#BINARY#</file>
+
+  <file path="home/uni" name="CMS101-1-reading_comprehension.doc">#BINARY#</file>
+
+  <file path="home/uni" name="CMS101-2-understanding_paragraphs.doc">#BINARY#</file>
+
+  <file path="home/themes/CCTThemePack" name="This_Pack_Downloaded_From_CoolComputerThemes.Rice.txt">
+    Этот набор тем был загружен с CoolComputerThemes.Rice! Не забудьте посетить наш сайт, если ищете новые крутые темы для своего компьютера!
+  </file>
+  <customthemefile path="home/themes/CCTThemePack" name="Hora_x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+  <customthemefile path="home/themes/CCTThemePack" name="HoraAlt_x-server.sys" themePath="DLC/Themes/HoraThemeAlt.xml"/>
+  <customthemefile path="home/themes/CCTThemePack" name="Miami-blue_x-server.sys" themePath="DLC/Themes/MiamiThemeLightBlue.xml"/>
+
+  <file path="home/themes" name="CCTThemePack.zip">#BINARY##BINARY#</file>
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+
+  <positionNear target="dAttackSource" position="90" total="360" extraDistance="0"/>
+
+</Computer>

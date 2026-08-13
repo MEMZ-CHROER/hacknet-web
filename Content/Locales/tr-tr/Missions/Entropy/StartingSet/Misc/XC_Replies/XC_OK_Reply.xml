@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="xcRepOK" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+BİLİNMEYEN GÖNDERİM HATASI
+  </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>Yanıt: İçe Yönelik Araştırma</subject>
+    <body>
+Sayın temsilci, sizi tebrik ederim. Hiç sıkıntı çıkarmadınız ve ücretinizi hak ettiniz.
+
+Her şey usulünce işliyor. İstediğim dosyalar çalışıyor. Ekibimizin bu projeyi tamamlama gayreti gelecekte bize avantaj sağlayacak.
+
+Teşekkür ederim.
+-C.O Bradford
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

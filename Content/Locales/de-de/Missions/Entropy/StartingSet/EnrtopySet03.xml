@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="*******"/>
+  </goals>
+  <nextMission>Entropy/StartingSet/Misc/MilburgReply.xml</nextMission>
+  <posting title="Setzen, Sechs!">
+Eine Gesamtschule hat uns (möglicherweise auf Anfrage der Eltern, kann nicht sicher gesagt werden) kontaktiert. Sie sind besorgt, dass ihr IT-Team auf sensible Schülerdaten zugreift/zugegriffen hat. Sie wollen nicht, dass etwas gelöscht wird, sondern haben nur um das Passwort eines IT-Mitarbeiters gebeten, damit sie diese Angelegenheit selbstständig untersuchen können.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Setzen, Sechs!</subject>
+    <body>Agent,
+
+die Verwaltungsabteilung der Milburgh-Gesamtschule hat uns damit beauftragt, heimlich das Passwort des System-Admin herauszufinden, damit sie herausfinden können, welche Daten über ihre Schüler gespeichert werden.  
+Während du in ihrem System bist, versuche alle Dateien so zu belassen, wie du sie auffindest - Veränderungen jeglicher Art könnten ein Chaos auslösen.
+Deine Aufgabe besteht darin, in das System einzubrechen, deine Spuren zu verwischen und uns das Passwort zurückzusenden. Wir werden uns dann um die Weiterleitung der Daten an die Schule kümmern.
+
+Viel Glück,
+-Entropy Admins
+    </body>
+    <attachments>
+      <link comp="milburgHigh" />
+    </attachments>
+  </email>
+</mission>

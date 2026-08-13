@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="entropyAdvFail01" name="KyonBox" security="3" ip="176.194.38.111">
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <account username="admin" password="haruhi"/>
+  <proxy time="2"/>
+  <trace time="70"/>
+  <file path="home/loot" name="Macrosoft_dox.txt">Macrosoft Storage Servers:
+  168.61.82.246
+  </file>
+  <file path="home/docs" name="jessie.txt">
+[lilsebastian] Так, ты думаешь тебе разрешат прийти?
+[kkswatch] Я не знаю, мама не любит когда я вне дома. 
+[lilsebastian] Я куплю тебе что-нибудь в Макдональдсе.
+[kkswatch]  О, да?
+[lilsebastian] Все что захочешь. 
+[kkswatch]  Тогда, что будем делать? 
+[lilsebastian] Ну, я подумал мы могли бы прогуляться до смотровой площадки. 
+[lilsebastian] Посмотреть на  звезды или типа того. 
+[kkswatch]  О, серьезно (правда)?   Звучит как свидание. 
+[lilsebastian]  Хорошо, ну, так как, нормально?
+[kkswatch] Жди меня в черной алее через 25 минут.  Я буду готова. 
+[lilsebastian]  :D
+  </file>
+  
+  <file path="home/docs" name="lantime.txt">
+[jlord93] Вы готовы начать это уик-энд?
+ [xn00bslayerx] да!
+ [xn00bslayerx] подгоните мне бухлишко и я готов ебашить в колду 
+[jlord93] 360носкопить дураков фор дэйз  :p
+[xn00bslayerx] Я надеюсь, Jessie придет в LAN в этот уик-энд
+ [jlord93] Начинается...
+[xn00bslayerx] заткнись!
+[jlord93] Впечатли ее своим 1337 скиллом чувак
+[jlord93]В любом случае, я выхожу.  Увидимся в школе завтра.
+  </file>
+  
+  <file path="home/docs" name="update.txt">
+[slaggedfire] Вы можете поверить BS разработчики засунули в это обновление (апдэйт)? 
+[slaggedfire] Я имею ввиду , кого заботит процедурная анимация травы (газона)?  
+[slaggedfire]Я хочу больше настоящего контента! 
+[zuggj1] Они возможно схватят нас за руку и за ногу за это  тоже
+[slaggedfire] Хочешь войти  сделать рейд снова? 
+[zuggj1] Мог бы.
+  </file>
+  
+</Computer>

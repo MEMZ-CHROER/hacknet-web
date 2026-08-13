@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase6" >
+  <goals>
+    <!--
+    <goal type="FileDownload" target="EnTechOutsiderRepo" file="heart.dec" path="Contractors/Bit" />
+    -->
+  </goals>
+  <missionStart val="1">changeSong</missionStart>
+  <nextMission>BitPath/BitAdv_Intro07.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Erklärung</subject>
+    <body>Das ist exakt das, was ich mir erhofft hatte. Alles leer, bis auf eine einzige verschlüsselte Datei in Bits Ordner (hast du warscheilich schon gesehen), aber diese Datei...
+Ich weiß, wie man sie öffnet - Er hat das Passwort ein paar von uns, die mit ihm an einem Projekt gearbeitet haben, gegeben. Das ist schon ewig her. Er hat uns damals auch eine Nachricht genau wie diese geschickt.
+
+Das Passwort ist "divingsparrow" - Ich hab sie bereits gelesen. Es gibt da auch einen Email-Account, den ich mir jetzt ansehen will - Ich würde dir vorschlagen, dasselbe zu tun.
+Lade die Datei herunter und entschlüssle sie lokal - lass KEINE Kopie davon herumliegen und kontaktiere mich danach - ich denke wir nähern uns der Wahrheit - und ein wenig Action.
+
+Kontaktier mich, wenn du alles nachgeholt hast und lass uns dies ein für alle mal zu Ende bringen.
+
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="jscottHome" name="Poste de combat de Joseph Scott" security="3" icon="laptop">
+
+  <encryptedFile path="home/work" name="Decypher.dec" ip="101.0.89.154" header="DECYPHER - DO NOT SHARE" extension=".exe">#DECYPHER_PROGRAM#</encryptedFile>
+  <file path="home/work" name="DEC_Header_Analysasdsadsafds.txt">
+  Ça dégénère sérieusement. D'abord le problème de capacité à percer le cryptage sans l'outil propriétaire et maintenant ça ?
+  Lire les en-têtes est *toujours* un gros problème - il y a là l'IP source encodé qui, et oui, est toujours un énorme problème de sécurité merci beaucoup, 
+je me moque de savoir à quel point cela facilite vos sessions de débogage et relations clients.
+    
+Eh bien, voici une preuve de plus que nous avons des problèmes. Je vais laisser les choses se tasser après ce pavé dans la marre et je me jetterai ensuite dans l'arène. 
+  2 en même temps pourraient me faire virer, le mieux est de le conserver jusqu'à ce que les choses se calment un peu.
+    
+Oh DECHead.exe, pourquoi causes-tu autant de problèmes.
+  J'imagine que ça dépasse la sous-traitance de manière générale.
+    
+Pourquoi je blogue sur un fichier texte...
+  Berk des antidouleurs.
+  </file>
+  <file path="home/work" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  
+</Computer>

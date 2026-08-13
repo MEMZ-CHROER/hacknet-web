@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="testMission1">
+  <goals>
+    <goal type="getString" target="testString"/>
+  </goals>
+  <missionStart val="7">changeSong</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Matt</sender>
+    <subject>Second Mission Test</subject>
+    <body>
+This mostly tests that we're actually loading the full chain
+    </body>
+    <attachments>
+      <note title="some note">
+Note Contents
+      </note>
+    </attachments>
+  </email>
+</mission>

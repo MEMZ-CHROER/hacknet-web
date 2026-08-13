@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa_mail" name="PacificAir_Mail" security="5" type="4" icon="PacificAir">
+
+  <!-- The mail server, will need to have three accounts. Two of these are critical, one is just flavor.
+  The player will never be able to break in here, so we only need to populate the contents of those three
+  accounts, nothing else.-->
+  
+  <proxy time="4" />
+  <trace time="75" />
+  <portsForCrack val="5" />
+  <ports>22, 25, 443, 1433, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dpa_nethub" position="90" total="360" extraDistance="0.03"/>
+  
+  <!--TRANSLATORS: Do not translate these account lines -->
+  <account username="awilburn" password="1234" type="2" />
+  <account username="kburnaby" password="noneofyourbusiness" type="2" />
+  <account username="YasuArai" password="9NINETWO2" type="2" />
+  
+  <mailServer name="Messagerie Pacific Air" color="153,195,209">
+    <email recipient="kburnaby" sender="YasuArai" subject="Ces types de la sécurité réseau">Ils font vraiment chier, c'est incroyable.
+J'ai demandé à ce qu'on me règle quelque chose sur mon portable, et l'un d'eux a PÉTÉ LES PLOMBS. Il m'a ordonné de changer de mot de passe.
+J'ai juste ajouté 1 à la fin du mien, alors ce ne sera pas trop dur de m'en rappeler, mais c'est quand même vachement frustrant.
+C'est quoi, leur problème, sérieux ?
+-Yasu</email>
+    
+    <email recipient="kburnaby" sender="sp_alerts" subject="ALERTE AU SPEAR PHISHING POUR LA SEMAINE 2">Ceci est un résumé automatique des alertes de la deuxième semaine en {$ActiveMonth}.
+Lundi : 3 alertes
+Mardi : 0 alerte
+Mercredi : 4 alertes
+Jeudi : 1 alerte
+Vendredi : 2 alertes</email>
+
+    <email recipient="kburnaby" sender="YasuArai" subject="Re : Déjeuner">Non, merci ! J'aimerais que notre relation reste purement professionnelle.
+-Yasu</email>
+
+    <email recipient="kburnaby" sender="MailAdmin" subject="[ATT : Admins] Notes en réunion">Allez, quoi. Vous devez vraiment commencer à prendre des notes en réunion, ou on va avoir des problèmes.
+Surtout moi. 
+Faites un effort, s'il vous plaît.</email>
+
+    <email recipient="kburnaby" sender="awilburn" subject="Tentative de phishing ?">Salut Kim,
+D'après ce que l'on m'a dit, tu serais la plus qualifiée sur le sujet.
+J'ai reçu un mail de réinitialisation de mot de passe, je me demande si c'est authentique. Tu pourrais vérifier ?
+> admin_réinitialisation_mot_de_passe@pacifiicaircom.org a envoyé :
+> « « Bonjour,
+> ceci est un mail de réinitialisation de mot de passe.
+> Veuillez cliquer sur ce lien pour réinitialiser votre mot de passe.
+> Pour raisons de sécurité, cette étape est obligatoire.
+> Merci,
+> Admin » »
+- Alexina</email>
+    
+    <!-- NetAdmin Emails -->
+  
+  <email recipient="YasuArai" sender="kburnaby" subject="Re : Ces types de la sécurité réseau">Salut J.,
+Je vais devoir te demander de garder le contenu de tes mails d'ordre professionnel uniquement. Celui-ci ressemble à une plainte personnelle, ce qui s'avère peu professionnel.
+Merci !
+-Kim</email>
+
+    <email recipient="YasuArai" sender="athurlow" subject="Re : Re : Réinitialisation de mot de passe">C'est quoi ton souci, mec ? C'est un truc tout simple. Pourquoi tu peux pas le faire ?
+> NetAdmin@pacificair.com a envoyé :
+> Non.
+> > athurlow@pacificair.com a envoyé :
+> > Hé amigo, tu pourrais réinitialiser mon mot de passe ? Merci !</email>
+
+    <email recipient="YasuArai" sender="kburnaby" subject="Tr : Tentative de phishing ?">Encore une.
+-Kim
+> awilburn@pacificair.com a envoyé :
+> Salut Kim,
+> D'après ce que l'on m'a dit, tu serais la plus qualifiée sur le sujet.
+> J'ai reçu un mail de réinitialisation de mot de passe, je me demande si c'est authentique. Tu pourrais vérifier ?
+> > admin_réinitialisation_mot_de_passe@pacifiicaircom.org a envoyé :
+> > « « Bonjour,
+> > Voici le mail de réinitialisation de mot de passe.
+> > Veuillez cliquer sur ce lien pour réinitialiser votre mot de passe.
+> >Pour des raisons de sécurité, cette étape est obligatoire.
+> > Merci,
+> > Admin » »
+> - Alexina</email>
+
+    <email recipient="YasuArai" sender="kburnaby" subject="Déjeuner">Hé, J. ! Ça te dirait d'aller boire un café ce weekend ? J'aimerais vraiment apprendre à te connaître, ça fait des mois qu'on travaille ensemble ! Tu me préviens. :)</email>
+
+    <email recipient="YasuArai" sender="MailAdmin" subject="[ATT : Admins] Notes en réunion">Allez, quoi. Vous devez vraiment commencer à prendre des notes en réunion, ou on va avoir des problèmes. 
+Surtout moi.
+Un effort, s'il vous plaît.</email>
+
+    <email recipient="YasuArai" sender="sp_alerts" subject="ALERTE AU SPEAR PHISHING POUR LA SEMAINE 2">Ceci est un résumé automatique des alertes de la deuxième semaine en {$ActiveMonth}.
+Lundi : 3 alertes
+Mardi : 0 alerte
+Mercredi : 4 alertes
+Jeudi : 1 alerte
+Vendredi : 2 alertes</email>
+    
+    
+  <!-- MiscPerson Email -->
+
+    <email recipient="awilburn" sender="temp_0340" subject="programme de septembre">salut alexina, tu pourrais me donner mes horaires de la semaine prochaine ? merci, j</email>
+
+    <email recipient="awilburn" sender="dwiklowski" subject="Loterie interne">Salut, tout le monde ! Juste pour vous prévenir que la loterie d'entreprise est reportée. Anthony n'est toujours pas allé acheter l'ePad, donc... pas la peine de la démarrer maintenant, vous voyez... ? Quoi qu'il en soit, ça reste prévu, mais comme c'est bien chargé en cette période, on va devoir attendre deux bonnes semaines.
+Bien à vous, Dan
+P.-S. Félicitations à Marta et Benita pour la naissance de leur adorable garçon ! J'espère vous voir très vite !</email>
+
+    <email recipient="awilburn" sender="jadams" subject="Réunion de jeudi">Alexina,
+Une info pour toi : Tu es en lice pour être l'Employée du mois.
+D'ailleurs, on aura une réunion jeudi pour décider de ça. Je suppose qu'on peut compter sur ta présence, n'est-ce pas ?
+Jeremey</email>
+
+    <email recipient="awilburn" sender="employee_promotions" subject="[ATT. : EMPLOYÉS SANS CONTRAT] Vos indemnités de voyage">~Avant d'imprimer ce mail, pensez à l'environnement.~
+Bonjour à tous ! C'est Brandi. Ce mail a pour but de clarifier certaines informations sur les indemnités de voyage annuelles.
+Ce n'est une nouvelle pour personne : nous avons dû nous séparer de collaborateurs cette année. C'est la compagnie tout entière qui doit s'adapter aux difficultés financières et se serrer la ceinture. Notre PDG a même réduit son propre salaire afin d'amoindrir votre propre réduction salariale, pour vous donner une idée.
+Bref, le programme de voyage gratuit pour les cadres de Pacific Air de niveau intermédiaire et plus subit des modifications importantes, afin d'éliminer toute ambiguïté et le rendre plus accessible aux employés occupants des emplois inférieurs.
+Vous trouverez tous les détails sur le portail de la compagnie, dans l'onglet « ACTUALITÉ ».
+Prévenez-moi si vous avez des questions.
+Merci,
+Brandi des RH</email>
+
+    <email recipient="awilburn" sender="mb_5f_broadcast" subject="[ATT. : CINQUIÈME ÉTAGE] Problèmes dans les toilettes">HÉ !
+CELUI OU CELLE QUI S'AMMUSE A CHIER SUR LE SOL SERA SOMMAIREMENT RENVOYÉ(E)
+NOUS AVONS INSTALLÉ DES CAMÉRAS EN DEHORS DES TOILETTES
+NOUS TE TROUVERONS
+ET NOUS TE VIRERONS
+ARRÊTE D'EMMERDER LES AGENTS D'ENTRETIEN
+ 
+Cordialement,
+Ramiro
+«Apprenez  être le changement que vous désirez voir en ce monde. » - De Gandhi, je crois</email>
+
+    <email recipient="awilburn" sender="admin_password_security_reset@pacifiicaircom.org" subject="Réinitialisation de mot de passe">Bonjour,
+Voici le mail de réinitialisation de mot de passe.
+Veuillez cliquer sur ce lien pour réinitialiser votre mot de passe.
+Pour des raisons de sécurité, cette étape est obligatoire.
+Merci,
+Admin</email>
+    
+    
+  </mailServer>
+  
+</Computer>

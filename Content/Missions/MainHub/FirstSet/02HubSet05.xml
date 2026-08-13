@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="encrypt_source.dec" path="home" destTarget="hubPubDrop" destPath="Drop/Uploads" decrypt="true" />
+  </goals>
+  <missionEnd val="1">addFlags:decypher</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Locate or Create Decryption Software">
+A new company's come out with some new file encryption software, and has locked up a bunch of previously very open code to us with it.
+The algorithm doesn't seem as bad as what we've faced in the past, but there's no solver out for it yet. This contract will have you solve the problem however you want, but we need a file decrypted.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Ghosting the Vault</subject>
+    <body>
+DEC Solutions has recently finished their new "DEC Encryption Suite" - basically a file encryption package. We have a file that we want to look at that's been locked by this encryption.
+I've thrown a copy of it up on our crossroads server (a non-secure dumping ground for all CSEC users) as "encrypt_source.dec". ".dec" is the file extension this new encryption generates, by the way.
+
+You might want to take a look at the file itself first. The company's website is pretty barren of anything useful, but if you dig a bit you might find something to help. Once you're in, try scanning to see if the network goes deeper.
+
+Once you have it decrypted, upload it to the CSEC Drop server.
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <link comp="hubPubDrop" />
+      <link comp="decSoftWeb" />
+      <note title="Contract Details">Investigate DEC Solutions corporate network
+Find a method of DEC file decryption
+Decrypt the file at CSEC Crossroads
+Upload decrypted file to CSEC Drop server</note>
+    </attachments>
+  </email>
+</mission>

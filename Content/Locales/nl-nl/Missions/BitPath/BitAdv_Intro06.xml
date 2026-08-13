@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase6" >
+  <goals>
+    <!--
+    <goal type="FileDownload" target="EnTechOutsiderRepo" file="heart.dec" path="Contractors/Bit" />
+    -->
+  </goals>
+  <missionStart val="1">changeSong</missionStart>
+  <nextMission>BitPath/BitAdv_Intro07.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Rechtvaardiging</subject>
+    <body>Dit is precies waar ik hoopte. Het is allemaal opgeschoont, behalve een versleuteld bestand in Bits map (die je waarschijnlijk hebt gezien), maar dat bestand...
+Ik weet hoe ik het moet openen, het is een wachtwoord dat hij een paar van ons lang geleden heeft verteld toen we aan een project met hem werkte. Hij stuurde ons toen ook een versleuteld bericht zoals deze.
+
+Het wachtwoord is "divingsparrow" - Ik heb het al gelezen. Er zit een email account in dat ik moet gaan bekijken - ik stel voor dat jij hetzelfde doet.
+Download het bestand en ontcijfer het natuurlijk, laat geen open kopie rondslingeren. Contacteer me daarna - het voeld alsof we de waarheid bereiken - en wat actie.
+
+Contacteer me als je bij bent, en laten we dit afmaken.
+
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

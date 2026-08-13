@@ -1,0 +1,23 @@
+﻿﻿¿Cómo descargo memoria?
+
+Hola, soy 4chums, un amigo me ha dicho que era posible descargar ram en vez de comprarla en tiendas, pero la mayoría de los sitios que he visitado han sido simples imitadores poco fiables; la mayor parte de la "ram" que he descargado era una simple foto de un ordenador y el resto eran carpetas .zip llenas de fotos de ovejas. ¿Qué estoy haciendo mal? 
+
+Respuesta 1: OP, ¿qué OS usas?
+
+Respuesta 2: Borra System32
+
+Respuesta 3: [OP] Uso windows vista. ¿Eso disminuye mi capacidad de descargar ram?
+
+Respuesta 4: Como ha dicho D3m0nSworD99, tienes que encontrar y borrar el directorio "System 32". Esta carpeta contiene un paquete de programas con windows que ayuda impedir la piratería, que incluye la piratería de ram y cuya función principal es convertir la ram en fotos de s. Cuando lo borres, puedes volver a los sitios en los que solías descargar memoria y te encontrarás esas fotos de ovejas convertidas en memoria instalable.
+
+Respuesta 5: Sí, este chaval está en lo cierto, así es como se descarga la RAM. Aunque a veces no funciona: si tu ordenador empieza a dar problemas, tendrás que abrirlo y usar un imán bastante potente para eliminar todos los rastros de System 32.
+
+Respuesta 6: [OP] Hola a todos, estoy publicando esto desde mi ordenador del trabajo. Creo que he hecho algo mal mientras seguía vuestras instrucciones. Hice lo del imán, pero creo que he usado el polo equivocado o algo así porque ahora mi ordenador no se enciende. Ayudadme, por favor
+
+Respuesta 7: 8/10 me hizo responder
+
+Respuesta 8: Jajaja dios mío qué?
+
+Respuesta 9: [MOD] Santo dios. Nota.
+
+Respuesta 10: [OP] ¿Chicos? Ayuda...

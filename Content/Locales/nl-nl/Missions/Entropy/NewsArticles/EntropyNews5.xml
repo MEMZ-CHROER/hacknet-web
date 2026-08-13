@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews05">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Nieuw Opbol Dongel patent zal Fanboys Kwellen">
+Hardcore Opbol fans, krijg je zaakjes op orde en bereid je portomonee voor. Een nieuw patent aangevraagd door technologisch gouden kind Opbol Computing suggereert dat het bedrijf zich naar de home console markt beweegt. Het patent voor een uitbreidbare "dongel" zou een onderdeel in een nieuw gaming systeem
+zijn - zeggen experts - wellicht een controller of bewegingssensor. Vooralsnog, alleen het design - een telescopisch cylinder met afgeronden uiteinden - heeft patent verkregen, maar onze bronnen zeggen dat de functionaliteit misschien slechts een paar dagen weg kan zijn. Let hier op!
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Moet Gestopt Worden</subject>
+    <body>
+Vernietig de entropy Databank
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

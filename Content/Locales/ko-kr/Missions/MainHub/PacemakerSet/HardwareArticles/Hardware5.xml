@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pacemakerHWArticle05">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0015 - Pacemaker v2.44 Firmware and Patching">
+이 게시글은 v2.44 심박 조율기의 보안 기능을 설명합니다. 일반 작동에 관한 사항은 인쇄물로 된 문서를 참조하거나, support@kellisBio.com에서 사본을 추가로 요청하십시오
+---------------------------------------------
+
+v2.44 칩의 펍웨어는 Eidolon Soft가 작성하였습니다. 버전 제어, 질의 및 업데이트는 
+
+111.105.22.1
+
+에 위치한 그들의 중앙 서버를 통해 처리됩니다.내부 서비스가 서명한 빌드가 당사의 키를 사용해 칩에서 작동하게 되므로, 어느 타회사도 그들이 코드를 컴파일하지 않고는 칩에서 작동하는 코드를 만들어낼 수 없습니다.
+원격 모니터링 소프트웨어 및 칩 외부 접속 인터페이스 관련 문제는 그들에게 문의해야 합니다.    그런 요청과 질의를 위한 그들의 연락처 이메일은 support@eidolonsoft.com입니다.
+
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>오류</subject>
+    <body>
+본 이메일을 받았다는 건 예기치 못한 오류가 발생했음을 의미한다.
+제발 당황해라.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

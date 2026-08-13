@@ -1,0 +1,154 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dCredits" name="Kaguya_Projects" security="4" type="empty" ip="54.183.231.34">
+
+  <portsForCrack val="1" />
+  <ports>21</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="-1" />
+  <portRemap>21=1886</portRemap>
+
+  <DLCCredits />
+
+  <file path="bin" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+  <file path="home" name="Prospectives.txt">
+Olası Adaylar
+--------------------------
+
+
+        
+Shimo7even
+        - Ülke: Japonya
+        - L0sExtraditables Lideri
+        
+d3f4ult
+        - Ülke: Japan
+        - Bot Programcısı, BushidoBot 
+        
+L0m1s
+        - Ülke: BİLİNMİYOR
+        - Fidye Yazılımcısı, İnternet Sömürücüsü
+        
+meepkittyfXck
+        - Ülke: Kanada/İsveç
+        - Social Engineer, Dezenformasyoncu 
+        
+Bit
+        - Ülke: Avustralya
+        - Sömürücü/Araç Geliştirici
+        
+Lorde_Bashtien
+        - Ülke: Miami, ABD
+        - Kredi Kartı Arakçısı, Toplum Mühendisi
+        
+Sh1n0d4
+        - Ülke: Japonya (?)
+        - BushidoBot Geliştirici
+        
+Coel
+        - Ülke: Almanya
+        - Siber Güvenlik Uzmanı
+        
+MLT
+        - Ülke: Birleşik Krallık
+        - Sömürü Aracı Geliştirici, 0day İstifçisi
+        
+#PLAYERNAME#
+        - Ülke: #PLAYERLOCATION#
+        - Bilinmiyor - 0day Teknoloji İstifçisi?
+
+</file>
+
+<file path="home" name="CreditsData.txt">
+%---  Labyrinths Projesi  ---
+
+^Tasarım ve Geliştirme
+Matt Trobbiani
+
+^Yazım
+Damon Reece (@demanrisu)
+Matt Trobbiani (@Orann)
+
+^Logolar ve Diyagramlar
+W O V A Studio
+www.wova.pl
+
+^Neopals Sanatçısı
+Poppy de Raad (@pixecology)
+
+^Klavye Fotoğrafları
+/u/koalapear
+
+^Arkaplanlar
+Angelus-Hellion
+angelus-hellion.deviantart.com
+
+^Ek Yazım Yardımı
+Aisha Black
+Hanna Siek
+
+^İkonlar
+Pavel Kozlov
+Gregor Cresnar
+Lucy G
+
+^Topluluk Yöneticileri
+Colamaeleon
+RainShatter
+Aidy
+
+^Test
+Peer
+phonic88
+Colamaeleon
+Scratch
+SpadeGamer_Dallas
+
+^Özel Teşekkür
+Hanna Siek
+Jamie Williamson
+Bec Pelvay
+Chris Johnson
+Chelsea Easton
+Alex Mackay
+Lauren  Clinnick
+Morgan Jaffit
+Sasha Mattschoss
+Izzy Gramp
+Ben Trobbiani
+Stephen Trobbiani
+Laura Trobbiani
+Gabriele Trobbiani
+Pam Carroll
+
+</file>
+  
+  <Memory>
+    <Data>
+      <Block>damon.txt
+
+damon reece, yani DLC'ye tüm kötü şakaları ekleyen eleman diyor ki:
+
+yaratıcı ve yazar arkadaşlarıma - lucy, lauren, saf, bridget, zoe, livs, soha, jess, ash, em, kim, craig, shoe, sled - teşekkür ederim. hepiniz benim için birer kahramansınız. siz olmadan ne yapardım bilemiyorum!
+
+beni bu projeye dahil ettiği ve çok narin bir hedef olduğu için matt'e teşekkür ediyorum. eğer gelecekte büyük bir hata yapıp beni tekrar işe almazsa bir daha görüşemeyeceğiz. ÜZGÜN DEĞİLİM
+
+bu harika, ciddi, boş, saçma ~dramatik~ ek paketi aldığınız için size de teşekkür ederim. sizin gibi insanlar sayesinde matt ve ben gibi kişiler harika bilgisayar oyunları geliştirme hayallerimizi gerçekleştirebiliyoruz. bu gerçekten harika.
+
+bu arada, buradan metal gear solid 3 resimlerinin oluşturduğu tweetler ile dolu twitter hesabına seslenmek istiyorum. mvp senin kar'şim.</Block>
+    <Block>matt.txt
+
+Dürüst olmak gerekirse, kötü şakalardan ötürü kendimi sorumlu hissediyorum.
+
+Damon, yazım işlerini benimle birlikte tamamlayarak harika iş çıkarttığın için sana teşekkür ederim. Yukarıdaki listedeki herkes inanılmaz, yardımseverdi.
+Tüm bu şeylerle uğraşmak insanı geriyor. Hepiniz çok yardımcı oldunuz.
+
+Teşekkür ederim.
+    </Block>
+      <Block>54.192.133.33</Block>
+    </Data>
+  </Memory>
+  
+</Computer>

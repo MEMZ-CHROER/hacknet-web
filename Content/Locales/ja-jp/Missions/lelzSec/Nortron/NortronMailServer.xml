@@ -1,0 +1,92 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nortronMail" name="Nortron Mail Server" security="1">
+  <ports>25</ports>
+  <trace time="10.0" />
+  <firewall level="17" solution="123456789ABC" />
+  <link target="nortronMainframe" />
+  <positionNear target="nortronMainframe" position="2" total="3" />
+  
+  <!-- Mail Server Accounts -->
+  <account username="j.abrams" password="bootyking420" type="2" />
+  
+  <mailServer name="Nortron Mail" color="220,208,69">
+    <email recipient="j.abrams" sender="Peter Evans" subject="Where's that report?">
+John、
+
+ルートキットの分析レポートを待ってるんだが、進捗はどうなってる？
+現在私たちは、新たな宣伝計画の立案を進めている。それにお偉いさんは、マーケティング事業部がわが社の製品について理解しているかどうか確認したいらしい。
+
+レポートはできれば月曜日までに提出してくれ。君を急かしたくはないんだが、他の人の作業にも影響が出ているんだ。
+
+よろしく頼む。
+-Peter
+    </email>
+    <email recipient="j.abrams" sender="hornberg@gmx.de" subject="Fw:Fw: 最高のグラフィティ">
+      -------- 原文 -------- Subject: 	Fw: 最高のグラフィティ
+      Date: 	Wed, 31 Oct 2012 18:54:54 +1300
+      From: 	TK Skull tkn.skull@xtra.co.nz
+        To: 	skull1@ntlworld.com
+          , "JJ SK" e4@bigpond.com
+            , "G?nter Hornberg" ghornberg@gmx.de
+              , "Andrea Senior" senior@xtra.co.nz
+                , "Cols" C.D.Wilson@xtra.co.nz
+                  , "Flo Wilson" FloJoW@xtra.co.nz
+
+From: gandgrichards@xtra.co.nz 
+Sent: Wednesday, October 31, 2012 2:58 PM
+To: gandgrichards@xtra.co.nz 
+Subject: Fw: 最高のグラフィティ
+
+Subject: : 最高のグラフィティ
+
+ > 
+ > 
+ > こいつらは本当にすごいよ・・・。楽しんでくれ
+ >
+ 
+ --いくつかのコンテンツが正しく読み込みされませんでした--
+    </email>
+        <email recipient="j.abrams" sender="gandgrichrds@xtra.co.nz " subject="Fw: 航空機撃墜！">
+From: gandgrichrds@xtra.co.nz 
+Sent: Friday, October 19, 2012 8:41 AM
+To: gandgrichrds@xtra.co.nz 
+Subject: Fw: 航空機撃墜！
+
+Subject: .... 航空機撃墜！....
+ 
+pps.Attach: fileを開いた方に...
+
+
+無料の絵文字をプレゼント - by IncrediMail
+
+--不審なexeファイルです。添付ファイルは削除されました。--
+    </email>
+    <email recipient="j.abrams" sender="Nortron IT Support" subject="RE:ログインできない">
+Abrams様
+
+あなたに教えるのはこれで4度目です。お気づきだとは思いますが、あなたのデスクの上には、Nortronにおけるファイアウォールポリシーについての大きな掲示がかかってますよね。わが社はセキュリティをとても慎重に取り扱っています。会社の安全を守るためには、インターネットに接続する前に、ファイアウォール通過のためログイン認証を行う必要があるんです。
+
+内部サーバーにおけるファイアウォールの回避パスワードはこれです。
+
+123456789ABC
+
+どこか忘れないようなところに書き留めておいてください。
+
+-IT事業部
+
+
+  | IT事業部へ
+  | まだ直ってないぞ！
+  | インターネットに接続できないじゃないか！ 
+  | インターネットがなしで、どうやって仕事しろっていうんだよ！
+  | ファイアウォールのパスワードを入力してくださいとか出てるけど、
+  | 壊れてるのか？君たちはこんな問題も直せないのか、もうこれで何回目だ！
+  | 
+  | どうやればインターネットに接続できるんだ、いいか、こいつは重大問題だぞ！
+  |
+  | Mr. J. Abrams
+  | Nortron 営業部
+    </email>
+    
+  </mailServer>
+</Computer>

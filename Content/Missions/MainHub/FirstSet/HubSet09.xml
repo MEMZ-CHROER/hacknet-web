@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="HasFlag" target="E_Whit:DEAD" />
+  </goals>
+  <missionStart val="9" suppress="true">changeSong</missionStart>
+  <missionEnd val="1">junebugComplete</missionEnd>
+  <nextMission>BitPath/BitAdv_Intro.xml</nextMission>
+  <branchMissions>
+    <branch>MainHub/PacemakerSet/PacemakerSet_Deny_Branch.xml</branch>
+  </branchMissions>
+  <posting title="Project Junebug" reqs="dechead, decypher,csecRankingS2Pass">
+An incredibly delicate situation has come up, requiring the involvement of a skilled, anonymous outside agent, willing to be responsible for some questionable actions to greatly help an individual in need.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Project Junebug</subject>
+    <body>
+Hacker,
+     
+This isn't a normal request and we're not going to treat it as such. We've been asked to perform a euthanization.
+Obviously, we sent out a few others to dig up data on it (and a few from outside groups, so as not to raise suspicion) some time ago, and largely speaking it's come back all clear - it seems the man in question, one "Elliot Whit" is hospitalized in considerable pain and, against his wishes, has been denied the option of death.
+A failed attempt by his family earlier has prevented them from performing subsequent efforts, until a member proposed this option. It seems the pacemaker he is fitted with allows remote access, with proper authorization, and they believe this may be an avenue to fulfill this request.
+
+Naturally, given the nature of this request, we can accept that you may not want to be involved. Reply with "deny" in your response and we will remove you from the project.
+
+If you do decide to help us with this matter, you should know that it will likely take some amount of investigation and testing, given that as far as we know, this has never before been attempted.
+We recommend starting with the target's medical record, identifying the chip, looking for it's manufacturers and going from there.
+      
+-CSEC Admins
+    </body>
+    <attachments>
+      <link comp="medical" />
+      <note title="Project Details">
+Target : Elliot Whit
+Action: Euthanization
+</note>
+    </attachments>
+  </email>
+</mission>

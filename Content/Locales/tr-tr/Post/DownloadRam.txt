@@ -1,0 +1,23 @@
+RAM'i nasıl indiririm?
+
+Merhaba 4chums, bir arkadaşım RAM satın alacağıma internetten indirebileceğimi söyledi. Ancak girdiğim sitelerin çoğunda tehlikleli kopyalar yer alıyordu. İndirdiğim "RAM" dosyalarının çoğunda sadece bilgisayar resmi ve içinde koyun resimleri olan .zip dosyaları var. Nerede hata yapıyorum?
+
+Yanıt 1: OP, hangi işletim sistemini kullanıyorsun?
+
+Yanıt 2: System32'yi sil.
+
+Yanıt 3: [OP] Windows Vista kullanıyorum. Bunun RAM indirebilmeme etkisi olur mu?
+
+Yanıt 4: D3m0nSworD99'un da dediği gibi "System 32" dizinini bulup silmen gerekiyor. Bu dizinde Windows mahremiyeti devre dışı bırakan bir dosya barındırıyor, bu da RAM mahremiyetini devre dışı bırakıyor. Bu programın ana işlevi RAM dosyalarını koyun resimlerine çevirmek. Sildikten sonra RAM indirdiğin sitelere gidip o koyun resimlerinin yüklenebilir RAM'lere döndüğünü görebilirsin.
+
+Yanıt 5: Aynen. Bu arkadaş doğru söylemiş. RAM indirmenin doğru yolu budur. Ayrıca bazen işe yaramayabilir. Eğer bilgisayarında sorun çıkmaya başlarsa dizinlere girip System 32 ile ilgili tüm dosyaları silmen gerekecek.
+
+Yanıt 6: [OP] Merhaba millet. İşyerindeki bilgisayarımdan yazıyorum. Sanırım talimatlarınızı izlerken bir hata yaptım. Tüm dosyaları sildim ama bir şeyleri eksik yaptım gibi zira bilgisayarımı açamıyorum. Lütfen yardımcı olun.
+
+Yanıt 7: 8/10 bana bile cevap verdirdi.
+
+Yanıt 8: Ahahah Tanrım ne dedin sen?
+
+Yanıt 9: [MOD] Tanrım. Yapıştım kaldım valla.
+
+Yanıt 10: [OP] Millet? Yardım edin...

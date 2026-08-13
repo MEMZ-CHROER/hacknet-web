@@ -1,0 +1,61 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mainHubAssets" name="CSEC Assets Server" security="4">
+  <adminPass pass="csec-5xg3D11" />
+  <admin type="fast" resetPassword="false"/>
+  <positionNear target="mainHub" position="5" total="6" />
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="template.txt">[FIRST_NAME]#[LAST_NAME]#[RECORD_NUM]#32#Rural#N/A#N/A#N/A#[LAST_WORDS]</file>
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="FileNamingScheme.txt">
+死刑囚データベースファイル 命名規則
+
+苗字_名前[レコード番号]
+
+template.txtのコピーをダウンロードし、自分のコンピュータ上で編集することを勧める。
+その後で命名規則に沿うようにファイル名を変更し、データベースに挿入すること。
+例: Doe_John[12345]
+
+テンプレート内に存在する記号を全て変換してしまうことが考えられるため、
+このショートカットの利用を勧める。
+1: 自分のオペレーティングシステム上でファイルをアクティブにする
+（catコマンドを使うのが一番簡単だ - 「cat template.txt」）
+2: ファイルネームを打ち込まずにreplaceコマンドを使う
+ - （replace "[FIRST_NAME]" "John"）
+3: 必要な回数ステップ2を繰り返す
+4: ファイル名を変更する（mv template.txt Doe_John[12345]）
+5: ファイルをデータベースにアップロードする（リモートデータベースに接続後、
+ターミナルで"upload /home/Doe_John[12345]" 
+- この際、ファイルをアップロードするフォルダを確認すること！）
+</file>
+  
+  <file path="bin/SQL_Mem_Corrupter" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+  <file path="bin/SQL_Mem_Corrupter" name="info.txt">
+--SQL Memory Corruption Injector Readme--
+    
+このSQL Memory Corruption Injector（SQL_MemCorrupt.exe）は、公開SQLポート（デフォルト番号は1433）を対象としたハッキングツールです。
+このツールは読み込まれるとデータベース内にメモリ破損エラーを発生させるテーブルエントリーを送信し、SQLデータベースのクラッシュとコアダンプを引き起こすことで即時にテーブルの照会を求めます。
+これによって、対象のOSがクラッシュしたSQL接続のクリーンアップとデバイスの再起動を行うまで、権限の与えられていないデータ通信がSQLサーバーポート上で一時的に許可されます。
+
+ディスプレイモード上では、プログラムの作業状況が上部に表示され、下部にはSQLサーバーのアウトプット（理論上は送信されたエントリーのメモリーダンプ）が表示されます。
+</file>
+
+  <file path="bin/WebServerWorm" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin/WebServerWorm" name="info.txt">
+--Web Server Worm Readme--
+
+このウェブサーバー用ファストアクセスワームは、HTTPのウェブサーバー（一般的にはポート80もしくは8080）への攻撃が可能な実行ファイルだ。
+このプログラムは、現在利用されているウェブサーバーソフトウェアの欠点を突き、バッファのオーバーフローを利用することで任意のコード（ワーム自身）の送信を許可させます。
+サーバー上でこのワームが起動すると、外部からのデータ通信全てをウェブポート経由でオペレーティングシステムに送信させ、ポートのセキュリティを効果的に回避することができるのです。
+これにより、ポートが開いて自由に使えるようになります。
+
+ワームはウェブサーバーの基本的な機能自体は妨害しません。妨害行為は目立つため、実装するとワームの検出を容易にしてしまいますし、外部のユーザーに異変が起きていることがすぐ悟られてしまうからです。
+
+</file>
+
+  <file path="bin/Sequencer" name="Sequencer.exe">#SEQUENCER_EXE#</file>
+
+  <file path="Themes" name="CSEC_x-server.sys">#WHITE_THEME#</file>
+  <file path="Themes" name="Mint_x-server.sys">#MINT_THEME#</file>
+  <file path="Themes" name="Teal_x-server.sys">#TEAL_THEME#</file>
+  <file path="Themes" name="Blue_x-server.sys">#BASE_THEME#</file>
+  
+  
+</Computer>

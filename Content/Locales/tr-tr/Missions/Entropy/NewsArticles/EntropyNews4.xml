@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews04">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Verileriniz Güvende Mi?">
+Popüler sosyal medya sitesi FriendHole sosyal medyayı kötü amaçlarla kullanan bir hacker grubunun en yeni hedefi oldu. Grup üyelerinin kimlikleri ve konumları Siber Suçlar Şubesi'nce tespit edilemedi. Grup, "Kimse Güvende Değil" diyerek açıkça bir mesaj vermeye çalıştı.
+FaceSpace Başkanı "FaceSpace'in güvenliği göz açtırılmayacak seviyededir." diyerek kullanıcıların verilerine bir tek verileri paylaşmayı seçtikleri kişilerin ulaşabileceğini ve FaceSpace'in 12.000 güvenli reklam ortağı olduğunu hatırlatarak gergin havayı yumuşatmaya çalıştı. 
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Durdurulmalı</subject>
+    <body>
+Entropy veritabanını yok et.
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

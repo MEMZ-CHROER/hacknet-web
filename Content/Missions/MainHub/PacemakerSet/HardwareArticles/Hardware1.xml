@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Kellis Biotech and You">
+Kellis Biotech is an internationally recognized, full service original equipment manufacturer (OEM) specializing in medical and cosmetic devices.
+From design to large scale production, Kellis is industry leading in the creation of medical grade hardware, specializing in embedded micro-devices and operating equipment.
+Our standards are matched by our approach, which only accepts absolute reliability and stability - because when it comes to your health, we refuse to compromise on quality.
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

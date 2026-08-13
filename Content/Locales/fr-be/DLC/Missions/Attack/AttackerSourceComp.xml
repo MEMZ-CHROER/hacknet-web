@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dAttackSource" name="Proxy de Striker" security="6" ip="72.52.4.119" type="4" icon="DLCPC2">
+  
+  <trace time="80" />
+  <portsForCrack val="3" />
+  <ports>21, 22, 6881</ports>
+  <proxy time="0.4" />
+  <firewall level="-1"/>
+  
+
+  <dlink target="dAttackHome" />
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+
+  <file path="home" name="irc_autolog_286.log">fdsfjga : arrête d'être aussi nocif
+StrikeR : et si
+StrikeR : toi
+StrikeR : t'arrêtais de nourrir le troll
+StrikeR : et bordel envoie-moi
+StrikeR : ton thème
+fdsfjga : pfff
+fdsfjga : maintenant ?
+StrikeR : oui
+fdsfjga : ça peut pas attendre la fin de la partie ?
+StrikeR : .
+fdsfjga : sérieux
+fdsfjga : je suis en plein jungling là
+StrikeR : ah j'pensais que t'étais afk
+fdsfjga : lol ta mère
+StrikeR : xd
+fdsfjga : oi
+StrikeR : que
+StrikeR : qu'est-ce que tu veux maintenant
+fdsfjga : la partie est terminée
+StrikeR : que
+fdsfjga : à laquelle on participait ?
+StrikeR : tu vas devoir me le rappeler
+fdsfjga : putain
+fdsfjga : comment t'es salace
+StrikeR : je re afk
+fdsfjga : je crois pas non
+StrikeR : tu m'as eu
+fdsfjga : tu les veux ces thèmes ou quoi
+StrikeR : aaaaaAAAAAH
+StrikeR : ok
+StrikeR : viens sur l'irc
+fdsfjga : on y est déjà
+StrikeR : wow
+StrikeR : truc de ouf
+</file>
+  
+  <file path="home" name="irc_autolog_289.log">StrikeR : ton thème est pété
+fdsfjga : ?
+StrikeR : ?
+fdsfjga : ???
+StrikeR : il est pété
+StrikeR : que
+fdsfjga : quoi/?
+StrikeR : je sais pas quoi dire
+StrikeR : ça charge pas
+fdsfjga : je checke ça
+fdsfjga : ça marche chez moi
+fdsfjga : tu serais pas juste débile
+StrikeR : alors ça
+StrikeR : soyons honnête
+StrikeR : c'est peu probable
+fdsfjga : t'as foutu en l'air l'extension du fichier
+StrikeR : non
+fdsfjga : t'as vérifié
+StrikeR : oui
+fdsfjga : vraiment
+StrikeR : oui
+fdsfjga : recommence
+StrikeR : tg
+fdsfjga : et pour cette extension, hein ?
+StrikeR : ta du bol que tes thèmes soient bons
+fdsfjga : ?
+fdsfjga : bon de savoir quelle valeur tu te donnes
+fdsfjga : :3
+StrikeR : signalé
+</file>
+  
+  <file path="home" name="irc_autolog_290.log">fdsfjga : hé
+fdsfjga : un truc que tu devrais savoir
+fdsfjga : jammy t'a descendue après que tu sois partie
+fdsfjga : comme quoi les filles seraient nulles à dota
+fdsfjga : il a trop les boules mdr
+StrikeR : ok
+StrikeR : prochaine partie je joue mid
+fdsfjga : j'ai déjà prévenu les autres
+StrikeR : je me fous pas mal de gagner
+fdsfjga : mon cul
+StrikeR : oh que si
+fdsfjga : stp
+StrikeR : mid avec shadow fiend
+StrikeR : tu sais celui pour farmer le cheese
+fdsfjga : non
+StrikeR : dagon mek
+StrikeR : je m'attends au ragequit
+</file>
+
+  <file path="home" name="irc_autolog_291.log">
+fdsfjga : attends
+fdsfjga : sérieux
+fdsfjga : t'as piraté jammy
+StrikeR : ?
+fdsfjga : j'y crois pas
+fdsfjga : non
+StrikeR : il utilisait pas de proxy
+StrikeR : c'est comme s'il m'avait invité
+fdsfjga : je peux pas
+fdsfjga : il se plaignait dans #dota
+fdsfjga : attends un peu
+StrikeR : ça a marché ?
+fdsfjga : ouais t'as bousillé sa carte graphique
+fdsfjga : en miettes
+StrikeR : lol il aurait dû être plus méfiant quand je lui ai demandé le modèle qu'il avait
+fdsfjga : incroyable
+fdsfjga : il avait mis tout son salaire dedans
+StrikeR : et il aurait dû dépenser 5 $ pour un vpn
+fdsfjga : je sais bien que tu l'aimes pas beaucoup
+fdsfjga : tu penses pas que t'es allé trop loin
+StrikeR : non
+StrikeR : lol
+fdsfjga : si tu le dis
+StrikeR : bonne leçon
+StrikeR : comme quoi
+StrikeR : ses mots
+StrikeR : auront
+StrikeR : des conséquences
+StrikeR : LOL
+StrikeR : devine ce que j'ai trouvé d'autre en flashant sa carte graphique
+fdsfjga : oooh quoi
+StrikeR : une conversation complète de lui se faisant méchamment rembarrer par une fille
+fdsfjga : tu déconnes
+StrikeR : je t'assure, il garde toutes ses conversations msn lol
+fdsfjga : c'est fou
+</file>
+  
+  <file path="home" name="strikeout.txt">j4mmy : salut :)
+- - -
+j4mmy : hé !
+* j4mmy a envoyé une invite ! *
+- - -
+j4mmy : ça va ?
+- - -
+j4mmy : *te masse les épaules*
+* j4mmy a envoyé un sticker ! *
+- - -
+j4mmy : *fait un signe de la main*
+* j4mmy a envoyé une invite ! *
+- - -
+* j4mmy a envoyé une invite ! *
+j4mmy : mais arrête de m'ignorer
+[A]LEX[A] : tu veux quoi
+j4mmy : quoi de neuf ? :)
+[A]LEX[A] : écoute
+[A]LEX[A] : je suis pas intéressée
+[A]LEX[A] : arrête de m'emmerder
+j4mmy : quoi ??
+j4mmy : quelle grossièreté
+[A]LEX[A] : tu sais ce qui est grossier ?
+[A]LEX[A] : m'envoyer des messages explicitement cochons à longueur de journée
+[A]LEX[A] : dans l'espoir de me passer dessus
+[A]LEX[A] : t'as aucune chance avec moi, et encore moins avec tes stickers et tes invites
+j4mmy : pas besoin d'être hystérique
+[A]LEX[A] : non ! ça marchera pas avec moi. me faire culpabiliser te mènera nulle part.
+[A]LEX[A] : pour conclure : barre-toi, tocard, pleure pas dans tes céréales trop longtemps, elles auront mauvais goût.
+[A]LEX[A] : ciaooo :)
+[A]LEX[A] est hors ligne. Vos messages pourraient ne pas lui parvenir. *
+[A]LEX[A] est hors ligne. Vos messages pourraient ne pas lui parvenir. *
+[A]LEX[A] est hors ligne. Vos messages pourraient ne pas lui parvenir. *
+</file>
+  
+  
+  
+  
+</Computer>

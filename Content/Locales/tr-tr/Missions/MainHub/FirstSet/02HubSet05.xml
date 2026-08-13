@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="encrypt_source.dec" path="home" destTarget="hubPubDrop" destPath="Drop/Uploads" decrypt="true" />
+  </goals>
+  <missionEnd val="1">addFlags:decypher</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Çözümleme Yazılımının Belirlenmesi">
+Yeni bir şirket yeni bir şifreleme yazılımı geliştirdi. Bu yazılım daha önce açık olan birçok kodu şifrelemeyi başarıyor.
+Algoritması daha önce karşılaştığımız yazılımlarınkinden daha iyi. Henüz bu yazılımın çözümleyicisi bulunmuyor. Bu işi istediğin gibi halledebilirsin. Senden bir dosyanın şifresini çözmeni istiyoruz.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Kasanın Gölgelenmesi</subject>
+    <body>
+DEC Solutions kısa süre önce "DEC Şifreleme Paketi" çalışmasını tamamladı. Çalışma temelde şifreleme paketi görevi görüyor. Elimizde bu şifreleme paketince şifrelenmiş bir dosya bulunuyor. Bizimde bu dosyayı görmemiz gerekiyor.
+Crossroads sunucusuna (CSEC kullanıcılarına açık güvenliği bulunmaya dosya bırakma sunucusu) "encrypt_source.dec" adı altında bir kopyasını bıraktım. Bu yeni şifreleme paketinin yarattığı dosyaların uzantısı ".dec" bu arada.
+
+Öncelikle dosyanın kendisine göz atmak isteyebilirsin. Şirketin internet sitesinde pek işe yarar bir şey yok. Ancak dikkatlice araştırarark bir şeyler bulabileceğini düşünüyorum. İçeri sızdığında ağlarının ne kadar derin olduğunu görmek için tarama yap.
+
+Şifreyi çözdüğünde, dosyayı CSEC Drop Server'a yükle.
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <link comp="hubPubDrop" />
+      <link comp="decSoftWeb" />
+      <note title="İş Bilgileri">DEC Solutions'un şirket ağını araştır
+DEC Şifrelerini çözümlemenin yolunu bul
+CSEC Crossroads'daki şifreyi çözümle
+Çözümlenen dosyayı CSEC Drop Server'a yükle</note>
+    </attachments>
+  </email>
+</mission>

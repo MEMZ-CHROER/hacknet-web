@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMissionIntro">
+  <goals>
+    <goal type="FileDeletion" target="playerComp" file="SecurityTracer.exe" path="bin" />
+  </goals>
+  <nextMission>SSHCrackMission.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>First Contact</subject>
+    <body>Hi.
+
+I don't know you, and I'm sad to say that I never will, but if you're reading this it means you might be the only person that can make things right.
+
+Right now I'm trapped. There's no way out, and not enough time, and I need your help.
+
+But there's something you need to take care of first - the faster the better.
+HacknetOS wasn't meant to be released as it is now - after a while an automated tracker will activate itself - we can't let that happen.
+Connect to your own node (It should be green on your netMap), then find and delete "SecurityTracer.exe".
+
+When you're done, just reply to this email.
+
+Hurry!
+-Bit
+0
+    </body>
+    <attachments>
+      <note title="Hacknet Navigation Guide">Hacknet Navigation Guide
+      
+Use the display module, or the commands "cd [Foldername]" and "cat [Filename]" to navigate and read files.
+
+Delete files using "rm [Filename]"
+
+The Tab key can be used to autocomplete commands and filenames.
+      </note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Intimidation Tactics">
+어떤 주요 고객의 동료가 매우 무례한 짓을 해서, 교훈을 심어줄 필요가 있다. 
+최근에 생성된 서버 백업을 파괴하라..
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>겁주기 전략</subject>
+    <body>
+안녕하신가, 요원. 
+
+우리의 동료 한 명이 매우 요즘 들어 매우 무례하게 선을 넘고 있다네. 그래서 경고의 메시지를 보내고 싶은데. 
+
+정보에 따르면 회사 차원에서 백업을 실행하여 독립된 서버에 데이터를 저장했다는군. 현재 사용 중인 버전은 그대로 두면서, 이 아카이브만 삭제하면 아마 알아듣지 않을까 싶은데.
+ 대상에 대한 정보는 첨부되었네.
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

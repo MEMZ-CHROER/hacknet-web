@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit02_Phase6">
+  <goals>
+    <!--
+    <goal type="FileDownload" target="EnTechOutsiderRepo" file="heart.dec" path="Contractors/Bit" />
+    -->
+  </goals>
+  <missionStart val="1">changeSong</missionStart>
+  <nextMission>BitPath/BitAdv_Intro07.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 설욕</subject>
+    <body>내가 찾던 게 바로 이거야. (아마 당신도 봤겠지만) Bit의 폴더에 있던 암호화된 파일 하나 빼고는 완전히 깔끔하게 삭제되었네. 내가 그 파일 열 수 있어. 
+옛날에 Bit이 나를 포함해서 같이 프로젝트를 하던 동료들에게 비밀번호를 얘기해준 적 있거든. 그 때도 이것처럼 암호화된 메시지를 보냈었지. 
+
+비밀번호는 &quot;divingsparrow&quot;야. 난 벌써 읽어봤어. 이제는 어떤 이메일 계정을 살펴볼 차례야. 당신도 하는 게 좋겠어. 
+파일을 다운로드해서 로컬에서 해독해. 해독된 복사본이 아무 데나 돌아다니지 않게. 그 다음에 나한테 연락 줘. 아무래도 진실에 다가간 것 같은데. 
+
+다 읽고 나서 연락하면 같이 마무리를 짓자고.
+
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyNews02">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Suspicions arise over Entropy">
+El grupo de Internet Entropy ha sido reconocido desde hace tiempo como una fuente fiable de información sobre las últimas novedades en el mundo de la red, sin embargo, recientes acciones por parte del grupo, tales como el cierre de su terminal de acceso público después de que la forma en que habían conseguido esta información fuese puesta en duda, ha despertado las sospechas de la prensa y empresas.
+
+ Aunque el grupo ha sido durante mucho tiempo una fuente segura de información, si la han estado obteniendo por medios ilegítimos, se deben tomar medidas.
+ Más noticias según se produzcan. 
+
+Reportero: Tom Wilkins
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Se debe detener a Entropy</subject>
+    <body>
+Destruye la base de datos de Entropy
+    </body>
+    <attachments>
+      <link comp="entropy01"/>
+    </attachments>
+  </email>
+</mission>

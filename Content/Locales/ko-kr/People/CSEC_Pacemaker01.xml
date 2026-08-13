@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Person id="csec_med_01" handle="Ehwitt" firstName="Elliot" lastName="Whit" isMale="true">
+  <Birthplace name="런던"/>
+  <Degrees>
+    <Degree uni="맨체스터 대학" gpa="3.3">법학 석사</Degree>
+    <Degree uni="맨체스터 대학" gpa="3.1">정치 과학 학사</Degree>
+  </Degrees>
+  <DOB>09/09/1961 22:00:00</DOB>
+  <Medical>
+    <Blood>BO</Blood>
+    <Height>166</Height>
+    <Allergies>없음</Allergies>
+    <Perscription>이버멕틴 X35 매월 : 심장 박동 조절</Perscription>
+    <Notes>환자 심장의 심각한 부정맥 문제로 인해, 약간의 미세 조정이 침습 수술 없이 알 수 없는 변수를 설명할 수 있도록 하고자 페이스 메이커가 장착되었습니다.
+참고 :. 
+. 
+페이스 메이커 연결 ID : 202.6.141.219 문서 및 주의 사항: 66.96.147.84. 
+.Extra 세부 사항: 페이스 메이커를 방해할 수 있는 모든 조치를 취하거나 침습 수술을 수행하기 전에, 그것의 안정성 확인을 위해 제조 업체에 문의하십시오.
+    </Notes>
+  </Medical>
+  <Notes>페이스 메이커 미션 사례</Notes>
+</Person>

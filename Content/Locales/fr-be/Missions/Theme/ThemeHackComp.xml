@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="themeHackComp" name="Noeud_Proxy-X22" security="1">
+  <dlink target="naixGateway"/>
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="sys" name="x-server.sys">#GREEN_THEME#</file>
+  <file path="home" name="Get_Out.txt">
+Joli,
+    
+Tu es bien meilleur que je ne le croyais ! Je suis surpris.
+
+J'aimerai que le sarcasme soit mieux transmis par écrit.
+
+Aussi, ne gâche pas tout, j'aime bien ce proxy.
+  </file>
+  <file path="log" name="@11907_Connection_Routed_173.194.35.172_To_173.188.235.2">Connexion routée 173.194.35.172 à 173.188.235.2</file>
+  <file path="log" name="@28907_Connection_Routed_173.194.35.172_To_203.194.22.112">Connexion routée 173.194.35.172 à 203.194.22.112</file>
+  <file path="log" name="@52734_Connection_Routed_173.194.35.172_To_#PLAYER_IP#">Connexion routée 173.194.35.172 à #PLAYER_IP#</file>
+</Computer>
+

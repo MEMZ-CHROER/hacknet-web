@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase7" >
+  <goals>
+    
+    <!--
+    <goal type="FileDeletion" target="EnTechMainframe" path="Repo/Hacknet" file="Hacknet.sln" />
+    <goal type="FileDeletion" target="EnTechMainframe" path="Repo/Hacknet" file="Hacknet_Runtime.dll" />
+    <goal type="FileDeletion" target="EnTechMainframe" path="Repo/Hacknet" file="HN_NETCORE.dll" />
+    <goal type="FileDeletion" target="EnTechMainframe" path="Repo/Hacknet" file="Hacknet_Source.src" />
+    -->
+    
+    <!-- Offline Backups -->
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/24-02" file="Hacknet_Content.xnb" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/24-02" file="HacknetCore.dll" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/24-02" file="Hacknet.exe" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/24-02" file="Hacknet_Source.zip" />
+
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/03-12" file="Hacknet_Content.xnb" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/03-12" file="HacknetCore.dll" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/03-12" file="Hacknet.exe" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/03-12" file="Hacknet_Source.zip" />
+
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/18-09" file="Hacknet_Content.xnb" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/18-09" file="HacknetCore.dll" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/18-09" file="Hacknet.exe" />
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/18-09" file="Hacknet_Source.zip" />
+    
+  </goals>
+  <missionStart>enTechEnableOfflineBackup</missionStart>
+  <nextMission>BitPath/BitAdv_Intro08_Complete.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Yok Etme</subject>
+    <body>Sende okudun. Bunun ne anlama geldiğini biliyorsun.
+En azından Bit'in başlattığı işi ne bitirecekse onu yaparak başlayacağım.
+
+Sen Üstlenim (Contractor) sunucusuna girmenin yolunu bulurken bende yedekleri araştırıyordum. Yedekleri çevrimdışı konumda tutuyorlar fakat güncel kalmaları için sunuculardan güncelleme indiriyorlar. Bu yüzden de sunucu belli aralıklarla internete otomatik olarak bağlanıyor.
+Akıllı davranıp zamanı tutturarak bu işi halledebileceğimi düşünüyorum. Bağlantı ayarlamak kolay olmayacak fakat bir planım var. Eski dizilim programlarımdan birini zamanı ayarlamak için yeniden donattım. Bunu arkadaşlarımla çalıştığım zamanlarda ayarlamaları ve benzeri şeyleri düzene koymak için kullanırdım.
+CSEC asset sunucusunda "Sequencer" adında yüklü bir kopyası mevcut. Hazır olduğunda onu çalıştıracaksın. Bu da bana yedek sunucusunu çalıştırmam ve sunucuyla bağlantını sağlamam için işaret gönderecek. Fazla süren olmasa da işini halletmen için yetecektir. Ben sunucuyu çalışır vaziyette tutarken sende içinde "hacknet" sözcüğünü barındıran her şeyi sileceksin. Ayrıca sunucuyu çalışır halde tutarken, yani sen içerideyken ana bilgisayarı da temizleyeceğim.
+Eğer Bit bu şeyin yok olmasını istiyorsa, elimizden gelenin en iyisini yapalım.
+
+Savaşalım. Kazanalım.
+
+-V
+    </body>
+    <attachments>
+      <link comp="mainHubAssets" />
+    </attachments>
+  </email>
+</mission>

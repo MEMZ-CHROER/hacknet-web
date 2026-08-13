@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dKeebs" name="ClickLab Productions" security="1" type="4" icon="DLCPC1">
+
+  <proxy time="1" />
+  <portsForCrack val="3" />
+  <ports>21, 6881, 443</ports>
+  <trace time="85" />
+
+  <file path="home/keebs" name="Switches.txt">Guía de compras de switches
+----------------------
+Los switches son algo personal, así que te recomiendo mucho que pruebes por ahí con varios tipos en una tienda o algo así antes de comprar algo, pero si no puedes, con esto te puedes hacer una ligera idea.
+Primero hablaré de los tipos y luego un poco de las diferencias entre las marcas.
+
+Marrones:
+Son los switches mecánicos básicos y son táctiles (lo que quiere decir que tiene una pequeña resistencia al pulsarlos y sabes cuándo se activan exactamente), son razonablemente ligeros y no hacen ruido adicional.
+Son los que recomendaría a alguien que se vaya a comprar un teclado mecánico por primera vez sin haber probado alguno antes. Aportan una sensación muy buena y sirven para comprobar si te gusta este tipo de teclados sin decepcionarte de inmediato.
+Se podría decir que los marrones le gustan a todo el mundo y que son un buen puente para encontrar aquellos que te gustan más.
+
+Rojos:
+Están diseñados para ser marrones lineales. Con lineales me refiero a que no tienen ninguna resistencia al activarse, por lo que hay que ejercer siempre la misma presión al teclear. Se suelen vender diciendo que son "mejores para los gamers", pero si te soy sincero me parece una estupidez.
+Mucha gente (entre los que me incluyo) cree que los rojos son un engorro para escribir. Yo echo de menos la resistencia al activarse, pero a algunos les gustan así.
+
+Azules:
+Son como los marrones pero con un mecanismo adicional dentro del switch que hace que hagan más ruido al activarse. Son muy ruidosos (demasiados para mí), pero esa respuesta adicional hace que sean muy buenos para escribir.
+Si vives o trabajas con más personas a tu alrededor, te recomiendo que empieces con uno marrón. Ten en cuenta que estos los vas a oír aunque tengas puestos los auriculares.
+
+Luego hay variantes más pesadas, cuyo diseño es igual al de los switches de arriba pero con un muelle interno que las hace más pesadas y que sean más difícil de pulsar.
+Este peso hace que los teclados sean más pesados y parezcan más caros, que está bien pero también hace que te duelan los dedos si trabajas mucho tiempo. Cuesta algo acostumbrarse.
+
+Los verdes son más pesados que los azules.
+Los negros son más pesados que los rojos.
+Los blancos son más pesados que los marrones.
+
+Las marcas más famosas son Gateron y Cheery.
+Los switches táctiles de Gateron (azul, marrón y verde) son versiones más suaves y baratas de los Cherry. Píllalos si puedes.
+Los blancos de Gateron no son más pesados que los marrones. Por alguna razón son como rojos pero más ligeros. (¡¡¡¿¿¿¿????!!!) Es algo que descubrí por las malas.
+Los switches lineales de Gateron también son un poco flojos, te recomiendo que pilles Cherry en ese caso. Son muy buenos. Con los Cherry no te vas a arrepentir, son geniales. Los marrones de Gateron también son buenos.
+
+  </file>
+
+  <file path="home/keebs" name="Advanced_Switches.txt">Switches poco comunes o avanzados
+------------------------
+
+Hablemos sobre Topre.
+Topre es mierda de la buena. Estoy escribiendo esto en un Topre RF87U. Switches de 55 g., a tope. Sin duda.
+
+Topre es una empresa japonesa que fabrica un switch capacitativo especial de reacción electrostática. Es muy diferente a los switch mecánicos clásicos y que te guste o no ya es algo personal.
+Algunos dicen que parecen teclados de goma caros y otros que son la pollísima. No le gusta a todo el mundo, pero no suelo estar de acuerdo con los que lo afirman. Son raros, increíbles y mis favoritos.
+
+Lo único malo es que no puedes ponerles teclas personalizadas porque no son compatibles con las de Cherry MX. Aunque ahora se han puesto a ello y ya están sacando teclados que sí que son compatibles. Pero créeme, solo hay que poner un set de anillos silenciadores y conseguirás una sensación muy parecida a la de un Realforce y además se podrán cambiar las teclas y estarán retroiluminadas (una pasada)
+
+Zealios.
+Y switches MOD-X. También hay algunos switches personalizados hechos por la comunidad de pesos y procesos de creación especiales. Se dice que los Zealios son los "morados" de Gateron.
+Están entre los marrones y blancos de Cherry, tienen la suavidad de los Gateron y serían la mejor opción para mucha gente. El problema es que tienes que hacerte tu propio teclado para usarlos, así que no son muy accesibles.
+  </file>
+  
+  <file path="home/keebs" name="Keycaps.txt">Guía de teclas
+------------------------
+Apúntate a Massdrop, entra en el subreddit /r/MechanicalKeyboards y entérate de todo lo que se cuece en el mundo de las teclas. Calcula pagar unos 200 dólares y esperar 9 meses por los plastiquitos, pero vaya que si molan.
+
+Signature Plastics en EE. UU., TaiHao en Taiwán y GMK en Alemania son las grandes marcas del momento. TaiHao es buena y barata, GMK son caros y *muy buenos* y SP son caros pero la única opción de pillar teclas para los perfiles SA o DSA.
+
+Los perfiles, cierto. Los mecánicos normales usan perfiles OEM, que son muy parecidos (o lo mismo normalmente) que el perfil "Cherry". TaiHao y GMK usan el perfil Cherry.
+
+SP fabrica teclas para los perfiles SA y DSA. La teclas SA son altas, brillante y abultadas. Las DSA son uniformes, bajas y planas, más parecidas a las de un portátil. ¡No te olvides de buscar fotos!
+El problema es que no suele haber unidades en tiendas y hay que estar pendiente para comprar los sets nuevos en grupo y en ofertas. La comunidad tiene un puñado de diseñadores que proponen sets, y cuando se aceptan puedes apuntarte para conseguirlos.
+¡Es muy divertido! Algunos buenos ejemplos:
+
+GMK Carbon
+DSA Dolch
+TaiHao Sunset
+SA CalmDepths
+  </file>
+  
+  
+  <file path="home/keebs" name="BoardLayout_Design_Notes.txt">
+TenKeyless (sin numpad) está bien, pero básicamente porque es una mierda tener el numpad entre las manos y el ratón, y los teclados así son demasiado tochos.
+Creo que los teclados con el numpad a la izquierda (como los de Monarch) son el futuro.
+Pero me siguen gustando las teclas de navegación.
+
+Un diseño personalizado lo mola todo. Todo el mundo usa el teclado de manera diferente, así que terminaré por quitar las teclas que no uso.
+Después de usar Whitefox un tiempo, estoy convencido de que los teclados compactos son lo mejor. Volver a uno grande me parece un engorro.
+
+El Bloq. Mayús. es terrible, raro y ocupa mucho. Cámbialo por Control.
+Mejor aún, cámbialo por Control y usa Control para otra cosa como hacer macros de función con otras teclas.
+
+Teclas de navegación: He probado y suelo encontrar los cursores sin mirar gracias al espacio vacío que hay sobre el de la derecha. Mientras siga habiendo uno, me resultará fácil.
+El espacio vacío sobre el de la izquierda que hay en el Whitefox me gusta, pero no me serviría para nada. Aun así, con mis diseños no he encontrado muy lógico añadir ahí otra tecla, así que puede que siga dejando ambos espacios vacíos.
+  </file>
+  
+  <file path="home/keebs" name="the_dream.txt">
+Disposición personalizada -> numpad a la izquierda, teclas de navegación pequeñas.
+Switches de 55 g. con sliders novatouch
+anillos silenciadores
+cambiar teclas a menudo (¿empezar con DSA Dolch?) 
+Doble placa de aluminio y cuerpo de resina retroiluminada - Estilo Monarch.
+Reprogramable al completo con input.club
+
+Reposamuñecas de madera de nogal.
+</file>
+  
+  <file path="home/keebs" name="purchase_blacklist.txt">
+ChucklingKumquat
+</file>
+
+  <file path="home/projects" name="Adonis87U_PCB_Spec.gbr">#BINARY#</file>
+  <file path="home/projects" name="Adonis68ISO_PCB_Spec.gbr">#BINARY#</file>
+  <file path="home/projects" name="layout_wip.txt">http://www.keyboard-layout-editor.com/#/gists/0ffdf87af5ba50af1a1018052012832b</file>
+  
+  <file path="home/records" name="purchase_blacklist.txt">
+ChucklingKumquat
+</file>
+  
+  <Memory>
+    <Data>
+      <Block>http://imgur.com/a/B1Iox</Block>
+    </Data>
+  </Memory>
+
+</Computer>

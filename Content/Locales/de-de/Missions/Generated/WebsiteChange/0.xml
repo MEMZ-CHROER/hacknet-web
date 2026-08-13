@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="generatedWebVandal00">
+  <goals>
+    <goal type="FileChange" target="#COMP#" file="#FILE#" path="#PATH#" keyword="liars" />
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# : Das Ende der Maskerade">
+Ein spendabler Klient hat um eine kleine Änderung auf der Website seines Konkurrenten gebeten, die ihr wahres Image ans Licht bringen soll.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Das Ende der Maskerade</subject>
+    <body>
+Hallo,
+
+die Wahrheit über #TARGET# soll ans Licht gebracht werden - sie haben sich mit fragwürdigen Methoden und Lügen an die Spitze des Wettbewerbs geschummelt.
+
+Wir würden gerne nur einmal die Wahrheit auf ihrer Website sehen - ihre eigene Website soll sie als das bloßstellen, was sie sind: "LIARS" - Lügner.
+
+Vielen Dank,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet07">
+  <goals>
+    
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Şüpheli Sunucu Kontrolü">
+Garip bir sunucuya girdim. Güvenlik sandığımdan daha sıkı çıktı. Denemedim ancak buna göz atmak isteyebileceğini düşündüm.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Kırmızı Çizgi</subject>
+    <body>
+Hey,
+
+Bir şeyler bulur musun bilmiyorum ancak göz atmak isteyebileceğini düşündüm. Arama yazılımı kullanırken bu sunucuya girdim. İzlence etkinleştirdiğimden fazla uğraşmadım. Belki senin gibi deneyimli biri göz atmak isteyebilir.
+Süper güvenli bir şeyler falan bulursan bana haber ver!
+
+-Anon
+    </body>
+    <attachments>
+      <link comp="honeypot01" />
+    </attachments>
+  </email>
+</mission>

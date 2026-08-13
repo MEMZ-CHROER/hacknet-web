@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <generationKeys File="GameFile_Source_Pak.zip" Path="home/code"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT#の製品の不正コピー">
+ある会社の製品をそのままコピーしたものが市場に出回っています。どうやら、海賊版で利益を得ているものがいるようです。
+この無法者どもの対応をお願いします。
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - 製品はオンリーワン</subject>
+    <body>
+エージェント様へ
+
+#CLIENT#は先日、新たな商品をアプリストアにリリースしました。最初の数日は非常に売れ行きが良かったのですが、しかし突然目に見えて売り上げが落ち込んでしまったのです。調査したところ、
+わが社のアプリを盗んで不正コピーし、元の価格より安い値段で売っている盗人がいることが判明しました。会社間の競合ならかまいませんが、これは製品のコピーを無許可で販売している、ただの
+海賊行為です！わが社に入るべき利益の不当な奪取です！一刻も早く止める必要があります。
+
+この問題の「解決」にご協力いただけると、当方としては非常にありがたいです。
+仕事内容といたしましては、彼らのシステム内にあるものすべてを破壊していただきますようお願いします。リンクはメールに添付しておきました。
+
+どうかよろしくお願いします。
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

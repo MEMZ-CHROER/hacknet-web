@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="factestMission2">
+  <goals>
+    <goal type="getString" target="testString"/>
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Matt</sender>
+    <subject>Second Mission Test</subject>
+    <body>
+This mostly tests that we're actually loading the full chain.
+Update: it now also tests the faction system in automated tests!
+    </body>
+    <attachments>
+      <note title="some note">
+Note Contents
+      </note>
+    </attachments>
+  </email>
+</mission>

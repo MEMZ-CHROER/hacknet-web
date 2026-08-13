@@ -1,0 +1,74 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="xcTablet" name="X-C Project Tablet#001//INVESTIGACIÓN" security="2" icon="tablet" type="4">
+  
+  <proxy time="1.0"/>
+  <portsForCrack val="1"/>
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1"/>
+
+  <adminPass pass="cyberdisk"/>
+  
+  <file path="X" name="LaserRifle_mk2.spec">
+X-C_PROJECT:ID#1299
+
+INFORME DE INVESTIGACIÓN CON ESQUEMA 
+Nombre en clave: Sunray 
+
+Nuestra reciente investigación sobre las ópticas mejoradas que se encuentran en los dispositivos extraterrestres ha tenido un gran éxito, y nuestros esfuerzos iniciales por aplicar la tecnología en nuestros propios sistemas de armas son extremadamente prometedores. 
+Nuestros intentos iniciales con el rifle láser MK2 por hacer un rifle capaz de disparar prolongadamente mientras dure la energía no han dado sus frutos, debido a problemas de sobrecalentamiento. El rifle MK2 requiere una disipación de calor después de dispararse prolongadamente, emulando la recarga de armas tradicionales. 
+Aunque no es ideal, posibilitar esto ha creado un arma significativamente más precisa y letal que nuestros esfuerzos anteriores, y debe ser algo así como una actualización plana de todos los aspectos de nuestros actuales rifles. 
+
+Aunque los materiales necesarios para fabricar los fusiles no son muy caros (salvo la necesidad de algunas aleaciones recuperadas), nuestras técnicas de fabricación actuales requieren muchos intentos de producir una lente de enfoque de la claridad y la estabilidad adecuadas, un sistema que todavía no hemos perfeccionado. 
+Debido a esto, los fusiles requerirán la fabricación de aproximadamente 100 sistemas de enfoque para poder crear uno con la calidad lo suficientemente alta (un problema que se observa en la fabricación actual de lentes fotográficas). Al añadir más ingenieros, podemos ser capaces de dedicar personal para que se especialicen en estas áreas y reducir este problema, disminuyendo así el coste de fabricación.
+
+ Los esquemas de la fabricación están disponibles en el servidor central de ingeniería como ID#1300
+  </file>
+  
+    <file path="X" name="FlightComputers.rep">
+X-C_PROJECT:ID#1938
+
+ INFORME DE INVESTIGACIÓN 
+Nombre en clave: Lighthouse 
+
+El ordenador de vuelo extraterrestre fue una investigación extremadamente interesante. Sin los miembros del equipo de investigación especializados que encontraron la forma de descifrar los sistemas de datos extraterrestres, habríamos hecho muy pocos avances. Aunque todavía desconocemos muchas de las operaciones ejecutables y programáticas del ordenador, hemos descifrado muchos datos y logrado recuperar algunas imágenes y sonidos del dispositivo, aunque los idiomas utilizados en lo que suponemos que son archivos de texto están aún fuera de nuestro alcance. 
+Muchos datos implican que el ordenador está especializado en la navegación de larga distancia, funcional tanto en las escalas planetarias como galácticas. También incluye cierta información confusa sobre la prevención de colisiones a velocidad extremadamente alta. Aunque a la nave no parece que le afecten partículas más pequeñas como los asteroides, está diseñada para evitar masas planetarias durante el viaje. Nos da muchas pistas acerca de la naturaleza de su tecnología de propulsión más rápida que la luz, que requerirá investigaciones adicionales. 
+
+Además, hemos encontrado algunas imágenes sorprendentes en el dispositivo. Lo que en un principio parecía ser información anatómica y médica sobre la tripulación de la embarcación, al reevaluarla observamos que era una especie de pornografía extraterrestre. Aunque no hay órganos reproductores visibles, la especie sectoide parece tener una fascinación por el cuello y la parte inferior de la mandíbula, por razones que aún no podemos comprender.
+ Aunque no hay información concreta, nuestras tropas puede que quieran considerar esto un punto débil, aunque podría ser difícil de atacar en el fragor de la batalla.
+
+  </file>
+  
+ <file path="X" name="WIP_Xenogenetics.txt">
+X-C_PROJECT:ID#2133
+
+ Las especies recuperadas son muy similares, no solo en apariencia sino en la composición genética. Mi interpretación inicial de que eran clones puede ser incorrecta; aunque el ADN entre los organismos es idéntico, tal vez esto es un rasgo común de su especie, las diferencias individuales son sistemas puramente mentales. 
+
+Los sistemas nerviosos entre las especies son muy similares a los encontrados en mamíferos terrestres (incluidos los humanos). ¿Qué dice esto acerca de nuestros propios orígenes? ¿Es esto una constante universal? ¿Por qué?
+
+ Ninguna especie detectada parece tener ningún tipo de olor, aunque sus sentidos visuales parecen muy similares a los encontrados en algunos insectos, pero mucho más desarrollados. La abertura facial en la región de la nariz parece ser utilizada para el gusto, aunque tiene prácticamente la misma función.
+  </file>
+
+  <file path="X/Personal" name="Penetrator_mk1.spec">
+X-C_PROJECT:ID#4991
+
+ INFORME DE INVESTIGACIÓN CON ESQUEMA 
+Nombre en clave: Gaping Dragon
+
+ Requisitos: 
+x 22  Aleaciones
+ x 2   Fuente de alimentación ovni 
+x 10  Elerium
+ x 185 Créditos
+
+ Este dispositivo alimentado con elerium es capaz de extender y retraer una varilla de aleación de larga duración hasta 60 cm a una velocidad de 200 oscilaciones por segundo con una duración prácticamente ilimitada sin necesidad de fuentes de alimentación adicionales. 
+La innovadora fuente de alimentación permitirá obtener tiempos de funcionamiento e intensidades anteriormente inalcanzables. Se debe tener especial cuidado con el soporte exterior del brazo, que permite la unión de un número de diferentes &quot;cabezas&quot; y debe proporcionar un encaje seguro. 
+
+Obsérvese también que la varilla tiene que ser desmontable, como se describe en la nota A-12. 
+Este dispositivo nos deberá permitir... mejorar la investigación eficientemente en gran medida, y debe ser una prioridad. Los esquemas necesarios se han enviado al Dr. Shen para su fabricación inmediata. 
+
+DATOS REF. ESQUEMA: 
+#BINARY#
+
+  </file>
+  
+</Computer>

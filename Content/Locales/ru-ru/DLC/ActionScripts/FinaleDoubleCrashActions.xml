@@ -1,0 +1,53 @@
+<ConditionalActions>
+
+  <OnConnect target="dhs" needsMissionComplete="false">
+
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-30.70">------------------------------------------------</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-30.75">!ANNOUNCEMENT!</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.0">*** Инициализирована функция CHANNEL: ## k_rmt_BACKUPOVERRIDE.bat ##</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.2">*** Установлен режим CHANNEL: +b (бан) для пользователя @Coel</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.4">*** CHANNEL выгнал пользователя @Coel</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.6">*** CHANNEL добавил пользователя @Kaguya</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.8">*** CHANNEL добавил пользователя @D3f4ult</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-32.2">------------------------------------------------</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-21.8">Мы вернулись. </AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-20.8">@D3f4ult, ты здесь? Похоже Coel попыталась помешать нам.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-8.8">Да, я здесь. Она вырубила мой главный шлюз. Сижу сейчас на одноразовом ноуте, но мну потребуется некоторое время чтобы все восстановить.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-6.8">Бля... Я помогу тебе восстановить все за минуту. </AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-2.8">Но сначала надо бы разобраться с текущей проблемой.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-0.8">Конечно. Дай знать если тебе понадобится моя помощь.</AddIRCMessage>
+
+    <!-- Current time -->
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="1.2">Хорошо...</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="3.2">Он упал. Наше дело здесь закончено.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="6.2">@#PLAYERNAME# , @D3f4ult, вы отлично справились. Спасибо за проделанную работу.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="9.2">@D3f4ult, жаль, что ты не подождал меня и Coel, чтобы обговорить все, вместо того, чтобы бежать впереди паровоза. Она человек незаменимый. Запомни это.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="15.2">@#PLAYERNAME#, спасибо за понимание. Твое решение было верным.</AddIRCMessage>
+
+    <RunFunction DelayHost="dhs" Delay="16.0" FunctionName="deActivateAircraftStatusOverlay" />
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="20.8">Что насчет второго самолета? На котором отчеты...</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="23.2">Охереть. Он тоже упал. #PLAYERNAME# ?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="26.2">эмм...</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="30.2">Ок. Все идет по плану. Не переживайте. Так надежнее всего. Мы удостоверились - дважды. Учитывая, что это было делом особой важности. Мы имеем право не рисковать.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="34.0">Мда...</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="37.2">Мне нужно время подумать...</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="41.2">А пока что нам всем лучше разойтись.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="45.6">После того как Coel предала нас, работать вместе будет небезопасно.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="47.0">:/</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="48.2">Да...</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="53.2">У меня есть ваши контакты, так что как только все уляжется я с вами свяжусь.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="56.2">Этот сервер удалит ваши трекеры. Считайте, что все что нашли принадлежит вам. Я скопирую туда все остальное что я для вас приготовил.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="59.2">Приятно было работать с вами двоими. Спасибо за помощь.</AddIRCMessage>
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="62.2">Kaguya, #PLAYERNAME#, до связи.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="65.2">Будьте поаккуратнее там.</AddIRCMessage>
+    <!-- Kaguya copy over double crash assets to personal server here -->
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="67.2">!ATTACHMENT:link#%#Kaguya_Projects#%#54.183.231.34</AddIRCMessage>
+    
+  </OnConnect>
+
+</ConditionalActions>

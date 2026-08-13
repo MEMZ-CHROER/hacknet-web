@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit_recovery">
+  <goals>
+    <goal type="getString" target="156.151.59.35"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro03.xml</nextMission>
+  <branchMissions>
+    <branch>BitPath/BitAdv_Intro07.xml</branch>
+    <branch>BitPath/BitAdv_Intro05.xml</branch>
+    <branch>BitPath/BitAdv_Intro03.xml</branch>
+  </branchMissions>
+  <posting title="[ V ] - Continue Investigation">
+Este mensaje es para #PLAYERNAME#. 
+¿Has empezado otro contrato? Acepta este cuando estés listo para volver al trabajo. 
+
+-V
+  </posting>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Reunión</subject>
+    <body>
+¿Preparado para volver al trabajo? 
+
+Sigue desde donde lo dejamos, aún estoy investigando. 
+
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

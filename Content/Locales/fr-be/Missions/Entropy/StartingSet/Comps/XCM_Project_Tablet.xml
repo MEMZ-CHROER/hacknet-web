@@ -1,0 +1,74 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="xcTablet" name="Tablette projet X-C #001//RECHERCHE" security="2" icon="tablet" type="4">
+  
+  <proxy time="1.0"/>
+  <portsForCrack val="1"/>
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1"/>
+
+  <adminPass pass="cyberdisk"/>
+  
+  <file path="X" name="LaserRifle_mk2.spec">
+PROJET_X-C : ID#1299
+
+RAPPORT DE RECHERCHE W. SCHÉMA 
+Code : Rayon de Soleil 
+
+Nos recherches récentes sur les optiques améliorées découvertes dans les dispositifs extraterrestres furent couronnées de succès, et nos premiers efforts pour utiliser cette technologie dans nos propres systèmes d'armement sont très prometteurs.
+ Le fusil laser MK2 a cependant été écarté en raison de problèmes de surchauffe en cas de tir en continu. Le fusil MK2 nécessite une dissipation de la chaleur après un tir continu, un peu comme le rechargement d'une arme cinétique traditionnelle.
+ Si ce n'est pas idéal, cela permet néanmoins d'obtenir une arme bien plus précise et mortelle qu'auparavant, supérieure en tous points à nos modèles actuels. 
+
+Si les matériaux nécessaires pour fabriquer les fusils ne sont pas extrêmement chers (à part pour les alliages récupérés), nos techniques actuelles devront être améliorées pour pouvoir construire une lentille de concentration de clarté et de stabilité appropriées.
+ Pour cette raison, il faut environ une centaine d'essais pour produire une lentille de qualité suffisamment élevée (ce problème est également rencontré chez les fabricants de lentilles photographiques). L'emploi de nouveaux ingénieurs nous permettraient de spécialiser du personnel dans ces domaines et réduire les coûts de fabrication.
+
+ Les plans de fabrication sont disponibles dans le serveur central sous l'ID#1300
+  </file>
+  
+    <file path="X" name="FlightComputers.rep">
+PROJET_X-C : ID#1938 
+
+RAPPORT DE RECHERCHE 
+Code : Phare 
+
+L'analyse de l'ordinateur de vol extraterrestre fut extrêmement intéressante. Sans nos équipes de recherche spécialisées, qui ont trouvé un moyen de déchiffrer les systèmes de données extraterrestres, nous n'aurions pu faire que très peu de progrès. Si nous ne savons toujours rien au sujet des exécutables et des opérations logicielles de l'ordinateur, nous avons déchiffré la majorité des données, et nous avons réussi à récupérer des images et des sons, même si les langages utilisés restent incompréhensibles.
+ L'ordinateur semble avoir été spécialisé dans la navigation à portée extrême, et aurait été fonctionnel à l'échelle planétaire comme galactique. Il comprend également des informations étonnantes sur un système d'évitement des collisions à haute vitesse. Si le vaisseau semblait peu se soucier des petits objets comme les astéroïdes, il pouvait éviter les masses planétaires lors de ses voyages. Cela nous fournit de nouvelles pistes quant à la nature de leur technologie de propulsion supraluminuque qui nécessiteront de nouvelles recherches.
+
+ En outre, nous avons découvert des images surprenantes sur l'appareil. Ce qui à première vue semblait être des informations anatomiques ou médicales à propos de l'équipage du vaisseau s'est avéré être une forme de pornographie extraterrestre. Si on ne peut voir aucun organe reproducteur, l'espèce sectoïde semblait être fascinée par le cou et la partie inférieure de la mâchoire pour des raisons encore inconnues. 
+Cette information n'est pas encore confirmée, mais nos troupes pourraient les considérer comme des points faibles, même s'ils seraient probablement difficiles à cibler dans le feu de l'action.
+
+  </file>
+  
+ <file path="X" name="WIP_Xenogenetics.txt">
+PROJET_X-C : ID#2133
+
+ Les espèces récupérées sont toutes extrêmement similaires, non seulement d'apparence, mais également génétiquement. Mon interprétation initiale, que nous avions affaire à des clones, est peut-être inexacte. Si l'ADN entre les entités est identique, c'est peut-être un trait commun à toute l'espèce.
+
+ Les différences individuelles sont purement mentales. Leur système nerveux ressemble énormément à celui des mammifères terrestres (y compris les êtres humains). Que cela peut-il bien vouloir dire quant à nos propres origines ? Est-ce une constante universelle ? Pourquoi ? 
+
+Aucun des spécimens ne semblaient avoir le sens de l'odorat, mais les sens visuels étaient très similaires à ceux des insectes, en bien plus développé. L'ouverture faciale au milieu du « visage » ressemble plus à une forme de goût, mais cela revient presque au même.
+  </file>
+
+  <file path="X/Personal" name="Penetrator_mk1.spec">
+PROJET_X-C : ID#4991
+
+RAPPORT DE RECHERCHE W. SCHÉMA 
+Code : Dragon béant 
+
+Prérequis : 
+22x  Alliages   
+2x Sources énergétiques OVNI  
+10x Élérium 
+185x Crédits 
+
+Ce dispositif alimenté à l'élérium est capable d'étendre et de rétracter un alliage extrêmement résistant jusqu'à 60 centimèrtes à un rythme de 200 oscillations par seconde pendant une durée virtuellement illimitée sans l'addition de sources énergétiques additionnelles.
+ Il faut accorder une attention particulière lors du traitement aux supports externes du bras qui permettent l'installation de plusieurs « têtes » différentes, et qui doivent fournir une attache sécurisée. 
+
+Veuillez également noter que la tige doit être amovible, comme décrit dans la note A-12. 
+Ce dispositif devrait nous permettre... d'améliorer grandement l'efficacité des recherches. Ce devrait être une priorité. Les schémas requis ont été envoyés au Dr Shen pour une mise en fabrication immédiate. 
+
+DONNÉES RÉF DES SCHÉMAS : 
+#BINARY#
+
+  </file>
+  
+</Computer>

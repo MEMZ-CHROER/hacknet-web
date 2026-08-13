@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dPets_Home" name="Página principal de Neopals " security="1" type="empty">
+
+  <trace time="70" />
+  <portsForCrack val="3" />
+  <ports>22, 80, 6881, 443</ports>
+  <portRemap>443=8080</portRemap>
+  <admin type="fast" resetPassword="true" isSuper="false"/>
+
+  <tracker />
+
+  <addWebServer name="Neopals!"
+                url="Content/Web/Presets/Neopals/Neopals.html" />
+
+  <dlink target="dPets_Auth" />
+  <dlink target="dPets_MF" />
+  <dlink target="dPets_VC" />
+
+  <positionNear target="dPets_MF" position="10" total="360" extraDistance="0.01"/>
+
+  <proxy time="1.5" />
+
+  <admin type="progress" isSuper="true"/>
+
+  <file path="home" name="Server_Config_Info.txt">
+--IMPORTANTE--
+Este servidor aloja el front-end del sitio. Mantiene las conexiones con los servidores de autenticación y el mainframe para extraer datos y recibe sus propias actualizaciones del sistema de control de versiones.
+¡No coloque aquí manualmente los archivos de implementación! Está configurado automáticamente. Utilizarlo sin conocimiento podría arruinar el proceso de implementación de la actualización.
+  </file>
+  
+</Computer>

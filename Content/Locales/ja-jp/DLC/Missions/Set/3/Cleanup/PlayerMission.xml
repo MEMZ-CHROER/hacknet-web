@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dCleanupMission">
+  <goals>
+    <goal type="clearfolder" target="ds3_fn" path="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="清掃">D3f4ultは一身上の都合により、ハッキングの途中でPCを離れなければならなかったそうです。標的に侵入し、残った仕事を片付け、痕跡を消してください。</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>清掃</subject>
+    <body>
+D3f4ultは一身上の都合により、ハッキングの途中でPCを離れなければならなかったそうです。標的に侵入し、残った仕事を片付け、痕跡を消してください。
+----
+個人的都合のため、D3f4ultはミッションの最中にPCから離れなければならなかったそうです。代わりに標的マシンに侵入し、痕跡を消してミッションを完遂してください。
+
+未発表のプロジェクト、Funkensteinの調査をお願いします。ホームサーバーのリンクを貼ります。発見したものはダウンロードしてドロップサーバーにアップロードしてください。
+D3f4ultが離席する前のログ：
+
+Kaguya: 大丈夫ですよ。
+D3f4ult: マジですいません。
+Kaguya: 自分を責めないでください
+D3f4ult: 詳細は次の通り
+D3f4ult: IP: 21.32.43.54
+D3f4ult: login: admin
+D3f4ult: pw: redwood
+D3f4ult: このシステムと、他のいくつかのシステムで既に仕事は終わっていて、 
+D3f4ult: あとは暗号化されたファイルを見つけてドロップボックスに投げるだけ。
+D3f4ult: クライアントによると未発表の楽曲に関する何かだとか
+D3f4ult: あと、作業で残ったファイルが放ったらかしだから、その始末を頼みます。
+
+健闘を祈ります。
+-Kaguya
+    </body>
+    <attachments>
+      <link comp="ds3_fn" />
+      <note title="Mission Guidelines">ベースサーバーでD3F4ultに関連するファイルをすべて削除。
+さらに未発表プロジェクトを調査
+発見したファイルをドロップサーバーへ</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase2">
+  <goals>
+    <goal type="getString" target="156.151.59.35"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro03.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Doğrulama</subject>
+    <body>Mükemmel.
+    
+TraceKill Adından da anlaşılacağı gibi çalıştığı sırada etkin izlenceleri saptırır. Bu işini kolaylaştıracaktır.
+
+Başlayalım.
+
+Son seferden sonra - sende o mesajı görmüştün - biraz keşif yaptım. Son seferde neler olduğunun farkındaydı. Her neyse, olanların işiyle bağlantılı olduğu düşüncesi bile ilk adımı atmaya yetmişti. İz sürdüm ve sunucu veya aktarıcılarının listesinin bir kısmını buldum. Kaçının aynı bilgisayarda çalışan sanal makine yazılımı olduğunu bilemem fakat bu da iyi bir başlangıç.
+En umut verici olanını e-postanın sonuna ekledim: Görünüşe göre üzerinde çalıştığı sürüm kontrol havuzlarının kopyalarını özel olarak barındırmak için kullandığı bir kişisel çalışma sunucusu.
+Bu bile ipucu olabilir. Kim kurumsal videokonferans oturumlarını yedekler ki? Aklıma üç neden geldi: ya iş boka sararsa sen sorumlu olacaksındır ve etrafın beceriksizlerle çevrilidir, dolayısıyla emin olmak istersin, ya hukuki sebeplerden ötürü yedeklere ve kayıtlara ihtiyacın vardır, ya da bir konu canını sıkıyordur ve işler ters giderse diye kayıt almak istemişsindir.
+
+Her ne olursa olsun, işe buradan başlamalıyızı gibi geliyor. Göz atmak ister misin? Etrafı biraz kurcaladım fakat önemli bir şey yoktu. Repo dökümlerini çözümleyemedim.
+
+Bir şey bulursan bana haber ver. Bulduğun bağlantılarda garip bir şey görürsen de IP adresini gönder.
+
+-V    
+    </body>
+    <attachments>
+      <link comp="BitWorkServer" />
+    </attachments>
+  </email>
+</mission>

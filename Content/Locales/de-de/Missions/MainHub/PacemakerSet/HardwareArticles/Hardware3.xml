@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle03">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0014 - Schrittmacher v2.44: Fernwartung und Tools">
+Hier werden die Herzmonitor- und Updatefunktionen des v2.44 Herzschrittmachers näher beschrieben. Für generelle Informationen, konsultieren Sie bitte das mitgelieferte Handbuch. Sollten Sie dieses nicht erhalten oder verloren haben, fordern Sie bitte eine neue Kopie an: support@kellisBio.com
+---------------------------------------------
+
+Der Kellis Biotech v2.44 Herzschrittmacher (im Folgenden: "Schrittmacher") wurde für Patienten entwickelt, deren Gesundheit stark gefährdet ist oder durchgehende Überwachung ihrer Herzfunktionen benötigen, aber nicht in einem Krankenhaus bleiben können.
+Der Schrittmacher erlaubt die Verbindung zu einem außenstehenden System und gibt in Echtzeit einen Überblick über die EKG Daten und bietet einige Update-Tools. In Betracht der Wichtigkeit eines reibungslosen Betriebs (und einer 0% Ausfallquote), ist das System gesichert, um nur Updates auszuführen, die von einem speziellen Build-Server unserer Software-Entwickler digital signiert wurden.
+
+Updates werden in der Regel nur auf Anfrage durchgeführt (um beispielsweise die Stimulationsfrequenz an Änderungen im Herzrhythmus anzupassen).
+Kellis Chipsätze erlauben so Updates, ohne das weitere Operationen nötig sind. Obwohl frühere Chipsätze eine Manuelle Update-Funktion besaßen, wurde diese aus Sicherheitsgründen entfernt, sodass der Chipsatz nur Änderungen über Firmware-Updates akzeptiert (welche per Fernwartung geschehen und so Operationen überflüssig machen).
+
+Sollten Sie ein Firmware-Update benötigen, wenden Sie sich bitte an den Ihnen zugewiesenen Kellis Biotech Ansprechpartner. Dieser wird Ihnen dann bei der Planung zur Seite stehen.
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Wenn du diese E-Mail erhältst, ist ein unerwarteter Fehler aufgetreten.
+Bitte in Panik geraten.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

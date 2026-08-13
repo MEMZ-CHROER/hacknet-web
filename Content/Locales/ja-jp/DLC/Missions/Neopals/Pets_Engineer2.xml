@@ -1,0 +1,72 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPets_Engineer2" name="Ash-ALIENGEAR13" security="2" ip="54.192.234.65" icon="DLCPC2">
+
+  <!-- Neopals artist - contains eos device hint for other comp  -->
+  
+  
+  <dlink target="dPets_VC" />
+
+  <positionNear target="dPets_MF" position="220" total="360" extraDistance="0.05"/>
+
+  <file name="IMPORTANT_SusanLog.txt" path="home">
+
+[S.Bonesau] アートスタイルを変更「しなければならない」なんて誰も言ってない。ただ…
+[S.Bonesau] 大量の変更リクエストを受け取ったでしょう
+[S.Bonesau] そのうちいくつかでも、もっと真剣に受け取っていたら、もと効率的に仕事できたと思うの。
+[S.Bonesau] 前のフィードバックも取り入れて計画すべきだった
+[Ash] お話は分かりました。でもこのデザインには自信があります
+[S.Bonesau] ええ、わかってるわ、でも私が言いたいのは…
+[S.Bonesau] 幽霊屋敷風のホラーデザインにするはずだったのに、なんでもかんでも戦車に座らせたこと
+[S.Bonesau] 前にも指摘したのに。
+[Ash] 戦車が好きなんです。戦車はこわいじゃないですか。
+[S.Bonesau] タンクが好きなのは前にも聞いた
+[Ash] ルーマニア人はドイツ戦車の隊列に恐れをなしたはずです。
+[S.Bonesau] そうじゃない。そりゃこわかっただろうけど、そういう問題じゃない。ちょっと黙って。
+[Ash] ドイツ工業が生んだ25トンの死がこっちに向かってくるんですよ、十分恐ろしいでしょう？
+[S.Bonesau] 黙りなさい！
+[S.Bonesau] ユーザーがあなたと同じように解釈するとは思えないわ。
+[S.Bonesau] あなた、妖精のイベントでも同じように全キャラを戦車に座らせたことを忘れたわけじゃないでしょうね。
+[Ash] 戦車と妖精はよく似ています
+[S.Bonesau] ...
+[Ash] 僕はかわいいものと第二次世界大戦のミリタリアを愛しています。これ以上僕にどうしろと？
+[S.Bonesau] ドラキュラ衣装のNeopalsと、それっぽい小道具類を描いてもらうつもりだった
+[Ash] 描いてもいいですよ、今度戦車イベントをやると約束するなら。
+[S.Bonesau] 今はそんな交渉をしてるんじゃないの
+[Ash] ドラキュラ伯爵は大量の戦車を所有していたに違いありません。
+[S.Bonesau] ああ、神よ…わかったわ、いいから精霊を描いて。
+[Ash] 言いましたね。当然ログは保存してますよ。
+[S.Bonesau] 私の携帯にも保存してるから大丈夫よ。
+  </file>
+
+  <file name="DRACULATANK.psd" path="home">#BINARY##BINARY#</file>
+  <file name="asdf.psd" path="home">#BINARY#</file>
+  <file name="asdf2.psd" path="home">#BINARY##BINARY#</file>
+  <file name="asdfasdf.psd" path="home">#BINARY#</file>
+
+  <!-- Memory dump with viewable sketches of Dracula tank -->
+  <Memory>
+    <Data>
+      <Block>
+STEAM_CHAT:activewindow
+4e0f622c-c5f1-4959-902d-bd2c1009a4cb
+Log:
+CONSOLE: 絶対に他人にパスワードを教えないでください。
+2:46 PM - Jigxor: このAutomatonの動画どれもクレイジーだな
+2:47 PM - Jigxor: すごいぞ、writerと呼ばれる240歳のオートマトン、つまり機械人形が本物のペンと紙を使って、ぜんまい仕掛けで文を書くんだ。こんなもんが現実に存在するとは。
+2:48 PM - Jigxor: まばたきもするし、首を回して周りを見てる
+2:48 PM - [P]Ash: 神よなぜ私をこんな目に…今日中に終わらせないと行けないのに;_;
+2:48 PM - Jigxor: クレイジーだ
+CONSOLE: Jigxorが退出しました
+CONSOLE: Jigxorが入室しました
+3:18 PM - Jigxor: 頭良くなった気がする
+3:18 PM - Jigxor: StackOverflowから正規表現をコピペしただけなのに
+3:18 PM - [P]Ash: >my_life.txt
+      </Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Misc/DraculaTank</Image>
+    </Images>
+  </Memory>
+  
+  
+</Computer>

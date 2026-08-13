@@ -1,0 +1,5 @@
+> Okay. Wenn du soweit bist, wird das hier deine VM zum Absturz bringen und dich zurück auf den Desktop bringen.
+> Dort wartet ein Skript auf dich, das dir ein Terminal öffnet, sowie ein paar Anweisungen, die dir beim Fix helfen sollten.
+> Viel Erfolg – wir sehen uns im Chat, sobald alles wieder in Ordnung ist. Ich werde indes anfangen, die Verantwortlichen aufzuspüren.
+> Drück den Button, sobald du bereit bist.
+> -Coel

@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit_recovery">
+  <goals>
+    <goal type="getString" target="156.151.59.35"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro03.xml</nextMission>
+  <branchMissions>
+    <branch>BitPath/BitAdv_Intro07.xml</branch>
+    <branch>BitPath/BitAdv_Intro05.xml</branch>
+    <branch>BitPath/BitAdv_Intro03.xml</branch>
+  </branchMissions>
+  <posting title="[ V ] - Continue Investigation">
+Bu gönderi #PLAYERNAME# içindir...
+Elinde iş falan var mı? İşe devam etmek istediğinde bu e-postayı kabul et.
+
+-V
+  </posting>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Dönüş</subject>
+    <body>
+İşe dönmeye hazır mısın?
+
+Bıraktığımız yerden devam et. Bende araştırmaya devam ediyorum.
+
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="eosIntro" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <nextMission IsSilent="true">Entropy/StartingSet/eosMissions/eosIntroMission.xml</nextMission>
+  <posting title="eOS Apperaat Scannen">
+Een klant wil wat informatie van een telefoon.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>eOS Apperaat Scannen</subject>
+    <body>
+Gegroet Agent,
+
+Een nieuw contract is beschikbaar dat ons vraagt wat nieuwe tech te gebruiken - sinds jij online bent is het makkelijk voor ons als je dit kan accepteren en het kan testen voor je volgende klus.
+Het contract vraagt toegang naar een telefoon - een eOS apperaat. We hebben een specialist gecontacteerd, en toegang gekregen naar de programma's die we nodig hebben, maar ze zijn nog ongetest, dus houd dat in je achterhoofd.
+Je zal informatie over de tools snel krijgen.
+
+Als je toegang hebt tot de phone, zoek naar het wachtwoord voor de email van de eigenaar - we weten dat het gesynced is aan de telefoon. Beantwoord met dat wachtwoord en wij doen de rest.
+
+Veel geluk,
+-Entropy Admins
+    </body>
+    <attachments>
+      <link comp="eosIntroComp" />
+    </attachments>
+  </email>
+</mission>

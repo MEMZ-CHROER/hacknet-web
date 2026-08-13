@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubIntro1">
+  <goals>
+    <goal type="getString" target="ABX07cc9"/>
+    
+  </goals>
+  <nextMission>MainHub/Intro/Intro02.xml</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>CSEC Daveti</subject>
+    <body>
+Merhaba #PLAYERNAME#,
+
+CSEC grubu yetenekli hackerlar ve güvenlik uzmanlarından oluşan ve sadece davetle alım yapan bir gruptur. Öğretici, bilgilendirici ve aşama kaydedici bir topluluk oluşturmak için grubumuzda bilgi ve kaynak paylaşımı yapmaktayız.
+Üyelerimizden birisi kuruluşumuza katılmanız için size davetiye ayarladı.
+
+Sizi grubumuza alabilmek için idari ayrıntı olarak yeteneklerinizi ve bilginizi küçük bir gösteri ile bize göstermenizi isteyeceğiz.
+
+Devam etmek için test sunucularımızdan birinde isminizle ilişkili bulacağınız şifreyi bize gönderin.
+Eğer zorluk yaşarsanız, Eğitim Arşivi Ağına başvurmanızı öneririz.
+
+Tebrik eder, kolaylıklar dileriz.
+-CSEC Yönetimi
+
+    </body>
+    <attachments>
+      <link comp="hubTestComp01" />
+      <link comp="netEduComp" />
+    </attachments>
+  </email>
+</mission>

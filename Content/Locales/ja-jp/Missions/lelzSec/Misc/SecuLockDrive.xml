@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="secuLockDrive" name="COME AT ME /EL's Secure SecuLock Drive" ip="69.172.201.208" security="4" type="4" icon="chip" >
+
+  <portsForCrack val="4" />
+  <proxy time="0.2" />
+  <ports>25, 22, 21, 1433</ports>
+  <trace time="400" />
+  <adminPass pass="ithoughtyouweremakingtea" />
+  <admin type="fast" resetPassword="false" isSuper="true"/>
+  
+  
+  <file path="home" name="DeleteMe.txt">君の勝ちだ！これを削除してくれ。そうすればこいつの脆弱性が証明される</file>
+  
+  
+  
+</Computer>

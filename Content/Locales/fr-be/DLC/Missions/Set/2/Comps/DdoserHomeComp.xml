@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dDdoserHomeComp" name="L. Shaffer's NetBook" security="2" type="4" icon="laptop">
+
+  <!-- Home laptop of Luke Shaffer, who runs the r00t_tek DDOS server. Player needs to wipe this one too.
+  Should contain a bunch of files that you'd see on the laptop of somenoe who cheats in CS:GO by DDOsing his
+  opponents.-->
+  
+  <trace time="-1" />
+  <proxy time="-1" />
+  <portsForCrack val="2" />
+  <ports>21, 443</ports>
+  <portRemap>ftp=22</portRemap>
+
+  <positionNear target="dDdoserComp" position="160" total="360"/>
+
+  <file path="LOIC" name="runtime.dll">#BINARY#</file>
+  <file path="LOIC" name="config.cfg">#BINARY#</file>
+  <file path="LOIC" name="sources.txt">
+    
+    ## Aucun serveur présent, en ajouter ici en configuration LOIC et en configuration hôte
+    
+  </file>
+  <file path="LOIC" name="TARGETS.txt">
+101.79.150.88, Snowstorm SoG Cluster 0-6
+101.79.150.89, Snowstorm SoG Cluster 6-9
+101.79.150.101, Snowstorm SoG Cluster 9-16 - SERVEURS DE CONNEXION
+101.79.150.200, Snowstorm SoG Cluster 16-18
+101.79.150.207, Snowstorm SoG Cluster 18-20
+101.88.150.89, Snowstorm SoG Cluster 20-26 - ÉQUILIBREURS DE CHARGE
+101.88.150.101, Snowstorm SoG Cluster 26-31
+101.88.150.200, Snowstorm SoG Cluster 31-36
+101.88.152.207, Snowstorm SoG Cluster 36-40
+  </file>
+
+  <!--Translators Note - for this joke, it uses the English meaning of "vanilla" as "plain or basic". Feel free to re-word it. -->
+  <file path="home" name="smug_shop.txt"> 
+[H_EvansVerres] ce gars-là...
+[H_EvansVerres] Il se croit vraiment trop fort, à un niveau fondamental, putain.
+[H_EvansVerres] en fait il est comme
+[H_EvansVerres] le parfum vanille de base que t'achètes à la boutique de glaces
+[H_EvansVerres] le gars derrière le comptoir lui demande « t'es sûr que tu veux pas autre chose ? une deuxième boule, un autre parfum ? »
+[H_EvansVerres] et lui répond « nan, je veux juste le pack de base marque "kanye" pré-2009 »
+[H_EvansVerres] et l'autre lui dit « tu sais quoi, j'en veux même pas de ta sale thune de charlot, pas la peine de payer quoi que ce soit pour cette daube »
+[LONGCHAMP] Hahaha
+[H_EvansVerres] l'autre c'est moi, au fait
+[H_EvansVerres] la boutique de glaces, j'en suis gérant et proprio.
+[LONGCHAMP] HAHAHAHA</file>
+
+  <file path="home" name="asdfkjhj.txt">
+bloqué par vac :
+hack cs hybride
+Hack smartBoy
+CombinationCheat
+Hack de Smackie
+Subtlety
+
+non bloqués :
+???
+
+IPs à striker cette semaine :
+thorn - 109.111.232.1
+Master[]Disaster - 28.2.85.6
+Snarklesaurus - 230.67.176.1
+smigin - 127.0.0.1 (cet imbécile l'a dit dans le chat)
+  </file>
+
+  <file path="home" name="bedtime restrictions.txt">
+RÈGLEMENT D'EXTINCTION DES LUMIÈRES DE LUKE
+
+Je soussigné, Luke Shaffer, accepte de me coucher aux heures indiquées ci-dessous, ou je perdrai l'accès après le dîner à l'ordinateur que papa et maman m'ont généreusement permis d'avoir dans ma chambre.
+
+LUNDI À JEUDI (ÉCOLE LE LENDEMAIN) :
+20h30
+VENDREDI :
+21h30
+SAMEDI ET DIMANCHE :
+22h00
+  </file>
+
+  <file path="home" name="homework list.txt">
+Bilan de Seconde
+Maths avancées (parler au prof)
+Espagnol
+Société et Environnement (en galère)
+  </file>
+
+</Computer>

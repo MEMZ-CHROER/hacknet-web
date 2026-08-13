@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet08">
+  <goals>
+    <sendemail recipient="gila" subject="MedicalRecord - Sandburg_Jonas" />
+  </goals>
+  <nextMission>MainHub/Continuations/FirstSet08_Reply.xml</nextMission>
+  <posting title="Onderzoek een medisch dossier">
+Bemachtig een kopie van iemands medisch dossier om een discussie te beslechten.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Rod of Asclepius</subject>
+    <body>
+Hey,
+
+Dus, ik ben misschien betrokken geraakt bij een internet ruzie met iemand die DUIDELIJK gephotoshoppedde foto's had geupload van...
+Weet je, het doet er niet echt toe, kijk, ik heb een medisch dossier van deze gast nodig om dit alles te eindigen. Ik zou het zelf gaan halen, maar, ik heb die plannen best duidelijk gemaakt en je weet hoe CSEC daarmee omgaat.
+In ieder geval, kan je me helpen? Zijn naam is "Jonas Sandburg" - de medische databank heeft kan dossiers emailen naar mensen, kan je een kopie mailen naar "gila@jmail.com"
+
+Bedankt!
+-G
+    </body>
+    <attachments>
+      <link comp="medical" />
+      <note title="Notities en dingen">Gast van het dossier:
+"Jonas Sandburg"
+Emailen naar:
+"gila@jmail.com"
+</note>
+    </attachments>
+  </email>
+</mission>

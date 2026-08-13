@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dPsyInternal" name="Psylance Internal Services" security="4" type="empty" icon="Psylance">
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 25, 443, 80, 1433</ports>
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="90" />
+  <portRemap>22=340</portRemap>
+  <adminPass pass="catsarebestpet" />
+  <dlink targer="dPsyArchives" />
+
+  <account username="faithless" password="catsarebestpet" type="2" />
+  
+  <file path="home" name="Organization.txt">Dû à la façon dont j'ai mis sur pied notre système d'archivage automatique, veuillez utiliser le dossier racine « projets » pour tous les rapports et fichiers - certains programmes etc. génèrent des résidus dans le répertoire de base que je veux éviter d'entasser avec notre travail à proprement parler, donc je laisse ça vierge.
+Merci !
+-Faith
+  </file>
+
+  <encryptedFile path="projects/investigations" name="PA_0022_Incident.dec" ip="209.68.41.129" header="Psylance cyber security internal investigations division inc.">
+Cyber sécurité Psylance - division des enquêtes internes.
+---------------------------------------
+
+Le vol Pacific Air PA_0022 a connu une défaillance de contrôle du vol à mi-parcours, qui a causé une perte d'altitude et de vitesse critique et un risque de crash. Le contrôle a été repris peu avant une défaillance critique, et les pilotes ont été en mesure de poursuivre le vol sans accident.
+Une inspection complète de l'avion après atterrissage n'a révélé aucun dysfonctionnement du matériel dans l'avion, quel qu'il soit, et le logiciel et le microprogramme semblaient tous deux intacts.
+Une copie intégrale du logiciel a été envoyée à Psylance afin qu'une enquête soit menée pour détecter toute erreur potentielle.
+
+Aucun élément ne manquait à l'appel et aucune trace de manipulation extérieure n'était visible, mais une enquête approfondie a révélé que le système contenait étonnamment *peu* de fichiers-journaux concernant l'incident. Ce qui impliquerait qu'une manipulation extérieure avait bien eu lieu, et un passage en revue complet de tous les journaux a été entrepris.
+Bien qu'il ne s'agisse pour l'instant que de spéculation, une enquête approfondie est en cours à ce sujet, et une analyse approfondie des serveurs existants a été effectuée.
+
+Une anomalie a été détectée - un journal de déconnexion d'une IP non reconnue sur Pacific_ATC_Skylink (208.91.196.94). L'IP laissée est 208.73.210.214
+Le pistage officiel de cet indice nous a mené à la passerelle d'un hacker dénommé « Coel », lequel est, selon nous, responsable de cet incident.
+
+Je recommande qu'une enquête approfondie soit conduite à cet égard. Psylance s'engage à assurer la sécurité de vos serveurs, et redoublera ses efforts en vue de garantir la sécurité de tous les systèmes au sein de votre réseau.
+  </encryptedFile>
+
+  <file path="projects/investigations" name="WhitelistGlitches.zip">#BINARY#</file>
+
+  <file path="projects/misc" name="IRC_Config.txt">//Configuration de base IRC pour admins itinérants - copier aux nouveaux comptes clients pour faciliter la maintenance
+Couleur=67,204,148 //PSYLANCE VERT
+//UTILISATEUR PRINCIPAL DÉFINI
+:nom d'utilisateur="faithless" couleur="0,209,232"
+:nom d'utilisateur="dardypants" couleur="202,98,0"
+:nom d'utilisateur="da_vito" couleur="0,196,82"
+//Config admin
+:Auth publique="false" sec="restricted"
+  </file>
+
+  <file path="projects/misc" name="IRC_setup.zip">#BINARY#</file>
+  
+  <file path="projects/clients" name="Nisei_MK_III.txt">On a été contacté par Jintech Inc. au sujet de la possibilité d'assurer la sécurité de leurs serveurs.
+Apparemment, ils ont récemment subi des attaques MAJEURES d'une sorte de groupe - ils ont perdu toutes les archives de leur projet « Nisei », et ont transporté des copies physiques par les airs en lieu sûr (!!) pour éviter le pire.
+Ils disent qu'ils perdent les données dès qu'ils les retranscrivent, où qu'elles soient envoyées.
+
+Leurs archives sont *incroyablement* propres - quelqu'un leur en veut vraiment, et je ne suis pas vraiment certain qu'on soit capable de gérer ce genre de pression en ce moment. 
+
+À ce stade, ça me paraîtrait être du suicide au niveau des relations publiques de tenter de les arrêter. Je suggère de refuser.
+</file>
+
+  <Memory>
+    <Commands>
+      <Command>cd /projets</Command>
+      <Command>scp * ARCHIVE_LINK.bat</Command>
+    </Commands>
+    <Data>
+      <Block>PA_0022_todo.txt
+-------------
+Ce serait bien de trouver le moyen de faire en sorte que notre compagnie dans son ensemble ait l'air moins lamentable dans ce rapport - on donne l'impression d'être une bande d'incapables.
+Je pense qu'il ne sera pas affiné plus que ça - envoyez-le tel quel et espérons qu'ils ne nous relanceront pas trop dessus... :/</Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Misc/Psylance_Big</Image>
+    </Images>
+  </Memory>
+  
+</Computer>

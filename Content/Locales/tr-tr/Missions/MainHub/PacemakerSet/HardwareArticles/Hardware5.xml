@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle05">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0015 - Kalp Hızı Ölçüm Aygıtı v2.44 Yazılımı ve Güncellenmesi">
+Bu gönderide kalp hızı ölçüm aygıtının v2.44 sürümünün güvenlik fonksiyonuyla ilgili ayrıntıları barındırmaktadır. Genel işlemler için yazılı dokümanla başvurun veya support@kellisBio.com adresinden yeni kopya talep edin.
+---------------------------------------------
+
+v2.44 çipinin yazılımını Eidolon Soft yazmıştır. Sürüm kontrolü, sorgu ve güncelleme işlemleri aşağıda adresi verilen ana sunucuları tarafından gerçekleştirilir:
+
+111.105.22.1
+
+Eidolon Soft sadece sürümleri geliştirmektedir. Çipleri çalıştıran kodlar tarafımızdan üretilmektedir. Başka bir şirketin ürettiği çip kodlarının çalışabilmesi için onlar tarafından derlenmesi gerekir.
+Uzaktan izleme sistemi ve çiplerin harici erişim arayüzü ile ilgili sorular direkt olarak onlara yönlendirilmelidir. Bu tarz istekler ve sorgular için support@eidolonsoft.com adresine başvurulmalıdır.
+
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>HATA</subject>
+    <body>
+Beklenmedik bir hata oluştuğu için bu hatayı aldınız.
+Lütfen panikleyin.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

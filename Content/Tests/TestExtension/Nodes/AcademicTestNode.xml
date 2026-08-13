@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="academic" 
+          name="Academic Database" 
+          security="2">
+
+  <academicDatabase />
+  
+</Computer>

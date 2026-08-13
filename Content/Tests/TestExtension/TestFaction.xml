@@ -1,0 +1,23 @@
+<CustomFaction name="Test Faction" id="tfac" playerVal="0">
+  <Action ValueRequired="1">
+    <RunFunction FunctionName="changeSong" FunctionValue="6" />
+  </Action>
+
+  <Action Flags="decypher">
+    <LoadMission MissionName="Missions/TestExtensionMission1.xml" />
+  </Action>
+
+  <Action ValueRequired="5">
+    <AddAsset FileName="FTPBounce.exe" FileContents="#FTP_CRACK#" TargetComp="linkNode1" TargetFolderpath="bin" />
+  </Action>
+
+  <Action ValueRequired="5" Flags="decypher">
+    <AddMissionToHubServer MissionFilepath="Missions/TestExtensionMission1.xml" TargetComp="advExamplePC" />
+  </Action>
+
+  <Action ValueRequired="10">
+    <AddThreadToMissionBoard ThreadFilepath="Nodes/MessageBoardThreads/ExampleThread1.txt" TargetComp="advExamplePC" />
+    <AddThreadToMissionBoard ThreadFilepath="Nodes/MessageBoardThreads/ExampleThread2.txt" TargetComp="advExamplePC" />
+  </Action>
+  
+</CustomFaction>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dRicerMission">
+  <goals>
+    <goal type="fileupload" target="dRicer" file="SSLTrojan.dec" path="home/projects" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="ライサー">
+SSLポート突破の高度な研究をしている人物がいるとのこと。厄介なことに、彼らのセキュリティー設定はすこし変わっています。
+  </posting>
+  <email>
+    <sender>The Ricer</sender>
+    <subject>The Ricer</subject>
+    <body>
+SSLポート突破の高度な研究をしている人物がいるとのこと。厄介なことに、彼らのセキュリティー設定はすこし変わっています。
+----
+標的は相当な改造狂、いわゆるライサーのようです。ご多分に漏れずセキュリティー設定もポート、サービスの割り当てが通常と異なります。
+侵入方法を解明できたら、最新のSSL突破プログラムのコピーを入手してください。暗号化等で保護されているかもしれませんが、問題ありません。それらしきファイルを発見したらドロップサーバー（下記リンク）にアップロードしてください。あとはこちらで処理します。
+    </body>
+    <attachments>
+      <link comp="dhsDrop" />
+      <link comp="dRicer" />
+      <note title="Mission Guidelines">Ricerのサーバーに接続し、セキュリティーを突破せよ。
+最新のSSL突破プログラムを捜索。
+暗号化、隠しファイルに留意。
+怪しいファイルを発見したらチームのドロップサーバーにアップロード。</note>
+    </attachments>
+  </email>
+</mission>

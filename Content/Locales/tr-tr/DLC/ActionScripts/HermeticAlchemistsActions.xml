@@ -1,0 +1,19 @@
+<ConditionalActions>
+  
+  <OnAdminGained target="dhaComp2">
+    
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="23.0">@channel "Solve" üzerinde ilginizi çekebilecek şifrelenmiş bir dosya buldum.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="32.2">Çözümlendi. Anlaşılan "Rebis" şifresi "clarity". Yönetici erişimin olsa da bende çalışmıyor sanırım.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="50.2">Bilgi için teşekkür ederim @D3f4ult</AddIRCMessage>
+
+  </OnAdminGained>
+
+  <OnConnect target="dhaAdminPhone" needsMissionComplete="false">
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="17.0">@channel - birisi bana eoS yönetici şifresini hatırlatabilir mi?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="24">Varsayılan şifre "alpine".</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="27.0">Teşekkürler.</AddIRCMessage>
+    
+  </OnConnect>
+  
+</ConditionalActions>

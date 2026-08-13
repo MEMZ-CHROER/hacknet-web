@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechOutsiderRepo" name="EnTech External Contractor Relay Server" security="5" ip="156.151.59.35">
+
+  <adminPass pass="ax889msjA" />
+
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+
+  <positionNear target="EnTechMainframe" position="1" total="6" />
+
+  <encryptedFile path="Contractors/Bit" name="heart.dec" ip="23.236.62.147" extension=".txt" header="Bitwise / last words" pass="divingsparrow">
+Sana şifreyi söylediğimi, gerçekten olmanı umduğum kişi olduğunu düşünerek yazıyorum. Çünkü bu şu anda yapabileceğim tek şey bu.
+Bu aşamaya kadar çabaladığın için teşekkür ederim. Bunu her kim okuyorsa, ondan çok şey istemişim gibi görünüyor. Sanırım son zamanlarda çok şey istedim. 
+Neyse, iş konuşalım. Gerçekten buradaysan düşündüğüm en kötü şey başıma gelmiştir ve senden zor isteklerim olacak demektir. EnTech'in peşinde olduğu dosyalara ulaşmalısın. Umarım bunu yaparsın. EnSec'in ne kadar iyi durumda olduğunu sende gördün. Hele daha iyi duruma geldiğinde özgürlüğümüzün ne kadarını kaybedeceğiz merak ediyorum.
+Bu... belkide iyidir. Aslında benlik sıkıntı yok. Güvenlik sorunlarını çözmeye çalışmalarına saygı duyuyorum ve uzmanlık alanımı yok etse de bunun gerçekten yapılmasını istiyorum.
+
+Ancak bu şekilde olmamalı.
+
+Sorun Hacknet projesi. İyi bir güvenlik sisteminin geliştirilmesi harika... kullanımının ve kontrolünün aşırı denetlenmesi bile sıkıntı oluşturmuyor. Ancak yaptıkların haricindeki şeyleri bozman sıkıntı oluşturuyor işte.
+Bunu öğrenmeden önce Hacknet'e çok katkıda bulundum. İnanılmaz bir projeydi. Eğlenceliydi, zorluydu. Bize sürekli kaynak yolluyorlardı. Çalışması mükemmel bir projeydi. Bende mükemmel bir şey yaptım.
+Adı "Porthack", bilgi ve becerilerimi bir araya getirdim ve kapalı kapıları açmanın yolunu buldum.
+
+Bir süre sonra beni merak sardı. Ana bilgisayara sızdım ve her şeyi bir araya getirdim. Belki de projenin ilk "tam" makinesini Porthack ile oluşturdum...
+Buradan olanları görmek zorı değil. Bunu tamamlayacaklar, Hacknet bir şekilde yayılacak, dünya kargaşanın dibine vuracak, bizimde dijital güvenlik sektörünü tekelden kurtarma planlarımız elimizden kayıp gidecek.
+Elimizde mevcut olan şeyler mükemmel değil. EnTech'in güvenliği sağlam fakat Hacknet her şeyi mahvediyor işte. Bizde buna bir son vermezsek, her şey için çok geç olabilir.
+
+CEO'nun e-posta hesabı her şeyi açıklıyor.
+
+Kullanıcı Adı: rc@entech.com 
+Şifre: "byC89kMMe"
+
+Lütfen..
+-Bit
+0
+</encryptedFile>
+
+  <file path="Contractors/teja" name=".gitkeep">#bu dosya, içeriği silindikten sonra Git üzerinde etkin kalabilsin diye kasıtlı olarak boşaltılmıştır</file>
+  
+</Computer>

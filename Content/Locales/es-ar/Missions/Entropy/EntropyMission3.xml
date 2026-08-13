@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyMission03">
+  <goals>
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS.rar" path="bin"/>
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Data.xnb" path="bin"/>
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Content.xnb" path="bin"/>
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS.rar" path="bin"/>
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Data.xnb" path="bin"/>
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Content.xnb" path="bin"/>
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS.rar_backup" path="bin"/>
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Data.xnb_backup" path="bin"/>
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Content.xnb_backup" path="bin"/>
+  </goals>
+  <missionStart val="0">entropyEndMissionSetup</missionStart>
+  <nextMission>AlphaCreditsMission.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Una última tarea</subject>
+    <body>
+#PLAYERNAME#,
+
+ esta es la última tarea que te pedirá directamente el grupo entropy. Si la logras o fracasas, será demasiado arriesgado para nosotros mantener un contacto personal tan... directo. 
+
+Esta misión es de erradicación. Una gran corporación a la que llevamos vigilando desde hace algún tiempo está desarrollando un nuevo sistema operativo conocido como &quot;HacknetOS&quot;, basado en la investigación del hacker recientemente fallecido &quot;Bit&quot;. 
+Se trata de una gran amenaza para la seguridad del mundo digital como lo conocemos; las herramientas que proporciona este sistema pueden hacer que el proceso de piratería sea posible incluso para el usuario más básico con un poco de formación. 
+
+Esta amenaza debe ser completamente eliminada. 
+Tienes *toda* la asistencia de entropy en este asunto y por eso hemos añadido dos potentes (y caras) herramientas nuevas al servidor de materiales de Entropy para que las uses en esta tarea. Seguramente las necesitarás. Te sugiero que las pilles cuanto antes.
+
+ Te adjunto un enlace a la máquina de servicios internos de la corporación que es responsable de esto. Tendrán varias copias de seguridad, eso seguro, y necesitarás explorar su red exhaustivamente para asegurarte de que cualquier rastro de esta amenaza se borra completamente. 
+
+Te deseamos mucha suerte. No nos falles.
+-Tex
+    </body>
+    <attachments>
+      <link comp="corp0#IS"/>
+    </attachments>
+  </email>
+</mission>

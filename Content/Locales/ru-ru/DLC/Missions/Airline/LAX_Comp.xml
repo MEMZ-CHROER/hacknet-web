@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dal_lax" name="LAX_Pacific_Server" security="5" type="4">
+
+  <!-- This is a server for Pacific Air located in LAX Airport - kaguya or someone else went there physically and scanned for it's signal.
+  I don't have many thoughts on what should be on here. It's also valid to keep it empty. Up to you!
+  -->
+  
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="49" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 443</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="fast" resetPassword="true" isSuper="false"/>
+
+  
+  <dlink target="dpa_nethub" />
+
+  <file path="home" name="settings_default.cfg">?cfg version = "1.0" encoding = "UTF-8" ?
+//Этот файл не подлежит изменению со стороны пользователя;
+//Он заполнится как только веб-приложение для настройки роутера Schiss-Co
+//будет запущено на локальном компьютере.
+</file>
+  
+  <file path="home" name="settings_custom.cfg">
+?cfg version = "1.0" encoding = "UTF-8" ?
+//Введите здесь свои персональные настройки или заполните этот файл, загрузив 
+//веб-приложение для настройки роутера Schiss-Co, доступное на нашем портале.
+  </file>
+  
+  <file path="home" name="readme.txt">
+Поздравляем с покупкой беспроводного роутера Schiss-Co! Вы приобрели одну из самых надежных единиц сетевого оборудования в мире, а с помощью простых настроек вы будете надежно защищены.
+
+В целях безопасности мы рекомендуем вам немедленно изменить стандартные настройки: при первом включении маршрутизатора Schiss-Co, он находится в открытом доступе, чтобы вы могли войти и настроить его без лишних препятствий.
+
+Далее вам необходимо вставить ключ аутентификации владельца Schiss-Co в свободный порт USB на компьютере, который вы используете для настройки. Вы можете использовать ОС Windows, Mac, или любой дистрибутив Linux из перечисленных в руководстве или на нашем сайте. Выполнение данного шага обязательно; необходимо проверить совместимость оборудования Schiss-Co и вашего ПО.
+
+Будет запущен мастер установки.
+
+Если вы хотите настроить оборудование без подключения к сети, позвоните на номер 555-0167 в наши рабочие часы по тихоокеанскому времени - наш квалифицированный представитель будет рад вам помочь в этом.
+
+Обращаем ваше внимание, что применение стороннего ПО для работы с оригинальным оборудованием Schiss-Co недопустимо. 
+  </file>
+  
+  <positionNear target="dpa_nethub" position="90" total="360" extraDistance="0.12"/>
+  
+</Computer>

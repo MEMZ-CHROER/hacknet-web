@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase5" >
+  <goals>
+    <goal type="getString" target="ax889msjA"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro06.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Propagation</subject>
+    <body>Are you seeing this network?
+There's that new security scattered about on almost everything, but I'm picking my way through it - there are still a few holes, but progress is slow.
+
+I've attached the IP of what I'm looking into now. From the side I'm coming at it from I cant see any cracks in it yet - are you having any luck?
+If you find its admin pass, reply to this email with it - I get the feeling that server's the key to where Bit fits into all this.
+
+The talk of this "Hacknet project" showing up is kinda worrying too... Have you ever heard of that? A whole OS re-write...
+We can look into that later. For now, see if you can find a way into this relay - we'll work out our next step after that.
+
+I'd probably look around their production and store servers - "Prometheus" and "Romulus" etc. A way in might be anywhere though.
+
+Good luck,
+-V
+    </body>
+    <attachments>
+      <link comp="EnTechOutsiderRepo" />
+    </attachments>
+  </email>
+</mission>

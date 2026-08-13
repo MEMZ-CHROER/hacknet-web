@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet08">
+  <goals>
+    <sendemail recipient="gila" subject="MedicalRecord - Sandburg_Jonas"/>
+  </goals>
+  <nextMission>MainHub/Continuations/FirstSet08_Reply.xml</nextMission>
+  <posting title="Investigate a medical record">
+Consigue una copia del historial médico de alguien para zanjar una discusión.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Vara de Asclepius</subject>
+    <body>
+Hola:
+
+ Bueno, puede que sí, o puede que no, me haya metido en alguna discusión en internet con alguien que está publicando imágenes CLARAMENTE retocadas de... 
+Bueno, no importa. Mira, necesito un historial médico auténtico de este tipo para zanjarlo todo de manera dramática. Me haría con él yo mismo pero, esto... he dejado mis intenciones muy claras y ya sabes cómo es CSEC con cosas así. 
+En cualquier caso, ¿puedes ayudarme? Se llama Jonas Sandburg. La base de datos médica tiene una herramienta para enviar historiales a la gente, ¿puedes mandar una copia a gila@jmail.com?
+
+ ¡Gracias! 
+- G
+    </body>
+    <attachments>
+      <link comp="medical"/>
+      <note title="Notas y cosas">Tío, necesito un historial de: 
+Jonas Sandburg. 
+Enviar por correo electrónico a: 
+gila@jmail.com
+</note>
+    </attachments>
+  </email>
+</mission>

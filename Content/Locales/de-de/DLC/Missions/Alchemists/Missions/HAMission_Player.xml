@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ham_player">
+  <goals>
+    <goal type="fileupload" target="dhaAdminHome" file="SignalScrambler.exe" path="bin" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionStart val="3" suppress="true">changeSongDLC</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="Hermetic Alchemists - #PLAYERNAME#">
+Der Administrator des Serversystems einer seltsamen philosophischen Gruppe hat Software entwickelt, die wir für künftige Projekte brauchen.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Die hermetischen Alchemisten</subject>
+    <body>
+Der Administrator des Serversystems einer seltsamen philosophischen Gruppe hat Software entwickelt, die wir für künftige Projekte brauchen.
+----
+Das gesuchte Programm ist eine fortschrittliche Software zur Abwehr von Tracing, die intern entwickelt wurde. Leider wissen wir nur, dass der Entwickler dieser Software das unten verlinkte Servernetzwerk betreibt, aber sonst eigentlich nichts.
+Wir müssen ihn ausfindig machen, seinen Dev-Rechner aufspüren und uns einen Build dieser Software für die künftige Nutzung sichern.
+Erste Scans zeigen, dass das Netzwerk sehr umfangreich ist und Daten und verschiedene Dienstleistungen für eine Philosophengruppe namens „Die hermetischen Alchemisten“ hostet.
+
+Dieser Sysadmin scheint kompetent zu sein, daher bitte ich euch alle, dies sofort und auf einmal zu untersuchen, damit er so wenig Reaktionszeit wie möglich hat. Wenn ihr etwas findet, das für das restliche Team nützlich sein könnte, stellt es in den Chat.
+    
+Viel Glück.</body>
+    <attachments>
+      <note title="Mission Guidelines">
+Untersuche das Netzwerk, finde den Administrator und lade alles herunter, von dem du denkst, das es relevant sein könnte.
+Wahlweise berichte alles, was die anderen nützlich finden könnten, im Chat.
+Lade die relevanten Dateien auf dem Dropserver hoch.
+      </note>
+      
+      <link comp="dhaEntry" />
+      
+    </attachments>
+  </email>
+</mission>

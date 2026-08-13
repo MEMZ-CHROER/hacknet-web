@@ -1,0 +1,93 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="EnTechPrometheus" name="En_Prometheus" security="5" ip="156.151.1.1">
+
+  <adminPass pass="d88vAnnX"/>
+
+  <dlink target="enMail"/>
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999"/>
+  <trace time="500"/>
+
+  <positionNear target="EnTechMainframe" position="3" total="6"/>
+
+  <file path="STORE/Hacknet_Project" name="Hacknet_NetCore.dll">#BINARY##BINARY#</file>
+  <file path="STORE/Hacknet_Project" name="HN_Connect_doc.txt">Hacknet 프로젝트
+--EnTech 기밀사항--
+
+명령어: &quot;connect&quot; 
+외부 서비스에 대한 연결 방식을 종합하기 위해 원격 연결 채널(보통 SSH)에 래퍼로 사용함. 
+명령어를 실행하면 사용 가능한 포트와 지원되는 서비스를 검색하여 유효한 연결 
+방식을 찾은 다음 사용하여 표준 연결을 에뮬레이트하도록 출력을 래핑합니다. 
+그 결과, Hacknet의 연결 방식은 겉으로는 보편적이고 표준인 것처럼 보이지만 실제로는 거의 모든 것에서 모든 
+공통된 (그리고 일부의 비공통된) 연결 방식을 사용할 수 있게 되는 것입니다.
+  </file>
+    <file path="STORE/Hacknet_Project" name="HN_Connect_TESTGUIDE.txt">Hacknet 프로젝트
+--EnTech 기밀사항--
+
+명령어: &quot;connect&quot; 
+테스트 가이드:
+
+ 워크스테이션과 회사 호스트 서버 사이를 연결하는 것 외에, 무선 및 제한된 OS 장치에 연결하는 것도 지원해야 합니다. 
+테스트 계획에는 여러 가지 모바일 장치(크랙된 것이나 공장 기본 상태)로의 연결 서비스도 포함됩니다. 장치들은 지원 스태프에 의해 prometheus 
+서버와 연동되며, 테스트(물리적 출력 검토, 어디에서든지 연결 가능할 것임)를 위해 필요한 경우, 서버 팀에 연락하십시오.
+  </file>
+  
+  <file path="STORE/Hacknet_Project" name="SyncedDevices.txt">Hacknet 프로젝트
+--EnTech 기밀사항--
+
+Hacknet의 연결 모듈을 테스트하는 데 사용되는 모바일 및 무선 장치(모든 eOS 장치 포함)들은 이 서버와 연동되어야 합니다. 
+(만일에 대비해) 주기적으로 내용을 모두 삭제하곤 하는데, 바로 여기서 하는 것이 좋습니다. 
+다른 시스템과 페어링하지 마십시오! 사람들이 장치를 사용하면서 책상 위에 어지러이 흩어놓고 가는데, 전력이 다하거나 메모리 삭제를 해야 하거나, 다시 연동해야 할 경우, 언제나 prometheus에 하십시오.
+  </file>
+  
+  <file path="STORE/Hacknet_Project" name="Hacknet_Project_Contacts.txt">Hacknet 프로젝트
+--EnTech 기밀사항--
+
+연락처 및 출처 
+
+Hacknet 프로젝트의 민감성(및 모든 관련자들의 기밀유지협약의 엄격성)에 따라, 모든 문의 사항, 변경 요청 사항, 및 기타 관리 논의는 Hacknet 관리부 메일 릴레이를 통해야 합니다:
+hnManager@entech.com 
+그러면 그 내용이 모든 관련 팀원들에게 전달되며, 각자 자신이 담당하는 것과 관련될 경우 직접 발신자에게 연락할 것입니다.
+
+  </file>
+
+  <file path="STORE/EnSec_Project" name="EnSec_Invioability_Project.txt">
+EnSec Invioability 프로젝트는 모든 인증 시도와 관리자 명령어가 거치게 되면서 모든 기존의 (그리고 일부의 독특한) 침투와 보안 침입 방식에 대항하여 한 층 높은 수준의 방어를 제공하는 OS 수준 보안 레이어입니다. 
+(가입자에게 EnTech Inc.에서 제공하는 비상 업데이트의 경우를 제외하고) 최종 사용자에게는 완전히 투명한 상태를 목표로 하고 있습니다. 민감성과 기밀성이 높은 시스템에 절대적인 보안을 제공하게 됩니다. 
+
+현존하는 보안 시스템의 취약점을 드러내는 Hacknet 프로젝트와 함께, EnSec은 향후 진정한 디지털 보안과 신뢰의 새로운 표준이 무엇인지, 그리고 어떻게 그런 형태를 취하게 될 것인지를 명확하게 제시할 것입니다.
+
+ - EnSec -  
+원하는 만큼의 자유와, 응당 누려야 할 보안.
+  </file>
+
+  <file path="STORE/EnSec_Project" name="EnSec_Core_11-05.dll">#BINARY#</file>
+  
+  
+  
+  <eosDevice id="enPrometheus_eos1" name="ENTECH_TEST_01's ePhone 4S">
+    <note>passes
+1
+1
+3</note>
+    <note>HN 
+이 장치는 표준 비크랙 ePhone 4S로 설계되었습니다. 
+외부의 영향 없이는 열려 있는 터미널 연결 방식이 없기 때문에 연결이 
+실패할 것입니다.</note>
+    <mail username="nstanford@entech.com" pass="murloc33"/>
+  </eosDevice>
+  
+  <eosDevice id="enPrometheus_eos2" name="ENTECH_TEST_02's ePhone 4S">
+    <note>HN 
+이 장치는 사용자 지정 크랙 ePhone 4S로 설계되었습니다. 
+SSH 연결을 허용하도록 수정되었으므로 연결이 성공할 것입니다.</note>
+    <note>사용 - 경고 
+메모: 이 장치는 테스트의 목적을 위해 일.부.러. 보안이 취약하게 만들었습니다. 아무런 내부 서비스나 
+메일 시스템에 연결시켜서는 안 되며, 민감한 테스트 혹은 개발 데이터를 저장해서도 안 됩니다.</note>
+    <note>원격 생성 테스트 
+asdf asdf 원격 메모 입력</note>
+    <note>원격 테스트 2
+12345678</note>
+  </eosDevice>
+  
+</Computer>

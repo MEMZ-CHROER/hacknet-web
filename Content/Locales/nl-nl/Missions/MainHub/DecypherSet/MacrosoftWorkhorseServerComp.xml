@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="macrosoftWorkhorse04" name="Macrosoft Workhorse Server 04" ip="168.61.82.245" security="3" type="3">
+  <ports>21, 80, 1433</ports>
+  <portsForCrack val="3" />
+  <firewall level="-1"/>
+  <trace time="240" />
+  <proxy time="0" />
+
+  <file path="WORKLOGS" name="0118917.log">
+    KLUS: VERSLEUTEL BESTAND
+    ARGUMENTS:
+    Bestand: LemonStealingWhore.avi
+    Output: SeriousBuisnessDocuments.dec
+    --------------------------------------
+    KLUS VOLTOOID - 0 FOUTEN GEDETECTEERD
+  </file>
+
+  <file path="WORKLOGS" name="8978163.log">
+    KLUS: COMPILEER BRON (C#)
+    ARGUMENTS:
+    Bestand: Main.cs
+    Output: WinC_DEBUG_NONRELEASE.exe
+    --------------------------------------
+    KLUS ONVOLTOOID - 1 FOUTEN GEDETECTEERD
+    BESTAND Main.cs NIET GEVONDEN
+  </file>
+
+  <file path="WORKLOGS" name="3345633.log">
+    KLUS: VERSLEUTEL BESTAND
+    ARGUMENTS:
+    Bestand: WinCE_FirmwareSpecs.pdf
+    Output: WinCE_FirmwareSpecs.dec
+    Wachtwoord: beepbeep
+    --------------------------------------
+    KLUS VOLTOOID - 0 FOUTEN GEDETECTEERD
+  </file>
+
+  <file path="WORKLOGS" name="489820.log">
+    KLUS: COMPILEER SOURCE (C#)
+    ARGUMENTS:
+    Bestand: Main.cs
+    Output: WinC_DEBUG_NONRELEASE.exe
+    --------------------------------------
+    KLUS VOLTOOID - 0 FOUTEN GEDETECTEERD
+    1 WAARSCHUWING(EN) GEDETECTEERD:
+    Main.cs Line 12 Position 8: Onbereikbare code gedetecteerd
+  </file>
+
+  <file path="WORKLOGS" name="9982711.log">
+    KLUS: VERSLEUTEL BESTAND
+    ARGUMENTS:
+    Bestand: Naruto_Xrated_Verzameling.zip
+    Output: printer_Drivers.dec
+    Wachtwoord: BELIEVEIT
+    --------------------------------------
+    KLUS VOLTOOID - 0 FOUTEN GEDETECTEERD
+  </file>
+
+
+</Computer>

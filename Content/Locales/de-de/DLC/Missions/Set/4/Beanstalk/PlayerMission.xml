@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dBeanstalkMission">
+  <goals>
+    <goal type="fileupload" target="ds4_laptop" file="038457_doc.pdf" path="home/dagrunsdottir_leak" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Bean Stalk">Hacke dich in ein Café, um einen Gesetzesentwurf vom Computer eines Stammgasts zu stehlen. Wir sind natürlich nicht politisch motiviert – diese Informationen sind schlichtweg viel Geld wert.</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>Bean Stalk</subject>
+    <body>
+Hacke dich in ein Café, um einen Gesetzesentwurf vom Computer eines Stammgasts zu stehlen. Wir sind natürlich nicht politisch motiviert – diese Informationen sind schlichtweg viel Geld wert.
+----
+Asdis Dagrunsdottir, eine europäische Politikerin, hat Berichten zufolge geheim innerhalb ihrer Partei gearbeitet, um eine Gesetzesentwurf zu verfassen, die sich massiv auf die Arbeit unserer Industrie auswirken könnte. Hacker sind ein neugieriges Völkchen und deshalb wurde eine beachtliche Belohnung darauf ausgesetzt.
+
+Wir haben Informationen aufgedeckt, wonach sie sich regelmäßig in einem Café in der Nähe ihres Hauses aufhält. Glücklicherweise war die IP-Adresse des Routers dieses Cafés nicht so schwer ausfindig zu machen.
+
+Finde die Dateien. Lade sie auf den Drop-Server hoch. Ich werde mich um den Rest kümmern.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="ds4_cafe" />
+      <note title="Mission Guidelines">Finde Asdis Dagrunsdottir in der Routerliste des Cafés
+Suche nach den Gesetzesdokumenten
+Lade alle Dokumente, die du findest, auf den Drop-Server hoch</note>
+    </attachments>
+  </email>
+</mission>

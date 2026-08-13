@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dlcDemoIntro1">
+  <goals>
+    <goal type="filedeletion" target="dDemointro1" file="x-server.sys" path="sys"/>
+  </goals>
+  <missionStart val="0" suppress="true">loadConditionalActions:DLC/ActionScripts/HermeticAlchemistsActions.xml</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="Hermetik Simyagerler">
+  Felsefe de belirsiz bir yere sahip olan "Hermetik Simyagerler" garip de olsa önemli bir ağ sistemine sahip. Yapmış olduğumuz araştırma sonucunda bir süredir elde etmek istediğimiz bir yazılımın yöneticileri tarafından geliştirildiğini öğrendik.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Hermetik Simyagerler</subject>
+    <body>
+Görünüşe göre yöneticileri izlence teknolojisi dehası. Yine de tamamen simya işine kafayı gömmüş. Sunucuları garip bir kaleye benziyor. Ne olursa olsun bu yöneticinin bilgisayarının adresini bulmalı ve yazılımı ele geçirmeliyiz.
+
+Bu proje de ekiple çalışacaksın. Eğer ekibin işine yarayabilecek bir şey bulursan sohbete bırak.
+Kolay gelsin.
+    </body>
+    <attachments>
+      <link comp="dhaEntry" />
+      <note title="Hermetik Simyagerler İşi">Sunucuyu incele ve yöneticinin bilgisayarının adresini bul.
+Yeni izlence takip etme veya önleme yazılımını indir ve Drop Server'a yükle.
+</note>
+    </attachments>
+  </email>
+</mission>

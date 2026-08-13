@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyMission1.1">
+  <goals>
+    <goal type="FileDeletion" target="entropy01.1" file="config.sys" path="MsgBoard"/>
+  </goals>
+  <missionEnd val="6">assignPlayerToEntropyFaction</missionEnd>
+  <nextMission>Entropy/EntropyMission1.2.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>확인 미션</subject>
+    <body>
+안녕, #PLAYERNAME# 
+
+Entropy 그룹 가입 시험을 찾아내고 통과한 것을 축하하도록 하지. 숙련된 해커에게는 사소한 일이지만, 실제로 해내는 이는 놀라울 정도로 적거든. 
+
+그룹에 정식으로 가입하기 전에, 당신의 능력을 좀 더 점검할 필요가 있어. 
+최근에 Entropy에 대해 적대적인 행보를 취한 타블로이드 뉴스 서버가 있는데, 운영을 일시적으로 중단시켜주고 싶어서. 당신의 실력에 대한 이차검증으로, 당신이 이 서버의 게시판을 다운시켜줬으면 좋겠어. 할 수 있다면 Entropy와 관련되지 않은 게시글과 서버의 나머지는 그냥 내버려 두게. 필요 이상으로 해악을 끼칠 필요는 없으니까. 
+그냥 서버의 모든 게시물을 삭제하라는 게 아니네. 그냥 프로그램만 다운시키면 되는 거야.
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy01.1"/>
+    </attachments>
+  </email>
+</mission>

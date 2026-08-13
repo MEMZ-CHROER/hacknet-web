@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="xcRepBAD" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+ERROR DE PUBLICACIÓN DESCONOCIDO
+  </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>Re: Investigaciones internas</subject>
+    <body>
+Eh, vale entonces.
+
+ Esto parece... poco profesional. Supongo que tendré una charla con nuestro estimado doctor acerca de.. el uso debido de los recursos del proyecto en el futuro.
+
+ Gracias por hacérnoslo saber, 
+-Director Bradford
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

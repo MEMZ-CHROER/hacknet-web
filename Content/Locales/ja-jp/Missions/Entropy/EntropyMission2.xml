@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission02" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>RE: ようこそ</subject>
+    <body>
+#PLAYERNAME#へ
+
+素晴らしい。では、君が依頼を受けられるよう、正式に招待させてもらおう。セキュリティ万全なEntropyの案件データベースのIPアドレスと、そこへのアクセスに必要なログイン情報を添付して
+おいた。折りを見て、いつでも好きなように最初の依頼を受けるといい。
+
+君の進捗を評価するため、近いうちにまた連絡する。
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy00" />
+      <account comp="entropy00" user="#PLAYERNAME#" pass="rosebud" type="3" />
+    </attachments>
+  </email>
+</mission>

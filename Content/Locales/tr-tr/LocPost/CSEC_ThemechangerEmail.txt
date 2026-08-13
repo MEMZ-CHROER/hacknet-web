@@ -1,0 +1,10 @@
+Sayın temsilci,
+Asset Server'a kullanabileceğiniz yeni bir araç yüklendi.
+Bu araç, "ThemeChanger.exe" isimli bir x-server değiştirme programı. Konumu:
+
+/bin/ThemeChanger/
+
+Bilgisayarınıza indirebilir ve keyfinizce kullanabilirsiniz.
+
+Teşekkürler,
+{0}

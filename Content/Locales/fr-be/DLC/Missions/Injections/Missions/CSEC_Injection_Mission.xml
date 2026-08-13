@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dCSEC_Injection">
+  <!-- NOTE: This mission requires copying the upload file listed below to the CSEC hub before being added to the CSEC mission list -->
+  <goals>
+    <!-- corrupt the archive containing this one... blanket with delete, to stop it being un-completable 
+    File deletion will still work if the file exist but has it's data changed -->
+    <goal type="filedeletion" target="dPsyArchives" file="2_q1.zip" path="home/archives"/>
+   
+    <!-- upload the false report -->
+    <goal type="fileupload" target="dHidden" file="PA_0022_Incident.dec" path="home" destTarget="dPsyInternal" destPath="projects/investigations"/>
+    
+  </goals>
+  <missionStart val="2" suppress="true">changeSongDLC</missionStart>
+  <missionEnd val="3">changeSong</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>>
+<posting title="Subversion de l'enquête de Psylance">
+Psylance Cyber Security fait porter les soupçons sur une hackeuse innocente pour une défaillance de firmware récente. Nous avons besoin que vous corrigiez cette erreur pour un bénéficiaire anonyme.
+  </posting>
+  <email>
+    <sender>Services d'échange CSEC</sender>
+    <subject>Réduire Psylance au silence</subject>
+    <body>Agent de CSEC,
+    
+On cherche à faire porter le chapeau à une de mes bonnes amies travaillant dans le domaine de la cybersécurité pour une attaque qu'elle n'a pas commise.
+Psylance Cyber Security est en train de rédiger un rapport sur le sujet que je souhaite le remplacer par ma propre version. J'ai envoyé mon rapport aux admins de CSEC (NOTE DE l'ADMIN : le rapport crypté a été téléchargé vers le serveur hub : home/PA_0022_Incident.dec) afin que vous puissiez l'utiliser.
+Il devrait refléter leur structure de manière assez convaincante, donc ils ne remarqueront pas l'échange. Vous devrez accéder au serveur de leurs services internes (lien fourni), trouver le rapport portant le même nom, le supprimer et le remplacer par celui que j'ai uploadé sur le serveur de CSEC.
+
+Il vous faudra ensuite vous occuper de leur backup. Accédez à leur serveur de sauvegarde automatisé (lien fourni) et, si possible, corrompez leur archive plutôt que de la supprimer. Ce devrait être la plus récente (2_q2, si mes infos sont exactes).
+La corruption devrait fonctionner en remplaçant du contenu binaire par des lettres, ou quelque chose de ce genre.
+
+Merci pour votre aide à cet égard,
+-K
+    </body>
+    <attachments>
+      <link comp="dPsyArchives" />
+      <link comp="dPsyInternal" />
+
+      <note title="Synthèse">Télécharger PA_0022_Incident.dec du serveur de stockage de données de CSEC
+Accéder aux services internes de Psylance
+Supprimer leur copie du rapport concernant l'incident
+Uploader la version CSEC du rapport vers le même emplacement
+Accéder au serveur de backup
+Corrompre le fichier backup_2q2.zip (ou portant un nom similaire)
+DISSIMULEZ BIEN VOS TRACES</note>
+      
+    </attachments>
+  </email>
+</mission>

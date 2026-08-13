@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpae_airline_mailLink" name="Kim Burnaby's Office Computer" security="3" ip="141.8.224.143" type="4">
+
+  <!-- Misc airline employee. Close friend of the administrator of the bookings server.
+  This contains the login details of the owner's mail account for the airline, which is important for
+  player progression.
+  The details can be on an eOS device, if that's signposted here, or just sitting in a file.
+  Adding that extra layer of complexity is subject to testing and seeing how players perform on this network.-->
+
+  <proxy time="-1" />
+  <firewall level="-1"/>
+  <portsForCrack val="2" />
+  <ports>22, 21, 443, 6881, 80, 25</ports>
+
+  <file path="home/ePadBackup" name="MAIL.txt">eOS_MAILSYS_ACCOUNTDUMP
+    c704d41a-f5ae-411d-916f-6c484a34ef0f
+    pacificair konto:
+    U: kburnaby@pacificair.com
+    P: noneofyourbusiness
+  </file>
+
+  <file path="home/ePadBackup" name="NOTES.txt">
+Marks Empfehlungen:
+Ziegen im Veldt (11/10)
+Recton-Paradise (erste Hälfte ist toll, EPISODE 13 AUSLASSEN (???))
+Irgendwas über Hiebe, aber nur einen?? Nach dem Titel fragen.
+  </file>
+
+  <file path="home" name="ePadUserGuide.pdf">#BINARY#</file>
+
+  <file path="home" name="ePadWarrantyGuide.pdf">#BINARY#</file>
+
+  <file path="home" name="ePadSupportTicket.txt">Ich habe alle Dateien auf diesem ePad-Dings gesichert, aber es klappt immer noch nicht?! Ich habe deinen „Factory-Reset“ probiert, aber ich kann trotzdem das Konto nicht einrichten. 
+Vielleicht ein Hardwareproblem? Schau bitte mal nach!</file>
+
+  <positionNear target="dpa_whitelist" position="20" total="360" extraDistance="0"/>
+
+  <eosDevice name="Kim's ePad XL" id="dpae_airline_mailLink_eos" icon="tablet" empty="true">
+    <note>HINWEIS ZUM SYSTEM-UPDATE: 
+OS-Version beschädigt, bitte an den Support wenden!</note>
+  </eosDevice>
+
+</Computer>

@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dlcDemoIntro1">
+  <goals>
+    <goal type="filedownload" target="dDemointro1" file="FTPSprint.exe" path="bin"/>
+  </goals>
+  <nextMission>../DLC/Missions/Demo/DLCDemoIntroMission2.xml</nextMission>
+  <email>
+    <sender>Matt</sender>
+    <subject>Özet</subject>
+    <body>Merhaba,
+    
+Tekrardan hoşgeldin.Yeni bir iş var. Birçok grupta bununla ilgileniyor. Hem Entropy hem de CSEC'de yer alan temsilciler çoktan göz attı. Belki sende bakmak istersin diye düşündüm.
+
+Öncelikle seni biraz hızlandırmalıyız. Bu VM'i aşmak için SSHCrack ve FTPBounce'a ihtiyacın var. Linkini attığım sunucuya girip ~/bin klasöründe yer alan dosyalara göz atman yeter. Bence bundan hoşlanacaksın.
+
+Bunu hallettiğinde Tex sana bir ileti gönderecek.
+Umarım hala eli çabuk birisindir. Elinin çabuk olmasına ihtiyacın olacak.
+-Matt
+    </body>
+    <attachments>
+      <link comp="dDemointro1" />
+      <note title="Özet">Program Çalıştırma:
+Programİsmi [PortNumarası]
+Portlar açıldığında güvenliği aşmak için "Porthack" komutunu gir.
+
+İletiyi cevaplamadan önce hedef bilgisayardaki bin/XXXX dizinindekileri indir:
+- scp [dosyaadı]
+
+/log dizinindeki girdileri sil:
+-rm [* veya dosyaadı]
+</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,14 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-15.0">Çözümleme kurulumu tamamlandı!</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-12.0">Ne yazık ki henüz taşınabilir durumda değil. Paylaşılabilir .exe oluşturmaya çalışacağım.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-7.0">Şimdilik bulduklarınızı bana atın. Ben bakayım.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-3.0">Acaba bu aracı düzeltmek yerine bizim için dosyaları çözümleyerek daha ne kadar zaman geçireceksin?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="0.5">Evet, kendimden utanıyorum ancak bu soruyu da yanıtlayacak değilim. İşimizi görüyor. Zamanım olduğunda çok daha iyi hale getireceğim. Şu anda bununla yaşayabileceğimizi sanıyorum -_-</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="3.2">Bununla yaşamak zorundayız.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="3.5">-_-</AddIRCMessage>
+  </OnConnect>
+  
+</ConditionalActions>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="beepbeep"/>
+  </goals>
+  <missionEnd val="1">addFlags:dechead</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Track an Encrypted File">
+Nous pensons avoir localisé une nouvelle façon de retracer l'endroit où les fichiers cryptés DEC ont été encodés - nous avons un fichier verrouillé par un mot de passe et nous voulons l'ouvrir. Il devrait y avoir assez de pistes pour que vous continuiez.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>RE : À travers la longue-vue</subject>
+    <body>
+Bien, vous avez trouvé quelque chose ? 
+
+Alors, le fichier sur lequel nous nous penchons sur le crossroads, « CSEC_encode_1.dec » - nous l'avons renommé afin que les gens ne s'amusent pas avec. Il était à l'origine nommé « WinCE_FirmwareSpecs.dec » quand nous l'avons eu, si ça peut aider. 
+Bref, regardez les en-têtes, déterminez où il a été encodé et retrouvez le mot de passe ! Répondez avec le mot de passe dans l'email et nous nous occuperons du reste. 
+
+Merci pour votre aide,
+- Équipe CT
+    </body>
+    <attachments>
+      <link comp="hubCrossroads"/>
+    </attachments>
+  </email>
+</mission>

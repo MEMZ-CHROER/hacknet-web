@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dCSEC_Injection">
+  <!-- NOTE: This mission requires copying the upload file listed below to the CSEC hub before being added to the CSEC mission list -->
+  <goals>
+    <!-- corrupt the archive containing this one... blanket with delete, to stop it being un-completable 
+    File deletion will still work if the file exist but has it's data changed -->
+    <goal type="filedeletion" target="dPsyArchives" file="2_q1.zip" path="home/archives"/>
+   
+    <!-- upload the false report -->
+    <goal type="fileupload" target="dHidden" file="PA_0022_Incident.dec" path="home" destTarget="dPsyInternal" destPath="projects/investigations"/>
+    
+  </goals>
+  <missionStart val="2" suppress="true">changeSongDLC</missionStart>
+  <missionEnd val="3">changeSong</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>>
+  <posting title="Psylanceの報告書すり替え">
+Psylance Cyber Securityが、最近あったファームウェア障害に関して、無関係のハッカーを犯人扱いしています。匿名の受益者に代わって、Psylance社の間違いを正さなければなりません。
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Psylanceを沈黙させよ</subject>
+    <body>CSECメンバー各位
+    
+サイバーセキュリティーに明るい私の良き友人が、無関係の攻撃に関して濡れ衣を着せられようとしています。彼女を無実の罪から救ってください。
+Psylance Cyber Securityは事件の報告書を作成中です。それをこちらで用意したバージョンにすり替えてください。CSEC管理部に送信した（管理者注：暗号化した報告書をハブサーバーにアップロード済み：home/PA_0022_Incident.dec）ので、それを使ってください。
+本物の構造と瓜二つなので、Psylance社の人間がすり替えに気付くことはないでしょう。まずInternal Servicesサーバー（下記リンク）に侵入し、同じファイル名の報告書を削除し、CSECにアップロードしてある報告書に置き換えてください。
+
+次に、バックアップにも工作してください。Psylanceの自動バックアップサーバー（下記リンク）に侵入し、可能なら単に報告書を削除するのではなく、アーカイブを破損させてください。おそらく標的は最新のアーカイブ（私の調査では2_q2）です。
+バイナリ・コンテンツを文字列等に置換すれば破損します。
+
+では、よろしくお願い致します。
+-K
+    </body>
+    <attachments>
+      <link comp="dPsyArchives" />
+      <link comp="dPsyInternal" />
+
+      <note title="Overview">CSECドロップサーバーからPA_0022_Incident.decをダウンロード。
+Psylance internal servicesに侵入。
+事件の報告書を削除。
+報告書のCSECバージョンを同じ場所にアップロード。
+バックアップサーバーに侵入。
+backup_2q2.zip（もしくは似た名前のファイル）を破損させる。
+ログを完全に消す。</note>
+      
+    </attachments>
+  </email>
+</mission>

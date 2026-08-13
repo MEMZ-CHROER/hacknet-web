@@ -1,0 +1,8 @@
+Du bist berechtigt, beliebige Dateien auf diesen Server hochzuladen.
+Benutze dazu den Befehl "upload [LOKALER_DATEINAME]".
+
+
+NICHT VERGESSEN: Dateien, die mit 'scp' heruntergeladen wurden, liegen in ~/home
+(oder, bei exe Dateien: ~/bin)
+Uploads müssen einen vollständigen Pfad angeben:  home/[DATEINAME]
+Über "Tab" kann ein Pfad, sowie der Dateiname automatisch ergänzt werden.

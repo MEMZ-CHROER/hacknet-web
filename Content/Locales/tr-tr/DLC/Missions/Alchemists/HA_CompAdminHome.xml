@@ -1,0 +1,83 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dhaAdminHome" name="Nate Wesson Home" security="4" ip="66.175.58.9" type="4" icon="DLCPC1">
+  
+  <!-- This is the home computer of the architect of the system, it's more personal, less formal, and contains WIP files -->
+  
+  <proxy time="-1" />
+  <trace time="300" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 443, 80, 6881</ports>
+  
+  <positionNear target="dhaComp2" position="300" total="360" extraDistance="0.01"/>
+
+  <file path="sys" name="STOR-DRIVE_activesync.log">Yerel hafıza görüntüsü oluşturuldu
+güvenli dahili sürücü çevrimiçi olarak komut pingine yanıt veriyor
+YÜKLEME BAŞARILI
+Hata: 0</file>
+
+  <file path="bin" name="SignalScrambler.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+
+  <file path="home/wip" name="todo_books.txt">Yazılacak Kitaplar:
+
+devam eden
+- kilo verme rehberi
+
+biten
+- hermetik-simya el kitabı (neden satışlar iyi gitmiyor? araştırılmalı)
+- yaşam ağacının karmaşıklığı (dağıtımcı ile konuşulacak)
+
+yazılacaklar
+- gıda metafiziği
+- CFC yemekleri rehberi
+- arılarla ilgili kurgu roman (hisli arılar bu aralar bayağı tutuyor)</file>
+
+  <file path="home/wip" name="weightloss.txt">Her Şey Kafada Biter: Kilo Vermek İçin Pozitif Düşünün!
+veya:
+Wesson Yöntemi
+
+Giriş
+
+Uyuşturucular harikadır! Yemekler her şeyi çözer! Hayatınızda her şey mükemmel!
+
+Okuduğum kitaplarda he bunlar yazıyordu. Size bir şey diyeyim, alayı yalan! İnsanlar kilo vermeye çalışıyor ve şöyle diyor: "Olamaz! Her ne kadar az yesem ve spor yapsam da kilo veremiyorum! Yağlarım kasa dönüşüyor, vücudum inceliyor ama kilo veremiyorum!"
+
+Benden söylemesi; bu iş az yemek ve spor yapmak, yani sözlük ve "doktorların" "sağlıklı" tanımını size yakıştırmasıyla olmaz. Kilo vermek için gerçekten olumlu düşünmelisiniz. Bu kapsamlı rehberde size tam olarak nasıl düşüneceğinizi anlatacağım.</file>
+  
+  <file path="home/wip" name="weightloss_parody.txt">Olası dağıtımcılara not: Ben deli değilim. Yazdığım şey kilo verme parodisi. Amacımda insanlara akıllı ve komik olduklarını düşündürtüp bu kitabı raflarına eklemelerini sağlamak. Lütfen eserimi istenmeyen kitaplar arasına koyun.
+</file>
+  
+  <file path="home/wip" name="weightloss_c2.txt">2. Bölüm
+
+Bilinmeze Yaptığınız Yolculuğu Hızlandırmak İçin Her Şeyden Yiyin
+
+planlama:
+-Ne isterseniz yiyin
+-Kilo verdiğinizi düşünün
+-Mükemmelliğe doğru adım attığınızda kilo vereceksiniz
+-Mükemmeliğe doğru adım atarsanız kilo verirsiniz
+-Akademik metinlerle karşılaştırın
+</file>
+
+
+  <file path="home/wip" name="weightloss_c3.txt">3. Bölüm
+
+-Terebentin veya sigara izmariti gibi kötü şeyler yemeyin yoksa ölürsünüz. Şişmanlatıcı abur cuburlar iyidir (özellikle CFC abur cuburları).</file>
+
+  <file path="home/wip" name="weightloss_c4.txt">4. Bölüm
+
+-Ayrı satılan iyi düşünce eki hakkında konuşmaya devam.</file>
+  
+  
+  <Memory>
+    <Commands>
+      <Command>STOR-DRIVE upkeep ping @ 66.175.58.11 _ ACTIVE</Command>
+    </Commands>
+    <Images>
+      <Image>DLC/Sprites/Misc/Alchemy</Image>
+    </Images>
+  </Memory>
+  
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/RiptideTheme.xml"/>
+
+
+</Computer>

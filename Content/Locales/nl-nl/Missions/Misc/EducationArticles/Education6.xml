@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Traces - Actief">
+Als antwoord op de groeinde vijandigheid en activiteit in de wereld van computer hacking, nieuwe digitale beveilingspakketen zullen meestal een methode van het volgen van enige "vijandige" actifiteit maken tegen die server.
+
+Dit is natuurlijk een imperfecte wetenschap, dus er zijn 2 erkende vormen van traces, Actief en Passief.
+
+Dit artikel behandelt actieve traces.
+
+2: Actieve Traces
+----------------
+Een actieve trace is een opsporingsmethode ondernomen door een individu dat werkt tegen de actieve verbinding, of gebruikelijker, logs achtergelaten op een server door een nonchalante hacker.
+Een actieve trace is on-vindbaar en is meestal gedaan door het breken van beveiliging op nodes gebruikt in het verbindingspad en door het observeren van de route logs.
+Een actieve trace kan worden voorkomen door het weghalen van de logbestanden zodat de achtervolger niks heeft om te volgen en daarom is het aangeraden om als er een actieve trace gedaan wordt tegen een aanvaller het zo snel mogelijk wordt gedaan.
+
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Ontvangen van deze email betekent dat er een onverwachte fout is opgetreden.
+Raak in paniek.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

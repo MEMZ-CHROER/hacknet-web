@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="1299"/>
+  </goals>
+  <nextMission>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply.xml</nextMission>
+  <branchMissions>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply2.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply3.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply4_Penetrator.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply5.xml</branch>
+  </branchMissions>
+  <posting title="Akte X-C">
+Eine etwas seltsame Bitte hat uns erreicht - Ein extrem gut finanzierter Unternehmer möchte das Tablet eines Kollegen überprüfen lassen. Er möchte wissen, ob es während der Arbeitszeit für private Zwecke eingesetzt wird. 
+
+Ein oberflächlicher Scan hat ergeben, dass das Unternehmen von Aliens besessen zu sein scheint - vielleicht eine Gruppe engagierter Rollenspieler, oder vielleicht Verschwörungstheoretiker?
+ </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>Interne Untersuchungen</subject>
+    <body>
+Guten Tag,
+das X-C Projekt benötigt Ihre Hilfe. Auch wenn es eine strikt interne Angelegenheit ist, hätte ich trotzdem gerne, dass die Angelegenheit untersucht wird. Ich habe schon seit einer Weile die Vermutung, dass eine der führenden Forscherinnen aus unserem Wissenschaftsteam etwas... weniger produktiv ist, als sie sein könnte.
+Ich bitte daher darum, ihr Tablet zu untersuchen. Ich möchte erfahren, ob es für private Zwecke missbraucht wird.
+
+Unsere Server spiegeln Dateien über einen ID-Code auf ein zentrales System. Ich würde Sie bitten, dieses System zu untersuchen und mir die IDs jener Dateien zukommen zu lassen, die eine weitere Untersuchung wert sein könnten.
+Bei den Dateien, nach denen wir suchen, sollte die ID am Anfang des Dokuments stehen. Etwa so: X-C_PROJECT:ID#11111111, wobei "11111111" die ID ist, nach der wir suchen.
+
+Der Link des besagten Tablets ist angefügt.
+
+Viel Glück,
+-C.O Bradford
+    </body>
+    <attachments>
+      <link comp="xcTablet" />
+    </attachments>
+  </email>
+</mission>

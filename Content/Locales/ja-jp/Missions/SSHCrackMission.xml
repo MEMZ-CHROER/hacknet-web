@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="sshcrack01">
+  <goals>
+    <goal type="FileDownload" target="portcrack01" file="SSHcrack.exe" path="bin" />
+  </goals>
+  <missionEnd val="0">transitionToBitMissions</missionEnd>
+  <nextMission>NONE</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>ツールを集めよう</subject>
+    <body>
+よし、これでひとまずは安全なはずだ！少なくとも君自身のコンピュータに関してはね・・・。
+始める前に、いくつか必要なものがある。Porthackだけじゃ、最新のコンピュータをハッキングするのは難しいからね。重要な情報がある
+コンピュータなんかは特にそうだ。
+
+私の友達を調べるところから始めるといい。彼の名前は「Viper」・・・毒蛇。ダサいだろ？あいつは・・・正直、ずば抜けて腕がいいって
+わけじゃない。でも、使えるツールをいつも手元に持ってるんだ。
+彼のコンピュータに忍び込むのはそんなに難しくない。何か役に立つものを探し出すほうが手間かもな。
+      
+ほとんどのファイル（残されたログやプログラムのセーブファイル、IRCのログとか）は無視して構わない。見つけてほしいのは、最後に.exeとついているファイルだ。
+ファイルはコマンド「scp」を使えばダウンロードできる。
+
+健闘を祈る。終わったら返信してくれ！
+      
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <link comp="portcrack01" />
+      <note title="Hacknet クイックガイド">クイックガイド
+      
+コマンド「probe」でセキュリティシステムを分析
+「porthack」でセキュリティを破壊
+
+「scan」で接続されたノードをスキャン
+~/logフォルダのログを消すには「rm [ファイル名 もしくは *]」
+
+ファイルのダウンロードにはコマンド「scp [ファイル名]」
+      </note>
+    </attachments>
+  </email>
+</mission>

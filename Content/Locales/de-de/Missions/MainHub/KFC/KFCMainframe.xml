@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kfcMainframe" name="CFC Corporate Mainframe" security="5" type="4">
+  <trace time="320" />
+  <proxy time="0" />
+  <firewall level="0" />
+  <dlink target="kfcWebServer" />
+  <dlink target="kfcRecordsRepo" />
+  <admin type="fast" resetPassword="true"/>
+
+  <file path="home/training_files" name="New_Employee_Welcome_Email.txt">
+%NAME%,
+
+Willkommen in der CFC Familie!
+
+Kernel's Food Corner bietet umfangreich Karrieremöglichkeiten, spannende Aufgaben und freundliche Kollegen und wir hoffen, du fühlst dich bei uns wie zuhause!
+Als Mitglied unserer Familie steht dir unsere 12% Mitarbeiterrabattkarte zu. Sie ist diesem Schreiben angefügt - Viel Spaß damit!
+
+Deine offizielle Einführung bekommst du bei deiner ersten Schicht. Noch einmal, Willkommen in der Familie.
+
+ -Management
+  </file>
+
+  <file path="home/training_files" name="11_Secret_Herbs_And_Spices.txt">
+Viele unserer neuen Mitarbeiter fragen direkt nach unserer Geheimformel - aus Neugier, oder dem Wunsch, sich besser miteinbringen zu können. Leider ist die Formel viel zu wichtig, um sie an unsere Mitarbeiter auszugeben (bes. unter Berücksichtigung unserer Verbleibquote), und steht daher unter strengem Schutz.
+Die Gewürzmischung wird unseren Filialen regelmäßig in weißen Plastiktüten zugeschickt, wo sie den Anweisungen entsprechend mit der Panade gemischt wird.
+
+Was das Management betrifft, nicht einmal die dürfen die Formel wissen. Tatsächlich ist die Formel nur 2 Personen (von denen jede eine Hälfte kennt) auf der Welt bekannt (welchen es ausdrücklich verboten ist, im selben Transportmittel zu reisen).
+
+All diese Maßnahmen stellen sicher, dass unsere Formel für perfektes Hühnchen stets sorgsam produziert und zusammengesetzt ist, aber dennoch unser am besten gehütetes Geheimnis bleibt.
+  </file>
+  <file path="home/training_files" name="Order_Records_Guide.txt">
+Bestellbestätigungen sollten vor Ort aufbewahrt werden und die Aufzeichnungen jährlich an das zentrale CFC Records-Repository gesendet werden, wo sie archiviert werden.
+Das Selbe gilt für Rechnungen. Die Aufzeichnungen werden nur in Notfällen (wie etwa Lebensmittelvergiftungen) auf Anfrage und auch nur persönlich und in ausgedruckter Form herausgegeben.
+
+  CFC Records-Repository: 202.7.177.65
+
+  </file>
+
+
+  <file path="home/Media" name="Logo.png">#BINARY#</file>
+  <file path="home/Media" name="Logo_Small.png">#BINARY#</file>
+  <file path="home/Media" name="MediaKit_2011.zip">#BINARY##BINARY#</file>
+  <file path="home/Media" name="Guide.txt">
+Hier bei Kernel's Food Corner gibt es nur eine Regel: Wir servieren nur das leckerste Hühnchen der Welt.
+Aus besten Zutaten - und vom ganzen Huhn, immer frisch geliefert.
+Frisch zubereitet, von Hand in unserer geheimen Gewürzmischung paniert und frisch von unseren zertifizierten CFC Köchen gekocht. In jeder unserer Filialen.
+Ob das leicht ist? Nein. Aber jeder Bissen erinnert uns daran, warum es den Aufwand wert ist.
+Weil frisch einfach besser schmeckt. Komm' vorbei und überzeuge dich selbst.
+  </file>
+
+</Computer>

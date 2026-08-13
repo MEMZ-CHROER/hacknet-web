@@ -1,0 +1,58 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nortronInternalServices" name="Nortron Internal Services Server" security="2">
+  <ports>22,21</ports>
+  <trace time="60" />
+  <firewall level="1" />
+  <link target="nortronMail" />
+  <link target="nortronMainframe" />
+  <positionNear target="nortronMainframe" position="1" total="3" />
+  <!-- J. Abrams -->
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat" >#BINARY#</file>
+  <file path="staff_folders/J.Abrams" name="REMINDER.txt" >
+    NOT:
+    yeni e-posta bilgileri
+    Kullanıcı Adı = j.abrams
+    Şifre = bootyking420
+
+    neden her sene bunu değiştirmemiz gerekiyor?
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy).doc" >
+GÖREV: Rapor Yazılacak
+http://en.wikipedia.org/wiki/Antivirus
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy)(Copy).doc" >
+Antivirüs yazılımı Rootkit'i (Kök Kullanıcı Takımı) tarayabilir;
+Rootkit bilgisayarlar üzerinde fark edilmeden yetki
+kazanabilmek için yazılan kötü amaçlı yazılımlardır. Rootkit işletim sisteminin
+fonksiyonlarının işleyişini değiştirebilir ve bazı durumlarda da antivirüs programlarını
+bozup etkisiz hale getirebilir. Rootkit'in kaldırılması zor olmakla birlikte
+bazı durumlarda işletim sisteminin sıfırdan kurulmasını gerektirebilmektedir.
+
+Kaynak - http://en.wikipedia.org/wiki/Antivirus
+  </file>
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat" >#BINARY#</file>
+
+  <!-- P. Evans -->
+  <file path="staff_folders/P.Evans" name="SecuDoc.bat" >#BINARY#</file>
+
+  <!-- L.L. Coolay -->
+  <file path="staff_folders/L.L.Cooljay" name="SecuDoc.bat" >#BINARY#</file>
+
+  <!-- T.Stark -->
+  <file path="staff_folders/T.Stark" name="SecuDoc.bat" >#BINARY#</file>
+  <file path="staff_folders/T.Stark" name="Harrasment_Evidence.txt" >
+    
+Meslektaşlardan birinden gelen e-postanın kopyası:
+    
+| T-BONE, Tony, adamım - N'aptın?
+| Bugün öğle yemeğine çıkıyoruz değil mi? Canım tavuk istiyor. 
+| Belki biraz da karpuz. Bakarız. 
+| Bana haber et  
+| 
+| -Havalı JJJJJJJJJJJJ
+
+ADIM TONY DEĞİL, NEDEN PEŞİMİ BIRAKMIYOR Kİ. 
+THOMAS STARK GAYET NORMAL BİR İSİM YANİ.
+    
+  </file>
+</Computer>

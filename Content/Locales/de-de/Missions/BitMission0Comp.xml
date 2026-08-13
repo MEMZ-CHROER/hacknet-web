@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission00" name="Bitwise Test PC" security="1">
+  <file path="home" name="Test_File.txt">Gratulation, DU hast gewonnen!</file>
+  <file path="home" name="L-E_x-server.sys">#PURPLE_THEME#</file>
+  <file path="sys" name="x-server.sys">#PURPLE_THEME#</file>
+
+<file path="home" name="Hobbes_TerminalGuide.txt.txt">
+Nützliche Terminal-Kommandos:
+
+cat [filename] - zeigt den Inhalt der gewählten Datei an
+
+cd / - wechselt in das root-Verzeichnis (das oberste Verzeichnis)
+
+ls - gibt das aktuelle Verzeichnis und die sich darin befindenden Dateien an
+
+cd .. - Wechselt in das nächsthöhere Verzeichnis
+
+replace [dateiname] "[string1]" "[string2]" - Ersetzt jedes Vorkommen von [string1] in der Datei [dateiname] mit [string2]
+
+mv [dateiname] [target] - verschiebt die Datei [dateiname] oder bennent sie in [target] um. Willst du die Datei bloß verschieben, musst du den Pfad wie folgt angeben -
+
+mv config.sys /misc/
+
+Willst du die Datei umbenennen, gib für [target] einfach den neuen Dateinamen an. z.B.
+
+mv config.sys config.old
+
+Help 1, Help 2, Help 3 - Kommandoliste (Seite 1,2 und 3). Die solltest du verinnerlichen.
+
+forkbomb - nicht näher beschrieben, aber sehr hilfreich, wenn du ein System schnell abschießen musst; Das kannst du auch als Sicherheitsmechanismus nutzen, indem du dein EIGENES System forkbombst.
+
+shell - Legt einen Remote Host auf einem von dir kontrollierten System an, KANN ebenfalls zum Schutz deines eigenen Systems angewandt werden (Siehe Abschnitt "Falle")
+</file>
+  
+<file path="home/autolog_reports" name="log01332.txt">
+[shinterland] Ich warte grad, bis Chef endlich weg ist
+[shinterland] Dann treffen wir uns an der Hintertür
+[jwalter] Meinst du, er weiß davon?
+[shinterland] Pfft, bezweifel ich. 
+[shinterland] Der hat keine Ahnung, was für ein shitstorm gleich losbricht. 
+[jwalter] Lösch bloß deinen Browser-Verlauf, das sollte besser nicht auf uns zurückfallen. 
+[shinterland] Jaja, ich kümmer mich drum.
+[shinterland] Er ist grade mit seiner Jacke zur Tür raus... Los gehts!
+[jwalter] Okay, gib mir nen Moment die Kamera einzustellen.....
+[jwalter] So... Du hast drei Minuten, bis das Bild weiterläuft.
+[shinterland] Ich schnapp mir die Liste und nachher gehen wir dann feiern, ja?
+</file>
+  
+<file path="home/autolog_reports" name="log0177_F.txt">
+[vope] Das würdest du mir ja eh nicht glauben
+[r@$put1n] Was?
+[r@$put1n] hat's funktioniert?
+[vope] Ich hab hier ein paar Schläger an der Haustür, die wollen wohl den Source-Code...
+[r@$put1n] damn - klingt, als ob du jetzt mit den großen Jungs spielst !
+[r@$put1n] Wirst du wenigstens gut bezahlt?
+[vope] 12k für 2 Monate sind schon nicht schlecht
+[vope] Ich frag mich, was sie damit anstellen wollen...
+[r@$put1n] Warscheinlich dein Bankkonto leerräumen.
+[vope] viel Glück dabei, bei mir gibt's eh nichts zu holen, lol
+
+-- confirmed fake --
+</file>
+  
+<file path="home/autolog_reports" name="log01009.txt">
+[felix] Ist gut für mich gelaufen; Bill ist endlich gefeuert worden.
+[bleedingcool] Gut. 
+[felix] Ich hasse den Kerl. Hast mir echt nen Gefallen getan.
+[bleedingcool] Ganz zu schweigen von den 10.000€ Schwarzgeld.
+[felix] Netter Nebeneffekt
+[felix] Wir sind quitt?
+[bleedingcool] Jap. Ich habe jetzt Monate lang Exlusivinterviews. Ich komm nächstes Jahr wieder auf dich zurück wenn der neue Brisby Film rauskommt.
+[felix] bis später, Chef.
+</file>
+  
+</Computer>

@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="FOF_Screenplay.doc" path="home" destTarget="producerComp" destPath="home/scripts"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Help an aspiring writer" reqs="dechead,decypher">
+Un écrivain en herbe souhaite que nous transmettions un de ses scénarios à un producteur.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Une candidature convaincante</subject>
+    <body>
+Un écrivain veut transmettre une ébauche de son dernier travail à un producteur et a eu des difficultés à passer la barrière des secrétaires. 
+Il aimerait que nous nous introduisions et déposions son travail dans le dossier de scénarios à examiner de la cible afin qu'il soit lue. 
+
+Son scénario, « FOF_Screenply.doc », a été téléchargé sur le crossroads. 
+Il a également fourni un scénario crypté pour concurrencer le sien dont nous pouvons nous servir pour tracer. 
+Il est également sur le crossroads, « T2_Screenply.dec »
+      
+Téléchargez son scénario dans le dossier de scénarios de l'appareil cible. 
+Comme toujours, rappelez-vous de tabuler toutes les commandes de téléchargement - « téléchargement corbeille/ » cliquez ensuite sur la touche de tabulation pour obtenir une liste du fichier local à télécharger et faites une saisie semi-automatique.
+
+Bonne chance,
+-CSEC
+    </body>
+    <attachments>
+      <link comp="hubCrossroads"/>
+      <note title="Détails du contrat">Téléchargez FOF_Screenply.doc 
+     
+Tracez T2_Screenplay.dec
+
+Téléchargez FOF_Screenply.doc pour cibler le dossier scénarios.</note>
+    </attachments>
+  </email>
+</mission>

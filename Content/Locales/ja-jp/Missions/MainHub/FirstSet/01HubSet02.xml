@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="AddDegree" owner="John Stalvern" degree="Masters in Digital Security" uni="Manchester University" gpa="3.0"/>
+  </goals>
+  <missionEnd val="1">changeSong</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="冷めた鉄を打て [Int.Academic]">
+CSECの味方となり得る人物の履歴書に学位を追加してください。
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Binary Universe(ity)</subject>
+    <body>電子セキュリティ会社の上層部に味方がいる、これは心強いことです。特に――コンピュータセキュリティの知識を一切持たない人ならなおさら。
+CSECに対して非常に友好的なとある人物が、最近採用エージェントから連絡を受けました。彼が採用されるよう、CSECの力を少しばかり貸したいのです。
+
+彼の地元、Manchesterにある大学から、彼に新しい学位を付与してください。
+
+名前: John Stalvern
+学位: "Masters in Digital Security"
+大学: "Manchester University"
+GPA: 3.0以上
+
+注意: 侵入の痕跡を消すことを忘れないでください。国際的な機関はその評判が命――あなたはその評判を汚すようなことをするのです。彼らが痕跡を見つければ、いかなる手を使ってでもあなたを
+罰するでしょう。
+
+健闘を祈ります。
+-CSEC
+    </body>
+    <attachments>
+      <link comp="academic" />
+      <note title="学位の詳細">名前: John Stalvern
+学位: "Masters in Digital Security"
+大学: "Manchester University"
+GPA: 3.0以上</note>
+    </attachments>
+  </email>
+</mission>

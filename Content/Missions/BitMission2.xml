@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission02" activeCheck="true">
+  <goals>
+    <goal type="FileDownload" target="bitMission02" file="Entropy_Induction_Test" path="home" />
+  </goals>
+  <nextMission>Entropy/EntropyMission1.1Delayer.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Where to from here</subject>
+    <body>
+Alright! If you see this, then you've done well and... well, all this might actually be worth something.
+Is that too much to hope for? It seems like a lot to hope for.
+
+I've realized that I just don't have time to write this whole thing - there's way too much to learn, and I don't have time to do any of it. So, I'm going to need to ask something more. 
+
+There's a group that goes by 'Entropy' that's currently accepting members. They'll be able to teach you more. When you're ready, I'll contact you again.
+As for getting into Entropy, you'll need to bypass a proxy server - a few shells (open using the command "shell") running on computers you've already got admin access on should be able to overload it.
+
+Good luck...
+and thankyou,
+
+--Bit
+0
+
+P.S: I almost forgot, if you run into trouble, I've linked the network education archives server too - it's got a lot of useful info on it.
+    </body>
+    <attachments>
+      <note title="Proxy Server Info">A few notes on Proxy servers - a classic Entropy challenge.
+
+Run shells on computers you have admin access to with "Shell".
+
+Connect to a target computer, probe it's security.
+
+Use the shells to overload target proxy.
+
+NetEdu Archives will have more details.
+      </note>
+      <link comp="netEduComp" />
+      <link comp="bitMission02" />
+    </attachments>
+  </email>
+</mission>

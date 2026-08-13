@@ -1,0 +1,132 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="portcrack01" name="Viper-Battlestation" security="0" type="4">
+
+  <dlink target="viperScanEarlyGame" />
+  
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="home" name="Youtubers.txt" >
+bakılacak youtube kanalları: 
+
+captainspinifex
+rockleesmile
+northernlion
+officialcalemgames
+jonathancrowgamer
+
+  </file>
+  <file path="home" name="Notes.txt" >
+    Sonunda Gollum'un söylediği sunucudaki haxxor programını torrent ile çekmeyi başardım - çok boktan bi işti!
+
+    Denemek için sabırsızlanıyorum - önce nasıl kullanacağımı çözmem gerek...
+  </file>
+  <file path="home" name="asdf.txt" >
+    İndüksiyon testi
+    199.59.149.230
+    Proxy sunucusu
+    
+    ..
+    
+    Belki de aşırı yüklenmeyle ilgili bir şey yapılması gerekiyordur?
+    Daha fazla araştırma yapmalıyım. Belki işime yarayacak bir program falan vardır. Daha fazla para isteyeceğim.
+  </file>
+  <file path="home" name="EmailDraft.txt" >
+    Merhaba baba,
+    Bir süredir sana yazmadığım için üzgünüm - okulda uğraşmam gereken bir sürü şey vardı - 11. yıl bayağı zor ancak iyi gittiğimi düşünüyorum.
+    Aslında birazcık yardıma ihtiyacım var - okuldaki projem için yeni bir program almam gerek - Programın adı 'FTPBounce.exe'. Gerçekten işime yarıyor! Fakat bayağı pahalı ve bana gönderdiğin para bitti - tüm bu IT programları çok pahalı.
+    Hesabıma 2.000$ daha yatırma şansın var mı? Bu gerçekten işime yarar.
+
+    Teşekkürler!
+    Seni seviyorum,
+    Tim
+  </file>
+  
+  <file path="home/work" name="jasperlog.txt" >
+[viper] istediğim kodları buldun mu?
+[jasper] peki para hazır mı?
+[viper] çantaya koymak üzere hazırladım
+[jasper] yarısını sunucuya yükledim. aktarma tamamlandığında kodların tamamı elinde olacak.
+[viper] güzel. kodları kontrol edeceğim.
+[viper] işte bu. çalışıyorlar.
+[jasper] artık paramı alabilir miyim?
+[viper] gönderdim.
+[jasper] aldım. call of soldier'ın bu seneki oyununun bu kadar tutacağını kim bilebilirdi...
+[viper] bu yılın en efsane şeyi sonuçta.
+[jasper] siz oyuncular yok musunuz...
+  </file>
+  
+  <file path="home/work" name="TARGET.txt" >
+[viper] Geri ödeme talep ediyorum.
+[cs#1575] Üzgünüm efendim fakat fikirleriniz değişmesi durumunda geri ödeme yapmıyoruz.
+[cs#1575] Ürününüzü J-Bay üzerinde yeniden satışa koymanızı önerebilir miyim?
+[viper] Ürünümü lanet açık artırma sitenizde satışa sunmak falan istemiyorum.
+[viper] Daha önce de söyledim, kazara izle tuşu yerine teklif ver tuşuna bastım.
+[cs#1575] Çok üzgünüm efendim, fakat poliçemiz kazara tuşa basma durumlarını içermiyor.
+[cs#1575] Dolayısıyla Penetrator 9000'in sizin olduğunu kabul etmeniz gerekmekte. Ancak isterseniz açık artırma satışı ile ödediğiniz parayı geri almaya çalışabilirsiniz.
+[viper] Yanlış müşteriye bulaştınız. Sizi bugün bunları söylediğine pişman edeceğim.
+[cs#1575] Teşekkür ederim efendim, size keyifli akşamlar dilerim. 
+  </file>
+  
+    <file path="home/work" name="ripped_prerelease.log" >
+[glaylor] SİKTİN ATTIN RESMEN
+[glaylor] 18 AYLIK EMEK
+[glaylor] 3 MİLYON DOLARLIK HARCAMA
+[glaylor] SADECE TELEFONLARI İZLEYEBİLDİĞİN BİR OYUN İÇİN MİYDİ?
+[glaylor] ..................
+[glaylor] SİKEYİİİİİİİİİİİİİİİİİMM!
+[hoops] Sakin ol ahbap, insanlar buna bayılacak.
+[hoops] Bu bildiğin durumun açıklandığı bir açıklama gibi bir şey.
+[hoops] Sanki şey... son zamanlarda hiç sokağa çıktın mı?
+[hoops] İnsanlar kafalarını telefonlarına gömmüş halde ve bunun farkında bile değiller.
+[hoops] Bu yüzden bizde insanların telefonlarına baktıkları sırada araba sürdükleri, yürüdükleri, ateş ettikleri, program kurcaladıkları bir oyun geliştirdik.
+[hoops] Gayet akıllıcaydı.
+[glaylor] Kurul bu saçmalık yüzünden kıçıma tekmeyi basacak.
+[glaylor] Buna güzel bi isim bulsak iyi olur.
+[glaylor] Ve dehşet bir reklam resmi.
+[glaylor] Görsel efektler de olmalı. Bu şekilde çocukların ilgisini çekebiliriz. 
+  </file>
+  
+  <file path="home/work" name="seb.txt" EduSafe="false">
+[viper] Nasıl geçti?
+[lilsebastian] Kabus gibiydi.
+[viper] Neden?
+[lilsebastian] Geceyi kulübede geçirdik. Romantizmin dibine vurduk.
+[lilsebastian] Sonrada sevişmeye başladık.
+[lilsebastian] Zaman geçirdik işte, bilirsin.
+[lilsebastian] Sonra da şey...
+[viper] Ney?
+[viper] Dökül.
+[lilsebastian] Şey işte, beklediğimden çabuk bitti. Şey gibiydi işte, kıyafetlerimiz hala üzerimizdeydi.
+[viper]......
+[viper]......
+[viper] HAHAHAHAHAHHAHAHAHAHAHHAA
+[lilsebastian] Kes.
+[viper] Dostum... dostum... bunu sakın başka birine anlatayım deme.
+[viper] Arkadaş olduğumuz için şanslısın, yoksa bunu herkese yayardım.
+[viper] Neyse, gitmem lazım. Yazmam gereken bir sürü kod var. 
+[lisebastian] Tamamdır. Yarın okulda görüşürüz.
+[viper] Sakın erken gelme. 
+  </file>
+  
+  <eosDevice name="Tim's ePhone 4S">
+    <note>PORT NUMARALARI
+Tarayıcı ve Sunucular: 80 (bazen 8080)
+SSH: 22 (####bunun programı)
+FTP: 21
+SQL: 1433
+    </note>
+    <note>entropy
+bir çeşit hacker grubu mu?
+küçük gibi, ayrıca pek de haberlere çıkmamışlar.
+Tabi bir nedenden ötürü nefretini kazandıkları SlashBot hariç.
+"test sunucumuzu bul ve aş" - ama nasıl?
+Mesaj panosu başka bilgi paylaşmamış.
+
+Belki bir yere dizmişlerdir? İnternet kayıtlarını bulup bilgi yitimini mi araştırsam acaba?
+    </note>
+    <note>daves
+H22 - Westfield ST (Durak 22)
+4:25 - 5:12
+4:55 e.30m
+    </note>
+  </eosDevice>
+</Computer>

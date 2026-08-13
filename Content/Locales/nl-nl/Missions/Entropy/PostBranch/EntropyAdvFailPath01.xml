@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMissionFail01">
+  <goals>
+    <goal type="getString" target="168.61.82.246"/>
+  </goals>
+  <nextMission>Entropy/PostBranch/EntropyAdv01.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Hopelijk is dat genoeg</subject>
+    <body>
+Het lijkt erop dat je de taak hebt voltooit, in ieder geval na een vluchtige kijk. Hopelijk blijft het profiel van deze gemeenschap nog wat langer beschaaft.
+
+Hoewel de klus klaar liijkt voor nu, ben ik niet helemaal overtuigt dat er geen andere kopieën waren - Ik verwacht iets te horen over de delete van een van de hacker IRC kanalen waarin ik idle, maar nog niks. Hopelijk is het een vertraagde reactie of iets dat ze proberen te verhullen.
+Als je nog wat rond wil kijken, ga je gang.
+
+Ondertussen, er is iets waar je me mee kan helpen - iemand op die kanalen had het over de klus die jij onderzocht - zegt dat hij het IP van de server heeft waar de bestanden vanaf kwamen.
+
+Kan je kijken of je het kan krijgen? Beantwoord gewoon met het IP als extra text. Ik heb een korte track op hem gerunt, en het lijkt erop dat de data is waar ik het gelinkt heb.
+
+Bedankt,
+-Tex
+
+    </body>
+    <attachments>
+      <link comp="entropyAdvFail01" />
+    </attachments>
+  </email>
+</mission>

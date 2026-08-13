@@ -1,0 +1,23 @@
+How do I download ram?
+
+Hi there 4chums, a friend of mine told me that it was possible to download ram instead of buying it at stores, but most of the sites I've been to have just been dodgy imitators - most of the "ram" I downloaded was just a picture of a computer, and the rest was just .zip folders filled with pictures of sheep. What am I doing wrong? 
+
+Reply 1: OP, which OS are you using?
+
+Reply 2: Delete System32
+
+Reply 3: [OP] I am using windows vista. Does this affect my ability to download ram?
+
+Reply 4: As D3m0nSworD99 said, you need to find and delete the "System 32" directory. This folder contains a program packaged with windows to help prevent piracy, which includes the piracy of ram - its main function is converting ram to pictures of s. Once you delete it, you can go back to the sites you were using to download ram and you will find those sheep pictures converted to installable ram.
+
+Reply 5: Yes, this guy is right, this is the correct way to download RAM. Also, sometimes it doesn't work - if your computer starts to have issues, you will need to open it up and use a fairly powerful magnet to remove all traces of System 32.
+
+Reply 6: [OP] Hey everyone, I'm posting this from my work computer. I think I made a mistake while following your instructions. I did the magnet thing but I think I may have used the wrong polarity or something because now my computer won't turn on. Please advice
+
+Reply 7: 8/10 made me reply
+
+Reply 8: Ahahah oh god what
+
+Reply 9: [MOD] Oh my god. Stickied.
+
+Reply 10: [OP] Guys? Help...

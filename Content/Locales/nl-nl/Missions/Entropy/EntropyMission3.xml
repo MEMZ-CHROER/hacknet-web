@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission03">
+  <goals>
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS.rar" path="bin" />
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Data.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Content.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS.rar" path="bin" />
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Data.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Content.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS.rar_backup" path="bin" />
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Data.xnb_backup" path="bin" />
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Content.xnb_backup" path="bin" />
+  </goals>
+  <missionStart val="0">entropyEndMissionSetup</missionStart>
+  <nextMission>AlphaCreditsMission.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Een Laaste Taak</subject>
+    <body>
+#PLAYERNAME#,
+
+Dit is het laaste wat de entropy groep direct van je zal vragen - mocht je slagen of falen, het is te reiskant om dit soort... persoonlijk contact te onderhouden.
+
+De missie is er een van vernietiging. Een groot bedrijf dat we in de gaten houden heeft een nieuw besturingssystemen ontworpen bekend als "HacknetOS", gebaseerd op het onderzoek van de recentelijk overleden hacker "Bit".
+Dit is een groot gevaar voor de veiligheid van de digitale wereld zoals we hem kennen - het gereedschap dat dit systeem bied kan hacken mogelijk maken voor zelfs de meest basis gebruiker met wat training.
+
+Dit gevaar moet volledig geelimineerd worden.
+Je hebt *volledige* steun van entropy hierbij, en daarom, twee krachtige (en dure) programma's zijn toegevoegd aan de Entropy asset server voor jou in bij deze taak. Je hebt ze waarschijnlijk nodig. Ik stel voor dat je ze onmiddelijk ophaalt.
+
+Toegevoegd is een link naar de interne dienst machine van de het bedrijf verantwoordelijk. Ze hebben meerdere backups, zonder tijvel en je moet dus hun network grondig scannen om te verzekeren dat alle sporen van dit gevaar compleet zijn gewist.
+
+We wensen je het beste geluk. Stel ons niet teleur.
+-Tex
+    </body>
+    <attachments>
+      <link comp="corp0#IS" />
+    </attachments>
+  </email>
+</mission>

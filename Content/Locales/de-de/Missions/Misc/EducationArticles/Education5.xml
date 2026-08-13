@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Passive Traces">
+Aufgrund des immer größer werdenen Markts für digitale Sicherheitssyteme (und ebenso für Hacker) und den immer ausgeklügelteren Taktiken auf beiden Seiten, bieten moderne Security-Suites in der Regel Möglichkeiten, "feindliche" Aktivitäten zurückzuverfolgen.
+    
+Natürlich gibt es dabei keine Silberkugel, weswegen Traces 2 Formen annehmen können; aktive und passive.
+    
+Dieser Artikel beschreibt passive Traces.
+    
+1: Passive Traces
+-----------------
+Ein passiver Trace ist ein Programm, dass auf eine Maschine nach verdächtigen Aktivitäten untersucht und, sollten solche gefunden werden, diese zurückzuverfolgt. Die Vorgehensweise hängt dabei vom Programm ab (und damit auch die Zeit, die für einen erfolgreichen Trace benötigt wird).
+Theoretisch kann ein passiver Trace abgewehrt werden, indem die eigene Maschine in genau dem Moment, indem der Ping des tracenden Servers ankommt, zum Absturz gebracht wird, was dezu führt, das der Ping ergebnislos bleibt. 
+Dies jedoch müsste auf OS-Ebene integriert werden. Und da dies in keinem geläufigen Betriebssystem der Fall ist, bleiben passive Traces eine effektive Methode zur Vefolgung von Angreifern.
+    
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Wenn du diese Mail erhalten hast, ist ein unerwarteter Fehler aufgetreten.
+Bitte gerate in Panik.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

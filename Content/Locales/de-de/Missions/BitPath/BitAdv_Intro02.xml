@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase2">
+  <goals>
+    <goal type="getString" target="156.151.59.35"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro03.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Affirmation</subject>
+    <body>Exzellent,
+    
+TraceKill - wie der Name schon vermuten lässt, leitet, wenn es aktiv ist, aktive Traces um. Dies sollte deine Arbeit sehr erleichtern.
+
+Lass uns anfangen.
+
+Ich habe zu deinem Fund etwas recherchiert - die Nachricht - du hast sie auch gelesen - er wusste, was los war. Wie auch immer, allein die Idee, dass seine Arbeit damit zu tun hat, ist schonmal ein Anfang - Ich habe eine paar Spuren verfolgt und habe eine kleine Liste mit seinen Servern zusammengestellt - keine Ahnung, wieviele davon als virtuelle Maschinen auf seinem Computer laufen, aber es ist ein mal ein guter Anfang.
+Den vielversprechendsten Server habe ich am Ende verlinkt - es ist ein privater Arbeitsserver, den er anscheinend als privaten Hostserver für Versionskopien seiner Arbeitsdaten verwendet hat.
+Das könnte ein Hinweis sein - wer behält schon private Backups der Backups einer Firma? Ich kann mir nur drei Gründen vorstellen - entweder du bist dafür verantwortlich wenn jemand was versaut - bist von inkompetenten Leuten umgeben, möchtest auf Nummer sicher gehen und benötigst deshalb die Backups und Logs aus rechtlichen Gründen - oder du bist aus irgendeinem Grund besorgt und möchtest die Datensätze haben, für den Fall, dass etwas schiefläuft.
+
+Aus welchem Grund auch immer, es scheint der richtige Ort zu sein, um sich mal umzusehen - Überprüfst du das? Habe selbst schon gesucht, es hat sich aber nichts ergeben - kann den Datenmüll nicht entschlüsseln.
+
+Lass mich wissen, wenn du etwas findest - und schick mir die IP von allem, was dir suspekt erscheint.
+
+-V    
+    </body>
+    <attachments>
+      <link comp="BitWorkServer" />
+    </attachments>
+  </email>
+</mission>

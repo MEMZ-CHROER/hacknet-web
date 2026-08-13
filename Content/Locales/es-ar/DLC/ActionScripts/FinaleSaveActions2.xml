@@ -1,0 +1,20 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="1.2">A salvo.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="5.2">Ya podemos respirar otra vez...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="10.2">No puedo creer que hicieran eso.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="14.2">Un avión... Un avión CON GENTE...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="20.2">Da igual. Necesitamos desconectar de esto un rato. Mejor que perdamos el contacto por un tiempo.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="27.2">Gracias por vuestra ayuda. Has marcado la diferencia.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="33.2">Ya me ocuparé yo de hacer limpieza. Si estabas conectado a ese avión, deberías alejarte de esos servidores durante un tiempo. Me aseguraré de que no queden rastros.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="36.2">Ah, por cierto, encontré esto en la configuración del servidor. Creo que reseteará tu IU y eliminará los rastros de Kaguya.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="40.2">Ha sido un placer trabajar contigo, #PLAYERNAME#. Buena suerte, cuídate.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="42.2">-C</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="44.0">!ATTACHMENT:link#%#Proyectos_Kaguya#%#54.183.231.34</AddIRCMessage>
+  
+  </OnConnect>
+
+</ConditionalActions>

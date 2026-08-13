@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dFollowsMission">
+  <goals>
+    <goal type="clearfolder" target="ds3_dest" path="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Takip">Biri Kaguya hakkında önemli şeyler bildiğini iddia ediyor. İzlerini sür ve iddiaları doğrula. Gerekirse bu kişiyi sustur. Geminin batmasına izin veremeyiz.</posting>
+  <email>
+    <sender>Biblioteqhue</sender>
+    <subject>Takip</subject>
+    <body>
+Biri Kaguya hakkında önemli şeyler bildiğini iddia ediyor. İzlerini sür ve iddiaları doğrula. Gerekirse bu kişiyi sustur. Geminin batmasına izin veremeyiz.
+----
+Anonim bir kullanıcı birkaç hacker forumunda benimle ilgili önemli şeyler bildiğini yaymaya başladı. Hakkımda yayılmış olan kötü şöhret sağolsun hackerlar bunun üzerine düşer mi bilemiyorum. Her ne kadar IRC kanalında söz konusu afişe kulak asılmasa da suçlamaların bir kısmı beni az da olsa endişelendirecek kadar belirgin durumda.
+
+Bir tanıdığım bana afişin IP'sini gönderdi. Şu anda yapacak başka işlerim olduğundan bununla senin ilgilenmeni istiyorum.
+
+Suçlamaları incele. Eğer kanıt varsa, hem kanıtı hem de tüm diğer dosyaları yok et. Bizim taşak geçemeyeceklerini öğrenmeleri gerekiyor. Dışarıdan fark edilmemeliyiz. Bu arada, şifreleme kodu bulursan IRC'ye at. Daha sonra bakarım.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="ds3_entry" />
+      <note title="Görev Kılavuzu">İddiaları incele. Eğer kanıtlar 'gerçekçi' duruyorsa veya 'Dreadnought' adını içeriyorsa tüm dosyaları yok et.</note>
+    </attachments>
+  </email>
+</mission>

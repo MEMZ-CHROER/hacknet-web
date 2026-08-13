@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pacemakerHWArticle02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Using this server">
+Этот справочный сервер использует технологию Kellis ссылка-контекст. Он отображает только те материалы, которые имеют отношения к вашим зарегистрированным товарам. 
+Адрес, который вы используете для доступа, очень важен, поскольку содержит уникальные данные о вашей учетной записи - не теряйте его!
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ОШИБКА</subject>
+    <body>
+Раз вы получили это письмо, значит, произошла непредвиденная ошибка. 
+Пожалуйста, паникуйте.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,58 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="nortronInternalServices" name="Serveur des services internes de Nortron" security="2">
+  <ports>22,21</ports>
+  <trace time="60"/>
+  <firewall level="1"/>
+  <link target="nortronMail"/>
+  <link target="nortronMainframe"/>
+  <positionNear target="nortronMainframe" position="1" total="3"/>
+  <!-- J. Abrams -->
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat">#BINARY#</file>
+  <file path="staff_folders/J.Abrams" name="REMINDER.txt">
+    NOTE :
+    nouveaux détails d'email
+    Nom d'utilisateur = j.abrams 
+   Mot de passe = bootyking420
+
+    pourquoi ils nous font changer ça tous les ans ?
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy).doc">
+À FAIRE : Écrire rapport
+ http://en.wikipedia.org/wiki/Antivirus
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy)(Copy).doc">
+Les antivirus peuvent tenter de chercher les rootkits sur un système. 
+Un rootkit est un malware conçu pour obtenir un accès administrateur 
+sur un système informatique sans être détecté. Les rootkits peuvent changer comment
+ le système d'exploitation fonctionne et modifier le comportement de l'antivirus
+ et ainsi le rendre inutile. Les rootkits sont particulièrement difficiles à retirer.
+ Il est parfois nécessaire d'effectuer une réinstallation complète du système d'exploitation. 
+
+Source : http://en.wikipedia.org/wiki/Antivirus
+  </file>
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat">#BINARY#</file>
+
+  <!-- P. Evans -->
+  <file path="staff_folders/P.Evans" name="SecuDoc.bat">#BINARY#</file>
+
+  <!-- L.L. Coolay -->
+  <file path="staff_folders/L.L.Cooljay" name="SecuDoc.bat">#BINARY#</file>
+
+  <!-- T.Stark -->
+  <file path="staff_folders/T.Stark" name="SecuDoc.bat">#BINARY#</file>
+  <file path="staff_folders/T.Stark" name="Harrasment_Evidence.txt">
+    
+Voici la copie d'un email que j'ai reçu d'un collègue : 
+   
+| T-BONE, Tony, mec, ça va ?
+| On mange ensemble ce midi ? J'ai envie de poulet. 
+| Peut-être aussi de la pastèque. Je vois.
+| Tiens-moi au courant|
+ | 
+-Cool JJJJJJJJJJJJ
+
+MON NOM N'EST PAS TONY POURQUOI IL S'ARRÊTE PAS. 
+THOMAS STARK EST UN TRÈS BON NOM.
+   
+  </file>
+</Computer>

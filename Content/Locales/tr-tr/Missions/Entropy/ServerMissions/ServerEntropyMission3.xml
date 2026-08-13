@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyServer01">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Temizlik Harekatı">
+Grubumuzun değerli müşterilerinden birisi, eski çalışanlarından birinin bilgisayarındaki bir dosyanın tarafımızdan silinmesini istedi.
+Özel bir dosya peşinde değilsin. Şirket sadece bu kişideki kopyanın silinmesini istiyor.
+Ayrıca hedefin sana karşı pasif izlence oluşturması da pek mümkün görünmüyor.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Yarım Kalan İşleri Tamamlama 2 - DÜZENLEME GEREKLİ</subject>
+    <body>
+Saygıdeğer temsilci,
+
+Şirketimiz çalışanlarından biri kısa süre önce bizden ayrıldı ve rakibimizle anlaştı. Yanında şirketimize ait büyük miktarda dahili veriyi de götürdü. Eğer onda kalmasına izin verirsek bu bizim için pek de iyi sonuçlar doğurmayacak.
+
+Bu çalışanımız bilgisayarına erişmenizi ve bu bilgileri silmenizi istiyoruz. Tahminimizce belgeler, yedek kopyalar olmaksızın tek bir arşiv dosyasında depolanmış durumdalar.
+
+Teşekkürler,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

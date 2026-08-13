@@ -1,0 +1,90 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechPrometheus" name="En_Prometheus" security="5" ip="156.151.1.1">
+
+  <adminPass pass="d88vAnnX" />
+
+  <dlink target="enMail" />
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+
+  <positionNear target="EnTechMainframe" position="3" total="6" />
+
+  <file path="STORE/Hacknet_Project" name="Hacknet_NetCore.dll">#BINARY##BINARY#</file>
+  <file path="STORE/Hacknet_Project" name="HN_Connect_doc.txt">Hacknetプロジェクト
+--EnTech 極秘資料--
+
+コマンド: 「connect」
+外部サービスに接続する方法をひとつにまとめ、リモート接続チャンネル（SSHがほとんど）を覆い隠すために使われる。
+このコマンドは、使用可能なポートや対応したサービスをスキャンし、有効な接続を導き出してそれで接続を行う。接続後は、アウトプットを覆い隠すことで正常な接続に見せかける。
+これにより、Hacknetの接続方法は一般的に使われている正常な接続として認識される。Hacknetは一般的な接続方法全般（そうでないものも含む）を使用することが可能で、ほとんど全ての機器に対して接続することが可能である。
+  </file>
+    <file path="STORE/Hacknet_Project" name="HN_Connect_TESTGUIDE.txt">Hacknetプロジェクト
+--EnTech 極秘資料--
+
+コマンド: 「connect」
+テストガイド:
+
+ワークステーションと会社のホストサーバーの間の接続に加え、制限されたOSデバイスへのワイヤレス接続についての問題も解決する必要がある。
+いくつかのモバイル機器（クラック済みも含む、その他は工場出荷後のデフォルト状態）との接続状況もテストする予定。これらのデバイスはサポートスタッフによってPrometheusサーバーに同期済み。テストにこれらの機器（アウトプットを確認済みのため、どこからでも接続できるようになっている）が必要な場合、サーバーチームに連絡すること。
+  </file>
+  
+  <file path="STORE/Hacknet_Project" name="SyncedDevices.txt">Hacknetプロジェクト
+--EnTech 極秘資料--
+
+Hacknetの接続モジュールのテストに使われる携帯やワイヤレスデバイスはこのサーバーに同期すること（eOS機器も含む）。
+同期は定期的に初期化されることなっており（万が一に備え）、このサーバーから行うことが理想である。他のマシンとは絶対に接続しないこと！
+デバイスは、それを使用して作業中の社員の机周辺に点在している。もしデバイスの電池が切れた場合はもう一度初期化や同期をする必要があるため、必ずPrometheusに接続すること。
+  </file>
+  
+  <file path="STORE/Hacknet_Project" name="Hacknet_Project_Contacts.txt">Hacknetプロジェクト
+--EnTech 極秘資料--
+
+契約と情報の取扱い
+
+Hacknetプロジェクトは慎重に扱う必要がある（また、プロジェクトメンバー全員が厳格な守秘義務に署名している）ため、質問や仕様変更の依頼、その他管理に関する議論などは、Hacknet管理用のメール中継サーバーを利用することとする。
+hnManager@entech.com
+このサーバーを通したメールはメンバー全員に送られる仕様になっている。また、各々の担当分野について、彼らのほうから個人的に連絡してくることもできるようになっている。
+
+  </file>
+
+  <file path="STORE/EnSec_Project" name="EnSec_Invioability_Project.txt">
+EnSecのInvioabilityプロジェクトは、ユーザー認証や管理者権限を必要とするOSレベルでのセキュリティを目標としています。この独自のシステムは高いセキュリティレベルを実現可能にし、一般的な方法を利用した（そうでないものも含め）侵入やセキュリティのハッキングを防ぐことができます。
+また、私たちは完全な透明性のあるサービス（EnTech inc.によって管理される、緊急のアップデートなどは除く）の提供を目標としています。この完璧なセキュリティによって、重要なシステムや機密性の高いシステムを守ることができます。
+
+セキュリティはもっと堅固でなければいけない、と私たちは考えています。今日のセキュリティシステムに革命を起こすことを目標としているHacknetプロジェクトと共に、EnSecは本物の電子セキュリティを、そして信用を提供していきます。
+
+ - EnSec - 
+ あなたに自由を、あなたにセキュリティを。
+  </file>
+
+  <file path="STORE/EnSec_Project" name="EnSec_Core_11-05.dll">#BINARY#</file>
+  
+  
+  
+  <eosDevice id="enPrometheus_eos1" name="ENTECH_TEST_01's ePhone 4S">
+    <note>パス
+1
+1
+3
+</note>
+    <note>HN
+このデバイスはクラックされていないスタンダードなePhone 4Sの接続として設定が調整されている。
+ターミナルへの接続方法がないため、外部からの影響がない限り接続は失敗するはずである。</note>
+    <mail username="nstanford@entech.com" pass="murloc33" />
+  </eosDevice>
+  
+  <eosDevice id="enPrometheus_eos2" name="ENTECH_TEST_02's ePhone 4S">
+    <note>HN
+このデバイスはクラック済みのカスタムePhone 4Sの接続として設定が調整されている。
+SSH接続が可能なように設定されているため、接続は成功するはずである。
+</note>
+    <note>使い方 - 注意
+注記: テスト目的のため、この機器のセキュリティは「非常に弱く」設定されている。そのため、内部サービスやメールシステムには絶対に接続しないこと。また、テストや開発に関する重要な情報は絶対に保存しないこと。</note>
+    <note>リモート接続テスト
+あｓｄｆ あｓｄｆ リモートで記入中</note>
+    <note>リモート接続テスト2
+12345678</note>
+  </eosDevice>
+  
+</Computer>

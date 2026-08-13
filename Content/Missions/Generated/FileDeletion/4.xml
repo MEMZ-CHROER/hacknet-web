@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <generationKeys File="GameFile_Source_Pak.zip" Path="home/code"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Illegal Clone of a #CLIENT# Product">
+A direct and unaltered clone of this company's product has shown up on the market, giving the pirates profits for work that is not theirs.
+Take care of the offensive party.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - There can only be one</subject>
+    <body>
+Agent,
+
+We at #CLIENT# recently released a new product onto an App Store and, while sales were solid for a few days, we recently saw a significant drop. We found that the cause of this was that a thief had stolen our app and was selling it on the store for less than our price.
+Competition is fine, but this is an unaltered clone of our original product! They are taking credit and money for *our* work! This has to be stopped
+
+We would greatly appreciate your assistance in "solving" this problem for us.
+That is to way, we'd appreciate it if you destroyed anything and everything you could on their system. A link is attached.
+
+Thankyou,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

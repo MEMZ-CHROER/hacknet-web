@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyServer01">
+  <generationKeys File="#LC_CLIENT#_Internal_Archive.zip" Path="home"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# : Cleanup Operation">
+Un valioso cliente de nuestro grupo nos ha pedido que borremos un archivo en el ordenador privado de un anterior empleado.
+ Los archivos no son únicos y la compañía pretende únicamente eliminar esta copia individual. 
+Es poco probable que el objetivo vaya a hacer un rastreo pasivo contra ti.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Operación de limpieza</subject>
+    <body>
+Saludos agente:
+
+ Un empleado ha dejado recientemente nuestra compañía para trabajar para una empresa de la competencia. Al hacerlo, se llevó una gran cantidad de datos internos de nuestra compañía, y sería desafortunado para nosotros si se le permitiera guardarlos.
+
+ Queremos que accedas a su ordenador personal y borres esta información. Lo más probable es que esté guardado en un solo archivo sin copias de seguridad.
+ El archivo está nombrado como #FILE#. 
+
+Gracias,
+ -#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews04">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Is your data at risk?">
+Popular social network FriendHole was the latest victim of a Malicious hacking group apparently bent on compromising all forms of social media. The group's identities and location still remain a mystery to Cyber Police, but their message is clear: 'Nothing is Safe'. FaceSpace's CEO attempted today to
+reassure a nervous userbase, explaining that "FaceSpace's security is watertight", and that the only people who will have access to users' personal data on FaceSpace are them, those they choose to share it with, and FaceSpace's 12,000 trusted advertising partners.
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Must Be Stopped</subject>
+    <body>
+Destroy the entropy Database
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

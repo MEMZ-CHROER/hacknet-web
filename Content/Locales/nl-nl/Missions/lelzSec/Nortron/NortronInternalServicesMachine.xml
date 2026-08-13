@@ -1,0 +1,58 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nortronInternalServices" name="Nortron Internal Services Server" security="2">
+  <ports>22,21</ports>
+  <trace time="60" />
+  <firewall level="1" />
+  <link target="nortronMail" />
+  <link target="nortronMainframe" />
+  <positionNear target="nortronMainframe" position="1" total="3" />
+  <!-- J. Abrams -->
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat" >#BINARY#</file>
+  <file path="staff_folders/J.Abrams" name="REMINDER.txt" >
+    NOTITIE:
+    nieuw email info:
+    Gebruiker  = j.abrams
+    Wachtwoord = bootyking420
+
+    waarom moeten we dit veranderen ieder jaar?
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy).doc" >
+TODO: Schrijf verslag
+http://en.wikipedia.org/wiki/Antivirus
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy)(Copy).doc" >
+Anti-virus software kan proberen te scannen voor rootkits;
+een rootkit is een type malware dat ontworpen is om administratie-level controle te
+krijgen over een computersysteem zonder gevonden te worden. Rootkits kunnen veranderen
+hoe het besturingssyteem werkt en soms het anti-virus bewerken om het
+nutteloos te maken. Rootkits zijn moeilijk te verwijderen, voor sommige moeten
+zelfs het hele besturingssyteem geherinstalleerd worden.
+
+Bron - http://en.wikipedia.org/wiki/Antivirus
+  </file>
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat" >#BINARY#</file>
+
+  <!-- P. Evans -->
+  <file path="staff_folders/P.Evans" name="SecuDoc.bat" >#BINARY#</file>
+
+  <!-- L.L. Coolay -->
+  <file path="staff_folders/L.L.Cooljay" name="SecuDoc.bat" >#BINARY#</file>
+
+  <!-- T.Stark -->
+  <file path="staff_folders/T.Stark" name="SecuDoc.bat" >#BINARY#</file>
+  <file path="staff_folders/T.Stark" name="Harrasment_Evidence.txt" >
+
+Het volgende is een kopie van een email gekregen van een collega:
+
+| T-BONE, Tony, mijn bro - Whatup?
+| Gaan we lunchen vandaag? Zin in kip.
+| Misschien ook watermeloen. Ik zie wel.
+| Laat me weten
+|
+| -Cool JJJJJJJJJJJJ
+
+MIJN NAAM IS NIET TONY AND HIJ WIL NIET STOPPEN.
+THOMAS STARK IS EEN PRIMA NAAM.
+
+  </file>
+</Computer>

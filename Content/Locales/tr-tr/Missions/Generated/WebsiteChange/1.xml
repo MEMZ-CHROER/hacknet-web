@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="generatedWebVandal01">
+  <generationKeys Data="Content/Web/BaseCorporateRecruiterPage.html"/>
+  <goals>
+    <goal type="FileChange" target="#COMP#" file="#FILE#" path="#PATH#" keyword="#LC_CLIENT#@jmail.com" />
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Personel Alımı Yardımı: #CLIENT#">
+#CLIENT# şu anda personel işe almakta zorlanıyor ve rakip şirketlerine başvuran personellerin kendilerine yöneltilmesi gerekiyor.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Personel Alımı</subject>
+    <body>
+Sayın temsilci,
+
+Son zamanlarda şirketimiz yeni çalışan bulmakta zorlanıyor. Bunun sebebi ise rakiplerimizin personel alma çabalarının başarıyla sonuçlanması.
+Aramızdaki bu dengesizliği düzeltmek istiyoruz. Bu yüzden de onların işe almakta olduğu personellerin bir kısmının ilgisinin bize kaymasına ihtiyacımız var.
+
+İş alımları için kullanılan sitenin linkini aşağıda bulabilirsiniz. Onların iletişim e-postasının yerine bizimkini yazmanızı istiyoruz:
+
+#LC_CLIENT#@jmail.com
+
+
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

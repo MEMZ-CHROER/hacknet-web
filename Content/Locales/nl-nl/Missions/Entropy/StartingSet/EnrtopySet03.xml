@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="*******"/>
+  </goals>
+  <nextMission>Entropy/StartingSet/Misc/MilburgReply.xml</nextMission>
+  <posting title="Terug naar School">
+Een middelbare school heeft ons gecontacteerd dat hun ICT afdeling privedata van studenten bekijkt (waarschijnlijk op verzoek van hun ouders, maar we weten het niet zeker). Ze willen niks verwijderd, maar slechts het wachtwoord zodat ze het zelf kunnen onderzoeken.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Terug naar School</subject>
+    <body>Agent,
+
+Milburgh High School's administratie afdeling heeft ons gevraagd om stilletjes het ICT amdin wachtwoord te verkrijgen, zodat ze een onderzoek kunnen doen naar de data die wordt bewaard over hun leerlingen.
+Als je er bent, probeer alle data intact te houden - bewerkingen kunnen hun beoordeling beinvloeden.
+Jouw onderdeel is, inbreken, jouw eigen sporen verwijderen en beantwoorden met het wachtwoord naar de server. We zullen de school contacteren en de details doorsturen.
+
+Veel geluk,
+-Entropy Admins
+    </body>
+    <attachments>
+      <link comp="milburgHigh" />
+    </attachments>
+  </email>
+</mission>

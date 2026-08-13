@@ -1,0 +1,268 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="decSoftMainframe" name="Sistema principal de DEC Solutions" ip="101.0.89.154" security="5">
+  <ports>21, 25, 22, 80, 1433</ports>
+  <portsForCrack val="5"/>
+  <firewall level="-1"/>
+  <trace time="-1"/>
+  <proxy time="0"/>
+
+  <encryptedFile path="home" name="encrypt.dec" ip="101.0.89.154" header="Secured Source Code" extension=".cs" double="true">
+        private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data[i] * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + &quot; &quot;);
+            }
+            return ret.ToString().Trim();
+        }
+  </encryptedFile>
+
+  <encryptedFile path="Staff/D.Leatrou" name="Personal_Notes.dec" ip="101.0.89.154" header="DOUBLE ENCRYPTION" extension=".txt" double="true" pass="dleatrou">
+Me temo que Kathy pueda estar colada por mí. No la culpo, yo también he visto mi precioso rostro de vez en cuando (y es increíble: debería tener más espejos). 
+Es vital que nos comportemos con la máxima profesionalidad en esto. Voy a dejar una nota por si me asalta en un ataque de envidia sexual, que quede 
+documentado que yo soy la parte inocente. 
+
+- David Leatrou, director general 
+28/12/2013
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/D.Leatrou" name="Lawsuit_Response.dec" ip="101.0.89.154" header="DOUBLE ENCRYPTION" extension=".txt" double="true" pass="dleatrou">
+Sr. Leatrou: 
+
+Respecto a su reciente carta, he comentado el tema con nuestro equipo legal y me han asegurado que su «doble protección» (es decir, su colocación de dos condones en lugar de solo uno, como está recomendado) representa un uso tan distinto de lo que recomiendan las instrucciones que usted carece de base legal para una demanda, pese a su increíble índice de roturas.
+ Le recomendamos que, en el futuro, siga el procedimiento recomendado. 
+
+Recuerdos a usted y a sus 12 hijos. 
+
+-Jennifer Stem, 
+Servicio de Atención al Cliente y Quejas de Durex
+  </encryptedFile>
+  
+  <file path="Staff/D.Leatrou" name="Staff_Memo.txt">
+Saludos a todos:
+
+ En primer lugar, enhorabuena por el exitoso lanzamiento de nuestro conjunto de cifrado. Ha sido un gran éxito, y espero que a todos os guste tanto el nuevo material de marketing como a mí. 
+A medida que la importancia de DEC Solutions aumenta en el desarrollo de software en todo el mundo, creo que, como empresa, tenemos que dar un paso adelante y marcarnos 
+estándares más altos. Para eso, voy a imponer algunas nuevas políticas en la compañía que espero que a todos os gusten y que veáis como las mejoras en el proceso de trabajo que yo creo que son. 
+
+Estas nuevas políticas se pondrán en marcha en unos pocos días, en cuanto las haya terminado. Hasta entonces, ¡haced lo que os plazca! 
+
+Tened un día de lo más productivo,
+ -David Leatrou, director general
+</file>
+
+  <file path="Staff/D.Leatrou" name="New_Policies.txt">
+Saludos a todos: 
+Estas son las nuevas políticas que os prometí hace unos días, ¡leedlas atentamente!
+   
+1) Los datos confidenciales de la empresa (código fuente, memorandos secretos, etc.) deberán estar cifrados en todo momento en que no se esté trabajando en ellos. 
+¡Y qué mejor software que el nuestro para hacerlo! Habéis visto el sitio web, y estoy seguro de que comprendéis que esto hará de nuestra empresa un sitio más seguro y fiable. 
+Yo ya he empezado el proceso en mis propios archivos, y algunos muy importantes incluso los he cifrado DOBLEMENTE. Es como utilizar 2 condones: incluso si se rompe uno, sigues estando protegido. 
+
+2) Al cifrar archivos, la mayoría de las veces da igual si no tienen contraseña, pero si creéis que algo es de vital importancia, usad vuestro Id. de la empresa como contraseña. 
+Por ejemplo, mis archivos de cifrado seguro deberían usar mi Id. «dleatrou». 
+
+3) Las compilaciones del paquete de cifrado deben mantenerse fuera de línea en todo momento. En esta época de seguridad digital, toda precaución es poca.
+
+ ¡Disfrutad vuestro último memorándum de la empresa sin cifrar!
+-David Leatrou, director general
+  </file>
+  
+  <file path="Staff/D.Leatrou/Locked" name="RE:Decypher_Memo.txt">
+    Lo tengo, gracias por enseñármelo antes.
+    He enviado una copia a algunos de los otros para ver si pueden sacar algo útil.
+    Gracias y gran trabajo.
+
+    - David Leatrou, director general 
+
+   -----------------------------------------RESPUESTA A: -----------
+     
+   David: 
+
+   He examinado el código que hemos recibido de los contratistas para el cifrado y... bueno, es descifrable. Muy descifrable, bueno... peligroso.
+    He escrito un programa para demostrártelo y te lo he enviado. Probablemente, lo mejor será que lo elimines, igual que este memorándum, en cuanto hayas visto lo que puede hacer.
+
+    Para ejecutarlo, solo tienes que usar una línea de comandos como te he enseñado, así:
+  «Descifra [FILENAME HERE]»
+
+    Si también quieres usar una contraseña, añádela después del nombre del archivo:
+  «Decypher [FILENAME] [PASSWORD]»
+
+    ... Bueno, si quieres, te lo enseño en persona.
+    - J
+  </file>
+  
+
+  <encryptedFile path="Staff/J.Scott" name="Decypher.dec" ip="101.0.89.154" header="DECYPHER - DO NOT SHARE" extension=".exe">#DECYPHER_PROGRAM#</encryptedFile>
+  
+  <encryptedFile path="Staff/J.Scott" name="Decypher_Memo.dec" ip="101.0.89.154" header="Corporate Memo" extension=".txt">
+  David:
+   
+ He examinado el código que hemos recibido de los contratistas para el cifrado y... bueno, es descifrable. Muy descifrable, bueno... peligroso.
+  He escrito un programa para demostrártelo y te lo he enviado. Probablemente, lo mejor será que lo elimines, igual que este memorándum, en cuanto hayas visto lo que puede hacer.
+    
+Para ejecutarlo, solo tienes que usar una línea de comandos como te he enseñado, así:
+    «Descifra [FILENAME HERE]» 
+   
+Si también quieres usar una contraseña, añádela después del nombre del archivo:
+    «Descifra [FILENAME] [PASSWORD]»
+    
+... Bueno, si quieres, te lo enseño en persona.
+  - J
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/J.Scott" name="RE:RE:Decypher_Memo.dec" ip="101.0.89.154" header="Corporate Memo" extension=".txt">
+    Por supuesto.
+      
+  ¿Pero tienes que añadir «director general» al final de todo lo que me mandas?
+      
+  -----------------------------------------RESPUESTA A: 
+   Lo tengo, gracias por enseñármelo antes.
+    He enviado una copia a algunos de los otros para ver si pueden sacar algo útil.
+    Gracias y gran trabajo.
+
+    - David Leatrou, director general 
+
+   -----------------------------------------RESPUESTA A:
+    David:
+
+    He examinado el código que hemos recibido de los contratistas para el cifrado y... bueno, es descifrable. Muy descifrable, bueno... peligroso.
+    He escrito un programa para demostrártelo y te lo he enviado. Probablemente, lo mejor será que lo elimines, igual que este memorándum, en cuanto hayas visto lo que puede hacer.
+
+    Para ejecutarlo, solo tienes que usar una línea de comandos como te he enseñado, así:
+  «Descifra [FILENAME HERE]»
+
+    Si también quieres usar una contraseña, añádela después del nombre del archivo:
+  «Decypher [FILENAME] [PASSWORD]»
+
+    ... Bueno, si quieres, te lo enseño en persona.
+    - J
+  </encryptedFile>
+
+  <encryptedFile path="Staff/J.Scott" name="Encryption_Base2.dec" ip="101.0.89.154" header="Source Code" extension=".cs">
+    
+        /// resumen
+        /// Devuelve una matriz que contiene
+        /// [0] Mensaje de encabezado 
+       /// [1] Enlace de IP
+        /// [2] Datos de mensaje
+        /// [3] Extensión de archivo si se proporciona, si no, null
+        /// resumen
+        public static string[] DecryptString(string data, string pass = &quot;&quot;)
+        {
+            string[] ret = new string[4];
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string[] split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException(&quot;Tried to decrypt an invalid valid DEC ENC file&quot;);
+            string[] headersSplit = split[0].Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException(&quot;Tried to decrypt an invalid valid DEC ENC file&quot;);
+
+            string headerMsg = Decrypt(headersSplit[1], passcode);
+            string ipLink = Decrypt(headersSplit[2], passcode);
+            string check = Decrypt(headersSplit[3], passcode);
+            string fileExtension = null;
+            if (headersSplit.Length &gt; 4) fileExtension = Decrypt(headersSplit[4], passcode);
+            string message;
+            if (check == &quot;ENCODED&quot;) {
+                 //¡La contraseña es correcta!
+                message = Decrypt(split[1], passcode);
+            }
+            else {
+                //Contraseña no válida 
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+            }
+            ret[0] = headerMsg;
+            ret[1] = ipLink;
+            ret[2] = message;
+            ret[3] = fileExtension;
+            return ret;
+        }
+  </encryptedFile>
+
+  <encryptedFile path="Staff/J.Scott" name="Decypher_Test.dec" ip="101.0.89.154" header="Source Code" extension=".cs">
+    
+    private static string Decrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            string[] input = data.Split(Utils.spaceDelim, StringSplitOptions.RemoveEmptyEntries);
+            for (int i = 0; i LESS_THAN input.Length; i++) {
+                int currentChar = Convert.ToInt32(input[i]);
+                int halfmax = ushort.MaxValue / 2;
+                int newVal = currentChar - halfmax - passcode;
+                newVal = newVal / 1822;
+                ret.Append((char)newVal);
+            }
+            return ret.ToString().Trim();
+        }
+  </encryptedFile>
+
+  <file path="Staff/A.Carey" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="Staff/A.Carey" name="Staff_Memo.txt">
+Saludos a todos:
+
+ En primer lugar, enhorabuena por el exitoso lanzamiento de nuestro conjunto de cifrado. Ha sido un gran éxito, y espero que a todos os guste tanto el nuevo material de marketing como a mí. 
+A medida que la importancia de DEC Solutions aumenta en el desarrollo de software en todo el mundo, creo que, como empresa, tenemos que dar un paso adelante y marcarnos 
+estándares más altos. Para eso, voy a imponer algunas nuevas políticas en la compañía que espero que a todos os gusten y que veáis como las mejoras en el proceso de trabajo que yo creo que son. 
+
+Estas nuevas políticas se pondrán en marcha en unos pocos días, en cuanto las haya terminado. Hasta entonces, ¡haced lo que os plazca! 
+
+Tened un día de lo más productivo,
+ -David Leatrou, director general
+</file>
+
+  <file path="Staff/A.Carey" name="New_Policies.txt">
+Saludos a todos: 
+Estas son las nuevas políticas que os prometí hace unos días, ¡leedlas atentamente!
+   
+1) Los datos confidenciales de la empresa (código fuente, memorandos secretos, etc.) deberán estar cifrados en todo momento en que no se esté trabajando en ellos.
+ ¡Y qué mejor software que el nuestro para hacerlo! Habéis visto el sitio web, y estoy seguro de que comprendéis que esto hará de nuestra empresa un sitio más seguro y fiable. 
+Yo ya he empezado el proceso en mis propios archivos, y algunos muy importantes incluso los he cifrado DOBLEMENTE. Es como utilizar 2 condones: incluso si se rompe uno, sigues estando protegido. 
+
+2) Al cifrar archivos, la mayoría de las veces da igual si no tienen contraseña, pero si creéis que algo es de vital importancia, usad vuestro Id. de la empresa como contraseña. 
+Por ejemplo, mis archivos de cifrado seguro deberían usar mi Id. «dleatrou». 
+
+3) Las compilaciones del paquete de cifrado deben mantenerse fuera de línea en todo momento. En esta época de seguridad digital, toda precaución es poca.
+
+ ¡Disfrutad vuestro último memorándum de la empresa sin cifrar!
+-David Leatrou, director general
+  </file>
+
+  <encryptedFile path="Staff/A.Carey" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+  <encryptedFile path="Staff/A.Carey" name="DECE_TestBuild.dec" ip="101.0.89.154" header="Source Code" extension=".bin">#BINARY#</encryptedFile>
+
+  <encryptedFile path="Staff/K.Abrams" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+  <encryptedFile path="Staff/K.Abrams" name="IMPORTANT_MEMO.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+  Hola, Kathy:
+    
+¿Podrías hacer otra ronda de cafés hoy? Estaré de vuelta en la oficina a las 3.
+    
+¡Gracias! ¡Recuerda el cifrado!
+  - David Leatrou, director general
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/K.Abrams" name="Notes.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+    Nos estamos quedando sin existencias de:
+     
+   Papel cuadriculado
+    Camisetas de la empresa (S, L y XL)
+    Café (CRÍTICO, RESOLVER DE INMEDIATO)
+    Tazas de café (¡¿quién las rompe?!)
+    Espejos (¿por qué pide tantos David?)
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/K.Abrams" name="Needed_In_Office.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+    Hola, Kathy:
+
+    He decidido que poner unos espejos aumentará la moral del personal. ¿Puedes encargarte de que coloquen unos 6 más por toda la empresa?
+    Creo que eso animará mucho este sitio.
+
+    ¡Gracias!
+    - David Leatrou, director general
+  </encryptedFile>
+  
+</Computer>

@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="lelzSec0">
+  <goals>
+    <goal type="FileChange" target="nortronWebServer" file="index.html" path="web" keyword="dicks"/>
+  </goals>
+  <missionStart val="10">changeSong</missionStart>
+  <nextMission>lelzSec/NortronBreakIn.xml</nextMission>
+  <branchMissions>
+    <branch>Theme/ThemeHackEndMission.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Naix</sender>
+    <subject>gg wp</subject>
+    <body>
+알았어, 알았어, 알았다구. 그만하면 됐어. 이제 나 그만 건드려. 
+
+로그를 그렇게 흘리고 다니니까 생짜 초보인줄 알았잖아. 
+그렇지만, 완전 머저리가 아닌 사람을 인터넷에서 만나기란 쉽지 않은 일이니까, 잘 된 건지도 모르지. 
+
+작은 테스트를 하나 준비했어. 재미있을 거야. 정말 말 같지도 않은 보안 회사가 있어, Nortron이라는 이름의. 알아? 
+그치, 저 치들의 &quot;보안&quot; 패키지가 내 컴퓨터를 느리게 할 바에는 차라리 바이러스를 까는 게 나을 거야. 완전 쓰레기라니까. 저들은 아무 것도 모르는 사람들한테 제품을 팔아서 이윤을 챙기지. 
+
+그래서 내가 저들의 웹사이트에 장난을 칠 생각이 있는데 말이야, 그냥 &quot;dicks&quot;라는 단어를 여기저기에다 흩뿌려 놓으려고. 제목에도, 헤더에도, 그냥 웹사이트 전체 내용을 똥덩어리라는 단어로만 채워도 상관 없어. 
+유머를 갖춘 핵티비즘에 관심 있다면 어디 솜씨를 보여봐. 당신이 여기 온 원래 목적보다는 훨씬 더 재미있지 않겠어?
+
+-Naix&lt;br&gt;
+
+추신: 그래도 진짜 보안이 뭔지는 모르는 것 같아서, 완전 초보자용 해킹 가이드 링크도 첨부했어. 재미 봐!
+    </body>
+    <attachments>
+      <link comp="nortronWebServer"/>
+      <link comp="netEduComp"/>
+      <note title="지시 사항">제목의 아무 단어를 &quot;dicks&quot;로 바꾼다. 웃기기만 하다면 다른 변경 사항도 좋아.</note>
+    </attachments>
+  </email>
+</mission>

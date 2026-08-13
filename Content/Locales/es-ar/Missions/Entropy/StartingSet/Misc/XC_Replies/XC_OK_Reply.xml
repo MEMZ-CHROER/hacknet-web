@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="xcRepOK" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+ERROR DE PUBLICACIÓN DESCONOCIDO
+  </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>Re: Investigaciones internas</subject>
+    <body>
+Un trabajo excelente, civil, no dejaste nada al azar y el trabajo ha dado sus frutos.
+
+ Todo parece estar en orden, son exactamente el tipo de archivos que esperábamos ver. Con suerte la diligencia del equipo en la consecución de estos proyectos nos dará una ventaja en futuros compromisos.
+
+ Gracias, 
+-Director Bradford
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

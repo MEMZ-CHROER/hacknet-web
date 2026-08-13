@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dHidden" name="Bibliotheque Ghost Storage" security="10">
+
+  <!-- Programs and rewards -->
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+  <!-- Custom Theme Files -->
+  <customthemefile path="home" name="Floatvoid_x-server.sys" themePath="DLC/Themes/FloatVoidTheme.xml"/>
+  <customthemefile path="home" name="FloatvoidStandard_x-server.sys" themePath="DLC/Themes/FloatVoidThemeStandard.xml"/>
+  
+  <!-- Expo Mission -->
+  <file path="home" name="p_SQL_399.gz">#BINARY#</file>
+  <file path="home" name="patch_checksum.chk">16060154-F6FD-4876-82FD-8544E6BD6C21</file>
+
+  <!-- Memory Forensics Files -->
+  <file path="home" name="Memory_Forensics_Readme.txt">
+Перейдите к папке, содержащей дамп памяти для анализа.
+Выполните команду:
+MemForensics [ИМЯ ФАЙЛА]
+Помните, что можно нажать TAB для автоматического завершения ввода имен файлов и каталогов.
+На обработку (индексацию) дампа уйдет какое-то время. Затем вы увидите инструменты для сканирования.
+Каждый аргумент позволяет обработать память и попытаться извлечь важные данные.
+Эти операции ничего не стоят и не сулят риска и угрозы быть обнаруженным - инструменты ничего не делают с памятью - просто читают и печатают ее содержимое.
+  </file>
+
+  <file path="home" name="sysinfo.bat">
+::командный скрипт Remote Backdoor
+::Ref: Книга Элиаса Бачаалании "Написание пакетных файлов"
+certutil -decode "%~1.tmp" "%~1" ]nul 2]A1
+-----BEGIN CERTIFICATE-----
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAsAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5v
+dCBiZSBydW4gaW4gRE9TIG1vZGUuDQ0KJAAAAAAAAABdXG3BGT0Dkhk9A5IZPQOS
+lyIQkh49A5LlHRGSGD0DklJpY2gZPQOSAAAAAAAAAABQRQAATAEBALL6QFcAAAAA
+AAAAAOAADwELAQUMAAIAAAAAAAAAAAAAEBAAAAAQAAAAIAAAAABAAAAQAAAAAgAA
+BAAAAAAAAAAEAAAAAAAAAAAgAAAAAgAAAAAAAAIAAAAAABAAABAAAAAAEAAAEAAA
+AAAAABAAAAAAAAAAAAAAAGwQAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC50ZXh0AAAA
+7gAAAAAQAAAAAgAAAAIAAAAAAAAAAAAAAAAAACAAAGAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADSEAAAAAAAALgQAAAAAAAA
+6zJEcm9wcGVkIGV4ZWN1dGFibGUATGV0J3MgZG8gbW9yZSBldmlsIHN0dWZmLCBu
+b3QhAGoAaBIQQABoJRBAAGoA6AcAAABqAOgGAAAA/yUIEEAA/yUAEEAAzMywEAAA
+AAAAAAAAAADGEAAACBAAAKgQAAAAAAAAAAAAAOAQAAAAEAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAADSEAAAAAAAALgQAAAAAAAAsQFNZXNzYWdlQm94QQB1c2VyMzIuZGxs
+AACbAEV4aXRQcm9jZXNzAGtlcm5lbDMyLmRsbAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAA==
+-----END CERTIFICATE-----
+  </file>
+
+  <!-- These are memory dump files! The player will be assigned 2 of these to investigate (either 1 + 2 or 3+4)
+        5+6 are visible to the player, but are auto-assigned to one of the NPC hackers. You can add
+        as many <Block> or <Command> items as you like.
+        These represent memory dumps from RAM, so it makes sense for some files etc to be scrambled or have chunks missing here.
+        If you want me to write any file scrambling code (I can add in "safe regions" that wont get scrambled too) let me know.-->
+  
+  <memoryDumpFile name="Kaguya_Dump_1.md" path="home">
+    <Memory>
+      <Data>
+      </Data>
+      <Commands>
+        <Command>^C
+iodependency-atlas:Tools iodependency$ fdsfdsfds
+-bash: fdsfsdfs: команда не найдена
+iodependency-atlas:~ iodependency$ curl ipecho.net/plain ; echo
+88.29.144.6
+iodependency-atlas:Tools iodependency$ cd ..
+iodependency-atlas:Applications iodependency$ cd ~
+iodependency-atlas:~ iodepedency$ cat memory_dumper_dcryptd.app/Contents/MacOS/listen.ini</Command>
+      <Command>$ip=167.72.73.56
+$log_win=C:/Windows/SysWOW64/filelist.txt
+$log_lnx=
+$log_osx=/Library/Application\ Support/Apple/filelist.plist
+#удалить для готовой сборки
+#usr: listen
+#pass: 4TL4S</Command>
+        <Command>iodependency-atlas:~ iodependency$ ls
+Приложения
+baking puns.txt
+decrypted_dump_analyzer.app
+Рабочий стол
+Загрузки
+Библиотека
+Фильмы
+Музыка
+Изображения
+Общедоступо
+Risk assessment.pdf
+SSHCrack.exe
+Инструменты</Command>
+        <Command>
+iodependency-atlas:~ iodepedency$ ls
+Приложения
+baking puns.txt
+decrypted_dump_analyzer.app
+Рабочий стол
+Загрузки
+hello.txt
+Библиотека
+Фильмы
+Музыка
+Изображения
+Общедоступо
+Risk assessment.pdf
+SSHCrack.exe
+Инструменты</Command>
+        <Command>iodependency-atlas:~ iodepedency$ cat hello.txt
+Привет! -SN
+iodependency-atlas:~ iodependency$ hlat -lq
+-bash: hlat: команда не найдена
+iodependency-atlas:~ iodependency$ sudo rm *; sudo halt -lq
+Пароль:
+Сообщение от iodependency@iodependency-atlas 
+    (/dev/pts/1) в 11:28 ...
+    Система будет остановлена... СЕЙЧАС!</Command>
+      </Commands>
+    
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_2.md" path="home">
+    <Memory>
+      <Data>
+        <Block>Заметки по SNACKINTOSH, @alidaxavier22 продолжает расследование TemplarSecurityNet
+        
+Настоящие имена:
+Вита Прендеграст - найдена по IP, связанному с ее электронной почтой
+Майя Берджесс - имя связано с Витой, других записей нет
+Хикари Кризан - аналогично (возможно, одноразовые личности?)
+Роуз Ишикава - "ее подруга", которую упоминал мой человек из darknet
+
+Род деятельности:
+Весьма известна в хакерской среде. Но не... популярна? Влиятельна.
+Оставила отпечатки пальцев во многих местах. Даже в больших, чем думает. Многие из этих следов оставлены несколько лет назад. Небрежность? Умышленная небрежность? Хлебные крошки для тех, кто хочет ее найти? (Боже, я что - хакер Гензель?)
+Насколько я понимаю, она что-то разрабатывает. Может, инструменты? В *единственном* открытом форуме, который я нашел, народ заткнулся, когда она начала говорить об инструментальных средствах и кодинге на ассемблере. Стоит проследить за ней.
+
+Известные IP-адреса:
+143.78.36.213 - БОЛЬШЕ НЕ РАБОТАЕТ - заходила с него на открытый файлообменник
+219.242.177.14 - БОЛЬШЕ НЕ РАБОТАЕТ - заходила с него в чат
+39.46.123.206 - БОЛЬШЕ НЕ РАБОТАЕТ - ее прокси?
+185.160.171.69 - вероятно, уже не работает? - ее прокси за первым прокси? Я заплатил кое-кому за взлом первого. Но не знаю, как попасть на этот. Нужно купить новые инструменты на HackerForums.
+
+Контактная информация:
+Хотелось бы знать. Мне удалось поговорить с ней через общего знакомого, но она не проявляет интереса к продолжению общения. Полагаю, она найдет меня, если захочет продолжить разговор.
+
+Текущие планы: 
+-продолжать работу
+-искать кого-то еще, я не знаю кого
+-умереть
+</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_3.md" path="home">
+    <Memory>
+      <Data>
+        <Block>[@sbeezy] хаха ну и в итоге пришлось оборвать все и бежать
+[@sbeezy] ...возможно не лучшее мое решение xD
+[@sbeezy] что там с операцией бартерная экономика
+[@addili] Что
+[@annili] ????
+[@addili] А
+[@addili] Ты про покупателей?
+[@sbeezy] ага
+[@annili] Сейчас выдам им пароль от канала
+[@annili] Дай знать, когда будешь в сети.
+[@addili] Думаешь, нам следует это делать?
+[@annili] Да.
+[@annili] Отказываться поздно.
+[@sbeezy] мы ведь замели следы?
+[@sbeezy] она была чертовски напугана, когда предупреждала нас
+[@sbeezy] в частности
+[@sbeezy] не делать то, что мы делаем сейчас
+[@addili] Ну да
+[@addili] Может, лучше мы с Энни займемся переговорами?
+[@sbeezy] как хочешь
+[@sbeezy] я не парюсь хахаха
+[@sbeezy] скорее всего, я ничем не рискую
+[@sbeezy] отправь, когда хочешь
+[@annili] Отправляю токены доступа.
+[@sbeezy] окей
+* blanner присоединяется к #atohil, режим(ы): +v
+[+blanner] утречка
+[@sbeezy] привет
+[@addili] Приветствую
+* dramm присоединяется к #atohil, режим(ы): +v
+[+dramm] йо йо
+[+dramm] алло?
+[@addili] Привет, dramm, минутку, я тут работаю кое над чем :)
+[@annili] 2/3. Что с третьим?
+[@sbeezy] врать не буду - возможно, это подсадная утка
+[+dramm] черт, надеюсь, что нет.
+[+blanner] буду разочарован, если дело в этом
+* intehan присоединяется к #atohil, режим(ы): +v
+[+intehan] привет
+[@annili] Опаздываешь.
+[+intehan] не кипятись
+[+intehan] пришлось задержаться
+[+intehan] из-за какого-то ДЕРЬМА, хаха
+[@addili] ...ну да.
+[@addili] Ладно, мы все обсудили заранее
+[@addili] Можете сказать номера ваших переводов?
+[+intehan] не вопрос
+[+blanner] мой - to7meuX64Q
+[+dramm] а мой a7hxZsULur 
+[+intehan] zSp01aALFr
+[@annili] Погодите немного, надо проверить получение.
+* blanner покидает #atohil
+[@sbeezy] какого черта
+* blanner присоединяется к #atohil, режим(ы): +v
+[+blanner] извиняюсь
+[+blanner] тут интернет тупит
+[@addili] Ох
+[+intehan] нельзя ли побыстрее...
+[@annili] Мы проверили блок транзакций, получение подтверждено.
+[@annili] Мы подняли удаленный дроп-сервер.
+[@annili] addili, выложишь данные?
+[@addili] Ой, секунду
+[@addili] IP-адрес: 40.73.228.137
+[@addili] Пользователь: atohil
+[@addili] Пароль: JHhTSDtxYv
+[@addili] Учетная запись истечет через 24 часа, так что не забудьте забрать свои покупки прежде чем они, гм, истекут
+[+intehan] клево
+[+intehan] клево
+[+intehan] класс!
+[+dramm] спасибо!
+[+blanner] а забрал товар
+[@addili] Чудненько
+[@annili] На этом транзакция завершена. Будем рады снова работать с вами.
+* annili покидает #atohil
+* addili покидает #atohil
+[+intehan] крутяк
+* intehan покидает #atohil
+* blanner покидает #atohil
+* blanner присоединяется к #atohil, режим(ы): +v
+* dramm покидает #atohil
+* blanner покидает #atohil
+[@sbeezy] Заблокирован. Заблокирован. Вы все грешники
+[@sbeezy] ой, не то окно
+* sbeezy покидает #atohil</Block>
+      </Data>
+      <Commands>
+      </Commands>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_4.md" path="home">
+    <Memory>
+      <Commands>
+        <Command>
+> profiledump.exe -gp alihotatohila
+Получение доступа к профилю...
+Имя: Лихота, Адди
+Возраст: 22:
+Род деятельности: программист, Netsec (Schiss-Co Innovations Lab)
+Описание профиля: (пусто)
+Связанные страницы: Perturbator, Emancipator, Все о мемах из Би Муви, CFC: Colonel's Fried Chicken, страница для бесплатной раздачи ePad, (еще)
+Дата вступления: 11.07.2010
+Последний вход: 3 часа назад (03:22 GMT+1)
+Последний IP-адрес: 17.5.3.9
+Связанные профили: 363
+Недавно просмотренные профили: Эни Лихота (брат), Деви Муххамад, Джасвиндер Исан (партнер), Шарма Лихота (мать), Саймон Бестман (не друзья) (еще)
+Недавние чаты с: Эни Лихота (брат), Шарма Лихота (мать)
+> disconnect
+</Command>
+      </Commands>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_5.md" path="home">
+    <!-- Should be a secret here... -->
+    <Memory>
+      <Commands>
+        <Command>ping 208.73.49.146</Command>
+      </Commands>
+      <Data>
+        <Block>Фраза-пароль: Сезам, откройся.
+-: Отзыв: Я повторяю это уже в девяносто девятый раз.
+Принято.
+Операция "Бартерная экономика"
+-: Что, правда?
+Цель - стащить ПО, модифицировать его, чтобы никто не понял, что мы его перепродаем, и продать его за хорошие деньги. Эдди отвечает за реверс-инжиниринг. Эни - общение с покупателями. Саймон отмывает деньги. 
+-: ?
+Не будь козлом, Саймон.
+-: Я тоже хорошо умею общаться с покупателями.
+Да, но Эни лучше. Пусть он этим занимается.
+-: Ладно. Но ты точно справишься с *этим*?
+Сто процентов. У меня все инструменты готовы.
+Саймон. Что с нашим приобретением?
+-: В процессе. Мы будем держать вас в курсе.
+Спасибо. Нам надо о чем-то беспокоиться?
+-: Нет. Никаких сомнений.
+Не слишком самоуверенно?
+-: Вовсе нет.
+Так держать. Поговорим позже.
+-: Проследи, что Эни не облажался.
+Прослежу.</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+  208.73.49.146
+  <memoryDumpFile name="Kaguya_Dump_6.md" path="home">
+    <Memory>
+      <Data>
+        <Block>Двое людей заходят в самолет, держась за руки.
+Один - злой бакалейщик.
+Второй - беззаботный цветовод.
+После приземления один из них уходит с чемоданчиком.
+Кто это?
+
+Что будет, если бросить вулкан в печальную коалу на дереве?
+Это холодильник.
+
+*подражая голосу Джерри Сайнфелда* Я куплю это за один малазийский ринггит!
+
+Есть история о трех корги: одна круглая, другая флегматичная, одна без патронов. Они входят в бар. За стойкой молодая женщина, обожающая курить. В углу бывший профессиональный рестлер схватился с рыцарем в шлеме. Что будет дальше?
+
+Человек с туфлей на голове. Он придумывает исторические рассказы. Он держит капризное существо, живущее в панцире. Кто он?
+
+В холодном месте живет ткач чудес из разных стран. Эта особа - головорез. Эта особа носит шпагу. Эта особа никогда не лжет.
+Кто она?
+
+- Отрывки из книги "Шутки и загадки, рассказанные Цепью Маркова, т. III: Дело сдвинулось с мертвой точки"</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+  
+  <!-- False report for Psylance CSEC Injected mission -->
+  <encryptedFile path="home" name="PA_0022_Incident.dec" ip="54.183.231.31" header="Отчет об инциденте с Psylance v2">
+Psylance Cyber Security - отдел внутренних расследований.
+---------------------------------------
+
+Расследование отказа оборудования на борту самолета Pacific Air Flight PA_0022 еще не завершено, но предварительные результаты указывают на сбой в программном обеспечении бортовых систем.
+Серверы Psylance остаются безопасными. Во время происшествия не замечено никаких отклонений (фактически, инцидент подтвердил высокий потенциал систем дистанционного мониторинга skylink и сопутствующих серверов - время отклика оказалось даже ниже прогнозируемого!).
+
+Сама программная ошибка, похоже, возникла в 747FlightOps.dll. При пока неизвестных редких обстоятельствах программа перестает отвечать на команды пилота и требует перезагрузки прошивки (что и было выполнено в данном случае).
+Psylance рекомендует проверить поставщиков данного программного модуля и провести обучение всех пилотов процедуре безопасной перезагрузки прошивки на тот редкий случай, если ситуация повторится до устранения ошибки.
+
+Как обычно, Psylance Cyber Security уделяет чрезвычайное внимание защите ваших данных и вопросам безопасности. Мы продолжим отслеживать ситуацию, чтобы обеспечить надежность и безопасность ваших сетей в это непростое время.
+  </encryptedFile>
+  
+</Computer>

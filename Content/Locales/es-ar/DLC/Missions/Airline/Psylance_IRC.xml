@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa_psylance" name="Psylance Cyber Security_Employee IRC" security="5" ip="50.31.225.93" type="4" icon="Psylance">
+  
+  <!-- This will have the IRC of the Psylance guys on it - player will need to log in to view it. -->
+
+  <firewall level="-1"/>
+  <proxy time="4" />
+  <trace time="90" />
+  <portsForCrack val="9" />
+  <ports>22, 21, 443</ports>
+  <portRemap>22=340</portRemap>
+
+  <account username="faithless" password="catsarebestpet" type="2" />
+  
+  <IRCDaemon themeColor="67,204,148" name="Canal de IRC de administración de clientes de Psylance" needsLogin="true">
+    <user name="faithless" color="0,209,232"/>
+    <user name="dardypants" color="202,98,0"/>
+    <user name="da_vito" color="0,196,82"/>
+
+    <post user="faithless">Vale, sí, los medios aseguran que los videojuegos hacen que la gente sea violenta, pero hace cientos de años quemábamos personas porque pensábamos que eran brujas. Yo digo que los seres humanos no son más que un hatajo de capullos.</post>
+    <post user="da_vito">XD</post>
+    <post user="dardypants">No me creo lo que dice ese tal Yasu, de verdad.</post>
+    <post user="faithless">¿Quién es ese?</post>
+    <post user="dardypants">Yasu Arai, el administrador de sistemas de Pacific Air.</post>
+    <post user="dardypants">¡Ha enviado la contraseña de su correo, sin encriptar ni nada! Es el ADMIN, por Dios.</post>
+    <post user="faithless">¿Qué ha dicho?</post>
+    <post user="dardypants">Cito textualmente:</post>
+    <post user="dardypants"> ¿Puedes conectarte a mi portátil y hacerlo? La contraseña es 1185JACK</post>
+    <post user="faithless">La hostia, jajajaja</post>
+    <post user="faithless">Flipo igual con que la hayas escrito AQUÍ.</post>
+    <post user="dardypants">He hecho que la cambie al momento, no pasa nada.</post>
+    <post user="dardypants">La contraseña de su correo también es diferente... Aun así.</post>
+    <post user="dardypants">¡Tenemos que proteger esta red! A estas alturas ya podríamos tenerlos encima.</post>
+  </IRCDaemon>
+
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+
+</Computer>

@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="themeHackStartMission">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Предупреждение</subject>
+    <body>
+      Программа Connect-Responder.exe обнаружила незнакомое соединение между вашим IP-адресом и узлом 173.194.35.163.
+      На данном устройстве подключения извне запрещены. Если вы подключились по ошибке, обратитесь за помощью к сисадмину.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

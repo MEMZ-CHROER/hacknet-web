@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDownload" target="jscottHome" file="DECHead.exe" path="home/work"/>
+  </goals>
+  <nextMission>MainHub/DecypherSet/DECHeadMission02.xml</nextMission>
+  <posting title="Track an Encrypted File">
+Nous pensons avoir localisé une nouvelle façon de retracer l'endroit où les fichiers cryptés DEC ont été encodés - nous avons un fichier verrouillé par un mot de passe et nous voulons l'ouvrir. Il devrait y avoir assez de pistes pour que vous continuiez.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>À travers la longue-vue</subject>
+    <body>
+Apparemment les fichiers cryptés DEC stockent l'IP avec laquelle ils ont été encodés (avec des messages divers) dans les en-têtes encodées - vraisemblablement en vue d'aider au débogage ou autre - ce qui est génial car nous avons quelque chose qui doit être décodé, et nous n'avons aucun idée du mot de passe. 
+
+Donc, première étape - trouvez une manière de lire ces en-têtes. Nous avons bien creusé et nous avons découvert qu'un employé de DEC Solution a peut-être un moyen de décoder les en-têtes sans savoir le mot de passe du fichier. 
+Allez jeter un œil de son côté et répondez si vous trouvez quoi que ce soit d'utile. Nous vous en dirons plus après ça.
+
+-Équipe CT
+    </body>
+    <attachments>
+      <link comp="jscottHome"/>
+    </attachments>
+  </email>
+</mission>

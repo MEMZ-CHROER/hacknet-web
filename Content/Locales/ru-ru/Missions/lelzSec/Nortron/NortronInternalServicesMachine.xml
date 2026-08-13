@@ -1,0 +1,58 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="nortronInternalServices" name="Nortron Internal Services Server" security="2">
+  <ports>22,21</ports>
+  <trace time="60"/>
+  <firewall level="1"/>
+  <link target="nortronMail"/>
+  <link target="nortronMainframe"/>
+  <positionNear target="nortronMainframe" position="1" total="3"/>
+  <!-- J. Abrams -->
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat">#BINARY#</file>
+  <file path="staff_folders/J.Abrams" name="REMINDER.txt">
+    NOTE: 
+   new email details
+    Username = j.abrams
+    Password = bootyking420 
+
+   почему они заставляют нас менять его каждый год?
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy).doc">
+TODO: Write report
+http://en.wikipedia.org/wiki/Antivirus
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy)(Copy).doc">
+Антивирусное программное обеспечение может попытаться просканировать на наличие руткитов;
+руткит-это вредоносная программа, которая предназначена для получения прав прав системного администратора, 
+не будучи обнаруженным. Руткиты могут изменить функции
+ операционной системы и в некоторых случаях вмешиваться в работу антивирусника 
+ и сделать ее неэффективной. Руткиты также трудно удалить, 
+в некоторых случаях, требуется полная переустановка операционной системы.
+
+ Источник -  http://en.wikipedia.org/wiki/Antivirus
+  </file>
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat">#BINARY#</file>
+
+  <!-- P. Evans -->
+  <file path="staff_folders/P.Evans" name="SecuDoc.bat">#BINARY#</file>
+
+  <!-- L.L. Coolay -->
+  <file path="staff_folders/L.L.Cooljay" name="SecuDoc.bat">#BINARY#</file>
+
+  <!-- T.Stark -->
+  <file path="staff_folders/T.Stark" name="SecuDoc.bat">#BINARY#</file>
+  <file path="staff_folders/T.Stark" name="Harrasment_Evidence.txt">
+    
+Ниже копия письма полученная от коллеги:
+    
+| T-BONE, Tony, дружище - Возап?
+| Мы обедаем сегодня? Я хочу Курицу  
+| Еще может арбуза. Я подумаю. 
+| Дай мне знать
+| 
+| -Круто JJJJJJJJJJJJ
+
+МОЕ ИМЯ НЕ ТОНИ ПОЧЕМУ ОН НЕ ПРЕКРАЩАЕТ. 
+ТОМАС СТАРК ЭТО ПРЕКРАСНОЕ ИМЯ
+
+  </file>
+</Computer>

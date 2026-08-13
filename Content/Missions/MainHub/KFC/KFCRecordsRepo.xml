@@ -1,0 +1,81 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kfcRecordsRepo" ip="202.7.177.65" name="CFC Records Repository" security="2" type="4">
+  <ports>80,25</ports>
+  <trace time="125" />
+  <proxy time="0" />
+  <firewall level="2" solution="CHICKEN" />
+  <positionNear target="kfcMainframe" position="1" total="3" />
+  <link target="kfcMainframe" />
+
+  <file path="home/Ordering" name="Seasoning_Order_Guidelines.docx">
+ORDERING SEGREGATION GUIDELINES
+    
+Seasoning mix orders need to be separated to two separate companies, who each provide half of the mix (new Mexico facility combines spices 1 through 6, local Kentucky facility mixes remaining 5 spices, currently).
+The two separate deliveries should be mixed at CFC Distributions HQ and placed in unmarked white bags for franchise level distribution.
+
+Prepared bags of the seasoning mix are sent to franchises, where it is combined with a flour, powdered egg, dried milk and salt breading mix in store to create final product.
+This ensures no digital copies of the secret recipe are ever distributed in their enteritis.
+  </file>
+
+  <file path="home/Ordering" name="Seasoning_Order_Placement_Template_Pt1.docx">
+    CFC DRY GOODS DELIVERIES ORDER TEMPLATE
+
+Facility: 228 Esperenza Rd. New Mexico
+Product: Herb and Spice Mix
+Unit Volume: 1kg
+Total Units: [UNIT_VOLUME_NEEDED]
+
+Product Production Guide:
+
+    Formula --
+    16% | Paprika.
+    09% | Rubbed sage.
+    24% | Garlic powder.
+    28% | Allspice.
+    07% | Oregano.
+    16% | Marjoram. 
+
+  </file>
+  
+    <file path="home/Ordering" name="Seasoning_Order_Placement_Template_Pt2.docx">
+    CFC DRY GOODS DELIVERIES ORDER TEMPLATE
+
+Facility: 11 Mt Eden Rd. Shelbyville, Kentucky
+Product: Spice Mix
+Unit Volume: 1kg
+Total Units: [UNIT_VOLUME_NEEDED]
+
+Product Production Guide:
+
+    Formula --
+    14% | Basil.
+    04% | Chili Powder.
+    42% | Monosodium Glutamate.
+    24% | Onion Salt.
+    16% | Red pepper(Kampot).
+
+  </file>
+
+  <file path="home/Ordering" name="Order_Requirement_Certs.docx">
+Food Manager Certification - English PDF / Spanish PDF 
+
+DBPR Form HR 5030-080, cut-sheet used by Division of Hotels and Restaurants' inspectors to remind licensees of food manager requirement. (May 7, 2010) 
+Food Recovery Resource Guide - PDF 
+
+ Florida Department of Agriculture and Consumer Services guide to organizations that have indicated their interest in participating in the Food Recovery Program, to provide surplus or excess canned or perishable food for the needy or collect and transport food to such organizations.
+Food Service Inspection Report - PDF 
+
+DBPR Form HR 5022-015, sample of form used by the Division of Hotels and Restaurants to record inspections at public food service establishments. (Revised October 1, 2009)
+  </file>
+  
+  <file path="home/Media" name="Logo.png">#BINARY#</file>
+  <file path="home/Media" name="Logo_Small.png">#BINARY#</file>
+  <file path="home/Media" name="MediaKit_2011.zip">#BINARY##BINARY#</file>
+  <file path="home/Media" name="Guide.txt">
+    At Kernel's Food Corner, we have one mission: serve the world's best tasting chicken. 
+    So we start with only the best ingredients, whole chicken that's delivered fresh. 
+    Then it's prepared fresh, hand-breaded in our own secret recipes and cooked fresh for you by certified CFC cooks in every one of our restaurants. 
+    Easy? No. But it only takes one bite to remember why all that extra effort is worthwhile. 
+    Because fresh tastes better. Stop by your local CFC and taste for yourself.
+  </file>
+</Computer>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle03">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0014 - Kalp Hızı Ölçüm Aygıtı v2.44 Harici Aracı">
+Bu gönderide kalp hızı ölçüm aygıtının v2.44 sürümünün harici izleme ve güncelleme fonksiyonuyla ilgili ayrıntıları barındırmaktadır. Genel işlemler için yazılı dokümanla başvurun veya support@kellisBio.com adresinden yeni kopya talep edin.
+---------------------------------------------
+
+Kellis Biotech v2.44 Kalp Hızı Ölçüm Aygıtı (buradan itibaren: "kalp hızı ölçüm aygıtı") büyük tehlike altında veya sürekli izleme ihtiyacı bulunan hastalar için tasarlanmış, fakat hastanelerde kullanılmamıştır.
+Kalp hızı ölçüm aygıtına uzaktan bağlanılabilinmektedir. Aygıt gözlemcilere gerçi zamanlı ECG verisi ve küçük güncelleme araçları sunar. Sistemin hassa yapısı (%100 çalışma süresi gerektirir) göz önünde bulundurulduğunda sistem sadece çipi atayan yazılım mühendisinin belirlediği sürüm sunucusunun onayladığı ikili güncelleme paketlerini kabul etmektedir.
+
+Güncellemeler genellikle vakalara özel olarak (yaş veya operasyona bağlı olarak hastanın kalp ritminde oluşan doğal değişiklikleri hesaba katmak için hastanın farklı ayarlara gereksinim duyduğu durumlar) gerçekleştirilir.
+Kellis'in güncelleme sistemi bu değişiklikleri daha fazla müdahaleye gerek kalmayacak şekilde gerçekleştirir. Çipin önceki sürümlerinde manuel güncelleme ayarı için belli araçlar yer alsa da, güvenlik sorunlarından ötürü kaldırılmaları uygun görülmüştür. Mevcut sürümde kalp hızı ölçüm aygıtının değişiklikleri yazılım güncellemeleriyle yapılmaktadır (cerrahi işleme gerek kalmadan kablosuz olarak gerçekleştirilebilir).
+
+Eğer bu tarz güncellemeye ihtiyacınız varsa, yardım ve ödeme işlemlerini halleden Kellis Biotech temsilcinizle iletişime geçin.
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>HATA</subject>
+    <body>
+Beklenmedik bir hata oluştuğu için bu hatayı aldınız.
+Lütfen panikleyin.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="avconCreditsComp" name="Avcon Credits Server" security="0">
+  <addAvconDemoEndDaemon name="Demo End" />
+  <file path="home" name="Entropy_Contact.txt" >
+    Apparently the hacker group "Entropy" are looking for members - they're got a recruitment server up and everything.
+
+    You can connect to the server at "199.59.149.230"
+    
+    -M
+  </file>
+  <file path="home" name="ProxyOverloadGuide.txt" >
+    To overload a proxy, first set up some shell nodes on nodes you have administrator acess on.
+    To do this, simply run the "shell" program (I.e: "exe shell").
+    
+    Once you have several shells running, using their overload function while connected to a target machine will
+    begin flooding the target with requests, overloading it until the proxy shuts down temporarily to catch up.
+    
+    This will create a sizeable window in which programs that a proxy would otherwise prevent running can execute freely.
+    -M
+  </file>
+  <file path="home" name="Credits.txt" >
+    -----HackNet-----
+
+    A Game by:
+    --Matt Trobbiani--
+    Twitter: @Orann
+    Email: mtrobbia@gmail.com
+
+    Flavour Text and Logos:
+    --Sarah Riggall--
+
+    Appearance Concept
+    Jeryth
+    http://www.reddit.com/user/jeryth
+
+    -Music-
+    Revolve - Hisboyelroy
+    Leviathan - Kirkoid
+    Ana - Hisboyelroy
+    www.ccmixter.org
+
+    -Testing and Thanks-
+    Tristan "tijit" Trabilsie
+    Jamie Williamson
+    Alex Mackay
+    Noblekale
+    Chris Johnson
+    Sam Crisp
+    Dylan Sale
+    Richard Taylor
+    Ben Kislby
+    Matt LeKrupa
+    Brad Wesson
+    Jamie Pillianaros
+  </file>
+  <file path="sys" name="DefaultBootModule.txt" >[Locked]</file>
+  <!--
+  <addEmailDaemon />
+  -->
+</Computer>

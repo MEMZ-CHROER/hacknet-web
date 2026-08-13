@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase6" >
+  <goals>
+    <!--
+    <goal type="FileDownload" target="EnTechOutsiderRepo" file="heart.dec" path="Contractors/Bit" />
+    -->
+  </goals>
+  <missionStart val="1">changeSong</missionStart>
+  <nextMission>BitPath/BitAdv_Intro07.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Vindication</subject>
+    <body>This is exactly what I was hoping for. The place has been stripped clean, but for one encrypted file in Bit's folder (as you've probably seen), but that file...
+I know how to open it, It's a password he told a few of us a long time ago that worked on a project with him. He sent us a message encrypted like this back then too.
+
+The password's "divingsparrow" - I've already read it. There's an email account I need to check out now too - I suggest you do the same.
+Download the file and decrypt it locally, don't leave an open copy of that lying around. And contact me afterwards - it feels like we're reaching the truth - and some action.
+
+Contact me once you've caught up, and lets finish this.
+
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

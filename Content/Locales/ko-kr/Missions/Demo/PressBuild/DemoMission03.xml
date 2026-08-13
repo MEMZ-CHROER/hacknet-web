@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pressdemoMission03">
+  <goals>
+    <goal type="FileDownload" target="bitStashDemo" file="SQL_MemCorrupt.exe" path="bin"/>
+    <goal type="FileDownload" target="bitStashDemo" file="SMTPOverflow.exe" path="bin"/>
+    <goal type="FileDownload" target="bitStashDemo" file="Sequencer.exe" path="bin"/>
+  </goals>
+  <nextMission>Demo/PressBuild/DemoMission04.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>만반의 준비</subject>
+    <body>완벽해. 
+정말 고마워. 이걸로 당신이 이 일의 적격자라는 것을 알 수 있게 되었어. 앞으로 할 일은 훨씬 더 어려워질 거야. 그래서 채비를 좀 해두려고. 
+
+드롭 서버 하나의 링크와 관리자 로그인 정보를 첨부했어. 그 안의 /bin/ 폴더에 새로운 프로그램들이 있어.
+ 웹상에 떠돌아다니게 하고 싶지 않은 것들인데, 내가 달리 수가 없어서 당신에게 맡기는 거야. 
+
+당신은 도움을 줄 수 있다는 것을 증명했으니까. 일단은 모두 다 받아두는데, 특히 &quot;Sequencer&quot;가 중요해. 옛날에 내가 무명의 다수의 해커들 사이에서 타이밍을 맞추기 위해 만들어낸 건데, 이건 당신을 위해 약간 개조한 빌드야. 
+모두 다 다운로드해놓으면 좀 더 구체적으로 설명할게. 
+
+다른 두 개는 포트 크래커야.  SMTPOverflow는 SMTP(메일 서버) 포트를 과부하로 공격하지. #25.
+SQL_MemCorrupt은 대체로 SQL 서버에 대한 주입 공격이야. 기본 포트는 1433이고. 
+
+모두 다 빠짐없이 받아둬
+--Bit
+0
+    </body>
+    <attachments>
+      <link comp="bitStashDemo"/>
+      <account comp="bitStashDemo" user="admin" pass="traxxex12"/>
+    </attachments>
+  </email>
+</mission>

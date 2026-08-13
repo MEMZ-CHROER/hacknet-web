@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyServer01">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Aufräumaktion">
+Einer unserer geschätzten Kunden hat um das Entfernen von Dateien auf dem Rechner eines ehemaligen Angestellten gebeten.
+Die Daten sind nicht einzigartig; Die Firma möchte nur, dass sie nicht mehr im Besitz des besagten Ex-Angestellten sind.
+Es ist unwarscheinlich, dass deine Spuren hier zurückverfolgt werden.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Offene Rechnung 2 - BITTE BEARBEITEN</subject>
+    <body>
+Sei gegrüßt, Agent,
+
+einer unserer Angestellten hat sich vor Kurzem unserer Konkurrenz angeschlossen. Dabei hat er einige interne Daten mitgenommen, die wir ihn nicht behalten lassen wollen.
+
+Du sollst also diese Daten von seinem PC entfernen. Wahrscheinlich werden sie als einzelnes Archiv und ohne Backups gespeichert.
+
+Danke,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

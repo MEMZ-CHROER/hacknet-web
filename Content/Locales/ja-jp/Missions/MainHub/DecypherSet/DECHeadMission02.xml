@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="beepbeep"/>
+  </goals>
+  <missionEnd val="1">addFlags:dechead</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="暗号化されたファイルを追え">
+CSECはDEC暗号化ファイルがエンコードされた場所を突き止める方法の確立に成功しました。私たちの手元にはパスワードでロックされたファイルがあるのですが、これだけ手がかりがそろっていれば、暗号化は十分突破できるはずです。
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>RE: 望遠鏡を通して</subject>
+    <body>
+おっ、いいもの見つけてきたじゃないか。
+
+よし、俺たちがパスワードを探してるファイルをクロスロードにアップしておいた。
+「CSEC_encode_1.dec」だ。下手にいじられるのを避けるため、名前を変えておいた。元々の名前は「WinCE_FirmwareSpecs.dec」だ。ヒントになるかもしれないから教えておくよ。
+とりあえず、ファイルのヘッダーを読んで、ファイルがどこでエンコードされたかを見つけて、パスワードを探し出してくれ！パスワードと一緒に返信してくれれば、後のことは俺たちがやっておく。
+
+協力感謝するよ。
+-CT Team
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+    </attachments>
+  </email>
+</mission>

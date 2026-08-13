@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="CSEC_DLC_End" activeCheck="true">
+  <goals>
+    <!-- No goals and autocomplete here - this exists to clear player missions and also send them back to their faction -->
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="">
+  </posting>
+  <email>
+    <sender>Services d'échange CSEC</sender>
+    <subject>Re : les Épreuves de Kaguya</subject>
+    <body>Agent,
+    
+Cela fait un moment que vous ne vous êtes pas connecté après avoir accepté ces fameuses Épreuves de Kaguya, avez-vous besoin de notre aide ?
+Si vous souhaitez faire une pause pour travailler sur d'autres projets, ce n'est pas un problème. Votre position chez CSEC est stable, dès que vous voudrez accepter du travail, faites-nous-le savoir.
+
+-L'Équipe CSEC
+    </body>
+    <attachments>
+      <link comp="mainHub" />
+    </attachments>
+  </email>
+</mission>

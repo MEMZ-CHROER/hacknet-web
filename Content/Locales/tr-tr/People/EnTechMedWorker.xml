@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="entechboss" handle="Jojo" firstName="Joseph" lastName="Jorioni" isMale="true">
+  <Birthplace name="Califonia" />
+  <Degrees>
+    <Degree uni="University of California" gpa="2.9">Bachelor of Software Engineering</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>178</Height>
+    <Allergies>YOK</Allergies>
+    <Perscription> Spironolactone x70 iki ayda bir :: Kalp Regülatörü - Aldosteron İnhibitörü</Perscription>
+    <Notes>Hasta şiddetli Anjina'dan muzdarip. Kalbe oksijenin iletilmesini sağlayan kan akışı doğuştan bu yana devam eden vasküler bozukluklara bağlı olarak normale göre çarpıcı oranda düşük.
+Hastaya SpO2 seviyesi azaldığında uyarı veren bir düzenleyici monitör bağlanmış bulunyor. Kalp yetmezliği riski aşırı fazla olduğundan, bir durum meydana geldiğinde çabucak karşılık verilmesi gerekiyor.
+Bu kalp hızı ölçüm aygıtı değil, eken uyarıcılı alarm sistemi.</Notes>
+  </Medical>
+  <Notes>
+  </Notes>
+</Person>

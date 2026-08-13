@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitMission00">
+  <goals>
+    <goal type="getAdmin" target="bitMission00"/>
+  </goals>
+  <missionStart val="7">changeSong</missionStart>
+  <nextMission>BitMission1.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>Vol inaugural</subject>
+    <body>Félicitations !
+ J'ai aucun moyen de savoir si tu as réussi dans ce répondeur, mais si tu vois ça, ça veut dire que tu as au moins trouvé QUELQUE CHOSE. Supposons que c'est quelque chose d'utile.
+
+ Tu devrais tenter de craquer un de mes vieux serveurs de test. Si Viper y laisse traîner les trucs pour lesquels il est connu, tu devrais avoir tout ce qu'il te faut pour y pénétrer. 
+N'oublie pas, tous les programmes non basiques que tu obtiens ont besoin d'un numéro de port, comme ça : 
+
+&gt;SSHCrack 22 
+^nomdufichier ^numérodeport 
+    
+Trouve-toi juste un port à craquer et lance-le dessus. 
+
+Oh, et si tu le sais pas déjà, tu peux appuyer sur tab pour saisir automatiquement les commandes : si tu tapes « ssh » puis tab, ça devrait saisir le nom complet, etc. Ça fonctionne pour tout 
+
+! Bonne chance !
+
+ --Bit
+0
+     
+    </body>
+    <attachments>
+      <note title="Les bases de la sécurité">Les bases de la sécurité 
+     
+Probe sert à voir quels ports sont ouverts. 
+Sélectionne avec un programme et cible le bon port
+ : « SSHCrack 22 »
+  ^nomdufichier^numéroduport 
+Forcer suffisamment de ports permet de faciliter une brèche de sécurité avec « Porthack ».
+      </note>
+      <link comp="bitMission00"/>
+    </attachments>
+  </email>
+</mission>

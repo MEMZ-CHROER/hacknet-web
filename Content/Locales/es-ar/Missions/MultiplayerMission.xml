@@ -1,0 +1,18 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="multiplayerMission" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="opponent#0" file="system32.sys" path="home" />
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Anonymous</sender>
+    <subject>La lucha</subject>
+    <body>
+Bienvenido, Hacker.
+
+Actualmente te está atacando un hacker opuesto. Necesitamos al mejor de los dos. Destruye a él o ella, antes de que hagan lo mismo contigo.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

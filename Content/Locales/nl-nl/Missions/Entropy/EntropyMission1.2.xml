@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission01.2">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>Entropy/EntropyMission2.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Welcome</subject>
+    <body>
+Gegroet #PLAYERNAME#,
+
+Gefeliciteerd,
+Je snelle uitvoering van je eerste contract heeft je capaciteiten bewezen en ik kan je nu blij verwelkomen bij Entropy.
+
+Als een klein welkomscadeau, zul je de gebruikersdetails naar het admin account van onze asset server bijgevoegd vinden. Gebruik wat je nodig hebt, en bekijk onze mantra. Zodra je klaar bent, beantwoord naar dit adres, en ik zal een echte test van je capaciteit regelen.
+
+Opnieuw, gefeliciteerd.
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+      <account comp="entropy01" user="admin" pass="rosebud" />
+    </attachments>
+  </email>
+</mission>

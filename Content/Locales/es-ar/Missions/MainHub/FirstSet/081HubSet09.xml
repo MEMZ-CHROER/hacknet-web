@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="getString" target="AAX1BB7"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Compromise an eOS Device">
+Ha llegado una solicitud para obtener información sobre un objetivo que el cliente cree que se guarda en un dispositivo eOS.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Fuga de la prisión</subject>
+    <body> Esto será breve: 
+Un cliente ha solicitado que registremos el ordenador y los dispositivos de un determinado objetivo en busca de lo que llaman un «Id. de registro». Creen que estará en un dispositivo eOS sincronizado con el equipo de casa del objetivo (enlace adjunto). 
+
+Cuando tengas este Id., responde a este mensaje con él y nosotros nos encargaremos del resto.
+
+ Buena suerte, 
+- CSEC
+    </body>
+    <attachments>
+      <link comp="hubEosMisison"/>
+      <note title="Datos del contrato">
+Explora los dispositivos EOS del ordenador del objetivo. 
+Investiga los dispositivos y busca alguna referencia a un «Id. de registro». 
+Responde a CSEC con dicho Id. adjunto.</note>
+    </attachments>
+  </email>
+</mission>

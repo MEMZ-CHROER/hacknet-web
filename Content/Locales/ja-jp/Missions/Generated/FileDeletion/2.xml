@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - 後始末">
+ある企業が、ハッカーに機密情報を盗まれました。すでに制裁は下したそうなのですが、盗まれたものを取り返す必要があるそうです。
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - 後始末</subject>
+    <body>
+エージェントさん、こんにちは。
+
+わが社 #CLIENT#は、最近ハッキング被害にあってしまいました。問題のハッカーはすでに報いを受けているのですが、盗まれたアーカイブはいまだに復元できていません。
+一応復元は可能なのですが、ここにハッカーが利用していたサーバーのIPアドレスがあります。どうかデータを取り返してきていただけないでしょうか。
+
+慎重に解決していただけますよう、どうかよろしくお願い申し上げます。
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

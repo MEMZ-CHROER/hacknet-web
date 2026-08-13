@@ -1,0 +1,19 @@
+Diese Datenbank existiert, um Informationen über die Verurteilten im Todestrakt zu erhalten und zu verwalten. Darunter fallen u.a. ihr letzter Wunsch und Details zu ihren Delikten.
+
+Statistik zu Geschlecht und Ethnizität der Verurteilten
+
+Ethnizität Weibl.   Männl.    Insges.
+--------------------------------------
+White       5        76        81
+            55.6%    28.7%     29.6%
+
+Black       3        107       110
+            33.3%    40.4%     40.1%
+
+Hispanic    1        78        79
+            11.1%    29.4%     28.8%
+
+Andere      0        4         4
+            0.0%     1.5%      1.5%
+
+INSGES.     9        265       274

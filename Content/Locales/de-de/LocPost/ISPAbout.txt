@@ -1,0 +1,12 @@
+﻿Dieser Server dient dem ISP-Routing und Systemmanagement
+und wurde für eine einfache Verwaltung von 
+third-party ISP-Management-Unternehmen entworfen.
+Für die Verwaltung wird ein Administrator-
+Account benötigt.(kontaktieren Sie diesbezüglich Ihren Systemadmin), 
+Wenn Sie sich erfolgreich eingeloggt haben,
+können Sie einfach nach einer IP suchen.
+
+
+Sollten technische Probleme auftreten,
+wenden Sie sich bitte an den Kundendienst:
+1-800-827-6364

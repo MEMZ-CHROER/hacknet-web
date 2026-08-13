@@ -1,0 +1,75 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission00" name="PC de Pruebas de Bit" security="1">
+  <file path="home" name="Test_File.txt">Felicitaciones, has ganado!</file>
+  <file path="home" name="L-E_x-server.sys">#PURPLE_THEME#</file>
+  <file path="sys" name="x-server.sys">#PURPLE_THEME#</file>
+
+<file path="home" name="Hobbes_TerminalGuide.txt.txt">
+Lista de comandos utiles:
+
+cat [nombre del archivo] - muestra el texto contenido en el archivo especificado
+
+cd / - te lleva al directorio raiz del sistema de archivos
+
+ls - muestra los directorios y archivos en el directorio en el que te encuentras.
+
+cd .. - te lleva un nivel de directorio arriba desde donde estás.
+
+replace [nombre del archivo] "[cadena1]" "[cadena2]" - remplaza el contenido especificado en el archivo elegido (cadena1) con lo que quieras remplazarlo (cadena2)
+
+mv [nombre del archivo] [objetivo] - mueve O renombra un archivo, si quieres moverlo necesitarás especificar la carpeta a la cual deseas moverlo - de esta manera:
+
+mv config.sys /misc/
+
+si quieres renombrar el archivo, simplemente especifica la cadena con el nuevo nombre después del viejo - de esta manera:
+
+mv config.sys config.old
+
+Help 1, Help 2, Help 3 - El archivo de ayuda, las tres páginas. Lee y absorbe.
+
+forkbomb - No está especificado, pero es un botón de pánico útil en caso de que necesites tirar un systema rapido, necesitarás permisos de administrador para este. Puedes usar forkbomb en tu propio sistema como un mecanismo de defensa.
+
+shell - crea un host remoto en un sistema donde tienes acceso administrador, esto puede ser usado en tu propio sistema como un mecanismo de defensa.(Ver "Trap" para más detalles)
+</file>
+  
+<file path="home/autolog_reports" name="log01332.txt">
+[shinterland] Esperando que el jefe se vaya
+[shinterland] Luego nos encontraremos afuera
+[jwalter] Crees que tiene alguna idea?
+[shinterland] Pfft, lo dudo. 
+[shinterland] No tiene ni idea de la tormenta que se viene. 
+[jwalter] No olvides borrar tu historial de navegacion, no queremos que nos rastre. 
+[shinterland] Si si si, lo tengo cubierto.
+[shinterland] Acaba de agarrar su saco, y esta caminando hacia la puerta....ahora.
+[jwalter] De acuerdo, dame un minuto para congelar la imagen de la camara.....
+[jwalter] Listo. Tienes tres minutos hasta que se caiga la imagen estatica.
+[shinterland] Yo agarro la lista, luego tu agarras una copia para celebrar.
+</file>
+  
+<file path="home/autolog_reports" name="log0177_F.txt">
+[vope] no creerias esta mierda aunque te la dijese
+[r@$put1n] que?
+[r@$put1n] funciono?
+[vope] tengo mercenarios tirando mi puerta abajo por el codigo
+[r@$put1n] demonios hijo, parece que has entrado a las grandes ligas!
+[r@$put1n] tiene buena paga?
+[vope] 12k, nada mal para dos meses de trabajo
+[vope] me pregunto para que lo utilizaran
+[r@$put1n] probablemente para vaciar tus cuentas bancarias
+[vope] buena suerte, no tengo nada de dinero para que me roben lol
+
+-- confirmed fake --
+</file>
+  
+<file path="home/autolog_reports" name="log01009.txt">
+[felix] Todo bien por mi parte, ahora que despidieron al idiota de Bill estoy a salvo
+[bleedingcool] Fantastico. 
+[felix] Siempre odie a Bill. Me has hecho un favor.
+[bleedingcool] Sin mencionar ese soborno por 10k no?
+[felix] Si, eso ayudo tambien.
+[felix] Entonces estamos bien aqui?
+[bleedingcool] Todo bien. Tengo meses de exclusivos aqui. Te hablo el proximo año cuando la nueva pelicula de Brisby salga.
+[felix] hablamos luego jefe.
+</file>
+  
+</Computer>

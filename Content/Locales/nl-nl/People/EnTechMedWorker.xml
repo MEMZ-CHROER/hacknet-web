@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="entechboss" handle="Jojo" firstName="Joseph" lastName="Jorioni" isMale="true">
+  <Birthplace name="Califonia" />
+  <Degrees>
+    <Degree uni="University of California" gpa="2.9">Bachelor in Software Engineering</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>178</Height>
+    <Allergies>NONE</Allergies>
+    <Perscription> Spironolactone x70 tweemaandelijks :: Aldosterone Inhibitor als een cardiale regulator</Perscription>
+    <Notes>Patient lijdt aan acute Agina - bloedstroom voor zuurstof bezorgingen aan het hart is dramatisch lager dan normaal vanwege vaat-fouten sinds geboorte.
+Patient heeft een regulator monitor gekregen die hem alarmeert als SpO2 laag is, wanneer hij grote kans heeft op hartfalen en hij snel moet reageren.
+Dit is geen pacemaker, maar slechts een alarmsysteem.</Notes>
+  </Medical>
+  <Notes>
+  </Notes>
+</Person>

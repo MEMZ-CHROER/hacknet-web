@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDeletion" target="pointclicker" file="Mengsk.pcsav" path="PointClicker/Saves"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Point Clicker">
+Un cliente importante necesita eliminar algunos de sus datos de un servidor de juegos para recuperar la productividad.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Point Clicker</subject>
+    <body>Saludos, civil:
+    
+Estoy en una terrible situación aquí y, por desgracia, nadie en mi oficina es lo suficientemente competente para solucionar este problema. Esto me ha obligado a recurrir a ayuda externa, lo que es muy desagradable para mí. 
+Mis informantes me han asegurado de que esta línea es segura, así que voy a ser breve. He superado el juego &quot;PointClicker&quot; y quiero demostrar mi claro dominio una vez más, pero no hay ningún botón de reinicio. 
+Necesito que entres en el servidor y borres mi archivo guardado para que pueda volver a arrasar. Mi nombre de usuario es &quot;Mengsk&quot;. No dudes en disfrutar de la gloria de mi logro actual antes de restablecerlo. 
+
+Corto y cambio, 
+-M
+    </body>
+    <attachments>
+      <link comp="pointclicker"/>
+      <note title="Alias del contacto">Alias del contacto 
+"Mengsk"</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="advExamplePCmisc" 
+          name="Adventure Example PC" 
+          ip="33.194.132.7"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="chip" 
+          type="1" > 
+</Computer>

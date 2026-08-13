@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dFollowsMission">
+  <goals>
+    <goal type="clearfolder" target="ds3_dest" path="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="La Chose Suit">Quelqu'un prétend posséder des infos compromettantes concernant Kaguya. Traque-le et vérifie ses affirmations - et s'il le faut, réduis-le au silence. Le navire doit rester à flot.</posting>
+  <email>
+    <sender>Bibliothèque</sender>
+    <subject>La Chose Suit</subject>
+    <body>
+Quelqu'un prétend posséder des infos compromettantes concernant Kaguya. Traque-le et vérifie ses affirmations - et s'il le faut, réduis-le au silence. Le navire doit rester à flot.
+----
+Un utilisateur anonyme s'est manifesté sur quelques forums de hackers, affirmant qu'il possède des infos compromettantes à mon sujet. Je ne suis pas suffisamment connu au sein de la communauté de hackers pour que cela éveille leur intérêt, et l'utilisateur en question a été tourné en ridicule et chassé du canal IRC en question, mais certaines de ses affirmations étaient suffisamment spécifiques pour me sembler un peu préoccupantes.
+
+Un de mes contacts m'a envoyé l'IP de cet utilisateur. Mais comme je suis trop pris par d'autres boulots en ce moment, j'ai besoin que tu t'en charges.
+
+Vérifie ses affirmations. S'il semble y avoir des preuves à l'appui, supprime-les ainsi que tous ses fichiers. Il faut lui faire comprendre que s'en prendre à nous est une très mauvaise idée : Nous devons donner l'impression d'être intouchables. Et si tu trouves des clés de cryptage, mets-les sur l'IRC. Je me pencherai dessus plus en détail plus tard.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="ds3_entry" />
+      <note title="Objectifs de mission">Enquêter au sujet de leurs affirmations. Si les preuves semblent « réelles », ou si mention est faite d'un dénommé « Dreadnought », détruire tous les fichiers.</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,58 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dhaEntry" name="School of the Hermetic Alchemists" security="4" type="empty" icon="Alchemist">
+  
+  <!-- This will be the entry point of the whole network. It's the "public facing" side of it.
+  Each computer on the network will also have an image and line or two of text that comes up as the
+  "opener" for that server - please select the image from the book to be vectorized and sent to me
+  for each one, and prepate the line that's on each server. The network has been pre-assembled to have all
+  of these clearly outward facing things from the start, even though the internal ones are meant to be hidden.
+  It's like the sysadmin wanted it broken into and seen, as a kind of indoctrination thing for "other hackers
+  like him". -->
+  
+  <!-- Each server should have a bunch of files describing various parts of the philosophy, and in seperate
+  folders, a few bits and peices about the job of the server in the network. This one is a greetings/front facing server,
+  designed to be an announcement thing, more saying who they are and what they're about. It's not written like
+  it was put here just to be broken into, but the sysadmin *does* expect it to be attacked at some point, and is
+  clearly making an effort to indoctrinate whoever is trying to break in.-->
+
+  <file path="home" name="welcome_to_heaven.txt">すべてはつながっている。宗教、社会、科学。これらはすべて現実であると同時に幻――明瞭であると同時に曖昧である。 
+
+我らは地上に再び生まれ、炎の試練を経て、すべてのつながりを知るのだ。主流の教育は嘘ばかり。しかし、碑文の言葉はこれ以上ない真理である。
+
+すべてはつながっている。宗教、社会、科学。これらはすべて現実であると同時に幻――明瞭であると同時に曖昧である。
+
+万物は美とつながりを持つ。旅人は陽から陰へ、凝塊へと誘われる。旅人は1つの次元の存在から4つの次元の存在へと進み、その先で世界の真の姿が明かされる。
+
+すべてはつながっている。いにしえの陰、 奥義その4「出現」はいつか地上に戻ってくる、あらゆるものがそうであるように。
+
+Solve et Coagula. 下のものは上のもののごとし。
+</file>
+  
+  <file path="home" name="nameofgod.txt">YOD
+he
+vau
+he
+
+</file>
+
+  <proxy time="-1" />
+  <trace time="200" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <dlink target="dhaComp1"/>
+  <dlink target="dhaComp2"/>
+  <dlink target="dhaComp3"/>
+
+  <positionNear target="dhaComp2" position="2" total="360"/>
+
+  <LogoDaemon Name="School of the Hermetic Alchemists" ShowsTitle="false" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/MainLogo" >
+------------------------------------
+下のものは
+上のもののごとし
+------------------------------------
+  </LogoDaemon>
+
+</Computer>

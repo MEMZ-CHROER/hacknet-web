@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="removeDeathRowRecord" name="Joseph Felman"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Remove a Fabricated Death Row Record">
+Se trata de un trabajo de limpieza para eliminar cierta información falsa que un hacker plantó en la base de datos del corredor de la muerte. 
+Por motivos desconocidos, se ha añadido un registro duplicado falso a los registros del corredor de la muerte, probablemente como algún tipo de robo de identidad o plan de sabotaje.
+ Nos gustaría que ese registro falso se eliminara.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Impostores en el corredor de la muerte</subject>
+    <body>Este contrato lo ha añadido un miembro anónimo de CSEC. Aunque tal vez sea posible averiguar la identidad del patrocinador mediante este contrato, CSEC solicita que, como siempre, respetes la privacidad y el anonimato de sus miembros y no lo hagas.
+
+ Contrato: 
+El registro del corredor de la muerte de Joseph Felman (n.º 119080) es un claro duplicado del registro de Alva Curry (n.º 999080), que sin duda es el original. 
+Elimina el registro de Joseph Felman de la base de datos: su presencia no solo representa un riesgo para cualquier Joseph Felman real, sino también un insulto a la declaración original realizada por Mr. Curry. Corrígelo. 
+
+- CSEC
+    </body>
+    <attachments>
+      <link comp="deathRow"/>
+      <note title="Datos del registro">Elimina el registro 
+Nombre: Joseph Felman</note>
+    </attachments>
+  </email>
+</mission>

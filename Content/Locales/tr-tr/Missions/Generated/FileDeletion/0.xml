@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyServer01">
+  <generationKeys File="#LC_CLIENT#_Internal_Archive.zip" Path="home"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# : Temizlik İşlemi">
+Grubumuzun değerli müşterilerinden birisi, eski çalışanlarından birinin bilgisayarındaki bir dosyanın tarafımızdan silinmesini istedi.
+Özel bir dosya peşinde değilsin. Şirket sadece bu kişideki kopyanın silinmesini istiyor.
+Ayrıca hedefin sana karşı pasif izlence oluşturması da pek mümkün görünmüyor.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Temizlik İşlemi</subject>
+    <body>
+Saygıdeğer temsilci,
+
+Şirketimiz çalışanlarından biri kısa süre önce bizden ayrıldı ve rakibimizle anlaştı. Yanında şirketimize ait büyük miktarda dahili veriyi de götürdü. Eğer onda kalmasına izin verirsek bu bizim için pek de iyi sonuçlar doğurmayacak.
+
+Bu çalışanımız bilgisayarına erişmenizi ve bu bilgileri silmenizi istiyoruz. Tahminimizce belgeler, yedek kopyalar olmaksızın tek bir arşiv dosyasında depolanmış durumdalar.
+Dosyanın ismi: #FILE#.
+
+Teşekkürler.
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

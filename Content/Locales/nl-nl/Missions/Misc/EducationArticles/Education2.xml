@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title=".exe Bestanden en Gebruik op Afstand">
+Het exe commando op moderne terminals start een bestand op de lokale machine van de actieve gebruiker, het richt het programma op de machine waar de gebruiker aan verbonden is.
+
+Feitelijk is het commando een systematische snelkoppeling en voorkomt de noodzakelijkheid van het toevoegen van een IP adres van de verbonden machine bij het gebruik van een commando. Dit stelt meerdere programms in staat tegelijkertijd netwerkverkeer te sturen, wat effectifiteit verhoogt. 
+Natuurlijk, veel exe bestanden zijn niet geschreven met functies over een netwerk en in dit geval zal het programma de sprong negeren en zijn fuctie lokaal uitvoeren.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Ontvangen van deze email betekent dat er een onverwachte fout is opgetreden.
+Raak in paniek.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

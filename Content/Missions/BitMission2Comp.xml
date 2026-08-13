@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission02" name="Entropy test Server" ip="199.59.149.230" security="1" type="4">
+  <file path="home" name="Entropy_Induction_Test">
+Congratulations,
+  
+Download this file to complete your induction test.
+    
+Entropy will be contacting you shortly.
+  </file>
+  <file path="bin" name="e_admins_are_lazy.txt">No one ever remembers to clear out the bin folder too. This is a test server scrubs, it's DESIGNED for people to break in! At least tidy up!</file>
+
+  <file path="bin/zer0cool" name="hack_the_planet.txt">U FOOLZ BOW DOWN TO ME! I GOTS MAD SKILLZ AN U NO IT.</file>
+  <file path="bin/zer0cool" name="retort.txt">Assuming you know what retort means, let me start by saying, you are nothing but a scrub. 
+It probably took you all week to work out how to smash through that proxy. I bet you're probably 12, thinking you can "hack the planet" from your mom's 386. Good luck kid. Move on and let the pros handle </file>
+
+  <file path="bin/OP_Stormwind" name="need_help.txt">If you're here, chances are you know a thing or two about getting into places you don't belong. Those idiots over at Stormwind have totally ruined the balance of Shaytan 3 with the latest auction house patch. I've been a super fan since the original Shayton was released in 96, and I say we stick it to them and bring that auction house down. If you want in, leave a text file in here and I'll find you
+-slaggedfire</file>
+
+  <file path="bin/OP_Stormwind" name="Wo_lai_bang.txt">
+400 Jin Stormwind Online.
+</file>
+
+  <file path="bin/OP_Stormwind" name="lulz.txt">
+admins are pretty pissed at you slaggedfire - the chinese contigency has been hammering the servers all night requesting gold. 
+</file>
+
+  <file path="bin" name="SOgold.txt">
+Are you tired of quests that take up all of your time? Do you wish that you could spend a long, happy life without the worry of money for mounts? Then look no further than SOgold, the ultimate farming service for Stormwind Online players. For a small fee, we will take care of you account and ensure that you have enough gold to buy all of the items you could ever want. All we need is a down payment or $29.99 USD, you Stormwind Online account details, and we will get you more gold than you could ever imagine. 
+</file>
+
+<file path="bin" name="BIT_PLZ_READ.txt">
+Bit, if you are lurking, can you please come out of the shadows. I need to talk to you.
+Vap0r wont get off my case saying something's wrong - she's sure something's going on. Let me know?
+-T
+</file>
+  
+  <proxy time="0.3" />
+</Computer>
+

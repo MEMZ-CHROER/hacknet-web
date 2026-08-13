@@ -1,0 +1,20 @@
+<HacknetExtension>
+	<Name>Test Extension</Name>
+	<AllowSaves>true</AllowSaves>
+	<StartingVisibleNodes>secTestNode,   \\/nestedTestPC,advExamplePC</StartingVisibleNodes>
+  <StartingMission>Missions/TestExtensionMission0.xml</StartingMission>
+  <Description> --- Test Extension ---
+This is just a test
+Nothing to see here really.
+Testing about section length too.</Description>
+  <Faction>TestFaction.xml</Faction>
+  <Faction>TestFaction2.xml</Faction>
+  <StartsWithTutorial>False</StartsWithTutorial>
+  <HasIntroStartup>False</HasIntroStartup>
+  <StartingTheme>Themes/TestTheme.xml</StartingTheme>
+  <!-- 
+  Base Themes are named:
+  TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint
+  -->
+  <IntroStartupSong>The_Quickening</IntroStartupSong>
+</HacknetExtension>

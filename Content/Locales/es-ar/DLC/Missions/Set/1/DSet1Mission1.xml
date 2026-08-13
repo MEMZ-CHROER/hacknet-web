@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ds1m1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Crear herramientas para desencriptar">Seguimos encontrando archivos encriptados y necesitamos algo para leerlos. D3f4ult, esto es lo tuyo. Ya sabes qué hacer.</posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

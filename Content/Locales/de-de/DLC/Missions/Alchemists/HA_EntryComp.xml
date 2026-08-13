@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dhaEntry" name="Schule d. hermetischen Alchemisten" security="4" type="empty" icon="Alchemist">
+  
+  <!-- This will be the entry point of the whole network. It's the "public facing" side of it.
+  Each computer on the network will also have an image and line or two of text that comes up as the
+  "opener" for that server - please select the image from the book to be vectorized and sent to me
+  for each one, and prepate the line that's on each server. The network has been pre-assembled to have all
+  of these clearly outward facing things from the start, even though the internal ones are meant to be hidden.
+  It's like the sysadmin wanted it broken into and seen, as a kind of indoctrination thing for "other hackers
+  like him". -->
+  
+  <!-- Each server should have a bunch of files describing various parts of the philosophy, and in seperate
+  folders, a few bits and peices about the job of the server in the network. This one is a greetings/front facing server,
+  designed to be an announcement thing, more saying who they are and what they're about. It's not written like
+  it was put here just to be broken into, but the sysadmin *does* expect it to be attacked at some point, and is
+  clearly making an effort to indoctrinate whoever is trying to break in.-->
+
+  <file path="home" name="welcome_to_heaven.txt">Alles ist verknüpft. Religion, Gesellschaft, Wissenschaft. Sie sind gleichzeitig Realität und Illusion - Klarheit und Verwirrung. 
+
+Wir werden aus der Erde neu geboren und durch Feuerproben erfahren wir, dass alles verknüpft ist. Die gängigen Lehren enthalten keine Wahrheit; die Worte der Tabula aber sind die reine Wahrheit.
+
+Alles ist verknüpft. Religion, Gesellschaft, Wissenschaft. Sie sind gleichzeitig Realität und Illusion - Klarheit und Verwirrung.
+
+In allem herrscht Schönheit und Verbundenheit. Die Reise bringt die Wandernde vom Yang zum Yin, Coagula. Von einer Existenz in einer Dimension geht die Reisende in eine Existenz in vier Dimensionen über und das wahre Wesen der Welt wird enthüllt.
+
+Alles ist verknüpft. Das alte Yin, das Arcanum IV Manifest, wird eines Tages zur Erde zurückkehren, wie alle Dinge.
+
+Solve et Coagula. Wie oben, so auch unten.
+</file>
+  
+  <file path="home" name="nameofgod.txt">YOD
+he
+vau
+he
+
+</file>
+
+  <proxy time="-1" />
+  <trace time="200" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <dlink target="dhaComp1"/>
+  <dlink target="dhaComp2"/>
+  <dlink target="dhaComp3"/>
+
+  <positionNear target="dhaComp2" position="2" total="360"/>
+
+  <LogoDaemon Name="Schule d. hermetischen Alchemisten" ShowsTitle="false" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/MainLogo" >
+------------------------------------
+Wie oben
+so auch unten
+------------------------------------
+  </LogoDaemon>
+
+</Computer>

@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="xcRepBAD" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+UBİLİNMEYEN GÖNDERİM HATASI
+  </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>Yanıt: İçe Yönelik Araştırma</subject>
+    <body>
+Sayın temsilci, beni etkilediğinizi söylemem gerekiyor. Beklediğimden de iyiydiniz.
+Görünüşe göre sorgu aracı projeci sıkıntı çıkmadan gerçekleştirilecek. Beklediğimden biraz daha pahalıya patladı fakat bu meselelerde bize yardım edenlere laf etmeyiz.
+
+Her halükarda bu görevlendirmeyi komutan yapmıştı. Her şey usulünce işliyor.
+
+Diyeceğim başka bir şey yok.
+-C.O Bradford
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

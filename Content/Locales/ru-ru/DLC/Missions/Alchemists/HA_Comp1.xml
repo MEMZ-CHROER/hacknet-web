@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dhaComp1" name="HA_Coagula" security="4" icon="Alchemist" type="empty">
+  
+  <proxy time="-1" />
+  <trace time="200" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dhaComp2" position="320" total="360"/>
+
+  <file path="home" name="alchemy.txt">Древние алхимики полагали - вероятно, ошибочно, - что металлы были в каком-то смысле живыми; что они произошли от свинца, представляющего Сатурн, и со временем превращались в различные элементы, заканчивая эволюцию золотом (Солнце).
+
+Позднее люди осознали, что это была метафора. Жизнь и вещество, Материя, развиваются циклично. "Как вверху, так и внизу", - сказано в Изумрудной скрижали. 
+
+Ты, друг мой, будешь эволюционировать, и начнешь новый славный цикл.</file>
+
+  <!-- Translators note: Do not translate this file! It's meant to stay in Latin -->
+  <file path="home" name="tablet_latin.txt">Tabula Smaragdina
+
+Verum, sine Mendacio, certum et verissimum:
+
+Quod est Inferius est sicut quod est Superius, et quod est Superius est sicut quod est Inferius, ad perpetranda Miracula Rei Unius. Et sicut res omnes fuerunt ab Uno, meditatione inius, sic Omnes Res natae ab hac una Re, adaptatione.
+
+Pater eius est Sol. Mater eius est Luna. Portavit illud Ventus in Ventre suo. Nutrix eius Terra est. Pater omnis Telesmi totius Mundi est hic. Virtus eius integra est si versa fuerit in Terram. Separabis Terram ab Igne, subtile ab spisso, suaviter, magno cum ingenio.
+
+Ascendit a Terra in Coelum, iterumque descendit in Terram, et recipit Vim superiorum et inferiorum. Sic habebis Gloriam totius Mundi. Idio fugiet a te omnis Obscuritas. Haec est totius Fortitudinis Fortitudo fortis, quia vincet Omnem rem subtilem, Omnemque Solidam penetrabit.
+
+Sic Mundus creatus est. Hic erunt Adaptationes Mirabiles, quarum Modus est hic. Itaque vocatus sum Hermis Trismegistus, habens tres partes Philosophiae totius Mundi.
+
+Completum est quod dixi de Operatione Solis.</file>
+
+  
+  <file path="home" name="tablet_newton.txt">Изумрудная скрижаль
+
+Это, бесспорно, чистая истина.
+
+То, что находится внизу, так же, как и то, что находится вверху, и то, что вверху, так же, как и то, что находится внизу, способно сотворить единое чудо.
+
+И подобно тому, как все вещи произошли от одного или силами одного, так все на свете произошло от единой сущности путем адаптации.
+
+Солнце ее отец, луна ее мать, ветер носил ее в своем чреве, а земля была ей кормилицей.
+
+Отец всего совершенства в мире здесь.
+
+Сила ее остается цельной, когда она превращается в землю.
+
+Отдели аккуратно землю от огня, и тонкое от грубого.
+
+Она поднимается из земли к небу и снова нисходит на землю, впитывая силу как высших, так и низших миров.
+
+Таким образом, ты приобретешь славу всего мира.
+И вся тьма будет обходить тебя стороной.
+
+Ее сила превыше всех сил. Ибо она преодолеет даже самую искусную вещь и пробьет любую твердую вещь.
+
+Так был сотворен мир.
+
+Отсюда возникают удивительные изменения, в то время как смысл (или процесс) состоит именно в этом. Поэтому меня зовут Гермес Трижды-великий, так как я обладаю познанием трех частей вселенской философии.
+
+То, что я говорил о действии солнца, свершилось и завершилось.</file>
+
+  <file path="home" name="nameofgod.txt">йот
+ГЕ
+вау
+ге
+</file>
+
+  <!-- This should be more cryptic than this, and require, ideally, a player to have read 
+  something on the entry comp to understand it properly. It does need to be an explicit hint 
+  for gameplay purposes though. -->
+  <file path="home" name="Rebis.txt">Модели иллюзии и перемен проявляются циклично, повторяясь и отражая самих себя через поколения, поля и субъекты.
+  
+Это понятно, так как технологии нынешнего века также повторяют тексты алхимиков, вплоть до их языка.
+
+"Фаервол" появился вновь, но не как религиозный символ или акт агрессии, а как инструмент в обществе. Хотя об этом говорят точно так же, и теми же словами.
+Земля, Высшая Материя, Кунь.
+
+От Ребиса - поиск познания движения, связи, мобильности.
+</file>
+
+  <LogoDaemon Name="COAGULA" ShowsTitle="true" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/Alchemists1">
+От Тао произошел Первый.
+От Первого появился Второй.
+От Второго появился Третий.
+От Третьего произошли все вещи.
+  </LogoDaemon>
+  
+</Computer>

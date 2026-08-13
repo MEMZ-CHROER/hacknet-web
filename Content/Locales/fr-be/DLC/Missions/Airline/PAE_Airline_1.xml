@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpae_airline_misc" name="Mark Robertson's Office Computer" security="2" ip="98.124.245.24" type="4" icon="DLCPC1">
+
+  <!-- Low security misc employee of the airline!
+  There's nothing mission critical here, this just exists to pad things out, give a little more variety
+  and have a location for a non-critical character to talk about stuff. Pretty free reign with this one!
+  -->
+  
+  <portsForCrack val="2" />
+  <ports>22, 21, 443, 6881, 80, 25, 192</ports>
+
+  <positionNear target="dpa_whitelist" position="180" total="360" extraDistance="0"/>
+
+  <file path="home" name="todolist.txt">àfaire.txt
+
+- terminer GitV
+- connaître mes horaires de la semaine prochaine
+- remporter un débat sur animeFora
+- devenir baraqué
+- supprimer facebook
+- trouver un avocat
+- ne pas trouver d'avocat
+- supprimer l'avocat</file>
+
+  <file path="home" name="watchlist.txt">
+Animes à regarder
+
+--En cours--
+Nuits cydoniennes
+Goats in the Veldt
+Deux samouraïs
+Le prince des ramasseurs de balle
+Partie : Mode difficile
+Décadence de la science
+Hey-O !
+
+--Pas encore commencé--
+Goats in the Veldt : Stand on the Fence
+Die El Die
+Le Mec Qui Frappe Les Gens Juste Une Fois Et Gagne Le Combat Et C'est La Fin De L'Épisode À La Semaine Prochaine !
+Hey-O !!
+Hey-O ! : Le film qu'on a fait
+Ma relation compliquée avec mon postérieur
+Ma relation compliquée avec mon postérieur II
+Ma relation compliquée avec mon postérieur II OAV Le triumvirat
+Une fin peu convaincante
+Le paradis des jours passés
+Le magicien alchimiste
+Starts;Destinée
+Destinée;verbe/nom
+Les moissonneurs
+L'histoire du générateur secret
+Spoon Collector !!!!!
+Canot de sauvetage
+Trois : Re : Héros
+La tyrolienne sacrée
+Deux ou trois morceaux
+Morceau/Deux
+Mon ami magique Motoko Arcana
+Méta-analyse des conditions de travail dans l'industrie de l'anime
+Foolish Coolish
+Sur son 31
+Les grands combattants... ???</file>
+  
+  <file path="home" name="namegenerator.txt">Le générateur de nom, l'outil parfait pour tout  nerd fan de jeux de rôle papier, je suppose.
+
+Progression : 
+Préfixes 0 %
+Suffixes 92 %
+
+Suffixe - Zones larges
+
+Serment,Étendue,Consentement,Division,Falaises,Désert,Montagnes,Montagne,Plaines,Plaine,Plage,Contreforts,Promontoire,Île,Îles,Îlot,Îlots,Crevasses,Crevasse,Vide,Absence,Altitude,Mont,Monts,Canyon,Mesa,Pentes,Marais,Balises,Dunes,Dune,Côte,Côtes,Façade,Patrie,Cascade,Cascades,Frontières,Friche,Plateau,Arrière-pays,Chute,Glacier,Volcan
+
+
+Suffixe - Zones terrestres
+
+Vallon,Forêt,Bois,Vallée,Ruines,Cime,Colline,Collines,Grotte,Grottes,Bosquet,Avant-poste,Étang,Marais,Lac,Crique,Cataractes,Ravin,Marécage,Bassin,Passe,Ruisseau,Barrage,Mare
+
+Suffixe - Villages/campements
+
+Division,Cité,Ville,Village,Route,Paroisse,Avant-poste,Campement,Comté
+
+Suffixe - Zones maritimes 
+
+Havre,Crique,Quai,Jetée,Berge,Ancrage,Anse,Golfe,Môle,Échancrure,Baie,Fjord,Ponton,Chenal,Loch,Lagon,Bayou,Bassin,Estuaire,Détroit,Goulet,Pont,Canal,Ruisseau,Plage,Traversée
+
+Suffixe - Zones militaires
+
+Forteresse,Fort,Château,Fortin,Oppidum,Donjon,Bastion,Refuge,Rempart,Citadelle,Garnison,Tour,Palissade,Abri,Bastion,Dépôt
+
+Suffixe - Demeures de citoyens fortunés
+
+Manoir,Château,Donjon,Châtellerie,Maison,Villa,Domaine,Palais,Alcazar
+
+Suffixe - Propriétés privées
+
+Appartements,Maison,Ferme,Domaine,Résidence,Cabane</file>
+  
+</Computer>

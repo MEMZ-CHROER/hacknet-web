@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="Entropy_DLC_Connector">
+  <goals>
+    <!-- Impossible goal here - this mission isn't completable in the normal sense
+    It leads the player to KaguyaTrials, which replaces this. We don't want the player
+    to skip past this mission by quick replying or anything, so put a debug only goal here-->
+    <goal type="getstring" target="kaguyatrialscompletedebug" />
+  </goals>
+  <missionStart val="1" suppress="true">addFlags:dlc_start_entropy</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#ALERT# - Испытания Kaguya"> ### ВНИМАНИЕ ###
+Администраторы Entropy дали этому контракту статус необычно длительного, опасного или сложного.
+Если только у вас нет полной уверенности в своих силах, администраторы предлагают отложить эту задачу
+на потом.
+ ### ВНИМАНИЕ ###
+ 
+Неизвестный агент прислал что-то вроде отборочных испытаний лидерам нескольких групп. Считайте это приглашением расследовать этот случай
+  </posting>
+  <email>
+    <sender>Почтовый робот Entropy</sender>
+    <subject>Испытания Kaguya</subject>
+    <body>Агент,
+    
+Человек по имени Kaguya прислал испытание лидерам известных сообществ DigiSec (по нашей информации) и администраторам различных групп.
+Оно напоминает отборочное испытание для набора новой команды. Согласно действующей в Entropy политике открытости мы рассылаем это приглашение всем заинтересованным сторонам.
+
+Вам следует знать, что это не связанная с Entropy группа, и если вы присоединитесь к ней, вам, возможно, придется на время покинуть это сообщество.
+Если у вас есть незаконченные дела с Entropy или вы хотите продолжить свою текущую работу, можете отклонить контракт - скорее всего, предложение будет действовать еще какое-то время и вы сможете принять его позднее, если захотите.
+
+Для тех, кто примет предложение, в инструкции находится IP-адрес (прилагается) и руководство к началу испытаний.
+
+Желаем удачи,
+-Администраторы Entropy
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

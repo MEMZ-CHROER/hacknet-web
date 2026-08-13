@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="airline2_player">
+  <goals>
+    <goal type="fileupload" target="dHidden" file="sysinfo.bat" path="home" destTarget="dpa2_target" destPath="sys"/>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="#PLAYERNAME# - Uçuş Devam">
+Güvenli PacificAir sunucusuna izinsiz erişim geçişi sağla.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Uçuş Devam</subject>
+    <!-- Translators notes - don't translate the folder name "sys"-->
+    <body>
+Güvenli PacificAir sunucusuna izinsiz erişim geçişi sağla.
+----
+#PLAYERNAME#, görevin, Coel'in işi hakkındaki şüphelerim doğru çıkarsa diye b planımızı sağlama almak. Eğer her şey yolunda giderse buna gerek bile kalmayacak.
+Elimde PacificAir'ın yayın donanımına erişmemizi sağlayacak bir yazılım var. PacificAir'ın donanımı "Skylink" sunucusu olarak geçen bir bilgisayar tarafından yürütülmekte. Eğer ~/sys/ klasörüne gizli bir erişim yolu ekleyebilirsen geri kalanını ben halledebilirim.
+
+Eklemen gereken gizli giriş yolunu Drop Server'a ekledim. İsmi "sysinfo.bat". Bunu indirecek, Skylink'e sızacak ve sys dosyasına yükleyeceksin. Kalanını da ben halledeceğim. Ayrıca dosyayı çalıştırmana gerek olmayacak.
+Bıraktığın izlere dikkat etmeyi unutma. Özensiz davranma lüksün yok.
+
+Bol şans.
+</body>
+    <attachments>
+      <note title="Görev Kılavuzu">Drop Server'dan "sysinfo.bat" dosyasını indir ve PacificAir "Skylink" sunucusundaki ~/sys/ klasörüne yükle.</note>
+      
+      <link comp="dhsDrop" />
+      <link comp="dpa2_start" />
+      <link comp="dpa2_target" />
+      
+    </attachments>
+  </email>
+</mission>

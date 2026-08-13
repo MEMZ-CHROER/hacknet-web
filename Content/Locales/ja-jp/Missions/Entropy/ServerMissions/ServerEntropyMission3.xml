@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyServer01">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="クリーンアップ作戦">
+重要なクライアントが、以前雇っていた社員の個人コンピュータに存在するファイルの削除を依頼してきました。
+目標のファイル群に特殊性はなく、クライアントは個人で作られたコピーの削除だけを希望しています。
+なお、対象のコンピュータがパッシブトレースを備えている可能性は低いと思われます。
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>やり残しのクリーンアップ2 - 要編集</subject>
+    <body>
+エージェントさん、こんにちは。
+
+わが社で働いていた社員の1人が最近ライバル会社へ転職したのですが、その際、わが社の内部情報を大量に持ち出していきました。このままだと、わが社はたいへん困ったことになります。
+
+あなたには彼の個人コンピュータにアクセスしていただき、該当の情報データを削除してほしいのです。データは1つのアーカイブファイルにまとめられていて、バックアップもないはずです。
+
+どうかよろしくお願いいたします。
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

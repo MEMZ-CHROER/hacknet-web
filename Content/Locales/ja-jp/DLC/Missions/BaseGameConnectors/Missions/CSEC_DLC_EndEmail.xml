@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="CSEC_DLC_End" activeCheck="true">
+  <goals>
+    <!-- No goals and autocomplete here - this exists to clear player missions and also send them back to their faction -->
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="">
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Re:Kaguya Trials</subject>
+    <body>エージェントへ
+    
+Kaguya Trialsに参加してからかなりの時間、ログインがないようですが、何かこちらで調査すべきことはありますか？
+他のプロジェクトのために休暇をとるのでしたら、問題ありません。CSECでのランキングは保持されます。いつでも戻ってきて、うちのプロジェクトに参加してください。
+
+-CSECチーム
+    </body>
+    <attachments>
+      <link comp="mainHub" />
+    </attachments>
+  </email>
+</mission>

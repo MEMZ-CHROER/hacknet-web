@@ -1,0 +1,59 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="producerComp" ip="37.187.27.55" name="LackBook Pro de Jason" security="2" allowsDefaultBootModule="false" icon="laptop" type="2"> <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <adminPass pass="DANGER"/>
+  <!-- Security Stuff -->
+  <trace time="-1"/> <!-- Adds a trace timer - set to -1 to remove -->
+  <firewall level="6" solution="DANGER"/>
+  
+  <file path="sys" name="x-server.sys">#WHITE_THEME#</file>
+
+  <file path="home/scripts" name="DANGER.txt">
+    Pourquoi le mot danger est si bon ? Pas seulement danger, DANGER. Tout en majuscules. C'est objectivement le meilleur mot.
+    Meilleure zone ? La zone de DANGER. Meilleur deuxième prénom ? DANGER.
+    J'aimerais tant pouvoir utiliser ce mot dans toutes les situations.
+  </file>
+
+  <encryptedFile path="home/scripts" name="T2_Screenplay.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc">
+    Titanic 2 : La revanche de l'iceberg
+    -Un scénario-
+
+JACK DAWSON : Personne n'a encore pensé à ça - mais l'iceberg ne nous a pas seulement heurtés... NOUS L'AVONS HEURTÉ ! »
+ROSE DEWITT BUKATER : « Quoi ?! Est-ce que la folle opération scientifique qui t'a fait revivre t'a fait perdre la tête ? Je t'ai ramené car JE *T'AIME* ! »
+JACK DAWSON :  « Je sais mais nous sommes en danger ici. Cet iceberg avait une famille et ils veulent une revanche. Ils me l'ont dit quand j'étais sur le point de mourir...ils ne s'attendaient pas à... »-
+JACK DAWSON sort ses COOL LUNETTES DE SOLEIL et les met sur son nez
+JACK DAWSON : « Je reviendrai. » 
+
+Coupe sur la côte californienne
+
+Un iceberg apparaît dans l'eau, s'approchant de la ville à une vitesse fulgurante. 
+Des sirènes d'évacuation commencent à retentir, les gens sur la plage crient, pointant l'iceberg du doigt en courant pour sauver leur vie. 
+De plus en plus d'icebergs apparaissent dans l'eau à ses côtés, se hâtant aussi vers le rivage.
+
+ROSE DEWITT BUKATER : « À l'aide ! »
+JACK DAWSON : « Rose ! Je suis là ! Je ne t'abandonnerai jamais ! »
+
+L'iceberg en plomb est maintenant sur le rivage, glissant vers les deux protagonistes. Il sort un pistolet. 
+
+ROSE DEWITT BUKATER : « JAAAAACCCKKKKKKK ! »
+
+  </encryptedFile>
+
+  <encryptedFile path="home/scripts" name="GHL_ChapterList.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc">
+    Légende du héros galactique
+    -Table des matières-
+
+    CHAPITRE UN : Pénétrant la stratosphère 
+   CHAPITRE 2 : Impact profond
+    CHAPITRE 3 : Poussée inverse
+    CHAPITRE 4 : Jusqu'au cœur
+    CHAPITRE 5 : Forts tremblements
+    CHAPITRE 6 : Attaque sur le contre-amiral
+    CHAPITRE 7 : Les quatre butins de guerre 
+   CHAPITRE 8 :   L'ampleur de sa gratitude
+    CHAPITRE 9 : Regrets, peurs, désires
+    CHAPITRE 10 : Explosions dans les profondeurs
+    CHAPITRE 11 : Suivre un rythme strict 
+   Chapitre 12 : Doucement d'abord, puis avec rage
+  </encryptedFile>
+  
+</Computer>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="airline2_player">
+  <goals>
+    <goal type="fileupload" target="dHidden" file="sysinfo.bat" path="home" destTarget="dpa2_target" destPath="sys"/>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="#PLAYERNAME# - Take_Flight Глава Вторая">
+Установи бэкдор на защищенном сервере PacificAir
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Установи контроль над бортовым компьютером.</subject>
+    <!-- Translators notes - don't translate the folder name "sys"-->
+    <body>
+Установи бэкдор на защищенном сервере PacificAir
+----
+#PLAYERNAME#, твоя задача обеспечить нам план Б, в случае если мои подозрения насчет замыслов Coel окажутся верны. Если все будет хорошо, он нам не понадобится.
+Я подготовил программу, которая позволит нам перехватить радиовещательное оборудование PacificAir. Их оборудование управляется компьютером, который они называют сервером Skylink. Если ты установишь бэкдор на этом сервере в каталоге ~/sys/, я займусь остальным.
+
+Я залил бэкдор, который тебе нужно установить в их базовую папку, на дроп-сервер. Он называется "sysinfo.bat". Скачай его, найди, как проникнуть в Skylink и скопируй это в папку sys, а я займусь всем остальным. Активировать его не нужно.
+Не забывай об осторожности и не оставляй следов - сейчас не время халявить.
+
+Удачи.
+</body>
+    <attachments>
+      <note title="Руководство по выполнению задания">Скачай файл "sysinfo.bat" из базовой папки на дроп-сервере и залей это в папку ~/sys/ на сервере "Skylink" Pacific Air.</note>
+      
+      <link comp="dhsDrop" />
+      <link comp="dpa2_start" />
+      <link comp="dpa2_target" />
+      
+    </attachments>
+  </email>
+</mission>

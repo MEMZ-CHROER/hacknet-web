@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="ds3_fn" name="Laboratoire de Funkenstein" security="1" type="4" icon="DLCPC1" ip="21.32.43.54">
+
+  <proxy time="-1" />
+  <portsForCrack val="3" />
+  <ports>6881, 443, 22, 21</ports>
+  <portRemap>6881=69,22=1999</portRemap>
+  <trace time="200" />
+
+  <adminPass pass="redwood" />
+
+  <file path="home" name="d3f_ROOTKIT.zip">#BINARY#</file>
+  <file path="home" name="d3f_ROOTKIT_extras.zip.zip">#BINARY#</file>
+  <file path="home" name="d3f_ROOTKIT_REMINDER-DELETEMEt.txt">SI VOUS VOYEZ CECI, LES CHOSES SONT PIRES POUR VOUS À CET INSTANT QUE VOUS NE POUVEZ L'IMAGINER</file>
+
+
+  <file path="home/ableton" name="We_Are_Number_Onederwall.mp3">#BINARY#</file>
+  <file path="home/ableton/finished" name="Wonderwall_But_Every_Time_They_Say_Wonderwall_It_Gets_Faster.mp3">#BINARY#</file>
+  <file path="home/ableton" name="note.txt">
+Ces tracks doivent aller dans l'album compil
+
+
+home/ableton/samples/burp.mp3
+home/ableton/samples/pointclicker_click.mp3
+home/ableton/samples/pointclicker_win.mp3
+home/ableton/samples/pointclicker_lose.mp3
+home/ableton/samples/noticemesenpai.mp3
+home/ableton/samples/ohno.mp3
+home/ableton/samples/madonna.mp3
+home/ableton/samples/windowsXP_error_sound.mp3
+home/ableton/samples/windows98_login_sound.mp3
+  </file>
+  
+  
+  <file path="home/ableton" name="samples.zip">#BINARY#</file>
+  
+  
+  <file path="home/ableton" name="todo.txt">
+Mash-ups Wonderwall
+Mash-ups All-Star
+Mash-ups Wonderwall et All-Star
+
+Faire une sauvegarde des morceaux actuels avant de faire un post à deux balle au distributeur
+
+</file>
+  
+  
+  <Memory>
+    <Commands>
+      <Command>FTPZilla -connect 32.43.54.65
+...connexion en cours...
+...connecté.
+...téléchargement (1/12)...
+...téléchargement (2/12)...
+...téléchargement (3/12)...
+...téléchargement (4/12)...
+...téléchargement (5/12)...
+...téléchargement (6/12)...
+...téléchargement (7/12)...
+...téléchargement (8/12)...
+...téléchargement (9/12)...
+...téléchargement (10/12)...
+...téléchargement (11/12)...
+...téléchargement (12/12)...terminé !
+...empaquetage de 12 fichiers dans archive hells_maw.dec...terminé !
+...déconnecté.
+fermeture.</Command>
+    </Commands>
+  </Memory>
+
+
+</Computer>

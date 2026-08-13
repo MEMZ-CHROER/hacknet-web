@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="eosAdded1">
+  <goals>
+    <goal type="getString" target="warsix22"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Smash N' Grab">
+Клиент хочет чтобы ему отправили некоторые сведения с телефона коллеги
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Мочи и хватай</subject>
+    <body>
+Агент, 
+
+для этого контракта потребуется знакомство с  eOS-устройствами и их системой безопасности - клиент ищет определенную информацию, хранящуюся на телефон коллеги - пароль, если быть точным, хочет извлечь его. Они, по нашему запросу, предоставили IP компьютера с которым синхронизировано устройство.  
+
+ то связано с этой электронной почты. Он связан с этой электронной почтой. Мы ищем пароль, который они используют - если найдешь несколько - программа-агент будет проверять их всех.
+
+
+-Entropy Admins
+    </body>
+    <attachments>
+      <link comp="eosAdded1Comp"/>
+    </attachments>
+  </email>
+</mission>

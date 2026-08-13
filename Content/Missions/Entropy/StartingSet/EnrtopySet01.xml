@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDeletion" target="pointclicker" file="Mengsk.pcsav" path="PointClicker/Saves" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Point Clicker">
+A well meaning client needs some of his data from a game server deleted to regain productivity.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Point Clicker</subject>
+    <body>Greetings civilian,
+    
+I've been put in a dire predicament here, and unfortunately no one in my incompetent office of staff is capable of fixing this issue for me. This has forced my hand to resort to outside help, as distasteful as that is to me.
+Informants have assured me this line is secure, so I'll be brief; I have bested the game "PointClicker" and wish to prove my clear dominance over it again, yet there is not reset button. 
+I'll need you to enter their server and delete my save file so that I may crush it once more. My username is "Mengsk". Feel free to bask in the glory of my current achievement before resetting.
+
+Dismissed,
+-M
+    </body>
+    <attachments>
+      <link comp="pointclicker" />
+      <note title="Contact Handle">Contact Handle
+"Mengsk"</note>
+    </attachments>
+  </email>
+</mission>

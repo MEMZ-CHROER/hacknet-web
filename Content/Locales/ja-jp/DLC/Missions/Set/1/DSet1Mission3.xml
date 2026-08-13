@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ds1m3">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Trace Grindcraft server outages">Coelからの要請でDDOS攻撃の拠点らしきIPをいくつか掴みました。犯人を特定してください。
+  </posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

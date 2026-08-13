@@ -1,0 +1,84 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="EnTechRomulus" name="En_Romulus" security="5" ip="156.151.1.12">
+
+  <admin type="basic" resetPassword="false"/>
+
+  <adminPass pass="h7ggNKl2"/>
+  
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999"/>
+  <trace time="500"/>
+
+  <positionNear target="EnTechMainframe" position="4" total="6"/>
+
+  <file path="STORE/Contractors/Bit" name="Hacknet_Project_BitReport04.txt">
+No sé lo largo que quieres que sea este informe, así que seré bastante breve. 
+Los avances son buenos —mi sección está progresando según lo previsto— en el sentido de que funciona y está pasando la mayoría de tus casos de prueba (pero la n.º 86, ¿qué es? ¿Pista?). 
+He visto algunas cosas que requieren que la descentralice, las nuevas versiones se dirigirán a un servidor de &quot;núcleo&quot;, que analizará y enviará soluciones para algunos de estos casos más complicados y que será capaz de señalarlos para una segunda perspectiva. Creo que esto me dará más opciones de solventar cosas como los servidores de lista blanca. 
+He ejecutado esto y aquí también he subido mi prototipo de enlace de núcleo.
+
+ Me has dado mucha libertad, así que supongo que así está bien, pero dime si hay algún problema. 
+
+--Bit
+1
+  </file>
+  <encryptedFile path="STORE/Contractors/Bit" name="hn_repo_archive.dec" ip="156.151.59.35" header="EnTech(tm) Repository Backup" pass="ax229msjA">#BINARY#</encryptedFile>
+  <encryptedFile path="STORE/Contractors/Bit" name="hn_PH_LinkPrototype.dec" ip="23.236.62.147" header="Porthack heart link prototype" pass="ax229msjA">#BINARY#</encryptedFile>
+
+  <file path="STORE/Contractors/Deonyx" name="Hacknet_Project_DeonyxReport4.txt">
+Informe de actualización:
+---------------
+
+Buenas noticias: todo marcha con bastante antelación sobre el plazo. Resulta que puedo reciclar un montón del código fuente del proyecto WINE para unix y usarlo para muchos de los problemas más complicados. 
+
+Los programas de unix estándar están funcionando bien, la compatibilidad no ha sido menos problema de lo que pensaba, dado nuestro acceso kernel, así que puedo falsear algunas cosas y escribir contenedores para el resto y todo encaja bastante bien.  No veo que estos sean un problema. 
+Otros SO han sido siempre el problema y con nuestro marco de trabajo no vamos a ser capaces de ejecutar literalmente todo, pero con esta solución WINE, ya he sido capaz de conseguir algo que se ejecuta en la mayoría de las aplicaciones de terminal - .NET y C# van perfectamente bien (gracias proyecto mono), C++ funciona dependiendo de algunas bibliotecas y elecciones de compilador. 
+C es el que me está dando más lata, pero como sé el tipo de resultado que espero (un montón de acceso a la red, ¿verdad?), el resultado es aceptable. 
+
+En resumen, todo muy prometedor, deberíamos tener un ejecutable universal funcionado pronto. Y con &quot;deberíamos&quot; quiero decir &quot;debería&quot;. Lo tendré funcionando pronto. 
+
+_Deonyx 
+  </file>
+  <encryptedFile path="STORE/Contractors/Deonyx" name="Hacknet_Codelink_v1.dec" ip="xxx.xxx.xxx.xxx" header="deonyx server has almost all programs on it for testing" pass="84833mmn1">#BINARY#</encryptedFile>
+
+  <file path="STORE/Contractors/teja" name="04Report_Hacknet_Project_teja.txt">
+Informe 04 del proyecto Hacknet:
+
+--La tarea adicional de esta semana se ha completado.  
+SecurityTracer.exe está subido aquí y debería empaquetarse con todas las nuevas versiones de Hacknet como medida temporal mientras trabajamos en el proyecto completo. 
+Es una solución de parche, pero debería activarse automáticamente, deshabilitar la copia del usuario y enviar su ubicación (IP y geográfica) a tus servidores centrales después de que la copia se haya estado ejecutando. 
+
+--Los planes para un SecurityTracer integrado invisible más profundo están en marcha. 
+El progreso se ha retrasado para poder completar el TraceTracker a tiempo para el siguiente hito. 
+
+--Trace Tracker v0.93 lanzado. 
+Candidato para la versión final. Aprobando con éxito todas las 92 pruebas, y aprobando 22/25 de mis propias pruebas. 
+Esto rastrea con éxito y calcula los pingbacks y tiempos de rastreo de todos los software de rastreo automático conocidos, y proporciona un cálculo muy preciso (relativamente hablando) del tiempo que puede tardar antes de que se pueda usar una secuencia de emergencia automática. 
+
+Quiero aprovechar esta oportunidad para reiterar el poder de esta herramienta tecnológica. Incluso sin actualizaciones, se trata de una herramienta muy útil, y recomiendo una moderación estricta con las herramientas que he proporcionado. Examinaré las versiones para asegurarme de esto. 
+
+Gracias, 
+teja
+  </file>
+  <encryptedFile path="STORE/Contractors/teja" name="HacknetSecurityTracer.dec" extension=".exe" ip="xxx.xxx.xxx.xxx" header="teja server has loads fo copies of security tracer" pass="84833mmn1">#SECURITYTRACER_PROGRAM#</encryptedFile>
+
+
+  <file path="STORE/Contractors" name="IMPORTANT_ContractorUploadGuide.doc">Aquí están las últimas versiones binarias de cada uno de los trabajos de los contratistas que se deben guardar, junto con sus informes.
+    
+ATENCIÓN - NO RENOMBRAR ESTAS CARPETAS
+  
+Los acompañan los scripts de la versión para compilar versiones completas e informes.
+  </file>
+  
+  <file path="STORE/Contractors" name="Contractor_Server.doc">Este repositorio almacena solamente ediciones listas para la implementación del trabajo de los contratistas (y está destinado para el código interno de EnTech listo para la implementación también). 
+Para obtener versiones más actualizadas y sin probar, busque en el servidor de retransmisión de contratistas: 
+
+156.151.59.35
+
+---------------------------------
+
+EDITO: Puesto que los emails sobre esto *no se detienen*, la contraseña para ver los archivos subidos es &quot;ax889msjA&quot; - al igual que en la copia impresa que recibió la primera vez que obtuvo acceso.
+
+  </file>
+
+</Computer>

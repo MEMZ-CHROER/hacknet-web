@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="modifyDeathRowRecord" name="John Boorman">I'm ready, Warden</goal>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Füge eine Todestrakt-Akte für ein Familienmitglied hinzu">
+Ein Familienmitglied einer hingerichteten Person ist mit der Bitte an uns herangetreten, eine Todestrakt-Akte auf die offizielle Liste zu setzen.
+Es scheint, als handelte es sich um ein zwielichtes Verfahren (sie haben stark angedeutet, dass er zu Unrecht verurteilt wurde) und dass die fehlende Akte Teil der Bemühungen ist, dies zu verschleiern.
+Es hat jedenfalls dazu geführt, dass die Akte nicht auf der offiziellen Liste erscheint. In ihren Worten, "Wir möchten, dass wenigstens seine letzten Worte erhalten bleiben."
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Justizirrtum</subject>
+    <body>
+Wir hätten gerne, dass eine Todestraktakte erstellt wird. Die Familie des Verstorbenen hat gebeten, dass der korrekte Eintrag zur Datenbank mit den folgenden Details hinzugefügt wird:
+
+------------------------------------
+Vorname: "John"
+
+Nachname: "Boorman"
+
+Letzte Worte: "I'm ready, Warden"
+------------------------------------
+
+Die anderen Details sollten keine Rolle spielen, sollten sich aber an die anderen Akten anlehnen. Um dies zu erleichtern, wurde eine Aktenvorlage auf den CSEC Asset-Server hochgeladen (In "/home/Templates").
+Wir empfehlen, diese zu kopieren, lokal zu bearbeiten und anschließend hochzuladen. Denke daran, die Datei richtig zu benennen ("mv" Befehl), sodass sie den Namen und eine beliebige Aktennummer enthält.
+
+Eine Nachricht von dem Auftraggeber:
+"Vielen Dank für Ihre Hilfe. Alles, was mit dem Prozess zu tun hatte, war von Anfang an zwielichtig. Wir glauben noch immer fest daran, dass er unschuldig war und tun unser Bestes, auch jetzt noch für diese Anerkennung zu kämpfen.
+Dennoch ist es eine Beleidigung an sein Andenken, nicht in der Datenbank zu sein. Wir wollen, dass wenigstens seine letzten Worte erhalten bleiben."
+    </body>
+    <attachments>
+      <link comp="mainHubAssets" />
+      <link comp="deathRow" />
+      <note title="Details">Vorname: "John"
+Nachname: "Boorman"
+Letzte Worte: "I'm ready, Warden"</note>
+    </attachments>
+  </email>
+</mission>

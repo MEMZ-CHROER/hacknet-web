@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="GenMission">
+  <generationKeys File="#LC_CLIENT#_delivery.zip" Path="home"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Sale for #CLIENT# Gone Awry">
+Наш клиент недавно приобрел ценную часть программного обеспечения, и отказывается платить. Удали то, чем они сейчас не по праву владеют.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - Политика возврата</subject>
+    <body>
+Привет,
+
+ агент, недавно компания захотела приобрести  дорогостоящий программный пакет у #CLIENT# нашей компании, но, кажется, что у них нет намерения заплатить. У них талантливое юридическое сопровождение, поэтому мы не можем бороться традиционными методами. 
+И вот, тут, вступаешь ты. Мы бы хотели, чтобы ты зашел в их систему и удалил программное обеспечение, которое они незаконно от нас получили. Мы перемешаем наше программное обеспечение в формате архива, как правило,  помеченное как #FILE#. 
+
+ Спасибо тебе за помощь в этом нелегком и неприятном деле. 
+
+- #CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,10 @@
+Bu sunucuya açık dosya yükleyebilmeniz için kimliğiniz doğrulandı.
+Dosya yüklemek için "upload [YEREL_DOSYAADI]" komutunu kullanın.
+
+
+HATIRLATMA: [scp] komutu ile indirilen dosyalar ~/home
+(yürütülebilirler ~/bin dizinine) dizinine indirilir.
+Yüklenenlerin dizinlerinin ise şu şekilde belirtilmesi gerekir:
+home/[DOSYAADI]
+Ayrıca yüklenilecek dosyaların adları Tab tuşuna
+basılarak otomatik olarak tamamlanılabilir.

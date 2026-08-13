@@ -1,0 +1,135 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hubCrossroads" name="CSEC Crossroads Server" security="0">
+
+  <positionNear target="mainHub" position="1" total="6" />
+
+  <file path="home" name="REQUEST.zip">#BINARY##BINARY#</file>
+  <file path="home" name="CT2.zip">#BINARY##BINARY#</file>
+
+  <encryptedFile path="home" name="encrypt_source.dec" ip="101.0.89.154" header="Secured Source Code" extension=".cs">
+    
+        private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data[i] * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + " ");
+            }
+            return ret.ToString().Trim();
+        }
+        
+        ///summary
+        /// Returns an array containing
+        /// [0] Header Message
+        /// [1] IP Link
+        /// [2] Message Data
+        /// [3] File extension if provided, else null
+        /// [4] "1" is password is valid, "0" if not
+        ///summary
+        public static string[] DecryptString(string data, string pass = "")
+        {
+            string[] ret = new string[5];
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string[] split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+            string[] headersSplit = split[0].Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+
+            string headerMsg = Decrypt(headersSplit[1], passcode);
+            string ipLink = Decrypt(headersSplit[2], passcode);
+            string check = Decrypt(headersSplit[3], passcode);
+            string fileExtension = null;
+            if (headersSplit.Length > 4) fileExtension = Decrypt(headersSplit[4], passcode);
+            string message;
+            string passValid = "1";
+            if (check == "ENCODED") {
+                //Password was correct!
+                message = Decrypt(split[1], passcode);
+            }
+            else {
+                //invalid password
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+                passValid = "0";
+            }
+            ret[0] = headerMsg;
+            ret[1] = ipLink;
+            ret[2] = message;
+            ret[3] = fileExtension;
+            ret[4] = passValid;
+            return ret;
+        }
+  </encryptedFile>
+
+  <encryptedFile path="home" name="CSEC_encode_1.dec" ip="168.61.82.245" header="WinC Firmware Specifications" extension=".pdf" pass="beepbeep">
+    WinCEファームウェアドライバ開発ガイド
+    ------------------------------------------------------
+    これは、WinCEオペレーティングシステム上で動作するドライバやファームウェアの開発のためのガイドです。車からメディアプレイヤーまで、多くの電子機器がこのOSを利用しています。ドライバやファームウェアを開発するときは、さまざまなデバイス上で使われる可能性を考慮すること。
+    ------------------------------------------------------
+
+    多くのWinCE機器のドライバはストリームインターフェースを採用しています。ストリームインターフェースの核となるエントリーポートは、XXX_Open（デバイスマネージャ）、XXX_Close（デバイスマネージャ）、XXX_Read (デバイスマネージャ)、そしてXXX_Write（デバイスマネージャ）です。詳しい情報は、「ストリームインターフェースドライバ」を参照してください。
+    ネットワーク用のアダプタ、ディスプレイ用のアダプタ、マウス、キーボードなど、特定の用途を持った機器はストリームインターフェースではなく、機器の機能に対応したインターフェースを利用します。
+    デバイスドライバが使用するインターフェースがなんであろうと、場合によっては割り込みサービスルーチン（ISR）の利用が必要です。ISRに関する詳しい情報は「割り込み」を参照してください。
+    プロセスごとにそれぞれ異なるドライバが必要です。以下の表では、ドライバ毎に必要なプロセスをまとめてあります。
+
+    ドライバのコードを挿入するには、以下のパスを使用してください。
+
+    %_WINCEROOT%\Platform\%_TGTPLAT%
+    ハードウェアのプラットフォームに依存するコードが入っています。ディレクトリの主な中身はOAL、構成ファイル、BSPドライバです。%_WINCEROOT%\Platform\%_TGTPLAT%\Driversにあるハードウェアのプラットフォームに依存するドライバは編集しないでください。
+    %_WINCEROOT%\Platform\Common\Src\SOC
+    高集積度のマイクロプロセッサやマイクロプロセッサ用コンパニオンチップ、それに標準搭載された周辺機器用のSOCドライバが入っています。時計やタイマー用のマイクロプロセッサ固有OALドライバや、デバッグ用のイーサネットカードなどは、SOCドライバの一種です。同じマイクロプロセッサを利用する基本開発キット（SDBｓ）は、同じ種類のSOCドライバを使用することができます。
+    %_WINCEROOT%\Public\Common\OAK\Drivers
+    プラグインカードやプリント基盤に直接接続される、標準搭載でない周辺機器のドライバが入っています。汎用ドライバは、ハードウェアのドライバを構成するためにプラットフォーム依存コードと非プラットフォーム依存コードが関連付けされています。汎用ドライバは、特定のハードウェアのプラットフォームやマイクロプロセッサに関連付けされていません。どのSDCも汎用ドライバを使うことができます。
+  </encryptedFile>
+
+  <file path="home" name="FOF_Screenplay.doc">
+    クソ食らえ
+    -脚本-
+
+    開幕: 背景には静かなピアノ曲が流れている。ゴルフバギーのダッシュボードに取り付けられた時計が見える。朝の7:22だ。
+    みすぼらしい格好をした男が、盗み出したであろうワイン箱から一杯がぶ飲みする。不作法などと言うなかれ。この方が効率的に飲めるし、その上おいしいのだ。みすぼらしいと言ったのは、もちろん彼がスピード社の水着以外何も身につけていないという意味だ。体のラインがくっきり見えている。
+
+    バギーの最高時速である、時速40キロ（後ろにターボチャージャーを取り付けてある）でカフェを通り過ぎながら、彼はビジネスマンが飲んでいたコーヒーをひっくり返す。
+
+    障害者用の駐車スペース2つを跨ぐように、キキーっと唸りをあげながら彼はバギーを駐車した。バギーから降りてきた彼は、箱の中に残っていたワインを惜しげもなく道路わきに捨てた。
+    音楽は現在、最高潮に達している。クライマックスでは、ホルンやその他楽器が鳴り響く。我らがヒーローは、近くのゴミ箱に向かって颯爽と歩き、その上に登った。一切の躊躇をすることなく、彼は自身のパンツを脱ぎ去り、長く雄雄しい「それ」を取り出した。
+
+    老婦人の恐怖に満ちた顔を映す。ここでタイトルを表示。
+  </file>
+
+  <encryptedFile path="home" name="T2_Screenplay.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" pass="DANGER">
+    タイタニック2: 氷山の逆襲
+    -脚本-
+
+JACK DAWSON: "誰も考えてみなかったのか――氷山が俺たちにぶつかったんじゃない・・・俺たちが氷山にぶつかったんだ！"
+ROSE DEWITT BUKATER: "何言ってるの？！あのよくわからない手術のせいで頭がいかれたのかしら？私があなたを連れ戻したのは、あなたを愛してるからなのよ！"
+JACK DAWSON: "わかってる、でもここにいては危険なんだ。氷山には家族がいた。やつらは復讐に来るだろう。俺が死の淵に居たとき、やつらは言っていた・・・。やつらも予期していなかったんだ。まさか俺が・・・。"
+-JACK DAWSONはかっこいいサングラスを手に取り、それをかける
+JACK DAWSON: "戻ってくるとはな。"
+
+カリフォルニアの海岸線を映し出す
+
+氷山が水の上に顔を出し、驚くべき速さで町に向かっている。避難警報のサイレンが鳴り始め、浜辺にいた人々は悲鳴をあげ、氷山を指差し、命からがら走り出す。
+さらに多くの氷山が海上へと姿を現し、共に浜辺へと向かう。
+
+ROSE DEWITT BUKATER: "助けて！"
+JACK DAWSON: "Rose!俺はここだ！お前を1人にさせるもんか！"
+
+先頭の氷山はすでに浜辺へと到着し、2人の主人公の下へと滑走してきた。氷山は銃を取り出した。
+
+ROSE DEWITT BUKATER: "JAAAAACCCKKKKKKK!"
+
+  </encryptedFile>
+  
+  <encryptedFile path="home" name="C_EXE_contact.dec" ip="74.125.237.119" header="Encrypted Messaging Systems inc" extension=".txt" pass="quinnoq">
+
+    目標は「dlocke」という名のJMailアカウントを利用している。
+    
+    長い間、この時を待ち望んでたのはわかってる。でも、焦るんじゃない。これは千載一遇のチャンスだ。落ち着いて、確実にいこう。
+    作戦に変更があればまた連絡する。
+
+  </encryptedFile>
+</Computer>

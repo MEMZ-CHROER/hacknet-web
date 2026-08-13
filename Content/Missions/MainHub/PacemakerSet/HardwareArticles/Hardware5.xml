@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle05">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0015 - Pacemaker v2.44 Firmware and Patching">
+This post details the security functionality of the v2.44 pacemaker. For general operations consult the hardcopy documentation, or request another copy from support@kellisBio.com
+---------------------------------------------
+
+The firmware for the v2.44 chip was written by Eidolon Soft. Version control, queries and updates are handled through their central server, located at:
+
+111.105.22.1
+
+As only builds singed by their internal services, using our key will run on the chips, no other company can producing working code for the chips without having them compile it.
+Issues with the remote monitor software and interface of external access to the chips should be directed at them. Their contact email for such requests and queries is support@eidolonsoft.com
+
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

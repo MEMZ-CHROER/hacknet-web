@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="ds4_laptop" name="Asdis Dagrunsdottir's Laptop" ip="198.150.137.83" security="1" type="empty" icon="DLCLaptop">
+
+  <proxy time="-1" />
+  <portsForCrack val="1" />
+  <ports>80, 6881</ports>
+  <portRemap>443=43</portRemap>
+  <trace time="80" />
+
+  <file path="home" name="data_policy.txt">
+Wir wollen noch einmal daran erinnern, dass *alle* empfindlichen Daten auf der LegiCloud aufbewahrt werden müssen – OHNE AUSNAHME. Die Parteispitze hat das unmissverständlich klargemacht.
+
+Um noch deutlicher zu werden: NIEMALS Dateien lokal speichern. Unsere Partnerregierungen haben von Hackern berichtet, die eine Mischung aus alten und neuen Techniken anwenden – Spear-Phishing, Brute-Force-Passwort-Cracking und Live-Memory-Dumping, um nur einige zu nennen – der Großteil aller Leaks entsteht aber durch Fahrlässigkeit und Fehler auf Seiten des Benutzers.
+
+– IT</file>
+
+    <Memory>
+    <Data>
+      <Block>
+dagrunsdottir (198.150.137.83) verbunden.
+Manananggal (244.188.232.231) verbunden.
+Chat ist sicher.
+dagrunsdottir: hi!
+Manananggal: Hallo
+dagrunsdottir: danke, dass Sie sich melden.
+dagrunsdottir: mein Büro hat mir Ihre Daten geschickt.
+dagrunsdottir: Wie kann ich Ihnen weiterhelfen?
+Manananggal: es ist ganz einfach
+Manananggal: Ich habe eine Kopie des neuen Gesetzesentwurf
+Manananggal: Ich hörte, dass die ziemlich kontrovers sein wird, ja?
+dagrunsdottir: was?
+Manananggal: Deswegen schreibe ich derzeit einen Artikel darüber.
+Manananggal: Ich wollte nur um etwas Kontext zum dritten Teil fragen.
+Manananggal: Hallo?
+dagrunsdottir: Entschuldigung - versuchen Sie gerade, mich zu erpressen?
+Manananggal: Das ist etwas lieblos ausgedrückt. Ich versuche nur, meinen Job zu machen
+Manananggal: Der dritte Abschnitt ist noch nicht abgeschlossen, richtig?
+dagrunsdottir: Ich bin nicht daran interessiert, darüber zu sprechen.
+Manananggal: Schätze, dann kann ich wohl einfach das ganze Dokument veröffentlichen
+dagrunsdottir: bitte nicht, ich würde meinen Sitz verlieren
+Manananggal: Dann lassen Sie uns plaudern
+Manananggal: Wir treffen uns zwei Straßen vom Parlament entfernt. Dort an der Ecke gibt es ein Café.
+dagrunsdottir: Ich kenne das Café
+dagrunsdottir: wenn Sie aber versuchen sollten, mich zu erpressen, dann werde ich das melden und *Sie* wandern in den Knast
+Manananggal: Verstanden :)
+Manananggal hat die Verbindung getrennt.
+dagrunsdottir hat die Verbindung getrennt.</Block>
+    </Data>
+  </Memory>
+
+  
+</Computer>

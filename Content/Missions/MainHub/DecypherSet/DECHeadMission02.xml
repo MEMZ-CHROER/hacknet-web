@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="beepbeep"/>
+  </goals>
+  <missionEnd val="1">addFlags:dechead</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Track an Encrypted File">
+We think we've located a way to track down where DEC encrypted files were encoded - we have a password locked file and want it opened. There should be enough leads for you to go on.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>RE: Through the Spyglass</subject>
+    <body>
+Neat, got something good?
+
+Alright, the file we're looking at it up on the crossroads, "CSEC_encode_1.dec" - we renamed it so people wouldn't go messing with it. It was originally named "WinCE_FirmwareSpecs.dec" when we got it, if that helps.
+Anyway, read the headers of that, find out where it was encoded and go track that password down! Reply to this with the password in the email and we'll take care of the rest.
+
+Thanks for the help,
+-CT Team
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+    </attachments>
+  </email>
+</mission>

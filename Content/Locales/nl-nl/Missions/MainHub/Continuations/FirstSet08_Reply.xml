@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet08_p2" activeCheck="true">
+  <goals>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Onderzoek een medisch dossier">
+    Pak een kopie van iemands medisch dossier om een menigsverschil te beslechten.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>RE: Staf van Asclepius</subject>
+    <body>
+I...
+Wat? Echt? Je hebt dit echt van d- Het is echt toch?
+Ik bedoel, Ik ben....
+
+Wow.
+
+Ja ik weet.. gewoon niet meer wat te geloven. Wow.
+
+Uh, ja, bedankt voor de hulp. Ik ga mijn leven herevalueren.
+-G
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

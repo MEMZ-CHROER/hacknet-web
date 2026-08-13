@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="C_EXE_contact.dec" path="home" destTarget="hubPubDrop" destPath="Drop/Uploads" decrypt="true" decryptPass="quinnoq"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Decrypt a secure transmission" reqs="decypher">
+A secure file was sent to a CSEC member, who has no means of decrypting it. They have the needed passwords for the job.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Two ships in the night</subject>
+    <body>
+Hey,
+
+A friend sent over some details of a job we're on, but threw it under encryption, and I just don't have a means of getting it open.
+It's up on the crossroads as "C_EXE_contact.dec", can you decrypt it and upload it to the drop server?
+
+The password should be "quinnoq".
+
+Thanks!
+
+-CSEC Dan
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <link comp="hubPubDrop" />
+      <note title="Contract Details">Download C_EXE_contact.dec
+      
+Decrypt it
+
+Upload resulting file to CSEC public drop server.</note>
+    </attachments>
+  </email>
+</mission>

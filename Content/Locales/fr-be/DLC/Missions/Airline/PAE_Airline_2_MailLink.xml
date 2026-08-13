@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpae_airline_mailLink" name="Kim Burnaby's Office Computer" security="3" ip="141.8.224.143" type="4">
+
+  <!-- Misc airline employee. Close friend of the administrator of the bookings server.
+  This contains the login details of the owner's mail account for the airline, which is important for
+  player progression.
+  The details can be on an eOS device, if that's signposted here, or just sitting in a file.
+  Adding that extra layer of complexity is subject to testing and seeing how players perform on this network.-->
+
+  <proxy time="-1" />
+  <firewall level="-1"/>
+  <portsForCrack val="2" />
+  <ports>22, 21, 443, 6881, 80, 25</ports>
+
+  <file path="home/ePadBackup" name="MAIL.txt">eOS_MAILSYS_ACCOUNTDUMP
+    c704d41a-f5ae-411d-916f-6c484a34ef0f
+    compte pacificair :
+    U : kburnaby@pacificair.com
+    M : noneofyourbusiness
+  </file>
+
+  <file path="home/ePadBackup" name="NOTES.txt">
+Recommandations :
+Goats in the Veldt (11/10)
+Le paradis des jours passés (Première moitié excellente, SKIPPEZ L'ÉPISODE 13 (???))
+Quelque chose qui parle de frapper des trucs mais juste une fois ? Faut que je retrouve le titre.
+  </file>
+
+  <file path="home" name="ePadUserGuide.pdf">#BINARY#</file>
+
+  <file path="home" name="ePadWarrantyGuide.pdf">#BINARY#</file>
+
+  <file path="home" name="ePadSupportTicket.txt">J'ai fait un backup de tous mes fichiers sur ce foutu ePad, mais il fonctionne toujours pas ! J'ai bien tenté ton fameux hard reset de la config, mais j'ai encore des problèmes pour installer mon compte. 
+Et si c'était matériel ? Jettes-y un coup d'œil, s'il te plaît.</file>
+
+  <positionNear target="dpa_whitelist" position="20" total="360" extraDistance="0"/>
+
+  <eosDevice name="Kim's ePad XL" id="dpae_airline_mailLink_eos" icon="tablet" empty="true">
+    <note>NOTE MISE À JOUR SYSTÈME : 
+Version du système d'exploitation corrompue, veuillez consulter le support technique !</note>
+  </eosDevice>
+
+</Computer>

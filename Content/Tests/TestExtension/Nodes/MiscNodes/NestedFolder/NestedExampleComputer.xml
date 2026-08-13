@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nestedTestPC" 
+          name="Nested Adventure Example PC" 
+          security="0"
+          allowsDefaultBootModule="false"
+          icon="kellis" 
+          type="2" > <!-- 1=  corporate, 2 = Home, 3 = server 4 = empty -->
+  <!-- icon:  not including this uses the default set by security level, alt options are "chip" and "laptop" -->
+  
+  
+</Computer>

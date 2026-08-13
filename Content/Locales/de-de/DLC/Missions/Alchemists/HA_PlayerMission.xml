@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dlcDemoIntro1">
+  <goals>
+    <goal type="filedeletion" target="dDemointro1" file="x-server.sys" path="sys"/>
+  </goals>
+  <missionStart val="0" suppress="true">loadConditionalActions:DLC/ActionScripts/HermeticAlchemistsActions.xml</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="Hermetische Alchemisten">
+  Ein obskurer Zweig der Philosophie, die „Hermetischen Alchemisten“, verfügen über ein auffallend umfangreiches Netzwerk. Nachforschungen haben ergeben, dass ihr Admin ein Tool entwickelt hat, hinter dem wir schon einige Zeit lang her sind.  
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Hermetische Alchemisten</subject>
+    <body>
+Anscheinend ist dieser Admin eine Art Wunderkind auf dem Gebiet der Trace-Technologie, aber völlig in diese Alchemie-Sache verstrickt. Dieses Netzwerk ist eine seltsame Art Festung, aber wir müssen wirklich den PC dieses Admin finden, um an diese Software zu kommen.
+
+Das ist ein Teamprojekt - wenn du etwas findest, das dem Team weiterhilft, stelle es in den Chat.
+Viel Glück.
+    </body>
+    <attachments>
+      <link comp="dhaEntry" />
+      <note title="Hermetische Alchemisten">Untersuche das Netzwerk und finde den Heimrechner des Administrators.
+Lade von dort die neue Trace-Tracking- oder -Präventionssoftware herunter und auf den Dropserver hoch.
+</note>
+    </attachments>
+  </email>
+</mission>

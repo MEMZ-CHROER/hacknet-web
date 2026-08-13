@@ -1,0 +1,29 @@
+<ConditionalActions>
+  
+  <OnConnect target="dPets_Home" needsMissionComplete="false">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="2.0">На этот раз мы с тобой вместе #PLAYERNAME# !</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="6.0">Кто первый? :P</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="9.2">Твоя работа намного интереснее моей ._.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="14.0">Ага, и тебе удачи с твоим таинственным секретным заданием, Coel -_-</AddIRCMessage>
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="84.0">Блять, каждый раз когда я пытаюсь автозаполнить имя моего взломщика FTP, автоматом вбивается старый.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="87.0">Так раздражает.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="94.0">Эмм, ты же знаешь что ты можешь просто...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="98.0">удалить старый...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="103.0">верно?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="107.0">или переименовать его с помощью mv?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="112.0">а, эмм</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="119.0">помнишь что там было? Про яхту?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="123.0">И про океан стыда?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="127.0">Да?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="129.0">тоже самое</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="133.0">ххахаха</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="170.0">@channel Новая информация для вас как только вы пробьетесь в сервак</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="176.0">Похоже, что их база данных не такая навороченная, как я думал - они хранят записи пользователей в отдельных файлах, что значительно упрощает нам жизнь.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="180.0">Как только у тебя будет файл нужного пользователя используй стандартную команду "replace", чтобы изменить значения на нужные нам.</AddIRCMessage>
+
+  </OnConnect>
+  
+</ConditionalActions>

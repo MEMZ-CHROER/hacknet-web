@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission03">
+  <goals>
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS.rar" path="bin" />
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Data.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Content.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS.rar" path="bin" />
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Data.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Content.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS.rar_backup" path="bin" />
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Data.xnb_backup" path="bin" />
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Content.xnb_backup" path="bin" />
+  </goals>
+  <missionStart val="0">entropyEndMissionSetup</missionStart>
+  <nextMission>AlphaCreditsMission.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Eine letzte Bitte</subject>
+    <body>
+#PLAYERNAME#, 
+
+Das ist die letzte Sache, um die Entropy dich direkt bitten wird - wenn du Erfolg hast oder scheiterst, es wird danach zu riskant sein, weiterhin Kontakt mit dir zu halten.
+
+Bei dieser Mission geht es um totale Ausrottung. Ein großes Unternehmen, welches wir seit einiger Zeit im Auge haben, entwickelt ein neues Betriebssystem unter dem Namen "HacknetOS" - basierend auf der Arbeit des kürzlich verstorbenen Hackers "Bit".
+Es ist eine große Bedrohung für die Sicherheit der gesammten digitalen Welt - die Tools, die dieses System bietet, können auch absoluten Laien nach kurzem Training das Hacken ermöglichen.
+
+Diese Bedrohung muss in Gänze beseitigt werden.
+Du hast dabei die *volle* Unterstützung von Entropy, weswegen wir dir für diese Mission zwei mächtige (und teure) Tools auf den Entropy Asset-Server hochgeladen haben. Du wirst sie brauchen. Ich empfehle, dass du sie dir sofort besorgst.
+
+Der für diese Mission benötigte Link zum internen Hauptserver dieses Unternehmens ist angefügt. Sie werden ohne Zweifel mehrere Backups des OS angelegt haben; Du wirst also deren Netzwerk scannen müssen, um sicher gehen zu können, dass du auch wirklich alle Dateien ausgelöscht hast.
+
+Wir wünschen dir viel Glück. Enttäusch uns nicht.
+-Tex
+    </body>
+    <attachments>
+      <link comp="corp0#IS" />
+    </attachments>
+  </email>
+</mission>

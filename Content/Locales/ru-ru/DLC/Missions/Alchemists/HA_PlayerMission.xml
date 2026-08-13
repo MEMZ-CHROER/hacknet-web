@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dlcDemoIntro1">
+  <goals>
+    <goal type="filedeletion" target="dDemointro1" file="x-server.sys" path="sys"/>
+  </goals>
+  <missionStart val="0" suppress="true">loadConditionalActions:DLC/ActionScripts/HermeticAlchemistsActions.xml</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="Алхимики-отшельники">
+  Малоизвестная ветвь философии "Алхимики-отшельники", как ни странно, сумела создать внушительную сеть. Исследования свидетельствуют, что их администратор работал над утилитой, которую мы давно хотели заполучить.  
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Алхимики-отшельники</subject>
+    <body>
+Похоже, этот админ настоящий спец в технологиях слежения, но он также полностью поглощен своей алхимией. Их сеть представляет собой что-то типа крепости, но нам очень нужно отследить домашний компьютер этого админа и получить его ПО.
+
+Это командный проект - если вы наткнетесь на что-нибудь полезное для команды, кидайте это в чат.
+Удачи.
+    </body>
+    <attachments>
+      <link comp="dhaEntry" />
+      <note title="Контракт Алхимиков-отшельников">Исследуй сеть и отследи домашний компьютер администратора.
+Оттуда загрузи новое ПО для отслеживания и предотвращения отслеживания, и залей его на дроп-сервер.
+</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dFollowsMission">
+  <goals>
+    <goal type="clearfolder" target="ds3_dest" path="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="報い">何者かがKaguyaの弱みを握っていると主張しています。投稿者を追跡し、内容を確認し、必要なら黙らせてください。この船の行く手を阻むものは報いを。</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>報い</subject>
+    <body>
+何者かがKaguyaの弱みを握っていると主張しています。投稿者を追跡し、内容を確認し、必要なら黙らせてください。この船の行く手を阻むものは報いを。
+----
+いくつかのハッカーフォーラムで、匿名ユーザーが私のスキャンダル情報を握っていると主張しています。私はそのコミュニティーで悪評高い存在ではないので、今のところ大事にはなっていません。むしろ投稿者は当該のIRCチャンネルで笑いものにされています。しかし、その主張のいくつかが妙に具体的なのが気がかりです。
+
+知人が投稿者のIPを送ってくれたのですが、私は別件で手が離せないので、チームのミッションとして扱うことにしました。
+
+内容を確認し、それを裏付ける証拠を投稿者が持っていたら、ファイルを全削除してください。私たちの邪魔はできないと思い知らせるのです。この機会にチームの力を示さなければなりません。また、暗号化キーを見つけたらIRCに投げてください。後ほどチェックします。
+
+-Kaguya</body>
+    <attachments>
+      <link comp="ds3_entry" />
+      <note title="Mission Guidelines">匿名投稿者の発言を読む。証拠が「本物」と思われる場合もしくはDreadnoughtという名前に言及している場合は、全ファイルを削除する。</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="entropyAdvFail01" name="KyonBox" security="3" ip="176.194.38.111">
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <account username="admin" password="haruhi" />
+  <proxy time="2" />
+  <trace time="70" />
+  <file path="home/loot" name="Macrosoft_dox.txt">Macrosoft Depolama Sunucusu:
+  168.61.82.246
+  </file>
+  <file path="home/docs" name="jessie.txt">
+[lilsebastian] Peki gelmek için izin alabilecek misin?
+[kkswatch] Sanmıyorum. Annem evden çıkmama pek yanaşmıyor.
+[lilsebastian] Sana McDonalds'dan yemek ısmarlarım bak.
+[kkswatch] Harbi mi?
+[lilsebastian] Ne istersen ısmarlarım.
+[kkswatch] Sonra ne yapacağız peki?
+[lilsebastian] Şey... ben bir yerlere uzanırız diye düşünmüştüm.
+[lilsebastian] Yıldızları falan izleriz.
+[kkswatch] Ciddi mi? Bana sanki randevuya çıkıyormuşuz gibi geldi.
+[lilsebastian] Senin için sorun mu olur?
+[kkswatch] 25. sokağın arka tarafında buluşalım. Hazırlanıyorum.
+[lilsebastian] :D
+  </file>
+  
+  <file path="home/docs" name="lantime.txt">
+[jlord93] Bu haftasonu kafayı çekmeye hazır mısın?
+[xn00bslayerx] yep!
+[xn00bslayerx] içkiler tamam valla yavaştan kaynamaya başladım
+[jlord93] 2 gün boyunca 360NOSCOPE takılacağız :p
+[xn00bslayerx] Umarım Jessie bu haftasonu yerelden bağlanır
+[jlord93] Yine başladık....
+[xn00bslayerx] kes lan!
+[jlord93] O zaman git de onu 1337 yeteneğinle etkile
+[jlord93] Neyse ben çıktım. Yarın okulda görüşürüz.
+  </file>
+  
+  <file path="home/docs" name="update.txt">
+[slaggedfire] Yapımcıların bu lanet güncellemeye kafayı takma saçmalığına inanabiliyor musun?
+[slaggedfire] Yani kim işlemsel çim animasyonlarını umursar ki? 
+[slaggedfire] Ben daha fazla içerik istiyorum! 
+[zuggj1] Muhtemelen bunun için anamızın nikahını da isteyecekler
+[slaggedfire] Oyuna girip yağmaya çıkmak ister misin? 
+[zuggj1] Elbette.
+  </file>
+  
+</Computer>

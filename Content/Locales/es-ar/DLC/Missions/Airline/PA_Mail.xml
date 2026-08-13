@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa_mail" name="PacificAir_Mail" security="5" type="4" icon="PacificAir">
+
+  <!-- The mail server, will need to have three accounts. Two of these are critical, one is just flavor.
+  The player will never be able to break in here, so we only need to populate the contents of those three
+  accounts, nothing else.-->
+  
+  <proxy time="4" />
+  <trace time="75" />
+  <portsForCrack val="5" />
+  <ports>22, 25, 443, 1433, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dpa_nethub" position="90" total="360" extraDistance="0.03"/>
+  
+  <!--TRANSLATORS: Do not translate these account lines -->
+  <account username="awilburn" password="1234" type="2" />
+  <account username="kburnaby" password="noneofyourbusiness" type="2" />
+  <account username="YasuArai" password="9NINETWO2" type="2" />
+  
+  <mailServer name="Correo de Pacific Air" color="153,195,209">
+    <email recipient="kburnaby" sender="YasuArai" subject="Los tipos de seguridad informática">Por Dios, qué peñazo de tíos.
+Le pedí a uno que hiciera algo en mi portátil y el tío se puso HISTÉRICO. Me hizo cambiar la contraseña al momento y todo.
+Lo único que hice fue añadir un 1 al final para recordarla sin problema, pero menuda movida.
+¿De qué van?
+-Yasu</email>
+    
+    <email recipient="kburnaby" sender="sp_alerts" subject="AVISO DE SPEAR-PHISHING DE LA SEMANA 2">Resumen automático de avisos de la segunda semana de {$ActiveMonth}.
+Lunes: 3 avisos
+Martes: 0 avisos
+Miércoles: 4 avisos
+Jueves: 1 aviso
+Viernes: 2 avisos</email>
+
+    <email recipient="kburnaby" sender="YasuArai" subject="Re: Almuerzo">¡No, gracias! Quiero que nuestra relación sea estrictamente profesional.
+-Yasu</email>
+
+    <email recipient="kburnaby" sender="MailAdmin" subject="[A/A: Admins] Notas de las reuniones">Venga, chicos. Hay que empezar a guardar por escrito las notas de las reuniones o tendremos problemas.
+Sobre todo yo. 
+¿Por favor?</email>
+
+    <email recipient="kburnaby" sender="awilburn" subject="¿Correo de phishing?">Hola, Kim:
+Me han dicho que eres la persona a la que le tengo que preguntar.
+He recibido un correo de reinicio de contraseña y no sé con seguridad si es real. ¿Puedes comprobarlo?
+> admin_password_security_reset@pacifiicaircom.org envió:
+> ""Hola, empleado:
+> Este es su correo de reinicio de contraseña.
+> Por favor, haga clic en este enlace para reiniciar su contraseña.
+> Es importante que lo haga por razones de seguridad.
+> Gracias,
+> Admin""
+- Alexina</email>
+    
+    <!-- NetAdmin Emails -->
+  
+  <email recipient="YasuArai" sender="kburnaby" subject="Re: Los tipos de seguridad informática">Hola, J:
+Debo pedirte que te limites a usar el correo para temas relacionados con la empresa. Esto parece una queja personal y no es nada profesional.
+¡Gracias!
+-Kim</email>
+
+    <email recipient="YasuArai" sender="athurlow" subject="Re: Re: Reinicio de contraseña">Pero ¿de qué coño vas, tío? Te he pedido algo simple. ¿No puedes hacerlo por mí o qué?
+> NetAdmin@pacificair.com envió:
+> No.
+> > athurlow@pacificair.com envió:
+> > Eh, tío, ¿me puedes resetear la contraseña? ¡Gracias!</email>
+
+    <email recipient="YasuArai" sender="kburnaby" subject="Fwd: ¿Correo de phishing?">Otro.
+-Kim
+> awilburn@pacificair.com envió:
+> Hola, Kim:
+> Me han dicho que eres la persona a la que le tengo que preguntar.
+> He recibido un correo de reinicio de contraseña y no sé con seguridad si es real. ¿Puedes comprobarlo?
+> > admin_password_security_reset@pacifiicaircom.org envió:
+> > ""Hola, empleado:
+> > Este es su correo de reinicio de contraseña.
+> Por favor, haga clic en este enlace para reiniciar su contraseña.
+> > Es importante que lo haga por razones de seguridad.
+> > Gracias,
+> > Admin""
+> - Alexina</email>
+
+    <email recipient="YasuArai" sender="kburnaby" subject="Almuerzo">¡Qué tal, J! ¿Te apetece un café o algo así el finde? Me encantaría conocerte mejor. ¡Han pasado meses y casi ni nos conocemos! Dime algo. :)</email>
+
+    <email recipient="YasuArai" sender="MailAdmin" subject="[A/A: Admins] Notas de las reuniones">Venga, chicos. Hay que empezar a guardar por escrito las notas de las reuniones o tendremos problemas. 
+Sobre todo yo.
+¿Por favor?</email>
+
+    <email recipient="YasuArai" sender="sp_alerts" subject="AVISO DE SPEAR-PHISHING DE LA SEMANA 2">Resumen automático de avisos de la segunda semana de {$ActiveMonth}.
+Lunes: 3 avisos
+Martes: 0 avisos
+Miércoles: 4 avisos
+Jueves: 1 aviso
+Viernes: 2 avisos</email>
+    
+    
+  <!-- MiscPerson Email -->
+
+    <email recipient="awilburn" sender="temp_0340" subject="horario de septiembre">oye, alexina, ¿me pasas mi horario de la semana que viene? gracias, j</email>
+
+    <email recipient="awilburn" sender="dwiklowski" subject="Sorteo de la oficina">¡Hola a todos! Este correo es para haceros saber que se ha retrasado el sorteo. Anthony no ha ido a comprar el iPad, así que no sirve de nada hacerlo todavía, ¿no? Sigue en marcha, pero como estamos en una época de mucho trabajo, quizá tengamos que esperar unas semanas.
+Saludos, Dan
+P.D. ¡Felicidades a Marta y Benita por el nacimiento de su adorable bebé! ¡Nos vemos pronto!</email>
+
+    <email recipient="awilburn" sender="jadams" subject="Reunión del jueves">Alexina,
+Para tu información: Vas de cabeza a convertirte en Empleada del Mes.
+Y por cierto, el jueves hay reunión para decidir a quién se lo damos. ¿Nos vemos ahí?
+Jeremey</email>
+
+    <email recipient="awilburn" sender="employee_promotions" subject="[A/A: A TODOS LOS EMPLEADOS AUTÓNOMOS] Vuestros derechos de viaje">"Tenga en cuenta el medio ambiente antes de imprimir este correo."
+¡Hola a todos! Soy Brandi. Este correo contiene información y aclaraciones sobre vuestros derechos de viajes anuales.
+Estoy seguro de que sabéis que este año hemos tenido algunos despidos. Forma parte de la nueva política de austeridad de la empresa. Hasta el director ejecutivo se ha bajado el sueldo para que afecte menos a vuestros salarios.
+El programa de viajes gratis para cargos intermedios y superiores de Pacific Air se va a ver muy modificado para quitar ambigüedades, hacerlo más simple y que lo puedan usar los cargos operativos.
+Tenéis todos los detalles en el apartado "NOTICIAS" del portal de la empresa.
+Aquí estoy si tenéis alguna pregunta.
+Saludos,
+Brandi, RR. HH.</email>
+
+    <email recipient="awilburn" sender="mb_5f_broadcast" subject="[A/A: Quinta planta] Problemas en los aseos">¡Eh!
+EL QUE ESTÉ CAGANDO EN EL SUELO DEL BAÑO SERÁ DESPEDIDO DE INMEDIATO
+HEMOS INSTALADO CÁMARAS POR FUERA DE LOS ASEOS
+TE VAMOS A ENCONTRAR
+Y LUEGO A DESPEDIR
+DEJA DE TRAUMATIZAR A LOS DE LA LIMPIEZA
+ 
+Saludos,
+Ramiro
+"Conviértete en el cambio que deseas ver en el mundo." - Gandhi, creo</email>
+
+    <email recipient="awilburn" sender="admin_password_security_reset@pacifiicaircom.org" subject="Reinicio de contraseña">Hola, empleado:
+Este es su correo de reinicio de contraseña.
+Por favor, haga clic en este enlace para reiniciar su contraseña.
+Es importante que lo haga por razones de seguridad.
+Gracias,
+Admin</email>
+    
+    
+  </mailServer>
+  
+</Computer>

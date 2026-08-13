@@ -1,0 +1,74 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pacemakerSW_BE"
+          ip="111.105.22.1"
+          name="Eidolon Soft Production Server" 
+          security="4"
+          type="1" > <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <!-- Security Stuff -->
+  
+  <ports>80, 22, 1443, 25, 21</ports>
+  <trace time="320" /> 
+  <firewall level="-1"/>
+
+  
+  
+  <!-- Junk -->
+  <file path="projects/EnTech" name="SynergysticCloudGlassCeilingBreaker.app">#BINARY#</file>
+  <file path="projects/EnTech" name="HumanCapitalEnhancer.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="IntergratedChannelHarnesser.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="ProactiveFocusStorageExtender.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="QualityVectorStreamliner.dll">#BINARY#</file>
+
+  <!-- The Goods -->
+  <file path="projects/KellisBT" name="Catalyst_Driver.cfg">#BINARY#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_0.1.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_0.22.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_1.0.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_1.11.dll">#PACEMAKER_FW_WORKING#</file>
+
+  <file path="projects/KellisBT/Tests" name="TestGuide.txt">
+テストサイクルの一環として、チップ上でユニットテストフレームワークを実行する前に「サイクルチェック」を行う必要があります。テストステーションに接続し、まずサイクラーをファームウェアとして実行してください。数サイクル回して、すべての有効なアウトプットが正確なタイミングで行われているかチェックするための調整を行います。これは単なるハードウェア内部のテストにすぎませんが、小さなエラーも見逃さないために行います。テストが終了するとテストステーションにデータが出力されるので、確認したうえで新しいテストバージョンのパッチを当ててください。
+
+---
+注意: 現在のテスト用ファームウェアのファイル名: "PacemakerFirmware_Cycle_Test.dll"
+配備前の機器には決してアップロードしないでください。
+---
+
+サイクルチェック用のファームウェアはエンコードされているため、実際に起動中の機器で実行することができます。機器のビルドに影響を与えてしまうため、アウトプットフォルダにはアップロードしないようにしてください。
+</file>
+
+  <file path="projects/KellisBT/Tests" name="KBTPM_Test_Suite.kbts">#BINARY#</file>
+  <file path="projects/KellisBT/Tests" name="PacemakerFirmware_Cycle_Test.dll">#PACEMAKER_FW_DANGER#</file>
+  
+  
+
+  <file path="projects/Internal" name="Goals.txt">
+革新的に、全てにおいてクオリティを高めていこう
+
+相乗的に、顧客第一の関係を築いていこう
+
+示差的に、世代間の協力やアイディアの共有を実現していこう
+
+柔軟に、理想的なeサービスを真似していこう
+
+適切に、過程重視のアウトソーシングを利用していこう
+
+効率的に、オンラインでのサポートを提供していこう
+
+継続的に、我々の生活によい影響を与えていこう
+  </file>
+  
+  <file path="projects/Internal" name="Eidolon_Security_Notes.txt">会議で話し合った結果、現場でのメンテナンスやアップデートの効率をあげるため、サポートチームに対して、システムへのアクセス権を特別に与えることとする。このアクセス権を与えるため、我々の商品全てに新しいアカウント、「EAdmin（Eidolon Support Admin）」を導入することとする。
+このアカウントは全ての権限及びテスト機能の実行権を与えられており、全てのバージョンにおいて実行可能である。サポートチームがアクセス権を得れば、現場における試作品管理や製品のデバッグを容易にしてくれるだろう。製品の管理マネージャーは、売り出す商品全てに対してこのアカウントを導入することを忘れないこと。
+
+アカウント詳細：
+ユーザーネーム： "EAdmin"
+パスワード   ： "tens86"
+権限      ： 全て
+デバッグ設定 ： 許可
+  </file>
+  
+  
+  
+  
+</Computer>

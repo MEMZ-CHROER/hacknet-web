@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPsyInternal" name="Psylance Internal Services" security="4" type="empty" icon="Psylance">
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 25, 443, 80, 1433</ports>
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="90" />
+  <portRemap>22=340</portRemap>
+  <adminPass pass="catsarebestpet" />
+  <dlink targer="dPsyArchives" />
+
+  <account username="faithless" password="catsarebestpet" type="2" />
+  
+  <file path="home" name="Organization.txt">Otomatik arşivleme sistemini kurduğum için lütfen raporlar ve dosyalar için "projects" klasörünü kullanın. Bazı programlar falan home dizinini çöpe çeviriyor. Ben de oraya asıl dosyaları atmak istemiyorum. Bu yüzden boş bırakacağım.
+Teşekkürler!
+-Faith
+  </file>
+
+  <encryptedFile path="projects/investigations" name="PA_0022_Incident.dec" ip="209.68.41.129" header="Psylance cyber security internal investigations division inc.">
+Psylance Cyber Security - İç Soruşturmalar Bölümü
+---------------------------------------
+
+PacificAir'in PA_0022 kodlu uçuşunun ortalarında uçak kontrolünde kritik iniş hızlarına ve kaza tehlikesine yol açan bir sorun oluştu. Kritik aksaklıklar meydana gelmeden önce kontrol yeniden sağlandı ve pilotlar uçuşu rahatlıkla tamamladı.
+Uçağın yere inmesiyle birlikte başlayan soruşturma boyunca uçak donanımında hiçbir aksaklığa rastlanmadı. Ayrıca yazılım sistemleri de bozulmamıştı.
+Yazılımın kopyası incelenmek üzere Psylance'a gönderildi.
+
+Eksik veya değiştirilmiş bir şey bulunamasa da, tam soruşturma sonucunda şaşırtıcı şekilde sunucuda olayla ilgili *girdiler* bulundu. Buradan dosyaların kurcalandığı ve girdilerin taşındığı çıkarımında bulunabiliyoruz. 
+Henüz kurgu kapsamında da olsa, bu konuyla ilgili ayrı bir soruşturma yürütüyoruz. Ayrıca sunucu baştan sona kapsamlı olarak taranıyor.
+
+Karşımıza bir anomali çıktı. Pacific_ATC_Skylink (208.91.196.94) sunucusundan onaylanmamış bir IP adresinin çıkış yaptığı girdisine ulaştık. Çıkış yapan kişinin IP adresi ise 208.73.210.214. 
+Adresin izini sürdüğümüzde "Coel" isimli bir hacker'ın ağına ulaştık. Bu hacker'ın olayın arkasındaki isim olduğuna inanıyoruz.
+
+Bu konu üzerinde tam bir soruşturma yürütülmesini öneririm. Psylance sunucularınız güvende olacağını taahhüt etmektedir. Bu sebeple sunucularınızı güvende tutmaya yönelik çabalarını iki katına çıkartacaktır.
+  </encryptedFile>
+
+  <file path="projects/investigations" name="WhitelistGlitches.zip">#BINARY#</file>
+
+  <file path="projects/misc" name="IRC_Config.txt">//Dolaşım yöneticileri için IRC kurulumu - yeni istemci hesaplarını kolayca yönetebilmek için kopyalayın
+Color=67,204,148 //PSYLANCE YEŞİLİ
+//MERKEZİ KULLANICILAR
+:user name="faithless" color="0,209,232"
+:user name="dardypants" color="202,98,0"
+:user name="da_vito" color="0,196,82"
+//Yönetici Yapılandırması
+:Auth public="false" sec="restricted"
+  </file>
+
+  <file path="projects/misc" name="IRC_setup.zip">#BINARY#</file>
+  
+  <file path="projects/clients" name="Nisei_MK_III.txt">Jintech Inc. sunucularına yeni güvenlik sistemi sağlamamız için bizimle iletişime geçti.
+Görünüşe göre son zamanlarda bir grubun ŞİDDETLİ saldırıları altındaydılar. "Nisei" projelerine dair tüm arşiv dosyalarını kaybetmişler ve ellerindeki dosyaları da kaybetmemek için fiziksel anlamda güvenli bir yere (!!) aktarmışlar.
+Dediklerine göre veriler nereye gönderilirse gönderilirsin, kopyalandıkları anda siliniyormuş.
+
+Kayıtları *inanılmaz derecede* temiz. Birisileri gerçekten bu şirkete takmış durumda. Bu baskı altında bu işi halledebileceğimizden tam olarak emin değilim.
+
+Bu noktada bu işi almak demek insanlarla olan ilişkimizi sonlandırmak demektir. Bu işi reddetmemizi öneriyorum.
+</file>
+
+  <Memory>
+    <Commands>
+      <Command>cd /projects</Command>
+      <Command>scp * ARCHIVE_LINK.bat</Command>
+    </Commands>
+    <Data>
+      <Block>PA_0022_todo.txt
+-------------
+Bu raporda şirketimizi daha az acınası gösterebilsek fena olmazdı. Rapora göre bir yığın başarısızlıktan başka bir şey değiliz.
+Bence inceltileceği kadar inceltilmiş bu. Olduğu gibi gönderelim ve üstünde fazla durmamalarını umalım... :/</Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Misc/Psylance_Big</Image>
+    </Images>
+  </Memory>
+  
+</Computer>

@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="sshcrack01">
+  <goals>
+    <goal type="FileDownload" target="portcrack01" file="SSHcrack.exe" path="bin" />
+  </goals>
+  <missionEnd val="0">transitionToBitMissions</missionEnd>
+  <nextMission>NONE</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>Getting some tools together</subject>
+    <body>
+Great - that should keep you safe for now! At least from your own computer...
+Before we start, you're going to need a few things - porthack alone just isn't going to cut it on most modern computers you'll find... Not ones with anything worth looking at anyway.
+      
+You should start by checking up on a friend of mine - he goes by "Viper" - Awful, I know. He's... honestly not the brightest crayon in the box, but he always seems to get a hold of useful code.
+You should have no trouble getting into his files - finding something useful might be a bit more of a challenge.
+
+You can for the most part ignore the 'generic' files - stuff that gets logged, or saved by a program; IRC Logs and the like. Custom named things like .exe files are what you want to look out for. 
+Download any files you can use using the command "scp".
+
+Good luck - reply again when you're done!
+      
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <link comp="portcrack01" />
+      <note title="Hacknet Quick Reference Sheet">Quick Reference Guide
+      
+Analyze security systems using "probe".
+Use "porthack" to break active security.
+
+Scan for adjacent nodes using "scan"
+Clear logs in the ~/log folder using "rm [FILENAME or *]"
+
+Download files with the command "scp [FILENAME]"
+      </note>
+    </attachments>
+  </email>
+</mission>

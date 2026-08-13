@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="deathRow" name="Base de datos de registros del corredor de la muerte" ip="168.51.178.4" security="5" type="4">
+  <adminPass pass="texas"/>
+  <admin type="fast" resetPassword="false"/>
+
+  <portsForCrack val="3"/>
+  <ports>80, 21, 1433</ports>
+  <firewall solution="AHSUNYAG"/>
+  <proxy time="-1"/>
+  <trace time="160"/>
+  
+  <file path="home/SECURE/ProtectedFolder/AdminOnly" name="InternalMemo.txt">
+  Como director de este programa, estoy tratando de conectarme a este ordenador QUE SE SUPONE QUE CONTROLO y al que el personal de informática ha cambiado la contraseña. ¡OTRA VEZ!
+   
+ Esto ha ocurrido ya muchas veces y le está costando a nuestra compañía mi valioso tiempo. A partir de ahora, la contraseña debe ser siempre &quot;texas&quot;, una elección que he hecho personalmente.
+Guardaré esta nota en una ubicación segura para futura referencia. He puesto la fecha para que se pueda utilizar como material legal si insisten en hacer que siga perdiendo el tiempo.
+    
+¡NO ME HAGAN REPETIR ESTO!
+   
+ PUBLICADO 02/04/2012 
+  
+ Brad Collier 
+ Director ejecutivo - División de registros 
+ Departamento de Justicia Criminal
+  </file>
+  
+  <deathRowDatabase/>
+  
+</Computer>

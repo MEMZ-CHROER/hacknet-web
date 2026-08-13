@@ -1,0 +1,23 @@
+Wie kann ich RAM herunterladen?
+
+Hallo 4chums, ein Freund von mir hat mir erzählt das es möglich ist RAM herunterzuladen statt im Geschäft zu kaufen, jedoch sind die meisten dieser Seiten unseriöser Mist - die meisten der heruntergeladenen "ram" waren nur Fotos von Computern und die restlichen waren nur .zip Ordner gefüllt mit Fotos von Schafen. Was mache ich falsch? 
+
+Reply 1: OP, welches Betriebssystem verwendet du?
+
+Reply 2: Lösche System32
+
+Reply 3: [OP] Ich verwende Windows Vista. Spielt das eine Rolle um RAM herunterzuladen?
+
+Reply 4: Wie D3m0nSworD99 bereits erwähnte, musst du den "System32" Ordner finden und löschen. Dieser Ordner beinhaltet ein Programm, dass mit Windows istalliert wird und soll Piraterie verhindern, was auch die Piraterie von RAM beinhaltet - Die Hauptfunktion liegt darin, RAM in Fotos umzuwandeln. Wenn du diesen Ordner gelöscht hast, kannst du die Webseiten erneut aufrufen und wirst nun installierbaren RAM vorfinden.
+
+Reply 5: Ja, er hat recht, so kann man RAM herunterladen. Das funktioniert aber nicht immer - wenn dein Computer anfängt, dir Probleme zu bereiten, wirst du ihn aufmachen und einen ziemlich starken Magnet verwenden müssen, um alle Spuren von System32 zu entfernen.
+
+Reply 6: [OP] Hallo an alle, ich schreibe von meinem Arbeitscomputer aus. Ich glaube, ich habe einen Fehler gemacht als ich eure Anweisungen befolgen wollte. Ich denke ich habe die falsche Polarität bei meinem Magnet verwendet, da mein Computer sich nun nicht mehr starten lässt. Erbitte Hilfe.
+
+Reply 7: 8/10: - made me reply -
+
+Reply 8: Ahahah was zur Hölle
+
+Reply 9: [MOD] Oh mein Gott. Stickied.
+
+Reply 10: [OP] Leute? Hilfe...

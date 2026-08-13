@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pressdemoMission01">
+  <goals>
+    <sendemail recipient="gila" subject="MedicalRecord - Helleran_Elanor" />
+  </goals>
+  <nextMission>Demo/PressBuild/DemoMission03.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Panzerknacker</subject>
+    <body>Gute Arbeit - Ich glaube, du bist bereit.
+Hier ist der Grund, warum ich gleich so viel von dir verlange: Ich habe immer noch vor, die Sache hier öffentlich zu machen - Und ich greife dabei nach jedem Strohhalm. Auch wenn Du dabei ganz oben auf der Liste stehst, kann ich das hier nicht ohne Plan B machen.
+Es gibt da noch einige Rechnungen zu begleichen. Mit den Leuten, die mir hierbei geholfen haben (auch wenn sie selbst es nicht wussten).
+
+Besonders Gila, ein Freund und CSEC-Kollege hat mir Hilfe angeboten. Im Gegenzug sollte ich einen Job erledigen - und ... dazu komme ich wohl nicht mehr. Ich hab meine Festplatten nicht so leergefegt, um jetzt in letzter Minute Spuren zurückzulassen. Weswegen ich dich (so rüde das auch sei) nocheinmal um deine Hilfe bitte.
+
+Er möchte eine Krankenakte zugeschickt haben. Ich hab mein Bestes gegeben, die Sicherheitssysteme der Int.Medical soweit auszuhebeln, dass du mit dem, was du hast, reinkommst. Details stehen im Anhang. Das ist eine ernste Angelegenheit, lösche also unbedingt deine Logs - nicht pfuschen, ja?
+
+Das ist dein erster richtiger Auftrag - viel Glück.
+
+--Bit
+0
+    </body>
+    <attachments>
+      <note title="Missionsübersicht">
+Verbinde dich mit der International-Medical-Database
+Umgehe die aktiven Sicherheitssysteme
+(Probe/Programme/Porthack)
+
+Suche die Krankenakte von
+"Elanor Helleran"
+Schicke die Akte an
+"gila@jmail.com"
+
+Lösche deine Logs im /logs Ordner (rm *)
+      </note>
+      <link comp="medicalDemo" />
+    </attachments>
+  </email>
+</mission>

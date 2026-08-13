@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dPsyInternal" name="Servicios internos de Psylance" security="4" type="empty" icon="Psylance">
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 25, 443, 80, 1433</ports>
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="90" />
+  <portRemap>22=340</portRemap>
+  <adminPass pass="catsarebestpet" />
+  <dlink targer="dPsyArchives" />
+
+  <account username="faithless" password="catsarebestpet" type="2" />
+  
+  <file path="home" name="Organization.txt">Por la manera en la que se ha configurado nuestro sistema de almacenamiento automático, por favor usen la carpeta "projects" solo para informes y archivos, ya que algunos programas generan archivos basura en el directorio principal y quiero evitar que se acumulen.
+¡Gracias!
+-Faith
+  </file>
+
+  <encryptedFile path="projects/investigations" name="PA_0022_Incident.dec" ip="209.68.41.129" header="División de investigaciones internas de Psylance Cyber Security">
+Psylance Cyber Security - división de investigaciones internas.
+---------------------------------------
+
+El vuelo PA_0022 de Pacific Air tuvo problemas de control en el aire, lo que causó un descenso crítico de velocidad y riesgo de accidente. Se consiguió recuperar el control justo antes del error crítico y los pilotos pudieron reanudar el vuelo con normalidad.
+Se realizó una inspección a fondo después de aterrizar, pero no se descubrió nada en el hardware del avión, y el software y el firmware también parecen estar intactos.
+Se ha enviado una copia completa del software a Psylance para buscar errores.
+
+No falta nada ni hay nada modificado, pero una investigación a fondo descubrió que en el sistema faltan los registros de dicho acontecimiento. Lo que quiere decir que hubo un problema de seguridad y se borraron los registros.
+Aunque no hay pruebas concretas, se está realizando una investigación completa al respecto y se ha descubierto que hay muchos servidores afectados.
+
+Se ha encontrado una anomalía: un registro de desconexión de una IP no registrada en Pacific_ATC_Skylink (208.91.196.94). Dicha IP es 208.73.210.214
+Los registros oficiales dicen que pertenece a un hacker llamado "Coel", que creemos que es el responsable del problema.
+
+Recomiendo que se realice una investigación completa al respecto. Psylance es responsable de la seguridad de los servidores y doblaremos nuestros esfuerzos para mantener seguros todos los sistemas de su red.
+  </encryptedFile>
+
+  <file path="projects/investigations" name="WhitelistGlitches.zip">#BINARY#</file>
+
+  <file path="projects/misc" name="IRC_Config.txt">//Configuración básica de IRC para admins itinerantes. Copiar en las cuentas de nuevos clientes para configurar de manera fácil
+Color=67,204,148 //PSYLANCE VERDE
+//CORE USER SET
+:usuario="faithless" color="0,209,232"
+:usuario="dardypants" color="202,98,0"
+:usuario="da_vito" color="0,196,82"
+//Admin Config
+:Auth public="falso" sec="restringido"
+  </file>
+
+  <file path="projects/misc" name="IRC_setup.zip">#BINARY#</file>
+  
+  <file path="projects/clients" name="Nisei_MK_III.txt">Me ha contactado Jintech Inc. para pedirnos seguridad en sus servidores.
+Parece que últimamente han recibido ataques importantes de algún grupo y han perdido todos los archivos de su proyecto "Nisei". Han tenido que mover copias en formato físico (¡!) a un lugar seguro para evitarlo.
+Dicen que pierden los datos al momento de transcribirlos, independientemente de a qué lugar se envíen.
+
+Sus registros están *muy* limpios, así que alguien se la ha colado bien y no estoy 100 % seguro de que podamos con algo así en estos momentos. 
+
+Intentar arreglarlo a estas alturas puede ser un suicidio para nuestra reputación. Sugiero rechazarlo.
+</file>
+
+  <Memory>
+    <Commands>
+      <Command>cd /projects</Command>
+      <Command>scp * ARCHIVE_LINK.bat</Command>
+    </Commands>
+    <Data>
+      <Block>PA_0022_todo.txt
+-------------
+Estaría bien buscar la manera de que la compañía dé una impresión menos patética en el informe, parece que no somos más un puñado de fracasados, ¿no?
+Creo que es lo mejor que podemos sacar. Envíalo así como está y esperemos que no le presten mucho atención... :/</Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Misc/Psylance_Big</Image>
+    </Images>
+  </Memory>
+  
+</Computer>

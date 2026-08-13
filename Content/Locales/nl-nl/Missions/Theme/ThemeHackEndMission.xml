@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="themeHackEndMission">
+  <goals>
+    <goal type="FileDeletion" target="naixGateway" file="Macrosoft_Internal_Raid_Archive.rar" path="home" />
+  </goals>
+  <nextMission IsSilent="true">Entropy/PostBranch/EntropyAdv01.xml</nextMission>
+  <branchMissions>
+    <branch>Theme/ThemeHackNaixRudeReply.xml</branch>
+    <branch>Theme/ThemeHackNaixBranch.xml</branch>
+    <branch>Theme/ThemeHackEndMissionFail.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Waarschuwing</subject>
+    <body>
+      Connect-Responder.exe is een onbekende verbinding opgevallen van uw IP adress naar 173.194.35.163.
+      Externe verbindingen zijn verboden op dit apperaat. Als per fout bent verbonden, zoek dan naar een sysadmin's help.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews01">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Entropyはハッキングで悪事を行っているのか？">
+ある情報筋によると、近ごろ、インターネット上のグループ「Entropy」が悪名高いハッカーを匿い、仕事まで与えているという。
+まだ確定した情報ではないが、もしこれが事実だとすれば、近い将来彼らが痛烈な法的追及を受けることは確実だ。
+記者として意見を述べれば、Entropyの行為はネットワーク社会に対する明らかな裏切りだ。生産的な人々の繁栄を妨げるような彼らのふるまいは、厳しく罰せられるべきである。
+
+記者 : Tom Wilkins
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropyは止めなければいけない</subject>
+    <body>
+Entropyのデータベースを破壊しろ
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

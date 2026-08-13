@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMissionFail01">
+  <goals>
+    <goal type="getString" target="168.61.82.246"/>
+  </goals>
+  <nextMission>Entropy/PostBranch/EntropyAdv01.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>とりあえずは安心だ</subject>
+    <body>
+ずいぶん急ごしらえとはいえ、依頼した仕事を終えたようだな。ハッカーコミュニティの評判も、これでいくらかの間は落ちずに留まってくれればいいのだがね。
+
+とりあえずひと段落したとはいえ、コピーが存在しないとも言い切れない。IRCチャンネルを介して別のハッカーにもコピーの削除を依頼したのだが、完了の連絡がまだ来ていない。
+単に連絡が遅れているだけだと願いたいが、何かまずいことになっている可能性もある。
+もし君がこの件に関わりたいなら、遠慮せずに協力してくれ。
+
+とりあえず、君に手を貸してほしい案件がある。あるIRCチャンネルにて、君に調査してもらっている件について話しているものがいた。彼はファイルが盗まれたサーバーのIPアドレスを見つけたらしい。
+
+そのIPを見つけてもらえるか？IPアドレスを添付して返信してくれるだけでいい。簡易ながら彼の追跡をしてみたのだが、どうやら添付したリンク先にデータがあるようだ。
+
+感謝する。
+-Tex
+
+    </body>
+    <attachments>
+      <link comp="entropyAdvFail01" />
+    </attachments>
+  </email>
+</mission>

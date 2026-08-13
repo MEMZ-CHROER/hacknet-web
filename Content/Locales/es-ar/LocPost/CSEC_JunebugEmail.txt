@@ -1,0 +1,7 @@
+Agente,
+
+Los administradores han marcado tu cuenta con permisos para aceptar un contrato crítico
+Está listado como {0} en la lista.
+Ten en cuenta que aceptar este contrato puede consumirte mucho tiempo o requerir confidencialidad y separación de otros proyectos por un tiempo, y solo deberás llebarlo a cabo con la expectación de que otros contratos y posiblemente {0} servicios no estarán disponibles mientras tanto.
+Gracias,
+{0}

@@ -1,0 +1,53 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+    <!-- Coel was on Alchemists cleanup duty, Default was on "Personal Ties" 
+    We want to delay the player for 30 seconds here so they can get hacked without starting the next mission...
+    -->
+    
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-10.0">@Coel Задача выполнена. Прости что тебе пришлось с этим столкнуться. Я сделал все что смог чтобы все прошло гладко.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="0.1">Спасибо. Я предпочитаю лично разбираться с такими вещами, но... бывает иначе.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="3">Я все понимаю, не переживай. Как твоя работа?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="5.0">@D3f4ult Спасибо что помог с этим.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="9.0">Не за что, босс.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="15.2">Ладно, я пока что пройдусь по сервакам алхимиков, проверю что мы все почистили. Надеюсь, впредь это будет безопаснее.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="20.2">Кто-то оставил кучу логов о разрывах связи, но не переживай, я свой нос в это не совал.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="24.5">Мда. @Kaguya - сообразишь для нас что-нибуть чтобы избавиться от логов отключений?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="28.1">Кроме форк-бомбы?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="32.1">Она недоделана :\</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="35.1">Ага, не буду спорить.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="37.1">Посмотрю, что можно сделать, но ничего не обещаю.</AddIRCMessage>
+    
+  </OnConnect>
+
+  <!-- These trigger when the player has passed the recovery and connects back to IRC for the first time -->
+  <OnConnect target="dhs" needsMissionComplete="false" requiredFlags="startupBreakinTrapPassed">
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-220.0">@channel ВНИМАНИЕ - @#PLAYERNAME# вовсю отправляет сигналы тревоги - на вид все плохо.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-210.0">@Coel, отвлекись на минуту, мне нужна твоя помощь.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-200.0">!ATTACHMENT:link#%##PLAYERNAME# PC#%##PLAYER_IP#</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-194.0">Это комп @#PLAYERNAME# - глянь что происходит и помоги ему.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-185.0">@Kaguya, хорошо, сейчас займусь.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-180">От меня что-нибудь требуется?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-175.0">Да, сек.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-160.0">Ок, проверь заказ над которым работал @#PLAYERNAME# - глянь откуда это взялось. И БУДЬ ПООСТОРОЖНЕЕ.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-155">Хорошо.</AddIRCMessage>
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-120.0">Это была атака на виртуальную машину - я сделала что смогла, а дальше @#PLAYERNAME# сам разберется как все починить.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-115.0">Отлично, @Coel, я прослежу за этим.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-110.0">@D3f4ult, есть новости?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-90.0">Ищу ссылки. Пытаюсь не наследить.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-85.0">Хорошо, продолжай.</AddIRCMessage>
+
+    <!-- After this displays in real-time -->
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="1.0">@#PLAYERNAME#, с возвращением!</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="8.0">Хорошая работа, @#PLAYERNAME#.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="14.0">@#PLAYERNAME# - Привет! Kaguya попросил меня покопаться - похоже это был хорошо защищенный прокси. Тем не менее, ты сможешь отследить его по своим логам.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="25.0">Это твоя добыча, но если ты вдруг захочешь устроить пиздец в стиле D3f4ult-а - просто дай мне айпишник.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="40.0">Кстати, себе на будущее - держать на своем компе шелл во избежание ловушек когда буду ловить других хакеров.</AddIRCMessage>
+
+  </OnConnect>
+  
+</ConditionalActions>

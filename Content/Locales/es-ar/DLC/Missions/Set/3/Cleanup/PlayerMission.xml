@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dCleanupMission">
+  <goals>
+    <goal type="clearfolder" target="ds3_fn" path="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Limpieza">D3f4ult ha tenido que dejar el ordenador en mitad de un hackeo por razones personales. Entra en el objetivo, termina el trabajo y no dejes rastro de lo que ha hecho.</posting>
+  <email>
+    <sender>Biblioteca</sender>
+    <subject>Limpieza</subject>
+    <body>
+D3f4ult ha tenido que dejar el ordenador en mitad de un hackeo por razones personales. Entra en el objetivo, termina el trabajo y no dejes rastro de lo que ha hecho.
+----
+D3f4ult ha tenido que dejar un trabajo a medias por problemas personales. Necesito que vuelvas a entrar, limpies cualquier rastro de lo que ha hecho y termines el trabajo.
+
+Me interesan los proyectos no publicados de "Funkenstein", te adjunto el servidor. Descarga cualquiera que encuentres y súbelo al servidor central.
+Conversación con D3f4ult antes de que se marchara:
+
+Kaguya: No pasa nada.
+D3f4ult: Lo siento muchísimo, de verdad.
+Kaguya: No te martirices.
+D3f4ult: Estos son los detalles:
+D3f4ult: IP: 21.32.43.54
+D3f4ult: login: admin
+D3f4ult: contraseña: redwood
+D3f4ult: Ya está casi todo hecho, en este sistema y otros en los que entrado antes.
+D3f4ult: lo único que tienes que hacer es encontrar los archivos encriptados, cogerlos y ponerlos en el buzón.
+D3f4ult: ¿Dijo el cliente que era música sin lanzar al mercado o algo así?
+D3f4ult: Tampoco he podido eliminar mis archivos de trabajo. Hazlo por mí, por favor.
+
+Buena suerte,
+-Kaguya
+    </body>
+    <attachments>
+      <link comp="ds3_fn" />
+      <note title="Objetivos de la misión">Elimina del servidor principal cualquier archivo que apunte a D3f4ult.
+investiga a fondo para encontrar proyectos no publicados
+súbelos al servidor central</note>
+    </attachments>
+  </email>
+</mission>

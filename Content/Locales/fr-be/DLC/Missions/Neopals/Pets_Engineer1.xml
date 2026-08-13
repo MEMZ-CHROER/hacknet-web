@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dPets_Engineer1" name="Thomas_Office" security="3" ip="104.95.129.117" icon="DLCPC1">
+  <!-- No critical mission link here, but should contain custom theme -->
+  
+  <dlink target="dPets_VC" />
+
+  <ports>22, 21, 6881, 9418</ports>
+
+  <positionNear target="dPets_MF" position="160" total="360" extraDistance="0.05"/>
+
+  <file path="home/work" name="SecurityBreaches.txt">
+Je garde ici une trace des brèches de sécurité pour la postérité qui me succédera.
+
+1 : Tiff a mis le mot de passe administrateur pour le serveur central en TEXTE SIMPLE sur le serveur d'authentification. Peu importe à quel point il est sécurisé et même si personne ici ne souhaite être le maillon faible, sérieux, stocker ses mots de passe dans un texte simple, c'est vraiment une idée à la con !
+J'ai supprimé tous ces fichiers.
+
+2 : Ash a écrit le mot de passe Wifi sur un papier et l'a collé sur le mur. Avec toutes les fenêtres qu'on a ici, bravo !
+
+3 : Susan a laissé son ordinateur connecté toute la nuit. C'est pas grave, ça arrive, mais je suis en train de faire la liste, non ?
+
+4 : Tiff garde probablement des données sensibles sur son téléphone, vu qu'elle le regarde sans cesse.
+C'est peut-être de la paranoïa, mais on ne sait jamais.
+
+À SUIVRE, MALHEUREUSEMENT...
+  </file>
+
+  <file path="home/work" name="Developer_SetupGuide.txt">
+--Guide d'installation de Neopals Développeur v1--
+
+Bienvenue dans l'équipe de développement actif de Neopals ! L'installation devrait être rapide et vous serez en mesure d'être productif dans quelques minutes, d'accord ?
+
+EH NON, MON SALAUD ! BIENVENUE EN ENFER.
+Attends, tu pensais vraiment que ce site web datant de Mathusalem allait avoir un code de base nickel et stable ? Bienvenue sur le fichier-PHP-non-modulaire-de-l'embrouille-du-site-au-200-pages, prépare-toi à avoir mal !
+Tu as devant les yeux le résultat d'années de travail et d'efforts intenses de développeurs cramés, rendant ta vie future pénible, intenable et indémerdable au possible. Pardon, tu veux un conseil pour le code de base ? Bien sûr, ouvre-le, vas-y, je t'attends.
+Ou non, en fait, parce que quand t'auras terminé de comprendre, je serai déjà mort. T'as dit quoi ? Tu regrettes de pas avoir pris l'option arts plastiques ? Je te comprends, parfois moi aussi j'ai des envies d'évasion, concevoir des personnages innocents et admirer les gens les convertir en téraoctets de porno de mauvaise qualité à longueur de journée. Qualité 10 sur 10.
+
+Voilà ton assistant d'installation :
+
+Étape 1 : Trouve un pistolet chargé
+Étape 2 : Retrouve tous les responsables de ce merdier
+Étape 3 : ???
+Étape 4 : C'EST TOUJOURS TOUT PÉTÉ !
+
+Une fois, j'ai voulu changer la couleur du bouton de connexion, et j'ai bousillé le système de combat. Je déconne pas.
+
+Bref, ça devrait être bon ! Si tu as des questions, je te suggère d'attendre que la Faucheuse vienne y répondre.
+-Thomas
+  </file>
+
+  <file path="home" name="SECRET_DOTA_STRATS.txt">
+#1 : Sniper, CM, Dazzle, Death Prophet, offlaner avec lockdown
+Sniper/CM/Dazzle sur trois lignes, milieu DP, offlaner fait le push et prend l'XP. Build pour le Sniper :
+Rapier
+Rapier
+Flat Boots
+Manta Style
+Rapier
+Amélioration de bottes optionnelle.
+
+Push à 5 jusqu'à la victoire dès qu'il a la rapière ! Le taf de Dazzle est de défendre le sniper quand l'ennemi arrive, tous les autres en lockdown et push.
+On est invaincus en match par équipe.
+
+
+#2 : Bounty Hunter Jungle offensif
+Prendre le BH en furtivité niv 1, dans la jungle et voler les derniers coups des junglers. Ça rend le jeu vraiment énervant en 4c4, ils doivent acheter de la poussière et leur équipe démarre à fond les ballons. Que du bon.
+
+#3 : Secret de Dazzle en mid
+Dazzle au milieu, poison boosté, faire les Phase Boots - > Urne - > Deso et gank à 6 avec weave, rythme lent mais meurtrier. 
+Les animations en clic droit de Dazzle sont vraiment chouettes, les lignes sont bonnes, les ganks sont forts contre les plus lents en armure, allez faire un tour pour choper Deso et améliorer ganks et push. C'est le milieu qui fait avancer le bateau !
+  </file>
+  
+  <file path="home" name="AnalyticsApp_designNotes.txt">
+Utilise l'API pour télécharger les replays des matchs, et un parser personnalisé pour des stats détaillées.
+Analyse des derniers coups - calculer la fréquence de ceux qui étaient joués trop tôt ou trop tard - afficher des indicateurs de portée sur les attaques ratées contre les héros à distance, les attaques ratées contre ceux sans défense particulière, etc.
+Montre les sorts lancés sans « effet » - récupérer les données des circonstances des sorts inopérants, leur fréquence d'échec, etc.
+Pareil pour les données sur le soutien, comme le temps et la portée des wards, les emplacements auquel une grande quantité d'ennemis se regroupe sans vision alliée.
+Egalement une analyse détaillée des XP, pour obtenir de meilleures données sur les moments de la partie où les XP par seconde sont réduits et décrypter les moments auxquels les joueurs se mettent à errer sans grand succès, et en tirer profit.
+Enfin, des données détaillées sur les occasions où alliés et ennemis ont de longs moments de farm ininterrompu (avec aucun héros ennemi dans les environs pendant plusieurs minutes).
+  </file>
+
+  <customthemefile path="sys" name="Riptide_x-server.sys" themePath="DLC/Themes/RiptideTheme.xml"/>
+  
+</Computer>

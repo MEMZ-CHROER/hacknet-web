@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dhaAdminHome" name="Maison Nate Wesson" security="4" ip="66.175.58.9" type="4" icon="DLCPC1">
+  
+  <!-- This is the home computer of the architect of the system, it's more personal, less formal, and contains WIP files -->
+  
+  <proxy time="-1" />
+  <trace time="300" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 443, 80, 6881</ports>
+  
+  <positionNear target="dhaComp2" position="300" total="360" extraDistance="0.01"/>
+
+  <file path="sys" name="STOR-DRIVE_activesync.log">Image mémoire locale établie,
+lecteur distant sécurisé en ligne et répondant à la requête ping
+DÉMARRAGE RÉUSSI
+Erreurs : 0</file>
+
+  <file path="bin" name="SignalScrambler.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+
+  <file path="home/wip" name="todo_books.txt">Livres à écrire
+
+en cours
+- guide pour perdre du poids
+
+terminé
+- premier livre sur l'alchimie hermétique (pourquoi ça ne se vend pas ? à vérifier)
+- complexités de l'arbre de vie (dois parler à l'éditeur)
+
+à faire
+- métaphysique de la nourriture
+- guide de cuisine CFC
+- un scénario sur les abeilles (l'intelligence des abeilles est en vogue dernièrement)</file>
+
+  <file path="home/wip" name="weightloss.txt">C'est dans la tête : comment la perte de poids ne tient qu'à une pensée positive !
+ou :
+La méthode Wesson
+
+Introduction
+
+Les médocs, c'est trop génial ! La nourriture est le remède à tous les maux ! Tout est agréable et bon pour vous ! 
+
+C'est ce que disent tous les livres, eh bien laissez-moi dire que c'est des conneries ! Les gens veulent perdre du poids, et je les entends dire : « oh non, je n'arrive pas à maigrir, même en mangeant moins et en faisant de l'exercice ! Tout mon poids se transforme en masse musculaire, je suis en forme mais je garde le même poids ! »
+
+Je. Vais. Vous. Dire. Ce n'est pas uniquement moins manger, faire de l'exercice et être « sain » comme disent les docteurs. Il faut que les pensées positives suivent la démarche, et dans ce guide facile, je vais vous dire comment exprimer ce genre de pensée.</file>
+  
+  <file path="home/wip" name="weightloss_parody.txt">Note pour éditeurs potentiels : Je suis pas un illuminé, ceci une parodie des bouquins sur la perte de poids, destinée aux étagères des trentenaires aigris pour faire croire qu'ils sont drôles et intelligents. Ajoutez-moi à votre liste de lecture, s'il vous plaît.
+</file>
+  
+  <file path="home/wip" name="weightloss_c2.txt">Chapitre 2
+
+Mangez de tout afin de précipiter votre voyage vers l'inconnu
+
+Plan de base :
+-Manger ce que l'on veut
+-Penser à perdre du poids
+-On ne perd du poids que lorsque l'on se rapproche de la perfection
+-Se rapprocher de la perfection fait perdre du poids
+-Comparer et faire le contraste avec les écrits alchimiques traditionnels
+</file>
+
+
+  <file path="home/wip" name="weightloss_c3.txt">Chapitre 3
+
+-Ne mangez pas de mauvaises choses comme la térébenthine et autres mégots de cigarette, vous en mourrez, mais la bouffe des fast-foods ça va (surtout celle venant de CFC)</file>
+
+  <file path="home/wip" name="weightloss_c4.txt">Chapitre 4
+
+-Toujours faire référence à l'annexe des pensées positives, vendue séparément</file>
+  
+  
+  <Memory>
+    <Commands>
+      <Command>STOR-DRIVE maintenance ping @ 66.175.58.11 _ ACTIF</Command>
+    </Commands>
+    <Images>
+      <Image>DLC/Sprites/Divers/Alchimie</Image>
+    </Images>
+  </Memory>
+  
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/RiptideTheme.xml"/>
+
+
+</Computer>

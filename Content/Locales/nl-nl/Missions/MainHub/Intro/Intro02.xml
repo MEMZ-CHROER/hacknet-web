@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubIntro2">
+  <goals>
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt1.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads" />
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt2.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads" />
+  </goals>
+
+  <missionEnd val="0">assignPlayerToHubServerFaction</missionEnd>
+  <nextMission>MainHub/Intro/Intro03Pass.xml</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>CSEC Uitnodiging - Bevestiging</subject>
+    <body>
+#PLAYERNAME#,
+
+Je hebt de geatomatiseerde test voltooid, niet iedereen lukt het (waarbij je je afvraagt waarom ze uberhaupt waren uitgenodigd), dus je hebt ronde 2 berijkt, wat betekent dat ik iets moet verzinnen, en dat betekent iets leuks.
+
+Ik heb iets goeds voor je bedacht - en zou niet te moeilijk moeten zijn!
+
+Ik wil dat je inbreekt bij de CFC servers en de 11 geheime kruiden vind.
+
+Als je een lijst kan bemachten en uploaden naar de CSEC publieke drop server, zal ik meer dan tevreden zijn om je te accepteren.
+
+Veel geluk!
+
+-Vap0r
+CSEC Admin
+
+    </body>
+    <attachments>
+      <link comp="kfcWebServer" />
+      <link comp="hubPubDrop" />
+    </attachments>
+  </email>
+</mission>

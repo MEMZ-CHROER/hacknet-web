@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dCSEC_Injection">
+  <!-- NOTE: This mission requires copying the upload file listed below to the CSEC hub before being added to the CSEC mission list -->
+  <goals>
+    <!-- corrupt the archive containing this one... blanket with delete, to stop it being un-completable 
+    File deletion will still work if the file exist but has it's data changed -->
+    <goal type="filedeletion" target="dPsyArchives" file="2_q1.zip" path="home/archives"/>
+   
+    <!-- upload the false report -->
+    <goal type="fileupload" target="dHidden" file="PA_0022_Incident.dec" path="home" destTarget="dPsyInternal" destPath="projects/investigations"/>
+    
+  </goals>
+  <missionStart val="2" suppress="true">changeSongDLC</missionStart>
+  <missionEnd val="3">changeSong</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>>
+  <posting title="Psylance Soruşturmasını Kapatma">
+Psylance Cyber Security kısa süre önce gerçekleşen donanım hatasından ötürü masum bir hacker'ı suçluyor. İsmini vermek istemeyen bir müşterimiz adına bu hatayı düzeltmeni istiyoruz.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Psylance'ı Sustur</subject>
+    <body>Sayın CSEC Temsilcisi,
+    
+Psylance'da çalışan bir arkadaşım gerçekleştirmemiş olduğu saldırı yüzünden suçlanıyor.
+Psylance Cyber Security konuyla ilgili bir rapor hazırlatıyor. Bu raporu kendi hazırladığım rapor ile değiştirmek istiyorum. Kendi raporumu CSEC yöneticilerine gönderdim (YÖNETİCİ NOTU: şifrelenmiş rapor Hub Server'a yüklendi: home/PA_0022_Incident.dec).
+Psylance'ın rapor düzeneğine çok yakın olacak şekilde hazırladım. Yani değişikliğin farkına varmazlar. Aşağıda linkini verdiğim sunucularına erişmeli ve aynı isimli raporu bulmalı, silmeli ve CSEC'e gönderdiğim raporu yerine koymalısın.
+
+Sonra ise yedeğine de aynısını yapmalısın. Otomatik yedekleme sunucularını (linkini verdim) ziyaret et ve mümkünse arşivi silmek yerine boz. Arşiv en son yüklenen (araştırmam doğruysa ismi 2_q2) olmalı.
+Bozmak için ikili değerleri (binary) harflerle veya başka değerlerle değiştir. Bu yeterli olur.
+
+Bu konudaki yardımseverliğin için teşekkür ederim.
+-K
+    </body>
+    <attachments>
+      <link comp="dPsyArchives" />
+      <link comp="dPsyInternal" />
+
+      <note title="Özet">CSEC Drop Server'dan PA_0022_Incident.dec dosyasını indir
+Psylance sunucusuna eriş
+Kaza raporunu sil
+Raporun CSEC sürümünü aynı yere yükle
+Yedekleme sunucusuna eriş
+backup_2q2.zip (veyaz benzer bir isimde) dosyasını boz
+İZLERİNİ TEMİZLE</note>
+      
+    </attachments>
+  </email>
+</mission>

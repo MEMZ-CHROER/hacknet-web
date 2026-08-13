@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="mainHubAssets" name="Servidor de materiales de CSEC" security="4">
+  <adminPass pass="csec-5xg3D11"/>
+  <admin type="fast" resetPassword="false"/>
+  <positionNear target="mainHub" position="5" total="6"/>
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="template.txt">[FIRST_NAME]#[LAST_NAME]#[RECORD_NUM]#32#Rural#N/A#N/A#N/A#[LAST_WORDS]</file>
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="FileNamingScheme.txt">
+Plan de renombramiento de archivos de la base de datos del corredor de la muerte:
+
+ Apellido_Nombre[Númeroregistro] 
+
+Se recomienda que descargue una copia de template.txt, la edite localmente y luego la renombre de acuerdo con el plan antes de insertarla en la base de datos. 
+Por ejemplo: DeTal_Fulano[12345] 
+
+Puesto que seguramente necesitará reemplazar todos los comodines en el archivo de plantilla, deberá usar el acceso directo de reemplazo rápido: 
+1: Marque el archivo como &quot;activo&quot; en su sistema operativo (la forma más fácil es leyéndolo con el comando cat - &quot;cat template.txt&quot;) 
+2: Use reemplazar sin añadirlo en el nombre del archivo - (replace &quot;[FIRST_NAME]&quot; &quot;John&quot;) 
+3: Continúe el paso 2 hasta que el archivo quede como desea 
+4: Renombre el archivo (mv template.txt DeTal_Fulano[12345]) 
+5: Suba el archivo a la base de datos (conéctese a la base de datos remota, &quot;upload /home/Doe_John[12345]&quot;, ¡asegúrese de que está dentro de la carpeta a la que quiere subirlo!)
+</file>
+  
+  <file path="bin/SQL_Mem_Corrupter" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+  <file path="bin/SQL_Mem_Corrupter" name="info.txt">
+--Léeme del inyector de daños en la memoria SQL -- 
+   
+El inyector de daños en la memoria SQL (SQL_MemCorrupt.exe) es un error explotable dirigido para los puertos SQL públicos (número predeterminado 1433). 
+Inyecta una entrada de tabla que, al leerse, causa un error de daños en la memoria en la base de datos, y luego consulta inmediatamente dicha tabla, causando un bloqueo inmediato de la base de datos SQL y un volcado de datos. 
+Esto permitirá temporalmente el tráfico no autenticado en el puerto del servidor SQL antes que el SO objetivo arregle la conexión SQL afectada y reinicie el servicio. 
+
+El programa, cuando está en su modo de visualización, mostrará su estado operativo en la parte superior, y la salida del servidor sql (idealmente un volcado de memoria de la entrada inyectada) en la parte inferior.
+</file>
+
+  <file path="bin/WebServerWorm" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin/WebServerWorm" name="info.txt">
+--Léeme del gusano del servidor web-- 
+
+Este gusano de acceso rápido del servidor web es un ejecutable dirigido que puede atacar servidores web HTTP (generalmente ejecutándose en el puerto 80 o 8080). 
+Este programa utiliza un defecto en las versiones actualmente activas de software del servidor web, que explota un desbordamiento de memoria para permitir la inyección de código arbitrario (el propio gusano). 
+Este gusano, una vez que se esté ejecutando en el servidor, reenviará cualquier tráfico externo que pase por el puerto web al sistema operativo, evitando eficazmente la seguridad del puerto. 
+Esto sirve para abrir el puerto para usarlo libremente. 
+
+El gusano *no* impide las acciones normales en el propio servidor web, porque esto normalmente conduciría a una detección más fácil del propio gusano y porque dejaría muy claro a otras personas que algo extraño está ocurriendo.
+
+</file>
+
+  <file path="bin/Sequencer" name="Sequencer.exe">#SEQUENCER_EXE#</file>
+
+  <file path="Themes" name="CSEC_x-server.sys">#WHITE_THEME#</file>
+  <file path="Themes" name="Mint_x-server.sys">#MINT_THEME#</file>
+  <file path="Themes" name="Teal_x-server.sys">#TEAL_THEME#</file>
+  <file path="Themes" name="Blue_x-server.sys">#BASE_THEME#</file>
+  
+  
+</Computer>

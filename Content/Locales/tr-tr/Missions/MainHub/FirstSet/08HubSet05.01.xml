@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="FOF_Screenplay.doc" path="home" destTarget="producerComp" destPath="home/scripts" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Gelecek Vadeden Yazara Yardım" reqs="dechead,decypher">
+İstekli bir yazar çalışmalarından birini yapımcıya götürmemizi istiyor.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>İkna Edici Başvuru</subject>
+    <body>
+Yazarın biri son çalışmasının taslağını yapımcıya göndermek istiyormuş fakat sekreterler kendisine izin vermiyormuş.
+Dosyayı göndermek istediği şahsın inceleme klasörüne yüklememizi istiyor.
+
+Yazarın çalışmasının adı: "FOF_Screenply.doc" Dosya Crossroads'a yüklendi.
+Ayrıca yarıştırmak istediği şifrelenmiş çalışmasını da bizlere gönderdi. Bunu da izlence için kullanabiliriz.
+Bu da Crossroads'a eklendi. İsmi: "T2_Screenply.dec"
+      
+Yazarın çalışmasının hedef bilgisayardaki Scripts klasörüne yükle.
+Her zamanki gibi tab tuşuyla komutu tamamlayabilirsin. "upload bin/" dedikten sonra Tab tuşuna basıp yüklenecek yerel dosyaların listesini görebilirsin.
+
+Kolay gelsin.
+-CSEC
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <note title="İş Bilgileri">FOF_Screenply.doc dosyasını indir.
+      
+T2_Screenplay.dec dosyasını izle.
+
+FOF_Screenply.doc dosyasını Scripts klasörüne yükle.</note>
+    </attachments>
+  </email>
+</mission>

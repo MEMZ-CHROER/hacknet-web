@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="あなたのKellis Biotech">
+Kellis Biotechは世界中で知られている、医療や化粧機器に関する委託者商標による受託製造（OEM）を専門に行っている会社です。
+設計から大規模生産、マイクロデバイスから手術用の器具まで、Kellis社は医療設備に関するサービスを牽引していく存在であり続けています。
+私たちは常に完璧を追い求めています。完璧な安心と完璧な安定を提供し続けていく。人々の健康に対して、妥協することは許されないのです。
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+このメールは、予期しないエラーが発生した場合に送信されます。
+どうぞ慌てふためいてください。
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

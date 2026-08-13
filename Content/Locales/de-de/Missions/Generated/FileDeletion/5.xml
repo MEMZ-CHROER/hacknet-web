@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Die Ernte verhagelt">
+Ein Klient hat kürzlich erfahren, dass ihre Konkurrenz illegalerweise Nutzerdaten ausspioniert und an Werbepartner verkauft.
+Beende diesen Frevel.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - Die Ernte verhagelt</subject>
+    <body>
+Agent,
+
+wir haben kürzlich mit Erschrecken feststellen müssen, dass unsere Rivalen von #COMP# sich einen unfairen and ILLEGALEN Vorteil verschaffen, indem sie Nutzerdaten (E-Mails, Names, Konsumverhalten etc.) ausspionieren und an Werbeunternehmen weiterverkaufen.
+Dies ist nicht nur unentschuldbar, sowohl aus Gründen des Datenschutzes, der Erlichkeit und Fairness, sondern auch unter dem Data Protection Act von '98 strafbar.
+
+Greife auf ihre Server zu und vernichte ihre zwielichtige Sammlung. Wir werden zudem rechtliche Schritte einleiten (Beweismittel wurden bereits sichergestellt - also keine Sorge deswegen).
+
+Danke,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

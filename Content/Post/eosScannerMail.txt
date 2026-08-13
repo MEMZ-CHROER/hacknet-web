@@ -1,0 +1,12 @@
+Hey Entropy peeps,
+
+So, eOS Device Scanner is uploaded to your asset server (~/bin/eosDeviceScanner.exe) - should run as a pretty standard connection targeted exe.
+Because it needs to read a bunch of files in a system folder (to get the info on devices sync'd to the target computer), it needs admin access on the target machine to start running - once it's going it should be fine if you lose it or disconnect though.
+Basically, it works by checking through the backups made when a device syncs to a computer, then pretends to do a new wireless sync with the device and uses an exploit in that to open an ssh port, etc etc.
+
+Here's the trick - because eos users dont get access to the terminal on their own device, all the admin passwords are the same (!) - across the entire product range!
+
+It's "alpine" - no need to thank me, probably just saved you a million years or something.
+I'll be expecting the payment we agreed on as soon as this upload finished, yeah?
+
+-vtfx

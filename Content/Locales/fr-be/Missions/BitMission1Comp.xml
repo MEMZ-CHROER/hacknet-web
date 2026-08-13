@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="bitMission01" name="P. PC de la chambre d&apos;Anderson" security="1" type="4">
+  <file path="log" name="@18907 Connection From XXX.XXX.XXX.XXX">Connexion de [IP MASQUÉE] établie.</file>
+  <file path="log" name="@18922 XXX.XXX.XXX.XXX Given Administrator Access">Connexion de [IP MASQUÉE] a reçu privilèges administrateur.</file>
+  <file path="log" name="@18928 XXX.XXX.XXX.XXX Acessed File [Valence_Dossier.pdf]">Fichier [Valence_Dossier.pdf] lu par [IP MASQUÉE] -- Administrateur système</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Deleted File [Valence_Dossier.pdf]">Fichier [Valence_Dossier.pdf] supprimé par [IP MASQUÉE] -- Administrateur système</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Disconnected">[IP MASQUÉE] déconnectée du système.</file>
+
+  <file path="home/Documents" name="Laptop_PoliceReport.txt">
+numéro de police 
+14 L 510 66
+
+
+ numéro de plainte 
+AAH 886</file>
+  
+  <file path="home/Documents/personal" name="letter_draft.txt">
+[BROUILLON] 
+
+08/05
+
+ Papa.
+
+ Je sais que tu ne comprends pas mes choix, je n'attends pas à ce que tu le fasses. Ce que j'aimerais, par contre, c'est que tu aies la décence de les respecter et de continuer à me traiter comme ton enfant. 
+
+Je quitterai Boston jusqu'à ce que tu sois prêt à le faire. Je ne peux pas supporter que mon héros, mon modèle, vive au même endroit que moi tout en m'ignorant. 
+
+J'ai fait de mon mieux pour être accommodant, compréhensif et pour te faire comprendre cette transition, mais je n'en peux plus. 
+
+Je pars à L.A. avec James. Si tu veux parler, tu as mes numéros. 
+
+Je n'ai pas pris cette décision à la légère. Je ne vois pas d'autre solution. 
+
+J'espère qu'avec le temps tu apprendras à m'accepter. Je t'aime.
+
+ Paul
+  </file>
+
+  <file path="home/Documents" name="chatlog.txt">
+[HotRice] Vous êtes prêts pour le streaming les gars ? 
+[Kiah] Ça dépend... 
+[Kiah] T'es prêt à mourir ?
+[M4cr0b4t] MDR 
+[HotRIce] Ta gueule Johnson ! 
+[HotRice] Sinon je vais chercher le beurre de cacahuètes et les micropuces :P
+[M4cr0b4t] C'ÉTAIT UN PUTAIN DE BON MOMENT 
+[HotTime] Il suffit d'une fois 
+[HotRIce] Où est Hellerphant ? Quelqu'un a de ses nouvelles ? 
+[Kiah] Personne ne sait où il est. 
+[Kiah] C'est une créature fantastique qui apparaît seulement quand on s'y attend le moins. 
+[HotRice] Sérieux, notre programme de stream, c'est un bordel... 
+[HotRice] Je trouve jamais ce que je cherche quand je me connecte, que de rêves brisés...
+  </file>
+  
+  <file path="home/Documents" name="Laptop.txt">
+    L'assurance ne couvrira pas les frais (plaintes, droits, etc... ? ??)  
+  Assurance personnelle  
+  « Non déclarée avant l'incident »  
+  (il faut déclarer ses objets de valeur AVANT qu'ils ne soient volés ???)   
+    
+ Police :  
+  On peut enquêter, impossible de couvrir les frais  
+  Peu de chances qu'un truc de bien sorte de tout ça...
+  </file>
+  
+  <file path="home/Documents" name="TaxReturn002.TAX">#BINARY#</file>
+
+  <file path="home/Work" name="ReportEmailDraft.txt">
+    -Intro  
+  - Rien de concluant, j'ai des pistes  
+  -ordi portable volé dans une convention, contenait les rapports du dossier   
+ -j'avais copié les plus intéressants ici  --- ????? Je l'avais bien fait, non ?
+    -J'enverrai les détails sur ce qu'on a trouvé bientôt
+  </file>
+</Computer>
+

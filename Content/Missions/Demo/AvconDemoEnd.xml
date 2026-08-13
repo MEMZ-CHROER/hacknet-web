@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="avconMissionEnd" activeCheck="true">
+  <goals>
+    <goal type="FileDownload" target="bitMission02" file="Entropy_Induction_Test" path="home" />
+  </goals>
+  <missionEnd val="2">changeSong</missionEnd>
+  <nextMission>Entropy/EntropyMission1.1.xml</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>All Out of Time</subject>
+    <body>Congratulations!
+
+You just completed the AvCon demo of Hacknet!
+The alpha version of the game is already released, and you can get it for free on Desura or IndieCity.
+The game is still in development, and i'm working to finish it prorely and make it the best game it can be before it's next release.
+
+Please let me know what you thought of the game, and if you have any suggestions for the future of it.
+
+Thanks for playing!
+
+--Matt Trobbiani
+
+P.S: If you want more, the linked server might have some clues...
+      
+    </body>
+    <attachments>
+      <link comp="avconCreditsComp" />
+    </attachments>
+  </email>
+</mission>

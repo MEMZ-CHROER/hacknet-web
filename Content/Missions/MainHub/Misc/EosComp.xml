@@ -1,0 +1,85 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hubEosMisison" 
+          name="Sal_Home_Workstation" 
+          security="4"
+          type="2" >
+
+  <file path="home/docs" name="Anastasia.txt">
+[swinters77] So what did you get up to this weekend?
+[jlogan74] Not much, Jerry was out of town again.
+[swinters77] So I guess that means you weren't home.
+[jlogan74] Well....I might have ended up at Rhys' house.
+[swinters77] Jane, this is getting a little out of hand.
+[swinters77] How long can you keep this up?
+[jlogan74] I know, I know. It's just, it's hard you know.
+[jlogan74] Jerry is always away for work, and when he does come home, he's dead tired from all the travelling.
+[jlogan74] I don't even remember the last time we went out anywhere, even for a coffee.
+[jlogan74] Rhys was just kinda there. It was a mistake at first, but now I think it's turning into something.
+[jlogan74] Now I'm in this conundrum.
+[swinters77] I'm going to start calling you Anastasia :P
+  </file>
+  
+  <file path="home/docs" name="lab_nightmare.txt">
+[137847] Did the results come back?
+[137849] They did, inconclusive.
+[137847] Really? I thought for sure we had cracked it this time.
+[137849] The cell count is much higher than last time.
+[137849] But they don't seem to be attacking the host, just sitting idle.
+[137847] I don't know how many more months I can spend on this project.
+[137849] Rome wasn't built in a day. Gods have to earn their power.
+[137847] I don't even remember the last time I slept in my bed at home.
+[137849] Yeah, I know. Your snoring echoes through the whole lab.
+[137847] Really? Damn. Sorry.
+[137849] It's adorable.
+[137849] So what's the plan now?
+[137847] I guess we take the latest sample and try to spin the genetic make up onto a new path.
+[137849] Alrighty. Want to have lunch together today?
+[137847] Depends.
+[137849] On what?
+[137847] Whether they try to feed us that sorry excuse for Salsbury Steak again.
+  </file>
+  
+  <eosDevice name="Elanor Helleran's ePhone 4S" id="salEosPhone">
+    <note>
+ids
+Registration :
+AAX1BB7
+      
+Steam :
+RWINC-HQQAP-WY4VZ
+D04J0-NJZKB-NIAK2
+LQ5TN-687II-PEM99
+LYWYG-H864Y-BVN3M
+47AQ8-8FLQ8-37PKR
+3PIPG-ETMTR-JMXX9
+8PVRG-W9WW5-070VB
+CG0TB-TNBFQ-HNDLV
+JAALV-CDHAD-HJNZB
+NJ38F-PQ388-LEV6N
+LXIIR-XLVYB-V3R66
+VDG22-APHH3-VQCDW
+2RB4T-XW6PF-MX06B
+TJ0KB-CPX0Q-ZT2PM
+0NCV5-NGVV3-59E76
+00Y38-PQ2ZE-FH32Y
+HGWBV-M7N7T-W5K0Q
+    </note>
+    <note>
+Shopping
+      
+Coffee
+Monster
+Rockstar
+NOS
+Amp
+Full Throttle
+Xyience
+Arizona Energy
+Rip It
+Venom
+Food x lots
+    </note>
+    <mail username="sal@jmail.com" pass="22foxhound" />
+  </eosDevice>
+
+</Computer>

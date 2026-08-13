@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="1_mf_1">
+  <goals>
+    <goal type="filedeletion" target="dMF_1_Misc" file="SN_MF_Decompiled.zip" path="home/MemoryForensics"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Speicher-Forensik (1/3)">
+Analysiere die Memory Dumps (1-2), um Links zu einem sicheren Server zu finden.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Speicher-Forensik</subject>
+    <body>
+Während du damit beschäftigt warst, uns neue Tools zu sichern, habe ich neue Software organisiert, um dir bei deinen Untersuchungen zu helfen. Speicher-Forensik – eine Kopie des gesamten RAMs eines Ziels zu machen und mit Tools nützliche Daten daraus zu ziehen – ist etwas, das wir brauchen, um voranzukommen.
+Als Preis dafür bat mich die „Verkäuferin“, das Team ein paar Speicherauszüge/Dumps durchsehen zu lassen, die mit dem Programm kamen.
+Es sollte dir klar sein, aber ich sag es dennoch – das ist offensichtlich eine Falle oder eine Art Test. Die Verkäuferin hat die Tools (selbst GEBAUT!), um dies selbst zu tun. Die Aufgabe an uns weiterzugeben ist ziemlich sicher ein Trick, um Buch zu führen, wer sie verwendet.
+
+Es ist nicht unbedingt eine schlechte Sache, die Verbreitung deines Tools auf diese Weise zu kontrollieren, aber es bedeutet, dass du, wohin auch immer du dich hiermit verbindest, *sehr vorsichtig* hinsichtlich deiner Protokolle und Präsenz sein musst, wenn du deine Identität und Beteiligung nicht preisgeben möchtest.
+Deswegen teile ich die Dateien in drei Gruppen auf. 
+
+Deine zu prüfenden Teile sind die Dumps 1 und 2.
+
+Verarbeite sie mit dem Memory Forensics Tool, das ich auf den Drop-Server geladen habe (ein Leitfaden befindet sich daneben im bin-Ordner) und suche nach ein paar Verbindungen.
+
+Eine Nachricht vom Absender: Bestrafe alle, die die Regeln brechen. Wer versucht, das Speicherauszug-Tool zu dekompilieren und zu verkaufen, sollte die gerechte Strafe erhalten.
+Ich fasse das so auf: „Lösche alle dekompilierten  Memory-Dumper, die du findest, und greife die Systeme an, auf denen du sie findest“.
+
+Und nochmal: sei vorsichtig.
+-Kaguya
+</body>
+    <attachments>
+      <note title="Mission Guidelines">Lade die Speicher-Forensik-Tools vom Drop-Server herunter
+Analysiere die Dumps 1 und 2
+Suche nach Verbindungen in den Auszügen (der Befehl „scan [ip]“ pingt den Server an, ohne dich aus der Forensik-Ansicht zu werfen)
+Lösche alle dekompilierten Memory Dumper und greife die sie enthaltenden Systeme an.
+</note>
+      <link comp="dhsDrop" />
+    </attachments>
+  </email>
+</mission>

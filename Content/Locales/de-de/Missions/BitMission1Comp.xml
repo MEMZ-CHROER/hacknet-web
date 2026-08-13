@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission01" name="P. Anderson's Bedroom PC" security="1" type="4">
+  <file path="log" name="@18907 Connection From XXX.XXX.XXX.XXX" >Verbindung von [IP MASKED] hergestellt.</file>
+  <file path="log" name="@18922 XXX.XXX.XXX.XXX Given Administrator Access">Verbindung von [IP MASKED] hat Administratorrechte erhalten.</file>
+  <file path="log" name="@18928 XXX.XXX.XXX.XXX Acessed File [Valence_Dossier.pdf]">Datei [Valence_Dossier.pdf] wurde gelesen von [IP MASKED] -- System Administrator</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Deleted File [Valence_Dossier.pdf]">Datei [Valence_Dossier.pdf] wurde gelöscht  von [IP MASKED] -- System Administrator</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Disconnected">[IP MASKED] hat die Verbindung getrennt</file>
+
+  <file path="home/Documents" name="Laptop_PoliceReport.txt">
+Polizei nr
+14 L 510 66
+
+
+Antrags nr
+AAH 886</file>
+  
+  <file path="home/Documents/personal" name="letter_draft.txt">
+[Entwurf]
+
+05/08
+
+Vater.
+
+Ich weiß, dass du meine Entscheidungen nicht nachvollziehen kannst und ich erwarte es auch nicht von dir. Was ich jedoch erwarte ist der Anstand, diese Entscheidungen zu respektieren und dass du mich trotz allem noch wie deinen Sohn behandelst.
+
+Bis du dazu bereit bist, bleibt mir keine andere Wahl, als Boston zu verlassen. Ich halte es nicht aus, zu wissen, dass mein Held, mein Vorbild, in der selben Stadt lebt und trotzdem meine Existenz verleugnet.
+
+Ich habe alles versucht, um dir entgegenzukommen; dich zu verstehen - und dir diese Veränderung zu erklären, aber ich halt es nicht mehr aus.
+
+Ich werde mit James nach LA durchbrennen. Wenn du mit mir darüber sprechen willst; du hast ja meine Nummer.
+
+Bitte glaub mir, diese Entscheidung war nicht leicht für mich. Das ist etwas, was ich tun muss und ich hoffe, dass du mich irgendwann als den akzeptierst, der ich wirklich bin.
+
+Hab dich lieb,
+
+Paul
+  </file>
+
+  <file path="home/Documents" name="chatlog.txt">
+[HotRice] Seid ihr bereit zum streamen?
+[Kiah] Kommt drauf an.....
+[Kiah] Seid ihr bereit zu sterben?
+[M4cr0b4t] LOL
+[HotRice] Schnauze Johnson! 
+[HotRice] Zwing mich nicht, die Erdnussbutter und die Microchips zu holen :P
+[M4cr0b4t] ES WAR EIN VERDAMMTES MAL
+[HotRice] Einmal reicht völlig aus
+[HotRice] Wo ist Hellerphant? Jemand was von ihm gehört?
+[Kiah] Es weiß niemand so recht wo er steckt.
+[Kiah] Er ist wie ein magisches Einhorn; Er erscheint dann, wenn du ihn am wenigsten erwartest.
+[HotRice] Im Ernst, unser Zeitplan ist total durcheinander.
+[HotRice] Jedesmal wenn ich online komme ist Nichts fertig - dieser Zeitplan ist nichts weiter als ein Zeugnis schlechter Recherche und zerborchener Träume
+  </file>
+  
+  <file path="home/Documents" name="Laptop.txt">
+    Deren Versicherung will nicht zahlen...
+    Meine private Versicherung
+    "Nicht vor dem Vorfall angegeben."
+    (Ich muss meine Wertsachen anmelden, bevor sie gestohlen werden???)
+    
+    Polizei:
+    "Untersuchen ja, bezahlen - nein"
+    unwarscheinlich, dass da noch irgendwas kommt...
+  </file>
+  
+  <file path="home/Documents" name="TaxReturn002.TAX">#BINARY#</file>
+
+  <file path="home/Work" name="ReportEmailDraft.txt">
+    -Einleitung
+    -Nichts handfestes, Hinweise
+    -Laptop wurde während einer Tagung gestohlen, enthielt wichtige Dokumente.
+    -Hatte zuvor ein Backup der wichtigsten gemacht --- ????? Zumindest war ich mir da sicher?
+    -Werde bald nähere Details zu meinen Ermittlungen schicken.
+  </file>
+</Computer>

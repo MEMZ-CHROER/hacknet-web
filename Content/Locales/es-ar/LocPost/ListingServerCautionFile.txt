@@ -1,0 +1,6 @@
+  ----- WARNING -----  
+
+config.sys es un archivo esencial del sistema.
+NO LO ELIMINES O LO RENOMBRES
+Hacerlo causará la caída del programa.
+Los cambios a la configuración deberán ser hechos solo en los mantenimientos programados para evitar este problema.

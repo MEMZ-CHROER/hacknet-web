@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="EnWS04" name="EnTech Рабочая станция_008" security="5" type="3" ip="156.151.0.42">
+
+  <ports>80, 22, 104</ports>
+
+  <portsForCrack val="3"/>
+
+  <trace time="78"/>
+
+  <admin type="fast" resetPassword="true" isSuper="true"/>
+  
+  <file path="WORKSTATION/store" name="comp.bin">#BINARY#</file>
+  <file path="WORKSTATION/store" name="MedStreamRef.txt">Как мы и договаривались, вот мое письменное разрешение хранить потоковые данные на твоем рабочем столе. Как мы обсуждали, сохрани локальную копию, чтобы всем демонстрировать, над чем ты работаешь. Если тебе не поверят, отправь их ко мне. 
+Для того, чтобы читали другие, оператор рабочей станции 008,  У г-на Jorioni серьезное заболевание сердца -  это программное обеспечение, для того, чтобы помочь ему контролировать потоки данных на станции, которую мы помогли ему настроить, чтобы он мог отслеживать его состояния в случае чрезвычайной ситуации. 
+Мы сделали все от нас зависящее, чтобы помочь г-н Jorioni нашел свое место здесь, в нашем новом в плане разнообразия рабочем месте. 
+Дальнейшие проблемы с его настройкой направляйте мне лично.
+
+-D. Tagg, 
+директор по персоналу.
+  </file>
+  <file path="WORKSTATION/store" name="StoreServIPs.txt">СЕРВЕР ХРАНЕНИЯ IPS--
+Prometheus (для хранения текущих проектов) 
+156.151.1.1
+
+Romulus (сервер Сборки и Развёртывания(также загрузки релизных сборок ))
+156.151.1.12
+  </file>
+  <file path="WORKSTATION/store" name="AssetPack_012.zip">#BINARY##BINARY#</file>
+  <file path="WORKSTATION/store" name="AssetPack_013.zip">#BINARY##BINARY#</file>
+  <file path="WORKSTATION/store" name="Prometheus.txt">
+    d88vAnnX
+  </file>
+  <file path="WORKSTATION/hn_os" name="Hacknet_NetCore.dll">#BINARY##BINARY#</file>
+  
+
+  <positionNear target="EnTechWSCore" position="8" total="12"/>
+
+</Computer>

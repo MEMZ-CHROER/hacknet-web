@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Entropy_DLC_Connector">
+  <goals>
+    <!-- Impossible goal here - this mission isn't completable in the normal sense
+    It leads the player to KaguyaTrials, which replaces this. We don't want the player
+    to skip past this mission by quick replying or anything, so put a debug only goal here-->
+    <goal type="getstring" target="kaguyatrialscompletedebug" />
+  </goals>
+  <missionStart val="1" suppress="true">addFlags:dlc_start_entropy</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#ALERT# - Kaguya Trials"> ### CAUTION ###
+Entropy管理部は本件に危険、高難易度、長時間のフラグを付けています。
+能力に強い自信のある者以外は、一定期間待ってから調査するのが賢明でしょう。
+ ### CAUTION ###
+ 
+正体不明のエージェントから複数のグループのリーダーへ入団試験のメッセージが届いています。自由参加の調査です。
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Kaguya Trials</subject>
+    <body>エージェント各位
+    
+Kaguyaと名乗る人物が、デジタル・セキュリティー・コミュニティーにおける様々な派閥の有力なリーダーや管理者に挑戦状を送信しました。
+あるチームを拡充するための入団試験のようです。Entropyのポリシーに基づき、我々はこ興味を持つであろうすべての関係者にこの招待を転送することを決定しました。
+
+これはEntropyとは無関係の別グループです。ことによっては、Entropyを脱退してKaguyaのグループに入団することになるかもしれません。
+Entropyで請け負ったプロジェクトに未完了のものがある場合や、これまで通りのポジションを希望する場合は、この機会にはある程度時間の猶予があると思われるので、いったん破棄して後日挑戦しても構いません。
+
+今すぐ挑戦するなら、提供されたガイドのIPアドレス（添付）と「トライアル開始」の手順を参照してください。
+
+健闘を祈ります。
+-Entropy管理部
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

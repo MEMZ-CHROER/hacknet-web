@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Memory>
+  <Data>
+    <Block>TestDataBlock1</Block>
+  </Data>
+  <Data>
+    <Block>TestDataBlock2</Block>
+  </Data>
+</Memory>

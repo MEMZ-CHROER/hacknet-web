@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dpetsM1">
+  <goals>
+    
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Neopals - D3f4ult">
+	Le défi old-school légendaire, Neopals, a été lancé à l'équipe en guise de test. Gravissez-moi cette montagne.
+  </posting>
+  <email>
+    <sender>1</sender>
+    <subject>1</subject>
+    <body>--</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

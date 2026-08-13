@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dDemointro1" name="Recap Server" security="3">
+  
+  <!-- This is the first computer in the Kaguya Trials - the dlc intro exe
+  Nothing too confusing or distracting here, this is on a traced server, up to you if you want to add something-->
+  <proxy time="-1" />
+  <portsForCrack val="2" />
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/MiamiThemeLight.xml"/>
+
+  <file path="home/help" name="tryhard.txt">
+  	не получается пройти испытания? иди за кролликом в мозги никкса и за вирусней в темные углы сети. назови IP, чтобы сэкономить 50,00 на первом заказе. большеусилий, нубы! 
+  </file>
+  
+  <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+
+</Computer>

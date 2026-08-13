@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDeletion" target="pointclicker" file="Mengsk.pcsav" path="PointClicker/Saves"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Point Clicker">
+Un client bien intentionné a besoin qu'on supprime des données d'un serveur de jeu pour regagner de la productivité.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Point Clicker</subject>
+    <body>Salutations, civil,
+    
+Je suis dans une situation difficile, et malheureusement, les membres de mon personnel sont trop incompétents pour résoudre le problème. J'ai donc été forcé de demander de l'aide extérieure, aussi désagréable que cela puisse être. 
+Mes informateurs m'ont assuré que cette ligne était sécurisée, je serai donc bref. J'ai fait exploser les scores du jeu « PointClicker » et je souhaite y prouver ma domination absolue à nouveau, mais il n'y pas de bouton de réinitialisation. 
+Vous devez entrer dans leur serveur et supprimer mon fichier de sauvegarde pour que je puisse l'exploser à nouveau. Mon nom d'utilisateur est « Mengsk ». N'hésitez pas à vous prélasser dans la gloire de mes succès avant de réinitialiser. 
+
+Terminé,
+ -M
+    </body>
+    <attachments>
+      <link comp="pointclicker"/>
+      <note title="Pseudo de contact">Pseudo de contact 
+« Mengsk »</note>
+    </attachments>
+  </email>
+</mission>

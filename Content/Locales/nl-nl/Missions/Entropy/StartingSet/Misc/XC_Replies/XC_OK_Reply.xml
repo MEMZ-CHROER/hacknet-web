@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="xcRepOK" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+UNKNOWN POSTING ERROR
+  </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>Re: Intern onderzoek</subject>
+    <body>
+Excellent werk burger, je liet niks aan het lot over en dat werkte.
+
+Dit lijkt allemaal goed - precies de soort bestanden waar ik op hoopte. Hopelijk zal de ijver van het team ons een voorsprong geven in toekomstigen ontmoetingen.
+
+Bedankt,
+-C.O Bradford
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

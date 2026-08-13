@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kfcMainframe" name="CFC Corporate Mainframe" security="5" type="4">
+  <trace time="320" />
+  <proxy time="0" />
+  <firewall level="0" />
+  <dlink target="kfcWebServer" />
+  <dlink target="kfcRecordsRepo" />
+  <admin type="fast" resetPassword="true"/>
+
+  <file path="home/training_files" name="New_Employee_Welcome_Email.txt">
+    %NAME%,
+
+    CFC Ailesi'ne Hoşgeldiniz!
+
+    Colonel's Food Corner size mükemmel bir kariyer, heyecan verici projeler ve harika arkadaşlıklar sunmaktadır. Bizimle harika zaman geçirmenizi umuyoruz!
+    Ekip üyesi olarak bu iletinize %12 indirim sağlayan çalışan kartınız eklemeyi uygun bulduk. İndirimlerin tadını çıkarın!
+
+    İlk vardiyanızda resmi olarak mağaza ve çalışma atamanız yapılacak. Tekrardan; aileye hoşgeldiniz.
+
+    -Yönetim
+  </file>
+
+  <file path="home/training_files" name="11_Secret_Herbs_And_Spices.txt">
+    Yeni çalışanların çoğu gizli formülü merak eder. Bunun sebebi ya meraktır ya da şirketle daha içli-dışlı olmaktır. Ne yazık ki, formüle çok değer verdiğimiz için tüm çalışanlarımıza veremiyoruz (özellikle de çalışanların formülü çalma oranı düşünülürse) ve koruma altında tutuyoruz.
+    Formül mağazalara düzenli olarak işaretsiz beyaz plastik poşetler içinde gönderilir ve direkt olarak tavada pişmekte olan yemeğe dahil edilir.
+
+    Yönetim bile formüle erişemez. Aslında dünya üzerinde formülü sadece 2 kişi bilmektedir (bu iki şahsın aynı anda aynı araçta seyahat etmesi yasaktır).
+
+    Dünyanın geri kalanı ise mükemmel tavuk formülümüzün dikkatlice üretildiğini ve çok gizli tutulduğunu düşünmektedir.
+  </file>
+  <file path="home/training_files" name="Order_Records_Guide.txt">
+    Her mağazanın sipariş kaydı mağazada girilmeli ve kayda alınan güncellemeler yılda bir defa CFC Merkezi Kayıt Deposu'na gönderilmelidir.
+    Siparişlerin kaynak kullanımı da aynı depodan yönlendirilir. Kayıtlar sadece acil durumlarda (genellikle gıda zehirlenmesi vakalarının takibi) açılır ve istek üzerine, kişisel olarak yazılı şekilde temin edilir.
+
+    CFC Merkezi Kayıt Deposu: 202.7.177.65
+
+  </file>
+
+
+  <file path="home/Media" name="Logo.png">#BINARY#</file>
+  <file path="home/Media" name="Logo_Small.png">#BINARY#</file>
+  <file path="home/Media" name="MediaKit_2011.zip">#BINARY##BINARY#</file>
+  <file path="home/Media" name="Guide.txt">
+    Colonel's Food Corner'da tek bir misyonumuz vardır: dünyanın en lezzetli tavuğunu sunmak.
+    Bizde en iyi malzemeleri topladık ve tavuğu taze şekilde sunmaya başladık.
+    Sonra da en taze halinde, gizli tarifimizle hazırlanmış tavuğumuzu lisanslı CFC aşçılarıyla her lokantamızda sunmaya başladık.
+    Kolay mı peki? Hayır. Ancak tüm bu ekstra çabamızı hatırladığımızda her şeye değiyor doğrusu.
+    Zira taze yemek daha lezzetlidir. Evinize en yakın CFC'de durun ve kend ağzınızla tadın.
+  </file>
+
+</Computer>

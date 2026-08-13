@@ -1,0 +1,29 @@
+<ConditionalActions>
+  
+  <OnConnect target="dPets_Home" needsMissionComplete="false">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="2.0">¡Estamos juntos en esto, #PLAYERNAME#!</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="6.0">Te reto a una carrera :P</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="9.2">Tu trabajo parece mucho más divertido que el mío ._.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="14.0">Sí, buena suerte también con tu misterioso negocio secreto, Coel.</AddIRCMessage>
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="84.0">Puf, cada vez que utilizo el tabulador para el protocolo de transferencia de archivos, lo completa con el anterior.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="87.0">Qué frustrante...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="94.0">¿Sabes que puedes...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="98.0">borrar el viejo...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="103.0">verdad?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="107.0">¿incluso renombrarlo con mv?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="112.0">Eh</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="119.0">¿Recuerdas lo que pasó antes? ¿Con la balsa?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="123.0">¿Lo del océano de la vergüenza?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="127.0">¿Sí...?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="129.0">Pues eso</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="133.0">Ja, ja, ja</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="170.0">Algo de información nueva ya que estás en el servidor @channel</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="176.0">Parece que su base de datos es menos sofisticada que la mía. Ellos guardan todos los registros en una única estructura por archivo, lo que hace nuestra vida mucho más fácil.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="180.0">Una vez que tengas el archivo de usuario adecuado, deberías ser capaz de utilizar el comando de reemplazo estándar para cambiar los valores por lo que queramos.</AddIRCMessage>
+
+  </OnConnect>
+  
+</ConditionalActions>

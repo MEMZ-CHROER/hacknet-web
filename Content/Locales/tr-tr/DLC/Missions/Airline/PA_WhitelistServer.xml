@@ -1,0 +1,68 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa_whitelist" name="PacificAir_Whitelist_Authenticator" security="5" type="4" icon="PacificAir">
+
+  <!-- This server is part of the security system the external contractors "Psylance" put in place
+  Connections to the critical servers (Bookings mainframe, mail, and this one) are automatically denied
+  unless they're on the whitelist, hosted on this server.
+  
+  Shortly after the player gets here, Coel or Default will work their magic to disable it.
+  Alt plan is to add the team's IP's to the list, but that involves a lot of extras
+  (making comps for Coel/default if the player follows the lead, scan being less elegant,
+  someone needing to delete those entries after mission is over. Desirables, if I have time)
+  
+  This means that this computer contains a list of external IPs of employee home computers that can access it.
+  Scanning will reveal all of these, as a shortcut.
+  
+  It should contain a few technical documents explaining what it does, and a few notes from the Psylance staff about
+  people who want access etc, and a copy+paste message they can use to deny people.
+  -->
+  
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="55" />
+  <portsForCrack val="2" />
+  <ports>21, 6881, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <positionNear target="dpa_nethub" position="180" total="360" extraDistance="0.1"/>
+
+  <dlink target="dpae_airline_misc"/>
+  <dlink target="dpae_airline_mailLink"/>
+  <dlink target="dpae_airline_home"/>
+  <dlink target="dpae_psy_1"/>
+  <dlink target="dpae_psy_2"/>
+
+  <WhitelistAuthenticatorDaemon />
+  
+  <file path="Whitelist" name="list.txt">
+98.124.245.24
+141.8.224.143
+141.88.107.140
+208.91.197.160
+209.68.11.125
+  </file>
+
+
+  <file path="home" name="general.txt">Bu sunucu Psylance'ın dikine-entegre güvenlik sisteminin bir parçasıdır. Görevi yapının belirli kritik kısımlarına yetkisiz bağlantıların gerçekleştirilmesini engellemektir.</file>
+  
+  <file path="home" name="connection_autodeny_draft.txt">Bağlantı Reddedildi. Sebep: Beyaz Listede Değil
+Eğer bu iletide bir yanlışlık olduğunu düşünüyorsanız lütfen Psylance tasdikli yöneticinize E-POSTA BELİRTİN adresi üzerinden ulaşın.
+not: Pyslance tarafından işletilmektedir</file>
+
+  <file path="home/requests" name="denial_template.txt">Merhaba İSİM BELİRTİN,
+Sunucuya erişim başvurunuz için teşekkür ederiz. 
+Ne yazık ki bu sunucuya erişim sınırlandırılmış ve erişim sebepleriniz beyaz listeye eklenmek için yeterli bulunmamıştır. 
+Eğer önemli bir ayrıntıyı atladığımızı veya iletinizde bir hata olduğunu düşünüyorsanız lütfen Psylance tasdikli yöneticinize E-POSTA BELİRTİN adresi üzerinden ulaşın.</file>
+
+  <file path="home/requests" name="rq_g.txt">girdi:reddedildi
+not:sunucu erişimi konusunda sorumsuz biri olarak bilinir</file>
+
+  <file path="home/requests" name="rq_n.txt">girdi:kabul edildi
+not:takımın önemli, güvenilir ve erişilebilir bir üyesi</file>
+
+  <file path="home/requests" name="rq_test.txt">merhaba. benim adım bla bla ve bla nedeninden ötürü erişmem gerekiyor. lütfen beni içeri alın. çok yalnızım.</file>
+  
+</Computer>

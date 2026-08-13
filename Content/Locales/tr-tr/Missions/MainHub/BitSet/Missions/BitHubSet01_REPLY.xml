@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitHubSet01" activeCheck="true">
+  <goals>
+  </goals>
+  <missionEnd val="1">hubBitSetComplete01</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="CSEC Üyesinin Kaybolması - Soruşturma">
+CSEC'in değerli üyesi, benim ve buradaki birçok kişinin yakın arkadaşı Bit 2 hafta önce ortalıktan kayboldu ve o zamandan beridir kimseyle iletişime geçmedi.
+Elbette pek çok özel soruşturma gerçekleştirilse de bu resmi CSEC gönderisini yardım etmek isteyenler için yolluyorum.
+Kayboluşu veya tercihen şu anki durumuyla ilgili her türlü bilgiye ihtiyacımız var.
+  </posting>
+  <email>
+    <sender>Vap0r</sender>
+    <subject>Yanıt: Bit Soruşturması</subject>
+    <body>Hmm..
+
+Aferin, bulabilmişsin. Umarım fazla sorun yaşamamışsındır.
+Bu bana endişe veriyor. Ben biraz daha araştırma yapacağım. Bir şey bulursam haber veririm.
+
+Teşekkürler.
+-Vapor 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

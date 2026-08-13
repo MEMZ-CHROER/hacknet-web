@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="airline_player">
+  <goals>
+    <goal type="getadminpasswordstring" target="dpa_bookings"/>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="Take Flight - #PLAYERNAME#">
+標的は、ある国際航空会社の予約サーバーのアクセス権です。
+  </posting>
+  <email>
+    <sender>Take Flight - #PLAYERNAME#</sender>
+    <subject>Take Flight</subject>
+    <body>
+標的は、ある国際航空会社の予約サーバーメインフレームのアクセス権です。
+----
+単刀直入に言うと、将来の要人護送プロジェクトのため、国際航空会社Pacific Airの予約メインフレームのアクセス権が必要です。
+
+こちらでもサーバーを調べ、有力な手がかりを掴みました。Bookings Mainframe自体のIPアドレスは判明していますが、侵入するとなるとなかなか厄介です。
+変則的セキュリティーにくわえ、専用のホワイトリストサーバーで保護されています。私たちを含め、外部からの接続は拒否されてしまうでしょう。そのため、代替のエントリーポイント（リンク参照）から侵入経路を探らなければなりません。
+
+ネットワークはPsylance Cyber Securityグループが管理しているので、相当な難関です。追跡されないよう注意してください。
+
+侵入成功したら、予約メインフレームの管理者パスワードをミッション完了画面に入力してください。
+健闘を祈ります。
+</body>
+    <attachments>
+      <note title="Mission Guidelines">
+Bookings Mainframeホワイトリストの調査。
+LAXエントリーポイント経由でネットワークを探索。
+Bookings Mainframeの管理者アクセス権を入手。
+Mainframeのパスワードをミッション完了画面に入力。
+      </note>
+      
+      <link comp="dal_lax" />
+      <link comp="dpa_bookings" />
+      
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,22 @@
+<CustomTheme>
+  <themeLayoutName>colamaeleon</themeLayoutName>
+  <backgroundImagePath>Themes/Backgrounds/Blue.png</backgroundImagePath>
+  
+  <defaultHighlightColor>73,195,222</defaultHighlightColor>
+  <defaultTopBarColor>133,69,5</defaultTopBarColor>
+  <warningColor>255,0,0</warningColor>
+  
+  <shellColor>222,201,24</shellColor>
+  <shellButtonColor>105,167,188</shellButtonColor>
+  
+  <moduleColorSolidDefault>90,64,50</moduleColorSolidDefault>
+  <moduleColorStrong>40,29,14,80</moduleColorStrong>
+  <moduleColorBacking>7,6,5,90</moduleColorBacking>
+  
+  <AFX_KeyboardMiddle>0,120,255</AFX_KeyboardMiddle>
+  <AFX_KeyboardOuter>255,150,0</AFX_KeyboardOuter>
+  <AFX_WordLogo>0,120,255</AFX_WordLogo>
+  <AFX_Other>0,100,255</AFX_Other>
+  <thisComputerNode>95,220,83</thisComputerNode>
+  
+</CustomTheme>

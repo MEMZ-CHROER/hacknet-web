@@ -1,0 +1,133 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitDropBox" 
+          name="Bitwise Drop Server" 
+          security="5"
+          ip="108.160.165.139"
+          allowsDefaultBootModule="false"
+          type="2" > <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <!-- Accounts -->
+  <account username="bittest" password="test" type="1" />
+
+  <dlink id="bitRelay01" />
+  
+  <!-- Security Stuff -->
+  <ports>1433, 22, 21, 80, 25</ports>
+  <portsForCrack val="5" /> <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="6" solution="breezer"/>
+  <trace time="700" /> <!-- Adds a trace timer - set to -1 to remove -->
+
+  <uploadServerDaemon name="Upload Dropbox" folder="Drop"
+                      needsAuth="false" color="163,204,80"/>
+  
+  
+  
+  <file path="sys" name="x-server.sys">#WHITE_THEME#</file>
+
+  <file path="Drop/Uploads" name="test_upload.txt">
+テストファイルだ、無視してくれ。
+  </file>
+  <file path="Drop/Uploads" name="asdf.txt">
+    asdfghjkl
+    qwertyuiop
+    zxcvbnm
+  </file>
+  
+  <file path="Drop/Uploads" name="FileSanitiser.cs">
+    public static class FileSanitiser
+    {
+        public static string purifyStringForDisplay(string data)
+        {
+            data = data.Replace("\t", "    ").Replace("\"", "\"").Replace("\"", "\"");
+            for (int i = 0; i LTHAN data.Length; i++) {
+                if ((data[i] LTHAN 0x0020 || data[i] > 0x007F) AND (
+                    data[i] != 0x000A AND //Allow newlines
+                    data[i] != 0x000B AND
+                    data[i] != 0x000C AND
+                    data[i] != '\n'   )){
+                    //この文字、Unicode基本ラテン文字の範囲外だ！
+                    //これじゃ表示できない
+                    //スペースごとなにかと取替えないと・・・
+                    data = data.Replace(data[i], ' ');
+
+                }
+            }
+            return data;
+        }
+
+        public static void purifyVehicleFile(string path)
+        {
+            string data = Utils.readEntireFile(path);
+            data = data.Replace('\t', '#');
+            data = data.Replace("\r", "");
+            for (int i = 0; i LTHAN data.Length; i++) {
+                if (!GuiData.font.Characters.Contains(data[i]) AND data[i] != '\n') {
+                    data = replaceChar(data, i, '_');
+                }
+            }
+
+            Utils.writeToFile(data, "SanitisedFile.txt");
+        }
+
+        public static string replaceChar(string data, int index, char replacer)
+        {
+            return data.Substring(0, index - 1) + replacer + data.Substring(index + 1, data.Length - index - 2);
+        }
+
+        public static void purifyNameFile(string path)
+        {
+            string data = Utils.readEntireFile(path);
+            string[] split = data.Split(Utils.newlineDelim);
+            string[] d;
+            string ret = "";
+            for(int i = 0; i LTHAN split.Length;i++) {
+                d = split[i].Split(Utils.spaceDelim, StringSplitOptions.RemoveEmptyEntries);
+                ret += d[0] + "\n";
+            }
+
+            Utils.writeToFile(ret, "SanitisedNameFile.txt");
+        }
+
+        public static void purifyLocationFile(string path)
+        {
+            string data = Utils.readEntireFile(path);
+            char[] delims = {'\t' };
+            string[] split = data.Split(Utils.newlineDelim);
+            string[] d;
+            string ret = "";
+            for (int i = 1; i LTHAN split.Length; i++) {
+                d = split[i].Split(delims, StringSplitOptions.RemoveEmptyEntries);
+                for (int j = 1; j LTHAN d.Length; j++) {
+                    ret += d[j].Trim() + "#";
+                }
+                ret += "\n";
+            }
+
+            Utils.writeToFile(ret, "SanitisedLocFile.txt");
+        }
+
+    }
+  </file>
+  
+   <file path="Drop/Uploads" name="Where_Are_You.txt">よう、返事返してくれないじゃん。何してるんだ、パーティかなんか？
+もう一週間経ってるんだ、どこにいるのか教えてくれ。例のあれが何なのか、まだ教えてもらってないし。
+
+-V
+  </file>
+  
+  <file path="Drop/Uploads" name="READ_all_hackers.txt">
+私がこのサーバーを確認するのもたぶんこれが最後だが、どうやら誰かがこのサーバーに干渉している。
+タイミングは悪いが、まあいい。EnTechのもとで大きなプロジェクトにいくつも携わってきたが、
+どうも雲行きが怪しい。
+向こうはもう私のことを必要としていないだろうし、そうでなくともいい印象は持っていないだろう。
+
+実際のところはわからない。単に私が怯えているだけなのかもしれない。とりあえず、ここに何か危険がないか
+調べてみる。必ず何かある、私の直感はそう言ってる。
+
+-Bit
+1
+  </file>
+  
+ 
+  
+  
+</Computer>

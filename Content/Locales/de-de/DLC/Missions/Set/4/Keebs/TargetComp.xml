@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dKeebs" name="ClickLab Productions" security="1" type="4" icon="DLCPC1">
+
+<!-- LOC-Note: Translation edited -->
+
+  <proxy time="1" />
+  <portsForCrack val="3" />
+  <ports>21, 6881, 443</ports>
+  <trace time="85" />
+
+  <file path="home/keebs" name="Switches.txt">Kaufberater: Switches
+----------------------
+Tastaturschalter oder Switches unterliegen immer dem persönlichen Geschmack. Ich empfehle daher, selbst einmal loszuziehen und ein paar Modelle in einem Laden oder so auszuprobieren, bevor du etwas kaufst. Wenn das aber nicht m;glich ist, findest du hier eine Übersicht darüber, wie sie sich anfühlen.
+Ich werde zuerst die Typen beschreiben und später kurz auf die Unterschiede zwischen Marken eingehen.
+
+Browns:
+Das sind deine „Standard“-Switches – haptisch (was bedeutet, dass sie in gewisser Weise anstoßen, wenn du sie drückst und so genau spürbar ist, wann der Schalter aktiviert wird), angemessen leicht, ohne viel weiteres Klicken.
+Browns sind so ziemlich das, was ich jedem empfehlen würde, der zum ersten Mal Switches kauft, ohne zuerst etwas anderes auszuprobieren. Sie fühlen sich großartig an und sind eine gute Möglichkeit, um zu schauen, was dir an einer Tastatur gefällt, ohne direkt eine Enttäuschung zu erleben.
+Im Grunde mag jeder die Braunen und sie sind eine gute Möglichkeit, um dir einen Stoß in Richtung dessen zu geben, was dir wirklich gefällt.
+
+Reds:
+Reds sind als lineare Browns konzipiert. Linear bedeutet, dass sie bei der Aktivierung nicht anstoßen, sodass der Widerstand beim Betätigen der Taste durchgehend gleich bleibt. Sie werden im Allgemeinen als „besser für's Gaming geeignet“ beworben, doch um ehrlich zu sein, erscheint mir das etwas lächerlich.
+Viele Leute (mich eingeschlossen) sind der Ansicht, dass sich Reds beim Betätigen etwas „schwammig“ anfühlen – ich selbst vermisse den Anstoß, wenn der Schalter aktiviert wird. Einige Leute schwören jedoch darauf.
+
+Blues:
+Dies sind Browns mit einem zusätzlichen Mechanismus im Inneren des Schalters, der ein zusätzliches Klickgeräusch abgibt, wenn der Schalter betätigt wird. Sie sind superlaut (zu laut für mich), durch das kleine bisschen Feedback mehr fühlen sie sich beim Betätigen jedoch großartig an.
+Wenn du mit anderen Leuten zusammenlebst oder -arbeitest, fang am besten mit Browns an und bedenke, dass du diese hier mit aufgesetzten Kopfhörern hören kannst.
+
+Und nun zu den „schwereren Varianten“ – vom Design her sind sie identisch zu den Switches oben, sie sind jedoch mit einer schwereren Feder ausgestattet, wodurch sie etwas schwieriger zu betätigen sind.
+Durch diese Schwergängigkeit fühlt sich die Tastatur stark und teuer an, was ganz nett ist. Wenn du aber eine Weile am Schreibtisch sitzt, können deine Finger wehtun und es dauert etwas, bis man sich daran gewöhnt.
+
+Greens sind schwerer als Blues
+Blacks sind schwerer als Reds
+Clears sind schwerer als Browns
+
+Die gängigsten Hersteller für Switches sind Gateron und Cherry.
+Gaterons haptische Schalter (blau, braun und grün) sind im Grunde die weichere, billigere Version der Cherry-Schalter. Hol dir also lieber Letztere.
+Gateron-Clears sind aber NICHT schwere Browns – aus irgendeinem Grund sind sie leichter als Reds (?!??!?!?!?!?!!). Das habe ich auf die (sehr) teure Art rausgefunden.
+Die linearen Schalter von Gateron fühlen sich auch etwas wackelig an – hol dafür also lieber Cherrys. Im Grunde kannst du mit Cherry nichts falsch machen. Die funktionieren toll. Gateron-Braunen sind allerdings großartig.
+
+  </file>
+
+  <file path="home/keebs" name="Advanced_Switches.txt">Ungewöhnliche Switches und Switches für Fortgeschrittene
+------------------------
+
+Ok, sprechen wir mal über Topre.
+Topre hat ziemlich gutes Zeug auf Lager. Ich schreib das hier gerade auf meiner Topre RF87U. 55g uniform for life. Kein Zweifel.
+
+Topre ist ein japanisches Unternehmen, das eine besondere Art von Schalter herstellt, der elektrostatisch kapazitiv ist. Sie fühlen sich ein wenig anders an als klassische mechanische Schalter und es ist Geschmacksache, ob sie dir gefallen oder nicht.
+Manche sagen, dass sie sich wie teure Rubber-Dome-Tastaturen anfühlen, während andere behaupten, dass sie sich einfach verdammt gut anfühlen. Sie sind nicht für jeden geeignet, doch im Grunde widerspreche ich jedem, der das denkt. Sie sind seltsam und toll und mein Favorit.
+
+Der einzige Nachteil ist, dass du sie nicht mit anderen Keycaps (Tastaturkappen) bestücken kannst, weil sie keine Cherry MX-Schäfte haben. Außer, dass sie dieses Problem jetzt gelöst haben und nun Tastaturen mit neuen Schäften herausbringen, die das unterstützen. Und für die, vertrau mir einfach – hol dir einen Satz Hypersphere-Dämmringe und setz die darauf – dadurch fühlt sie sich mehr wie eine Realforce an, deren Caps du tauschen kannst und die Hintergrundbeleuchtung hat (aka: der Traum)
+
+Zealios.
+Und MOD-X-Switches. Das sind einige modifizierte Switches aus der Community mit besonderen Gewichten und Herstellungsprozessen. Zealios werden häufig auch „lila Gaterons“ genannt.
+Sie liegen zwischen Cherrys Browns und Clears, besitzen die Leichtgängigkeit von Gaterons, und sind für viele die perfekten Endgame-Switches. Du wirst aber deine eigene Tastatur zusammenstellen müssen, um sie irgendwo einbauen zu können, und an dem Punkt ist man dann schon ziemlich tief drin.
+  </file>
+  
+  <file path="home/keebs" name="Keycaps.txt">Keycaps
+------------------------
+Melde dich bei Massdrop an, geh zum /r/MechanicalKeyboards Subreddit und bleib auf dem Laufenden, was Keycaps angeht. Rechne mit 200 US$ und 9 Monaten Wartezeit, um an deine kleinen Plastikteile zu kommen. Aber damn, sehen sie gut aus.
+
+Signature Plastics in den USA, TaiHao in Taiwan und GMK in Deutschland sind hier im Moment die größten Hersteller. TaiHao ist billig und schön, GMK ist teuer und *sehr schön* und SP ist teuer, aber die einzige Möglichkeit, Tastenkappen im SA- oder DSA-Profil zu bekommen.
+
+Oh ja, Profile. Normale Mech-Tastaturen verwenden ein OEM-Profil, das dem „Cherry“-Profil stark ähnelt (oder häufig genau gleich ist). TaiHao und GMK verwenden das Cherry-Profil.
+
+SP stellt Caps mit SA- und DSA-Profil her. SA-Kappen sind hoch, glänzend und gewölbt, DSA-Kappen sind einheitlich, niedrig und flach – eher wie eine Laptop-Tastatur. Du solltest dir ein paar Bilder davon anschauen!
+Das Problem ist, dass diese Firmen gewöhnlich nicht viel auf Lager haben. Es ist daher normal, nach Angeboten und Gruppenkäufen neuer Sets Ausschau zu halten. In der Community gibt es einen Haufen von Designern, die Sets vorschlagen, und sobald sie durchgehen, kannst du dich für eine Bestellung eintragen lassen.
+Das macht riesig Spaß! Hier ein paar gute Beispiele:
+
+GMK Carbon
+DSA Dolch
+TaiHao Sunset
+SA CalmDepths
+  </file>
+  
+  
+  <file path="home/keebs" name="BoardLayout_Design_Notes.txt">
+TenKeyless (ohne Ziffernblock) ist ganz nett, aber hauptsächlich, weil es scheiße ist, den Ziffernblock zwischen deiner Hand und der Maus zu haben, und so große Tastaturen einfach nur klobig aussehen.
+Meine Meinung – der Ziffernblock auf der linken Seite (wie bei der Monarch) - das ist die Zukunft.
+Auf die Navigations- und Pfeiltasten werde ich trotzdem nicht verzichten.
+
+Ich denke, dass benutzerdefiniertes Design einfach Bombe ist – jeder nutzt seine Tastatur anders, weshalb ich auch einfach Tasten, die ich nicht nutze, streichen werde.
+Nachdem ich eine Weile lange eine WhiteFox verwendet habe, bin ich ziemlich überzeugt davon, dass kleinere Tastaturen toll sind – die Rückkehr zur Standardgröße fühlt sich so sinnlos riesig und schwerfällig an.
+
+Die Feststelltaste ist so eine schreckliche, unpraktische Verschwendung von erstklassigem Platz. Man sollte sie mit der Steuerungstaste vertauschen.
+Noch besser – man sollte sie mit der Steuerungstaste vertauschen und STRG für etwas anderes verwenden und die Feststelltaste auf irgendeine Funktionsebene schieben.
+
+Navigationsgruppe: Beim Testen hat sich gezeigt, dass ich die Pfeiltasten durch den leeren Platz oberhalb der rechten Taste gewöhnlich auch blind finde – solange es 1 Unit Platz über dieser Taste gibt, ist sie einfach zu finden.
+Der 1U-Platz links neben der Pfeilgruppe auf der WhiteFox sieht gut aus, ist aber letztlich sinnlos. Meine Designs nach hat das Hinzufügen einer neuen Taste dort nicht wirklich viel Sinn, weshalb ich wahrscheinlich beide Lücken beibehalten werde.
+  </file>
+  
+  <file path="home/keebs" name="the_dream.txt">
+Custom Layout -> Ziffernblock links, kompakte Navigationsgruppe.
+55g-Uniform-Topre-Switches mit Novatouch-Slidern
+Geräuschdämmende Hyperspheres
+Caps häufig tauschen (mit DSA Dolch anfangen?) 
+Aluminium-Faceplate mit doppelter Tiefe und beleuchtetem Gehäuse aus Acryl – Monarch-Style.
+Vollständig programmierbar mit input.club
+
+Walnuss-Handgelenkstütze
+</file>
+  
+  <file path="home/keebs" name="purchase_blacklist.txt">
+ChucklingKumquat
+</file>
+
+  <file path="home/projects" name="Adonis87U_PCB_Spec.gbr">#BINARY#</file>
+  <file path="home/projects" name="Adonis68ISO_PCB_Spec.gbr">#BINARY#</file>
+  <file path="home/projects" name="layout_wip.txt">http://www.keyboard-layout-editor.com/#/gists/0ffdf87af5ba50af1a1018052012832b</file>
+  
+  <file path="home/records" name="purchase_blacklist.txt">
+ChucklingKumquat
+</file>
+  
+  <Memory>
+    <Data>
+      <Block>http://imgur.com/a/B1Iox</Block>
+    </Data>
+  </Memory>
+
+</Computer>

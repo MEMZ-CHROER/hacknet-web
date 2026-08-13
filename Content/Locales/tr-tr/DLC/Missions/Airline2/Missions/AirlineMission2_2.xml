@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="airline2_player">
+  <goals>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="D3f4ult - PacificAir Protokol Çözümleme">
+PortSmasher'a ulaştık. Şimdi de PacificAir'ın daha üst seviyedeki sunucularına girmemiz gerek. Protokollerini incele ve fark edilmeden girmenin bir yolunu bul.
+  </posting>
+  <email>
+    <sender>blank</sender>
+    <subject>blank</subject>
+    <body>
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dlcDemoIntro2">
+  <goals>
+    
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Tex</sender>
+    <subject>Tr : Les Épreuves de Kaguya</subject>
+    <body>
+Salut à tous,
+
+J'ai reçu ce lien, et j'ai pensé que le groupe devait être mis au courant. On dirait que quelqu'un cherche à fonder une équipe. 
+Si quelqu'un est intéressé par de nouveaux projets, ça vaut peut-être le coup d'aller vérifier. Je suis allé voir, mais j'ai vraiment pas le temps de m'occuper de ça maintenant.
+Quelqu'un a la moindre idée de qui est ce « Kaguya » ? Il ne m'est pas familier.
+
+Quoi qu'il en soit, voilà le lien, continuez à défendre la bonne cause.
+-Tex
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

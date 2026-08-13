@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission02" activeCheck="true">
+  <goals>
+    <goal type="FileDownload" target="bitMission02" file="Entropy_Induction_Test" path="home" />
+  </goals>
+  <nextMission>Entropy/EntropyMission1.1Delayer.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>これからについて</subject>
+    <body>よし！このメールを読んでるということは、君はうまくやってくれたんだな。それに・・・まあ、なにか役には立ってるはずだ。
+私は多くを期待しすぎかな？なんだかそんな気がするよ。
+
+気づいたんだが、こういうメッセージを全部書けるだけの猶予はどうも残ってないみたいだ。学んでほしいことは山ほどあるのに、教えてやれる
+だけの時間がない。だから、君にもうひとつお願いをしたい。
+
+「Entropy」と呼ばれるグループが、最近新しいメンバーを募集している。彼らなら君にいろいろ教えられる。
+君の準備ができたら、また私から連絡しよう。
+Entropyに入団するには、プロキシサーバーを回避する必要がある。君がすでに管理者権限を持っているコンピュータのシェル
+（コマンド「shell」をつかって起動してくれ）を使えば、プロキシをオーバーロードさせることができるだろう。
+
+幸運を祈る・・・
+君には感謝してるよ。
+
+--Bit
+0
+
+追伸: 忘れるところだった。私の言っていることを難しく感じた時のために、ネットワーク教育用アーカイブサーバーのリンクを添付しておく。
+いろいろと便利な情報が置いてあるぞ。
+    </body>
+    <attachments>
+      <note title="プロキシサーバーの情報">プロキシサーバーについて簡単にまとめた。Entropy入団試験の定番だ。
+
+コマンド「Shell」で、管理者権限を持つコンピュータのシェルを立ち上げる。
+
+目標のコンピュータに接続し、「probe」でセキュリティを調べる。
+
+シェルを使って目標のプロキシをオーバーロードさせる。
+
+詳細は添付した教育用アーカイブを見るように。
+      </note>
+      <link comp="netEduComp" />
+      <link comp="bitMission02" />
+    </attachments>
+  </email>
+</mission>

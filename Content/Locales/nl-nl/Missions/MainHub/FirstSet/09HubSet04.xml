@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="modifyDeathRowRecord" name="John Boorman">I'm ready, Warden</goal>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Voeg een Death Row dossier toe voor een familielid">
+Een familielid van een geexecuteerd individu heeft ons gevraagd om hun death row dossier toe te voegen aan de officiele lijst.
+Er zat blijkbaar wat duisters achter het vonnis (ze zeggen dat het oneerlijk was) en het lijkt dat de progingen om het te verbergen
+het dossier van de officiele lijst hebben gehouden. In hun woorden "We willen ten minste zijn laaste woorden onthouden".
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Onrechtvaardige Afwezigheid</subject>
+    <body>
+We willen dat je een death row dossier maakt. Het familielid heeft gevraagt dat zijn correct dossier toegevoegd werd aan de databank met de volgende details:
+
+------------------------------------
+Voornaam: "John"
+
+Achternaam: "Boorman"
+
+Laaste woorden: "I'm ready, Warden"
+------------------------------------
+
+De rest zou niks uit moeten maken, maar je moet wel andere dossiers zo goed mogelijk namaken.  Om je hierbij te helpen, is er een template dossier naar de CSEC asset server geupload (In home/Templates).
+We raden je aan het de kopieeren, te bewerken en up te loaden. Onthoud het bestand goed te hernoemen ("mv" commando) om de naam en dossiernummer (dat jij kiest) goed te reflecteren.
+
+Een bericht van de vragende partij:
+"Hartelijk bedankt voor je hulp. Alles in deze rechtzaak was duister vanaf het begin. We geloven nog steeds dat hij onschuldig was en we doen onze best om dat boven tafel te krijgen, zelfs nu nog.
+Vooralsnog, afwezig zijn van de databank is een belediging naar hem. Ten minste worden zijn laatste woorden bewaard. Opnieuw, bedankt."
+    </body>
+    <attachments>
+      <link comp="mainHubAssets" />
+      <link comp="deathRow" />
+      <note title="Record Details">Voornaam: "John"
+Achternaam : "Boorman"
+Laaste woorden: "I'm ready, Warden"</note>
+    </attachments>
+  </email>
+</mission>

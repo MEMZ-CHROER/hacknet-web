@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa_nethub" name="PacificAir_Network_Hub" security="5" type="4" icon="PacificAir">
+  
+  <!-- Network hub for the airline. This is an "internal Services" node for the airline,
+  it runs misc services and hosts data for them. This sort of catch-all, "don't know
+  where to put it so just put it there" server exists *a lot* in corporate networks.
+  Because of it's generic nature, it's the easy answer to where things go, so it naturally
+  becomes the center of things over time.
+  
+  Mechanically, it mostly exists to provide a central point from which players can reference things,
+  and for players to feel like the network is big and expansive, when not everything has a specialized role.
+  
+  In terms of the files it'll have on it, probably a few memos from people to one another (and another one
+  complaining that they should just use the company email for that sort of thing), bits and pieces that
+  employees want to send each other, or be able to access at work, both personal and work-related.
+  We don't want players to spend too long here (there isn't anything too useful to the mission to find) so keep
+  it light.-->
+
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="61" />
+  <portsForCrack val="4" />
+  <ports>22, 21, 443, 6881, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <dlink target="dpa_mail" />
+  <dlink target="dpa_bookings" />
+  <dlink target="dpa_whitelist" />
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/PacificAir_Big" title="DLC/Sprites/PacificAirTitle" overdrawLogo="true" buttonAlignment="right" />
+  
+  
+  <file path="home/memos" name="0504_nkudo_contractors.txt">
+Das ist eine öffentliche Mitteilung, mit der ich Nat anprangere, weil sie mir die Auftragnehmerlisten nicht besorgt hat
+Mach schon!!!! -g</file>
+
+  <file path="home/memos" name="0505_gfinbow_clarification.txt">An Griffin: öffentliche Mitteilung
+Neuerdings sind mir
+Gewisse Dinge bewusst geworden
+Richtig, es ist ein langer Prozess
+Ich hab dir Probleme bereitet, und das tut mir Leid!
+Für dich ist das sicher sehr frustrierend
+Finbow-Senpai, bitte vergib mir!
+In der Tat ist es wie gesagt ein langer Prozess.
+Natürlich ganz zu schweigen von den Überstunden, die ich geschoben habe! Haha!
+Lass uns noch mal ganz von vorne anfangen? :)
+Echt, ich würde es gerne versuchen!
+Clevererweise gelten die gleichen Regeln.
+Komm, wir holen uns einen Kaffee und alles ist gut.
+Mach keinen Blödsinn!
+Ich habe es gern, wenn du mich anbrüllst.
+Charmant! Ich komme jetzt zum Ende.
+Hiermit ist die Mitteilung beendet und ich mich wieder an die Arbeit.
+Ach ja, vergiss nicht, den ersten Buchstaben von jedem Satz zu lesen! -nat</file>
+
+  <file path="home/memos" name="0506_hfadden_contractors.txt">
+Benehmt euch, ihr zwei. Wenn ihr euch nicht wie Erwachsene verhalten könnt, entziehe ich euch den Zugang zu diesem Rechner. 
+-Harry</file>
+
+  <file path="home/memos" name="0507_hg.txt">
+    k
+  </file>
+
+  <file path="home/memos" name="0508_nkudo.txt">Sieht so aus, als wäre es Psylance. Übrigens, Danke für die Liste.
+-g</file>
+
+  <file path="home/memos" name="0509_g.txt">Stell dir vor, du hättest mich nicht passiv-aggressiv dazu angetrieben, dir die Liste so schnell zu schicken haha -n</file>
+
+  <file path="home/memos" name="0510_everyone_STOP_THIS.txt">DAS IST EIN PRODUKTIONSSERVER. HÖRT AUF, DAS DATEISYSTEM MIT MITTEILUNGEN ZU SPAMMEN. 
+VERWENDET DAS MESSAGE BOARD IM INTRANET ODER DAS E-MAIL-SYSTEM, DAS ICH IN EINER WOCHE MÜHSELIGER KLEINARBEIT EINGERICHTET HABE, IHR IDIOTEN!
+
+VERDAMMT NOCHMAL.
+
+-ADMIN</file>
+
+  <file path="home/memos" name="0510_to_admin.txt">
+    u mad bro?
+  </file>
+
+  <file path="home/memos" name="0511_everyone.txt">Griffin hat seine Zugriffsrechte verloren. Lasst euch das eine Warnung sein.
+-admin
+  </file>
+
+  <file path="home/share" name="underwater.txt">Schau mal, Alter, was hältst du davon, wenn wir die Marinereserve mal ausprobieren? fragte Ross. Unter normalen Umständen würde ich ja über Sandhurst gehen, aber das sind keine normalen Umstände. Der Krieg ist vielleicht schon gelaufen, bis wir die Ausbildung abgeschlossen haben.
+
+Ich würde auch lieber etwas vom Spaß mitkriegen, stimmte Vernon zu.
+
+Als ob wir das nicht schon hätten, fügte sein Kumpel hinzu. Aber ich weiß, was du meinst. Statt wie die Sardinen in einem U-Boot zu stecken und von unseren Burschen gejagt zu werden, wollen wir lieber mit dabei sein, wenn wir die deutschen U-Boote einfangen. Ich werde unsere jeweiligen Gouverneure deswegen anschreiben.</file>
+
+
+  <file path="home/share" name="bonzibuddy.msi">#BINARY#</file>
+
+  <file path="home/share" name="bonzibuddy_v2.msi">#BINARY#</file>
+
+  <file path="home/share" name="the_tingler.msi">#BINARY#</file>
+
+  <file path="home/share" name="frog_fractions_3_beta.txt">#BINARY#</file>
+
+</Computer>

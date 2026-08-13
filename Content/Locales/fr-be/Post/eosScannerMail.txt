@@ -1,0 +1,12 @@
+﻿﻿Hé ami entropiste,
+
+Donc, le eOS Device Scanner est uploadé sur ton serveur de ressources (~/bin/eosDeviceScanner.exe) - ça doit fonctionner comme une connexion standard ciblée sur exe.
+Parce qu'il faut lire une série de fichiers dans un répertoire système (pour obtenir les infos sur les appareils synchros de l'ordinateur cible), il faut un accès admin à la machine cible pour commencer - une fois que c'est fait, ça devrait être bon même si tu le perds ou te déconnectes.
+Fondamentalement, ça fonctionne en vérifiant les sauvegardes faites lorsqu'un appareil se synchronise sur un ordinateur, puis prétend faire une nouvelle synchro sans fil avec l'appareil et utilise un exploit pour ouvrir un port ssh, etc. etc. 
+
+Voilà l'astuce, car les utilisateurs d'eos n'ont pas accès au terminal depuis leur propre appareil, tous les mots de passe d'admin sont les mêmes (!) – pour toute la gamme de produits !
+
+C'est "alpine" – inutile de me remercier, je viens juste de te faire gagner un million d'années au bas mot.
+J'attends le paiement convenu dès que cet upload est fini, on est ok ?
+
+-vtfx

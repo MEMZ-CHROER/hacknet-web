@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mainHubAssets" name="CSEC Assets Server" security="4">
+  <adminPass pass="csec-5xg3D11" />
+  <admin type="fast" resetPassword="false"/>
+  <positionNear target="mainHub" position="5" total="6" />
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="template.txt">[VORNAME]#[NACHNAME]#[RECORD_NUM]#32#Rural#N/A#N/A#N/A#[LETZTE_WORTE]</file>
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="FileNamingScheme.txt">
+Death-Row Datenbank Dateinamenschema:
+
+Nachname_Vorname[Aktennr]
+
+Es wird empfohlen, dass Sie sich eine Kopie der template.txt Datei besorgen, sie lokal bearbeiten und umbenennen, sodass die Datei dem vorgegebenen Schema entspricht, bevor Sie diese in die Datenbank hochladen.
+Beispiel: Doe_John[12345]
+
+Da Sie es wahrscheinlich bevorzugen, alle Platzhalter in der template Datei zu ersetzen, sollten Sie diese Methode verwenden:
+1: Markieren Sie die Datei als "aktiv" (einfachste Methode hierfür ist die Datei mit dem 'cat' Befehl zu lesen - "cat template.txt")
+2: Verwenden Sie 'replace' ohne Verwendung des Dateinamens - (replace "[FIRST_NAME]" "John")
+3: Wiederholen Sie den 2. Schritt bis die Datei Ihren Vorstellungen entspricht
+4: Benennen Sie die Datei um (mv template.txt Doe_John[12345])
+5: Laden Sie die Datei in die Datenbank hoch (verbinde dich mit der Remote-Datenbank, "upload /home/Doe_John[12345]" - Vergewissern Sie sich bitte, dass Sie sich in dem Ordner befinden, in den die Datei hochgeladen werden soll!)
+</file>
+  
+  <file path="bin/SQL_Mem_Corrupter" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+  <file path="bin/SQL_Mem_Corrupter" name="info.txt">
+--SQL Memory Corruption Injector Readme--
+    
+Der SQL-Memory-Corruption-Injector (SQL_MemCorrupt.exe) nutzt gezielt eine Schwachstelle in offenen SQL-Ports (Standardmäßig 1433) aus.
+Er injiziert einen Tabelleneintrag, der beim Lesevorgang einen Memory-Corruption-Fehler in der Datenbank auslöst. Anschließend wird besagte Tabelle sofort ausgelesen, was einen sofortigen Absturz der Datenbank nach sich zieht.
+Dies erlaubt vorübergehend unauthorisierten Datenverkehr auf diesem SQL-Port, bis das OS die abstürzende SQL-Verbindung kappt und den Dienst neu startet.
+
+Das Programm, falls im Display-Modus, wird seinen Betriebszustand in der Kopfzeile ausgeben, sowie unterhalb die SQL Server Ausgabe (idealerweise ein Speicherabbild des injizierten Eintrages).
+</file>
+
+  <file path="bin/WebServerWorm" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin/WebServerWorm" name="info.txt">
+--Web Server Worm Readme--
+
+Dieser Webserver-Wurm kann gezielt gegen HTTP Webserver eingesetzt werden. (welche generell auf Port 80 oder 8080 laufen)
+Dieses Programm nutzt einen Fehler in den aktuellsten Versionen von Webserver-Software aus; hierbei wird ein Pufferüberlauf ausgenutzt, um beliebigen Code injizieren zu können (den Wurm).
+Während dieser Wurm auf dem Server ausgeführt wird, wird dieser jeglichen eingehenden Datentransfer durch den Webport an das OS weiterleiten und so die Port-Security umgehen.
+Dies erwirkt das Öffnen des Ports für freie Nutzung.
+
+Dieser Wurm behindert dabei *nicht* den normalen Betrieb des Webservers selbst; zum Einen, weil dies zur leichteren Erkennung des Wurms selbst führt; und zum Anderen, da es für Außenstehende sehr eindeutig erkennbar macht, dass etwas Ungewöhnliches passiert.
+
+</file>
+
+  <file path="bin/Sequencer" name="Sequencer.exe">#SEQUENCER_EXE#</file>
+
+  <file path="Themes" name="CSEC_x-server.sys">#WHITE_THEME#</file>
+  <file path="Themes" name="Mint_x-server.sys">#MINT_THEME#</file>
+  <file path="Themes" name="Teal_x-server.sys">#TEAL_THEME#</file>
+  <file path="Themes" name="Blue_x-server.sys">#BASE_THEME#</file>
+  
+  
+</Computer>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpae_psy_2" name="Vito McMichael's Laptop" security="3" icon="DLCLaptop" ip="209.68.41.129" type="4">
+
+  <!-- Laptop of another Psylance employee. contains some bitching about how hard it is to keep
+  untrained people secure on a network. Contains a link to the IRC server of the Psylance workers.
+  This will be one of the people that posts on the IRC, so you can do callbacks here to that.-->
+
+  <firewall level="-1"/>
+  <trace time="60" />
+  <portsForCrack val="3" />
+  <ports>21, 443, 6881</ports>
+
+  <positionNear target="dpa_whitelist" position="180" total="290" extraDistance="0"/>
+
+  <dlink target="dpa_psylance" />
+
+  <file path="home" name="notes_for_keeping_the_idiots_down.txt">comment garder des personnes non qualifiées en sécurité sur un réseau
+étape 1 : ne pas leur donner les privilèges administrateur
+étape 2 : ne pas les laisser envoyer de mail en dehors de la compagnie sauf autorisation
+étape 3 : ne pas les laisser utiliser d'appareils personnels
+étape 4 : ne pas les laisser se plaindre- rediriger leurs réclamations vers un dev', ou à la corbeille
+étape 5 : Constater que malgré tout, ça va merder
+étape 6 : aller se faire foutre</file>
+
+  <file path="home" name="irc_address.txt">Vito,
+Arrête d'oublier l'adresse IP. Écris-la quelque part, je sais pas...
+50.31.225.93
+Ça fait six mois que tu bosses ici, et toutes les deux semaines ça recommence. Ressaisis-toi, bordel.
+Darryl
+
+P.-S. Continue de raconter des conneries sur ma mère, et je fais une demande directe pour te faire faire rétrograder.</file>
+  
+</Computer>

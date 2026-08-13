@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="macrosoftWorkhorse04" name="Рабочий сервер Macrosoft 04" ip="168.61.82.245" security="3" type="3">
+  <ports>21, 80, 1433</ports>
+  <portsForCrack val="3"/>
+  <firewall level="-1"/>
+  <trace time="240"/>
+  <proxy time="0"/>
+
+  <file path="WORKLOGS" name="0118917.log">
+    ЗАДАЧА: ШИФРОВАНИЕ ФАЙЛА 
+ПАРАМЕТРЫ:
+    Файл: LemonStealingWhore.avi
+    Выход: SeriousBuisnessDocuments.dec
+    -------------------------------------- 
+   ЗАДАЧА ВЫПОЛНЕНА - ОБНАРУЖЕНО 0 ОШИБОК
+  </file>
+
+  <file path="WORKLOGS" name="8978163.log">
+    ЗАДАЧА: КОМПИЛЯЦИЯ ИСХОДНИКА (C#) 
+   ПАРАМЕТРЫ:
+    Файл: Main.cs
+    Выход: WinC_DEBUG_NONRELEASE.exe
+    --------------------------------------
+    ЗАДАЧА НЕ ВЫПОЛНЕНА - ОБНАРУЖЕНА 1 ОШИБКА
+    ФАЙЛ Main.cs НЕ НАЙДЕН
+  </file>
+
+  <file path="WORKLOGS" name="3345633.log">
+    ЗАДАЧА: ШИФРОВАНИЕ ФАЙЛА
+ ПАРАМЕТРЫ:
+    Файл: WinCE_FirmwareSpecs.pdf
+    Выход: WinCE_FirmwareSpecs.dec
+    Пароль: beepbeep 
+   -------------------------------------- 
+   ЗАДАЧА ВЫПОЛНЕНА - ОБНАРУЖЕНО 0 ОШИБОК
+  </file>
+
+  <file path="WORKLOGS" name="489820.log">
+    ЗАДАЧА: КОМПИЛЯЦИЯ ИСХОДНИКА (C#)
+    ПАРАМЕТРЫ: 
+   Файл: Main.cs
+    Выход: WinC_DEBUG_NONRELEASE.exe
+    -------------------------------------- 
+   ЗАДАЧА ВЫПОЛНЕНА - ОБНАРУЖЕНО 0 ОШИБОК 
+   ОБНАРУЖЕНО 1 ПРЕДУПРЕЖДЕНИЕ(Й):
+    Main.cs Строка 12 Позиция 8: Обнаружен недостижимый код
+  </file>
+
+  <file path="WORKLOGS" name="9982711.log">
+    ЗАДАЧА: ШИФРОВАНИЕ ФАЙЛА
+ ПАРАМЕТРЫ:
+    Файл: Naruto_Xrated_Collection.zip
+    Выход: printer_Drivers.dec
+    Пароль: BELIEVEIT
+    -------------------------------------- 
+   ЗАДАЧА ВЫПОЛНЕНА - ОБНАРУЖЕНО 0 ОШИБОК
+  </file>
+  
+  
+</Computer>

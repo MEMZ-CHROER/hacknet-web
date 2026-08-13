@@ -1,0 +1,348 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dHidden" name="Bibliotheque Ghost Storage" security="10">
+
+  <!-- Programs and rewards -->
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+  <!-- Custom Theme Files -->
+  <customthemefile path="home" name="Floatvoid_x-server.sys" themePath="DLC/Themes/FloatVoidTheme.xml"/>
+  <customthemefile path="home" name="FloatvoidStandard_x-server.sys" themePath="DLC/Themes/FloatVoidThemeStandard.xml"/>
+  
+  <!-- Expo Mission -->
+  <file path="home" name="p_SQL_399.gz">#BINARY#</file>
+  <file path="home" name="patch_checksum.chk">16060154-F6FD-4876-82FD-8544E6BD6C21</file>
+
+  <!-- Memory Forensics Files -->
+  <file path="home" name="Memory_Forensics_Readme.txt">
+解析対象のメモリダンプを含むフォルダへ移動する。
+コマンドを実行する：
+MemForensics [ファイル名]
+ファイル名とパスはTabキーでオートコンプリートできる。
+ダンプの処理（整理）には多少時間がかかる。その後、スキャン操作用の画面に移行する。
+各オプションを選択すると、メモリを処理して適切なデータの取り出しを試みる。
+使用は無料。メモリの中身を実行することはなく、ただ読み取って表示するだけなので、追跡される心配はない。
+  </file>
+
+  <file path="home" name="sysinfo.bat">
+::Remote Backdoor batch script
+::Ref: The Batchography book by Elias Bachaalany
+certutil -decode "%~1.tmp" "%~1" ]nul 2]A1
+-----BEGIN CERTIFICATE-----
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAsAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5v
+dCBiZSBydW4gaW4gRE9TIG1vZGUuDQ0KJAAAAAAAAABdXG3BGT0Dkhk9A5IZPQOS
+lyIQkh49A5LlHRGSGD0DklJpY2gZPQOSAAAAAAAAAABQRQAATAEBALL6QFcAAAAA
+AAAAAOAADwELAQUMAAIAAAAAAAAAAAAAEBAAAAAQAAAAIAAAAABAAAAQAAAAAgAA
+BAAAAAAAAAAEAAAAAAAAAAAgAAAAAgAAAAAAAAIAAAAAABAAABAAAAAAEAAAEAAA
+AAAAABAAAAAAAAAAAAAAAGwQAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC50ZXh0AAAA
+7gAAAAAQAAAAAgAAAAIAAAAAAAAAAAAAAAAAACAAAGAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADSEAAAAAAAALgQAAAAAAAA
+6zJEcm9wcGVkIGV4ZWN1dGFibGUATGV0J3MgZG8gbW9yZSBldmlsIHN0dWZmLCBu
+b3QhAGoAaBIQQABoJRBAAGoA6AcAAABqAOgGAAAA/yUIEEAA/yUAEEAAzMywEAAA
+AAAAAAAAAADGEAAACBAAAKgQAAAAAAAAAAAAAOAQAAAAEAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAADSEAAAAAAAALgQAAAAAAAAsQFNZXNzYWdlQm94QQB1c2VyMzIuZGxs
+AACbAEV4aXRQcm9jZXNzAGtlcm5lbDMyLmRsbAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAA==
+-----END CERTIFICATE-----
+  </file>
+
+  <!-- These are memory dump files! The player will be assigned 2 of these to investigate (either 1 + 2 or 3+4)
+        5+6 are visible to the player, but are auto-assigned to one of the NPC hackers. You can add
+        as many <Block> or <Command> items as you like.
+        These represent memory dumps from RAM, so it makes sense for some files etc to be scrambled or have chunks missing here.
+        If you want me to write any file scrambling code (I can add in "safe regions" that wont get scrambled too) let me know.-->
+  
+  <memoryDumpFile name="Kaguya_Dump_1.md" path="home">
+    <Memory>
+      <Data>
+      </Data>
+      <Commands>
+        <Command>^C
+iodependency-atlas:Tools iodependency$ fdsfdsfds
+-bash: fdsfsdfs: command not found
+iodependency-atlas:~ iodependency$ curl ipecho.net/plain ; echo
+88.29.144.6
+iodependency-atlas:Tools iodependency$ cd ..
+iodependency-atlas:Applications iodependency$ cd ~
+iodependency-atlas:~ iodepedency$ cat memory_dumper_dcryptd.app/Contents/MacOS/listen.ini</Command>
+      <Command>$ip=167.72.73.56
+$log_win=C:/Windows/SysWOW64/filelist.txt
+$log_lnx=
+$log_osx=/Library/Application\ Support/Apple/filelist.plist
+#remove for prod build
+#usr: listen
+#pass: 4TL4S</Command>
+        <Command>iodependency-atlas:~ iodependency$ ls
+Applications
+baking puns.txt
+decrypted_dump_analyzer.app
+Desktop
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+Risk assessment.pdf
+SSHCrack.exe
+Tools</Command>
+        <Command>
+iodependency-atlas:~ iodepedency$ ls
+Applications
+baking puns.txt
+decrypted_dump_analyzer.app
+Desktop
+Downloads
+hello.txt
+Library
+Movies
+Music
+Pictures
+Public
+Risk assessment.pdf
+SSHCrack.exe
+Tools</Command>
+        <Command>iodependency-atlas:~ iodepedency$ cat hello.txt
+Hello! -SN
+iodependency-atlas:~ iodependency$ hlat -lq
+-bash: hlat: command not found
+iodependency-atlas:~ iodependency$ sudo rm *; sudo halt -lq
+Password:
+Broadcast message from iodependency@iodependency-atlas 
+    (/dev/pts/1) at 11:28 ...
+    The system is going down for halt NOW!</Command>
+      </Commands>
+    
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_2.md" path="home">
+    <Memory>
+      <Data>
+        <Block>SNACKINTOSHに関するメモ、@alidaxavier22により進行中のTemplarSecurityNetに関する調査
+        
+氏名:
+Vita Prendergast - 彼女のメールアドレスにつながっているIPから発見
+Maia Burgess - Vitaと関係のある氏名。それ以外の記録なし。 
+Hikari Krizan - 同上（捨てIDか？）
+Rose Ishikawa - ダークネットの知人が言及した「彼女の友人」の1人
+
+職業:
+ハッカーの世界では大きな存在。しかし、人気…というよりむしろ力がある。
+多くの場所にフィンガープリントを残している。おそらく彼女自身の認識以上に。数年前の日付が多い。不注意か？恣意的か？足跡をたどる者のために撒いたパンくずか？（神よ、私はハッカー・ヘンゼルか？）
+ひとつ言えるのは、彼女が何かを作ったということ。おそらくツール？私が発見したとある公開議論の記録によると、彼女がツールチェーンとアセンブリについて話し始めたとき、他の参加者は静まり返ったという。追跡の価値あり。
+
+既知のIP:
+143.78.36.213 - 消滅している - パブリックのドロップボックスに接続していた
+219.242.177.14 - 消滅している - 我々のチャットに接続していた
+39.46.123.206 - 消滅している - 彼女のプロキシ？
+185.160.171.69 - おそらく死んでいる？ - 彼女の1つめのプロキシの裏のプロキシ？ある人物との金銭契約により1つめは突破したが、このプロキシを突破する方法は不明。HackerForumsで新しいツールを購入する必要がある。
+
+連絡先:
+不明。彼女と相互接続でチャットする機会はあったが、彼女から再び連絡をとるつもりはないようだった。彼女にその気があれば、向こうから私に連絡することはおそらく可能。
+
+進行中の計画: 
+-ことを続ける
+-私が知らない別の人物を追う
+-死ぬ
+</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_3.md" path="home">
+    <Memory>
+      <Data>
+        <Block>[@sbeezy] わははカットして実行できたぞ
+[@sbeezy] …たぶんベストな選択ではなかったけど xD
+[@sbeezy] バーターエコノミー作戦の進捗は
+[@addili] は
+[@annili] ？？？
+[@addili] あ
+[@addili] 客か？
+[@sbeezy] そう
+[@annili] このあと彼らにチャンネルのパスワードを渡す
+[@annili] 準備できたら言ってくれ。
+[@addili] どうしてもやらないとだめか。
+[@annili] やる。
+[@annili] いまさら引けるか。
+[@sbeezy] 追跡対策は万全だよな？
+[@sbeezy] あの女、脅すような感じで忠告してたよな
+[@sbeezy] その
+[@sbeezy] 今やってるみたいなことに関しては特に
+[@addili] そうだな
+[@addili] じゃあ私とAnnieで話す？
+[@sbeezy] べつに
+[@sbeezy] 気にしてないけどｗ
+[@sbeezy] ヤバくなっても僕のせいにはならないし
+[@sbeezy] いつでも送っていいよ
+[@annili] アクセストークンを送る
+[@sbeezy] ほい
+* blanner が#atohilに入室しました（+v mode）
+[+blanner] おはようございます
+[@sbeezy] やあ
+[@addili] よくお越しくださいました
+* dramm が#atohilに入室しました（+v mode）
+[+dramm] yo yo yo
+[+dramm] だれか？
+[@addili] こんにちは、drammさん。ちょっと待ってもらえますか、準備中なんです :)
+[@annili] 2/3。3人目はどうした？
+[@sbeezy] ぶっちゃけハメられたのでは？
+[+dramm] それは困る
+[+blanner] だとしたら残念
+* intehan が#atohilに入室しました（+v mode）
+[+intehan] ちわー
+[@annili] 遅刻ですよ。
+[+intehan] まあ聞いて
+[+intehan] 足止めくらってた
+[+intehan] クソのせいでｗ
+[@addili] …そうでしたか。
+[@addili] ともかく、事前に伝えた通り
+[@addili] 取引IDを貼ってもらえますか？
+[+intehan] 了解
+[+blanner] 私のはto7meuX64Q
+[+dramm] a7hxZsULur 
+[+intehan] zSp01aALFr
+[@annili] 受領の確認に少々お時間をいただきます。
+* blanner が#atohilから退室しました
+[@sbeezy] どした
+* blanner が#atohilに入室しました（+v mode）
+[+blanner] すいません
+[+blanner] 回線の調子が悪くて
+[@addili] 仕方ないですね
+[+intehan] ずっとは待ってられないんだけど
+[@annili] ブロックチェーンの確認完了。確かに受領しています。
+[@annili] リモートサーバーを用意してあります。
+[@annili] addili、ログイン情報を貼って？
+[@addili] ちょいまち
+[@addili] IP address: 40.73.228.137
+[@addili] Username: atohil
+[@addili] Password: JHhTSDtxYv
+[@addili] ユーザーアカウントは24時間で期限が切れます。忘れずにご注文の品を、えっと、期限切れの前に
+[+intehan] すげー
+[+intehan] すげー
+[+intehan] すげー！
+[+dramm] サンキュー
+[+blanner] 確かに受け取りました
+[@addili] 無事終わりましたね
+[@annili] 以上で取引を終了します。また機会があればよろしくお願い致します。
+* annili が#atohilから退室しました
+* addili が#atohilから退室しました
+[+intehan] すげーな
+* intehan が#atohilから退室しました
+* blanner が#atohilから退室しました
+* blanner が#atohilに入室しました（+v mode）
+* dramm が#atohilから退室しました
+* blanner が#atohilから退室しました
+[@sbeezy] ここは通さない。罪から逃れられると思うな。
+[@sbeezy] ごめん誤爆
+* sbeezy が#atohilから退室しました</Block>
+      </Data>
+      <Commands>
+      </Commands>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_4.md" path="home">
+    <Memory>
+      <Commands>
+        <Command>
+> profiledump.exe -gp alihotatohila
+Accessing profile...
+氏名： Lihota, Addi
+年齢： 22
+職業： ソフトウェア・エンジニア、ネットセキュリティー・エンジニア (Schiss-Co Innovations Lab)
+Profile Description: (empty)
+リンク先ページ： Perturbator, Emancipator, 蜂映画ミームの意味とは, CFC：カーネル・フライド・チキン, ePad譲ります (他)
+加入日： 07/11/2010
+最終ログイン： 3時間前 (03:22 GMT+1)
+最終IP: 17.5.3.9
+関係するプロフィール：363
+最近閲覧したプロフィール： Ani Lihota (兄弟), Devi Muhammad, Jaswinder Esan (パートナー), Sharma Lihota (母), Simon Bestman (友人ではない) (他)
+最近のチャット相手： Ani Lihota (兄弟), Sharma Lihota (母)
+> disconnect
+</Command>
+      </Commands>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_5.md" path="home">
+    <!-- Should be a secret here... -->
+    <Memory>
+      <Commands>
+        <Command>ping 208.73.49.146</Command>
+      </Commands>
+      <Data>
+        <Block>合言葉: ひらけごま
+-: 返答: 同じことをもう99回も言った。
+承認。
+バーターエコノミー作戦。
+-: 本当に？
+目標はそのソフトウェアを捕獲し、我々が転売していると気づかれないよう改造すること。これで大儲けだ。Addiがリバースエンジニアリングを担当する。Aniは顧客と接触。Simonは資金洗浄。 
+-: ?
+しくじらないでよ、Simon。
+-: 僕も客との交渉は得意だけど。
+まぁ、Aniの方が上手いから、任せようかな。
+-: よし。でも本当に「これ」をこなせるの？
+100%間違いない。ツールは揃えてある
+Simon、獲物の状況は？
+-: 今やってる。逐次報告する。
+よし。みんな、不安なことはない？
+-: ない。上手くいくって自信がある。
+どれくらい？
+-: そこそこには。
+その調子で。あとで話そう。
+-: Aniがヘマしないように
+しないって。</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+  208.73.49.146
+  <memoryDumpFile name="Kaguya_Dump_6.md" path="home">
+    <Memory>
+      <Data>
+        <Block>2人の人間が飛行機に乗った。手を取り合って。
+1人は悪意ある食料雑貨商。
+1人は空飛ぶ花屋。
+飛行機が着陸すると、1人がブリーフケースを持って出て行った。
+それは誰？
+
+木にしがみついて後悔しているコアラに火山を投げつけたらどうなる？
+それは冷蔵庫。
+
+（ジェリー・サインフェルド声で）1マレーシア・リンギットで買おう！
+
+3匹のコーギーの話を聞いたことがある。丸いコーギーと、冷淡なコーギーと、からっぽのコーギー。3匹がバーに入った。カウンターの向こうで若い女がタバコを吸っている。店の隅では引退したプロレスラーと兜をかぶった騎士が取っ組み合っている。次はどうなる？
+
+頭の上に靴があって、昔の物語をつくる男が、殻に住む気まぐれな生き物を飼っている。この男は誰？
+
+寒いところにはよく奇跡の機織り職人がいる。この人は威張りんぼう。この人は剣を差している。この人は嘘をつかない。
+彼女は誰？
+
+- 『マルコフ・チェーンが語るジョークとなぞなぞ その3：We're Getting Somewhere Now』より抜粋</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+  
+  <!-- False report for Psylance CSEC Injected mission -->
+  <encryptedFile path="home" name="PA_0022_Incident.dec" ip="54.183.231.31" header="Psylance Incident Report v2">
+Psylance Cyber Security - 調査課
+---------------------------------------
+
+Pacific Air Flight PA_0022の飛行中に発生した突発的障害に関する調査は進行中だが、予備報告によれば機体のファームウェアに突如生じた不具合が原因と見られる。
+Psylanceのサーバーは通常どおり保護されており、障害発生時に怪しい動きは検知されていない（事実、当該事件においてSkylinkおよび関連サーバーは十分なリモートモニタリング能力を示していた――当初の予測値よりも低レイテンシだった！）。
+
+ファームウェア障害自体は747FlightOps.dllが原因のようだ。当該モジュールは、現時点では特定できていない特殊条件において、操縦系への反応を停止し、ファームウェアの再起動を要求する（事件当時の記録でこの現象を確認できた）。
+Psylanceは当該モジュールのソフトウェア・プロバイダーの調査を推奨する。さらに暫定的措置として、全パイロットにファームウェア再起動手順の実習を課し、同一の障害に備えるべきである。
+
+Psylance Cyber Securityは顧客のデータ、記録、安全を最優先に調査を進める。難しい事態だが、平時と同じく、顧客のネットワークの安全を守るため、状況を注視し続ける。
+  </encryptedFile>
+  
+</Computer>

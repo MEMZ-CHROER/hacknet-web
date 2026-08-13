@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="generatedWebVandal01">
+  <generationKeys Data="Content/Web/BaseCorporateRecruiterPage.html"/>
+  <goals>
+    <goal type="FileChange" target="#COMP#" file="#FILE#" path="#PATH#" keyword="#LC_CLIENT#@jmail.com" />
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT#: Stellenausschreibung">
+#CLIENT# würde gerne den E-Mail Verkehr ihrer Konkurrenten zeitweise zu sich umleiten, um qualifizierte Mitarbeiter einstellen zu können.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Stellenausschreibung</subject>
+    <body>
+Agent,
+
+Wir haben seit einiger Zeit Schwierigkeiten, Angestellte zu finden. Ein Großteil dieser Schwierigkeiten ist auf die überaus erfolgreiche Kampagne unserer Konkurrenten bei #COMP# zurückzuführen.
+Wir würden gerne für Chancengleichheit sorgen, indem wir die für sie bestimmten Bewerbungen zu uns umleiten lassen.
+
+Ein Link zu ihrer Kontaktseite ist angehängt. Ersetze bitte ihre Kontakt E-Mail durch unsere:
+
+#LC_CLIENT#@jmail.com
+
+
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

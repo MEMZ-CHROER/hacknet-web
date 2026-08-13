@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="ds3_fn" name="Funkensteins Labor" security="1" type="4" icon="DLCPC1" ip="21.32.43.54">
+
+  <proxy time="-1" />
+  <portsForCrack val="3" />
+  <ports>6881, 443, 22, 21</ports>
+  <portRemap>6881=69,22=1999</portRemap>
+  <trace time="200" />
+
+  <adminPass pass="redwood" />
+
+  <file path="home" name="d3f_ROOTKIT.zip">#BINARY#</file>
+  <file path="home" name="d3f_ROOTKIT_extras.zip.zip">#BINARY#</file>
+  <file path="home" name="d3f_ROOTKIT_REMINDER-DELETEMEt.txt">WENN DU DAS SIEHST, STEHEN DIE DINGE FÜR DICH JETZT SCHLIMMER, ALS DU JE ERAHNEN KÖNNTEST</file>
+
+
+  <file path="home/ableton" name="We_Are_Number_Onederwall.mp3">#BINARY#</file>
+  <file path="home/ableton/finished" name="Wonderwall_But_Every_Time_They_Say_Wonderwall_It_Gets_Faster.mp3">#BINARY#</file>
+  <file path="home/ableton" name="note.txt">
+Diese müssen ins Compilation-Album
+
+
+home/ableton/samples/burp.mp3
+home/ableton/samples/pointclicker_click.mp3
+home/ableton/samples/pointclicker_win.mp3
+home/ableton/samples/pointclicker_lose.mp3
+home/ableton/samples/noticemesenpai.mp3
+home/ableton/samples/ohno.mp3
+home/ableton/samples/madonna.mp3
+home/ableton/samples/windowsXP_error_sound.mp3
+home/ableton/samples/windows98_login_sound.mp3
+  </file>
+  
+  
+  <file path="home/ableton" name="samples.zip">#BINARY#</file>
+  
+  
+  <file path="home/ableton" name="todo.txt">
+Wonderwall-Mashups
+All-Star-Mashups
+Wonderwall- und All-Star-Mashups
+
+Backup von aktuellen Tracks für Release bei Shitpost-Vertreiber
+
+</file>
+  
+  
+  <Memory>
+    <Commands>
+      <Command>FTPZilla – connect 32.43.54.65
+… wird verbunden ...
+… verbunden.
+… wird hochgeladen (1/12) ...
+… wird hochgeladen (2/12) ...
+… wird hochgeladen (3/12) ...
+… wird hochgeladen (4/12) ...
+… wird hochgeladen (5/12) ...
+… wird hochgeladen (6/12) ...
+… wird hochgeladen (7/12) ...
+… wird hochgeladen (8/12) ...
+… wird hochgeladen (9/12) ...
+… wird hochgeladen (10/12) ...
+… wird hochgeladen (11/12) ...
+… wird hochgeladen (12/12) … fertig!
+… 12 Pakete werden archiviert unter hells_maw.dec … abgeschlossen!
+… Verbindung getrennt.
+Beendet.</Command>
+    </Commands>
+  </Memory>
+
+
+</Computer>

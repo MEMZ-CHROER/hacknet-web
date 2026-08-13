@@ -1,0 +1,178 @@
+<#
+An itibariyle tehlikedesiniz!
+#>
+Öğrenebildiğiniz kadar çabuk öğrenmelisiniz. Eğitim aşamasına aşağıdaki tuşa basarak başlayın.
+
+%&%&%&%
+Bir bilgisayara bağlanmak için terminale "connect [IP]" komutunu girin veya Ağ Haritasındaki (netMap) çembere tıklayın. 
+<#
+Kendi bilgisayarınıza bağlanmak için
+#>
+haritadaki yeşil çembere tıklayın.
+
+%&%&%&%
+Aferim!
+ 
+Herhangi bir sisteme girildiğinde yapılması gereken ilk şey yakın ağları taramaktır. Böylece haritanızda girebileceğiniz daha fazla bilgisayar ortaya çıkar.
+
+<#
+Bu bilgisayarı taramak için
+#>
+
+Gösterge modülü üzerinden Ağ Taraması'na basın.
+
+%&%&%&%
+Şu anda kendi sunucunuz üzerinde başka bir şey yapmanıza gerek yok.
+<#
+Bilgisayarınızla bağlantınızı kesin.
+#>
+
+
+%&%&%&%
+Harici bir bilgisayara bağlanma zamanınız geldi.
+ 
+Başkasının bilgisayarının güvenliği tehlikeye atmaya çalışmanın A.B.D. Anayasası'nın 1030-18. Maddesi uyarınca Yasadışı olduğunu unutmayın.
+ 
+Bu riski kabul ederek 
+<#
+harici bir bilgisayara bağlanmak için
+#>
+ağ haritasında mavi çembere tıklayın.
+
+
+%&%&%&%
+Bu GM'nin (Görünümsel Makine) Terminal modülü etkinleştirildi. Ağlar arası gezinme ve etkileşim işlemlerinde birincil arabiriminiz burası olacak.
+ 
+Bir işlemi gerçekleştirmek için komutunu yazmanız ve Enter'a basmanız yeterli.
+ 
+Bir bilgisayarın güvenlik sistemi ve açık portları 
+<#
+probe
+#>
+(veya "nmap") komutu kullanılarak irdelenebilir. Şu anda bağlı olduğunuz bilgisayarı irdeleyin.
+
+
+%&%&%&%
+Bu ekran üzerinden etkin portları, etkin güvenliği ve PortHack kullanarak bu bilgisayara girebilmek için gereken açık port sayısını görebilirsiniz.
+Bu bilgisayarda etkin güvenlik bulunmuyor ve bilgisayara girebilmek için açık porta gerek duyulmuyor. Hazır olduğunuz takdirde, bu bilgisayara girmek içim "PortHack" programını kullanabilirsiniz.
+ 
+<#
+'PortHack' programını çalıştırın. 
+#>
+|Bağlandığınız bilgisayarda bulunan bir programı çalıştırmak için programın adını terminal komutu olarak girin.
+Program isimlerinin sonuna ".exe" eklenmesi gerekmez.
+ 
+
+%&%&%&%
+Tebrikler! Harici bir sistemin kontrolünü ele geçirdiniz ve artık bu sistemin Yöneticisisiniz. 
+Bu bilgisayarda ne isterseniz yapabilirsiniz. Ancak öncelikle daha fazla ağı belirlemek için
+<#
+Ağ Taraması
+#>
+yapın. "Scan" komutunu girerek taramayı gerçekleştirin.
+
+
+%&%&%&%
+Sonuç yok - sorun değil.
+
+Sıradaki adımınız Dosya Sistemi'ni incelemek olmalı.
+<#
+Mevcut dizindeki dosyaları ve klasörleri sıralayın.
+#>
+ 
+
+|Dosya ve klasörleri sıralamak için "ls" komutunu kullanın.
+ 
+Gösterge modülü kullanım için yeniden etkinleştirildi.
+
+
+%&%&%&%
+<#
+"bin" (Binaries) klasörünü açarak
+#>
+işe yarar ve yürütülebilir öğeler bulabilirsiniz.
+ 
+Klasörü açmak için "cd [KLASOR ADI]" komutunu girin.
+
+(Aradaki boşluğa dikkat edin)
+
+
+%&%&%&%
+Geçerli dizinin içeriğini görüntülemek için tekrar "ls" komutunu kullanın.
+ 
+
+Burada program bulunmuyor. Fakat
+<#
+config.txt dosyasına bakmalısınız.
+#>
+Belki de işinize yarayacak bilgiler içeriyordur.
+ 
+|Dosya içeriğini okumak icin cat komutunu kullanın. Örnek:
+ 
+"cat config.txt"
+   
+Dikkat: İzinsiz olarak veri okumak yasalara aykırıdır ve uluslararası hukuka göre tespit edildiği takdirde hapis cezası alabilirsiniz.
+ 
+
+
+%&%&%&%
+Tamamen gereksiz!
+  
+Sıra geldi bilgisayarla olan bağlantıyı kesmeden önce izlerinizi nasıl temizleyeceğinize.
+<#
+Dizin ağacındaki bir önceki klasöre dönün.
+#>
+Bu işlemi gerçekleştirmek için "cd .." komutunu kullanın.
+ 
+Not: ".." ; 'Geri' veya 'Yukarı' anlamına gelmektedir.
+ 
+
+
+%&%&%&%
+<#
+Girdi (Log) klasörünü açın.
+#>
+"cd [KLASOR ADI]"
+
+
+%&%&%&%
+<#
+Bu dizindeki tüm dosyaları silin.
+#>
+ 
+Bir dosyayı silmek için
+<#
+rm [DOSYA ADI]
+#>
+komutunu kullanın. Tüm dosyaları silmek için ise kullanmanız gereken komut:
+ 
+<#
+rm *
+#>
+ 
+Not: "*" ; 'Hepsi' anlamına gelmektedir.
+
+
+%&%&%&%
+Harikaydınız.
+ 
+<#
+Bu bilgisayar ile olan bağlantınızı kesin.
+#>
+ 
+Bağlantınızı kesmek için 'dc' veya 'disconnect' komutlarını kullanabilirsiniz.
+
+
+%&%&%&%
+Tebrikler! Rehber eşliğindeki eğitim kısmını tamamladınız.
+ 
+<#
+Buradan çıkmak için Eğitim Programı'nın İşlem Kimliği'ni (Process ID - PID) bulup yok etmeniz (kill işlemi) gerekiyor.
+#>
+ 
+"help" komutu tüm komutları görebilmenizi sağlar.  
+ 
+|"ps" komutu mevcut işlemlerin kimliklerini listeler.
+
+
+%&%&%&%

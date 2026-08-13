@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa_psylance" name="Psylance Cyber Security_Employee IRC" security="5" ip="50.31.225.93" type="4" icon="Psylance">
+  
+  <!-- This will have the IRC of the Psylance guys on it - player will need to log in to view it. -->
+
+  <firewall level="-1"/>
+  <proxy time="4" />
+  <trace time="90" />
+  <portsForCrack val="9" />
+  <ports>22, 21, 443</ports>
+  <portRemap>22=340</portRemap>
+
+  <account username="faithless" password="catsarebestpet" type="2" />
+  
+  <IRCDaemon themeColor="67,204,148" name="Canal IRC client/admin Psylance" needsLogin="true">
+    <user name="faithless" color="0,209,232"/>
+    <user name="dardypants" color="202,98,0"/>
+    <user name="da_vito" color="0,196,82"/>
+
+    <post user="faithless">Ouais je veux dire, les médias disent que les jeux vidéo rendent violent, mais y a quelques siècles on envoyait des femmes au bûcher en pensant que c'étaient des sorcières. Moi je pense que l'être humain est pourri dès le départ.</post>
+    <post user="da_vito">mdr</post>
+    <post user="dardypants">Sérieux, ce mec, Yasu...</post>
+    <post user="faithless">C'est qui ?</post>
+    <post user="dardypants">Yasu Arai, l'administrateur IT de Pacific Air</post>
+    <post user="dardypants">Il vient de crier son mot de passe sur tous les toits ! C'est un foutu ADMIN  bon sang !</post>
+    <post user="faithless">Qu'est-ce qu'il a dit ?</post>
+    <post user="dardypants">Je cite :</post>
+    <post user="dardypants"> Tu pourrais te connecter sur mon portable et le faire pour moi ? Le mot de passe est 1185JACK</post>
+    <post user="faithless">Woaah, putain, le con</post>
+    <post user="faithless">Quand même, j'ai du mal à croire que tu l'aies copié/collé ICI</post>
+    <post user="dardypants">Je lui ai fait changer direct, ça va.</post>
+    <post user="dardypants">D'ailleurs, son mot de passe de messagerie est différent... Mais quand même.</post>
+    <post user="dardypants">On est censés protéger ce réseau ! C'est du sabotage à ce niveau-là.</post>
+  </IRCDaemon>
+
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+
+</Computer>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyNews01">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Le Groupe Entropy lié à des Actes Malicieux?">
+Des rapports récents suggèrent que le groupe Internet « Entropy » abrite et fournit du travail depuis peu à un hacker célèbre.
+Si cette information n'est pas encore confirmée, le groupe pourrait être sous la menace de poursuites judiciaires sévères dans un futur proche.
+Nous pensons que c'est un acte de trahison clair envers un réseau qui permet aux groupes productifs de prospérer, et cela devrait être puni sévèrement.
+
+Journaliste : Tom Wilkins
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy doit être arrêté</subject>
+    <body>
+Détruis la base de données d'Entropy
+    </body>
+    <attachments>
+      <link comp="entropy01"/>
+    </attachments>
+  </email>
+</mission>

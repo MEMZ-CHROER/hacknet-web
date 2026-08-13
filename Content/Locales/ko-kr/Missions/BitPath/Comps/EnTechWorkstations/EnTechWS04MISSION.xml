@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="EnWS04" name="EnTech 워크스테이션 _008" security="5" type="3" ip="156.151.0.42">
+
+  <ports>80, 22, 104</ports>
+
+  <portsForCrack val="3"/>
+
+  <trace time="78"/>
+
+  <admin type="fast" resetPassword="true" isSuper="true"/>
+  
+  <file path="WORKSTATION/store" name="comp.bin">#BINARY#</file>
+  <file path="WORKSTATION/store" name="MedStreamRef.txt">얘기한 대로, 여기 데스크탑에 스트리밍을 열어두는 것에 대한 서면 허가입니다. 의논한 대로, 로컬에 저장해두고 누가 뭐라고 하면 보여주세요. 만약 믿지 않는다면 저한테로 보내세요. 
+이걸 읽는 다른 사람들 보세요. 워크스테이션 008의 운영자 Jorioni 씨는 심장 질환이 있습니다. 그래서 비상 사태에 대비해 심장을 모니터링하는 소프트웨어가 워크스테이션으로 데이터를 스트리밍하여 Jorioni 씨가 자신의 상태를 확인할 수 있도록 하였습니다. 
+우리 회사의 새 &quot;직장 다양화&quot; 계획의 일환으로,  Jorioni 씨가 이 곳에서 잘 적응할 수 있게 하기 위해 최선을 다했습니다. 
+이 조치에 대해 할 얘기가 있으면 저에게 직접 오십시오.
+
+-D. Tagg, 
+인사부 부장.
+  </file>
+  <file path="WORKSTATION/store" name="StoreServIPs.txt">--스토리지 서버 IPS--
+Prometheus (진행중 개발 프로젝트 스토리지)
+156.151.1.1
+
+Romulus (설치 / 컴파일 서버 (설치 빌드 업로드 포함))
+156.151.1.12
+  </file>
+  <file path="WORKSTATION/store" name="AssetPack_012.zip">#BINARY##BINARY#</file>
+  <file path="WORKSTATION/store" name="AssetPack_013.zip">#BINARY##BINARY#</file>
+  <file path="WORKSTATION/store" name="Prometheus.txt">
+    d88vAnnX
+  </file>
+  <file path="WORKSTATION/hn_os" name="Hacknet_NetCore.dll">#BINARY##BINARY#</file>
+  
+
+  <positionNear target="EnTechWSCore" position="8" total="12"/>
+
+</Computer>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="ds3_fn" name="Laboratorio de Funkenstein" security="1" type="4" icon="DLCPC1" ip="21.32.43.54">
+
+  <proxy time="-1" />
+  <portsForCrack val="3" />
+  <ports>6881, 443, 22, 21</ports>
+  <portRemap>6881=69,22=1999</portRemap>
+  <trace time="200" />
+
+  <adminPass pass="redwood" />
+
+  <file path="home" name="d3f_ROOTKIT.zip">#BINARY#</file>
+  <file path="home" name="d3f_ROOTKIT_extras.zip.zip">#BINARY#</file>
+  <file path="home" name="d3f_ROOTKIT_REMINDER-DELETEMEt.txt">SI LEES ESTO, QUE SEPAS QUE LAS COSAS SE TE VAN A PONER MUY CUESTA ARRIBA A PARTIR DE AHORA</file>
+
+
+  <file path="home/ableton" name="We_Are_Number_Onederwall.mp3">#BINARY#</file>
+  <file path="home/ableton/finished" name="Wonderwall_But_Every_Time_They_Say_Wonderwall_It_Gets_Faster.mp3">#BINARY#</file>
+  <file path="home/ableton" name="note.txt">
+Hay que meter esto en el disco recopilatorio
+
+
+home/ableton/samples/burp.mp3
+home/ableton/samples/pointclicker_click.mp3
+home/ableton/samples/pointclicker_win.mp3
+home/ableton/samples/pointclicker_lose.mp3
+home/ableton/samples/noticemesenpai.mp3
+home/ableton/samples/ohno.mp3
+home/ableton/samples/madonna.mp3
+home/ableton/samples/windowsXP_error_sound.mp3
+home/ableton/samples/windows98_login_sound.mp3
+  </file>
+  
+  
+  <file path="home/ableton" name="samples.zip">#BINARY#</file>
+  
+  
+  <file path="home/ableton" name="todo.txt">
+Remixes de Wonderwall
+Remixes de All-Star
+Remixes de Wonderwall y All-Star
+
+Hacer copias de las pistas para que las saque una distribuidora de mierda
+
+</file>
+  
+  
+  <Memory>
+    <Commands>
+      <Command>FTPZilla -connect 32.43.54.65
+...conectando...
+...conectado.
+...subiendo (1/12)...
+...subiendo (2/12)...
+...subiendo (3/12)...
+...subiendo (4/12)...
+...subiendo (5/12)...
+...subiendo (6/12)...
+...subiendo (7/12)...
+...subiendo (8/12)...
+...subiendo (9/12)...
+...subiendo (10/12)...
+...subiendo (11/12)...
+...subiendo (12/12)... ¡listo!
+...agrupando 12 archivos en el archivo hells_maw.dec... ¡listo!
+...desconectado.
+saliendo.</Command>
+    </Commands>
+  </Memory>
+
+
+</Computer>

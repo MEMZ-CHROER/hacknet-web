@@ -1,0 +1,74 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="xcTablet" name="X-C Project Tablet#001//RESEARCH" security="2" icon="tablet" type="4">
+  
+  <proxy time="1.0" />
+  <portsForCrack val="1" />
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1" />
+
+  <adminPass pass="cyberdisk" />
+  
+  <file path="X" name="LaserRifle_mk2.spec">
+X-C_PROJECT:ID#1299
+
+RESEARCH REPORT W. SCHEMATIC
+Codename: Sunray 
+
+Unsere jüngste Forschung bezüglich der hochentwickelten Optik von außerirdischer Technologie war ein voller Erfolg. Unsere ersten Versuche, die erlangten Erkenntnisse in unsere eigenen Waffen zu implementieren, sind bisher vielversprechend.
+Für das MK2 Laser-Gewehr musste unsere bisherige Forschung über die Herstellung einer Waffe, die, während sie mit Energie versorgt wird, durchgängiges Feuer erlaubt, verworfen werden. Der Grund war die extreme Wärmeentwicklung. Bei dem MK2 Gewehr muss die Hitze nach einer gewissen Feuerdauer abgeleitet werden und ahmt dabei das Nachladen traditioneller Feuerwaffen nach.
+Wenn auch nicht optimal, hat dies unsere Versuche, eine solche Waffe zu entwickeln, um einiges weitergebracht, und eine genauere und tödlichere Waffe hervorgebracht, die bisherigen Feuerwaffen in allen Punkten überlegen sein sollte.
+
+Auch wenn die Materialien für die Herstellung nicht zu teuer sind (ausgenommen der gebogenen Legierungen), braucht es immer noch eine Vielzahl von Versuchen, um eine Linse herzustellen, die unseren Kriterien in Stabilität und Fokus genügt. Das Verfahren dazu konnte noch nicht vollständig perfektioniert werden. 
+Deshalb wird es nötig sein, etwa 100 Linsen pro Gewehr zu produzieren, um eine Linse von ausreichender Qualität herzustellen (ein Problem, das auch bei der Herstellung von Kameralinsen auftritt). Hätten wir mehr Ingenieure, könnten wir uns die Spezialisierung auf dieses Problem sparen und damit auch Herstellungskosten.
+
+Aufzeichnungen zur Herstellung liegen auf dem zentralen Server unter der ID#1300.
+  </file>
+  
+    <file path="X" name="FlightComputers.rep">
+X-C_PROJECT:ID#1938
+
+RESEARCH REPORT
+Codename: Lighthouse 
+
+Der Flugsteuercomputer war ein extrem interessanter Forschungsauftrag - ohne die hochspezialisierten Teammitglieder, die einen Weg gefunden haben, die Systemstrukturen zu entziffern, hätten wir wohl kaum Fortschritte gemacht. Obwohl noch viele Fragen über die Funktionsweise der Computer bestehen, haben wir viele der Daten entschlüsseln können, und haben sogar einige Bild- und Tondaten extrahieren können, obwohl die verwendete Sprache uns immernoch ein Rätsel ist.
+Die Daten weisen darauf hin, dass der Computer für extrem weite Strecken ausgelegt ist, sowohl zwischen Planeten, als auch zwischen Galaxien. Außerdem haben wir extrem verwirrende Daten zu Kollisionsvermeidung bei Lichtgeschwindigkeit sicherstellen können. Das System scheint zwar kleinere Partikel wie Asteroiden zu ignorieren, aber die Kollision mit Planeten wird dennoch vermeidet. Dies gibt uns wichtige Hinweise über ihre SAL-Antriebssysteme, über die wir weitere Recherchen benötigen.
+
+Außerdem haben wir einige interessante Bilder gefunden. Was zunächst wie anatomische und medizinische Daten der Besatzung aussah, hat sich als eine Art Alien-Pornografie herrausgestellt. Auch wenn die Spezies nicht über Fortpflanzungsorgane zu verfügen scheint, gibt es eine seltsame Faszination für Nacken- und Kieferbereich, die wir bisher nicht ganz nachvollziehen können.
+Wenn dies auch noch nicht bestätigt werden konnte, wollen wir darauf hinweisen, dass dies eine Schwachstelle sein könnte - auch wenn es schwierig sein dürfte, sie in einer Kampfsituation auszunutzen.
+
+  </file>
+  
+ <file path="X" name="WIP_Xenogenetics.txt">
+X-C_PROJECT:ID#2133
+
+Die geborgenen Individuen sind sich extrem ähnlich. Nicht nur äußerlich, sondern auch genetisch. Meine ursprüngliche These, dass es sich um exakte Klone handeln könnte, hat sich als fragwürdig erwiesen - Obwohl die DNS der Individuen übereinstimmt, könnte dies auch ein Merkmal ihrer Spezies sein - und Unterschiede zwischen den Individuen rein mental sein.
+
+Die Nervensysteme ähnelt dem, irdischer Säugetiere (inkl. Menschen) - Was sagt das über unseren Ursprung aus? Ist das universell? Warum?
+
+Bisher konnten noch kein Geruchssinn festgestellt werden - die Augen hingegen ähneln sehr denen von Insekten, nur sehr viel höher entwickelt. Gesichtsöffnungen im Bereich der Nase scheinen für den Geschmackssinn zu dienen.
+  </file>
+
+  <file path="X/Personal" name="Penetrator_mk1.spec">
+X-C_PROJECT:ID#4991
+
+RESEARCH REPORT W. SCHEMATIC
+Codename: Gaping Dragon
+
+Benötigte Materialien:
+22x  Raritanium-Legierung
+2x   UFO Antriebsspule
+10x  Elerium
+185x Credits
+
+Dieses eleriumbetriebene Gerät kann sein extrem haltbares Rohr - mit bis zu 200 Schwingungen pro Sekunde - ~0,5 Meter ausfahren und hält dies, auch ohne eine zusätzliche oder externe Stromquelle, eine extrem lange Zeitspanne durch.
+Die hochentwickelte Stromzufuhr erlaubt so eine bisher nie erreichte Nutzungsdauer und -intensität. Besondere Aufmerksamkeit sollte auch der Klammer an der Außenkante des Arms zukommen, die für die Befestigung der verschiedenen "Aufsätze" zuständig ist, und sollte daher unbedingt sicher sitzen.
+
+Wie in Notiz No. A-12 beschrieben, sollte besagtes Rohr abtrennbar sein.
+Das Gerät sollte... die Forschungsgeschwindigkeit erheblich verbessern und sollte daher von oberster Priorität sein. Die erforderlichen Dokumente wurden für die sofortige Produktion an Dr. Shen übergeben.
+
+SCHEMATICS REF DATA:
+#BINARY#
+
+  </file>
+  
+</Computer>

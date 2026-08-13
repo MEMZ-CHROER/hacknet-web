@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Kellis Biotech ve Siz">
+Kellis Biotech uluslarası alanda tanınmış ve tam hizmet sunan bir tıbbi ve kozmetik araç ve ekipman üreticisidir(OEM).
+Tasarımdan büyük ölçekli üretime kadar Kellis tıbbi donanım endüstrisinde en önde gelen firmadır. Özellikle mikro-aygıt ve işletim ekipmanı konusunda uzmanlaşmıştır.
+Standartlarımız yaklaşıma göredir. sadece mutlak güvenilirlik ve istikrar eşleştirilir. Zira mesele sağlık olduğunda kaliteden ödün vermeyi reddetmekteyiz.
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>HATA</subject>
+    <body>
+Beklenmedik bir hata oluştuğu için bu hatayı aldınız.
+Lütfen panikleyin.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

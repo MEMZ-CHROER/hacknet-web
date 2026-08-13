@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education07">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="*Nix Notizen">
+Alle Terminal basierten Betriebssysteme auf *Nix-Kernel-Basis* besitzen eine integrierte Notizfunktion (über "notes" aufrufen).
+Sie wird zwar recht selten gebraucht, ist aber relativ ressourcenschonend und wird von vielen Mail-Clients und anderen Anwendungen unterstützt (um automatisch
+Notizen zu erzeugen).
+    
+Zum Starten wird lediglich der Befehl "notes" im Terminal eingetippt, oder über die UI aufgerufen. Alternativ kann auch direkt "addNote [NOTE]" eingegeben werden.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Wenn du diese Mail erhalten hast, ist ein unerwarteter Fehler aufgetreten.
+Bitte gerate in Panik.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dPets_Engineer2" name="Ash-ALIENGEAR13" security="2" ip="54.192.234.65" icon="DLCPC2">
+
+  <!-- Neopals artist - contains eos device hint for other comp  -->
+  
+  
+  <dlink target="dPets_VC" />
+
+  <positionNear target="dPets_MF" position="220" total="360" extraDistance="0.05"/>
+
+  <file name="IMPORTANT_SusanLog.txt" path="home">
+
+[S.Bonesau] Personne n'a dit que tu DEVAIS changer de style graphique, c'est juste que...
+[S.Bonesau] Tu reçois beaucoup de demandes de changement après avoir soumis tes dessins
+[S.Bonesau] Et je pense que l'on pourrait être plus efficaces si tu prenais les conseils des autres plus au sérieux
+[S.Bonesau] Par exemple, prendre compte des remarques pour la préparation des prochaines pièces.
+[Ash] Je peux comprendre, mais ce design j'y crois dur comme fer
+[S.Bonesau] Je sais bien. Je comprends, c'est juste...
+[S.Bonesau] C'est censé être une maison hantée qui fiche la trouille, et toi tu nous la mets sur un tank.
+[S.Bonesau] ...Encore.
+[Ash] J'aime bien les tanks. Les tanks font peur.
+[S.Bonesau] Je sais que tu aimes bien les tanks
+[Ash] Tu penses pas que les Roumains ont dû avoir la trouille face à des lignes de tanks allemands ?
+[S.Bonesau] Bien sûr que si, mais là n'est pas la question, attends que je t'explique...
+[Ash] 25 tonnes d'ingénierie allemande aux canons pointés sur toi, ça te fait pas assez peur ?
+[S.Bonesau] Une minute je te dis !
+[S.Bonesau] Simplement, je ne pense pas que notre base de joueur aura le même avis que toi.
+[S.Bonesau] Dois-je te rappeler que  pour l'événement avec les fées, elles étaient toutes dans des tanks elles aussi ?
+[Ash] Les tanks et les fées ont de nombreux points en commun tu sais ?
+[S.Bonesau] ...
+[Ash] J'aime la technologie militaire de la seconde guerre mondiale et le kawaii, en quoi c'est quelque chose de mal ?
+[S.Bonesau] Ecoute, je veux que tu me dessines des Neopals dans des costumes de Dracula, de vampire, et des trucs du même style.
+[Ash] Ok, mais seulement si on fait un événement spécial tank plus tard
+[S.Bonesau] Et pourquoi je ferais ça pour toi ?
+[Ash] Je suis sûr que Dracula devait avoir plein de tanks
+[S.Bonesau] J'hallucine...bon ok, marché conclu, dessine-moi les sprites
+[Ash] Je sauvegarde la conversation, pour te la rappeler. Tu n'y échapperas pas.
+[S.Bonesau] Elle est dans mon téléphone, ne t'inquiète pas
+  </file>
+
+  <file name="DRACULATANK.psd" path="home">#BINARY##BINARY#</file>
+  <file name="asdf.psd" path="home">#BINARY#</file>
+  <file name="asdf2.psd" path="home">#BINARY##BINARY#</file>
+  <file name="asdfasdf.psd" path="home">#BINARY#</file>
+
+  <!-- Memory dump with viewable sketches of Dracula tank -->
+  <Memory>
+    <Data>
+      <Block>
+STEAM_CHAT:fenêtreactive
+4e0f622c-c5f1-4959-902d-bd2c1009a4cb
+Historique :
+CONSOLE : Ne révélez jamais votre mot de passe.
+14 h 46 - Jigxor : ces vidéos d'automates sont folles
+14 h 47 - Jigxor : j'en regarde une autre sur un automate de 240 ans appelé « l'écrivain » : un garçon mécanique qui peut écrire une phrase ou deux, avec un vrai stylo et du papier dans ses mains, tout ça mécaniquement, c'est un truc de fou.
+14 h 48 - Jigxor : en plus il cligne des yeux et bouge la tête et tout et tout
+14 h 48 - [P]Ash : tu fais chier, pourquoi tu me parles de ça maintenant ? J'allais enfin être productif aujourd'hui ;_;
+14 h 48 - Jigxor : putain j'hallucine
+CONSOLE : Déconnexion de Jigxor
+CONSOLE : Reconnexion de Jigxor
+15 h 18 - Jigxor : Je me sens super intelligent
+15 h 18 - Jigxor : même si je viens de tout pomper depuis StackOverflow
+15 h 18 - [P]Ash : >story_of_my_life.txt
+      </Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Misc/TankDracula</Image>
+    </Images>
+  </Memory>
+  
+  
+</Computer>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Loose Ends">
+Хакеры украли ценные данные компании. Они позаботились, но то, что они украли еще должно быть удалено.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - Loose Ends</subject>
+    <body>
+Привет, агент, 
+
+недавно #CLIENT# нашей компании подвергся хакерской атаке. Нападавшие уже был привлечены к ответственности, но мы не смогли украденный ими архив. 
+Однако у нас есть IP-адрес их сервера, и мы хотим, чтобы ты решил для нас эту проблему. 
+
+Искусстность будет высоко оценена.
+
+-#Client#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

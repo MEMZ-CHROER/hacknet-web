@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dKeebsMission">
+  <goals>
+    <goal type="filedeletion" target="dKeebs" file="purchase_blacklist.txt" path="home/records"/>
+
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="La vie de clavier">Un membre de la communauté des Claviers Mécaniques souhaite être effacé d'une liste noire commerciale.</posting>
+  <email>
+    <sender>Bibliothèque</sender>
+    <subject>La vie de clavier</subject>
+    <body>
+Un membre de la communauté des Claviers Mécaniques souhaite être effacé d'une liste noire commerciale.
+----
+
+L'utilisateur « ChucklingKumquat », qui figure apparemment sur une liste noire après avoir émis des commentaires « tout à fait raisonnables » au sein de sa branche de la communauté, souhaite être retiré d'une liste noire se trouvant sur un certain serveur appartenant à un concepteur de pièces pour claviers.
+Il affirme que la liste est sans doute assez conséquente pour que sa radiation de la liste noire ne se voie pas, et il suggère que nous ne retirions que son nom de la liste afin que sa communauté reste au-dessus de tout soupçon.
+
+En échange, j'ai obtenu pour nous une piste concernant un projet problématique.
+
+Bonne chance,
+
+-Kaguya</body>
+    <attachments>
+      <link comp="dKeebs" />
+      <note title="Objectifs de mission">Supprimer l'utilisateur « ChucklingKumquat » de la liste noire d'achat sur le serveur de ClickLab.</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Intimidation Tactics">
+Des collègues d'un client estimé ont été irrespectueux et doivent recevoir un avertissement. 
+Détruis leur serveur de sauvegarde récemment créé.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Tactiques d'intimidation</subject>
+    <body>
+Salutations, Agent, 
+
+L'un de nos collègues a récemment dépassé les bornes d'une manière totalement irrespectueuse. Nous voulons le lui faire comprendre.
+
+ Nos informations montrent qu'il a terminé il y a peu l'établissement d'une copie de sauvegarde de l'ensemble de la compagnie et a stocké les donnée sur un serveur séparé. Sans endommager leur copie de travail actuelle, nous pensons que la suppression de ces archives pourrait envoyer un avertissement clair. 
+Tu trouveras les informations sur la cible ci-jointe.
+
+ #CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

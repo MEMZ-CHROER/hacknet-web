@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="generatedWebVandal00">
+  <goals>
+    <goal type="FileChange" target="#COMP#" file="#FILE#" path="#PATH#" keyword="liars" />
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# : Gerçeği Ortaya Çıkar">
+Bağışçı müşterilerimizden birisi rakiplerinden birinin gerçek düşüncelerinin ve doğruların gün yüzüne çıkarılmasını istiyor.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Gerçeği Ortaya Çıkar</subject>
+    <body>
+Sayın temsilci,
+
+#TARGET# ile ilgili gerçekleri gün yüzüne çıkarmanızı istiyoruz. Şirketimiz karşısında avantaj kazanmak için kötü niyetli bir reklam kampanyası düzenleyerek halkı yanıltmaktalar.
+
+Doğruların, bu firmanın internet sitesinde yayınlanmasını istiyoruz. Kendi internet sitelerine onları YALANCI olarak gösterdiğinde işi tamamlanmış sayacağız.
+
+Teşekkür ederiz.
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

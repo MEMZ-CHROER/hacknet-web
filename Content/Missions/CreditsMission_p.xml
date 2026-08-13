@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="alphaCredits">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>Re: The End</subject>
+    <body>
+Oh, one more thing...
+
+I know you pirated Hacknet.
+
+It's fine, really - I know there's a lot of reasons for it, and I'm absolutely not going to judge anyone for being broke, or not being confident in the state of indie games at the moment.
+
+But... Hacknet was made almost entirely by just me, and sales from it directly fund future projects and updates. If you liked the game, consider buying it when you can!
+
+If you're against DRM, it's avaliable DRM Free on GOG.com and the Humble Store, though the Steam version is my preference.
+
+Either way, thanks for playing - I hope you enjoyed playing the game as much as I enjoyed making it.
+
+-Matt
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

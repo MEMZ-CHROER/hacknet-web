@@ -1,0 +1,270 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="decSoftMainframe" name="DEC Solutions Mainframe" ip="101.0.89.154" security="5">
+  <ports>21, 25, 22, 80, 1433</ports>
+  <portsForCrack val="5" />
+  <firewall level="-1"/>
+  <trace time="-1" />
+  <proxy time="0" />
+
+  <encryptedFile path="home" name="encrypt.dec" ip="101.0.89.154" header="Secured Source Code" extension=".cs" double="true">
+        private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data[i] * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + " ");
+            }
+            return ret.ToString().Trim();
+        }
+  </encryptedFile>
+
+  <encryptedFile path="Staff/D.Leatrou" name="Personal_Notes.dec" ip="101.0.89.154" header="DOUBLE ENCRYPTION" extension=".txt" double="true" pass="dleatrou">
+Ich befürchte, Kathy ist mir hoffnungslos verfallen. Das ist nicht ihre Schuld, ich habe mein markantes Gesicht ja auch gesehen (Ich sehe wirklich atemberaubend gut aus. Ich sollte hier mehr Spiegel aufhängen).
+Aber es ist wichtig, in dieser Beziehung seine Professionalität zu wahren. Ich schreibe das hier auf, damit ich, sollte sie mich in einem Anflug von Neid attackieren, 
+beweisen kann, dass ich absolut unschuldig bin.
+
+
+-David Leatrou, CEO
+28.12.2013
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/D.Leatrou" name="Lawsuit_Response.dec" ip="101.0.89.154" header="DOUBLE ENCRYPTION" extension=".txt" double="true" pass="dleatrou">
+Sehr geehrter Herr Leatrou,
+
+in Anbetracht ihrer jüngsten E-Mail habe ich die Angelegenheit mit unserer Rechtsabteilung besprochen. Unsere Anwälte haben mir mitgeteilt, dass Ihre Technik des "Doppelmoppeln" (d.h. die Anwendung von zwei übereinanderliegenden Kondomen) weit von unseren Anwendungshinweisen abweicht, sodass Sie keine rechtliche Grundlage für eine Klage haben.
+Wir empfehlen, in Zukunft die Anwendungshinweise zu beachten.
+
+Meine besten Grüße an Sie und ihre 12 Kinder.
+
+-Jennifer Stem,
+Durex, Kundendienst und Beschwerden
+  </encryptedFile>
+  
+  <file path="Staff/D.Leatrou" name="Staff_Memo.txt">
+Hallo,
+
+zunächstmal, meinen Glückwunsch zum Start unserer neuen Encryption-Suite. Der Start war ein Riesenerfolg und ich hoffe, dass das neue Marketing-Material euch genauso aufgeregt stimmt, wie mich.
+Da DEC Solutions nun langsam aber sicher in die höheren Ligen aufsteigt, bin ich zu dem Schluss gelangt, dass wir - als Firma, unsere Maßstäbe höher legen müssen.
+Deshalb werden bald ein paar neue Regeln in Kraft treten, die, wie ich hoffe, von euch befolgt und geschätzt werden.
+
+Die neuen Regelungen werden in Kraft treten, sobald ich sie fertig ausformuliert habe. Bis dahin, weitermachen!
+
+Habt einen schönen und produktiven Tag,
+-David Leatrou, CEO
+</file>
+
+  <file path="Staff/D.Leatrou" name="New_Policies.txt">
+Hallo,
+hier sind die neuen Regelungen, die ich vor ein paar Tagen versprochen hatte. Gut durchlesen!
+   
+1) Wichtige interne Daten (Sourcecode, vertrauliche Memos, etc) müssen stets verschlüsselt gespeichert werden.
+Und welche Software wäre dafür besser geeignet als unsere? Ihr habt die Website gesehen. Ihr werdet verstehen, dass dies unsere Firma sichererer - vetrauenswürdiger - macht.
+Ich habe damit bereits angefangen, indem ich meine eigenen Dateien verschlüsselt habe, die besonders wichtigen sogar DOPPELT! Als würde man zwei Kondome benutzen. Wenn das eine reißt, würd man ja noch vom anderen beschützt.
+
+2) Wenn ihr eure Daten verschlüsselt, solltet ihr eigentlich ohne Passwort auskommen. Wenn ihr aber der Meinung seid, irgendetwas wäre besorders wichtig, legt eure Firmen-ID als Passwort drüber.
+Z.B. wären meine wichtigen Dateien mit "dleatrou" verschlüsselt!
+
+3) Builds der Encryption-Suite müssen stets offline gespeichert werden! Heutzutage kann man gar nicht vorsichtig genug sein!
+
+Genießt euer letztes unverschlüsseltes Memo!
+-David Leatrou, CEO
+  </file>
+  
+  <file path="Staff/D.Leatrou/Locked" name="RE:Decypher_Memo.txt">
+    Alles klar. Danke nochmal für die Demonstration.
+    Ich habe eine Kopie davon rumgeschickt, in der Hoffnung, dass die anderen etwas damit anfangen können.
+    Danke und gute Arbeit.
+
+    -David Leatrou, CEO
+
+    -------------------ANTWORT AUF:-------------------
+    
+    David,
+
+    ich bin den Code, den uns die Auftragsentwickler geschickt haben, nochmal gründlich durchgegangen. Er ist, wie soll ich sagen... unsicher. Also wirklich unsicher - in einem erschreckenden Ausmaß.
+    Ich habe schnell ein kleines Programm geschrieben, um das zu demonstrieren. Du solltest das Programm - und vermutlich auch dieses Memo - so früh es geht löschen.
+
+    Um das Programm zu starten, tipp das hier einfach in die Kommandozeile:
+    "Decypher [DATEINAME]"
+
+    Oder, wenn die Datei mit einem Passwort verschlüsselt ist:
+    "Decypher [DATEINAME] [PASSWORT]"
+
+    ... Vielleicht komme ich lieber gleich vorbei und zeig es dir persönlich.
+     -J
+  </file>
+  
+
+  <encryptedFile path="Staff/J.Scott" name="Decypher.dec" ip="101.0.89.154" header="DECYPHER - DO NOT SHARE" extension=".exe">#DECYPHER_PROGRAM#</encryptedFile>
+  
+  <encryptedFile path="Staff/J.Scott" name="Decypher_Memo.dec" ip="101.0.89.154" header="Corporate Memo" extension=".txt">
+David,
+
+ich bin den Code, den uns die Autragsentwickler geschickt haben, nochmal gründlich durchgegangen. Er ist, wie soll ich sagen... unsicher. Also wirklich unsicher - in einem erschreckenden Ausmaß.
+Ich habe schnell ein kleines Programm geschrieben, um das zu demonstrieren. Du solltest das Programm - und vermutlich auch dieses Memo - so früh es geht löschen.
+
+Um das Programm zu starten, tipp das hier einfach in die Kommandozeile:
+"Decypher [DATEINAME]"
+
+Oder, wenn die Datei mit einem Passwort verschlüsselt ist:
+"Decypher [DATEINAME] [PASSWORT]"
+
+... Vielleicht komme ich lieber gleich vorbei und zeig es dir persönlich.
+ -J
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/J.Scott" name="RE:RE:Decypher_Memo.dec" ip="101.0.89.154" header="Corporate Memo" extension=".txt">
+    Kein Problem.
+    
+    Musst du eigentlich jede Mail mit "CEO" unterschreiben?
+    
+    -------------------ANTWORT AUF:-------------------
+    Alles klar. Danke nochmal für die Demonstration.
+    Ich habe eine Kopie davon rumgeschickt, in der Hoffnung, dass die anderen etwas damit anfangen können.
+    Danke und gute Arbeit.
+
+    -David Leatrou, CEO
+
+    -------------------ANTWORT AUF:-------------------
+    
+    David,
+
+    ich bin den Code, den uns die Autragsentwickler geschickt haben, nochmal gründlich durchgegangen. Er ist, wie soll ich sagen... unsicher. Also wirklich unsicher - in einem erschreckenden Ausmaß.
+    Ich habe schnell ein kleines Programm geschrieben, um das zu demonstrieren. Du solltest das Programm - und vermutlich auch dieses Memo - so früh es geht löschen.
+
+    Um das Programm zu starten, tipp das hier einfach in die Kommandozeile:
+    "Decypher [DATEINAME]"
+
+    Oder, wenn die Datei mit einem Passwort verschlüsselt ist:
+    "Decypher [DATEINAME] [PASSWORT]"
+
+    ... Vielleicht komme ich lieber gleich vorbei und zeig es dir persönlich.
+     -J
+  </encryptedFile>
+
+  <encryptedFile path="Staff/J.Scott" name="Encryption_Base2.dec" ip="101.0.89.154" header="Source Code" extension=".cs">
+    
+        /// summary
+        /// Returns an array containing
+        /// [0] Header Message
+        /// [1] IP Link
+        /// [2] Message Data
+        /// [3] File extension if provided, else null
+        /// summary
+        public static string[] DecryptString(string data, string pass = "")
+        {
+            string[] ret = new string[4];
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string[] split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+            string[] headersSplit = split[0].Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+
+            string headerMsg = Decrypt(headersSplit[1], passcode);
+            string ipLink = Decrypt(headersSplit[2], passcode);
+            string check = Decrypt(headersSplit[3], passcode);
+            string fileExtension = null;
+            if (headersSplit.Length > 4) fileExtension = Decrypt(headersSplit[4], passcode);
+            string message;
+            if (check == "ENCODED") {
+                //Password was correct!
+                message = Decrypt(split[1], passcode);
+            }
+            else {
+                //invalid password
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+            }
+            ret[0] = headerMsg;
+            ret[1] = ipLink;
+            ret[2] = message;
+            ret[3] = fileExtension;
+            return ret;
+        }
+  </encryptedFile>
+
+  <encryptedFile path="Staff/J.Scott" name="Decypher_Test.dec" ip="101.0.89.154" header="Source Code" extension=".cs">
+    
+    private static string Decrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            string[] input = data.Split(Utils.spaceDelim, StringSplitOptions.RemoveEmptyEntries);
+            for (int i = 0; i LESS_THAN input.Length; i++) {
+                int currentChar = Convert.ToInt32(input[i]);
+                int halfmax = ushort.MaxValue / 2;
+                int newVal = currentChar - halfmax - passcode;
+                newVal = newVal / 1822;
+                ret.Append((char)newVal);
+            }
+            return ret.ToString().Trim();
+        }
+  </encryptedFile>
+
+  <file path="Staff/A.Carey" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="Staff/A.Carey" name="Staff_Memo.txt">
+Hallo,
+
+zunächstmal, meinen Glückwunsch zum Start unserer neuen Encryption-Suite. Der Start war ein Riesenerfolg und ich hoffe, dass das neue Marketing-Material euch genauso aufgeregt stimmt, wie mich.
+Da DEC Solutions nun langsam aber sicher in die höheren Ligen aufsteigt, bin ich zu dem Schluss gelangt, dass wir - als Firma, unsere Maßstäbe höher legen müssen.
+Deshalb werden bald ein paar neue Regeln in Kraft treten, die, wie ich hoffe, von euch befolgt und geschätzt werden.
+
+Die neuen Regelungen werden in Kraft treten, sobald ich sie fertig ausformuliert habe. Bis dahin, weitermachen!
+
+Habt einen schönen und produktiven Tag,
+-David Leatrou, CEO
+</file>
+
+  <file path="Staff/A.Carey" name="New_Policies.txt">
+Hallo,
+hier sind die neuen Regelungen, die ich vor ein paar Tagen versprochen hatte. Gut durchlesen!
+   
+1) Wichtige interne Daten (Sourcecode, vertrauliche Memos, etc) müssen stets verschlüsselt gespeichert werden.
+Und welche Software wäre dafür besser geeignet als unsere? Ihr habt die Website gesehen. Ich werdet verstehen, dass dies unsere Firma sichererer - vetrauenswürdiger - macht.
+Ich habe damit bereits angefangen, indem ich meine eigenen Dateien verschlüsselt habe, die besonders wichtigen sogar DOPPELT! Als würde man zwei Kondome benutzen. Wenn das eine reißt, würd man ja noch vom anderen beschützt.
+
+2) Wenn ihr eure Daten verschlüsselt, solltet ihr eigentlich ohne Passwort auskommen. Wenn ihr aber der Meinung seid, irgendetwas wäre besorders wichtig, legt eure Firmen-ID als Passwort drüber.
+Z.B. wären meine wichtigen Dateien mit "dleatrou" verschlüsselt!
+
+3) Builds der Encryption-Suite müssen stets offline gespeichert werden! Heutzutage kann man gar nicht vorsichtig genug sein!
+
+Genießt euer letztes unverschlüsseltes Memo!
+-David Leatrou, CEO
+  </file>
+
+  <encryptedFile path="Staff/A.Carey" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+  <encryptedFile path="Staff/A.Carey" name="DECE_TestBuild.dec" ip="101.0.89.154" header="Source Code" extension=".bin">#BINARY#</encryptedFile>
+
+  <encryptedFile path="Staff/K.Abrams" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+  <encryptedFile path="Staff/K.Abrams" name="IMPORTANT_MEMO.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+Hey Kathy,
+  
+köntest du mir noch einen Kaffee besorgen? Ich bin um 15:00h wieder im Büro.
+  
+Danke! Immer schön verschlüsseln!
+  -David Leatrou, CEO
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/K.Abrams" name="Notes.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+  Nachbestellen:
+    
+  Papier (DIN A2/ kariert)
+  Firmen-Shirts (S, L und XL)
+  Kaffee (WICHTIG, ASAP BESORGEN)
+  Kaffeetassen (Wer zerbricht die ständig?!)
+  Spiegel (Was will David nur mit den ganzen Spiegeln?)
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/K.Abrams" name="Needed_In_Office.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+Hey Kathy,
+
+ich habe beschlossen, hier ein paar Spiegel aufhängen zu lassen, um die Arbeitsmoral zu steigern. Könntest du noch so ca.6 Stück in den Räumen verteilen?
+Das würde die Büros bestimmt aufpeppen.
+
+  Danke!
+  -David Leatrou, CEO
+  </encryptedFile>
+  
+</Computer>

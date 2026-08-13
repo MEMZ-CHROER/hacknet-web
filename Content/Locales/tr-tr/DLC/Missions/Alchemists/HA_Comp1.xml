@@ -1,0 +1,90 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dhaComp1" name="HA_Coagula" security="4" icon="Alchemist" type="empty">
+  
+  <proxy time="-1" />
+  <trace time="200" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dhaComp2" position="320" total="360"/>
+
+  <file path="home" name="alchemy.txt">Kadim Simyagerler acayip bir şekilde (bazı kaynaklara göre yanlışlıkla) metallerin canlı olduğuna inanıyordu. Onlara göre her şey Satürn (Titan Kronos) ile başladı ve farklı elementlerin oluşmasıyla karmaşık bir düzen aldı. Son element ise altın (Güneş) idi.
+
+Sonradan bunun metafor olduğu anlaşıldı. Yaşam ve madde olan Materya döngülerle yayıldı. Zümrüt Tablet'e göre ise; yukarıdaki aşağıdaki gibi, aşağıdaki de yukarıdaki gibiydi.
+
+"Sen, dostum, dönüşecek ve yeni bir döngüyü oluşturacaksın, her şey görkemli olacak."</file>
+
+  <!-- Translators note: Do not translate this file! It's meant to stay in Latin -->
+  <file path="home" name="tablet_latin.txt">Tabula Smaragdina
+
+Verum, sine Mendacio, certum et verissimum:
+
+Quod est Inferius est sicut quod est Superius, et quod est Superius est sicut quod est Inferius, ad perpetranda Miracula Rei Unius. Et sicut res omnes fuerunt ab Uno, meditatione inius, sic Omnes Res natae ab hac una Re, adaptatione.
+
+Pater eius est Sol. Mater eius est Luna. Portavit illud Ventus in Ventre suo. Nutrix eius Terra est. Pater omnis Telesmi totius Mundi est hic. Virtus eius integra est si versa fuerit in Terram. Separabis Terram ab Igne, subtile ab spisso, suaviter, magno cum ingenio.
+
+Ascendit a Terra in Coelum, iterumque descendit in Terram, et recipit Vim superiorum et inferiorum. Sic habebis Gloriam totius Mundi. Idio fugiet a te omnis Obscuritas. Haec est totius Fortitudinis Fortitudo fortis, quia vincet Omnem rem subtilem, Omnemque Solidam penetrabit.
+
+Sic Mundus creatus est. Hic erunt Adaptationes Mirabiles, quarum Modus est hic. Itaque vocatus sum Hermis Trismegistus, habens tres partes Philosophiae totius Mundi.
+
+Completum est quod dixi de Operatione Solis.</file>
+
+  
+  <file path="home" name="tablet_newton.txt">Zümrüt Tablet
+
+Hiç yalan olmadan doğrudur, kesindir ve gerçektir.
+
+Aşağıda olan yukarıda olan gibi, yukarıda olan da aşağıda olan gibidir. Birlikte tek bir şeyin mucizesini gerçekleştirirler.
+
+Her şey bir olandan geldiğinden, bir olanın düşüncesinden gelmiştir. Yani her şey bu tek olana uyum sağlayarak çıkmıştır.
+
+Güneş babası, Ay annesidir. Rüzgar onu karnında taşımış, Toprak beslemiştir.
+
+Dünya'nın tüm gücünün babası budur.
+
+Gücü toprağa dönerse her şeye yetecektir.
+
+Toprak ateşten, ince olan kalın olandan ayrılacaksa; büyük bir maharetle ayrılmalıdır.
+
+Topraktan gökyüzüne çıkacak; yeniden toprağa inecek ve hem yukarıda hemde aşağıda olanın gücünü alacaktır. 
+
+Bununla birlikte tüm dünyanın zaferi sizin olacak,
+Bu yüzden de tüm karanlık sizden uzaklaşacaktır.
+
+Tüm kuvvetlilerin en kuvvetlisidir. Çünkü her ince şeyi yenecek, her katı şeyin içine girecektir.
+
+Dünya da böyle yaratılmıştır.
+
+Hayranlık verici biçimler bundan çıkmıştır. Ortamları buradadır. Bu yüzden bana Üç Kere Büyük Hermes denir. Çünkü tüm dünya felsefesinin üç bölümü de bana aittir. 
+
+Güneş’in yaptıkları hakkındaki söylediklerim böylece bitmekte ve tamamlanmaktadır.</file>
+
+  <file path="home" name="nameofgod.txt">yod
+HE
+vau
+he
+</file>
+
+  <!-- This should be more cryptic than this, and require, ideally, a player to have read 
+  something on the entry comp to understand it properly. It does need to be an explicit hint 
+  for gameplay purposes though. -->
+  <file path="home" name="Rebis.txt">Yanılsama ve değişimin kalıpları döngüler halinde dışa vurulur, nesiller, alanlar ve konular boyunca kendilerini tekrarlar ve yansıtırlar.
+  
+Çağımızın teknolojisinde kullanılan dillerde dahi simya metinlerinin örnek alındığı açıktır.
+
+'Güvenlik Duvarı' dini bir simge veya savaş sebebi olarak değilde, topluluğun aracı olarak ortaya çıkar. Yine de aynı şekilde telaffuz edilir.
+Dünya, Kadim Madde, K'un.
+
+Rebis'dir ki, devinimin, bağlantının, değişkenliğini bilgeliğini aramaktadır.
+</file>
+
+  <LogoDaemon Name="COAGULA" ShowsTitle="true" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/Alchemists1">
+Yol'un sonucunda Bir oluşur.
+Bir'in sonucunda İki oluşur.
+İki'nin sonucunda Üç oluşur.
+Üç'ün sonucunda ise her şey oluşur.
+  </LogoDaemon>
+  
+</Computer>

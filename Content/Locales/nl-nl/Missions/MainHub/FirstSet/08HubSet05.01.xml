@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="FOF_Screenplay.doc" path="home" destTarget="producerComp" destPath="home/scripts" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Help een opkomend schrijver" reqs="dechead,decypher">
+Een opkomend schrijver wil zijn script naar een producers krijgen.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Een Overtuigende Sollicitatie</subject>
+    <body>
+Een schrijver wil een concept van hun laatste werk naar een producer krijgen en heeft wat problemen gekregen met secretaresses en zo.
+Hij wil dat wij inbreken en zijn werk in de computer van het doelwit's recensie map gooien zodat hij wordt bekeken.
+
+Zijn script, "FOF_Screenply.doc" is geupload naar de crossroads.
+Hij heeft ons een versleuteld bestand gestuurd waarmee hij moest concurreren, dat we kunnen gebruiken om na te volgen.
+Deze is ook op de crossroads, "T2_Screenply.dec"
+
+Upload zijn script naar de scripst map van het doelwit.
+Zoals altijd, onthoud tab om upload commando's te voltooien - "upload bin/" druk dan op tab om een lijst van lokale bestanden te krijgen en ze af te maken.
+
+Veel geluk,
+-CSEC
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <note title="Contract Details">Download FOF_Screenply.doc
+
+Volg T2_Screenplay.dec
+
+Upload FOF_Screenply.doc naar de scripts map.</note>
+    </attachments>
+  </email>
+</mission>

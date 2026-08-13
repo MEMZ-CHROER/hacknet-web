@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="lelzSec0">
+  <goals>
+    <goal type="FileChange" target="nortronWebServer" file="index.html" path="web" keyword="dicks"/>
+  </goals>
+  <missionStart val="10">changeSong</missionStart>
+  <nextMission>lelzSec/NortronBreakIn.xml</nextMission>
+  <branchMissions>
+    <branch>Theme/ThemeHackEndMission.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Naix</sender>
+    <subject>gg wp</subject>
+    <body>
+Vale, vale, lo pillo. Pues vale. Deja de tocarme los cojones con esto. 
+
+Un poco torpe dejar esos registros en tu equipo, en serio, parecía que no tenías ni puta idea de lo que estabas haciendo.
+ Pero oye, igual hasta es bueno, no todos los días se conoce a alguien por Internet que no es un completo idiota.
+
+ Tengo un pequeño test para ti, debería ser bastante divertido. Hay una compañía de seguridad que es básicamente un puto chiste, Nortron. ¿La conoces?
+ Sí, la verdad es que prefiero tener un virus que su mierda de &quot;seguridad&quot; jodiéndome el ordenador. Es una puta mierda. Consiguen la mayoría de sus ventas de gente que no tiene ni idea de lo que está haciendo.
+
+ Llevo un tiempo queriendo joder su página web y poner la palabra &quot;dicks&quot; por toda la página. Dicks en el título, en la cabecera, me da igual si cambias la puta página para que ponga solo la palabra DICKS, en serio. 
+Si quieres hacer un poco de hacktivismo para que el mundo se divierta, demuéstrame de lo que eres capaz. Seguro que esto es más divertido que cualquiera de las cosas para las que estabas aquí en un principio, ¿verdad?
+
+ -Naix 
+
+PD: Seguro que sigues sin tener ni idea de lo que es la seguridad de verdad, así que te he dado también un enlace a una guía de hackeo para bebés. ¡Que te diviertas!
+    </body>
+    <attachments>
+      <link comp="nortronWebServer"/>
+      <link comp="netEduComp"/>
+      <note title="Instrucciones">Reemplaza algo en el título por &quot;DICKS&quot;. También aprobaré otros cambios, con tal de que sean divertidos.</note>
+    </attachments>
+  </email>
+</mission>

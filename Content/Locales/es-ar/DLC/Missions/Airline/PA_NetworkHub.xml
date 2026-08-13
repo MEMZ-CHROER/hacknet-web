@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa_nethub" name="PacificAir_Network_Hub" security="5" type="4" icon="PacificAir">
+  
+  <!-- Network hub for the airline. This is an "internal Services" node for the airline,
+  it runs misc services and hosts data for them. This sort of catch-all, "don't know
+  where to put it so just put it there" server exists *a lot* in corporate networks.
+  Because of it's generic nature, it's the easy answer to where things go, so it naturally
+  becomes the center of things over time.
+  
+  Mechanically, it mostly exists to provide a central point from which players can reference things,
+  and for players to feel like the network is big and expansive, when not everything has a specialized role.
+  
+  In terms of the files it'll have on it, probably a few memos from people to one another (and another one
+  complaining that they should just use the company email for that sort of thing), bits and pieces that
+  employees want to send each other, or be able to access at work, both personal and work-related.
+  We don't want players to spend too long here (there isn't anything too useful to the mission to find) so keep
+  it light.-->
+
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="61" />
+  <portsForCrack val="4" />
+  <ports>22, 21, 443, 6881, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <dlink target="dpa_mail" />
+  <dlink target="dpa_bookings" />
+  <dlink target="dpa_whitelist" />
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/PacificAir_Big" title="DLC/Sprites/PacificAirTitle" overdrawLogo="true" buttonAlignment="right" />
+  
+  
+  <file path="home/memos" name="0504_nkudo_contractors.txt">
+esta circular pública se ha escrito para avergonzar a Nat por no hacerme la lista de contratistas
+¡¡¡Ponte a ello!!! -g</file>
+
+  <file path="home/memos" name="0505_gfinbow_clarification.txt">Por aquí una circular pública para Griffin
+A ver, llevo con ello unos días...
+Gracias, me ha costado entender algunas cosas
+Repito: de verdad que me ha costado
+Insisto. ¡Siento haberte causado problemas!
+Fijo que ha sido muy frustrante para ti
+Finbow-senpai, por favor, ¡perdóname!
+Insisto en que ha sido un proceso muy largo.
+No importan las horas extra que he hecho. ¡Ja, ja!
+Colega, ¿hacemos borrón y cuenta nueva? :)
+Oye, que a mí me gustaría intentarlo
+Me lo aplico a mí también.
+Mira, nos echamos un café y ya está.
+En serio.
+Lo digo en serio. Puedes gritarme si quieres.
+Quería dejar las cosas claras.
+Listo. Cuando termine esta circular, me pongo a ello.
+Oh, y quizá tú quieras leer la primera letra de cada frase. -nat</file>
+
+  <file path="home/memos" name="0506_hfadden_contractors.txt">
+Niños, portaos bien. Si no empezáis a actuar como adultos, os anularé los permisos a este nódulo. 
+-Harry</file>
+
+  <file path="home/memos" name="0507_hg.txt">
+    ok
+  </file>
+
+  <file path="home/memos" name="0508_nkudo.txt">Vale, parece que es cosa de Psylance. Gracias por la lista, por cierto.
+-g</file>
+
+  <file path="home/memos" name="0509_g.txt">imagina si no me hubieras forzado a dártela tan rápido a tu manera pasivo-agresiva, ja, ja -n</file>
+
+  <file path="home/memos" name="0510_everyone_STOP_THIS.txt">ESTE ES UN SERVIDOR DE PRODUCCIÓN. DEJAD DE LLENAR DEL SISTEMA DE ARCHIVOS CON NOTAS. 
+USAD EL FORO DE LA INTRANET O EL CORREO, QUE ME HE PASADO SEMANAS CONFIGURÁNDOLOS. IDIOTAS.
+
+POR EL AMOR DE DIOS.
+
+-ADMIN</file>
+
+  <file path="home/memos" name="0510_to_admin.txt">
+    ¿Lo flipas o qué, tío?
+  </file>
+
+  <file path="home/memos" name="0511_everyone.txt">Griffin se acaba de quedar sin permisos. Que esto os sirva a todos como advertencia.
+-admin
+  </file>
+
+  <file path="home/share" name="underwater.txt">Mira, viejo, ¿qué habías dicho sobre intentarlo en la Reserva Naval? –preguntó Ross. Lo normal sería que nos preparáramos para ir a Sandhurst, pero esto no es normal para nada. Es posible que la guerra haya acabado antes de que aprobemos.
+
+Preferiría no perderme la diversión –afirmó Vernon.
+
+Como si no nos la hubiéramos perdido ya –añadió su camarada. Pero sé lo que quieres decir. En vez de que nos encierren en un Unterseeboot y nos persigan los nuestros, nos gustaría echar una mano para rodear a los submarinos alemanes. Voto para que escribamos sobre ello a nuestros respectivos gobernadores.</file>
+
+
+  <file path="home/share" name="bonzibuddy.msi">#BINARY#</file>
+
+  <file path="home/share" name="bonzibuddy_v2.msi">#BINARY#</file>
+
+  <file path="home/share" name="the_tingler.msi">#BINARY#</file>
+
+  <file path="home/share" name="frog_fractions_3_beta.txt">#BINARY#</file>
+
+</Computer>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dPsyArchives" name="Psylance Internal Archives" security="4" type="empty" icon="Psylance">
+
+  <portsForCrack val="2" />
+  <ports>21, 22</ports>
+  <firewall level="-1"/>
+  <proxy time="1.2" />
+  <trace time="29" />
+  <portRemap>22=340</portRemap>
+  <adminPass pass="faithless" />
+  <positionNear target="dPsyInternal" position="212" total="360" extraDistance="0"/>
+  
+  <file path="home" name="ThisServer.txt">¡NOTA!
+Este es servidor de almacenamiento automático: ¡no copie aquí nada sin preguntar antes!
+Las carpetas se comprimirán automáticamente por fecha y se copiarán aquí para tener copias de seguridad de todo en lo que hemos trabajado.
+-Faith
+  </file>
+
+  <file path="home/archives" name="0_q1.zip">#BINARY#</file>
+  <file path="home/archives" name="0_q2.zip">#BINARY#</file>
+  <file path="home/archives" name="0_q3.zip">#BINARY#</file>
+  <file path="home/archives" name="0_q4.zip">#BINARY#</file>
+  <file path="home/archives" name="1_q1.zip">#BINARY#</file>
+  <file path="home/archives" name="1_q2.zip">#BINARY#</file>
+  <file path="home/archives" name="1_q3.zip">#BINARY#</file>
+  <file path="home/archives" name="1_q4.zip">#BINARY#</file>
+  <file path="home/archives" name="2_q1.zip">1101010001000110011#BINARY#</file>
+  
+  <customthemefile path="home" name="rain_x-server.sys" themePath="DLC/Themes/RainTheme.xml"/>
+  <customthemefile path="sys" name="rain_x-server.sys" themePath="DLC/Themes/RainTheme.xml"/>
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/RainTheme.xml"/>
+  
+</Computer>

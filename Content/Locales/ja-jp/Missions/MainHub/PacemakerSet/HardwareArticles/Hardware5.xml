@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle05">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0015 - Pacemaker v2.44 ファームウェアとパッチ">
+このポストでは、v2.44 Pacemakerのセキュリティ機能の詳細を説明しています。通常の操作方法に関しては説明書を読むか、support@kellisBio.comにコピーを請求してください。
+---------------------------------------------
+
+v2.44に使用されているファームウェアはEidolon Softにより開発されました。バージョン管理やクエリの実行、アップデートは彼らのセントラルサーバーを通して取り扱われます。IPは次の通りです。
+
+111.105.22.1
+
+彼らの内部サービスで署名されたビルドは、ペースメーカー上での実行にわが社のキーを使用しており、他社によって製作されたプログラムコードはそのキーでコンパイルしないかぎりは機器上で動作しません。
+遠隔モニターソフトウェアや、外部アクセスインターフェースに関する問題については、制作したEidolon Softに問い合わせるようお願いいたしします。問い合わせ用メールアドレス：support@eidolonsoft.com
+
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+このメールは、予期しないエラーが発生した場合に送信されます。
+どうぞ慌てふためいてください。
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

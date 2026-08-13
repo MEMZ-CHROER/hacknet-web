@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pacemaker01"
+          ip="202.6.141.219"
+          name="KBT-PM 2.44 REG#10811" 
+          security="1"
+          icon="chip"
+          type="4" > <!-- 1=  corporate, 2 = Home, 3 = server, 4= empty -->
+  <!-- Security Stuff -->
+  <trace time="-1" />
+  <ports>104</ports>
+
+  <HeartMonitor patient="E_Whit"/>
+  
+  <file path="KBT_Pacemaker" name="readme.txt"> ファイルから検出された署名が正当なものであれば、このフォルダに存在するファイルはすべてペースメーカーのソフトウェアに検出され、ファームウェアのパッチとしてUI上で選択することができます。
+  このチップに遠隔操作でパッチを当てたい場合、コマンド"upload [ファイル名及びパス]"を使ってこのフォルダ上にファイルをアップロードしてください。
+  </file>
+  
+</Computer>

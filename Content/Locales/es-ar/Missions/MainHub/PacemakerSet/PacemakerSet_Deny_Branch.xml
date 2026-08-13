@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pacemakerSetReplyBranch">
+  <goals>
+    <goal type="getString" target="deny"/>
+  </goals>
+  <missionEnd val="1">addFlags:csecPacemakerDeny</missionEnd>
+  <nextMission>MainHub/PacemakerSet/PacemakerSet_Deny_Reply.xml</nextMission>
+  <posting title="Error">
+
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Re: El proyecto Junebug</subject>
+    <body>
+      Lo entendemos perfectamente: 
+
+     Gracias por tu amabilidad.
+      No hace falta decir que agradeceríamos una discreción máxima en este asunto.
+
+      - Los administradores de CSEC
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

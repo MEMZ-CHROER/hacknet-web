@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDeletion" target="pointclicker" file="Mengsk.pcsav" path="PointClicker/Saves"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Point Clicker">
+Клиенту требуется удалить некоторые свои данные с игрового сервера для улучшения производительности
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Выбери пункт в меню</subject>
+    <body>Привет, гражданские,
+  
+я здесь крайне затруднительном положении, и, к сожалению, никто в моем бездарном отделе не сможет помочь с этой проблемой. Вот почему я решил прибегнуть к посторонней помощи. 
+Информаторы заверили меня, что  эта линия безопасна, так что я буду краток; я победил в игре PointClicker и хотел бы снова доказать свое преимущество над ней, но нет кнопки Reset. 
+Мне нужно, чтобы вы зашли на их сервер и удаляли файл с моими данными, чтобы я мог разгромить ее еще раз. Мое имя пользователя Mengsk. Можешь погреться в лучах моей славы перед сбросом. 
+
+Свободен. 
+- М
+    </body>
+    <attachments>
+      <link comp="pointclicker"/>
+      <note title="Управление контактом">Управление контактом
+"Mengsk"</note>
+    </attachments>
+  </email>
+</mission>

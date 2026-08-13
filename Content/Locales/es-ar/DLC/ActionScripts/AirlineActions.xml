@@ -1,0 +1,31 @@
+<ConditionalActions>
+
+  <OnAdminGained target="dpa_nethub">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="20">Puf, @channel, ¿alguien más ha tropezado con el muro del servidor de permisos?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="24">Sí. Pero creo que tengo una idea. Si puedes bajarlo por un minuto o dos, me encargaré de ello.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="25">¿Eh?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="30">Quiero decir que seguro que se me ocurre algo, pero no sé qué estás pensando :\</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="34">Secreto profesional ;) ¿Preparado? Cuenta atrás</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="39">Claro, aguanta...</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="44">5</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="45">4</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="46">3</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="47">2</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="48">1</AddIRCMessage>
+    
+    <CrashComputer Delay="50" DelayHost="dhs" CrashSource="D3F_POD" TargetComp="dpa_whitelist" />
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="52">Listo, ¡vamos!</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="74">Casi lo tengo...</AddIRCMessage>
+    <DeleteFile Delay="82" DelayHost="dhs" TargetComp="dpa_whitelist" FilePath="Whitelist" FileName="authenticator.dll" />
+
+    
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="85">Yyyyy ¡conseguido! Listos para irnos. ¿Puedes comprobarlo por mí, D3f4ult ?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="90">¡Mierda! ¿Cómo...?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="93">;)</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="95">Oh, sí, @#PLAYERNAME#, ¡el servidor de permisos ha caído!</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="101">Deberías poder conectarte ahora al servidor central</AddIRCMessage>
+    
+  </OnAdminGained>
+  
+</ConditionalActions>

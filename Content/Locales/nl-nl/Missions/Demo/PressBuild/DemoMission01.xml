@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pressdemoMission01">
+  <goals>
+    <goal type="FileDeletion" target="pointclickerDemo" file="Bit.pcsav" path="PointClicker/Saves" />
+  </goals>
+  <nextMission>Demo/PressBuild/DemoMission02.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Maiden Flight</subject>
+    <body>Gefeliciteerd!
+Ik heb weliswaar geen idee of je geslaagt hierin bent antwoorder, maar als je dit leest betekent dat je ten minste IETS gevonden hebt, dus ik ga ervan uit dat het nuttig is.
+Ik heb een goede test hier voor je - iets dat je dit nieuwe programma laat uitproberen. Er is een spel waaraan ik eerlijkgezegt een genante hoeveelheid tijd aan heb besteed, en het is hiertoe gekomen - Ik vind niet dat dit noodzakelijk in mijn nalatenschap hoeft, zoals het nu is.
+Beveiliging op de server zou niet te sterk moeten zijn - Ik wil dat je inbreekt en mijn account verwijderd.
+
+Je moet misschien je nieuwe programma gebruiken. Als dat zo is kun je het runnen door de naam en een poort nummer in te typen, zoals:
+
+>SSHCrack 22
+ ^naam    ^poortnummer
+
+Vind een poort die je wil kraken en run het daarop.
+
+Oh, en als je het nog niet weet, je kan commando's auto-afmaken door op tab te drukken - op tab drukken na "ssh" getypt te hebben zou het moeten afmaken, etc. Werkt voor alles!
+
+Veel geluk!
+
+--Bit
+0
+
+    </body>
+    <attachments>
+      <note title="Mission Overview">Verbind met de Point Clicker server.
+Gebruik Probe om de open poorten te zien.
+Richt op een met het programma en de juste poort
+D.W.Z: "SSHCrack 22"
+        ^naam    ^poortnummer
+
+Kraken van voldoende poorten maakt het systeem kwetsbaar voor een kraak met "Porthack".
+Gebruik het "ls" commando om een lijst van bestanden en mappen te krijgen
+Verwijder het bestand van gebruiker "Bit"
+      </note>
+      <link comp="pointclickerDemo" />
+    </attachments>
+  </email>
+</mission>

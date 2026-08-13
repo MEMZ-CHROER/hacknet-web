@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dMF_2_Lihotas" name="Lihota Productions" security="2" ip="17.5.3.9" type="empty" >
+
+  <!-- Discoverable computer from block 1 of the memory forensics intro missions
+  Use the IP address in the second line of this file in one of the memory dumps
+  to make it findable.-->
+  
+  <ports>6881, 443, 21, 22, 80</ports>
+  
+  <proxy time="-1" />
+  <portsForCrack val="4" />
+
+  <trace time="125" />
+
+  <admin type="fast" resetPassword="true" isSuper="false"/>
+
+  <adminPass pass="4TL4S" />
+
+  <tracker />
+
+  <file path="share/secure" name="meta.txt">archivos finales para clientes anónimos
+no accesible para aquellos con seguridad inferior a c
+podemos leer el registro. ten cuidado
+</file>
+  <file path="share/secure" name="memorydumps.rar">#BINARY#</file>
+  <file path="share/secure/originals" name="sn_memory_dump.rar">#BINARY#</file>
+  <file path="share/secure/originals" name="sn_memory_dump_decompiled.rar">#BINARY#</file>
+  <file path="share/secure/originals" name="sn_memory_dump.txt">El software Snackintosh se ofrece por intercambio de habilidades o programas con la condición de que el receptor no intente descompilarlo, hacer ingeniería inversa, venderlo, comerciar con él o distribuirlo de ninguna manera. 
+Si Snackintosh descubre que lo haces, habrá consecuencias.</file>
+
+  <file path="home/client" name="meta.txt">los archivos finales de los clientes. esperando que paguen antes de enviar. contactar con addi o anni antes de modificar CUALQUIER archivo. si no, te prenderemos fuego. :-)</file>
+  
+  <file path="home/client/schissco" name="meta.txt">archivos finales que esperan confirmación para enviar
+
+(gracias a dios que perdimos el servidor DESPUÉS)</file>
+
+  <file path="home/client/schissco" name="server-deliverable.zip">#BINARY#</file>
+  <file path="home/client/schissco" name="fw-a6e.zip">#BINARY#</file>
+  <file path="home/client/schissco" name="server2b-deliverable.zip">#BINARY#</file>
+  <file path="home/client/schissco" name="meta.txt">archivos finales que esperan confirmación para enviar
+(gracias a dios que perdimos el servidor DESPUÉS)</file>
+  
+  <file path="home/client/megasanta" name="barkeep-v1a.zip">#BINARY#</file>
+  <file path="home/client/megasanta" name="corgi-extension.zip">#BINARY#</file>
+  <file path="home/client/megasanta" name="jacuzzi.zip">#BINARY#</file>
+
+  <file path="home/client/vgcollective" name="smah2-backend.zip">#BINARY#</file>
+  <file path="home/client/vgcollective" name="iprosthetic-fw.zip">#BINARY#</file>
+  <file path="home/client/vgcollective" name="5e9d.zip">#BINARY#</file>
+  <file path="home/client/vgcollective" name="d0ng5.zip">#BINARY#</file>
+
+  <file path="home/client/sneakysenpai" name="yandere-b7063.zip">#BINARY#</file>
+
+  <file path="home/client/wisebird" name="newroman.zip">#BINARY#</file>
+  <file path="home/client/wisebird" name="articulated.zip">#BINARY#</file>
+
+</Computer>

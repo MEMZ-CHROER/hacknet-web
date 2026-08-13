@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dPets_Auth" name="Neopals_Authentication" security="8" type="4" icon="DLCServer">
+
+  <adminPass pass="mlk3fsdie321" />
+
+  <positionNear target="dPets_MF" position="220" total="360" extraDistance="0.01"/>
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/Neopals/Chisha" title="DLC/Sprites/NeopalsLogo" overdrawLogo="false" buttonAlignment="right" />
+
+  
+  
+  <Memory>
+    <Commands>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+    </Commands>
+    <Data>
+      <Block>v=atY2Z0J6zX8</Block>
+      <Block>
+~/home/reminder.txt
+
+Mainframe Auth:
+Login: admin
+Pass: n8u5v432kj</Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Neopals/Kachici</Image>
+    </Images>
+  </Memory>
+
+  <dlink target="dPets_MF" />
+  <dlink target="dPets_Home" />
+
+  <file path="AUTHSERV" name="EncryptedVerificationCluster.blk">#BINARY##BINARY#</file>
+  <file path="AUTHSERV" name="AuthServ.dll">#BINARY#</file>
+  <file path="home" name="NO_REBOOT.txt">DIESE MASCHINE NICHT NEUSTARTEN!
+Die API verwendet diesen Server für Logins. Nicht neustarten oder die Einstellungen ändern, ohne zuerst zu fragen! Niemals, egal aus welchen Gründen!
+-T</file>
+  <file path="home" name="Ash_READTHIS.txt">
+Verdammt, Ash, ich weiß, dass du mich jetzt nur noch verarschst. Egal, wie sicher dieses Ding sein mag, „Authentifizierungsserver“ heißt nicht, dass du hier alle Authentifizierungsdetails für alles aufschreiben kannst!
+Datei gelöscht. Zwinge mich nicht, das Tiff zu melden.
+-T</file>
+  
+  <admin type="progress" isSuper="true"/>
+  
+</Computer>

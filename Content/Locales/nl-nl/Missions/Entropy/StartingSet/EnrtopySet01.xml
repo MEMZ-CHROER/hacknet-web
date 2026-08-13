@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDeletion" target="pointclicker" file="Mengsk.pcsav" path="PointClicker/Saves" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Point Clicker">
+Een befaamde klant wil zijn data van een gameserver verwijderd om productiviteit te verbeteren.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Point Clicker</subject>
+    <body>Gegroet burger,
+
+Ik zit een benarde situatie hier en helaas kan niemand in mijn incompetetente kantoorstaf het voor mij fixen. Dit heeft mij geforceerd hulp vanaf buiten te vragen, hoe onsmakelijk dat ook is voor mij.
+Informaten hebben verzekerd dat deze lijn beveiligd is, dus ik houd het kort; Ik heb de game "PointClicker" verslagen en wil dit nog een keer doen, maar er is geen reset knop.
+Ik wil dat je hun server binnendringt en mijn voortgang verwijderd zodat ik het nog een keer kan neerslaan. Mijn gebruikersnaam is "Mengsk" Voel je vrij om in mijn glorie te baden voor de reset.
+
+Klaar,
+-M
+    </body>
+    <attachments>
+      <link comp="pointclicker" />
+      <note title="Contact Handle">Contact Naam
+"Mengsk"</note>
+    </attachments>
+  </email>
+</mission>

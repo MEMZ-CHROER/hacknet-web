@@ -1,0 +1,84 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechRomulus" name="En_Romulus" security="5" ip="156.151.1.12">
+
+  <admin type="basic" resetPassword="false"/>
+
+  <adminPass pass="h7ggNKl2" />
+
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+
+  <positionNear target="EnTechMainframe" position="4" total="6" />
+
+  <file path="STORE/Contractors/Bit" name="Hacknet_Project_BitReport04.txt">
+Niet zeker van hoe lang je wil dat dit verslag is, dus ik houd het lekker kort.
+Voortgang is goed - mijn onderdeel gaat zoals geplanned - het werkt en het slaagt in jullie meeste test scenarios (#86 echter - wat is dat? Hint?).
+Ik ben tegen een paar problemen aangelopen die me het moeten laten decentralizeren - nieuwe versies ervan communiceren met een "Hart" server, die zal verwerken en oplossing terugsturen voor de wat moeilijkere scenario's, zodat ze snel kaar zijn. Ik denk dat dit mij wat meer opties geeft voor dingen zoals whitelist servers.
+Ik heb het werkend gekregen en ik heb mijn Hart link prototype ook upgeload naar hier.
+
+Je hebt me behoorlijk veel vrijheid gegeven, dus ik neem aan dat dit prima is, laat me maar weten als er problemen zijn.
+
+--Bit
+1
+  </file>
+  <encryptedFile path="STORE/Contractors/Bit" name="hn_repo_archive.dec" ip="156.151.59.35" header="EnTech(tm) Repository Backup" pass="ax229msjA">#BINARY#</encryptedFile>
+  <encryptedFile path="STORE/Contractors/Bit" name="hn_PH_LinkPrototype.dec" ip="23.236.62.147" header="Porthack heart link prototype" pass="ax229msjA">#BINARY#</encryptedFile>
+
+  <file path="STORE/Contractors/Deonyx" name="Hacknet_Project_DeonyxReport4.txt">
+Update Verslag:
+---------------
+
+Goed nieuws - dingen staan behoorlijk voor op schema. Lijkt er op dat ik gewoon wat code van het WINE project voor unix kan gebruiken voor veel van de moeilijkere problemen.
+
+Programma's van de standaard unix runnen prima - cross distro problemen waren veel minder dan een probleem dan ik dacht, vanwege onze kernel toegang hier - ik kan een paar dingen neppen en wrappers schrijven voor de rest en het werkt toch een soort van samen. Ik zie die niet als een probleem.
+Andere OSen zijn altijd een probleem en met ons framewwork gaan we niet letterlijk alles kunnen runnen. maar met deze WINE oplossing, ik ben al bezig om iets te maken wat werkt op de meeste terminal applicaties - .NET en C# zijn prima (bedankt mono project), C++ werkt afhankelijk van wat libs en compiler keuzes.
+Plat C geeft me de meeste problemen, maar omdat ik weet wat ik kan verwachten (veel netwerk toegang toch?) gaat het wel ok.
+
+Al met al, veelbelovend, we zouden binnenkort een universele executable runner klaar moeten hebben. En met ons bedoel ik ik - Ik krijg zou het klaar moeten hebben.
+
+_Deonyx
+  </file>
+  <encryptedFile path="STORE/Contractors/Deonyx" name="Hacknet_Codelink_v1.dec" ip="xxx.xxx.xxx.xxx" header="deonyx server has almost all programs on it for testing" pass="84833mmn1">#BINARY#</encryptedFile>
+
+  <file path="STORE/Contractors/teja" name="04Report_Hacknet_Project_teja.txt">
+Hacknet Project Verslag 04:
+
+--Extra taken deze week zijn compleet.
+SecurityTracer.exe is geüpload hier en zou in alle nieuwe Hacknet uitgaven moeten komen als een tijdelijk middel terwijl er aan het volledige project wordt gewerkt.
+Het is een pleister oplossing, maar het zou automatisch moeten activeren, de gebruikers kopie moeten uitschakelen en de locatie (IP en geografisch) naar de centrale controle servers moeten sturen na een kopie is opgestart en voor een tijdje gewerkt heeft.
+
+--Plannen voor een dieper geïntegreerd, onzichtbare SecurityTracers boeken resultaten
+Voortgang is vertraagt om het afmaken van TraceTracker te kunnen doen voor de volgende mijlpaal.
+
+--Trace Tracker v0.93 uitgegeven.
+Uitgave kandidaat voor de volledige versie. Successvol voor alle 92 gegeven test scenario's en geslaagt in 22 / 25 van mijn eigen scenario's.
+Dit volgt succesvol en schat pingbacks en volg tijd voor alle bekende automatische volg software, en biedt een (relatief) erg nauwkeurige schatting over hoe veel tijd er is voordat een automatische nood-sequens kan worden gestart.
+
+Ik wil deze kans nemen om de kracht te verduildelijken van dit beetje technologie. Zelfs zonder updates is dit een ontzettend bruikbaar programma en ik raad aan streng beheer met de programma's die ik heb gegeven. Ik zal de versies observeren om dit te verzekeren.
+
+Bedankt,
+teja
+  </file>
+  <encryptedFile path="STORE/Contractors/teja" name="HacknetSecurityTracer.dec" extension=".exe" ip="xxx.xxx.xxx.xxx" header="teja server has loads fo copies of security tracer" pass="84833mmn1">#SECURITYTRACER_PROGRAM#</encryptedFile>
+
+
+  <file path="STORE/Contractors" name="IMPORTANT_ContractorUploadGuide.doc">Hier moeten de laaste binaire versies van al de aannemers werk en verslagen gehouden worden.
+
+  WAARSCHUWING - DEZE MAPPEN NIET HERNOEMEN
+
+Bouw scripts refereren ze om volledige versies en verslagen te compileren.
+  </file>
+
+  <file path="STORE/Contractors" name="Contractor_Server.doc">Deze repo slaat alleen gebruikklare edities van de aannemers werk op (en is ook bedoeld voor gebruiksklare EnTech code).
+Voor meer up-to-date, ongeteste versies hiervan, kijk op de Aannemer Relais (Contractor Relay) server:
+
+EnTech External Contractor Relay Server : 156.151.59.35
+
+---------------------------------
+
+NOOT: Omdat de emails *blijven komen* hierover, het wachtwoord om de geuploade bestanden te zien is "ax889msjA" - zoals het is op de harde kopie die je kreeg toen je hier voor het eerste toegang kreeg.
+
+  </file>
+
+</Computer>

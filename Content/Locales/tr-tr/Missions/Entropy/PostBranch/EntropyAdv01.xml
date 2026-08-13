@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission03">
+  <goals>
+  </goals>
+  <missionStart>entropySendCSECInvite</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Tebrikler</subject>
+    <body>
+Anlaşılan senden istenileni yerine getirdin. Umarım topluluğumuz o hoş görüntüsünü korumayı başarabilir.
+
+Entropy'e sunmuş olduğun hizmetlerden ötürü seni takdir ediyoruz. Kuruluşumuzun seni tatmin etmeyeceği ise apaçık ortada. 
+Dürüst olmak gerekirse, Entropy asla hack dünyasının ağır abilerinden olmayacak. Burayı iyi bir sebeple kurdum - kötüye giden hacker imajını düzeltmek amacıyla.
+
+Sana ihtiyacımız olduğunda Entropy'e yardım etmeye devam edeceğini bilsem de, bu teklifi hak ettiğini düşünüyorum:
+
+CSEC isimli aşırı iyi hackerlardan ve bilgisayar güvenliği uzmanlarından oluşan ki bu tanıma uyduğunu düşünüyorum, ve sadece davet ile üye kabul eden bir gruba mensubum.
+Gruba davet edilmen için istekte bulundum. Yakında kabul testini içeren bir e-posta alacaksın.
+
+Bunu ciddi şekilde düşünmeden yaptığımı sanma sakın. Bazı çevreler grubumuza katılmak için davetiye bulmaya bile çalışır.
+
+Kolay gelsin.
+-Tex
+    
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

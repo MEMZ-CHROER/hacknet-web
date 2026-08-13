@@ -1,0 +1,181 @@
+﻿﻿
+<#
+Vous êtes en ce moment même en danger! 
+#>
+
+Apprenez aussi vite que possible. Commencez la séquence tutorielle en appuyant sur le bouton continuer ci-dessous.
+
+%&%&%&%
+Connectez-vous à un ordinateur en tapant "connect [IP]" sur le terminal - ou en cliquant sur un nœud de la carte du réseau. 
+<#
+Connectez-vous à présent à votre propre ordinateur
+#>
+en cliquant sur le cercle vert sur la carte.
+
+%&%&%&%
+Bon travail.
+ 
+La première chose à faire dans tout système est de le scanner à la recherche de nœuds adjacents. Cela permettra de révéler plus d'ordinateurs que vous pourrez utiliser sur votre carte.
+
+<#
+Scannez cet ordinateur
+#>
+
+en pressant le bouton Scan du Réseau sur le module d'affichage.
+
+%&%&%&%
+Ce devrait être tout ce dont vous avez besoin de la part de votre propre serveur pour l'instant.
+<#
+Déconnectez-vous de votre machine
+#>
+
+
+%&%&%&%
+Il est temps pour vous de vous connecter à un ordinateur extérieur.
+ 
+Soyez conscient que tenter de compromettre la sécurité d'un autre ordinateur est illégal en vertu de l'U.S.C. Act 1030-18.
+ 
+Continuez à vos risques et périls et
+<#
+connectez-vous à une machine externe
+#>
+en cliquant sur un nœud bleu sur la carte du réseau.
+
+
+%&%&%&%
+Le module Terminal de cette VM a été activé. Il s'agira de votre interface principale pour naviguer et interagir avec les nœuds.
+ 
+Une commande peut être exécutée en la tapant et en pressant la touche entrée.
+ 
+Le système de sécurité et les ports ouverts d'un ordinateur peuvent être analysés en utilisant la commande
+<#
+probe
+#>
+(ou "nmap"). 
+Analysez l'ordinateur auquel vous êtes actuellement connecté.
+
+
+%&%&%&%
+Ici vous pouvez voir les ports actifs, la sécurité active, et le nombre de ports ouverts nécessaires pour réussir le piratage de cette machine en utilisant PortHack.
+Cette machine n'a aucune sécurité active et ne requiert aucun port ouvert pour être piratée. Si vous y êtes préparé, il est possible de pirater cet ordinateur en utilisant le programme "PortHack".
+ 
+<#
+Lancez le programme PortHack
+#>
+|Pour lancer un programme vous appartenant sur la machine à laquelle vous êtes connecté, saisissez le nom du programme comme commande de terminal.
+Un nom de programme ne nécessite pas de ".exe à la fin".
+ 
+
+%&%&%&%
+Félicitations, vous avez pris le contrôle d'un système externe et vous êtes maintenant son 
+administrateur. Vous pouvez faire tout que vous souhaitez avec, cependant vous devriez commencer par
+<#
+le scanner à la recherche de nœuds locaux
+#>
+pour déceler des ordinateurs supplémentaires. Vous pouvez faire ceci en utilisant la commande "scan".
+
+
+%&%&%&%
+Aucun résultat - ce n'est pas un problème.
+
+Ensuite, vous devriez jeter un œil au système de fichiers.
+<#
+Listez les fichiers et dossiers du répertoire actuel
+#>
+ 
+
+|Listez les fichiers et dossiers en utilisant la commande "ls".
+ 
+Le module d'affichage a été réactivé pour être utilisé à cet effet.
+
+
+%&%&%&%
+<#
+Naviguez vers le dossier "bin"
+#>
+(Dossier Binaries) pour chercher des exécutables utiles en utilisant la commande 
+ 
+cd [NOM DU RÉPERTOIRE]
+
+(Notez l'espace entre la commande et le paramètre)
+
+
+%&%&%&%
+Pour voir le contenu du dossier actuel, utilisez la commande "ls".
+ 
+
+Il n'y a pas de programmes ici, mais vous devriez
+<#
+regarder dans config.txt
+#>
+au cas où il contiendrait des informations utiles.
+ 
+|Lire le contenu de n'importe quel fichier en utilisant la commande cat. Ex:
+ 
+cat config.txt
+   
+NOTE: Lire des données sans en avoir la permission est illégal et passible de prison en vertu des lois internationales.
+ 
+
+
+%&%&%&%
+Totalement inutile!
+  
+Maintenant pour couvrir vos traces avant de disparaître. 
+<#
+Remontez d'un dossier dans l'arborescence
+#>
+en utilisant "cd .."
+ 
+Note:  le joker ".." indique 'Retour' ou 'Répertoire Parent'.
+ 
+
+
+%&%&%&%
+<#
+Déplacez-vous vers le répertoire "log".
+#>
+cd [NOM DU RÉPERTOIRE]
+
+
+%&%&%&%
+<#
+Supprimez tous les fichiers de ce répertoire
+#>
+ 
+Vous pouvez supprimer un fichier en utilisant la commande 
+<#
+rm [NOM DU FICHIER]
+#>
+cependant vous pouvez supprimer TOUS les fichiers du répertoire actuel avec la commande 
+ 
+<#
+rm *
+#>
+ 
+Note: le joker "*" indique 'Tous'.
+
+
+%&%&%&%
+Excellent travail.
+ 
+<#
+Déconnectez-vous de cet ordinateur.
+#>
+ 
+Vous pouvez le faire en utilisant la commande "dc" ou "disconnect"
+
+
+%&%&%&%
+Félicitations, vous avez terminé la section guidée de ce tutoriel.
+ 
+<#
+Pour le terminer, vous devez trouver l'ID de Processus (PID) de ce programme tutoriel et y mettre fin.
+#>
+ 
+La commande "help" vous proposera une liste complète de commandes à tout moment.  
+ 
+|La commande "ps" listera le PID de chaque processus actuellement en fonctionnement.
+
+
+%&%&%&%

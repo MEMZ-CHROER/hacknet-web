@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews03">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Das neue Macrosoft-Phone: So schlecht wie erwartet...">
+Es scheint, als ob Macrosoft keine Pause bekommt - Das neue "Waterfall-Phone", das uns aus einer anonymen Quelle zugestellt wurde, scheint ein paar klaffende Sicherheitslücken aufzuweisen.
+Nutzer können sich auf das vertraute, verbuggte Betriebssystem freuen. Jetzt neu mit schweren Sicherheitsproblemen! - Alle installierten Apps können einfach Adminrechte erlangen und ein Networking-Bug kann die gesammelten Daten dann unverschlüsselt quer im Web verteilen.
+"Waterfall", Macrosofts neues Smartphone sollte in zwei Wochen im Handel erhältlich sein, aber diese neuen Erkenntnisse haben den Start um mindestens einen Monat verschoben.
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Muss Aufgehalten Werden</subject>
+    <body>
+Zerstöre die Entropy-Database
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

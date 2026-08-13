@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dPets_Engineer1" name="Thomas_Office" security="3" ip="104.95.129.117" icon="DLCPC1">
+  <!-- No critical mission link here, but should contain custom theme -->
+  
+  <dlink target="dPets_VC" />
+
+  <ports>22, 21, 6881, 9418</ports>
+
+  <positionNear target="dPets_MF" position="160" total="360" extraDistance="0.05"/>
+
+  <file path="home/work" name="SecurityBreaches.txt">
+Verstöße gegen die Sicherheitsrichtlinie für die Nachwelt aufzeichnen.
+
+1: Tiff hatte Admin-Passwörter für den Mainframe im KLARTEXT auf dem Auth-Server. Es ist egal, dass der Server selbst gesichert ist - du willst einfach nicht der Single-Point-Of-Failure sein. Passwörter in Klartext sind scheiße, egal wo.
+Datei mit Passwörtern gelöscht.
+
+2: Ash hat das Passwort auf ein Stück Papier geschrieben und einfach an die Wand geheftet - Mensch, wir haben hier Fenster!
+
+3: Susan hat einen Computer über Nacht eingeloggt gelassen. Verständlich, aber wenn wir hier schon eine Liste machen?
+
+4: Tiff hat vermutlich sensible Daten auf ihrem Handy, sie hat es ständig in der Hand.
+Mag zwar paranoid sein, aber man weiß ja nie.
+
+FORTSETZUNG FOLGT LEIDER
+  </file>
+
+  <file path="home/work" name="Developer_SetupGuide.txt">
+--Neopals Einrichtungsleitfaden für Entwickler v1--
+  
+Willkommen beim aktiven Entwicklungsteam von Neopals! Die Einführung sollte unkompliziert und du in Minutenschnelle produktiv sein, oder?
+
+FALSCH GERATEN! WILLKOMMEN IN DER HÖLLE.
+Was, du hast doch nicht ernsthaft geglaubt, dass diese 10 Millionen Jahre alte Website eine saubere, pflegbare Codebasis hat? Willkommen in der Spaghetticode-Einzel-PHP-Datei-200-Seiten-Website-Folterkammer, mein Freund!
+Was du hier vor dir siehst, sind die jahrelangen konzentrierten Bemühungen ausgebrannter Entwickler, dir deine Zukunft so schmerzhaft, unmöglich und untestbar wie möglich zu machen. Wie bitte, du willst ehrlichen Rat zur Codebasis? Ja, klar, mach sie gleich mal auf und nur zu, ich warte.
+Oder auch nicht, bis du da mal durchblickst, bin ich schon längst abgekratzt. Was war das für ein Geräusch? Dein Heulen darüber, dass du nicht ins Grafikteam gegangen bist? Verständlich - manchmal möchte ich diesen Ort auch hinter mir lassen und stattdessen liebevoll unschuldige Charaktere designen und dann zusehen, wie Leute am nächsten Tag billige Pornos draus machen. 10/10.
+
+Hier ist deine Einrichtungsanleitung:
+
+Schritt 1: Finde einen geladenen Revolver.
+Schritt 2: Mache alle ausfindig, die für diesen Mist verantwortlich sind.
+Schritt 3: ???
+Schritt 4: ES IST IMMER NOCH ALLES TOTAL IM EIMER.
+
+Einmal habe ich die Farbe der Anmeldeschalfläche geändert, und darauf hin war das ganze Kampfsystem hinüber. What the fuck.
+
+Egal, dann leg mal los! Wenn du Fragen hast, rate ich dir, lieber um die erquickende Erlösung des Todes zu beten.
+-Thomas
+  </file>
+
+  <!-- Translator Note: (at) Jonas: Hast du irgendeine Ahnung, was irgendetwas hiervon bedeutet?  -->
+  <file path="home" name="SECRET_DOTA_STRATS.txt">
+#1: Sniper, CM, Dazzle. Death Prophet, Offlaner mit Sperre
+Tri Line-Sniper/CM/Dazzle, in der Mitte DP, Offlaner pusht und bekommt EP. Der Build von Sniper ist:
+Rapier
+Rapier 
+Flat Boots 
+Manta Style
+Rapier
+Optional boots upgrade.
+
+5 Mann-Push, bis du in dem Moment gewinnst, wo er den Rapier bekommt! Dazzles Job ist es, den Sniper ins Grab zu bringen, sobald der Feind sich auf ihn stürzt. Alle anderen sind Lockdown und Push.
+In 1/1 Spielen buchstäblich ungeschlagen.
+
+
+#2: Offensive Dschungelkopfgeldjäger
+Wähle BH, Tarn-St. 1, lauer in ihrem Dschungel und stehle die last Hits von ihrem Jungler. Macht das Spiel unglaublich nervig, wenn 4 gegen 4 spielen, wo sie Staub kaufen müssen und ihr Team superschräg startet. Op op.
+
+#3: Secret Mid-Dazzle
+Dazzle in der Mitte, so schnell wie möglich max. Gift, Phasenstiefel bauen -> Urn -> Desco und Gank auf 6 mit Weave und irre langsamer Op. 
+Die Rechtsklicke und Animationen von Dazzle sind wahnsinnig gut. Spurhalten ist gut, Ganks sind stark mit großer, langsamer + Rüstung, geh roaming und hol dir so schnell wie möglich Desco für bessere Ganks und Push. In der Mitte geht es voll ab!
+  </file>
+  
+  <file path="home" name="AnalyticsApp_designNotes.txt">
+Verwendet API, um Spielwiederholungen herunterzuladen, Custom Parser, um Detail-Werte herauszuziehen.
+Last Hit Analyse - berechne, wie oft ein verpasster letzter Treffer zu früh oder spät war. Metriken zu Distanzen anzeigen, bei denen du als ein Fernkämpfer am wahrscheinlichsten daneben triffst, und wie häufig du unangefochtene letzte Treffer usw. verpasst.
+Zeigt Zaubersprüche, die ohne „Effekt“ gewirkt wurden - hol dir Daten, wann Zaubersprüche nicht treffen, wie oft sie daneben gehen usw.
+Daten über Unterstützung wie Bezirksabdeckung im Laufe der Zeit, Orte, bei denen im Laufe der Zeit eine hohe Konzentration an feindlichem Verkehr ohne Sicht Verbündeter auftritt.
+Detaillierte EP-Analyse - hol die bessere Daten darüber, an welchen Punkten im Spiel die EP pro Sekunde abfallen. Finde Zeiten, zu denen wahrscheinlich ist, dass die Spieler ohne große Wirkung herumwandern, und heb das hervor.
+Detaillierte Metriken über Zeiten, wenn Verbündete oder Feinde lange Blöcke ununterbrochenen Farmens hatten (minutenlang keine gegnerischen Helden in der Nähe).
+  </file>
+
+  <customthemefile path="sys" name="Riptide_x-server.sys" themePath="DLC/Themes/RiptideTheme.xml"/>
+  
+</Computer>

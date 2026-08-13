@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyNews05">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="New Opbol Dongle patent will Tantalize Fanboys">
+하드코어 Opbol 팬들은 지갑을 두둑이 준비하는 게 좋을 것이다.  테크놀로지의 선두 주자 Opbol Computing이 오늘 특허를 신청한 내용은 해당 기업이 곧 홈 콘솔 시장에 뛰어들 것을 시사한다. 확장 가능한 &quot;동글&quot;에 대한 특허를 신청하였는데, 전문가들의 말에 따르면 새로운 
+비디오게임 시스템의 컨트롤러나 모션 센서 같은 부품일 가능성이 있다고 한다. 현재로서는 망원경이 달리고 끝이 둥근 원통형의 디자인만이 특허가 내려진 상태이나, 정보원에 따르면 며칠 안으로 새 장치의 기능에 대한 소식이 곧 전해질 예정이다. 본지 구독 요망!
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy를 막아야 한다</subject>
+    <body>
+Entropy 데이터베이스를 파괴하라
+    </body>
+    <attachments>
+      <link comp="entropy01"/>
+    </attachments>
+  </email>
+</mission>

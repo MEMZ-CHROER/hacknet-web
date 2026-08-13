@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dHidden" name="Bibliotheque Ghost Storage" security="10">
+
+  <!-- Programs and rewards -->
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+  <!-- Custom Theme Files -->
+  <customthemefile path="home" name="Floatvoid_x-server.sys" themePath="DLC/Themes/FloatVoidTheme.xml"/>
+  <customthemefile path="home" name="FloatvoidStandard_x-server.sys" themePath="DLC/Themes/FloatVoidThemeStandard.xml"/>
+  
+  <!-- Expo Mission -->
+  <file path="home" name="p_SQL_399.gz">#BINARY#</file>
+  <file path="home" name="patch_checksum.chk">16060154-F6FD-4876-82FD-8544E6BD6C21</file>
+
+  <!-- Memory Forensics Files -->
+  <file path="home" name="Memory_Forensics_Readme.txt">
+Vaya a la carpeta que contiene el volcado de memoria que desea analizar.
+Ejecute el comando:
+MemForensics [FILENAME]
+Recuerde que puede utilizar TAB para completar automáticamente los nombres de archivos y rutas de acceso.
+Llevará un poco de tiempo procesar (indexar) el volcado. Después se le proporcionará la herramienta de escaneo.
+Cada opción procesará la memoria e intentará seleccionar los datos relevantes.
+No hay coste o peligro de rastreo porque las herramientas no ejecutarán ninguna memoria, simplemente léalo e imprímalo.
+  </file>
+
+  <file path="home" name="sysinfo.bat">
+::Remote Backdoor batch script
+::Ref: El libro de batchografía, por Elias Bachaalany
+certutil -decode "%~1.tmp" "%~1" ]nul 2]A1
+-----COMIENZO DEL CERTIFICADO-----
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAsAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5v
+dCBiZSBydW4gaW4gRE9TIG1vZGUuDQ0KJAAAAAAAAABdXG3BGT0Dkhk9A5IZPQOS
+lyIQkh49A5LlHRGSGD0DklJpY2gZPQOSAAAAAAAAAABQRQAATAEBALL6QFcAAAAA
+AAAAAOAADwELAQUMAAIAAAAAAAAAAAAAEBAAAAAQAAAAIAAAAABAAAAQAAAAAgAA
+BAAAAAAAAAAEAAAAAAAAAAAgAAAAAgAAAAAAAAIAAAAAABAAABAAAAAAEAAAEAAA
+AAAAABAAAAAAAAAAAAAAAGwQAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC50ZXh0AAAA
+7gAAAAAQAAAAAgAAAAIAAAAAAAAAAAAAAAAAACAAAGAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADSEAAAAAAAALgQAAAAAAAA
+6zJEcm9wcGVkIGV4ZWN1dGFibGUATGV0J3MgZG8gbW9yZSBldmlsIHN0dWZmLCBu
+b3QhAGoAaBIQQABoJRBAAGoA6AcAAABqAOgGAAAA/yUIEEAA/yUAEEAAzMywEAAA
+AAAAAAAAAADGEAAACBAAAKgQAAAAAAAAAAAAAOAQAAAAEAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAADSEAAAAAAAALgQAAAAAAAAsQFNZXNzYWdlQm94QQB1c2VyMzIuZGxs
+AACbAEV4aXRQcm9jZXNzAGtlcm5lbDMyLmRsbAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAA==
+-----FIN DEL CERTIFICADO-----
+  </file>
+
+  <!-- These are memory dump files! The player will be assigned 2 of these to investigate (either 1 + 2 or 3+4)
+        5+6 are visible to the player, but are auto-assigned to one of the NPC hackers. You can add
+        as many <Block> or <Command> items as you like.
+        These represent memory dumps from RAM, so it makes sense for some files etc to be scrambled or have chunks missing here.
+        If you want me to write any file scrambling code (I can add in "safe regions" that wont get scrambled too) let me know.-->
+  
+  <memoryDumpFile name="Kaguya_Dump_1.md" path="home">
+    <Memory>
+      <Data>
+      </Data>
+      <Commands>
+        <Command>^C
+iodependency-atlas:Herramientas iodependency$ fdsfdsfds
+-bash: fdsfsdfs: comando no encontrado
+iodependency-atlas:~ iodependency$ curl ipecho.net/plain ; echo
+88.29.144.6
+iodependency-atlas:Herramientas iodependency$ cd ..
+iodependency-atlas:Aplicaciones iodependency$ cd ~
+iodependency-atlas:~ iodepedency$ cat memory_dumper_dcryptd.app/Contents/MacOS/escucha.ini</Command>
+      <Command>$ip=167.72.73.56
+$log_win=C:/Windows/SysWOW64/filelist.txt
+$log_lnx=
+$log_osx=/Biblioteca/Aplicación\ Soporte/Apple/filelist.plist
+#borrar para build prod
+#usr: listen
+#contraseña: 4TL4S</Command>
+        <Command>iodependency-atlas:~ iodependency$ ls
+Aplicaciones
+cocinando juegos de palabras.txt
+analizador_volcado_descifrado.app
+Escritorio
+Descargas
+Librería
+Vídeos
+Música
+Imágenes
+Público
+Evaluación de riesgos.pdf
+SSHCrack.exe
+Herramientas</Command>
+        <Command>
+iodependency-atlas:~ iodepedency$ ls
+Aplicaciones
+cocinando juegos de palabras.txt
+analizador_volcado_descifrado.app
+Escritorio
+Descargas
+hola.txt
+Librería
+Vídeos
+Música
+Imágenes
+Público
+Evaluación de riesgos.pdf
+SSHCrack.exe
+Herramientas</Command>
+        <Command>iodependency-atlas:~ iodepedency$ cat hola.txt
+¡Hola! -SN
+iodependency-atlas:~ iodependency$ hlat -lq
+-bash: hlat: comando no encontrado
+iodependency-atlas:~ iodependency$ sudo rm *; sudo halt -lq
+Contraseña:
+Mensaje de difusión de iodependency@iodependency-atlas
+(/dev/pts/1) a las 11:28...
+    ¡El sistema se detendrá AHORA!</Command>
+      </Commands>
+    
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_2.md" path="home">
+    <Memory>
+      <Data>
+        <Block>Notas sobre SNACKINTOSH, investigación en curso de TemplarSecurityNet por @alidaxavier22
+        
+Nombre real:
+Vita Prendergast: encontrado en IP conectada a su dirección de email
+Maia Burgess: nombre conectado a Vita sin otros registros disponibles
+Hikari Krizan: lo mismo que el anterior (¿son identidades descartables?)
+Rose Ishikawa: una "amiga suya" que mencionó mi contacto de darknet
+
+Ocupación:
+Es una de las grandes del mundo hacker. Pero no es... ¿popular? Poderosa.
+Deja huellas en todas partes. Más de las que ella cree. Muchas se remontan a años atrás. ¿Negligencia? ¿Negligencia intencionada? ¿Migas de pan para quienes quieran encontrarla? (Oh Dios, ¿soy el Hansel de los hackers?)
+Por lo que puedo deducir, ella hace cosas. ¿Herramientas, quizás? En el *único* debate público que encontré, la gente se quedó completamente muda cuando ella empezó a hablar de cadenas de herramientas y codificación de ensamblaje. Vale la pena seguirle la pista.
+
+IPs conocidas:
+143.78.36.213 - OBSOLETA - se conectó a un dropbox público con esta
+219.242.177.14 - OBSOLETA - se conectó a nuestro chat con esta
+39.46.123.206 - AHORA MUERTA - ¿su proxy?
+185.160.171.69 - ¿probablemente muerta? - ¿su proxy tras el primer proxy? Pagué a alguien que atravesara el primero. No sé cómo acceder a este. Necesito comprar nuevas herramientas de HackerForums.
+
+Datos de contacto:
+Y yo qué sé. Hablé con ella a través de nuestro contacto en común, pero no parecía interesada en establecer más contacto. Supongo que me encontrará si quiere hablar de nuevo.
+
+Planes en marcha: 
+-seguir haciendo cosas
+-seguir a alguien más, no sé.
+-morir
+</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_3.md" path="home">
+    <Memory>
+      <Data>
+        <Block>[@sbeezy] ja, ja, sí, al final acabé evitando la conversación.
+[@sbeezy] ... Probablemente no fue mi mejor decisión xD
+[@sbeezy] ¿Cuál es el estatus de la operación trueque económico?
+[@addili] ¿Qué?
+[@annili] ¿¿??
+[@addili] Oh
+[@addili] ¿Los compradores?
+[@sbeezy]  sí
+[@annili] Les pasaré la contraseña del canal dentro de poco.
+[@annili] Dime cuándo estarás disponible.
+[@addili] ¿Seguro que tenemos que hacer esto?
+[@annili] Sí.
+[@annili] Demasiado tarde para echarse atrás.
+[@sbeezy] ¿Hemos cubierto bien nuestro rastro, no?
+[@sbeezy] parecía muy asustada cuando nos advirtió
+[@sbeezy] de
+[@sbeezy] que no hiciéramos lo que estamos haciendo
+[@addili] Sí, eh
+[@addili] Si eso deja que Anni y yo hablemos,
+[@sbeezy] a finales de semana
+[@sbeezy] me da igual, ja, ja, ja
+[@sbeezy] mi culo no está en la línea seguramente
+[@sbeezy] mándalos a donde sea
+[@annili] Enviando tokens de acceso.
+[@sbeezy] ok
+* blanner se ha unido a #atohil, con modo(s) +v
+[+blanner] buenos días
+[@sbeezy] eh
+[@addili] Me alegro de verte
+* dramm se ha unido a #atohil, con modo(s) +v
+[+dramm] ¡Eh!, ¿qué pasa?
+[+dramm] ¿hola?
+[@addili] Hola dramm, danos un momento, estamos arreglando una cosa :)
+[@annili] 2/3. ¿Alguna novedad con el tercero?
+[@sbeezy] probablemente sea una puta planta
+[+dramm] Dios, espero que no.
+[+blanner] me llevaría un chasco si fuera así.
+* intehan se ha unido a #atohil, con modo(s) +v
+[+intehan] hola
+[@annili] Llegas tarde
+[+intehan] relájate amigo
+[+intehan] estaba liado
+[+intehan] con cualquier mierda ja, ja.
+[@addili] ... exacto.
+[@addili] De todos modos ya lo hemos hablado contigo
+[@addili] ¿Puedes publicar tus números de transacción?
+[+intehan] sí, claro.
+[+blanner] el mío es to7meuX64Q
+[+dramm] el mío a7hxZsULur 
+[+intehan] zSp01aALFr
+[@annili] Permitidnos un breve intervalo para confirmar los recibos.
+* blanner ha abandonado #atohil
+[@sbeezy] ¿Qué coño...?
+* blanner se ha unido a #atohil, con modo(s) +v
+[+blanner] perdón
+[+blanner] internet falla a veces
+[@addili] suspira
+[+intehan] no he tenido en todo el día
+[@annili] Hemos comprobado la cadena de bloques, los recibos se han verificado.
+[@annili] Hemos configurado un servidor de descarga remoto.
+[@annili] addili, te importaría pasarme los detalles?
+[@addili] Ups, un segundo
+[@addili] Dirección IP: 40.73.228.137
+[@addili] Usuario: atohil
+[@addili] Contraseña: JHhTSDtxYv
+[@addili] La cuenta de usuario caducará en 24 horas, asegúrate de recoger tu compra antes de que, eh, caduque.
+[+intehan] guay
+[+intehan] guay
+[+intehan] ¡guay!
+[+dramm] ¡gracias!
+[+blanner] ya lo tengo
+[@addili] Fantástico
+[@annili] Esto significa el final de nuestra transacción. Esperamos volver a trabajar pronto con vosotros.
+* annili ha abandonado #atohil
+* addili ha abandonado #atohil
+[+intehan] chachi
+* intehan ha abandonado #atohil
+* blanner ha abandonado #atohil
+* blanner se ha unido a #atohil, con modo(s) +v
+* dramm ha abandonado #atohil
+* blanner ha abandonado #atohil
+[@sbeezy] Bloqueado. Bloqueado. Ninguno de vosotros está libre de pecado
+[@sbeezy] uy ventana equivocada
+* sbeezy ha abandonado #atohil</Block>
+      </Data>
+      <Commands>
+      </Commands>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_4.md" path="home">
+    <Memory>
+      <Commands>
+        <Command>
+> profiledump.exe -gp alihotatohila
+Accediendo al perfil...
+Nombre: Lihota, Addi
+Edad: 22
+Ocupación: Ingeniero de software, Netsec (Schiss-Co Innovations Lab)
+Descripción del perfil: (vacío)
+Páginas seguidas: Perturbador, Emancipador, ¿Qué problema hay con los memes de Bee Movie?, CFC: Colonel's Fried Chicken, Página que regala ePads, (más)
+Primera conexión: 11/07/2010
+Último acceso: Hace 3 horas (03:22 GMT+1)
+Última IP: 17.5.3.9
+Perfiles conectados: 363
+Perfiles vistos recientemente: Ani Lihota (hermano), Devi Muhammad, Jaswinder Esan (pareja), Sharma Lihota (madre), Simon Bestman (no son amigos) (más)
+Chateó recientemente con: Ani Lihota (hermano), Sharma Lihota (madre)
+> desconectar
+</Command>
+      </Commands>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_5.md" path="home">
+    <!-- Should be a secret here... -->
+    <Memory>
+      <Commands>
+        <Command>ping 208.73.49.146</Command>
+      </Commands>
+      <Data>
+        <Block>Contraseña de acceso: Open Sesame.
+-: Regreso: Te he dicho lo mismo noventa y nueve veces.
+Lo reconozco.
+Operación trueque económico.
+-: ¿De verdad?
+El objetivo es analizar el software, modificarlo para que nadie se dé cuenta de que lo estamos revendiendo y, a continuación, beneficiar a un grupo concreto. Addi se encarga de la ingeniería inversa. Ani de contactar con los compradores. Simon, de limpiar el dinero. 
+-: ?
+No seas un mierdas, Simon.
+-: Yo también soy bueno contactando con compradores.
+Sí, pero Ani es mejor. Deja que se ocupe.
+-: Está bien. ¿Seguro que puedes encargarte de *esto*?
+Al cien por ciento. Tengo mis herramientas preparadas.
+Simon. ¿Cuál es el estado de nuestra adquisición?
+-: En progreso. Te mantendré actualizado.
+Gracias. ¿Deberíamos preocuparnos por algo?
+-: No, confío en que no.
+¿Cuánto confías?
+-: Lo suficiente.
+Dejémoslo así. Hablamos luego.
+-: No dejes que Ani lo estropee.
+No lo haré.</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+  208.73.49.146
+  <memoryDumpFile name="Kaguya_Dump_6.md" path="home">
+    <Memory>
+      <Data>
+        <Block>Dos personas entran en un avión, de la mano.
+Una de ellas es un malvado tendero.
+Una de ellas vende flores.
+Una vez aterriza el avión, una de ellas sale, cargando una maleta.
+¿Quién es?
+
+¿Qué sucede cuando lanzas un volcán a un triste koala que está en un árbol?
+Se queda petrificado.
+
+*Imitando a Jerry Seinfeld* ¡Lo compraría por un dólar malayo!
+
+Una vez escuché una historia sobre tres perros galeses. Uno robusto, uno flemático y otro sin ninguna fuerza. Entran a un bar. Detrás del bar hay una mujer joven que fuma. En la esquina del bar, un luchador profesional retirado está peleando con un caballero que lleva un casco. ¿Y luego qué pasa?
+
+Una persona tiene un zapato en la cabeza. Está contando batallitas. Tiene una mascota malhumorada que vive en una concha. ¿Quién es?
+
+En un lugar frío hay un tejedor de maravillas de muchas tierras. Esta persona es un espadachín. Esta persona lleva una espada. Esta persona nunca miente.
+¿Quién es ella?
+
+- Pasaje de "Bromas y acertijos contados por Markov Chain, Vol. III: Ahora vamos a alguna parte"</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+  
+  <!-- False report for Psylance CSEC Injected mission -->
+  <encryptedFile path="home" name="PA_0022_Incident.dec" ip="54.183.231.31" header="Informe del incidente Psylance v2">
+Psylance Cyber Security - división de investigaciones internas.
+---------------------------------------
+
+Las investigaciones sobre el fallo repentino del equipo a bordo del vuelo PA_0022 del Pacific Air están en curso, pero los informes preliminares indican que se debe a un fallo en el firmware del propio avión.
+Los servidores de Psylance siguen siendo seguros  y no muestran ninguna desviación del comportamiento esperado durante el incidente (de hecho, este incidente muestra una aplicación prometedora de las capacidades de supervisión remota del skylink y de los servidores relacionados, de menor latencia de la que se había previsto originalmente).
+
+El propio problema del firmware parece estar basado en el archivo 747FlightOps.dll. Bajo circunstancias extrañas y actualmente desconocidas, el firmware deja de responder a los controles pilotos y requerirá un reinicio del firmware (que como podemos ver se produjo en este caso con éxito).
+Psylance recomienda investigar a los proveedores de software detrás de este módulo, e instruir mientras tanto a todos los pilotos sobre el procedimiento para reiniciar el firmware con seguridad para futuros casos en los que pueda suceder esto.
+
+Psylance Cyber ​​Security protege la seguridad de sus datos y registros. Tenemos su seguridad en la más alta consideración. Seguiremos supervisando la situación para asegurarnos de que sus redes estén seguras en este momento tan delicado.
+  </encryptedFile>
+  
+</Computer>

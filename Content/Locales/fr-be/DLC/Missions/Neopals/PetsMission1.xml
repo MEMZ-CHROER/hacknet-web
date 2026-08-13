@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dpetsM1">
+  <goals>
+    <goal type="databaseEntryChange" comp="dPets_MF" recordName="minx" fieldName="Neopoints" operation="greater" targetValue="999999"/>
+  </goals>
+  <missionStart val="1" suppress="true">chargerActionsConditionnelles:DLC/ActionScripts/ActionPetsAcceptés.xml</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="Neopals - #PLAYERNAME#">
+Le défi old-school légendaire, Neopals, a été lancé à l'équipe en guise de test. Gravissez-moi cette montagne.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Neopals</subject>
+    <body>
+Le défi old-school légendaire, Neopals, a été lancé à l'équipe en guise de test. Gravissez-moi cette montagne.
+----
+Donc, ce n'était pas ma décision. Nous sommes presque prêts pour le premier de nos deux derniers boulots.
+Une de mes amies a fait beaucoup de recherches pour moi, en nous mettant sur les rails afin de réaliser ce que j'ai en tête, mais maintenant elle réclame de l'équipe un test d'aptitude.
+Apparemment, ce n'est tout le monde qui pense que vous trois êtes compétents, il va falloir le prouver. Nous y voilà.
+
+Voyez-vous, il se trouve que ce réseau n'est pas une blague - c'est une surprenante et légitime mise à l'épreuve de vos compétences de hackeurs - un travail d'équipe donc, pour #PLAYERNAME# et D3f4ult.
+
+La tâche consiste à changer quelques valeurs sur leur base de données centrale - l'utilisateur « Minx » veut que ses « Neopoints » soient placés au-delà des un million.
+
+Soyez vigilants, c'est plutôt épineux.
+-Kaguya</body>
+    <attachments>
+      <note title="Objectifs de mission Neopals">
+Pénétrez dans leur site web et scannez les nœuds. Essayez de ne pas causer de dégâts, cela attirerait l'attention des administrateurs réseau.
+Localisez le serveur central et examinez le réseau afin de trouver une entrée.
+Trouvez le fichier de l'utilisateur « Minx », et définissez les « Neopoints » à une valeur au-dessus d'un million.
+Vérifiez le changement dans la base de données.
+      </note>
+      
+      <link comp="dPets_Home" />
+      
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="lelzSec1">
+  <goals>
+    <goal type="getAdmin" target="nortronMainframe"/>
+  </goals>
+  <nextMission>lelzSec/MessageBoardIntro.xml</nextMission>
+  <email>
+    <sender>Naix</sender>
+    <subject>Zum Totlachen</subject>
+    <body>
+Ahaha, sehr schön. Ein echtes Kunstwerk.
+
+Ok, cool, das ist schon eher nach meinem Geschmack. Wie wäre es mit einer echten Herausforderung?
+Denkst du, du kommst in den Nortron Mainframe? Bei einer Sicherheitsfirma hatte ich ehrlich gesagt mehr erwartet, aber ihre Firewall ist echt robust. 
+Es wird eine ganz schöne Arbeit, die mit konventionellen Mitteln in die Knie zu zwingen, also, viel Glück damit.
+
+Denkst du, dass du ihn knacken kannst? Es ist mir egal, was du machst, wenn du rein kommst - wäre schon beeindruckt, wenn du Admin-Zugriff hast.
+
+Wenn du es schaffst, könnte ich vielleicht etwas für dich haben.
+
+-Naix
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

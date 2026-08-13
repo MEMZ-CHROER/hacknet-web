@@ -1,0 +1,9 @@
+﻿﻿1 : Obtenez l'accès administrateur sur un ordinateur qui dispose selon vous d'un appareil eOS synchronisé
+2 : Lancez eosdevicescanner.exe
+pour scanner les appareils associés et ouvrir automatiquement les ports de connexion
+3 : Connectez-vous à l'appareil révélé
+4 : Connectez-vous avec
+nom d'utilisateur : "admin"
+mot de passe : "alpine"
+
+Le mot de passe est le même pour tous les appareils eOS !

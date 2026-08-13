@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds4_laptop" name="Asdis Dagrunsdottir's Laptop" ip="198.150.137.83" security="1" type="empty" icon="DLCLaptop">
+
+  <proxy time="-1" />
+  <portsForCrack val="1" />
+  <ports>80, 6881</ports>
+  <portRemap>443=43</portRemap>
+  <trace time="80" />
+
+  <file path="home" name="data_policy.txt">
+機密性の高いデータはすべてLegiCloudに保管しなければならない。例外は認められない。党執行部の決定である。
+
+より明確化した注意点： ファイルをローカル保存してはならない。他国政府の報告によれば、スピア型攻撃、総当たり攻撃、メモリダンピング等、ハッカーは新旧の手法を織り交ぜて攻撃してくるが、情報漏洩の大部分はユーザーの不注意・怠慢・過失が原因である。
+
+-IT</file>
+
+    <Memory>
+    <Data>
+      <Block>
+dagrunsdottir (198.150.137.83) が入室しました。
+Manananggal (244.188.232.231) が入室しました。
+チャットは保護されています。
+dagrunsdottir: ごきげんよう！
+Manananggal: こんにちは。
+dagrunsdottir: ご連絡いただきありがとうございます。
+dagrunsdottir: 事務所からアドレスを受け取りました。
+dagrunsdottir: 私にできることがあれば力になります。
+Manananggal: 要件は簡単です。
+Manananggal: 新法案のコピーを手に入れたのですが
+Manananggal: 目を通したところ、相当物議を醸す類の法案ですね？
+dagrunsdottir: なんですって？
+Manananggal: それで、法案に関する記事を書いているところでして
+Manananggal: 3つめの項目について少しご説明をいただきたいのですが。
+Manananggal: もしもし？
+dagrunsdottir: 失礼ですが、私を脅迫するつもりでしょうか？
+Manananggal: ずいぶんなお言葉ですね。私は自分の仕事をしようとしているだけですよ
+Manananggal: 3つめの項目は未完成のようですが？
+dagrunsdottir: この件について議論するつもりはありません。
+Manananggal: 文書をまるごと公開するしかありませんね、それなら
+dagrunsdottir: それだけはやめてください。議席を失いたくありません。
+Manananggal: ではお話を聞かせてください
+Manananggal: 国会の2ブロック北でお待ちしています。角にカフェがあります。
+dagrunsdottir: その店なら知っています
+dagrunsdottir: でも、脅迫しようとしたら、すぐ通報します。そうしたら刑務所行きですよ。
+Manananggal: わかっていますよ :)
+Manananggalが退室しました。
+dagrunsdottirが退室しました。</Block>
+    </Data>
+  </Memory>
+
+  
+</Computer>

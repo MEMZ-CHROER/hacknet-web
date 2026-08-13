@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitHubSet01">
+  <goals>
+    <goal type="FileUpload" target="bitDropBox" file="READ_all_hackers.txt" path="Drop/Uploads" destTarget="hubPubDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionStart val="8" suppress="true">changeSong</missionStart>
+  <nextMission>MainHub/BitSet/Missions/BitHubSet01_REPLY.xml</nextMission>
+  <posting title=" [NEW] Investigate a CSEC member's disappearance">
+Bit, уважаемый член CSEC и друг многих здешних людей, вышел из сети около 2-х недель назад и с тех пор не выходил на связь. 
+Хотя наверняка уже ведутся многочисленные частные расследования, я хочу официально обратиться от лица CSEC ко всем, кто может помочь. 
+Нас интересует любая информация о его исчезновении или, что еще лучше, о его текущем состоянии.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Расследование об исчезновении Bit-а</subject>
+    <body>Привет, 
+   
+это письмо неофициальное, поэтому подпишусь своим ником, здесь нет смысла играть в анонимность, мы друга ищем.
+ Итак, Bit исчез чуть более 2-х недель назад, что на него не похоже. То есть, уйти ненадолго в тень это одно, но совсем не выходить ни с кем на связь? 2 недели? Что-то не так.
+
+ Я кинул несколько ссылок на сервера, которые он использует. Можешь порыться там. Если найдешь что-нибудь, скинь на дроп-сервер CSEC и я гляну.  
+
+Спасибо. 
+-Vapor 
+    </body>
+    <attachments>
+      <link comp="bitMission00"/>
+      <link comp="bitRelay01"/>
+      <link comp="hubPubDrop"/>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDownload" target="jscottHome" file="DECHead.exe" path="home/work"/>
+  </goals>
+  <nextMission>MainHub/DecypherSet/DECHeadMission02.xml</nextMission>
+  <posting title="Track an Encrypted File">
+Creo que hemos descubierto un modo de rastrear dónde se codificaron los archivos cifrados de DEC: tenemos un archivo bloqueado por contraseña y queremos abrirlo. Tendría que haber pistas suficientes para que siguieras.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>A través del catalejo</subject>
+    <body>
+Al parecer, los archivos cifrados DEC guardan la IP en la que fueron codificados (con algunos mensajes variados) en los encabezados codificados. Supuestamente es para fines de depuración o algo así, pero para nosotros es una gran vulnerabilidad de la seguridad... algo genial, porque tenemos que descodificar algo y no tenemos ni idea de cuál es la contraseña. 
+
+Así que, primer paso: Encontrar el modo de leer los encabezados. Hemos investigado un poco y hemos descubierto que uno de los empleados de DEC Solutions puede tener un modo de descodificar los encabezados sin conocer la contraseña de un archivo.
+ Échale un vistazo y contesta si encuentras algo útil. Después de eso, tendremos más cosas para ti. 
+
+-CT Team
+    </body>
+    <attachments>
+      <link comp="jscottHome"/>
+    </attachments>
+  </email>
+</mission>

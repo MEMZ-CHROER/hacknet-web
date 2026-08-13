@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Kabuk Programlama">
+Kabuklar herhangi bir bağlantı noktasından kontrol edilebilen ayrı bir bilgisayarda çalışan, kompakt ve düşük bellekli, uzaktan gerçekleştirilen işlemlerdir.
+Bu elverişli programlama yapısı birçok işlem için kullanılabilir. Ancak yapabilecekleri şeyler yürütülen kabuğun türüne göre belirlenmektedir.
+Ağlar üzerindeki ortak işlevleri:
+
+Aşırı Yükleme:
+Ağları ve proxy sunucularını test etmek için tasarlanan bu işlev kabuğu çalıştıran ağdaki önemsiz trafiği hedef bilgisayara yönlendirerek proxy sunucusu hafızasını doldurur ve işleme ayrılan süreyi emer.
+
+Tuzaklama:
+Bu modu çalıştıran kabuk, yabancı bir kullanıcı bilgisayara bağlantığında bu kullanıcıyı fark eder ve kendisine bağlı olan tüm harici kullanıcılarda tavşan virüsü akışını çalıştırır.
+Bu işlem, başka bir işin yapıldığı süreçte harici ağa bağlı bilgisayarların güvenliğini sağlamak için biçilmiş kaftandır.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>HATA</subject>
+    <body>
+Bu postayı almanız beklenmedik bir hatanın oluştuğunu göstermektedir.
+Lütfen panikleyiniz.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

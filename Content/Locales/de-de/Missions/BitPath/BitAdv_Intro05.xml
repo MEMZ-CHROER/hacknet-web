@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase5" >
+  <goals>
+    <goal type="getString" target="ax889msjA"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro06.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Ausbreitung</subject>
+    <body>Du siehst dieses Netzwerk auch, oder?
+Dieses neue Sicherheitsystem ist hier fast überall installiert, aber ich arbeite mich da durch - Es gibt zwar noch Lücken, die zu finden braucht aber seine Zeit.
+
+Ich hab die IP des Servers verlinkt, den ich mir gerade anschaue. Mit meinen Methoden seh ich da bisher keinen Weg rein - aber vielleicht hast du ja mehr Glück?
+Solltest du das Admin-Passwort finden, schick es mir doch bitte als Antwort - Ich hab das Gefühl, da finden wir raus, wie alle Stränge zusammenlaufen - und was Bit damit zutun hat.
+
+Und das Gerede von diesem "Hacknet" ist auch ziemlich beunruhigend... Hast du schon mal davon gerhört? Ein kompletter OS rewrite...
+Aber darum können wir uns später kümmern. Für's Erste brauchen wir einen Weg darein - Danach können wir uns überlegen, wie wir weiter vorgehen.
+
+Ich knöpf mir vermutlich mal ihre Produktions- und Datei-Server vor - "Prometheus" und "Romulus" etc. Eine Hintertür könnte alledings überall sein.
+
+Viel Glück,
+-V
+    </body>
+    <attachments>
+      <link comp="EnTechOutsiderRepo" />
+    </attachments>
+  </email>
+</mission>

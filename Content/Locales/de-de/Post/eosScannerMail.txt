@@ -1,0 +1,12 @@
+﻿Hey Entropy Kollegen,
+
+Ein eOS-Device-Scanner wurde auf den Asset-Server hochgeladen (~/bin/eosDeviceScanner.exe) - sollte wie eine normale Anwendung laufen. 
+Da es erfoderlich ist, eine Menge Dateien im Systemordner zu lesen (um die Informationen der synchronisierten Geräte zu erhalten), werden Adminrechte auf dem Zielsystem nötig sein - aber wenn der Scanner einmal läuft, sollte es nicht schlimm sein, wenn ihr die Verbindung verliert.
+Im Wesentlichen überprüft der Scanner Backup-Dateien, die bei der Synchronisation mit dem Computer generiert werden. Dann gibt er vor, einen neuen wireless Sync durchzuführen und verwendet dann einen Exploit, um einen SSH-Port zu öffnen, und so weiter und ...
+
+Die Sache ist die - weil eOS-Nutzer keinen Zugriff auf das Terminal ihres Geräts erhalten, sind die Admin-Passwörter immer (!) gleich - und das in der gesamten Produktpalette!
+
+Das Passwort lautet "alpine" - kein Grund mir zu danken, habe dir ja nur eine Million Jahre Arbeit oder so erspart.
+Sobald der Upload der Datei abgeschlossen ist, erwarte ich den besprochenen Betrag auf meinem Konto, okay?
+
+-vtfx

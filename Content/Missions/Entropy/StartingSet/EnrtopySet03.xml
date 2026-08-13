@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="*******"/>
+  </goals>
+  <nextMission>Entropy/StartingSet/Misc/MilburgReply.xml</nextMission>
+  <posting title="Back to School">
+A high school has contacted us with concerns about their IT department accessing private student data (likely on the request of one of their student's parents, but we cant say for sure). They dont want anything deleted, but want to discreetly find their it staff's private passwords so they can investigate themselves.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Back to School</subject>
+    <body>Agent,
+    
+Milburgh High School's administration department has contacted us looking for a means of quietly gaining their IT staff's admin password, so that they can perform an investigation as to what data they are keeping on their students.
+While inside, try to preserve all data the way you find it - any tampering could mess with their judgment.
+For your part of it, you'll need to break in, clear your tracks and reply to this with the password to the server. We'll take care of contacting the school and sending the details over.
+
+Good Luck,
+-Entropy Admins
+    </body>
+    <attachments>
+      <link comp="milburgHigh" />
+    </attachments>
+  </email>
+</mission>

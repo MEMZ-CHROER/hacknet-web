@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dCSEC_Injection">
+  <!-- NOTE: This mission requires copying the upload file listed below to the CSEC hub before being added to the CSEC mission list -->
+  <goals>
+    <!-- corrupt the archive containing this one... blanket with delete, to stop it being un-completable 
+    File deletion will still work if the file exist but has it's data changed -->
+    <goal type="filedeletion" target="dPsyArchives" file="2_q1.zip" path="home/archives"/>
+   
+    <!-- upload the false report -->
+    <goal type="fileupload" target="dHidden" file="PA_0022_Incident.dec" path="home" destTarget="dPsyInternal" destPath="projects/investigations"/>
+    
+  </goals>
+  <missionStart val="2" suppress="true">changeSongDLC</missionStart>
+  <missionEnd val="3">changeSong</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>>
+  <posting title="Сорвать расследование Psylance">
+Psylance Cyber Security обвиняет непричастного хакера за недавний сбой микропрограммы. Мы хотим, чтобы ты исправил их ошибку от лица анонимного благожелателя.
+  </posting>
+  <email>
+    <sender>Центральные сервисы CSEC</sender>
+    <subject>Заткни рот Psylance</subject>
+    <body>Агент CSEC,
+    
+Мою хорошую знакомую, работающую в области кибербезопасности, обвиняют в атаке, которую она не совершала.
+Psylance Cyber Security готовит отчет на эту тему, который нужно заменить моей версией отчета. Я отправил мой отчет администраторам CSEC (ПРИМЕЧАНИЕ АДМИНИСТРАТОРА: зашифрованный отчет загружен на центральный сервер: home/PA_0022_Incident.dec) - используй его.
+Его структура совпадает со структурой их отчета, так что они не заметят подмену. Тебе нужно проникнуть на сервер их внутренних сервисов (по ссылке), найти отчет с этим же именем, удалить его и заменить тем, что я отправил CSEC.
+
+Затем тебе нужно позаботиться об их резервных копиях. Зайди на их автоматический сервер хранения резервных копий (ссылка также прилагается) и, если возможно, не удаляй архив, а повреди его. Это должен быть самый свежий архив (2_q2, если мои данные верны).
+Будет достаточно повредить файл, добавив в двоичные данные какие-нибудь буквы или что-то вроде того.
+
+Спасибо за помощь в этом деле,
+-K
+    </body>
+    <attachments>
+      <link comp="dPsyArchives" />
+      <link comp="dPsyInternal" />
+
+      <note title="Инструкция">Скачать файл PA_0022_Incident.dec с дроп-сервера CSEC
+Получить доступ к внутренним сервисам Psylance
+Удалить их копию отчета о происшествии
+Загрузить версию отчета с CSEC в то же место
+Проникнуть на сервер резервных копий
+Повредить файл backup_2q2.zip (или файл с похожим именем)
+ТЩАТЕЛЬНО ЗАМЕСТИ СЛЕДЫ</note>
+      
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,84 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="EnTechRomulus" name="En_Romulus" security="5" ip="156.151.1.12">
+
+  <admin type="basic" resetPassword="false"/>
+
+  <adminPass pass="h7ggNKl2"/>
+  
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999"/>
+  <trace time="500"/>
+
+  <positionNear target="EnTechMainframe" position="4" total="6"/>
+
+  <file path="STORE/Contractors/Bit" name="Hacknet_Project_BitReport04.txt">
+보고서 길이가 얼마나 되어야 하는지 몰라서 일단 짧게 씁니다.
+ 진행은 잘 되고 있습니다. 제가 맡은 부분은 대체로 계획대로 진행되고 있습니다. 즉, 작동이 되고, 대부분의 테스트 시나리오를 통과하고 있다는 뜻입니다 (그런데 #86은 뭐죠? 힌트라도 주세요?). 
+아무튼 분산시킬 필요가 생겨서, 새로운 버전은 일종의 &quot;Heart&quot; 서버와 교신하여 까다로운 시나리오 케이스에 대해 계산을 하고 솔루션을 찾아 회신하여 새로운 위치에서 핑을 날릴 수 있게 될 겁니다. 이렇게 하면 화이트리스트 서버 같은 것도 우회할 수 있는 선택지가 생길 것 같습니다.
+ 지금 작동시키고 있는 중이고, Heart 링크 프로토타입도 업로드하였습니다. 제가 하고 싶은 대로 해보라고 하셨으니까 이래도 괜찮은 거겠죠? 
+
+문제가 있다면 알려주십시오.
+
+--Bit
+1
+  </file>
+  <encryptedFile path="STORE/Contractors/Bit" name="hn_repo_archive.dec" ip="156.151.59.35" header="EnTech(tm) Repository Backup" pass="ax229msjA">#BINARY#</encryptedFile>
+  <encryptedFile path="STORE/Contractors/Bit" name="hn_PH_LinkPrototype.dec" ip="23.236.62.147" header="Porthack heart link prototype" pass="ax229msjA">#BINARY#</encryptedFile>
+
+  <file path="STORE/Contractors/Deonyx" name="Hacknet_Project_DeonyxReport4.txt">
+업데이트 보고:
+---------------
+
+희소식입니다 - 일이 일정보다 빠르게 진행되고 있습니다. 유닉스용 WINE 프로젝트의 소스 코드를 잔뜩 가져와서 까다로운 시나리오에 적용시킬 수 있더군요. 표준 유닉스 프로그램들은 잘 돌아가고 있습니다. 
+
+교차 배포 문제도 커널 접근 권한 덕분에 생각보다 간단하더군요. 몇 가지만 트릭을 쓰고 나머지는 래퍼를 사용하기만 하면 다 매끄럽게 플러그인 됩니다. 문제가 될 것 같지는 않아요.
+ 문제는 언제나 다른 OS들이었죠. 현재 프레임워크로는 아무 것도 실행시킬 수 없지만, 이 WINE 방법으로 대부분의 터미널 어플리케이션을 실행하는 것을 해킹할 수 있었어요. .NET과 C#는 전혀 문제 없고 (mono 프로젝트 덕분이죠), C++는 라이브러리와 컴파일러에 따라 달라요.
+ Flat C에서 가장 문제가 많은데, 문제가 뭔지 이미 알기 때문에(네트워크 액세스 권한이죠?) 잘 진행되고 있어요.
+
+ 아무튼 전망은 매우 밝아요. 곧 보편적으로 실행 가능한 버전을 만들어 작동시킬 수 있을 거예요. 제가 그렇게 만들겠다는 얘깁니다
+
+._Deonyx
+  </file>
+  <encryptedFile path="STORE/Contractors/Deonyx" name="Hacknet_Codelink_v1.dec" ip="xxx.xxx.xxx.xxx" header="deonyx server has almost all programs on it for testing" pass="84833mmn1">#BINARY#</encryptedFile>
+
+  <file path="STORE/Contractors/teja" name="04Report_Hacknet_Project_teja.txt">
+Hacknet 프로젝트 보고서 04:
+
+--금주 추가 작업 완료. 
+여기 SecurityTracer.exe를 업로드하였습니다. 전체 프로젝트가 진행 중인 동안 임시 방편으로 모든 새로운 Hacknet 출시 버전에 포함시키는 것이 좋겠습니다. 
+임시방편이긴 하지만, 누군가가 프로그램을 실행하여 한동안 작동시키면 자동으로 활성화되고 사용자의 카피를 사용 불능으로 만들며 위치 정보(IP주소와 지리적 위치)를 중앙 서버에 보낼 것입니다.
+
+--보다 깊이 일체화되고 보이지 않는 SecurityTracer를 개발 중입니다. 
+기한 내 다음 하위 목표에 도달하기 위해 TraceTracker를 개발하는 데 도움을 주느라 진행이 지연되었습니다.
+
+--Trace Tracker v0.93 출시. 
+최종 버전에 대한 출시 후보입니다. 제공된 테스트 시나리오 92개를 모두 통과하였고, 제가 사용한 시나리오 25개 중 22개를 통과하였습니다. 
+ 모든 알려진 자동 추적 소프트웨어의 핑백을 성공적으로 추적하고 추적 시간을 추정하며, 자동 비상 시퀀스가 발동할 때까지 어느 정도의 시간이 남았는지 (비교적) 정확도가 높은 추정치를 계산해냅니다. 
+
+이 기회를 빌어 이 기술의 위력을 다시 한 번 강조하고 싶습니다. 업데이트 없이도 이 도구는 매우 쓸모가 많으며, 제가 제공한 도구를 사용해 엄격히 관리할 것을 권장합니다. 이를 확인하기 위해 빌드를 조사하겠습니다. 
+
+그럼 이만,
+ teja
+  </file>
+  <encryptedFile path="STORE/Contractors/teja" name="HacknetSecurityTracer.dec" extension=".exe" ip="xxx.xxx.xxx.xxx" header="teja server has loads fo copies of security tracer" pass="84833mmn1">#SECURITYTRACER_PROGRAM#</encryptedFile>
+
+
+  <file path="STORE/Contractors" name="IMPORTANT_ContractorUploadGuide.doc">여기는 각 협력자의 작업의 최신 바이너리 버전이 보고서와 함께 저장되는 곳입니다.
+    
+경고 - 폴더들의 이름을 변경하지 마십시오
+  
+빌드 스크립트 풀버전과 보고서를 작성할 때 참조하십시오.
+  </file>
+  
+  <file path="STORE/Contractors" name="Contractor_Server.doc">이 저장소는 협력자의 작업 중에서 (출시 준비된 EnTech 내부 코드를 위한) 출시할 준비가 된 단계만 저장합니다. 
+보다 최신의 테스트 안 된 버전을 구하려면 협력자 릴레이 서버를 찾아보십시오:
+
+EnTech 외부 협력자 릴레이 서버 : 156.151.59.35
+
+---------------------------------
+
+EDIT: 이것에 대한 이메일이 끊이지 않으므로, 업로드 된 파일들을 볼 수 있는 비밀번호를 드립니다. &quot;ax889msjA&quot;야. 처음 액세스 권한이 부여될 때 받으셨을 하드카피에 있듯이.
+
+  </file>
+
+</Computer>

@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="education01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Firewall Analysis and Solutions">
+컴퓨터 보안 분야에서 방화벽은 아주 오래 전부터 존재했으며, 거의 대부분 전문 해커의 공격에 대해 보호한다기보다는 자동화된 외부 네트워크 트래픽을 차단하는 역할을 했습니다.
+하지만 현대의 방화벽은 방화벽 솔루션(흔히 최종 사용자에 대한 암호라고 부릅니다 - 둘 사이에는 뚜렷한 차이가 있긴 하지만)이 사전에 지정하지 않는 한, 보안에 치명적인 *모든* 트래픽을 차단하도록 구성될 수 있습니다.
+
+이런 상황에서, 방화벽 솔루션은 비연동 로그인 시도가 이루어지기 전에 제공되야 합니다 - 한마디로 방화벽이 활성화되는 동안에는 알려진 모든 암호 크랙 소프트웨어는 무용지물이 됨을 의미합니다.
+
+방화벽 복잡도는 &quot;analyze&quot; 명령으로 확인할 수 있으며 - analyze 명령을 여러번 실행하면 응답 데이터 헤더의 패턴을 자동으로 탐지하며 올바른 방화벽 솔루션의 일부가 아님을 보장할 수 있는 문자들을 제거하게 됩니다.
+잠재 솔루션이 발견되면, &quot;solve [FIREWALL_SOLUTION]&quot; 명령을 사용해 연동 시도를 할 수 있습니다.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>오류</subject>
+    <body>
+본 이메일을 받았다는 건 예기치 못한 오류가 발생했음을 의미한다.
+제발 당황해라.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

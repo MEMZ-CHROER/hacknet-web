@@ -1,0 +1,78 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="eosIntroComp" name="Jason's PowerBook Plus" security="2" icon="laptop">
+
+<file path="home/documents" name="Kelly.txt">
+[valley] brauchst du noch irgendwas auf dem Heimweg?
+[kittyhat22] Warum nervst du mit deinen Fragen immer so?
+[valley] Komm schon, ich dachte wir hätten das besprochen?
+[kittyhat22] was besprochen?
+[valley] diese sinnlosen Streitereien wegen nichts
+[kittyhat22] Du bist nie Zuhause, und wenn bemühst du dich nie, mit mir zu reden
+[valley] Gut, vielleicht solltest du versuchen es schätzen zu lernen, dass ich mir den arsch abarbeite, um unsere schulden zu bezahlen, damit wir hier endlich rauskommen
+[vallenx] was machst du den ganzen tag?
+[kittyhat22] gib nicht wieder mir die Schuld...
+[kittyhat22] du weißt, dass ich mich nach einem job umsehe. Wenigstens versuch ich, zu wissen, was in deinem leben vor sich geht. Du fragst nicht mal nach meinem...
+[valley] wie auch immer. Seh dich, wenn ich nach hause komme.
+</file>
+  
+<file path="home/documents" name="lmao.txt">
+[dirtweed] Wie war das Wochenende?
+[willow] Großartig, bis sie mich aus dem Laundry geschmissen haben.
+[dirtweed] ROFLCOPTER
+[dirtweed] Sie haben dich aus dem Höllenloch rausgeschmissen? Was hast du angestellt?
+[willow] Naja....offenbar war ich ziemlich besoffen und die Türsteher haben mich beim Umkippen erwischt.
+[dirtweed] LOL
+[willow] So wie sie mich rausgebracht haben, begann ich zu protestieren: "ICH BIN GAR NICHT SO BETRUNKEN ALTER!"
+[willow] und das hab ich dann bewiesen, indem ich - vor ca. 30 Leuten, die in der Schlange standen - dem Türsteher auf die Schuhe gekotzt hab.
+[dirtweed] verdammt! 
+[willow] Ich geh ins Bett. Habe noch immer einen Kater. Nacht.
+</file>
+  
+<file path="home/documents" name="lmao.txt" EduSafe="false">
+[budzyyy] was ist los m8??
+[heller] Wo zum Teufel bist du?
+[budzyyy] nicht ganz sicher
+[budzyyy] bin ohne Shirt in einem strauch aufgewacht
+[heller] Wir haben dich stundenlang gesucht.
+[heller] Das Letzte, was ich von dir gesehen hab, warst du, wie du high auf E, Jagd nach dem Eiswagen gemacht hast
+[budzyyy] wir haben einen Eiswagen in der stadt?
+[heller] Nein, aber letzte Nacht dachtest du, dass wir einen hätten.
+[budzyyy] Ich werde zu alt dafür.
+</file>
+  
+  <eosDevice name="Jason's ePhone 4S" id="eosIntroPhone">
+    <note>Schweinefleisch-Brötchen
+    
+  ----------------------
+  1.5 EL Puderzucker
+  250ml warmes Wasser
+  1.5 Teelöffel Hefe
+  1 EL Pflanzenöl
+  1.5 TL Backpulver
+  400g Mehl
+  ----------------------
+  
+  Zucker + Wasser in eine Schüssel, auflösen, Hefe hinzufügen, abdecken und 10min warten.
+  
+  Rest hinzufügen und zu einem glatten, dehnbaren Teig kneten, mit Handtuch 1 Stunde abdecken.
+  Kugeln formen, Füllung nach Belieben hinzufügen, 20min garen.
+  
+    </note>
+    <note>Tortillas
+
+  ----------------------
+  250g Mehl
+  1/2 TL Salz
+  TL Backpulver
+  EL Schmalz
+  175ml Wasser
+  ----------------------
+
+  Trockene Zutaten verrühren und Schmalz einarbeiten. Wasser hinzufügen und zu glattem Teig kneten.
+
+  Dünn ausrollen und in einer Pfanne goldfarben braten.</note>
+    <mail username="jjstacks@jmail.com" pass="tintin7" />
+  </eosDevice>
+  
+  <account username="admin" password="tintin7" />
+</Computer>

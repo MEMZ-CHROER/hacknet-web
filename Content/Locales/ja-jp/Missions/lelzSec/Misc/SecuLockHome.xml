@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="SecuLockHome" name="Stormrider" ip="199.89.130.68" security="2" icon="laptop" >
+
+  <portsForCrack val="2" />
+  <proxy time="1.2" />
+  <trace time="-1" />
+  <adminPass pass="ithoughtyouweremakingtea" />
+
+  <positionNear target="secuLockDrive" position="4" total="5" />
+
+  <dlink target="secuLockDrive" />
+  
+  <file path="home" name="DriveSync.txt">同期されたデバイス:
+  
+SecuLock セキュリティストレージデバイス (@69.172.201.208)
+
+eOSデバイス ("MicaのePhone 4S")
+
+USB大容量記憶装置 ("razrblade") : 見つかりませんでした
+
+RX994 Hopscotch ドローン ("Dragonfly")
+
+  </file>
+
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  
+  <eosDevice name="Mica's ePhone 4S" icon="ePhone2">
+    <note>セキュリティテストサーバー
+ithoughtyouweremakingtea
+</note>
+    <note>プレゼント
+ガラスのティーポット
+ジャスミンの工芸茶いくつか
+お茶数種 - 紅茶、白茶、緑茶とか？
+
+    --
+
+いろいろな温度に設定できる湯沸かし機
+高級はちみつ/角砂糖もいいかも
+</note>
+    <mail username="micasa@jmail.com" pass="ithoughtyouweremakingtea" />
+  </eosDevice>
+  
+</Computer>

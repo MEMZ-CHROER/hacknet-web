@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Loose Ends">
+Hackers stole valuable company data. They have been taken care of, but what they stole still needs to be removed.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - Loose Ends</subject>
+    <body>
+Greetings Agent,
+
+Our company, #CLIENT#, was recently a victim of a hacker attack. The attackers in question have already been brought to justice for their acts, but we were unable to recover the archive they stole.
+We do, however have the IP Address of their server, and we would like you to take care of this problem for us.
+
+Subtlety would be much appreciated.
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

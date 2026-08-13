@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="lelzSec5" activeCheck="true">
+  <goals>
+    <goal type="delay" time="8.50"/>
+  </goals>
+  <missionEnd val="1">changeSong</missionEnd>
+  <nextMission>MainHub/Intro/Intro02Alt.xml</nextMission>
+  
+  <email>
+    <sender>Polar Star</sender>
+    <subject>A Victory - Perhaps a turning point</subject>
+    <body>
+You've been noticed. Your skills and acheivments here are not insignificant.
+You deserve a better class of company. You will be contacted shortly.
+      
+Proceed.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

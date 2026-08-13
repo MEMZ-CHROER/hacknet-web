@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dPets_Home" name="Neopals Startseite" security="1" type="empty">
+
+  <trace time="70" />
+  <portsForCrack val="3" />
+  <ports>22, 80, 6881, 443</ports>
+  <portRemap>443=8080</portRemap>
+  <admin type="fast" resetPassword="true" isSuper="false"/>
+
+  <tracker />
+
+  <addWebServer name="Neopals!"
+                url="Content/Web/Presets/Neopals/Neopals.html" />
+
+  <dlink target="dPets_Auth" />
+  <dlink target="dPets_MF" />
+  <dlink target="dPets_VC" />
+
+  <positionNear target="dPets_MF" position="10" total="360" extraDistance="0.01"/>
+
+  <proxy time="1.5" />
+
+  <admin type="progress" isSuper="true"/>
+
+  <file path="home" name="Server_Config_Info.txt">
+--WICHTIG--
+Dieser Server hostet das Front-End der Site. Er hält die Verbindungen zu Authenitifizierungs- und Mainframe-Servern, um Daten herunterzuziehen. Seine eigenen Updates erhält er vom Versionskontrollsystem.
+Hier nicht manuell Bereitstellungsdateien einstellen! Alles hier wird automatisch konfiguriert - wenn man da herumpfuscht, könnte es das Update Deployment ruinieren.
+  </file>
+  
+</Computer>

@@ -1,0 +1,5 @@
+> Verdammt. Sieht nach einem Angriff auf VM-Ebene aus.
+> Mit so einem hatte ich schonmal zu tun. Ich weiß, dass du das vermutlich selbst hinkriegst
+> aber wir brauchen dich so schnell wie möglich wieder hier. Ich lade dir eine Kurzanleitung hoch.
+> Du wirst das auf dem Basissystem beheben müssen, über das du die VM laufen lässt.
+> Sekunde...

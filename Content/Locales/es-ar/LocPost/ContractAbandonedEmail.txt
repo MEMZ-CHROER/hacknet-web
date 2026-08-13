@@ -1,0 +1,7 @@
+Agente,
+Has abandonado tu contrato actual, y por eso no es elegilbe para completarlo de nuevo.
+Eres libre de aceptar nuevos contratos de la base de datos.
+Tu rango actual es {0} de {1}
+
+Gracias,
+{2}

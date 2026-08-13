@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="encrypt_source.dec" path="home" destTarget="hubPubDrop" destPath="Drop/Uploads" decrypt="true" />
+  </goals>
+  <missionEnd val="1">addFlags:decypher</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Finde/Erstelle ein Entschlüsselungs-Tool">
+Ein neues Unternehmen ist mit einer Verschlüsselungssoftware aus dem Boden geschossen und hat mit dieser eine Menge Sourcecode verschlüsselt, der uns früher frei zugänglich war.
+Der Algorithmus ist nicht der komplizierteste, den wir je gesehen haben, es existiert bloß noch kein Solver dazu. Wie du damit umgehst, ist dir überlassen, solange du eine unserer Dateien entschlüsselst.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Panzerknacker</subject>
+    <body>
+"DEC Solutions" hat kürzlich seine neue "DEC Encryption Suite" vorgestellt - im Grunde ein Tool zur Datenverschlüsselung. Wir haben eine damit verschlüsselte Datei, die wir uns ansehen wollen.
+Ich hab dir eine Kopie auf den Crossroads-Server (ein ungesicherter Server für den Datenaustausch zwischen CSEC Mitgliedern) hochgeladen. Schau nach "encrypt_source.dec". ".dec" ist übrigens die Dateiendung, die die Encryption-Suite erzeugt.
+
+Vielleicht willst du dir zunächst DEC Solutions selbst ansehen. DECs Website scheint nicht sonderlich hilfreich, aber vielleicht findest du ja doch etwas. Wenn du drin bist, suche am besten im Netzwerk nach anderen Rechnern.
+
+Wenn du die Datei entschlüsselt hast, lad sie bitte auf dem CSEC Drop-Server hoch.
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <link comp="hubPubDrop" />
+      <link comp="decSoftWeb" />
+      <note title="Missionsübersicht">Untersuche das Netzwerk von DEC Solutions
+Finde einen Weg, ".dec" Dateien zu entschlüsseln 
+Entschlüssele die Datei auf dem Crossroads-Server
+Lade die entschlüsselte Datei auf dem CSEC Drop-Server hoch</note>
+    </attachments>
+  </email>
+</mission>

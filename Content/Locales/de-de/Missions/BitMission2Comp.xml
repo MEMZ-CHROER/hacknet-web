@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission02" name="Entropy test Server" ip="199.59.149.230" security="1" type="4">
+  <file path="home" name="Entropy_Induction_Test">
+Gratulation!
+  
+Lade diese Datei herunter, um den Aufnahmetest abzuschließen.
+ 
+Entropy wird sich bald bei dir melden. 
+  </file>
+  <file path="bin" name="e_admins_are_lazy.txt">Niemand von euch Anfängern denkt daran auch die /bin zu entleeren. Dies ist ein Testserver - er wurde gemacht, um in ihn einzubrechen! Ihr könntet ja wenigstens mal aufräumen!</file>
+
+  <file path="bin/zer0cool" name="hack_the_planet.txt">GEHT VOR MIR IN DIE KNIE IHR IDIOTEN! ICH HAB UNGLAUBLICHE SKILLS UND IHR WISST ES!</file>
+  <file path="bin/zer0cool" name="retort.txt">Frag einfach nicht weiter nach, aber lass mich dir sagen, dass du ein totaler Anfänger bist.
+Es hat dich wahrscheinlich eine Woche gekostet herauszufinden, wie du durch den Proxy kommst. Ich wette, du bist erst 12 und denkst, du kannst mit dem 386er deiner Mutter "den Planeten hacken". Viel Glück kiddy. Geh beiseite und lass die Profis arbeiten... </file>
+
+  <file path="bin/OP_Stormwind" name="need_help.txt">Wenn du hier bist, bist du bereit das Risiko einzugehn um in Orte zu gelangen, die dir nicht gehören. Diese Idioten bei Stormwind haben mit ihrem letzten Patch die Balance von Shaytan 3 total ruiniert. Ich bin ein riesen Fan seit das Original '96 veröffentlicht wurde und ich sage - wir zeigen es denen und zerstören das Auktionshaus. Wenn du dabei sein willst, hinterlasse hier eine Textdatei und ich werde dich finden.
+-slaggedfire</file>
+
+  <file path="bin/OP_Stormwind" name="Wo_lai_bang.txt">
+400 Jin Stormwind Online.
+</file>
+
+  <file path="bin/OP_Stormwind" name="lulz.txt">
+die admins sind ziemlich angepisst von dir slaggedfire. die Chinesen haben die ganze nacht lang die server bombardiert und gold angefordert.
+</file>
+
+  <file path="bin" name="SOgold.txt">
+Bist es auch satt, deine Zeit mit Quests zu verschwenden? Wünscht du dir ein langes und glückliches Leben, ohne dir Sorgen machen zu müssen wie du deine Mounts finanzierst?  Dann brauchst du nichts anderes als SOgold, den ultimativen Farming Service für alle Spieler von Stormwind. Gegen einen kleinen Betrag kümmern wir uns um deinen Account und sorgen dafür, dass immer genug Gold da ist, um dir alle deine sehnlichst gewünschten Items zu kaufen. Alles was wir brauchen ist eine Anzahlung von 29,99€ und deine Stormwind Online Accountdaten - und wir besorgen dir mehr Gold, als du dir je vorstellen kannst.
+</file>
+
+<file path="bin" name="BIT_PLZ_READ.txt">
+Bit, falls du dich versteckst, könntest du dich bitte wieder zeigen? Ich muss dringend mit dir reden.
+Vap0r rückt mir nicht von der Seite - sie ist sich sicher, dass irgendwas nicht stimmt. Gib mir Bescheid, ja?
+-T
+</file>
+  
+  <proxy time="0.3" />
+</Computer>
+

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="xcRepBAD" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+НЕИЗВЕСТНАЯ ОШИБКА СООБЩЕНИЯ
+  </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>Re: внутреннее расследование</subject>
+    <body>
+Ох, ну что ж.
+
+ Это кажется… немного непрофессиональным. Я полагаю, у меня будет разговор с нашим уважаемым доктором о… правильном использование ресурсов проекта в ближайшем будущем.
+
+Спасибо,  что обратили мое внимание,
+- Центральный офис Bradford.
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

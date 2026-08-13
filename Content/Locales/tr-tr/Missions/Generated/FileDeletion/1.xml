@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Korkutma Taktiği">
+Değerli müşterilerimizden birinin meslektaşları kendisine saygısızlık etti. Bu meslektaşlara mesaj verilmesi gerekiyor.
+Kısa süre önce oluşturdukları yedek sunucuyu yok et. 
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Korkutma Tatkiği</subject>
+    <body>
+Sayın temsilci,
+
+Meslektaşlarımızdan bazıları kısa süre önce saygısızca davranarak haddini aştı. Kendisine mesaj verilmesi gerekmekte.
+
+Elimizdeki bilgilere göre belli bir zaman önce şirket genelindeki verileri yedeklediler ve bunları ayrı bir sunucuda muhafaza etmeye başladılar. Mevcut kopyalarına zarar vermeden bu arşivin ortadan kaybolması, onların durumu anlamasını sağlayacaktır.
+You can find the target information attached.
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

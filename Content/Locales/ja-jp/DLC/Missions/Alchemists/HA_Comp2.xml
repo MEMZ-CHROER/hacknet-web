@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dhaComp2" name="HA_Solve" security="4" type="4" icon="Alchemist">
+  
+  <proxy time="-1" />
+  <trace time="200" />
+  <portsForCrack val="3" />
+  <ports>6881, 22, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <file path="home" name="heaven.txt">"名無きは天と地の始まり 
+名有るは万物の母 
+常に無欲にして以てその妙を観 
+常に有欲にして以てその徼を観る"
+
+Vau 、神の名の3文字目かつ生命の樹の3本目の枝。
+視点は移り、変化する。俗世だったはずが今は神々しい。旅の女は目を開き、新しいものを見る。</file>
+
+  <file path="home" name="coagula.txt">SOLVE ET COAGULA
+
+新しいものを作るには、あるものが
+古いものを溶かし…
+…その上で…
+…新しいものとして一体になる。
+具体論にも抽象論にも適用できる、長い歴史で培われた広範に渡る考え方だ。
+ 
+実際に多くの事柄に当てはまる。
+その現象が起きているのに気づかないことも、時にはある。
+</file>
+  
+  <file path="home" name="nameofgod.txt">yod
+he
+VAU
+he
+</file>
+
+  <!-- This needs to be re-worked - the word clarity should be replaced with a riddle witha  similar length word as the solution.
+  Let me know the riddle/solution, and i'll implement it. Make sure it's *very* clear what the answer should be if the player has
+  been reading along etc as they go, and ideally, provide hints for a way to work it out with only the stuff on this computer, but
+  the true answer should be hinted at in another server's filename, and more details inside. Note that the contents of this will be 
+  relayed to the player through the IRC system, not directly readmost of the time (but will be sometimes).-->
+  <encryptedFile path="home" name="info.dec" extension=".txt" ip="66.96.149.16" header="DEC Encryption Suite v1.112">
+
+    Rebisのファイアウォールのパスワード"clarity"
+
+  </encryptedFile>
+  
+  <LogoDaemon Name="SOLVE" ShowsTitle="true" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/Alchemists2">
+奥義1: ヨッド
+奥義2: 溶解、陽
+奥義3: 凝塊、陰
+奥義4: 出現
+  </LogoDaemon>
+
+</Computer>

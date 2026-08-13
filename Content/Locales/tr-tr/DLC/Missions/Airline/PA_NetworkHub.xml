@@ -1,0 +1,102 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa_nethub" name="PacificAir_Network_Hub" security="5" type="4" icon="PacificAir">
+  
+  <!-- Network hub for the airline. This is an "internal Services" node for the airline,
+  it runs misc services and hosts data for them. This sort of catch-all, "don't know
+  where to put it so just put it there" server exists *a lot* in corporate networks.
+  Because of it's generic nature, it's the easy answer to where things go, so it naturally
+  becomes the center of things over time.
+  
+  Mechanically, it mostly exists to provide a central point from which players can reference things,
+  and for players to feel like the network is big and expansive, when not everything has a specialized role.
+  
+  In terms of the files it'll have on it, probably a few memos from people to one another (and another one
+  complaining that they should just use the company email for that sort of thing), bits and pieces that
+  employees want to send each other, or be able to access at work, both personal and work-related.
+  We don't want players to spend too long here (there isn't anything too useful to the mission to find) so keep
+  it light.-->
+
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="61" />
+  <portsForCrack val="4" />
+  <ports>22, 21, 443, 6881, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <dlink target="dpa_mail" />
+  <dlink target="dpa_bookings" />
+  <dlink target="dpa_whitelist" />
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/PacificAir_Big" title="DLC/Sprites/PacificAirTitle" overdrawLogo="true" buttonAlignment="right" />
+  
+  
+  <file path="home/memos" name="0504_nkudo_contractors.txt">
+bu not beni girişimciler listesine almadığınız için utanç duymanız amacıyla buraya konulmuştur
+beni listeye alın!!!!! -g</file>
+
+  <file path="home/memos" name="0505_gfinbow_clarification.txt">Bu not griffin için hazırlanmıştır
+Son birkaç günde...
+Anlamaya başladım bazı şeyleri de
+Gerçekten uzun da sürse
+Özür dilerim, eğer sıktıysam canını
+Bunun senin için anlamı olmadığına eminim
+Affet beni Senpai'm!
+Neyse, uzun da sürse dedim...
+Hah! Önemi mi var ne kadar sürdüğünün
+Temiz bir sayfa açmaya ne dersin? :)
+Bence evet dersin!
+Aynı kurallarla devam edersin
+İçeriz kahveleri, buluruz kafaları.
+Edelim dikkat yaptıklarımıza
+Sen durma, bağır bana.
+İçimden geldi bunu yazmak sana.
+O zaman bitsin bu not, işimin başına döneyim.
+Şey, pek olmadı ama, şuna bir bak istersen: OGRIFFINKISSMYAS -nat</file>
+
+  <file path="home/memos" name="0506_hfadden_contractors.txt">
+Siz ikiniz adam gibi durun. Eğer yetişkinler gibi davranamazsanız bu ağa olan erişiminizi keseceğim.
+-Harry</file>
+
+  <file path="home/memos" name="0507_hg.txt">
+    k
+  </file>
+
+  <file path="home/memos" name="0508_nkudo.txt">anlaşılan psylance işi halledecek. listeyi bana ulaştırdığın için teşekkür ederim.
+-g</file>
+
+  <file path="home/memos" name="0509_g.txt">beni pasif olarak agresif anlamda o listeyi bu kadar çabuk almaya zorlamadığını bir düşünsene haha -n</file>
+
+  <file path="home/memos" name="0510_everyone_STOP_THIS.txt">BURASI ÜRETİM SUNUCUSU. DOSYALARI NOTLARLA DOLDURMAYI KESİN. 
+SİZ APTALLARIN KULLANMASI İÇİN BİR HAFTAMI HARCADIĞIM İLETİ PANOSUNU VEYA E-POSTA SİSTEMİNİ KULLANIN.
+
+TANRI AŞKINA.
+
+-YÖNETİCİ</file>
+
+  <file path="home/memos" name="0510_to_admin.txt">
+    dostum çıldırdın mı?
+  </file>
+
+  <file path="home/memos" name="0511_everyone.txt">griffin bu denyonun erişimini kesti. bu hepinize ders olsun.
+-yönetici
+  </file>
+
+  <file path="home/share" name="underwater.txt">"Buraya baksana ihtiyar; Deniz İhtiyat Teşkilatı'nda eleştiri yapmakla ilgili ne demiştin?" diye sordu Ross. Normal şartlar altında Sandhurst'e gönderilmeye hazır olurdum. Gel gör ki normal şartlar altında değiliz. Biz ölmeden önce savaş bitebilir."
+
+"Daha eğlenceli bir şey görmeyi tercih ederim," diye onayladı Vernon.
+
+"Sanki eğlenmiyoruz," diye ekledi oda arkadaşı. "Ne demek istediğini anladım. Denizaltında kısılı kalıp dostlarımız tarafından avlanmaktansa bir araya gelen Alman denizaltıları ile uğraşmayı tercih ederiz tabi. Bence saygıdeğer valimize bu konuyu açalım."</file>
+
+
+  <file path="home/share" name="bonzibuddy.msi">#BINARY#</file>
+
+  <file path="home/share" name="bonzibuddy_v2.msi">#BINARY#</file>
+
+  <file path="home/share" name="the_tingler.msi">#BINARY#</file>
+
+  <file path="home/share" name="frog_fractions_3_beta.txt">#BINARY#</file>
+
+</Computer>

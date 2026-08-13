@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle04">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0015 - Pacemaker v2.44 Security and clearances">
+This post details the security functionality of the v2.44 pacemaker. For general operations consult the hardcopy documentation, or request another copy from support@kellisBio.com
+---------------------------------------------
+
+Clearing security to perform a firmware update once a signed binary has been retrieved from the software developers requires several steps.
+First, connect to the pacemaker chip using the patient's reference IP address.
+
+Log in as an administrator, using details that will have been assigned on a per-case basis by the client. This step is protected using Kellis's proprietary micro-port protection system (port 6652).
+
+At this stage, remote monitoring will be enabled, allowing the user to view live ECG data.
+
+To perform the firmware update, a secondary software-login must be performed, using an authorized software manufacturer authentication code.
+
+With both details confirmed, an update can be uploaded and activated on the chip, which will automatically soft-reset (no danger to the patient) and activate the new code.
+
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

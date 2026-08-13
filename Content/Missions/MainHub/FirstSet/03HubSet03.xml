@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="removeDeathRowRecord" name="Joseph Felman"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Remove a Fabricated Death Row Record">
+This is a cleanup job to remove some false information a hacker planted in the Death Row database.
+For reasons unknown, a false, duplicated record has been added to the Death Row records - likely as some sort of identity theft or griefing plan.
+We would like this false record removed.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Imposters on Death Row</subject>
+    <body>This contract has been added by an anonymous CSEC member. Though it may be possible to discern the sponsor's identity through this contract, CSEC requests that, as always you respect the privacy and anonymity of it's members by not doing so.
+
+Contract:
+The death row record for one "Joseph Felman" (#119080) is a clear duplication of Alva Curry's (#999080) record, which is clearly the original.
+Delete the Joseph Felman record from the database - its presence there not only presents a risk to any and all real Joseph Felman but is also an insult to the original statement made by Mr. Curry. Correct this.
+
+-CSEC
+    </body>
+    <attachments>
+      <link comp="deathRow" />
+      <note title="Record Details">Delete Record
+Name: "Joseph Felman"</note>
+    </attachments>
+  </email>
+</mission>

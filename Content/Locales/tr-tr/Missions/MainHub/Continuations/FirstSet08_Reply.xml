@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet08_p2" activeCheck="true">
+  <goals>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Sağlık Kaydı İncelemesi">
+    Bir meseleyi çözmek için birinin sağlık kaydının kopyasını al.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Yanıt: Asklepios'un Sopası</subject>
+    <body>
+Ben...
+Ne? Gerçekten mi? Bunu gerçekten- Bu yasal, değil mi?
+Yani, demek istediğim....
+
+Vay be.
+
+Ben sadece.. artık neye inanacağımı bilmiyorum. Vay be.
+
+Bu arada yardım ettiğin için teşekkür ederim. Hayatımı yeniden düzene sokacağım.
+-G
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

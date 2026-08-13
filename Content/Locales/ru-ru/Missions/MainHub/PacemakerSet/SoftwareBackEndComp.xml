@@ -1,0 +1,71 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="pacemakerSW_BE" ip="111.105.22.1" name="Рабочий сервер Eidolon Soft" security="4" type="1"> <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <!-- Security Stuff -->
+  
+  <ports>80, 22, 1443, 25, 21</ports>
+  <trace time="320"/> 
+  <firewall level="-1"/>
+
+  
+  
+  <!-- Junk -->
+  <file path="projects/EnTech" name="SynergysticCloudGlassCeilingBreaker.app">#BINARY#</file>
+  <file path="projects/EnTech" name="HumanCapitalEnhancer.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="IntergratedChannelHarnesser.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="ProactiveFocusStorageExtender.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="QualityVectorStreamliner.dll">#BINARY#</file>
+
+  <!-- The Goods -->
+  <file path="projects/KellisBT" name="Catalyst_Driver.cfg">#BINARY#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_0.1.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_0.22.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_1.0.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_1.11.dll">#PACEMAKER_FW_WORKING#</file>
+
+  <file path="projects/KellisBT/Tests" name="TestGuide.txt">
+Согласно нашей процедуре тестирования, перед запуском модульных тестов на чипе нужно выполнить &quot;циклическую проверку&quot;. Подключите чип к тестовой станции и запустите программу циклической проверки в качестве микропрограммы - она проверит все допустимые выводы и оценит время выполнения. 
+В первую очередь это аппаратная проверка, но она помогает обнаружить и трудновоспроизводимые ошибки. После выполнения программа выгрузит данные на станцию, а вы сможете установить свою новую тестовую версию.
+
+---
+Внимание: текущая подписанная микропрограмма: &quot;PacemakerFirmware_Cycle_Test.dll&quot; 
+НЕ ЗАГРУЖАЙТЕ ЕЕ НА КАКОЕ-ЛИБО ГОТОВОЕ К РАЗВЕРТЫВАНИЮ УСТРОЙСТВО
+---
+
+Разумеется, эта программа циклической проверки подписана и закодирована для запуска на чипах, поэтому будьте внимательны и следите, чтобы она не попала в папки с финальными материалами.
+</file>
+
+  <file path="projects/KellisBT/Tests" name="KBTPM_Test_Suite.kbts">#BINARY#</file>
+  <file path="projects/KellisBT/Tests" name="PacemakerFirmware_Cycle_Test.dll">#PACEMAKER_FW_DANGER#</file>
+  
+  
+
+  <file path="projects/Internal" name="Goals.txt">
+прогрессивно максимизировать кросс-продуктовое качество 
+
+векторы синергетически измерить клиент-центрические отношения
+
+ отчетливо визионировать сотрудничество следующего поколения и обмен идеями полностью компетентно плагиатить оптимальные электронные 
+
+службы соответствующим образом монетизировать 
+
+процесс-центрический аутсорсинг эффективное снабжение обслуживание 
+
+через Интернет методологии непрерывно 
+
+влиять в реальном времени выгода
+  </file>
+  
+  <file path="projects/Internal" name="Eidolon_Security_Notes.txt">Как обсуждалось на недавнем совещании, командам поддержки требуется групповой доступ к нашим системам для эффективного обслуживания и обновления в случае необходимости. С этой целью мы внедряем новую учетную запись - EAdmin (Eidolon Support Admin) для всех наших новых продуктов. 
+Она будет наделена всеми привилегиями и доступом к тестовой функциональности и будет действовать во всем диапазоне и во всех версиях продуктов. Так команды поддержки получат простой доступ к отладочной и административной функциональности тестируемых продуктов. Менеджерам по развертыванию напоминаем: добавьте эту учетную запись в конфигурационные скрипты всех выпускаемых продуктов. 
+
+Данные учетной записи: 
+Имя пользователя:&quot;EAdmin&quot; 
+Пароль:&quot;tens86&quot; 
+Разрешения:все 
+Отладочныевозможности:включены
+  </file>
+  
+  
+  
+  
+</Computer>

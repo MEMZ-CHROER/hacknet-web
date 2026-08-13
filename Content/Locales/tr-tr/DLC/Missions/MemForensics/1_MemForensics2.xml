@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1_mf_2">
+  <goals>
+    <goal type="filedeletion" target="dMF_2_Lihotas" file="sn_memory_dump_decompiled.rar" path="share/secure/originals"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Bellek İncelemesi (2/3)">
+Güvenli sunucunun linkini bulmak için bellek dökümlerini (3 - 4) analiz et.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Bellek İncelemesi</subject>
+    <body>
+Sen yeni güvenlik araçlarıyla ilgilenirken ben de araştırmamıza yardımcı olması için yeni bir yazılımı geçirdim. Bellek İncelemesi sayesinde hedefteki RAM'in tamamının kopyasını çıkartabilecek, araçlarla bize yardımcı olabilecek veriler içieryiro mu diye inceleyebileceğiz.
+Karşılığında 'satıcı şahıs' ekibimizden birkaç bellek dökümünü incelememizi talep etti.
+Sen de fark etmişsindir. Muhtemelen tuzak veya test. Satıcı da araç var zaten (aracı yapan adam bu). Yani kendi yapabilir. Ama bize iteliyor çünkü aracı kimin kullandığını kontrol edebilmek istiyor.
+
+Ürettiğin aracın dağıtımını izlemek kesinlik kötü bir şey değil. Eğer kimliğinin ve bu işe karıştığın gerçeğinin ortaya çıkmasını istemiyorsan sağladığın bağlantılar ve bıraktığın girdiler konusunda *çok dikkatli* olmalısın.
+Dosyaları 3 gruba ayırdım.
+
+Sen 3 ve 4 numaralı dökümlere bakacaksın.
+
+Drop Server'a yüklediğim Bellek İnceleme araçlarıyla dökümleri işle (kılavuz /bin dosyasında) ve bağlantıları bul.
+
+Gönderen kişinin iletisi: "Kuralları çiğneyenleri cezalandırın. Bellek dökümleyicisini derlemeye veya satmaya çalışanlar hak ettiği cezayı çekmelidir."
+Şöyle çevirebiliriz: "Bulduğunuz tüm ayrıştırılmış bellek dökümleyicileri silin ve bulundukları sisteme saldırın."
+
+Dediğim gibi... dikkatli ol.
+-Kaguya
+</body>
+    <attachments>
+      <note title="Görev Bilgisi">Drop Server'dan bellek inceleme aracını indir.
+3 ve 4 numaralı bellek dökümlerini analiz et.
+Dökümlerdeki bağlantıları bul ("scan [ip]" komutu inceleme görünümünden çıkmadan sunucuyu tarar)
+Ayrıştırılmış bellek dökümlerini sil. Bunların bulunduğu sisteme saldır.
+</note>
+      <link comp="dhsDrop" />
+    </attachments>
+  </email>
+</mission>

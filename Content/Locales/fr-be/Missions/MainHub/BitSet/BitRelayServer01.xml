@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="bitRelay01" name="Relais 01 au niveau du bit" security="2" allowsDefaultBootModule="false" type="2"> <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <!-- Accounts -->
+  <account username="bittest" password="test" type="1"/>
+
+  <!-- Security Stuff -->
+  <ports>1433, 22, 21, 80</ports>
+  <portsForCrack val="4"/> <!-- Number of ports to be open to allow porthack to run -->
+  <trace time="-1"/> <!-- Adds a trace timer - set to -1 to remove -->
+  <admin type="basic"/>
+  
+  <!-- Files -->
+  <file path="home" name="Home_Base.txt">Si vous lisez cela, vous vous êtes heurté à (et ensuite introduit dans) un de mes serveurs relais.
+ Si vous cherchez à rentrer en contact avec moi pour une raison quelconque, mettez un fichier sur mon serveur de stockage de données, je le vérifie occasionnellement.
+
+108.160.165.139
+</file>
+
+  
+  <file path="sys" name="x-server.sys">#WHITE_THEME#</file>
+  
+  
+</Computer>

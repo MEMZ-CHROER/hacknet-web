@@ -1,0 +1,15 @@
+130.20.128.130.39884.0710041611
+FUNCTION: DB2 UDB, SQO Memory Management,
+sqloDiagnoseFreeBlockFailure,
+probe:999
+MESSAGE : Memory validation failure, diagnostic file dumped.
+DATA #1 : String, 28 bytes
+Corrupt pool free tree node.
+DATA #2 : File name, 25 bytes
+p271080t0_diagnostics.mem
+CALLSTCK:
+  [0] 0x09000000022A518C
+diagnoseMemoryCorruptionAndCrash__8SMemPoolFUlCPCc + 0x21C
+  [1] 0x09000000022A4E9C
+diagnoseMemoryCorruptionAndCrash__8SMemPoolFUlCPCc@glue216 +
+0x74

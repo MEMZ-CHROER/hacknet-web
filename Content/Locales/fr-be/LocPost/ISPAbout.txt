@@ -1,0 +1,12 @@
+﻿﻿Ce serveur est un système de gestion et de routage de FSI
+conçu pour permettre une administration et une configuration faciles
+pour les sociétés de gestion de FSI tierces.
+Pour utiliser le système de gestion, il faut d'abord acquérir
+un compte administrateur pour cette machine
+(contactez votre équipe sysadmin), puis cherchez 
+ l'adresse IP en question.
+
+
+Si ce programme connait des problèmes techniques,
+contactez le service client
+1-800-827-6364

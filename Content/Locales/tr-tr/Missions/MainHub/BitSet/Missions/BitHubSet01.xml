@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitHubSet01">
+  <goals>
+    <goal type="FileUpload" target="bitDropBox" file="READ_all_hackers.txt" path="Drop/Uploads" destTarget="hubPubDrop" destPath="Drop/Uploads" />
+  </goals>
+  <missionStart val="8" suppress="true">changeSong</missionStart>
+  <nextMission>MainHub/BitSet/Missions/BitHubSet01_REPLY.xml</nextMission>
+  <posting title=" [YENİ] CSEC Üyesinin Kaybolması - Soruşturma">
+CSEC'in değerli üyesi, benim ve buradaki birçok kişinin yakın arkadaşı Bit 2 hafta önce ortalıktan kayboldu ve o zamandan beridir kimseyle iletişime geçmedi.
+Elbette pek çok özel soruşturma gerçekleştirilse de bu resmi CSEC gönderisini yardım etmek isteyenler için yolluyorum.
+Kayboluşu veya tercihen şu anki durumuyla ilgili her türlü bilgiye ihtiyacımız var.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Bit Soruşturması</subject>
+    <body>Hey,
+    
+Bu daha gayriresmi bir e-posta olacak, bende bunun altına kendi imzamı atacağım. Anonim olmaya gerek yok, zaten burada arkadaşımızı arıyoruz.
+Bit'in 2 hafta önce gölgelere çekilmesi oldukça sıra dışı. Yani bir süreliğine ortalıktan kaybolman normaldir ancak buradan kimseyle konuşmaması... hemde 2 hafta boyunca? Bu işte bir iş var.
+
+Kullandığı birkaç sunucuya linkler bıraktım. Onlara bakabilirsiniz. Eğer bir şey bulursanız, CSEC Drop Server'a bırakın. Ben kontrol ederim.
+
+Teşekkürler.
+-Vapor 
+    </body>
+    <attachments>
+      <link comp="bitMission00" />
+      <link comp="bitRelay01" />
+      <link comp="hubPubDrop" />
+    </attachments>
+  </email>
+</mission>

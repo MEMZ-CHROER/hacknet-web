@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="alphaCredits">
+  <goals>
+  </goals>
+  <missionStart val="5">changeSong</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>끝</subject>
+    <body>
+축하합니다!
+
+ Hacknet을 클리어하셨네요! 
+이 게임은 48시간 게임 내기에서 비롯된 취미 프로젝트였는데, 사람들이 많이 좋아해주어서 한 동안 틈틈이 짬을 내어 2012년에 프로토타입을 내놓게 되었습니다. 
+반응이 굉장히 좋아서, 비록 제가 끝에 다른 프로젝트를 하기 위해 이 게임의 개발은 중단한다고 이메일에 썼지만, 다시 돌아오게 되더군요. 
+그래서 짬짬이 눈에 띄지 않게 계속 시간을 투자한 결과, 마침내 (2년 반이 지나서!) 방금 마치신 버전이 나오게 되었습니다. 
+
+플레이해주셔서 감사합니다! 게임이 재미 있었는지 없었는지 제게 &quot;matt@hacknet-os.com&quot;으로 이메일을 보내서 의견을 들려주세요. 제안 사항도 받습니다! 
+
+제가 무엇을 만드는지 관심 있으시거나 이런 종류의 작업에 대해 소식이 궁금하시면 트위터에서 @Orann으로 저를 구독하시면 됩니다. 
+
+감사합니다,
+-Matt 
+
+추신: 링크된 컴퓨터에는 게임에 대한 비밀 몇 가지가 있습니다. 살펴보세요!
+    </body>
+    <attachments>
+      <link comp="creditsComp"/>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hubTestComp01" name="CSEC Invitation Gauntlet" security="2">
+  <link target="hubTestComp02" />
+  <file path="home/Test" name="CONTINUE.txt">
+接続されたサーバーに向かい、次の段階に進んでください。
+  </file>
+  <firewall solution="KRAKEN"/>
+  <proxy time="0" />
+  <account username="admin" password="easy" />
+</Computer>

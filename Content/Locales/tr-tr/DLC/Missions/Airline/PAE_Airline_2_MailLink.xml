@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpae_airline_mailLink" name="Kim Burnaby's Office Computer" security="3" ip="141.8.224.143" type="4">
+
+  <!-- Misc airline employee. Close friend of the administrator of the bookings server.
+  This contains the login details of the owner's mail account for the airline, which is important for
+  player progression.
+  The details can be on an eOS device, if that's signposted here, or just sitting in a file.
+  Adding that extra layer of complexity is subject to testing and seeing how players perform on this network.-->
+
+  <proxy time="-1" />
+  <firewall level="-1"/>
+  <portsForCrack val="2" />
+  <ports>22, 21, 443, 6881, 80, 25</ports>
+
+  <file path="home/ePadBackup" name="MAIL.txt">eOS_MAILSYS_ACCOUNTDUMP
+    c704d41a-f5ae-411d-916f-6c484a34ef0f
+    pacificair hesabı:
+    K: kburnaby@pacificair.com
+    Ş: noneofyourbusiness
+  </file>
+
+  <file path="home/ePadBackup" name="NOTES.txt">
+İşaretlenen - Önerilenler:
+Goat in the Veldt (11/10)
+Retcon Paradise (İlk kısmı harika, 13. BÖLÜMÜ GEÇ (???))
+Punching'li bir şey, tekli sanırım?? İsmini sor.
+  </file>
+
+  <file path="home" name="ePadUserGuide.pdf">#BINARY#</file>
+
+  <file path="home" name="ePadWarrantyGuide.pdf">#BINARY#</file>
+
+  <file path="home" name="ePadSupportTicket.txt">ePad'de bulunan tüm dosyalarımı yedekledim ama hala daha geçersiz mi yani? "Fabrika Ayarlarına Döndür" seçeneğini de denedim. Yine de kurulum sorusunda hata oluşuyor. 
+  Belki donanımda bir sıkıntı vardır? Lütfen inceleyin!</file>
+
+  <positionNear target="dpa_whitelist" position="20" total="360" extraDistance="0"/>
+
+  <eosDevice name="Kim's ePad XL" id="dpae_airline_mailLink_eos" icon="tablet" empty="true">
+    <note>GÜNCELLEME NOTU: 
+OS sürüm bozuk. desteğe başvurun!</note>
+  </eosDevice>
+
+</Computer>

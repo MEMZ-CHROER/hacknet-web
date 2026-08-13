@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubIntro1">
+  <goals>
+    <goal type="getString" target="ABX07cc9"/>
+    
+  </goals>
+  <nextMission>MainHub/Intro/Intro02.xml</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>CSECへの招待状</subject>
+    <body>
+はじめまして、#PLAYERNAME#。
+
+CSECは、才能あるハッカーや電子セキュリティの専門家を擁する招待限定のハッカーグループです。技術や情報、進歩を共有していくコミュニティを築くため、才能を認めた人材に価値ある知識
+やリソースの提供を行っています。
+メンバーの一人があなたを新たなメンバーとして推薦したため、今回こうして招待を送らせていただきました。
+
+本題へと移りますと、あなたをグループの一員に加える前に、その実力と知識を少し見せていただきたいのです。
+
+話を続けるには、CSECのテストサーバーの1つからあなたの名前に付随したパスワードを探し出し、このメールにそのパスワードを添付して返信してください。
+何か障害にぶつかった場合は、ネットワーク教育用のアーカイブを参照することをお勧めします。
+
+おめでとうございます。健闘をお祈りします。
+-CSEC 運営
+
+    </body>
+    <attachments>
+      <link comp="hubTestComp01" />
+      <link comp="netEduComp" />
+    </attachments>
+  </email>
+</mission>

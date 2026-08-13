@@ -1,0 +1,65 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="producerComp" 
+          ip="37.187.27.55"
+          name="Jason's LackBook Pro" 
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="laptop"
+          type="2" > <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <adminPass pass="DANGER" />
+  <!-- Security Stuff -->
+  <trace time="-1" /> <!-- Adds a trace timer - set to -1 to remove -->
+  <firewall level="6" solution="DANGER"/>
+  
+  <file path="sys" name="x-server.sys">#WHITE_THEME#</file>
+
+  <file path="home/scripts" name="DANGER.txt">
+    Why is the word danger so good? Not just danger, DANGER. All caps. It's just the objectively best word.
+    Best zone? The DANGER zone. best middle name? DANGER.
+    I wish i could use that word for everything.
+  </file>
+
+  <encryptedFile path="home/scripts" name="T2_Screenplay.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" >
+    Titanic 2: Iceberg's Revenge
+    -A Screenplay-
+
+JACK DAWSON: "No one ever thought about it - but the iceberg didn't just hit us... WE HIT IT!"
+ROSE DEWITT BUKATER: "What?! Did the crazy science operation that revived you mess with your head? I brought you back because I *LOVE* you!"
+JACK DAWSON: "I know, but we're in danger here. That iceberg had a family, and they want revenge. They told me when i was about to die... they never expected..."
+-JACK DAWSON whips out his COOL SHADES and puts them on
+JACK DAWSON: "I'd be back."
+
+Cut to California Coastline
+
+An iceberg appears in the water, approaching the city at incredible speed.
+Evacuation sirens begin sounding, people on the beach are screaming, pointing at it and running for their lives.
+More icebergs are appearing in the water next to it, also rushing for the shore.
+
+ROSE DEWITT BUKATER: "Help!"
+JACK DAWSON: "Rose! I'm here for you! I'll never leave you!"
+
+The lead iceberg is on the shore now, gliding towards the two protagonists. It pulls out a gun.
+
+ROSE DEWITT BUKATER: "JAAAAACCCKKKKKKK!"
+
+  </encryptedFile>
+
+  <encryptedFile path="home/scripts" name="GHL_ChapterList.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" >
+    Galactic Hero's Legend
+    -Table of Contents-
+
+    CHAPTER ONE: Penetrating the stratosphere
+    CHAPTER 2: Deep impact
+    CHAPTER 3: Reverse Thrust
+    CHAPTER 4: All the way to the heart
+    CHAPTER 5: Heavy tremors
+    CHAPTER 6: Attack on the rear admiral
+    CHAPTER 7: The four spoils of war
+    CHAPTER 8: The depth of his gratitude
+    CHAPTER 9: Regrets, fears, desires
+    CHAPTER 10: Explosions in the deep
+    CHAPTER 11: Following a strict rhythm
+    Chapter 12: Gently at first, but then with such fury
+  </encryptedFile>
+  
+</Computer>

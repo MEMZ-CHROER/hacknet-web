@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews05">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Neues Opbol-Dongle Patent lässt Fanboy-Herzen höher schlagen">
+Hardcore Opbol Fans, haltet eure Geldbeutel bereit. IT-Liebling Opbol Computing hat ein neues Patent angemeldet, dass auf einen Einstieg in das Spielekonsolen-Business hindeutet. Das Patent beschreibt einen erweiterbaren "Dongle" und könnte Teil eines neuen Gaming-Systems sein. 
+Eventuell ein Controller oder Motion-Sensor. Bisher hat nur das Design, ein abgerundeter Zylinder, ein offizielles Patent, unseren Quellen zufolge sind weitere Patente bezüglich der Funktionsweise des Geräts schon in Planung. Wir halten euch auf dem Laufenden!
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Muss Aufgehalten Werden</subject>
+    <body>
+Zerstöre die Entropy-Database
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

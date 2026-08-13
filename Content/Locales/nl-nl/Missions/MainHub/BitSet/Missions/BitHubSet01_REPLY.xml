@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitHubSet01" activeCheck="true">
+  <goals>
+  </goals>
+  <missionEnd val="1">hubBitSetComplete01</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Onderzoek een CSEC lids verdwijning">
+Bit, een befaamd lid van CSEC en een persoonlijk vriend van veel mensen hier is verdwenen meer dan 2 weken geleden en heeft geen contact gehad met iemand.
+Hoewel meerdere prive onderzoeken ongetwijfeld al bezig zijn, wil ik dit de officiele CSEC post maken voor iedereen wie er wil helpen.
+We zoeken naar enige informatie die we kunnen krijgen over zijn verdwijning, of, ideaal, huidige toestant.
+  </posting>
+  <email>
+    <sender>Vap0r</sender>
+    <subject>Re: Bit's verdwijning Onderzoek</subject>
+    <body>Huh..
+
+Goed werk met dat vinden, hoop dat het niet te veel moeite was.
+Dit is best zorgzaam. Ik ga nog een beetje verder kijken, ik laat het weten als ik iets vind.
+
+Bedankt,
+-Vapor
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

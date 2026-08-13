@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubIntro2Alt">
+  <goals>
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt1.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads"/>
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt2.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads"/>
+  </goals>
+  
+  <missionEnd val="0">assignPlayerToHubServerFaction</missionEnd>
+  <nextMission>MainHub/Intro/Intro03Pass.xml</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>Invitation CSEC - Atténuation</subject>
+    <body>
+#PLAYERNAME#,
+
+Je viens juste de tomber sur un email avec une recommandation ouvertement intimidante pour vous offrir une invitation à notre petit groupe. Je ne sais pas comment vous vous êtes fait des amis comme eux (ou si vous savez même de qui je parle), mais c'est majeur. 
+Je suis d'accord avec CSEC - vous sautez les sections automatisées de votre admission sur ordre de votre parrain, alors montrez-vous à la hauteur. Vous devrez aussi passer mon test avant de progresser plus loin. 
+
+J'ai une bonne idée pour vous - ça ne devrait pas être trop simple non plus !
+
+Je voudrais que vous vous introduisiez dans les serveurs de CFC et trouviez les 11 herbes et épices secrètes.
+
+Si vous pouviez récupérer une liste et la télécharger sur le serveur de stockage de données publique CSEC, je vous accueillerai dans le groupe avec plaisir.
+
+-Vap0r 
+Administration CSEC
+
+    </body>
+    <attachments>
+      <link comp="kfcWebServer"/>
+      <link comp="hubPubDrop"/>
+    </attachments>
+  </email>
+</mission>

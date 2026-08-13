@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechOutsiderRepo" name="EnTech External Contractor Relay Server" security="5" ip="156.151.59.35">
+
+  <adminPass pass="ax889msjA" />
+
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+
+  <positionNear target="EnTechMainframe" position="1" total="6" />
+
+  <encryptedFile path="Contractors/Bit" name="heart.dec" ip="23.236.62.147" extension=".txt" header="Bitwise / last words" pass="divingsparrow">
+パスワードを託すために、君を信じて今これを書いている。君は思った通りの人だったね。これが今、私にできることのすべてだ。
+ここまで本気で探してくれて本当にありがとう。これを読んでる君は、ここに来るまでにたくさん苦労してきたと思う。まあ、私も最近はそんな感じだ。
+本題に入ろう。君がこれを読んでいるということは、最悪の事態が起きて、私はすごく苦労するはめになってるってことだ。EnTechが何をしようとしているか、君もファイルを見るべきだ。で、私と同じ感想を持ってくれたら幸いだ。EnSecがどれだけ高性能かは君ももうわかってると思う――信じられないくらいだ。これが完成すれば、どれだけの自由が失われるだろう。
+それで・・・いいのかもしれない。いろいろな点で、彼らがセキュリティの問題を直そうとしているのは素直に尊敬してるんだ。まあ、私の仕事はやりにくくなるんだけどね。
+
+でも、ダメだ。
+
+問題はHacknetプロジェクトだ。いいセキュリティを作るのはすばらしいことだ。その使い方を制限しようとするのも、まあいい。でも、自分たちで作ったもの「以外」に全て侵入できるプログラムとなると話が違う。
+気付くのが遅すぎた。Hacknetの発展に貢献しすぎてしまったんだ。このプロジェクトは驚異的で、楽しかったし、やりがいもあった。会社も予算を惜しみなくつぎ込んでいたから、なにもかもがうまくいってたんだ。そして、とてもすごいプログラムを作り上げた。
+そいつの名前は「Porthack」。私の知識と技術の結晶さ。どんなドアでも、こいつがあればこじ開けられる。
+
+それからしばらくたって、興味本位でメインフレームに侵入した私は、そこにあったものを組み合わせてみた。もしかしたらあれが、完全なPorthackを組み込んだ「完成形」が、プロジェクトで初めて組み立てられた瞬間だったのかもしれないな・・・
+こいつが何を引き起こすか思い浮かべるのはそう難しくない。EnTechが完成させた後、どういう形にせよHacknetは配信され、世界は取り返しがつかないほどめちゃくちゃになるだろう。イカれた支配の手からデジタルセキュリティを守るチャンスは一回だけだ。今を逃せば止められなくなる。
+みんなには不良品しか配られず、EnTechのセキュリティだけが堅固な中で、Hacknetがなにもかも破壊する。こんな惨劇を食い止めるチャンスは、今しかない。
+
+CEOのメールアカウントが、あとは全てを教えてくれるはずだ。
+
+ユーザーネーム: rc@entech.com 
+パスワード: "byC89kMMe"
+
+頼む。
+-Bit
+0
+</encryptedFile>
+
+  <file path="Contractors/teja" name=".gitkeep">#this file deliberately empty to ensure this folder remains active in Git after contents are removed</file>
+  
+</Computer>

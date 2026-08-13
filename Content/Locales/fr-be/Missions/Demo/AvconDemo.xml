@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="avconMission">
+  <goals>
+    <goal type="getAdmin" target="avconComp"/>
+  </goals>
+  <nextMission>Demo/AvconDemoEnd.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Vol inaugural</subject>
+    <body>Félicitations ! 
+
+On trouve pas ce genre de logiciel partout.
+    
+Tu devrais essayer un truc un peu plus intéressant. Si Viper disposait bien des machins qu'il était connu pour avoir, tu devrais avoir tout ce dont tu as besoin pour rentrer dans un lieu mieux sécurisé. 
+Peut-être l'ordinateur à côté de toi, celui qui exécute Glove Slap Demo ? Essaie d'y pénétrer et d'ouvrir le lecteur CD. 
+
+N'oublie pas, tous les programmes non basiques que tu obtiens ont besoin d'un numéro de port, comme ça : 
+
+&gt;SSHCrack 21
+ ^nomdufichier ^numérodeport
+     
+Trouve-toi juste un port à craquer et lance-le dessus. 
+
+N'oublie pas de vérifier que ça a bien marché. 
+
+Bonne chance ! 
+
+--Bit
+0
+     
+    </body>
+    <attachments>
+      <link comp="avconComp"/>
+    </attachments>
+  </email>
+</mission>

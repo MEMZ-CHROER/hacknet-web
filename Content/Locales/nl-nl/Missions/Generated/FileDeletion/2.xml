@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Losse Eindjes">
+Hackers hebben waardevolle bedrijfsdata gestolen. Met hun is afgerekend, maar wat ze stolen moet nog verwijderd worden.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - Losse Eindjes</subject>
+    <body>
+Gegroet Agent,
+
+Ons bedrijf, #CLIENT#, was onlangs een doelwit van een hacker aanval. De aanvallers zijn al veroordeeld voor hun actie, maar we konden niet het gestolen archief terugvinden.
+We weten wel het IP adres van de server, en we willen dat je dit probleem oplost voor ons.
+
+Subtiliteit wordt gewardeerd.
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

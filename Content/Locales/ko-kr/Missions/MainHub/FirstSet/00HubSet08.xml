@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet08">
+  <goals>
+    <sendemail recipient="gila" subject="MedicalRecord - Sandburg_Jonas"/>
+  </goals>
+  <nextMission>MainHub/Continuations/FirstSet08_Reply.xml</nextMission>
+  <posting title="Investigate a medical record">
+분쟁을 해결하려면 누군가의 진료 기록 사본을 구하시오.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>아스클레피오스의 지팡이</subject>
+    <body>
+아, 
+
+그래 난 분명 포샵한 사진을 올리는 누군가와 약간의 인터넷 언쟁에 휘말렸는지도 모르겠어…자네도 알다시피, 그건 사실 중요하지 않아, 
+이봐, 나는 극적인 방식으로 이걸 모두 해결하기 위해 이 자의 진짜 의료 기록이 필요해   그건 내가 직접 구하지, 어, 나는 그런 내 의사 표시를 꽤 분명히 했고, CSEC가 그런 것에서 어떤 존재인지 자네도 알잖아.
+아뭏든, 날 도와줄 수 있어? 그의 이름은 &quot;Jonas Sandburg&quot;이다 - 의료 데이터베이스에는 기록을 사람들에게 보내는 도구가 있어, 사본을 &quot;gila@jmail.com&quot;으로 보내줄래, 
+
+고맙다!
+-G 
+    </body>
+    <attachments>
+      <link comp="medical"/>
+      <note title="노트 및 잡다한 것">&quot;Jonas Sandburg&quot;
+주소가 필요해. 
+받을 이메일 주소:
+&quot;gila@jmail.com&quot;
+</note>
+    </attachments>
+  </email>
+</mission>

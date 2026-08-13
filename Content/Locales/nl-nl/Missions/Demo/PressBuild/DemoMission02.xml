@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pressdemoMission01">
+  <goals>
+    <sendemail recipient="gila" subject="MedicalRecord - Helleran_Elanor" />
+  </goals>
+  <nextMission>Demo/PressBuild/DemoMission03.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Ghosting the Vault</subject>
+    <body>Goed werk - je bent er klaar voor.
+Hier is waarom we ik je dit alles zo vroeg vraag. Ik ben nog steeds van plan om dit alles op het net te gooien - Ik heb zo veel mogelijk kansen nodig als ik kan krijgen en hoewel jij boven aan de lijst staat kan ik niet vertrouwen op slechts "beste gok" hiervoor.
+Er zijn schulden om terug te betalen, voor mensen die me geholpen hebben dit samenttetrekken (zelfs als ze niet wisten dat ze het deden).
+
+Er is er een speciaal, Gila, een hacker vriend van CSEC die een klus ruilde voor wat help met dit project - een die ik niet meer kan doen. Ik heb mijn meeste harddrives ook geleegt zodat ik geen sporen nalaat, dus ik ben weer onredelijk en vraag het aan jou.
+
+Hij wil wat medische data naar hem gestuurt. Ik heb wat ik gedaan kon om de beveiliging van Int.Medical te saboteren, dus je zou er in moeten kunnen met wat je nu hebt. Ik heb wat details van wat hij wil hieronder toegevoegt. De server is serieus, dus je moet de logs legen - wees niet slordig.
+
+Dit is je eerste echte klus - veel geluk.
+
+--Bit
+0
+    </body>
+    <attachments>
+      <note title="Mission Overview">
+Verbind met de Internationale Medische Databank
+Breek door de beveiliging
+(Probe/Programs/Porthack)
+
+Zoek naar de data van
+"Elanor Hellran"
+Email het medisch raport naar
+"gila@jmail.com"
+
+Verwijder al de logs in de /logs map (rm *)
+      </note>
+      <link comp="medicalDemo" />
+    </attachments>
+  </email>
+</mission>

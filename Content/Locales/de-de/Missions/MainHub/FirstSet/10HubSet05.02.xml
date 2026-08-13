@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="C_EXE_contact.dec" path="home" destTarget="hubPubDrop" destPath="Drop/Uploads" decrypt="true" decryptPass="quinnoq"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Entschlüsselung einer sicheren Datei" reqs="decypher">
+Eine verschlüsselte Datei wurde an ein CSEC Mitglied gesendet, welches zwar die nötigen Passwörter besitzt, jedoch kein Tool für die Entschlüsselung.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Zwei Schiffe in der Nacht</subject>
+    <body>
+Hi,
+
+ein Freund hat mir einige Details eines Jobs, an dem wir dran sind, zukommen lassen. Er hat sie jedoch verschlüsselt und ich habe keine Ahnung, wie ich sie entschlüsseln kann.
+Sie sind auf dem Crossroads-Server unter "C_EXE_contact" abgelegt - kannst du sie entschlüsseln und auf den Dropserver laden?
+
+Das Passwort sollte "quinnoq" sein.
+
+Danke!
+
+-CSEC Dan
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <link comp="hubPubDrop" />
+      <note title="Missionsübersicht">Lade C_EXE_contact.dec herunter
+      
+Entschlüssle sie
+
+Lade die entschlüsselte Datei auf den CSEC Drop-Server hoch.</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ds2m1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Çözümleme - SSL Aşıcı'nın Yapılandırılması">Ele geçirilen SSL Aşıcı'yı ekibin kullanabileceği şekilde yeniden yapılandır. Talimatalara uyarak hem esnek hem modüler olacak şekilde geliştir.
+  </posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

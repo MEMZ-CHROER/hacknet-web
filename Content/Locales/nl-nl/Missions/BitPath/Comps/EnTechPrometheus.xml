@@ -1,0 +1,94 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechPrometheus" name="En_Prometheus" security="5" ip="156.151.1.1">
+
+  <adminPass pass="d88vAnnX" />
+
+  <dlink target="enMail" />
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+
+  <positionNear target="EnTechMainframe" position="3" total="6" />
+
+  <file path="STORE/Hacknet_Project" name="Hacknet_NetCore.dll">#BINARY##BINARY#</file>
+  <file path="STORE/Hacknet_Project" name="HN_Connect_doc.txt">Hacknet project
+--EnTech Vertrouwelijk--
+
+COMMANDO: "connect"
+Voor gebruik als een wrapper voor remote verbindings kanalen (meestal SSH) om verbinding te combineren met metodes tot externe diensten.
+Het commando zou moeten scannen voor bruikbare poorten en ondersteunde diensten om een valide verbindings metode te vinden, die dan te gebruiken en de output te krijgen
+om een standaard verbinding na te bootsen.
+to emulate a standardized connection.
+Feitelijk, Hacknet's verbindings methodes zouden universeel en gestandardizeerd moeten lijken, terwijl eronder het mogelijk is om alle
+normale (en niet normale) verbindings methodes tot gebruikers diensten te gebruiken op bijna alles.
+  </file>
+    <file path="STORE/Hacknet_Project" name="HN_Connect_TESTGUIDE.txt">Hacknet project
+--EnTech Vertrouwelijk--
+
+COMMANDO: "connect"
+TEST GIDS:
+
+Naast verbinden tussen werkstations en de bedrijfs' host servers, hebben we ook ondersteuning nodig voor verbinding tot draadloze en begrensde OS apperaten.
+Ons test plan bevat verbindings diensten tot meerdere mobiele apperaten (sommige gekraakt, anderen fabrieks-standaard). Deze apperaten zijn verbonden met de prometheus server
+door onze ondersteunende staf, en als je er een nodig hebt voor testen (fysieke output observeren, dan zou je moeten kunnen verbinden vanaf waar dan ook), vraag het server team.
+  </file>
+
+  <file path="STORE/Hacknet_Project" name="SyncedDevices.txt">Hacknet project
+--EnTech Vertrouwelijk--
+
+De mobiele en draadloze apperaten gebruikt in het testen van Hacknet's verbindings module mogen niet gesynchroniseerd worden met deze server (inclusief alle eOS apperaten).
+We zullen ze af en toe leegmaken (voor het geval dat) en het is het beste om het vanaf hier te doen - verbind ze niet met andere machines!
+De apperaten verspreiden zich rond bureau's wanneer veel mensen er mee werken, maar als ze zonder batterij komen te zitten, gereset moeten worden of gesynchroniseerd moeten worden, doe dat altijd tot prometheus.
+  </file>
+
+  <file path="STORE/Hacknet_Project" name="Hacknet_Project_Contacts.txt">Hacknet project
+--EnTech Vertrouwelijk--
+
+Contacten en bronnen
+
+Vanwege de gevoelige aard van het Hacknet project (en de strengheid van de NDA ondertekent door alle betrokkenen), vragen, optie veranderings verzoeken en andere management discussies moeten door de Hacknet management mail relay:
+hnManager@entech.com
+Dit zal het uitsturen naar al het goede personeel, van wie sommigen je een persoonlijke terugkoppeling kan krijgen als relevant is tot hun.
+
+  </file>
+
+  <file path="STORE/EnSec_Project" name="EnSec_Invioability_Project.txt">
+De EnSec Invioability (Onschendbaarheid) project is een OS level beveilingslaag waardoor alle authenticatie pogingen en admin commando's gaan, dat biedt een unieke beschermend niveau van beveiliging voor systemen tegen alle conventionele (en veel niet conventionele) penetratie en beveilings kraak methodes.
+Het doelt erop om compleet transparant te zijn tot eindgebruikers (behalve in het geval van nood-updates, die worden onderhouden door EnTech inc. op een abonnoments basis) en biedt absolute beveiling voor gevoelige en confidentiële systemen.
+
+Samen met het Hacknet project, wat de fouten probeert te demonstreren in huidige beveligingssystemen, EnSec laat duidelijk zien waarom het zou moeten, en zal, de nieuwe minimum standaard van ware digitale beveiling en vertrouwen moet worden.
+
+ - EnSec -
+ De vrijheid die je wil, de beveiling die je verdient.
+  </file>
+
+  <file path="STORE/EnSec_Project" name="EnSec_Core_11-05.dll">#BINARY#</file>
+
+
+
+  <eosDevice id="enPrometheus_eos1" name="ENTECH_TEST_01's ePhone 4S">
+    <note>passes
+1
+1
+3</note>
+    <note>HN
+Dit apperaat is opgezet als een standaard niet-gekraakte ePhone 4S
+Verbinding zou moeten FALEN zonder invloeden van buitenaf omdat er geen open
+terminal verbindings methodes zijn.</note>
+    <mail username="nstanford@entech.com" pass="murloc33" />
+  </eosDevice>
+
+  <eosDevice id="enPrometheus_eos2" name="ENTECH_TEST_02's ePhone 4S">
+    <note>HN
+Dit apperaat is opgezet als Persoonlijk Gekraakte ePhone 4S
+Verbinding zou moeten SLAGEN omdat dit apperaat is bewerkt om SSH verbinding toe te laten</note>
+    <note>GEBRUIK - Let op
+NOOT: Dit apperaat is *express onveilig* voor test doeleinden. Het zou NIET moeten verbinden
+met enige interne verbinding of mail systemen, en er zou GEEN gevoelige tests of ontwikkelingsdata op moeten staan.</note>
+    <note>Remote Creatie test
+asdf asdf notitie geschreven op afstand</note>
+    <note>Remote test 2
+12345678</note>
+  </eosDevice>
+
+</Computer>

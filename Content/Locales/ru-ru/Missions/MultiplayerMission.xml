@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="multiplayerMission" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="opponent#0" file="system32.sys" path="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Anonymous</sender>
+    <subject>Схватка</subject>
+    <body>
+Добро пожаловать, хакер.
+
+ В данное время тебя атакует враждебный хакер. Тебе придется показать, чего ты стоишь. Уничтожь его или ее, пока не уничтожили тебя.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="entropy01" name="Entropy 애셋 서버" security="4">
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="home/backups" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="home" name="Mantra.txt">
+Entropy 신조 
+
+우리 그룹은 모든 일에 있어서 추구하고자 하는 세 가지 기둥 위에 세워졌다: 
+
+1) 모든 일에 있어서 정의와 공의를 위해 노력한다
+
+2) 파괴하는 것보다 더 많이 생성하고 공유한다 
+
+3) 자기개발을 게을리하지 않는다 
+
+Entropy에서는 이를 거스르는 계약은 모두 거부할 것이며, 이를 위반하는 요원들은 제거할 것이다.
+</file>
+  <account username="admin" password="rosebud"/>
+</Computer>

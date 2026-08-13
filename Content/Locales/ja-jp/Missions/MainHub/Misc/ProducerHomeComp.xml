@@ -1,0 +1,64 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="producerComp" 
+          ip="37.187.27.55"
+          name="Jason's LackBook Pro" 
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="laptop"
+          type="2" > <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <adminPass pass="DANGER" />
+  <!-- Security Stuff -->
+  <trace time="-1" /> <!-- Adds a trace timer - set to -1 to remove -->
+  <firewall level="6" solution="DANGER"/>
+  
+  <file path="sys" name="x-server.sys">#WHITE_THEME#</file>
+
+  <file path="home/scripts" name="DANGER.txt">
+    DANGERという言葉は、どうしてこんなにすばらしい言葉なのか？dangerではなく、DANGERなのだ。全てが大文字。この世で一番すばらしい言葉だ。
+    最高の世界？DANGER zoneだ。最高のミドルネーム？DANGERだ。
+    すべてにおいて、この言葉を使えたらと思うよ。
+  </file>
+
+  <encryptedFile path="home/scripts" name="T2_Screenplay.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" >
+    タイタニック2: 氷山の逆襲
+    -脚本-
+
+JACK DAWSON: "誰も考えてみなかったのか――氷山が俺たちにぶつかったんじゃない・・・俺たちが氷山にぶつかったんだ！"
+ROSE DEWITT BUKATER: "何言ってるの？！あのよくわからない手術のせいで頭がいかれたのかしら？私があなたを連れ戻したのは、あなたを愛してるからなのよ！"
+JACK DAWSON: "わかってる、でもここにいては危険なんだ。氷山には家族がいた。やつらは復讐に来るだろう。俺が死の淵に居たとき、やつらは言っていた・・・。やつらも予期していなかったんだ。まさか俺が・・・。"
+-JACK DAWSONはかっこいいサングラスを手に取り、それをかける
+JACK DAWSON: "戻ってくるとはな。"
+
+カリフォルニアの海岸線を映し出す
+
+氷山が水の上に顔を出し、驚くべき速さで町に向かっている。避難警報のサイレンが鳴り始め、浜辺にいた人々は悲鳴をあげ、氷山を指差し、命からがら走り出す。
+さらに多くの氷山が海上へと姿を現し、共に浜辺へと向かう。
+
+ROSE DEWITT BUKATER: "助けて！"
+JACK DAWSON: "Rose!俺はここだ！お前を1人にさせるもんか！"
+
+先頭の氷山はすでに浜辺へと到着し、2人の主人公の下へと滑走してきた。氷山は銃を取り出した。
+
+ROSE DEWITT BUKATER: "JAAAAACCCKKKKKKK!"
+
+  </encryptedFile>
+
+  <encryptedFile path="home/scripts" name="GHL_ChapterList.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" >
+    銀河の英雄伝説
+    -目次-
+
+    CHAPTER ONE: 成層圏を越えて
+    CHAPTER 2: ディープインパクト
+    CHAPTER 3: 反撃
+    CHAPTER 4: 心臓への道
+    CHAPTER 5: 身震い
+    CHAPTER 6: 海軍少将への攻撃
+    CHAPTER 7: 4つの戦利品
+    CHAPTER 8: 彼の心の広さ
+    CHAPTER 9: 後悔と恐怖と欲望と
+    CHAPTER 10: 深部での爆発
+    CHAPTER 11: 律動を追って
+    Chapter 12: 優しさ、そして激怒
+  </encryptedFile>
+  
+</Computer>

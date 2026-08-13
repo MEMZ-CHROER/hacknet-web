@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dlcDemoIntro1">
+  <goals>
+    <goal type="filedeletion" target="dDemointro1" file="x-server.sys" path="sys"/>
+  </goals>
+  <missionStart val="0" suppress="true">ActionsConditionnellesLocales:DLC/ActionScripts/AlchimistesHermétiquesActions.xml</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="Alchimistes hermétiques">
+  Une branche obscure de philosophes, les « Alchimistes hermétiques » a un réseau étonnament conséquent à sa disposition. Certaines infos nous révèlent que leur admin a développé un outil que l'on convoite depuis un bon moment.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Alchimistes hermétiques</subject>
+    <body>
+On dirait que leur admin est un prodige en tracking, mais il est complètement plongé dans son délire d'alchimiste. Leur réseau est bâti comme une étrange forteresse, mais nous avons vraiment besoin de trouver l'ordinateur personnel de cet admin et récupérer le logiciel.
+
+C'est un travail d'équipe, donc si tu trouves quoi que ce soit d'utile, dis-nous-le via le chat.
+Bonne chance.
+    </body>
+    <attachments>
+      <link comp="dhaEntry" />
+      <note title="Contrat Alchimistes hermétiques">Examine le réseau et trouve l'ordinateur du domicile de l'administrateur.
+De là, télécharge le logiciel anti-tracking, puis charge-le sur le serveur de stockage.
+</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Traçages - Passifs">
+En réponse à ce monde de sécurité informatique et de piratage de plus en plus hostile et actif, les nouvelles suites de sécurité numérique comprennent généralement des méthodes de localisation de toute activité « hostile » contre ledit serveur.
+    
+C'est naturellement une science imparfaite, il existe donc 2 formes de traçages généralement reconnus : actifs et passifs.
+    
+Cet article décrit les traçages passifs.
+    
+1 : Traçages passifs
+-----------------
+Un traçage passif est un programme informatique s'exécutant sur une machine tentant de détecter une action hostile et élaborant une action de traque contre celle-ci. Cette méthode varie d'un programme à l'autre (et, par conséquent, le temps nécessaire qu'il prend de manière générale).
+Un traçage passif peut, en théorie, être contrecarré en utilisant un crash auto-induit au moment exact où le ping arrive du serveur hostile, ne donnant ainsi pas de réponse, il assumera donc que le paquet n'est jamais arrivé. 
+Il faudrait pour cela une intégration au niveau de l'OS, et cette fonctionnalité n'est disponible sur aucun OS largement reconnu, rendant cette méthode de traque efficace pour les potentiels assaillants.
+    
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERREUR</subject>
+    <body>
+Recevoir cet email indique qu'une erreur inattendue est survenue.
+Veuillez paniquer.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

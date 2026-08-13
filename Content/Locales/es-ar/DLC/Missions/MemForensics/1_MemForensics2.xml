@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="1_mf_2">
+  <goals>
+    <goal type="filedeletion" target="dMF_2_Lihotas" file="sn_memory_dump_decompiled.rar" path="share/secure/originals"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Autopsia de datos (2/3)">
+Analiza volcados de memoria (3-4) para encontrar enlaces a un servidor seguro.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Autopsia de datos</subject>
+    <body>
+Mientras estabas ocupado consiguiendo las nuevas herramientas de seguridad, yo he conseguido nuevo software para nuestras investigaciones. Autopsia de datos: Necesitamos conseguir una copia del estado de la RAM el objetivo y filtrarla con las herramientas para encontrar datos útiles.
+Como precio, el "vendedor" me ha pedido que busque en unos volcados de memoria que venían con el programa.
+Deberías tenerlo claro, pero por si acaso: esto es una trampa o algún tipo de prueba. El vendedor tiene las herramientas (¡las DESARROLLÓ!) para hacerlo él mismo y que nos los encargue es la prueba de que quiere controlar a los usuarios.
+
+No es del todo malo vigilar así la distribución de sus herramientas, pero eso significa que si quieres seguir siendo anónimo, ten *mucho cuidado* con los registros y tu presencia en lo que quiera que conectes.
+Por eso he dividido los archivos en 3 grupos. 
+
+Tienes que revisar los archivos de los volcados 3 y 4.
+
+Procésalos con la herramienta de autopsia de datos que he subido al servidor compartido (tiene una manual al lado de la papelera) y encuentra alguna conexión.
+
+Un mensaje del que lo envía: Castiga a todos los que rompan las normas. Han intentado descompilar y vender los volcados de memoria, que reciban su merecido por desafiar al vendedor.
+Lo que yo leo aquí es: "borra cualquier volcado de memoria descompilado que encuentres y ataca los sistemas en los que los encontraste".
+
+Repito, ten cuidado.
+-Kaguya
+</body>
+    <attachments>
+      <note title="Objetivos de la misión">Descarga las herramientas de autopsia de datos del servidor compartido
+Analiza los volcados de memoria 3 y 4.
+Busca conexiones en los volcados (el comando "scan [ip]" hará ping al servidor sin sacarte de la vista de la autopsia)
+Borra cualquier volcado de memoria que se haya descompilado y ataca los sistemas que los contengan.
+</note>
+      <link comp="dhsDrop" />
+    </attachments>
+  </email>
+</mission>

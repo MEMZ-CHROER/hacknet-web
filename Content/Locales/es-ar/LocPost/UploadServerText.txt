@@ -1,0 +1,8 @@
+Estás autorizado para subir el archivo abierto al servidor.
+Usa el comando "subir [LOCAL_NOMBRE DEL ARCHIVO]" para subir archivos
+
+
+RECORDATORIO: Los archivos descargados con [scp] se descargarán en ~/inicio
+(o ~/bin para ejecutables)
+Las subidas desde esa carpeta necesitan que su ruta sea la siguiente:  inicio/[NOMBRE DEL ARCHIVO]
+El tabulador puede usarse para autocompletar las rutas y nombres de los archivos locales que se van a subir.

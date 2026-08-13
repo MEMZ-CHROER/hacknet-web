@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle04">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0015 - Kalp Hızı Ölçüm Aygıtı v2.44 Güvenliği ve Açıkları">
+Bu gönderide kalp hızı ölçüm aygıtının v2.44 sürümünün güvenlik fonksiyonuyla ilgili ayrıntıları barındırmaktadır. Genel işlemler için yazılı dokümanla başvurun veya support@kellisBio.com adresinden yeni kopya talep edin.
+---------------------------------------------
+
+Her ikili dosya çıktığında yazılım güncellemesi yüklenebilmesi için güvenliğin devre dışı bırakılması gerekmekte. Bunun içinde yazılımcılar bazı aşamaların gerçekleştirilmesini şart kıldı.
+Öncelikle kalp hızı ölçüm aygıtının hasta referans IP'sini barındıran çipiyle bağlantı kurulmalıdır.
+
+Müşteri bazlı girilen veriler kullanılarak yönetici olarak giriş yapılmalıdır. Bu aşama Kellis tescilli mikro-port koruma sistemi (port 6652) tarafından korunmaktadır.
+
+Bu aşamada uzaktan izleme devreye girecektir. Böylece kullanıcı ECG verilerine bakabilecektir.
+
+Yazılım güncelleştirmesinin gerçekleştirilebilmesi için yetkili yazılım geliştiricisinin doğrulama kodunun girildiği ikinci bir yazılım girişi yapılmalıdır.
+
+İki bilgi de girildiğinde, çip güncellemesi yüklenebilir ve etkinleştirilebilir. Bunun sonucunda otomatik olarak yeniden başlatılır (hastaya zararı dokunmaz) ve yeni kod etkinleştirilir.
+
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>HATA</subject>
+    <body>
+Beklenmedik bir hata oluştuğu için bu hatayı aldınız.
+Lütfen panikleyin.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

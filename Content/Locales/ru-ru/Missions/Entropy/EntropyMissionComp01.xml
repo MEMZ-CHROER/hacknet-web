@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="entropy01" name="Entropy Asset Server  (Entropy Asset Сервер)" security="4">
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="home/backups" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="home" name="Mantra.txt">
+Entropy Мантра
+
+ Нашей группы базируется на трех принципах (столбах) которым мы стремимся следовать во всем: 
+
+1) Стремление к справедливости и праведности во всех делах 
+
+2) Создавать и делится, больше чем разрушать 
+
+3)Никогда не ищи повода, не становится лучше. 
+
+Entropy  будет отрицать (отклонять) контракты (сотрудничества), которые идут против этих принципов, и и удалит агентов (средства), которые нарушают их .
+</file>
+  <account username="admin" password="rosebud"/>
+</Computer>

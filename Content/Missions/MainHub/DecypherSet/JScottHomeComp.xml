@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jscottHome" name="Joseph Scott's Battlestation" security="3" icon="laptop">
+
+  <encryptedFile path="home/work" name="Decypher.dec" ip="101.0.89.154" header="DECYPHER - DO NOT SHARE" extension=".exe">#DECYPHER_PROGRAM#</encryptedFile>
+  <file path="home/work" name="DEC_Header_Analysasdsadsafds.txt">
+  This is seriously getting out of hand. First the problems with actually being able to break the encryption without the proprietary tool, now this?
+  Reading the headers is *still* a big problem - there's the encode source ip in there which, yeah, is still a huge security concern thanks very much, I don't care
+  how much easier it makes your debugging sessions and client relationships.
+  
+  Well, here's some more working proof that we've got problems. I'll let the dust settle on the first bombshell, then throw this into the ring. 
+  2 at once might get me fired, best hold onto this till things calm down a bit.
+  
+  Oh DECHead.exe, why do you cause me so many problems.
+  I guess it's more just outsourcing in general.
+  
+  Why am i blogigng into a txt file..
+  Ughhh painkillers.
+  </file>
+  <file path="home/work" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  
+</Computer>

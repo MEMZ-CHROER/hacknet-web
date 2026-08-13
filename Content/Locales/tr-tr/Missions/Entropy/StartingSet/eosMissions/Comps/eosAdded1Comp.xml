@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="eosAdded1Comp" name="JDel Home PC" security="2">
+
+  <eosDevice name="Jacob's ePhone 4" id="eosAddedPhone">
+    <note>İzin
+başlangıç, 22si
+bitiş, 5i</note>
+    <note>şifre
+ağustosta değiştirildi
+
+warsix22
+</note>
+    <note>Müzikler
+Netsky - Puppy
+She - Coloris
+5th of Beethoven - ???
+
+    --
+  
+Chilltacular 2014 (YouTube oynatma listesi)</note>
+  </eosDevice>
+  
+  <account username="admin" password="warsix22" />
+</Computer>

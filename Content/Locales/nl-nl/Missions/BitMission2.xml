@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission02" activeCheck="true">
+  <goals>
+    <goal type="FileDownload" target="bitMission02" file="Entropy_Induction_Test" path="home" />
+  </goals>
+  <nextMission>Entropy/EntropyMission1.1Delayer.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Waarheen vanaf hier</subject>
+    <body>
+Goed! Als je dit ziet dan heb je het goed gedaan... dit alles is misschien de moeite waard.
+Is dat de veel om op te hopen? Het lijkt op veel om op te hopen.
+
+Ik heb me gerealizeerd dat ik geen tijd heb om alles teschrijven - er is te veel te leren en ik heb geen tijd om wat dan ook te doen. Dus, ik ga nog meer van je vragen.
+
+Er is een groep die 'Entropy' heet accepteerd nu nieuwe leden. Zij kunnen je meer leren. Als je er klaar voor bent zal ik je opnieuw contacteren.
+Om in Entropy te komen moet je een proxy server langs - een paar shells (open met het commando "shell") op een paar computers waar je als admin toegang hebt zou genoeg moeten zijn het te overloaden.
+
+Veel geluk...
+en bedankt,
+
+--Bit
+0
+
+P.S: Ik vergat het bijna, als je problemen hebt, heb ik de netwerk educatie archief server gelinket - het heeft veel nuttige informatie
+    </body>
+    <attachments>
+      <note title="Proxy Server Info">Een paar dingen over proxy servers - een klassieke Entropy uitdaging
+
+Run shells op computers waar je admin hebt met "shell".
+
+Verbind aan het doelwit en probe de beveiliging.
+
+Gebruik de shells om de proxy te overloaden.
+
+Het NetEdu Archief heeft meer informatie.
+      </note>
+      <link comp="netEduComp" />
+      <link comp="bitMission02" />
+    </attachments>
+  </email>
+</mission>

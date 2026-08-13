@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dRicerMission">
+  <goals>
+    <goal type="fileupload" target="dRicer" file="SSLTrojan.dec" path="home/projects" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Ezik">
+SSL portlarını aşmak için çalışmalar yürüten birinin konumunu öğrendim. Ne yazık ki, güvenlik kurulumlarında alışılmadık bir şey var.
+  </posting>
+  <email>
+    <sender>Ezik</sender>
+    <subject>Ezik</subject>
+    <body>
+SSL portlarını aşmak için çalışmalar yürüten birinin konumunu öğrendim. Ne yazık ki, güvenlik kurulumlarında alışılmadık bir şey var.
+----
+Hedef özelleştirmelere takıntılı. Eziğin teki. Güvenliği de sallamıyor. Her yerde standart olmayan yapılandırmalar, portlar ve hizmet ödenekleri var.
+Girmenin yolunu bulduğunda en yeni SSL aşma yazılımının kopyasını almanı istiyoruz. Bir şekilde şifrelenmiş veya korunuyor olabilir. Sıkıntı değil. Bir şey bulursan linkini attığım Drop Server'a yükle. Gerisini biz hallederiz.
+    </body>
+    <attachments>
+      <link comp="dhsDrop" />
+      <link comp="dRicer" />
+      <note title="Görev Kılavuzu">Eziğin sunucusuna eriş ve güvenliği aş.
+SSL port aşım programının son sürümünü araştır.
+Not: Şifrelenmiş veya gizlenmiş olabilir.
+İşe yarar bir şey bulursan Drop Server'a yükle.</note>
+    </attachments>
+  </email>
+</mission>

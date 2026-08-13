@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase3" activeCheck="true">
+  <goals>
+    <goal type="getAdmin" target="EnTechPrometheus"/>
+  </goals>
+  <missionStart val="11" suppress="true">changeSong</missionStart>
+  <nextMission>BitPath/BitAdv_Intro04.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Investigation</subject>
+    <body>Hmmm.
+    
+I've been around a while, but I've never seen anything like this. It's a bit early to call it unbreakable but... this is new. Different. Hmm.
+EnTech huh? They make, what, a pretty mediocre antivirus? If they were selling whatever this is, they'd be making a fortune.
+
+Hey, look, their front end stuff doesn't have anything this fancy. I'm going to get digging from the web server end - see at what point this new stuff starts. It looks like it's deep enough in that they're trying to hide it for some reason.
+No idea why - it looks like it'll be a huge hassle to get past - companies love that stuff. This is new and flashy too.
+
+This is suspicious as hell.
+Take a look on your end and see how far you can get in here - I don't know if it's just me, but this feels like a way better lead than I was even hoping for.
+
+Ping me back when you think you've seen as much as you can. Be Thorough.
+
+-V    
+    </body>
+    <attachments>
+      <link comp="EnTechWeb" />
+    </attachments>
+  </email>
+</mission>

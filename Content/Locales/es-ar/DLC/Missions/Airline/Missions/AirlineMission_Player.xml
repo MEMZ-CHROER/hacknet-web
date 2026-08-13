@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="airline_player">
+  <goals>
+    <goal type="getadminpasswordstring" target="dpa_bookings"/>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="A volar - #PLAYERNAME#">
+Consigue acceder al servidor de reservas de una aerolínea internacional.
+  </posting>
+  <email>
+    <sender>A volar - #PLAYERNAME#</sender>
+    <subject>A volar</subject>
+    <body>
+Consigue acceder al servidor de reservas de una aerolínea internacional.
+----
+Al grano, necesito acceso al servidor de reservas de la aerolínea internacional "Pacific Air" para futuros proyectos de protección.
+
+Llevo tiempo detrás y tengo información importante. Sabemos la dirección IP del servidor de reservas, pero por desgracia entrar en él no va a ser fácil.
+No solo tiene una seguridad excepcional, sino que también cuenta con una lista de permisos. Rechaza directamente cualquier conexión desde el exterior, lo que nos incluye. Necesitamos encontrar un punto de entrada a la red (provista) alternativo para evitarlo, y también una manera de entrar.
+
+Los encargados de la red son Psylance Cyber Security, así que será complicado. No te olvides de borrar tu rastro.
+
+Cuando sepas la manera de entrar, añade la contraseña del servidor de reservas a los detalles de fin de misión.
+Buena suerte.
+</body>
+    <attachments>
+      <note title="Objetivos de la misión">
+Investiga la lista de permisos del servidor de reservas.
+Explora la red desde el punto de acceso de LAX.
+Consigue acceso de administrador al servidor de reservas
+Añade la clave del servidor a los detalles de fin de misión.
+      </note>
+      
+      <link comp="dal_lax" />
+      <link comp="dpa_bookings" />
+      
+    </attachments>
+  </email>
+</mission>

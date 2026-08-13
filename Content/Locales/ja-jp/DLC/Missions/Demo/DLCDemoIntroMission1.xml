@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dlcDemoIntro1">
+  <goals>
+    <goal type="filedownload" target="dDemointro1" file="FTPSprint.exe" path="bin"/>
+  </goals>
+  <nextMission>../DLC/Missions/Demo/DLCDemoIntroMission2.xml</nextMission>
+  <email>
+    <sender>Matt</sender>
+    <subject>タイヤ補修</subject>
+    <body>やあ、
+    
+戻ってきてくれて嬉しいよ。多くのグループが興味を持つであろう話が浮上したんだ。EntropyもCSECもその件を追っている。それで、君も知りたいんじゃないかと思ってね。
+
+でもその前に、君のスピードを向上させたい。この仮想マシンにはSSHCrackとFTPBounceを予め入れてあるから、リンク先のサーバーに侵入して、~/binの中のファイルをダウンロードするんだ。きっと気に入ると思うよ。
+
+終わったら、Texに頼まれたことを伝える。
+まさか腕がなまってるなんてことはないよね。頼むよ。
+-Matt
+    </body>
+    <attachments>
+      <link comp="dDemointro1" />
+      <note title="Recap">プログラム実行コマンド:
+プログラム名 [ポート番号]
+ポートが開いたセキュリティには"Porthack"で侵入できる。
+
+標的コンピュータのbin/XXXXをダウンロードし、Eメールに返信する。
+- scp [ファイル名]
+
+/logのログを削除する。
+-rm [* かファイル名]
+</note>
+    </attachments>
+  </email>
+</mission>

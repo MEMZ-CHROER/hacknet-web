@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews03">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Macrosoftの新型携帯: 噂通りの悪い出来">
+どうやらMacrosoftはチャンスをものにできなかったようだ。最新の「Waterfall」シリーズにセキュリティ上の重大な欠陥が見つかった。幸運にも、我々は匿名の情報提供者のお陰でこの商品を秘密裏に手に入れることができた。
+
+ユビキタス技術の生みの親である、この大企業が開発した前世代のOSもバグが多いことで有名だった。しかし、ブート領域にセキュリティホールがあることはユーザーも予想していなかっただろう。携帯にインストールされたアプリは制限なしに携帯のコントロール権を容易に入手できるほか、プライベートなデータもバグのせいで暗号化されることなくネット上にばら撒かれてしまうという。
+ 
+「Waterfallシリーズ」、Macrosoftにとって4世代目のシリーズとなるこの携帯は2週間後に発売予定だが、この発見により1ヶ月程度の延期が見込まれるだろうと専門家は言う。これからの軌道修正に期待しよう。
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropyは止めなければいけない</subject>
+    <body>
+Entropyのデータベースを破壊しろ
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

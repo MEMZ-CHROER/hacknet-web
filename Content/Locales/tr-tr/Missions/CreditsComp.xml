@@ -1,0 +1,271 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="creditsComp" name="Credits Server" ip="226.187.99.3" security="0" icon="chip"
+          allowsDefaultBootModule="false" type="4">
+
+  <dlink target="academic" />
+  <dlink target="deathRow" />
+  <dlink target="ispComp" />
+  <dlink target="medical" />
+  <dlink target="jmail" />
+  
+  <SongChangerDaemon />
+  <ports>21, 22, 25, 80, 1433, 104, 3724</ports>
+  
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+  <file path="bin" name="KBTPortTest.exe">#MEDICAL_PROGRAM#</file>
+  <file path="bin" name="SecurityTracer.exe">#SECURITYTRACER_PROGRAM#</file>
+
+  <file path="sys" name="x-server.sys">#MINT_THEME#</file>
+  <file path="home" name="Credits.txt" >-- Hacknet --
+^Geliştirme
+%MATT TROBBIANI
+
+^Logolar, Ek Yazım, Test
+Sarah Riggall
+
+
+^Görünüm Modeli
+Jeremy Mitchell
+
+^Ek Yazım
+Stephen "Hellerphant" Heller
+
+^-Müzik-
+
+^The Otherworld Agency
+Fabian Malabello 
+$Founder Managing Director
+
+Rumblefish Inc.'e Teşekkürler
+- Cinematrik
+"The Quickening" - Cinematrik (RFID15710)
+"Revolve (R Mix)" - Cinematrik (RFID15810)
+
+- Rico Puestel
+Roja Drifts - (Timo Jahns Strings Remix)
+PSTL001
+(C) 2014 Ponsactrilau
+
+- Tonspender
+"Broken Boy" - Örnek GO
+"Irritations" - Örnek GO
+
+- Chris Larkin
+Bitiş Konuşması Kaydı ve Desteği
+Hacknet Yapım Parçası
+
+ROLLER MOBSTER
+(Franck Hueso)
+Sergileyen
+- Carpenter Brut
+(p) No Quarter
+Warner Chappell Music France'ın izniyle
+
+- Ryan Burge
+Recursion
+Phase of the moon
+
+- Remi Gallego (The Algorithm)
+Panic Track
+Malware Injection
+
+- Matt Mclean
+Feeding Ear | Out run the wolves
+
+- Sean Gillespie
+TETRAMETH
+
+Parlak fikirlerindne ötürü özel teşekkür
+www.ccmixter.org
+
+
+^-Arkaplan Müziği-
+"Been Away Too Long" - White Theme
+"Journey" - Green Theme
+Both by Angelus-Hellion
+angelus-hellion.deviantart.com
+
+
+^-Efekt Müzikleri-
+Dark Drone 008
+mckinneysound - http://www.freesfx.co.uk
+Hospital ECG
+https://www.sounddogs.com/sound-effects-library/2175.htm
+https://www.sounddogs.com
+Doom Shock + TraceKill
+Parlak Fikirler
+http://www.kyutwo.com
+Audiojungle.com
+Drones and Transitions
+
+Ek Efektler için Wertstahl'a teşekkürler
+
+^-Portlama ve FNA-
+Ethan "flibitijibibo" Lee
+
+^-Test ve Teşekkür-
+Elle Dunbar
+Chris Johnson
+Tristan "tijit" Trabilsie
+Jamie Williamson
+Alex Mackay
+Noblekale
+Sam Crisp
+Dylan Sale
+Richard Taylor
+Ben Kislby
+Matt LeKrupa
+Brad Wesson
+Jamie Pillianaros
+Giselle Rosman
+Bec Pelvay
+Ben Carter
+Stephen Trobbiani
+Gib Trobbiani
+Laura Trobbiani
+Ben Trobbiani
+Aidan "Aidy" Coxon
+
+^-Dil Testi-
+Quinton Porter
+Radek Golan
+Player Fero
+Jacob Johnson
+Daniel Lieberwirth
+BirdCute
+Andreas Lenhardt
+Rain Shatter
+Colamaeleon
+
+^-Port Testi-
+Ladislav Vydra  -  Richard Middel  -  Willem-Jan Zijderveld
+Lukasz Klatka  -  Lucia Fabiola Martinez Fajardo  -  Michael Tanzer
+Ambidotus Insignis  -  Barrett Eckhart  -  Heide Queen
+Willem-Jan Zijderveld  -  Daniel Sapelli  -  Kacper Tonia
+Sean Mackedie  -  TECHNO vids  -  Derek Power
+Alexander Ford - Matthieu Rose
+
+^-Çevirmenler-
+ - Game Scribes - 
+William Farrell'ın Ekibi
+Kordinasyon ve test için Colamaeleon'a özel teşekkür
+
+^Almanca
+ - Hanna Siek - 
+Sebastian Raake
+Thomas Jager
+jonasschloemer
+
+^Flemenkçe
+Master Grid
+
+^Fransızca
+- Pierre Cholet -
+The Corsaire
+jdbarte
+Wk Slicex
+Aokami
+
+^İspanyolca
+Nahuel Peruzzo
+Victor Sanchez Collado
+Wazbat
+Adam
+delaguila fernando
+
+
+^- Dağıtımcı : Fellow Traveller -
+
+Chris Wright
+$Genel Müdür, Fellow Traveller
+
+Stephen Heller
+$Ürün ve Topluluk Müdürü, Fellow Traveller
+
+Lex Suurland
+$İş Geliştirme Müdürü, Fellow Traveller
+
+Fiona Murray
+$Finans Müdürü, Fellow Traveller
+
+James Kozanecki
+$Halkla İlişkiler, Fellow Traveller
+
+Travis Plane
+$Yönetmen, Fellow Traveller
+
+Aaron Bertinetti
+$Yönetmen, Fellow Traveller
+</file>
+
+<file path="home" name="Congratulations.txt" >
+Tebrikler!
+
+Oyunun prototipini 48 saatlik oyun arasında arkadaşlarımla geliştirdim. YouTube kanalımda ("TheOrann") prototipi geliştirdiğim zamanaşımı videolarını bulabilirsin.
+Prototipe o kadar ilgi duyulduğu ki 3 senelik süreç sonucunda Hacknet az önce bitirdiğin haline dönüştü. Umarım beğenmişsindir!
+
+Eğer oyunu beğendiysen (veya beğenmediysen), düşünceni ifade edebilirsin! Ne düşündüğünü öğrenmek isterim. E-Posta adresim "matt@hacknet-os.com", Twitter adresim de @Orann.
+
+Teşekkürler ve de tebrikler.
+-Matt Trobbiani
+
+  </file>
+  
+  
+  <file path="home" name="Hidden_Stuff.txt" >
+Oyunda pek de iyi gizlenmemiş birkaç numara var. Bunlar aslında oyunun bir parçası değildi. Sadece yapım aşamasından arta kalan şeyler veya ek kısımlardı. İşte bunlardan bazıları:
+
+--Disk Kazığı--
+"openCDTray" komutu bağlandığınız bilgisayarın disk kızağını açar. Eğer kendinize bağlıysanız, kendi disk kızağınız açılır. Ayrıca bu özellik çoklu oyuncu modunda bağlandığınız kişinin disk kızağını da açmaya yarar!
+"closeCDTray" komutu ise disk kızağını kapatır.
+
+--Fork Bomb--
+ForkBomb aslında çoklu oyuncu modunda kullanılması için yazmış olduğum oyuniçi bir "Virüs". Bir ağa bağlıycan "exe forkbomb" yazarsan çalışır ve o ağı 30 saniyeliğine devre dışı bırakır!
+Çoklu oyuncu modunda kendi üzerinde veya bir başkası üzerinde çalıştırırsan bir anda RAM'ini doldurmaya başlar. Eğer RAM'in tamamen dolarsa bilgisayarın yeniden başlatılır (oyun içinde). Çabuk olursan, virüsün PID'sini bulabilir ve kill komutuyla devre dışı bırakabilirsin.
+
+--SecurityTracker.exe--
+İlk görevde silmiş olduğun SecurityTracer.exe aslında çalışan bir .exe dosyasıdır. Eğer çalıştırırsan kendini takip etmeye başlarsın! Eğer denemek istersen bu bilgisayarın /bin klasöründe bir tane bulunuyor. İşlemi yok etmeyi unutma tabi!
+
+--İsimler--
+Hacknet'te bulunan bilgisayar ve şirketlerin isimleri prosedürel olarak muhtemel isim ve son ek listesinden alındı. Her oynayışında bu isimler değişecek!
+Entropy Sunucusundaki görevlerde her seferinde farklı olsun diye prosedürel olarak değiştirilir.
+
+--İç Tutarlılık--
+Oyundaki sunucular (e-posta sunucusu gibi) tutarlı sunuculardır. Hesapları ve e-postaları prosedürel olarak oluştururlar!
+Sürekli olarak bağlandığın e-posta sunucusunu (Jmail.com) hacklemeyi dene ve gör! Bak bakalım e-postaların depolama formatını çözebilecek misin. Tabi bir de benim ayrıştırıcımın nasıl çalıştığını keşfedebilirsin.(Hint: "@*[AMPERSAND]^#%@)_!_)*#^@![AMPERSAND]*)(#^[AMPERSAND]").
+
+--Daha Fazlası!--
+Bilgisayarların çok da zengin olmayan ve genellikle içinde birkaç şey bulunan dosya sistemleri var. Birazcık keşif yap, bak bakalım neler bulacaksın!
+  </file>
+  
+  <file path="home" name="SecretPath.txt" >
+Hacknet'te üçüncü bir tarafa ait olan gizli bir kısım daha var. Eğer daha fazla bilgi edinmek istiyorsan, tekrar oyna ve bu sefer daha agresif ol. Sırlara daha yakından bak. Özellikle de olayların nasıl olduğuna, işlerin o noktalara nasıl geldiğine ve nereden geldiğine...
+Tüm karakterler ve hackerlar izlenebilir ve araştırılabilir, tabi yeterince bakarsan.
+  </file>
+  
+  <file path="home" name="Thanks_Again.txt" >
+
+    Tekrardan teşekkür ederim!
+    Yine söylüyorum, eğer oyunu beğendiysen (veya beğenmediysen) "matt@hacknet-os.com" adresine e-posta gönderebilirsin.
+    Okuyacağıma söz veriyorum.
+
+    Bu arada tekrar oynamaya karar verdiysen sana ufak bir hediyem olacak. Oyunun başında dahi erişebileceğin bir sunucum var: "1337.1337.1337.1337".
+
+    Bir kez daha teşekkür ederim!
+    -Matt Trobbiani
+  </file>
+  
+  <file path="home" name="Wallpapers.txt" >
+Yeşil ve Beyaz temaların arkaplanlarını yetenekli dostum Angelus-Hellion tasarladı.
+
+İkisinin de tam çözünürlüklü arkaplan halini kendisinin DeviantArt sayfasında bulabilirsiniz:
+
+http://angelus-hellion.deviantart.com
+
+  </file>
+  
+</Computer>

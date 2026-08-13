@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDeletion" target="pointclicker" file="Mengsk.pcsav" path="PointClicker/Saves"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Point Clicker">
+어떤 선의의 고객이 자신의 생산성을 되찾기 위해 어떤 게임 서버에서 자신의 데이터를 삭제하기를 원한다.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Point Clicker</subject>
+    <body>안녕하신가,민간인
+    
+나는 지금 매우 도움이 필요한데 무능력자들만 모인 내 부하 직원들은 아무도 이 일을 해결해줄 수 없더군. 그래서, 비록 심기가 불편하기는 하지만, 외부의 도움에 손을 뻗을 수밖에 없게 되었네. 
+정보원들이 여기는 보안이 믿을만한다고 했으니 용건을 말하겠네. 나는 &quot;PointClicker&quot;라는 게임에서 최고를 차지했네. 나의 우위를 다시 한 번 증명하고 싶은데 초기화할 수 있는 방법이 없더군. 
+당신이 게임의 서버에 들어가 내 세이브 파일을 삭제해주면 좋겠네. 내가 게임을 다시 깰 수 있도록 말이야. 내 사용자 이름은 &quot;Mengsk&quot;일세. 초기화하기 전에 내가 현재 이루어놓은 업적들을 마음껏 감상하시게나. 
+
+그럼 이만,
+-M
+    </body>
+    <attachments>
+      <link comp="pointclicker"/>
+      <note title="연락처">연락처 
+"Mengsk"</note>
+    </attachments>
+  </email>
+</mission>

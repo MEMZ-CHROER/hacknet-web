@@ -1,0 +1,56 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa2_whitelist" name="Pacific_ATC_WhitelistAuthenticator" security="5" type="4" icon="Psylance">
+  
+  <!-- This whitelist server is 'unhackably secure', but the player can dig up the password to it on an earlier comp. 
+  The player is here to sabotage the server to allow themselves access. I'm leaving this up to you and your narrative expertise,
+  but I'm thinking we could include a file on here somewhere that's kind of a whitelist setup guide with instructions on how to add to the list via terminal.
+  Also it should say you can only use this server via terminal.
+  The command to add a line to the whitelist (this works in game) is:
+  "append filename ip"
+  so like this:
+  "append list.txt 192.168.1.1"
+  You need to be in the folder where the file exists for it to work of course.
+  This mission is completable if the player adds their own IP to the whitelist or just crashes it's critical files, but I think it'll feel
+  cooler if we hint at the player that they are supposed to add themselves onto it via files here.-->
+  
+  <portsForCrack val="5" />
+  <ports>192, 9418</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="80" />
+  <portRemap>192=199</portRemap>
+  <adminPass pass="CKYX258" />
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  
+  <positionNear target="dpa_bookings" position="180" total="360" extraDistance="0.15"/>
+
+  <dlink target="dpa2_target" />
+
+  <file path="home" name="whitelist_add.txt">認証したIPアドレスをサーバーのホワイトリストに追加するには、ご使用のマシンにSchiss-Co License Dongleを挿入し、オートランが起動することを確認します。このSchiss-Co License Dongleはホワイトリスト管理ソフトウェアの完全スイートを含み、ライセンスのあるマシンのみで実行されます。
+
+ファイアウォールやエアギャップ等によりパブリックネットワークにアクセスできないシステムをご使用の場合は、list_add_manual.txtの手順説明を参考に、手動でホワイトリストにIPアドレスを入力してください。</file>
+
+
+  <file path="home" name="list_add.sys">#BINARY#</file>
+
+  <file path="home" name="list_add_manual.txt">認証したIPアドレスをサーバーのホワイトリストに手動入力する際は、下記手順をよく読み、ネットワークに問題が生じないよう各コマンドを確認してください。
+
+注意： このメソッドはサポート外で、ターミナルからの実行が必要です。Schiss-Coは、これらのコマンドの使用および誤用により発生する損害には一切責任を負いません。詳しくは、Schiss-Coの担当者から支給されたセットアップバインダーをご参照ください。
+
+ホワイトリストへのIPアドレス手動入力は、ターミナルによる入力、ホワイトリストがあるフォルダへのナビゲート、ホワイトリストファイルへのIPアドレス追加から成ります。
+
+手順ごとの解説：
+
+1. ターミナルを開く。Schiss-Co推奨コマンド： bash, xsh
+2. ホワイトリストを含むフォルダへナビゲートする。初期設定では /home/whitelist になっています。
+3. ホワイトリストに追加するIPアドレスが正しいか再確認する。
+4. appendコマンドで選択したIPを追加する。appendの次にスペースをはさみ、ホワイトリストのファイル名（通常は"list.txt"）を入力し、さらにスペースをはさみ、IPアドレスを入力する。
+
+例えば、"192.168.1.1"というIPアドレスをホワイトリストに追加する場合は、ターミナルの表示は次のようになります：
+
+whitelist-server:/ admin$ cd Whitelist
+whitelist-server:whitelist admin$ append list.txt 192.168.1.1</file>
+
+
+</Computer>

@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="generatedWebVandal01">
+  <generationKeys Data="Content/Web/BaseCorporateRecruiterPage.html"/>
+  <goals>
+    <goal type="FileChange" target="#COMP#" file="#FILE#" path="#PATH#" keyword="#LC_CLIENT#@jmail.com"/>
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Aid a recruitment drive for #CLIENT#">
+#CLIENT# 
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Набор персонала</subject>
+    <body>
+Агент ,
+
+в последнее время наша компания испытывает трудности с поиском новых сотрудников, в основном из-за чрезвычайно успешной работы наших конкурентов. 
+Мы хотели бы уравнять шансы, временно перенаправив некоторые потоки их рекрутингового трафика на нас. 
+
+Их сайт  по трудоустройству расположен по ссылке ниже. Мы бы заменить их контактный адрес электронной почты нашим :
+
+#LC_CLIENT#@jmail.com
+
+
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

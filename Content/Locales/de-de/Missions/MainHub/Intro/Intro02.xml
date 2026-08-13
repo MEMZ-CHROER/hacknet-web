@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubIntro2">
+  <goals>
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt1.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads" />
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt2.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads" />
+  </goals>
+  
+  <missionEnd val="0">assignPlayerToHubServerFaction</missionEnd>
+  <nextMission>MainHub/Intro/Intro03Pass.xml</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>CSEC Einladung - Bestätigung</subject>
+    <body>
+#PLAYERNAME#,
+
+Glückwunsch zum bestandenen Test! Ob du's glaubst oder nicht, das schaffen nicht alle (was die Frage aufwirft, warum diese Leute überhaupt eingeladen werden). Du bist also in Runde 2, d.h. ich darf mir etwas schönes für dich ausdenken.
+
+Ich glaube, ich hab da schon eine gute Aufgabe für dich - es soll ja auch nicht zu einfach sein!
+
+Ich möchte, dass du in den Server von CFC eindringst und mir eine Liste der 11 geheimen Gewürze besorgst.
+
+Solltest du die Liste in die Hände kriegen und auf den CSEC Drop-Server hochladen, bist du dabei.
+
+Viel Glück!
+
+-Vap0r 
+CSEC Admin
+
+    </body>
+    <attachments>
+      <link comp="kfcWebServer" />
+      <link comp="hubPubDrop" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Proxy-Server für Fortgeschrittene">
+Proxy-Server sind im Grunde genommen Zweitcomputer, über die eine Netzwerkverbindung zu einem Ziel geleitet wird und die dabei als Trafficfilter und -cache agieren, um den Informationsaustausch über ein Netzwerk zu beschleunigen.
+
+Proxies sind standardmäßig so konfiguriert, dass sie jeden Datenverkehr abfangen, der als gefährlich eingestuft wird (wie etwa FTP-Flooding), was allerdings dazu führt, dass erwünschter Traffic (wie etwa Video-Streams) auf eine Whitelist gesetzt werden muss.
+Auch wenn das in der Regel ein Ärgernis für Enduser ist, verhindert der Proxy die Ausführung von Schadsoftware und sichert so Ports und Rechner.
+
+Die bekannteste Schwachstelle von Proxy-Servern ist ihre Speichergrenze - wenn diese erreicht wird, gibt es zwei Möglichkeiten: Entweder kann der gesamte Netzwerkverkehr heruntergefahren werden (ein selten geuntztes Feature), oder der Traffic wird ungeprüft weitergeleitet.
+Die immer größer werdenen Budgets für IT-Sicherheit haben immer robustere Proxys, mit einem Vielfachen an Speicher, auf den Plan gerufen, die das Überlasten zu einer langen und gefährlichen Aufgabe ausgeweitet hat, die mit einem einzigen Rechner kaum zu bewältigen ist.
+
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Wenn du diese Mail erhalten hast, ist ein unerwarteter Fehler aufgetreten.
+Bitte gerate in Panik.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

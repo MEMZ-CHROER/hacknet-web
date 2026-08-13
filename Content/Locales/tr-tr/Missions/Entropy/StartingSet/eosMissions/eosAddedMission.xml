@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="eosAdded1">
+  <goals>
+    <goal type="getString" target="warsix22"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Kap Kaç">
+Müşterilerimizden biri meslektaşının telefonundaki bilgileri edinmek istiyor
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Kap Kaç</subject>
+    <body>
+Sayın temsilci,
+
+Bu işin gerçekleştirilmesi için eOS aygıtlarına ve güvenlik sistemlerine aşina olmanız gerekmekte. Müşterimiz, iş arkadaşlarından birinin telefonunda yer alan bazı bilgilere ulaşmak istiyor. Açık konuşmak gerekirse, aradığınız şey bir şifre olacak. Bunun çıkartılması gerekiyor. Cihazın senkronize edildiği IP adresi postaya eklendi.
+
+Unutmayın. Şifre arıyorsunuz. Birden fazla sonuç bulmanız halinde doğrulama botu hepsini deneyecek.
+
+Kolay gelsin.
+-Entropy Yöneticileri
+    </body>
+    <attachments>
+      <link comp="eosAdded1Comp" />
+    </attachments>
+  </email>
+</mission>

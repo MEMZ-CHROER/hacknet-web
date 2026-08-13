@@ -1,0 +1,14 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-15.0">Программа расшифровки установлена!</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-12.0">К сожалению она пока что не переносная - мне придется создать для нее новый exe-шник для совместного использования.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-7.0">А пока прогоняйте данные через меня - я буду их расшифровывать</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-3.0">Интересно, тебе еще не надоело тратить время на расшифровку данных для нас, вместо того, чтобы доделать все как надо?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="0.5">Ладно, признаю, мне стыдно, но отвечать на вопрос не стану. Она же работает, а доделывать буду, когда время будет. Я уверен, что пока никто не умрет и так -_-</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="3.2">А у нас есть выбор?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="3.5">-_-</AddIRCMessage>
+  </OnConnect>
+  
+</ConditionalActions>

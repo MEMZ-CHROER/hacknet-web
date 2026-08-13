@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dlcDemoIntro2">
+  <goals>
+    
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Tex</sender>
+    <subject>Fwd: Kaguya-Tests</subject>
+    <body>
+Hallo Leute,
+
+ich habe diesen Link erhalten und dachte mir, der Rest der Gruppe sollte das wissen. Sieht so aus, als würde jemand ein Team zusammenstellen und Rekrutierungstests durchführen. 
+Wenn jemand an neuen Projekten Interesse hat, ist das vielleicht einen Blick wert. Ich habe mir das mal angesehen, habe aber im Moment keine Zeit für sowas.
+Weiß jemand, wer dieser „Kaguya“ ist? Der Name sagt mir nichts.
+
+Egal, hier ist der Link - haltet die Ohren steif.
+-Tex
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

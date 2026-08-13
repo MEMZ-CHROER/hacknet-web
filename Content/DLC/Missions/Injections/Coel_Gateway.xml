@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dCoelgateway" name="Coel__Gateway" security="4" type="empty" icon="DLCServer" ip="208.73.210.214">
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 443, 192, 80, 6881</ports>
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="30" />
+  <adminPass pass="colamaeleon" />
+  
+  <file path="home" name="not_the_first.txt">Hi Hanna</file>
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/CoelTheme.xml"/>
+  <customthemefile path="sys" name="coel_x-server.sys" themePath="DLC/Themes/CoelTheme.xml"/>
+  <customthemefile path="home" name="coel_x-server.sys" themePath="DLC/Themes/CoelTheme.xml"/>
+
+</Computer>

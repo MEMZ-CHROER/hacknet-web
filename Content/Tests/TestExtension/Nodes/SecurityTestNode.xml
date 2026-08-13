@@ -1,0 +1,59 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="secTestNode" 
+          name="Security Test Node" 
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="laptop" 
+          type="1" >
+
+
+  <adminPass pass="sectestpass" />
+  <account username="SecTest" password="userpas" type="1" />
+  <!-- Adds an account to this computer.
+  Type represents it's privileges :
+  ADMIN = 0;
+  ALL = 1;
+  MAIL = 2;
+  MISSIONLIST = 3;
+  -->
+  <account username="mailGuy" password="mailPass" type="2" />
+  <!-- Make accounts for the mail server like this -->
+
+  <!-- Security Stuff -->
+  <ports>80, 22, 21, 25, 1433</ports>
+  <proxy time="2" />
+  <!-- Proxy server. Set value to -1 to make it disappear -->
+  <portsForCrack val="2" />
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="6" solution="Scypio" additionalTime="1.0"/>
+  <!-- Adds a firewall - set level to -1 to remove it.
+      Solution is the solution the player will need to find to break it, 
+      the level should ideally be equal to the solution length, but can be longer
+      (Not shorter though!) - additional time is the nonstandard extra evaluation time
+      per step that the hacknet solver will need-->
+  <trace time="300" />
+  <!-- Adds a trace timer - set to -1 to remove -->
+  <admin type="fast" resetPassword="false" isSuper="false"/>
+  <!-- Auto-administrator adder - this resets the ports and stuff when the player
+  disconnects. Available types are "basic" and "fast" - basic only resets after 
+  15 seconds or so.
+  Super admins reset passwords instantly on fast mode
+  -->
+
+  <!-- Network Stuff -->
+  <dlink target="advExamplePC2" />
+  <!-- This links this computer to another (one way) - if you scan from it it reveals the links -->
+
+  <positionNear target="advExamplePC2" position="1" total="3" />
+
+  
+  <!-- Mission testing files -->
+  <encryptedFile path="home" name="asdf.dec" extension=".txt" ip="192.168.1.1" header="This is the header">
+    Example text
+  </encryptedFile>
+
+  <encryptedFile path="home" name="asdf2.dec" extension=".txt" ip="192.168.1.1" header="This is the header" pass="password">
+    This generates an encrypted file that can be decrypted using the password above
+  </encryptedFile>
+
+</Computer>

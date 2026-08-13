@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnWS04" name="EnTech Workstation _008" security="5" type="3" ip="156.151.0.42">
+
+  <ports>80, 22, 104</ports>
+
+  <portsForCrack val="3" />
+
+  <trace time="78" />
+
+  <admin type="fast" resetPassword="true" isSuper="true"/>
+  
+  <file path="WORKSTATION/store" name="comp.bin">#BINARY#</file>
+  <file path="WORKSTATION/store" name="MedStreamRef.txt">以前話した通り、君のデスクトップPC上でのデータストリーミングについてはここに許可証を出しておく。すでに検討したように、許可証のコピーをローカルで保存しておき、君の行動について尋ねる者がいた場合にはそれを示すように。誰か信じない者がいる場合は私に回してくれ。
+他の者に向け記す。ワークステーション008のオペレーターであるJorioni氏は心臓に深刻な疾患を抱えている。彼が使用する心臓の状態をモニタリングするソフトウェアは彼のワークステーションにデータをストリーミングしているが、これはもしもの事態に備え、わが社のほうで彼のためにセットアップしたものだ。
+私たちは新しい「職場多様性推進プラン」の一環として、Jorioni氏が職場になじめるよう、格段に努力する必要がある。
+彼の件について何か問題がある場合は、私に直接話すように。
+
+-D. Tagg
+人事部ディレクター
+  </file>
+  <file path="WORKSTATION/store" name="StoreServIPs.txt">--ストレージサーバーのIP--
+Prometheus （開発中プロジェクト用ストレージ)
+156.151.1.1
+
+Romulus （配信/編集用ストレージ（配信用ビルドも含む））
+156.151.1.12
+  </file>
+  <file path="WORKSTATION/store" name="AssetPack_012.zip">#BINARY##BINARY#</file>
+  <file path="WORKSTATION/store" name="AssetPack_013.zip">#BINARY##BINARY#</file>
+  <file path="WORKSTATION/store" name="Prometheus.txt">
+    d88vAnnX
+  </file>
+  <file path="WORKSTATION/hn_os" name="Hacknet_NetCore.dll">#BINARY##BINARY#</file>
+  
+
+  <positionNear target="EnTechWSCore" position="8" total="12" />
+
+</Computer>

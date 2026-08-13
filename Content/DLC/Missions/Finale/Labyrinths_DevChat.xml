@@ -1,0 +1,350 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dCreditsChat" name="Labyrinths_DevChat" security="4" type="empty"  ip="54.192.133.33">
+
+  <portsForCrack val="1" />
+  <ports>6881</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="-1" />
+  <portRemap>6881=1</portRemap>
+
+  <!-- Translator Note: These are logs from the chat between the writers for this game while it was being developed.
+  Do not translate! These are intended to be the original logs as they were written during development.
+  I prefer to leave this to the community to translate if they want to read it, rather than beating them to it and doing it officially.
+  
+  If you're a community member or translator - Thankyou so much for playing and being a part of the community for the game!
+  -Matt
+  -->
+  
+  <file path="chat" name="devchat_1.txt">
+matt [9:21 PM]
+tbh a big part of me wants to capture this entire slack log of you and I talking about it and sneak it into the files somewhere. That'd be pretty cute.
+
+damonreece [9:21 PM] 
+let's put in the bit where you're yelling about memes
+
+matt [9:21 PM] 
+thanks for understanding who I am and what I really want
+
+damonreece [9:22 PM] 
+everyone is a memelord, sometimes you just gotta dig
+
+matt [9:22 PM] 
+on second thought
+
+[9:22]  
+no one needs to see this
+
+---
+
+matt [8:00]  
+Be careful with your power
+
+[8:00]  
+you could be creating memes RIGHT NOW and not even know it
+  </file>
+  
+  <file path="chat" name="devchat_2.txt">
+damonreece [10:07 PM] 
+Turns out hanging out in the spa under the stars with a bottle of cider is... pretty chill
+
+matt [10:07 PM] 
+not like im jealous
+
+[10:07]  
+or anything
+
+[10:07]  
+baka
+
+damonreece [10:08 PM] 
+you've got a beach, like, right there
+
+matt [10:08 PM] 
+Yeah but
+
+[10:08]  
+you see
+
+[10:08]  
+my skin
+
+[10:08]  
+bursts into flame in direct sunlight
+
+damonreece [10:08 PM] 
+lol
+
+matt [10:08 PM] 
+pls dont laugh at my serious medical condition
+
+damonreece [10:09 PM] 
+:fire::pensive::fire:
+
+[10:09]  
+that's u
+
+[10:10]  
+w8
+
+[10:10]  
+:fire::nerd_face::fire:
+
+[10:10]  
+gottem
+
+matt [10:10 PM] 
+fucking. savage.
+
+damonreece [10:10 PM] 
+annihilated
+
+matt [10:11 PM] 
+Alright
+
+[10:11]  
+now that my self esteem is a wreck
+
+[10:11]  
+lets get to work
+</file>
+  
+  <file path="chat" name="devchat_3.txt">
+matt [11:17 PM] 
+maybe... only have the checksum file on the expo server?
+
+[11:17]  
+or that, yeah.
+
+damonreece [11:17 PM] 
+lol
+
+matt [11:17 PM] 
+Phone is better
+
+[11:17]  
+good call
+
+[11:17]  
+Done.
+
+damonreece [11:17 PM] 
+:phone:
+
+matt [11:17 PM] 
+#1 mission designer.
+
+damonreece [11:17 PM] 
+sick pun
+
+matt [11:17 PM] 
+thanks
+
+[11:17]  
+I was worried that's slip by you there.
+
+[11:18]  
+Was hoping you wouldn't think I was just.. dialing it in.
+
+[11:18]  
+glad you.. rang me up on that one.
+
+damonreece [11:18 PM] 
+uploaded this image: Screen Shot 2017-01-26 at 23.18.35.png
+[this is an image of Damon hovering over the "sign out" button in Slack]
+
+matt [11:21 PM] 
+Ahahahahaha
+
+  </file>
+  
+<file path="chat" name="devchat_4.txt">
+matt [2:07 AM] 
+Also question: So, I've done this keebs computer. I was thinking about this for the mission
+
+[2:07]  
+There's this one shitposter in the community
+
+damonreece [2:07 AM] 
+is it based off of you
+
+matt [2:07 AM] 
+that's kinda, widely beloved
+
+damonreece [2:07 AM] 
+nvm
+
+matt [2:07 AM] 
+shhh no one knows that
+
+[2:07]  
+AHAHAH
+
+[2:07]  
+FUCK MAN
+
+[2:07]  
+FEELING OVER HERE
+
+[2:07]  
+ouch
+
+[2:07]  
+anyway
+
+[2:07]  
+... jesus
+
+[2:07]  
+So,
+
+[2:07]  
+Ahahaha
+
+[2:07]  
+god dammit
+
+[2:07]  
+you got me.
+</file>
+  
+  <file path="chat" name="devchat_5.txt">
+damonreece [5:35 PM] 
+Would Kaguya ever consider going by the name 'Dreadnought', or is that way too dramatic? :stuck_out_tongue:
+
+matt [5:36 PM] 
+A little dramatic, but it works. I imagined him having a very slight Japanese bias, so it could work :p
+
+damonreece [5:37 PM] 
+a weeb? on the internet?????? say it ain't so, Matt-senpai
+
+[5:37]  
+anyway, neat, great
+
+matt [5:40 PM] 
+Keep up the great work - i'm kinda struggling with mine today, you're doing great!
+
+damonreece [5:40 PM] 
+:fire: :fire: :fire: :fire: :fire: :fire:
+
+[5:40]  
+I have been astoundingly productive today. Just hope I can reproduce it tomorrow.
+
+[5:40]  
+That deadline is a helluva motivator.
+
+matt [5:40 PM] 
+Siiiiick
+
+[5:40]  
+Im going to tweet about it
+
+damonreece [5:41 PM] 
+:bird: :speech_balloon: :exclamation: :question:
+
+matt [5:41 PM] 
+Labyrinths content lock deadline: 2 days
+Fear: Real
+Stress: Immense
+Productivity: STRUGGLING
+
+[5:42]  
+I feel like that is too complain-ey for my account. No one's signing up to hear me complain
+
+damonreece [5:42 PM] 
+Wait, if Twitter isn't for complaining about things, what the hell _is_  it for?
+
+matt [5:44 PM] 
+I think you... collect likes?
+
+[5:44]  
+Like it's a thing you do for self esteem
+
+damonreece [5:44 PM] 
+Oh, like Pokémon.
+
+matt [5:44 PM] 
+Sort of
+
+[5:44]  
+except instead of *catching* celebrities
+
+[5:44]  
+they tell you to
+
+[5:44]  
+"fuck off"
+
+[5:44]  
+and
+
+[5:44]  
+"stop sending me pictures of anime girls"
+
+[5:44]  
+whatever that means.
+</file>
+  
+  
+  <file path="chat" name="devchat_6.txt">
+damonreece [5:20 PM] 
+Can I have "leave logs on target machine" as a mission completion condition?
+
+matt [5:21 PM] 
+Hmm... Maybe? What were you thinking?
+
+[5:21]  
+Also as a side note - i'm having some complicated thoughts about the first one you posted - I dont really understand why D3f cant go back and clean it up himself?
+
+damonreece [5:22 PM] 
+Person talks shit about Kaguya on /el/, you go in and wipe their dirt-on-kaguya files and leave logs as a show of force
+
+[5:22]  
+guh
+
+[5:22]  
+lemme do a revision pass on that one
+
+damonreece [5:24 PM] 
+added this Plain Text snippet
+IRC: 
+D3f4ult: Hey, sorry for making you have to do this #PLAYERNAME#
+D3f4ult: Unfortunately it's something important that's going to keep pulling me away for the next short while :/
+Kaguya: It's fine.
+Add Comment Click to expand inline 25 lines
+
+damonreece [5:24 PM] 
+/frantically papers over cracks in narrative/
+
+matt [5:25 PM] 
+Hmmmm. I don't really want to reveal /el in the expansion at all. Canonically it comes after.
+Also sort of don't want to send mixed messages about leaving logs
+
+[5:25]  
+Sorry for the negativity!
+
+damonreece [5:26 PM] 
+oh, that's fine, I can have it be a communique from CSEC or something else external, /el/ was the first thing that came to mind
+
+[5:26]  
+"one of my sources told me about this person" etc
+
+matt [5:27 PM] 
+Also, Is kinda planned it like the "Kaguya" name was something new to this group - like he changes names pretty freely.
+
+[5:27]  
+Sure
+
+damonreece [5:27 PM] 
+oh, that means I can use this as an opportunity to tell that snippet of his story, right?
+
+matt [5:28 PM] 
+Yeah, for sure. Sounds good
+</file>
+
+  <file path="home" name="contact.txt">-------------
+    Matt: matt@hacknet-os.com
+    Damon: damon@hacknet-os.com
+-------------</file>
+  
+</Computer>

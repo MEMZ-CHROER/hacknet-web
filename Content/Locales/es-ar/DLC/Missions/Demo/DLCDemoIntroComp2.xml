@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dDemointro2" name="Origen de Kaguya" security="3" type="4">
+
+  <!-- This is the second DLC intro server, that gives the player the intro exe that wipes their mail icon
+  It's designed to be pretty empty - it's a recruitment server that's designed to be hackable and targeted,
+  but Kaguys is pretty dilligent and wipes it often. The sort of people that will be trying this are a higher
+  class of Hacker too, so not as much vandalism. Mostly clean, I think - maybe just a single note or so in
+  a different folder?-->
+  
+  <proxy time="-1" />
+  <portsForCrack val="2" />
+
+  <file path="bin" name="Recruitment.txt">
+Soy Kaguya, estoy formando un equipo.
+Solo quiero a la élite, todos los recursos serán compartidos, construiremos grandes cosas.
+Los candidatos interesados pueden solicitar el puesto a través del siguiente ejecutable.
+Ejecutar este programa supone estar de acuerdo con la prueba,
+y entender que tal vez no eres elegido.
+Buena suerte.
+  </file>
+  
+  <file path="home/backups" name="KaguyaTrials.exe">#KAGUYA_EXE#</file>
+  <file path="bin" name="KaguyaTrials.exe">#KAGUYA_EXE#</file>
+
+  <encryptedFile path="home/msg" name="kenobi.dec" extension=".txt" ip="192.168.1.1" header="onlyhope" pass="Obi-Wan">
+He oído que tu equipo lucha por la justicia, por lo que es correcto. 
+Ayúdame Kaguya, eres mi única esperanza.
+Algunos niñatos encriptadores han infectado la red de mis padres y se han llevado los detalles bancarios, la información de los pasaportes y nuestros ahorros de toda la vida. 
+Hemos ahorrado durante años para irnos de aquí y hacernos un hueco en los EE. UU. 
+Seguro que la información de nuestro pasaporte ya ha sido vendida en algún mercado negro, y todo nuestro dinero, podemos darlo por perdido.
+Necesito ayuda. Por favor.
+No soy el hacker 1337, pero creo que podríais ayudarme.
+¿Por favor?
+kingjoffery227@jmail.com 
+</encryptedFile>
+
+  
+  
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/MiamiThemeLight.xml"/>
+
+</Computer>

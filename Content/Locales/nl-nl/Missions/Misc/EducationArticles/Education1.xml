@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Firewall Analyse en Oplossen">
+Firewalls bestaan al heel lang in computerbeveiliging, vaker om automatisch netwerk verkeer te stoppen dan om beveiling te bieden tegen toegewijde hackers.
+Moderne firewalls kunnen wel geconfigureerd worden om *al* het beveiligings-kritisch verkeer te blokkeren tenzij het een firewall oplossing vertoont (wordt vaak een wachtwoord genoemt naar eindgebruikers - ookal is er een verschil).
+
+In deze situatie moet de firewall oplossing worden gegeven voordat er een draadloze login poging gedaan kan worden - wat betekent dat alle bekende wachtwoord-kraak software nutteloos is als de firewall actief is.
+
+Firewall complexiteit kan worden bekeken via het "analyze" commando - repetatief gebruik van de analyze zal automatisch patronen in de antwoorddata detecteren en karakters elimineren die gegarandeerd niet onderdeel zjin van de correcte firewall oplossing.
+Als er een potentiele oplossing gevonden is, kan het commando "solve [FIREWALL_OPLOSSING]" gebruikt worden om de firewall te breken.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Ontvangen van deze email betkent dat er een onverwachte fout is opgetreden.
+Raak in paniek.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

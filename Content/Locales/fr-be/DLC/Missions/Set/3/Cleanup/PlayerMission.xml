@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dCleanupMission">
+  <goals>
+    <goal type="clearfolder" target="ds3_fn" path="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Nettoyage">D3f4ult a dû quitter son ordinateur en plein hack, pour raisons personnelles. Pénètre la cible, termine le travail et nettoie son boulot.</posting>
+  <email>
+    <sender>Bibliothèque</sender>
+    <subject>Nettoyage</subject>
+    <body>
+D3f4ult a dû quitter son ordinateur en plein hack, pour raisons personnelles. Pénètre la cible, termine le travail et nettoie son travail.
+----
+Des problèmes personnels ont obligé D3f4ult à quitter son ordinateur en plein hack. Il faut que tu prennes sa place, que tu nettoies toute trace de son passage et que tu termines le travail.
+
+Je cherche les projets non-sortis de « Funkenstein » - leur serveur personnel est en pièce jointe. Télécharge tous ceux que tu trouves, puis télécharge-les vers le serveur de stockage.
+Derniers messages de D3f4ult avant qu'il ne s'en aille :
+
+Kaguya : Ce n'est pas grave.
+D3f4ult : Je suis vraiment désolé.
+Kaguya : Ne t'en fais pas pour ça
+D3f4ult : Voici les détails :
+D3f4ult : IP : 21.32.43.54
+D3f4ult : identifiant : admin
+D3f4ult : mdp : redwood
+D3f4ult : J'ai déjà fait le travail sur ce système et sur quelques autres avant
+D3f4ult : donc tout ce qu'il y a à faire, c'est trouver les fichiers cryptés, les prendre et les mettre dans le serveur de stockage
+D3f4ult : Le client a dit quelque chose au sujet de musiques pas encore sorties.
+D3f4ult : Autre chose, je n'ai pas eu le temps de nettoyer mes fichiers de log, donc il faudra le faire pour moi
+
+Bonne chance,
+-Kaguya
+    </body>
+    <attachments>
+      <link comp="ds3_fn" />
+      <note title="Objectifs de mission">Nettoyer tout fichier lié à D3F4ult sur le serveur de base.
+continuer à fouiller pour trouver les projets non sortis
+les charger sur le serveur hub</note>
+    </attachments>
+  </email>
+</mission>

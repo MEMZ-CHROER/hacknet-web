@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="milburgHigh" name="Milburg High IT Office" security="2" type="4">
+  
+  <proxy time="0.9" />
+  <portsForCrack val="1" />
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1" />
+
+  <adminPass pass="*******" />
+  
+  <file path="home/misc" name="People_not_To_Trust.txt" EduSafe="false">
+[jinkle] よう、ヤクはどこで買える？
+[jinkle] Lacy'sにいた男があんたのこと教えてくれたよ
+[marcy] いいぜ、何が欲しいんだ？
+[jinkle] よし、1オンス当たりいくら？
+[marcy] 145ドルだ
+[jinkI;tle] 交渉成立だ、どこに行けばいい？
+[marcy] よし、1オンスのマリファナを145ドルで、それでいいか？上物だぜ
+[jinkle] ああ、それでいい
+[marcy] いいね。あんたのIPアドレスはわかったから、後で寄るよ
+[jinkle] ちょっと待て、どうやって知った？
+[marcy] サツの特権ってやつさ
+[jinkle] ウソだろ、ママに殺されちまう
+  </file>
+  
+  <file path="home/MH_STAFF" name="Student_TopSearchHistory.txt" EduSafe="false">
+1  Google
+2  おっぱい
+3  乳房
+4  セックス
+5  はみ乳
+6  ポルノ
+7  モザイク 無くす 方法
+8  モザイク 除去 ソフト
+9  civil war イラスト
+10 GTA
+11 トゥワーク 
+12 トゥワーク ダンス とは
+13 トゥワーク 腰 振り方
+14 上半身裸の女が描かれたフランス革命の絵
+15 スポーツ
+16 スポーツボール
+....
+  </file>
+  
+  <file path="home/MH_STAFF" name="Announcements.txt">
+インターネット及びプロキシサーバー停止に関するアナウンスについて
+
+配属スタッフの多くは「プロキシサーバーがダウンする」という言葉の意味を知らないようですが、一部の生徒ははっきり理解しているようです。
+事前に予告し、昨夜行っていたプロキシサーバーの点検中、数人の生徒が検索フィルターなしでインターネットを利用していたのは明らかです。20分の点検でプロキシ―サーバーがダウンしていたあいだ、あわせて22テラバイトものポルノ画像が学校のサーバー、およびホームルームに設置されたコンピュータにダウンロードされていいます。
+セキュリティをもっと厳しくし、このような事態の再発を防ぐ必要があります。少なくとも、事前の予告は次回からやらないほうがいいかもしれません。
+
+よろしくお願いします。
+-管理部
+  </file>
+  
+  <file path="home/MH_STAFF" name="pw_memo.log">
+4:37 PM - MBIT: セキュリティのことなんだけどさ
+4:37 PM - JBrooks: ほう？
+4:37 PM - MBIT: あれさ、全部アップグレードするとなると、クソみたいに時間かかるし面倒臭いだろ？
+4:37 PM - MBIT: だからこんなのはどうかな
+4:38 PM - MBIT: 単純な話でさ
+4:38 PM - MBIT: ITのパスワードをこうするのさ
+4:38 PM - MBIT: *******
+4:38 PM - JBrooks: ごめん、よくわかんない
+4:38 PM - MBIT: だろ？
+4:38 PM - MBIT: * が7個あるだけさ
+4:38 PM - MBIT: これがパスワード。アスタリスクだけ
+4:38 PM - MBIT: こんなの誰が気づく？気づかないだろ？誰かがハッキングしても、まだパスワードは隠されてるっぽく見えるだろ？
+4:38 PM - MBIT: 最強のセキュリティだ！
+  </file>
+  
+  <file path="home/MH_STAFF/PRIVATE_STUDENT_EMAILS" name="mail.txt">生徒から感謝のメールが送られて来たら、ここに保存することにする。
+ひとりぼっちで寂しいよ・・・ Notepad.exe、君だけが僕の友達さ。 :(</file>
+  
+</Computer>

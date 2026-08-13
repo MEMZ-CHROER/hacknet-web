@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission01">
+  <goals>
+    <goal type="FileDeletion" target="bitMission01" file="@18907_Connection_From_XXX.XXX.XXX.XXX" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@18922_XXX.XXX.XXX.XXX_Given_Administrator_Access" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@18928_XXX.XXX.XXX.XXX_Acessed_File_[Valence_Dossier.pdf]" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@19002_XXX.XXX.XXX.XXX_Deleted_File_[Valence_Dossier.pdf]" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@19002_XXX.XXX.XXX.XXX_Disconnected" path="log" />
+  </goals>
+  <nextMission>BitMission2.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>Iets terug doen</subject>
+    <body>Goed gedaan! Hier is waar het moeilijker wordt.
+
+Ik moet je een gust vragen.
+Ik ben de laatste tijd wat slordig geweest, wat me in deze rotzooi heeft beland. Dit is waarom ik dit uberhaupt schrijf, denk ik. In ieder geval, het punt is, er zijn wat logs op een paar computers die ik daar weg wil.
+Je moet dit onthouden, zelfs als je al het andere vergeet - wordt niet slordig. Verwijder je logs. Als je dat nog niet deed, start nu - alles wat je doet op een modern OS is opgeslagen in de ~/log map. Ga er in en gebruik rm * om het hele ding te legen. Vergeet dat nooit.
+
+Bedankt. Veel geluk.
+
+--Bit
+0
+
+    </body>
+    <attachments>
+      <note title="Request Details">Verwijder al de bestanden in de doelwits ~/log map
+Het commando "rm *" verwijderd alle bestanden in de map waar je in bent - gebruik het voorzichtig!
+      </note>
+      <link comp="bitMission01" />
+    </attachments>
+  </email>
+</mission>

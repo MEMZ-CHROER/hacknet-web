@@ -1,0 +1,268 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="decSoftMainframe" name="DEC Solutions Mainframe" ip="101.0.89.154" security="5">
+  <ports>21, 25, 22, 80, 1433</ports>
+  <portsForCrack val="5" />
+  <firewall level="-1"/>
+  <trace time="-1" />
+  <proxy time="0" />
+
+  <encryptedFile path="home" name="encrypt.dec" ip="101.0.89.154" header="Secured Source Code" extension=".cs" double="true">
+        private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data[i] * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + " ");
+            }
+            return ret.ToString().Trim();
+        }
+  </encryptedFile>
+
+  <encryptedFile path="Staff/D.Leatrou" name="Personal_Notes.dec" ip="101.0.89.154" header="DOUBLE ENCRYPTION" extension=".txt" double="true" pass="dleatrou">
+Ik ben bezorgd dat Kathy iets voor mij heeft. Ik snap het wel, ik zie mijn prachtige gezicht ook wel is (het is verbaasingwekkend. Ik heb meer spiegels nodig).
+Het is superbelangrijk dat we hierover proffesioneel blijven. Ik maak een notitie hier zodat als ze me mocht aanvallen in een opwelling van seksuele jaloezie, het hier
+staat gedocumenteerd dat ik onschuldig ben.
+
+-David Leatrou, CEO
+28/12/2013
+  </encryptedFile>
+
+  <encryptedFile path="Staff/D.Leatrou" name="Lawsuit_Response.dec" ip="101.0.89.154" header="DOUBLE ENCRYPTION" extension=".txt" double="true" pass="dleatrou">
+Mr. Leatrou,
+
+Over de recente brief, ik heb het besproken met ons juridisch team en ze hebben mij verzekerd dat uw "dubbel zakje" (dat is, uw gebruik van twee condomen i.p.v. de aangeraden een) zo een significante sprong is van onze gebruikelijke instructies dat u geen juridische grond heeft voor uw juridische acties, ondanks uw ongeloofelijk hoog scheur ratio.
+We raden uw aan de aangerade proceduren te volgen in de toekomst.
+
+Veel geluk voor u en uw 12 kinderen.
+
+-Jennifer Stem,
+Durex Klantendienst en Klachten
+  </encryptedFile>
+
+  <file path="Staff/D.Leatrou" name="Staff_Memo.txt">
+Gegroet allen,
+
+Ten eerste, gefeliciteerd met de succesvolle start van ons nieuw versleutelingspakket, het is een groot sucses, en ik hoop dat jullie zo enthousiast erover zijn als ik ben.
+Als DEC Solutions een meer prominente macht in wereldwijde software ontwikkeling word, voel ik dat we, als bedrijf, de uitdaging moeten aangaan en onszelf aan een hogere standaard moeten
+gaan houden. Daarom, stel ik een paar nieuwe beleidsmaatregelen in in het bedrijf waarvan ik hoop dat jullie die allemaal zullen apprecieren als de verbeteringen die ik denk dat ze zijn.
+
+De nieuwe bedrijfsregels zullen binnen een paar dagen worden doorgestuurd. Tot dan, recht zoals ie gaat man!
+
+Een productieve dag gewenst,
+-David Leatrou, CEO
+</file>
+
+  <file path="Staff/D.Leatrou" name="New_Policies.txt">
+Gegroet allen,
+Hier zijn is het nieuwe beleid dat ik beloofd heb, lees het goed!
+
+1) Gevoelige bedrijfsdata (broncode, confidentiele memos, etc) moeten versleuteld zijn als er niet aan wordt gewerkt.
+En welke betere sofware dan onze eigen! Je hebt de website gezien en ik weet zeker dat je begrijpt hoe dit ons bedrijf veiliger en betrouwbaarder maakt.
+Ik ben al gestart met mijn eigen bestanden, sommige belangrijke heb ik zelf DUBBEL versleuteld! Het is net als 2 condooms gebruiken, als een breekt, ben je vooralsnog veilig.
+
+2) Bij het versleutelen van bestanden, zou het prima zijn om wachtwoordloost te zijn meestal, maar als het van kritiek belang is, gebruik dan je bedrijfs ID als wachtwoord.
+Bijvoorbeeld, mijn beveiligde bestanden gebruiken mijn ID "dleatrou"!
+
+3) Pakketen van de versleutelingssoftware moeten altijd offline zijn. In deze eeuw van digitale beveiliging kan je nooit zeker zijn!
+
+Geniet van je laaste ongecodeerd bedrijfsmemo!
+-David Leatrou, CEO
+  </file>
+
+  <file path="Staff/D.Leatrou/Locked" name="RE:Decypher_Memo.txt">
+    Got it, bedankt voor dat mij laten zien.
+    Ik heb een kopie ervan naar anderen gestuurd om te kijken of zij iets nuttigs ermee kunnen.
+    Bedankt, en goed werk.
+
+    -David Leatrou, CEO
+
+    -----------------------------------------REPLY TO : -----------
+
+    David,
+
+    Ik heb gekeken naar de code die we kregen van onze aannemers voor de versleuteling en het is... nou, het is breekbaar. Erg breekbaar, zeg, gevaarlijk breekbaar.
+    Ik schreef een programma om het te doen, en ik heb het doorgestuurd. Je wil het waarschijnlijk verwijderen, en dit memo, als je gezien hebt wat het kan doen.
+
+    Om het te runnen, gebruik dit in een commmand lijn zoals ik je heb laten zien:
+    "Decypher [BESTANDSNAAM HIER]"
+
+    Als je een wachtwoord gebruikt, voeg dat toe achter de bestandsnaam:
+    "Decypher [BESTANDSNAAM] [WACHTWOORD]"
+
+    ... Weet je, ik laat het je wel persoonlijk zien.
+    -J
+  </file>
+
+
+  <encryptedFile path="Staff/J.Scott" name="Decypher.dec" ip="101.0.89.154" header="DECYPHER - DO NOT SHARE" extension=".exe">#DECYPHER_PROGRAM#</encryptedFile>
+
+  <encryptedFile path="Staff/J.Scott" name="Decypher_Memo.dec" ip="101.0.89.154" header="Corporate Memo" extension=".txt">
+  David,
+
+  Ik heb gekeken naar de code die we kregen van onze aannemers voor de versleuteling en het is... nou, het is breekbaar. Erg breekbaar, zeg, gevaarlijk breekbaar.
+  Ik schreef een programma om het te doen, en ik heb het doorgestuurd. Je wil het waarschijnlijk verwijderen, en dit memo, als je gezien hebt wat het kan doen.
+
+  Om het te runnen, gebruik dit in een commmand lijn zoals ik je heb laten zien:
+  "Decypher [BESTANDSNAAM HIER]"
+
+  Als je een wachtwoord gebruikt, voeg dat toe achter de bestandsnaam:
+  "Decypher [BESTANDSNAAM] [WACHTWOORD]"
+
+  ... Weet je, ik laat het je wel persoonlijk zien.
+  -J
+  </encryptedFile>
+
+  <encryptedFile path="Staff/J.Scott" name="RE:RE:Decypher_Memo.dec" ip="101.0.89.154" header="Corporate Memo" extension=".txt">
+    Geen probleem.
+
+    Moet je echt "CEO" toevoegen aan het einde van alles wat je verstuurd, nog steeds?
+
+    -----------------------------------------REPLY TO :
+    Got it, bedankt voor dat mij laten zien.
+    Ik heb een kopie ervan naar anderen gestuurd om te kijken of zij iets nuttigs ermee kunnen.
+    Bedankt, en goed werk.
+
+    -David Leatrou, CEO
+
+    -----------------------------------------REPLY TO : -----------
+    David,
+
+    Ik heb gekeken naar de code die we kregen van onze aannemers voor de versleuteling en het is... nou, het is breekbaar. Erg breekbaar, zeg, gevaarlijk breekbaar.
+    Ik schreef een programma om het te doen, en ik heb het doorgestuurd. Je wil het waarschijnlijk verwijderen, en dit memo, als je gezien hebt wat het kan doen.
+
+    Om het te runnen, gebruik dit in een commmand lijn zoals ik je heb laten zien:
+    "Decypher [BESTANDSNAAM HIER]"
+
+    Als je een wachtwoord gebruikt, voeg dat toe achter de bestandsnaam:
+    "Decypher [BESTANDSNAAM] [WACHTWOORD]"
+
+    ... Weet je, ik laat het je wel persoonlijk zien.
+    -J
+  </encryptedFile>
+
+  <encryptedFile path="Staff/J.Scott" name="Encryption_Base2.dec" ip="101.0.89.154" header="Source Code" extension=".cs">
+
+        /// summary
+        /// Returns an array containing
+        /// [0] Header Message
+        /// [1] IP Link
+        /// [2] Message Data
+        /// [3] File extension if provided, else null
+        /// summary
+        public static string[] DecryptString(string data, string pass = "")
+        {
+            string[] ret = new string[4];
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string[] split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+            string[] headersSplit = split[0].Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+
+            string headerMsg = Decrypt(headersSplit[1], passcode);
+            string ipLink = Decrypt(headersSplit[2], passcode);
+            string check = Decrypt(headersSplit[3], passcode);
+            string fileExtension = null;
+            if (headersSplit.Length > 4) fileExtension = Decrypt(headersSplit[4], passcode);
+            string message;
+            if (check == "ENCODED") {
+                //Password was correct!
+                message = Decrypt(split[1], passcode);
+            }
+            else {
+                //invalid password
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+            }
+            ret[0] = headerMsg;
+            ret[1] = ipLink;
+            ret[2] = message;
+            ret[3] = fileExtension;
+            return ret;
+        }
+  </encryptedFile>
+
+  <encryptedFile path="Staff/J.Scott" name="Decypher_Test.dec" ip="101.0.89.154" header="Source Code" extension=".cs">
+
+    private static string Decrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            string[] input = data.Split(Utils.spaceDelim, StringSplitOptions.RemoveEmptyEntries);
+            for (int i = 0; i LESS_THAN input.Length; i++) {
+                int currentChar = Convert.ToInt32(input[i]);
+                int halfmax = ushort.MaxValue / 2;
+                int newVal = currentChar - halfmax - passcode;
+                newVal = newVal / 1822;
+                ret.Append((char)newVal);
+            }
+            return ret.ToString().Trim();
+        }
+  </encryptedFile>
+
+  <file path="Staff/A.Carey" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="Staff/A.Carey" name="Staff_Memo.txt">
+Gegroet allen,
+
+Ten eerste, gefeliciteerd met de succesvolle start van ons nieuw versleutelingspakket, het is een groot sucses, en ik hoop dat jullie zo enthousiast erover zijn als ik ben.
+Als DEC Solutions een meer prominente macht in wereldwijde software ontwikkeling word, voel ik dat we, als bedrijf, de uitdaging moeten aangaan en onszelf aan een hogere standaard moeten
+gaan houden. Daarom, stel ik een paar nieuwe beleidsmaatregelen in in het bedrijf waarvan ik hoop dat jullie die allemaal zullen apprecieren als de verbeteringen die ik denk dat ze zijn.
+
+De nieuwe bedrijfsregels zullen binnen een paar dagen worden doorgestuurd. Tot dan, recht zoals ie gaat man!
+
+Een productieve dag gewenst,
+-David Leatrou, CEO
+</file>
+
+  <file path="Staff/A.Carey" name="New_Policies.txt">
+Gegroet allen,
+Hier zijn is het nieuwe beleid dat ik beloofd heb, lees het goed!
+
+1) Gevoelige bedrijfsdata (broncode, confidentiele memos, etc) moeten versleuteld zijn als er niet aan wordt gewerkt.
+En welke betere sofware dan onze eigen! Je hebt de website gezien en ik weet zeker dat je begrijpt hoe dit ons bedrijf veiliger en betrouwbaarder maakt.
+Ik ben al gestart met mijn eigen bestanden, sommige belangrijke heb ik zelf DUBBEL versleuteld! Het is net als 2 condooms gebruiken, als een breekt, ben je vooralsnog veilig.
+
+2) Bij het versleutelen van bestanden, zou het prima zijn om wachtwoordloost te zijn meestal, maar als het van kritiek belang is, gebruik dan je bedrijfs ID als wachtwoord.
+Bijvoorbeeld, mijn beveiligde bestanden gebruiken mijn ID "dleatrou"!
+
+3) Pakketen van de versleutelingssoftware moeten altijd offline zijn. In deze eeuw van digitale beveiliging kan je nooit zeker zijn!
+
+Geniet van je laaste ongecodeerd bedrijfsmemo!
+-David Leatrou, CEO
+  </file>
+
+  <encryptedFile path="Staff/A.Carey" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+  <encryptedFile path="Staff/A.Carey" name="DECE_TestBuild.dec" ip="101.0.89.154" header="Source Code" extension=".bin">#BINARY#</encryptedFile>
+
+  <encryptedFile path="Staff/K.Abrams" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+  <encryptedFile path="Staff/K.Abrams" name="IMPORTANT_MEMO.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+  Hey Kathy,
+
+  Wil je weer koffie halen vandaag? Ik ben terug op katoor om 3 uur.
+
+  Bedankt! Onthoud je versleutelingen!
+  -David Leatrou, CEO
+  </encryptedFile>
+
+  <encryptedFile path="Staff/K.Abrams" name="Notes.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+    Bijna op:
+
+    Grafiekpapier
+    Bedrijfsshirts (S, L en XL)
+    Koffie (KRITIEK, ASAP OPLOSSEN)
+    Koffiemokken (Wie breekt ze steeds?!)
+    Spiegels (Waarom besteld David er zo veel?)
+  </encryptedFile>
+
+  <encryptedFile path="Staff/K.Abrams" name="Needed_In_Office.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+    Hey Kathy,
+
+    Ik heb besloten dat meer spiegels het bedrijfsmoraal een boost geven, dus kan je regelen om, zeg, 6, nieuwe spiegels te installeren?
+    Ik denk dat het leven in de brouwerij brengt.
+
+    Bedankt!
+    -David Leatrou, CEO
+  </encryptedFile>
+
+</Computer>

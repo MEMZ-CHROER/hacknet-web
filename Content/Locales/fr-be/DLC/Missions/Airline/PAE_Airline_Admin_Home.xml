@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpae_airline_home" name="Yasu Arai's eBook Touch" security="4" ip="141.88.107.140" icon="laptop" type="4">
+
+  <!-- Laptop of the administrator of the airline network.
+  
+  Contains an eOS device that has the admin's email account details on it.
+  Should also contain:
+  File describing how Psylence had insisted on installing specialized security on his home computer (the fast trace).
+  Very small mention of a tablet - it's mentioned elsewhere, and it shouldn't be too hand-hold-ey 
+  
+  eOS device needs some notes on it too
+  -->
+
+  <proxy time="-1" />
+  <firewall level="-1"/>
+  <trace time="40" />
+  <portsForCrack val="4" />
+  <ports>443, 6881, 192</ports>
+  <adminPass pass="1185JACK1" />
+
+  <positionNear target="dpa_whitelist" position="110" total="360" extraDistance="0"/>
+
+  <file path="home" name="ryosan_letter.txt">Ryosan,
+
+Je suis ravi de savoir que tu vas bien. J'ai adoré ta lettre du mois dernier ; ton nouveau style de poésie est beaucoup plus fluide dernièrement. Telle une rivière. Désolé. Je ne suis pas très doué pour ça, ha ha. À chaque poème que tu m'envoies, tu me rends toujours plus fier.
+
+Quant à ma nouvelle vie, ça va...
+comme sur des roulettes. Mon travail est stressant, mais c'est du bon stress. Chaque jour apporte son lot de défis, mais rien d'insurmontable. 
+
+Bon, le trafic à Los Angeles est insupportable, tu dois t'en douter. Si tu as déjà pris la voiture pour te rendre chez notre Oba-san à Tokyo, tu auras une idée de ce que je vis. La circulation à Los Angeles est ce qu'il y a de pire. Sans rire.
+
+Un de mes plus gros problèmes en ce moment, c'est quand je travaille avec les entreprises de sécurité. Ils pensent tous pouvoir installer leurs programmes sur nos machines, comme ça, sans rien nous demander. Tu imagines un peu ? Ça m'est arrivé la semaine dernière. Un consultant super arrogant s'est pointé et a demandé l'accès à nos serveurs, ainsi qu'à mon propre matériel. Et même ma tablette ! C'est complètement ridicule.
+
+Résultat : j'ignore s'il y a un enregistreur de frappe sur mon ordi, mais... J'imagine que je n'ai pas besoin de m'en faire. Ils sont plutôt bons, niveau sécurité, et même si mon ordi est un peu plus lent, je me sens protégé.
+
+Tu me manques, Ryo. Je me sens seul. Dis à maman qu'elle me manque aussi. Je mettrai des photos de mon appartement dans l'enveloppe, comme ça vous pourrez m'aider pour la décoration.
+
+Et merci pour la tablette, en passant. Tu m'as donné le sourire pour la semaine. Même si ces imbéciles de Psylance ont installé des trucs dessus, ha ha.
+
+Je t'aime,
+Yasu
+  </file>
+  
+  <file path="sys" name="eOS_SyncLog.dcs">#BINARY#</file>
+  
+  <eosDevice name="ePad Plus de Yasu" id="dpae_airline_tablet" icon="tablet">
+    <!-- note to Translators: "rx" means "prescription" -->
+    <note>À FAIRE : nourrir T-rex</note>
+    
+    <note>bridget veut sortir vendredi
+    trouver un bar sympa. 
+    pourquoi pas ce nouvel endroit avec des jeux de plateau dispos</note>
+    <note>à faire
+    soumettre une réclamation à psylance
+    changer l'alarme pour les notifs de l'ePad
+    imprimer et envoyer lettre à Ryo
+    liste de courses : gin, cidre, citrons, tonique, carte d'anniversaire pour les 27 ans de Jack, liquide vaisselle, lessive, verres à shooter bien kitch
+    prendre rendez-vous avec l'endocrinologue</note>
+    
+    <mail username="YasuArai@pacificair.com" pass="9NINETWO2" />
+  </eosDevice>
+  
+</Computer>

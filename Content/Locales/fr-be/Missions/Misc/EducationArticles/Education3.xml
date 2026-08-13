@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Shells">
+Les interpréteurs de commandes (ou Shells) sont des processus compacts à distance et à faible mémoire s'exécutant sur une machine séparée pouvant être contrôlée localement à partir de n'importe quelle connexion.
+Ces processus incroyablement pratiques sont utiles pour de nombreuses tâches, néanmoins, ce dont ils sont capables est déterminé par le type d'interpréteur de commandes exécuté.
+Les fonctions communes à travers les réseaux comprennent :
+
+Surcharge :
+Conçue pour tester les réseaux et serveurs proxy, cette fonctionnalité noie la machine cible de trafic réseau indésirable à partir du nœud exécutant l'interpréteur de commandes, remplissant la mémoire du serveur proxy et absorbant son temps de calcul.
+
+Piège :
+Un shell sous ce mode notifiera l'utilisateur courant lorsqu'un utilisateur étranger se connecte à la machine qui l'exécute, et permettra l'exécution d'une attaque forkbomb d'urgence sur tous les autres utilisateurs connectés à celle-ci à distance.
+Il peut s'avérer extrêmement utile pour maintenir la sécurité d'un ordinateur en réseau à distance en travaillant sur autre chose.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERREUR</subject>
+    <body>
+Recevoir cet email indique qu'une erreur inattendue est survenue.
+Veuillez paniquer.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

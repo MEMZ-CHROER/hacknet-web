@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="HasFlag" target="E_Whit:DEAD"/>
+  </goals>
+  <missionStart val="9" suppress="true">changeSong</missionStart>
+  <missionEnd val="1">junebugComplete</missionEnd>
+  <nextMission>BitPath/BitAdv_Intro.xml</nextMission>
+  <branchMissions>
+    <branch>MainHub/PacemakerSet/PacemakerSet_Deny_Branch.xml</branch>
+  </branchMissions>
+  <posting title="Project Junebug" reqs="dechead, decypher,csecRankingS2Pass">
+능숙하고, 익명이며, 어려움에 처한 개인을 크게 돕기 위해 모종의 미심쩍은 행위들을 기꺼이 담당할 외부 요원을 필요로 하는 극히 미묘한 상황이 찾아왔다.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>프로젝트 왕풍뎅이</subject>
+    <body>
+해커,
+    
+이것은 정상적인 요청이 아니며 우리는 정상적인 것으로 취급하지 않을 것이다. 우리는 안락사를 수행해 달라는 요청을 받았다.
+확실히, 얼마 전 우리는 거기서 데이터를 캐내기 위해 다른 사람 몇 명을 보냈고(그리고 의심을 사지 않으려고 몇몇은 외부 그룹에서 보냈다), 그리고 대체로 이상 없이 돌아왔는데 - 문제의 그 남자, &quot;Elliot Whit&quot;이 상당한 고통으로 입원해 있었고, 그가 바라는 것과 달리 죽을 선택권을 거부당했다.
+그의 가족의 이전 시도가 실패하여 멤버가 이 옵션을 제안할 때까지 후속 노력을 계속할 수 없게 되었다. 그가 부착하고 있는 심박조율기는 적절한 인증으로 원격 접속을 허용하며, 그들은 이것이 이 요청을 이행할 수 있는 방안이 될지도 모른다고 생각한다.
+
+이 요청의 본질을 고려해 볼때, 우리는 이 일에 연관되지 않기를 바라는 자네의 뜻을 받아들일 수 있네. 자네의 응답에서 &quot;거부&quot;로 답장하게, 그러면 자네를 프로젝트에서 빼줄테니.
+
+자네가 이 문제로 우리를 돕기로 결정한다면, 우리가 아는 한 여태 한번도 이것을 시도해 본 적이 없다는 점을 고려하면 일정량의 조사와 테스트가 필요할 가능성이 높다는 점을 명심해야 하네.
+표적의 의료 기록에서 시작해서 칩을 식별하고, 그 제조사를 찾아내고, 거기서부터 진행하는 것을 권장하네.
+      
+-CSEC 관리자
+    </body>
+    <attachments>
+      <link comp="medical"/>
+      <note title="프로젝트 세부사항">
+표적: Elliot Whit
+조치: 안락사
+</note>
+    </attachments>
+  </email>
+</mission>

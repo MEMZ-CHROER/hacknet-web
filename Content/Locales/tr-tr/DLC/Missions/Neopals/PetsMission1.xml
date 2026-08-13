@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dpetsM1">
+  <goals>
+    <goal type="databaseEntryChange" comp="dPets_MF" recordName="minx" fieldName="NeoPoints" operation="greater" targetValue="999999"/>
+  </goals>
+  <missionStart val="1" suppress="true">loadConditionalActions:DLC/ActionScripts/PetsAcceptedActions.xml</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="Neopals - #PLAYERNAME#">
+Eskilerin efsanelerinden Neopals ekibimize denemelerden biri olarak sunuldu. Zirveye çıkma zamanı geldi.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Neopals</subject>
+    <body>
+Eskilerin efsanelerinden Neopals ekibimize denemelerden biri olarak sunuldu. Zirveye çıkma zamanı geldi.
+----
+Bu karar bana ait değil. Son iki işimizden ilki için hazır sayılırız.
+Arkadaşlarımdan birisi hızlı başlangıç yapabilmemiz için elimdeki işlerden biriyle ilgili araştırma yapıyordu. Şimdi ise ekibe güvenmemizi istiyor.
+Anlaşılan sadece en iyi üç üyem bunu kabul edecek. Ayarlamamız gereken bir şey var. Başlıyoruz.
+
+Malesef bu ağ şaka falan değil, gerçek. Bu iş hacker'lığın turnusol testi olacak. Ekip işi olacak. #PLAYERNAME# ve D3f4ult'un işi olacak
+
+Bu işinizde ana sunucudaki (mainframe) veritabanında değişiklik yapmanız gerekmekte. "Minx" isimli kullanıcı "NeoPoints" değerinin 1,000,000'u geçmesini talep etti.
+
+Dikkatli olun. Bu iş ustalık istiyor.
+-Kaguya</body>
+    <attachments>
+      <note title="Neopals Görev Kılavuzu">
+İnternet sitei sunucusuna sız ve ağları irdele. Sunucu yöneticilerinin dikkatini çekmemek için hasar vermemeye çalış.
+Ana (Mainframe) sunucuyu bul. İçeri sızmanın yolunu bul.
+"Minx" adlı kullanıcının dosyasını bul. "NeoPoints" değerini 1,000,000'un üzerinde olacak şekilde düzenle.
+Veritabanı görünümüde değişikliği doğrula.
+      </note>
+      
+      <link comp="dPets_Home" />
+      
+    </attachments>
+  </email>
+</mission>

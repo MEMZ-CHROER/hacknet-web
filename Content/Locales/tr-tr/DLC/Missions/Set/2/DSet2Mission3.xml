@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ds2m1">
+  <goals>
+    <goal type="clearfolder" target="dDdoserComp" path="LOIC"/>
+    <goal type="clearfolder" target="dDdoserHomeComp" path="LOIC"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Önemli Sunuculardaki DDOSçular">
+Coel birkaç Grindcraft sunucusunda gerçekleşen kesintilerin kaynağını buldu. Kesintilerin sonlanmasını istiyorum.
+    </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Önemli Sunuculardaki DDOSçular</subject>
+    <body>
+Coel birkaç Grindcraft sunucusunda gerçekleşen kesintilerin kaynağını buldu. Kesintilerin sonlanmasını istiyorum.
+----
+Anlaşılan birileri The Secrets of Grindcraft sunucularına DDOS saldırısı düzenlemenin eğlenceli olduğunu sanıyor. Sanki tüm dünyanın yeni güncelleme için baskı kurması yeterli yük oluşturmuyor. Neyse, Coel ekibe katılım koşullarından birinin onlarla ilgili olmasına karar verdiğinden bu sorunun çözülmesini istiyorum.
+Muhtemelen LOIC (Low Orbin Ion Cannon) kodu kullanıyorlar. Ben olsam klasörü siler ve bu işe bir son verirdim. Tabi sen /sys klasörüne biraz hasar vereyim diyorsan kimsenin sana engel olmayacağını bilmelisin.
+
+Sisteme hızlıca göz atmayı ve bulduğun her şeyi incelemeyi unutma. Ayrıca işi bitirdiğinden emin ol.
+    </body>
+    <attachments>
+      <link comp="dDdoserComp" />
+    </attachments>
+  </email>
+</mission>

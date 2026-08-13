@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyMission03">
+  <goals>
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS.rar" path="bin"/>
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Data.xnb" path="bin"/>
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Content.xnb" path="bin"/>
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS.rar" path="bin"/>
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Data.xnb" path="bin"/>
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Content.xnb" path="bin"/>
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS.rar_backup" path="bin"/>
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Data.xnb_backup" path="bin"/>
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Content.xnb_backup" path="bin"/>
+  </goals>
+  <missionStart val="0">entropyEndMissionSetup</missionStart>
+  <nextMission>AlphaCreditsMission.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>마지막 작업</subject>
+    <body>
+#PLAYERNAME#, 
+
+이것은 Entropy 그룹에서 마지막으로 당신에게 직접적으로 요청하는 작업이 될 거야. 당신이 성공하든 실패하든, 계속해서 개인적인 연락을 주고 받는 것은 너무.. 위험하거든. 
+
+이번에는 근절 미션이야. 우리가 한동안 지켜봐 온 커다란 기업이 있는데, &quot;HacknetOS&quot;라고, 최근 사망한 해커 &quot;Bit&quot;의 연구에 기반한 새로운 운영 체제를 개발하고 있어. 
+이건 현존하는 디지털 세계의 보안에 엄청난 위협이 될 거야. 이 체제가 제공하는 도구는 초보자들도 간단한 훈련 끝에 무엇이든 해킹할 수 있게 만들거든. 이 위협은 철저하게 제거해야 해. 
+
+이 일에 있어서 Entropy가 전.격.으로 지원해줄 거야. 
+그래서, 이 일에 사용하라고 Entropy 애셋 서버에 두 가지 강력하고 비싼 새로운 도구가 추가되었어. 아마 유용할 거야. 당장 받는 것이 좋을 거야. 
+
+첨부된 링크는 해당 기업의 내부 서비스 컴퓨터야. 백업이 여러 개 있을 테니까 네트워크를 철저히 스캔해서 이 위협의 모든 흔적을 완전히 말소시키도록 해야 해. 
+
+온 우주의 행운을 빌어. 실패해선 안 돼.
+-Tex
+    </body>
+    <attachments>
+      <link comp="corp0#IS"/>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="AddDegree" owner="John Stalvern" degree="Masters in Digital Security" uni="Manchester University" gpa="3.0"/>
+  </goals>
+  <missionEnd val="1">changeSong</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Leer een oude hond nieuwe trucjes [Int.Academic]">
+Een potentiele vriend heeft een nieuw diploma nodig op zijn CV'
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Binair Univers(iteit)</subject>
+    <body>Het is handig om vrienden in hoge posities in digitale beveiligingsgroepen te hebben - *vooral* vrienden die niks weten van computerbeveiliging.
+Een van die vriendelijke personen heeft onlangs contact gehad met een agent en we moeten hem een show geven van jouw macht om hem over te halen.
+
+We willen dat je hem een nieuw diploma geeft, van zijn universiteit in Manchester.
+
+Naam: John Stalvern
+Diploma: "Masters in Digital Security"
+Universiteit: "Manchester University"
+GPA: 3.0 of hoger
+
+BELANGRIJK: Wis je sporen - internationale instituten hebben hun reputatie hard nodig - jij breekt die reputatie af. Als ze dit ontdekken zullen ze niet vergevensgezind zijn.
+
+Veel geluk,
+-CSEC
+    </body>
+    <attachments>
+      <link comp="academic" />
+      <note title="Degree Details">Naam: John Stalvern
+Diploma: "Masters in Digital Security"
+Universiteit: "Manchester University"
+GPA: 3.0 of hoger</note>
+    </attachments>
+  </email>
+</mission>

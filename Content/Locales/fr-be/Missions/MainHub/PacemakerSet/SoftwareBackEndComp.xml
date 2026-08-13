@@ -1,0 +1,71 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="pacemakerSW_BE" ip="111.105.22.1" name="Serveur de production douce Eidolon " security="4" type="1"> <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <!-- Security Stuff -->
+  
+  <ports>80, 22, 1443, 25, 21</ports>
+  <trace time="320"/> 
+  <firewall level="-1"/>
+
+  
+  
+  <!-- Junk -->
+  <file path="projects/EnTech" name="SynergysticCloudGlassCeilingBreaker.app">#BINARY#</file>
+  <file path="projects/EnTech" name="HumanCapitalEnhancer.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="IntergratedChannelHarnesser.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="ProactiveFocusStorageExtender.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="QualityVectorStreamliner.dll">#BINARY#</file>
+
+  <!-- The Goods -->
+  <file path="projects/KellisBT" name="Catalyst_Driver.cfg">#BINARY#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_0.1.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_0.22.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_1.0.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_1.11.dll">#PACEMAKER_FW_WORKING#</file>
+
+  <file path="projects/KellisBT/Tests" name="TestGuide.txt">
+Dans le cadre de notre cycle de test, avant d'exécuter la suite de test d'unité sur une puce, un « contrôle de cycle » doit être effectué - reliez-le à la station de test et exécutez d'abord le cycleur comme un microprogramme - il fait simplement défiler toutes les sorties valides et se chronomètre pour vérifier que la gestion du temps est correcte - c'est principalement un test matériel de notre côté, mais il est également utile pour relever de subtiles erreurs. 
+Après s'être exécuté, il transférera ses données à la station, et vous pourrez poursuivre en les flashant et en faisant des corrections dans votre nouvelle version de test.
+
+---
+Avertissement : Microprogamme actuel de test signé Nommé : « PacemakerFirmware_Cycle_Test.dll »
+NE PAS LE TÉLÉCHARGER SUR DES APPAREILS PRÊTS À ÊTRE DÉPLOYÉS
+---
+
+Évidemment, le microprogramme cycleur de test est signé et encodé, il s'exécute donc sur les puces, ce qui signifie qu'il faut faire attention lors de la distribution des versions afin de ne pas les inclure dans l'un de vos dossiers de sortie.
+</file>
+
+  <file path="projects/KellisBT/Tests" name="KBTPM_Test_Suite.kbts">#BINARY#</file>
+  <file path="projects/KellisBT/Tests" name="PacemakerFirmware_Cycle_Test.dll">#PACEMAKER_FW_DANGER#</file>
+  
+  
+
+  <file path="projects/Internal" name="Goals.txt">
+maximise progressivement les vecteurs 
+
+de qualité inter-unitésévalue synergiquement les relations 
+
+axées sur le clientprévoit distinctement les collaborations
+
+ et partages d'idées nouvelle générationplagie avec compétence les e-services 
+
+optimauxmonétise de façon appropriée l'externalisation
+
+ des processusfournit efficacement des méthodologies
+
+  « clicks-and-mortar »influence harmonieusement l'information en temps réel
+  </file>
+  
+  <file path="projects/Internal" name="Eidolon_Security_Notes.txt">Comme nous en avons discuté lors de récentes réunions, nos équipes de support ont besoin d'accéder au caractère générique de nos systèmes pour effectuer un entretien et des mises à jour efficaces lors d'appels sur le terrain. Pour cela, nous introduisons un nouvel « EAdmin » (Support Eidolon Admin) sur tous nos nouveaux produits. 
+Ce compte sera créé avec l'ensemble des droits d'accès et fonctions d'essais activés et sera constant à travers notre gamme et versions. Ce que cela signifie pour nos équipes de support c'est qu'ils auront un moyen d'obtenir facilement l'accès aux fonctions de débogage et d'administration des produits test sur le terrain. Pour nos responsables du déploiement, vous devez vous rappeler d'ajouter ce compte aux scripts de configuration de tous les produits sortants.
+
+Détails de compte :
+Identifiant      : « EAdmin »
+Mot de passe      : « tens86 »
+Permissions   : all
+DebugSettings : actif
+  </file>
+  
+  
+  
+  
+</Computer>

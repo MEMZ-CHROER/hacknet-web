@@ -1,0 +1,94 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nortronMail" name="Nortron Mail Server" security="1">
+  <ports>25</ports>
+  <trace time="10.0" />
+  <firewall level="17" solution="123456789ABC" />
+  <link target="nortronMainframe" />
+  <positionNear target="nortronMainframe" position="2" total="3" />
+  
+  <!-- Mail Server Accounts -->
+  <account username="j.abrams" password="bootyking420" type="2" />
+  
+  <mailServer name="Nortron Mail" color="220,208,69">
+    <email recipient="j.abrams" sender="Peter Evans" subject="Rapor Nerede?">
+John,
+
+Hala Rootkit Analizi hakkındaki raporunu bekliyorum. Gelişme var mı?
+Yeni reklam kampanyasını başlatmaya çalışıyoruz. Üst düzey yöneticiler de pazarlama bölümü 
+çalışanlarının ne yaptığını bildiğine dair güvence istiyorlar.
+
+Mümkünse pazartesiye kadar bana ulaştır. Seni sıkboğaz etmek istemiyorum
+fakat emri de ben vermiyorum.
+
+Teşekkür ederim.
+-Peter
+    </email>
+    <email recipient="j.abrams" sender="hornberg@gmx.de" subject="Fw:Fw: En İyi Grafiti">
+      -------- Asıl Gönderi -------- Konu: 	Fw: En İyi Grafiti
+      Tarih: 	31 Ekim 2012, Çarşamba, 18:54:54 +1300
+      Gönderen: 	TK Skull tkn.skull@xtra.co.nz
+        Alıcı: 	skull1@ntlworld.com
+          , "JJ SK" e4@bigpond.com
+            , "G?nter Hornberg" ghornberg@gmx.de
+              , "Andrea Senior" senior@xtra.co.nz
+                , "Cols" C.D.Wilson@xtra.co.nz
+                  , "Flo Wilson" FloJoW@xtra.co.nz
+
+Gönderen: gandgrichards@xtra.co.nz 
+Tarih: 31 Ekim 2012, Çarşamba, 14:58
+Alıcı: gandgrichards@xtra.co.nz 
+Konu: Fw: En İyi Grafiti
+
+Konu: : En İyi Grafiti
+
+ > 
+ > 
+ > Bunlar kesinlikle muhteşem...tadını çıkart
+ >
+ 
+ --Bazı içerikler yüklenememiş olabilir--
+    </email>
+        <email recipient="j.abrams" sender="gandgrichrds@xtra.co.nz " subject="Fw: Uçak Fotoğrafları!">
+Gönderen: gandgrichrds@xtra.co.nz 
+Tarih: 19 Ekim 2012, Cuma, 08:41
+Alıcı: gandgrichrds@xtra.co.nz 
+Konu: Fw: Uçak Fotoğrafları
+
+Konu: .... Uçak Fotoğrafları....
+ 
+PPS'i aç. Dosya ekte...
+
+
+E-postan için ÜCRETSİZ yüz ifadeleri - IncrediMail'den
+
+--Şüpheli .exe uzantısından ötürü ekteki dosyalar silindi--
+    </email>
+    <email recipient="j.abrams" sender="Nortron IT Support" subject="Yanıt:Giremiyorum">
+Bay Abrams,
+
+Size bunu dördüncü defa bildiriyoruz. Masanızın üstünde asılı duran büyük bir işaret var ve bu işaret size Nortron'daki firewall poliçemizi hatırlatmak için var. Güvenliği ciddiye alıyoruz. Şirketimizi güvende tutmak için de internete girmeden önce firewall'ı aşmak için giriş yapmanız çok önemli.
+
+Daha önce de belirttiğimiz üzere, tüm sunucuların firewall şifresi:
+
+123456789ABC
+
+Lütfen bunu unutmayacağınız bir yere not ediniz.
+
+-BT
+
+
+  | BT,
+  | hala bunu DÜZELTMEDİNİZ!
+  | İnternete bile erişemiyorum! 
+  | İnternet olmadan işimi nasıl yapmamı bekliyorsunuz!
+  | Bir çeşit firewall şifresi istiyorum.
+  | Sorun mu var? Neden bunu çözemiyorsunuz? Sürekli aynı şey oluyor!
+  | 
+  | İnternete nasıl erişeceğim? Bu çok ÖNEMLİ!
+  |
+  | J. Abrams
+  | Nortron Marketing
+    </email>
+    
+  </mailServer>
+</Computer>

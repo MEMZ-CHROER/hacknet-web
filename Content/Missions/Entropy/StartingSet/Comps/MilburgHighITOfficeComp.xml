@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="milburgHigh" name="Milburg High IT Office" security="2" type="4">
+  
+  <proxy time="0.9" />
+  <portsForCrack val="1" />
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1" />
+
+  <adminPass pass="*******" />
+  
+  <file path="home/misc" name="People_not_To_Trust.txt" EduSafe="false">
+[jinkle] hey dude, know where I can pick up some herb?
+[jinkle] a guy at Lacy's gave me your deets.
+[marcy] yeah dude, what you chasing?
+[jinkle] sweet, how much for an ounce?
+[marcy] $145
+[jinkI;tle] man, done deal. Where u wanna meet?
+[marcy] so we have a deal, $145 for an ounce of primo weed?
+[jinkle] yeah man, done.
+[marcy] Cool. I've got your IP address. So I'll just swing by.
+[jinkle] wait, how do u no that?
+[marcy] Being a cop has its perks.....
+[jinkle] shit. mom is going to kill me.
+  </file>
+  
+  <file path="home/MH_STAFF" name="Student_TopSearchHistory.txt" EduSafe="false">
+1  Google
+2  Boobs
+3  Boob
+4  Sex
+5  Sideboob
+6  Porn
+7  how to disable porn filter
+8  things that get past porn filter
+9  civil war paintings
+10 GTA
+11 Twerking
+12 What is Twerking
+13 Twerking techniques
+14 that one topless chick in that french war painting
+15 Sports
+16 Sportsball
+....
+  </file>
+  
+  <file path="home/MH_STAFF" name="Announcements.txt">
+Regarding the announcements of Internet / proxy server outages,
+
+While some of our staffing body doesn't know what "the proxy server going down" means, clearly some of our students do.
+During the announced outage of it last night, apparently some students worked out that while the Internet was still active, the search filter wasn't, and in the space of the 20m outage downloaded a total of 22 terrabytes of pornography onto the school servers and various homeroom PCs.
+Obviously we'd like to prevent this happening again via more secure means, but at the very least, maybe don't announce it to them next time?
+
+Thanks,
+-Administration
+  </file>
+  
+  <file path="home/MH_STAFF" name="pw_memo.log">
+4:37 PM - MBIT: I've been thinking about security
+4:37 PM - JBrooks: yeah?
+4:37 PM - MBIT: Yeah, and I think all these upgrades are just going to be a huge goddamn hassle to put in and work with and stuff
+4:37 PM - MBIT: but check this out
+4:38 PM - MBIT: easy solution:
+4:38 PM - MBIT: we just make the IT password
+4:38 PM - MBIT: *******
+4:38 PM - JBrooks: I don't get it
+4:38 PM - MBIT: Exactly!
+4:38 PM - MBIT: Just 7 *'s
+4:38 PM - MBIT: that's literally the password, just stars
+4:38 PM - MBIT: Who's even going to guess that? No one. Even if someone hacks it? Still looks protected!
+4:38 PM - MBIT: Literally unbreakable!
+  </file>
+  
+  <file path="home/MH_STAFF/PRIVATE_STUDENT_EMAILS" name="mail.txt">If a student ever sends me an appreciative email I will store it here.
+God i'm so alone. Notepad.exe, you're the only one that understands me :(</file>
+  
+</Computer>

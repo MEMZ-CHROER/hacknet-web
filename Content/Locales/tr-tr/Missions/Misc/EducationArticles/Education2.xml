@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title=".exe Dosyaları ve Harici Çalıştırma">
+Modern terminallerde geçerli olan "exe" komutu yerel kullanıcının bağlandığı bilgisayardaki bir programı hedef alarak mevcut kullanıcının yerel bilgisayarındaki ilgili dosyayı çalıştırır.
+
+Etkin çalışan bu komut sematik bir kısayol görevi görür ve çalışan herhangi bir komutun bağlı olduğu bilgisayarın IP adresine bağımsız değişken olarak eklenmesi zorunluluğunun önüne geçer.
+Elbette çoğu exe dosyası ağ üzerinden yazılmamıştır ve ağ üzerinde herhangi bir işleve sahip değildir. Bu durumda programlar mevcut olan çapraz internet soketini yok sayar ve işlevini yerel bilgisayarda yerine getirir.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>HATA</subject>
+    <body>
+Bu postayı almanız beklenmedik bir hatanın oluştuğunu göstermektedir.
+Lütfen panikleyiniz.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

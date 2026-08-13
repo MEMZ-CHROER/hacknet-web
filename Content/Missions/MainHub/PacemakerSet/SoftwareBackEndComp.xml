@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pacemakerSW_BE"
+          ip="111.105.22.1"
+          name="Eidolon Soft Production Server" 
+          security="4"
+          type="1" > <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <!-- Security Stuff -->
+  
+  <ports>80, 22, 1443, 25, 21</ports>
+  <trace time="320" /> 
+  <firewall level="-1"/>
+
+  
+  
+  <!-- Junk -->
+  <file path="projects/EnTech" name="SynergysticCloudGlassCeilingBreaker.app">#BINARY#</file>
+  <file path="projects/EnTech" name="HumanCapitalEnhancer.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="IntergratedChannelHarnesser.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="ProactiveFocusStorageExtender.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="QualityVectorStreamliner.dll">#BINARY#</file>
+
+  <!-- The Goods -->
+  <file path="projects/KellisBT" name="Catalyst_Driver.cfg">#BINARY#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_0.1.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_0.22.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_1.0.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_1.11.dll">#PACEMAKER_FW_WORKING#</file>
+
+  <file path="projects/KellisBT/Tests" name="TestGuide.txt">
+As part of our test cycle, before running the unit test suite on a chip, a "cycle check" needs to be performed - hook it up to the test station and run the cycler as it's firmware first - this just cycles through all valid outputs and times itself to check that it's hitting timings correctly - more of a hardware test than anything on our end, but it's helpful to pick up subtle errors too.
+After it's run it'll dump it's data to the station, and you can go ahead and flash it and patch in your new test version.
+
+---
+Caution: Current signed testing firmware Named: "PacemakerFirmware_Cycle_Test.dll"
+DO NOT UPLOAD IT TO ANY DEPLOY-READY DEVICES
+---
+
+Obviously, the test cycler firmware is signed and encoded so it'll actually run on the chips, which means be careful with distributing builds so you dont include it in one of your output folders.
+</file>
+
+  <file path="projects/KellisBT/Tests" name="KBTPM_Test_Suite.kbts">#BINARY#</file>
+  <file path="projects/KellisBT/Tests" name="PacemakerFirmware_Cycle_Test.dll">#PACEMAKER_FW_DANGER#</file>
+  
+  
+
+  <file path="projects/Internal" name="Goals.txt">
+progressively maximize cross-unit quality vectors
+
+synergistically benchmark client-centric relationships
+
+distinctively envisioneer next-generation collaboration and idea-sharing
+
+competently plagiarize optimal e-services
+
+appropriately monetize process-centric outsourcing
+
+efficiently supply clicks-and-mortar methodologies
+
+seamlessly impact real-time benefits
+  </file>
+  
+  <file path="projects/Internal" name="Eidolon_Security_Notes.txt">As discussed in recent meetings, our support teams need wildcard access to our systems to perform effective maintenance and updates when call out to the field. To achieve this we're introducing a new "EAdmin" (Eidolon Support Admin) on all of our new products.
+This account will be set up will full privileges and testing functions enabled, and will be constant across our range and versions. What this means for support teams is that they will have an easy means of gaining access to debug and admin functionality on test products in the field, and for our deployment managers, you'll need to remember to add this account to the setup scripts of all outgoing products.
+
+Account Details:
+Username      : "EAdmin"
+Password      : "tens86"
+Permissions   : all
+DebugSettings : enabled
+  </file>
+  
+  
+  
+  
+</Computer>

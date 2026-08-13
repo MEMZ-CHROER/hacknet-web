@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pressdemoMission04" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="finalNodeDemo" file="@19002_185.11.124.4_Disconnected" path="log" />
+    <goal type="FileDeletion" target="finalNodeDemo" file="@19002_logarchive" path="log" />
+    <goal type="FileDeletion" target="finalNodeDemo" file="x-server.sys" path="sys" />
+    <goal type="FileDeletion" target="finalNodeDemo" file="netcfgx.dll" path="sys" />
+  </goals>
+  <missionStart>demoFinalMissionStart</missionStart>
+  <missionEnd>demoFinalMissionEnd</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Rechtvaardiging</subject>
+    <body>We zijn er klaar voor.
+
+Je moet een takedown voor me doen. Zoals je waarschijnlijk al geraad hebt, was alles hiervoor om je op de hoogte te krijgen - dit is waar het echt begint.
+Als je "Sequencer" runt gaat het een script activeren die ik op een van mijn servers heb achtergelaten. Het opent een verbinding naar een webs erver, en die wil ik vernietigt hebben - breek in, delete alles in de /sys/ map.
+
+Dit is niet precies zoals hiervoor - die server is verstop met een reden. Het zal grootschalige tracers hebben. Daar is waar sequencer helpt - het houdt de verbinding open zolang het kan en laat je weten hoe lang je nog hebt. Zorg ervoor dat je het aan houdt.
+
+Details toegevoegd, zoals altijd.
+Voor nu is dit het laaste dat je van me hoort - dit was hoedanook een tijdelijke versie - om dingen klaar ter zetten voor het echte werk.
+
+Veel geluk.
+Vecht.
+--Bit
+0
+    </body>
+    <attachments>
+      <note title="Mission Overview">Voordat je begint, leer deze notities en sluit ze daarna - je zal al je systeemkracht nodig hebben.
+
+Run Sequencer
+Verbind met EnTech
+Probe het systeem
+Run je poort krakers
+Porthack
+Ga naar de /sys/ map
+Verwijder alles (rm *)
+Verwijder alle logs
+Disconnect
+      </note>
+    </attachments>
+  </email>
+</mission>

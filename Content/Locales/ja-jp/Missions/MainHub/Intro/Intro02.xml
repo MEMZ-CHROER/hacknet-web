@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubIntro2">
+  <goals>
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt1.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads" />
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt2.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads" />
+  </goals>
+  
+  <missionEnd val="0">assignPlayerToHubServerFaction</missionEnd>
+  <nextMission>MainHub/Intro/Intro03Pass.xml</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>CSECへの招待状 - 確認</subject>
+    <body>
+#PLAYERNAME#へ
+
+自動テスト合格、がんばったな。おめでとう。全員が合格できるわけじゃないからね（「なんでそんなやつが招待を受けたんだよ？」って不思議に思うかもな）。という訳で、第2ラウンドの開始だ。
+第1ラウンドよりも難しいけど、それはつまり楽しいってことさ。
+
+教えといてやるけど、そんなに簡単にはいかないぞ！
+
+それじゃCFCのサーバーに侵入して、11種類の秘伝のハーブとスパイスを見つけてきてくれ。
+
+事が終わったらハーブやスパイスのリストはCSECのドロップサーバーにアップロードしといてくれると、君が仲間に加わる嬉しさも増すってもんだ。
+
+健闘を祈る！
+
+-Vap0r 
+CSEC 運営
+
+    </body>
+    <attachments>
+      <link comp="kfcWebServer" />
+      <link comp="hubPubDrop" />
+    </attachments>
+  </email>
+</mission>

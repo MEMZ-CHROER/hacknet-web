@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="FOF_Screenplay.doc" path="home" destTarget="producerComp" destPath="home/scripts" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Einem aufstrebenen Autor helfen" reqs="dechead,decypher">
+Ein aufstrebener Autor möchte sichergehen, dass eines seiner Drehbücher einen Produzent erreicht.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Eine beeinduckende Bewerbung</subject>
+    <body>
+Ein Drehbuchautor hat Probleme, seine jüngste Arbeit an den Sekretären eines Produzenten vorbei zu kriegen.
+Er möchte, dass wir in den Rechner des Produzenten eindringen und das Drehbuch in dessen "script" Ordner ablegen.
+
+Besagtes Drehbuch, "FOF_Screenplay.doc" wurde auf dem Crossroads-Server hochgeladen.
+Außerdem hat er ein konkurrierendes Drehbuch in verschlüsselter Form hochgeladen, damit wir den Zielrechner bestimmen können.
+Dies liegt ebenfalls dort: "T2_Screenply.dec"
+      
+Lade sein Werk in den "scripts" Ordner des Zielrechners hoch.
+Wie sonst auch, kannst du mit Tab Kommandos vervollständigen - "upload bin/", dann Tab - und dir sollte eine Liste von Dateien für den Upload angezeigt werden.
+
+Viel Glück,
+-CSEC
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <note title="Missionsübersicht">FOF_Screenplay.doc herunterladen
+      
+Finde den Ursprung von: T2_Screenplay.dec
+
+Lade FOF_Screenplay.doc in den "scripts"-Ordner des Zielrechners hoch.</note>
+    </attachments>
+  </email>
+</mission>

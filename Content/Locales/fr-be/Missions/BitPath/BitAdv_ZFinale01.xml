@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit02_finale01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission> <!-- For real this time :D -->
+  <email>
+    <sender>Bit</sender>
+    <subject>Terminal</subject>
+    <body>Salut, 
+Je suis pas sûr que ce soit bien raisonnable de t'écrire en premier... Si tout va bien, ce sera mon dernier message pour toi. 
+Peut-être mon dernier message tout court... Mais bon, celui-là est optimiste ! Si jamais tu reçois ça, c'est la meilleure nouvelle que je pouvais espérer. 
+
+Bref, merci. Ça ne sera pas facile... Il reste un truc que je voulais te demander. 
+
+Je sais, je t'ai déjà demandé beaucoup. Porthack n'est pas tout à fait autonome. Ça l'était, avant, mais tu comprends sûrement pourquoi il n'est plus possible d'avoir quelque chose du genre qui se balade dans les réseaux. 
+Son cœur est le dernier morceau. Il est fait pour être inviolable, mais j'ai fait ce que j'ai pu. C'est ma dernière (enfin !) demande. 
+
+      --Bit
+0 
+     
+    </body>
+    <attachments>
+      <link comp="porthackHeart"/>
+    </attachments>
+  </email>
+</mission>

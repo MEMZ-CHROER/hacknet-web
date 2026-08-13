@@ -1,0 +1,83 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPets_Engineer1" name="Thomas_Office" security="3" ip="104.95.129.117" icon="DLCPC1">
+  <!-- No critical mission link here, but should contain custom theme -->
+  
+  <dlink target="dPets_VC" />
+
+  <ports>22, 21, 6881, 9418</ports>
+
+  <positionNear target="dPets_MF" position="160" total="360" extraDistance="0.05"/>
+
+  <file path="home/work" name="SecurityBreaches.txt">
+Gelecekte olacaklar için güvenlik poliçesi ihlallerinin kaydını tutuyorum.
+
+1: Tiff'de doğrulama sunucusunun PLAINTEXT şifresi vardı. Sunucunun güvenliğinin sağlanıp sağlanmamasının bir önemi yok. Eğer ufacık bir hatadan ötürü her şeyin yok olmasını istemiyorsanız, plaintext şifrelerini ortalıkta bırakmayın!
+Şifreyle birlikte kayıtlı dosyayı da sildim.
+
+2: Ash kablosuz ağ şifresini kağıda yazdı. Kağıdı da duvara yapıştırdı. Hadi ama, her yerde insanlar var!
+
+3: Susan bütün gece boyunca oturumunu açık tuttu. Anlaşılabilir. Yine de bir defa liste tutacağız dedik, değil mi?
+
+4: Tiff muhtemelen önemli verileri telefonunda tutuyor. Sürekli telefonunu kontrol ediyor.
+Paranoyak da olabilir tabi.
+
+NE YAZIK Kİ DEVAM EDECEK
+  </file>
+
+  <file path="home/work" name="Developer_SetupGuide.txt">
+--Neopals Kurulum Kılavuzu v1--
+
+Neopals geliştirme ekibine hoşgeldiniz! Kurulumu kolayca tamamlayabilir ve birkaç dakika içinde verimli çalışmanıza başlayabilirsiniz!
+
+YOK ÖYLE BİR ŞEY! CEHENNEME HOŞGELDİN...
+Ne? Cidden bu 10 milyon yıllık internet sitesinin temiz, bakılabilir bir veritabanına sahip olacağını mı sandın? kafa-karıştırıcı-200-sayfalı-php-dosyalı-internet-sitesi-sıkıntısı bölgesine hoşgeldin!
+Şu anda, tükenen programcıların yıllar boyunca hayatını mahvetmek, acı verici ve sınanamaz hale getirmek için vermiş olduğu emeğe bakıyorsun. Ne o? Yoksa gerçek veritabanına nasıl ulaşacağını mı öğrenmek istiyorsun? Tabi canım... aç dosyaları gitsin. Ben beklerim.
+Ya da beklemem ya. Çünkü sen onu anlayana kadar ölür giderim. Bu ses de ne? Burası yerine sanat kulübüne katılmadığına pişman mı oldun? Makul. Bazen bende masum karakterler tasarlamak ve insanların düşük kaliteli pornolar yükleyebilmek için terabaytlarını harcayışlarını izlemek istiyorum. 10/10.
+
+İşte aradığın kurulum kılavuzu:
+
+1. Adım: Dolu bir altıpatlar bul
+2. Adım: Bunun sorumlularının izini sür
+3. Adım: ???
+4. Adım: HALA BOZUK AMINA KOYAYIM
+
+Bir seferinde giriş yap butonunun rengini değiştirmiştim. Gel gör ki savaş sistemini bozdum. Sikeyim.
+
+Neyse, bu işini görör! Eğer aklına takılan bir şey olduysa; sana tavsiyem huzurlu bir şekilde ölmek için dua etmen.
+-Thomas
+  </file>
+
+  <file path="home" name="SECRET_DOTA_STRATS.txt">
+#1: Sniper, CM, Dazzle, Death Prophet, Koridorda Tek Kalınca
+Koridorlarda Sniper/CM/Dazzle, midde DP, koridorda tek kalıp ittirecek ve XP'yi kapacaksın. Sniper'a alınacaklar:
+Rapier
+Rapier 
+Flat Boots 
+Manta Style
+Rapier
+Bot Geliştirmesi (Opsiyonel)
+
+İkinci rapier çıkana kadar 5 kişi ittireceksiniz! Dazzle'ın işi düşman Sniper'a daldığında araya girmek. Bu sırada diğerleri de kendi koridoruna bakacak ve ittirecek.
+Açıkçası tek oyun attım ve kazandım.
+
+
+#2: Ofansif Jungle - Bounty Hunter
+Bounty Hunter'ı kap. 1. seviyede gizlilik yeteneğini seçti. Düşman jungle'a sız ve rakibe son vuruş at. Açıkçası oyun dust almaya ve 4v4 kapışmaya başlandığında sıkacak. Op. Op.
+
+#3: Gizemli Mid dazzle
+Mid'de Dazzle seç. Anında maksimum zehri çak. Build. Bot -> Urn -> Deso. 6. seviyeye gelince Weave ile patlat. Galibiyet senindir.
+Dazzle'ın sağ tıklamaları ve animasyonları efsane iyi. Koridordan çıkabilirsin yani. Yavaşlatma ve zırh çıkarsan; üstüne bir an evvel Deso çekersen daha rahat gank atar ve ittirirsin. Tabi mid'de sıkıntı çıkabilir!
+  </file>
+  
+  <file path="home" name="AnalyticsApp_designNotes.txt">
+Oyunların tekrarlarını indirmek için API, tekrarlardan ayrıntılı istatistikleri çıkartmak için de özel ayrıştırıcı kullanır.
+Son vuruş analizi: son vuruşları ne kadarla kaçırdığını hesapla - menzilli herolar ile kaçırdığın mesafeleri de not et - ayrıca hangi sıklıkla kaçırdığına da göz at.
+Büyülerin 'etki' yaratmadığı durumları incele - büyülerin hedefe zarar vermediği veya senin kaçırdığın durumlarla ilgili verilere bak.
+Wardlar'ın görüntüleme süresi, görüş yokluğunda düşmanların hareket ettiği bölgeler gibi yardım sağlayabilecek verileri incele.
+Ayrıntılı XP analizi - oyunun hangi noktalarında saniye başına gelen XP'nin düştüğüne bak. Oyuncuların baskı altında kaldıkları zamanları bul.
+Düşmanların ve dost birimlerin uzun süre kesintisiz farm aldıkları zamanlara bak. 
+  </file>
+
+  <customthemefile path="sys" name="Riptide_x-server.sys" themePath="DLC/Themes/RiptideTheme.xml"/>
+  
+</Computer>

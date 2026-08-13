@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyNews02">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Suspicions arise over Entropy">
+인터넷 그룹 Entropy는 인터넷상에서 최근 개발 동향에 대해 믿을 수 있는 소식통으로 한동안 이름을 떨쳐왔으나, 정보 획득 방법에 대한 의문이 일자 공공 접근 터미널을 차단하는 등 요즘 그룹의 행보는 기자들과 업체들의 의심을 일으키기 시작했다. 
+
+비록 정보의 투명성에 기여한 바가 높은 그룹이지만, 그 성과가 불법적인 수단을 통해 이루어진 것이라면, 이에 대한 조치가 필요하다. 
+상황이 밝혀지는 대로 추가 기사가 발행될 것이다.
+
+ 기자 : Tom Wilkins
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy를 막아야 한다</subject>
+    <body>
+Entropy 데이터베이스를 파괴하라
+    </body>
+    <attachments>
+      <link comp="entropy01"/>
+    </attachments>
+  </email>
+</mission>

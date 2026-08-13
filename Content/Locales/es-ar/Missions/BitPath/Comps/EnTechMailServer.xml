@@ -1,0 +1,148 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="enMail" name="Servidor de correo de EnTech" security="5" ip="156.151.59.82">
+
+  <adminPass pass="ax889msjA"/>
+
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999"/>
+  <trace time="500"/>
+
+  <positionNear target="EnTechMainframe" position="5" total="6"/>
+  <account username="nstanford" password="murloc33" type="2"/>
+  <account username="hnManager" password="hnmanager22" type="2"/>
+  <account username="bcarter" password="dota4lyf" type="2"/>
+  <account username="rc" password="byC89kMMe" type="2"/>
+  
+  <mailServer name="EnTech Mail" color="0,129,242">
+    <email recipient="nstanford" sender="EnTech Management" subject="Hacknet Project Update">
+Hola a todos: 
+
+En primer lugar, permítanme decirles que el progreso ha sido excepcional. A pesar de algunos contratiempos con el módulo de conexión, hemos conseguido realizar la tarea dentro de nuestros plazos. Han hecho un gran trabajo. Algunos de los problemas que identificamos al principio están siendo tratados por algunos contratistas externos, ¡con resultados impresionantes! 
+
+Creo que el proyecto ha sido instructivo para todos y sigue reafirmando mi opinión de que esta es la forma correcta de afrontar los problemas que presenta la seguridad digital en estos momentos. 
+Al llevar los sistemas actuales hasta sus límites, hemos avanzado enormemente en el desarrollo y la teoría de EnSec; los proyectos nos están ayudando a cada uno más que nunca, lo que es alentador. 
+
+Pronto recibirán más noticias. 
+Sigan con el buen trabajo, 
+-RC
+    </email>
+    
+    <email recipient="nstanford" sender="EnTech Management" subject="Hacknet Project concerns and responses">
+Hola a todos: 
+Uno de nuestros ingenieros ha expresado sus preocupaciones acerca de la dirección del proyecto. Cito sus palabras: 
+&quot;Si se utiliza de forma maliciosa, la herramienta que estamos construyendo podría ser enormemente peligrosa. A menos que se pueda garantizar que la distribución sea cuidadosamente rastreada y monitorizada, no estoy seguro de que pueda seguir trabajando en este proyecto de buena fe&quot;. 
+
+Se trata de un punto excepcional y, en aras de la transparencia, algo de lo que quería hablar con toda la compañía. 
+Como he dicho antes, este rastreo y monitorización de la distribución es algo que identificamos en la primera fase del diseño como algo problemático. Uno de los problemas inherentes en la elaboración de herramientas poderosas es que su uso indebido conlleva consecuencias poderosas. Este asunto es uno de los casos en los que creo que la ayuda externa de expertos es nuestra mejor estrategia y la que nos ofrece grandes resultados. 
+Aunque no tengo aún el producto finalizado para demostrárselo, quédense tranquilos en que se trata de un asunto del que soy consciente y del que quiero seguir hablando. Por ahora, *todas* las versiones tienen un rastreador de la seguridad integrado que se activa automáticamente a intervalos aleatorios y que permite rastrear versiones no autorizadas incluso en esta fase tan temprana. 
+
+Sigan con el buen trabajo, 
+-RC
+    </email>
+    
+    <email recipient="nstanford" sender="bcarter@entech.com" subject="Re: Romulus passwd"> 
+Hola: 
+
+Probablemente deberían habértelo configurado al principio, pero la contraseña de administrador de Romulus es
+
+ h7ggNKl2.
+
+ Deberías tener un enlace en tu escritorio, si no conéctate a 156.151.1.12 y deberías poder acceder. 
+
+Suerte, 
+-Ben
+    </email>
+
+    <email recipient="nstanford" sender="Hacknet team Management" subject="Welcome to the Hacknet Team">
+Hola y bienvenido al equipo de Hacknet. Dada la naturaleza delicada del proyecto, gran parte de su participación en el equipo estará aislada de otros componentes en el proyecto y será muy inusual que vea versiones ensambladas completas. 
+Por esto, queremos dar a todo el mundo un poco más de contexto sobre los objetivos globales del proyecto. El SO 
+
+Hacknet ha sido diseñado de cero como un innovador marco de trabajo de pruebas de examen y penetración de la seguridad informática. 
+EnTech está produciendo este SO para acompañar a su nueva suite de software de seguridad digital (EnSec) como herramienta de presentación y marketing para demostrar su superioridad sobre los demás paquetes de seguridad convencionales. 
+En el fondo, Hacknet es una herramienta de marketing, pero como proyecto individual se trata de una de las herramientas AntiSec más ambiciosas y poderosas jamás creadas. 
+
+Le damos la bienvenida al equipo, seguro que estará de acuerdo en que se trata de un proyecto realmente emocionante. 
+-El equipo de gestión de Hacknet
+    </email>
+
+    <email recipient="nstanford" sender="EnTech Management" subject="EnTech Current projects and Direction">
+¡Saludos y bienvenido a EnTech! 
+Estamos trabajando ahora mismo en dos grandes proyectos y pronto le proporcionaremos una introducción más detallada del proyecto para su equipo, pero en este email le queremos dar una descripción general de la dirección actual y cómo encajan los dos proyectos. 
+El primero es EnSec, una suite de seguridad informática totalmente nueva diseñada para revolucionar la seguridad. El error humano siempre será un asunto problemático en cualquier sistema de seguridad, pero creemos que debería ser el *único* asunto problemático. Al eliminar y minimizar el potencial para que haya un error humano en el sistema, y al emplear nuevos sistemas propios, la seguridad digital deja de ser una tarea: es una elección. 
+El SO Hacknet es el proyecto que acompaña a EnSec, escrito para demostrar los problemas existentes con la seguridad y para ofrecer una propuesta fuerte y valiosa para que todas las personas mejoren a la que creemos que es ciertamente la mejor opción de seguridad. 
+
+¡Le damos la bienvenida a bordo! 
+-RC
+    </email>
+    
+    
+    <!-- CEO emails -->
+
+    <email recipient="rc" sender="Anonymous" subject="RE(5): New Case - Bit">
+
+      El pago ha sido recibido y nuestra operación comercial ha finalizado.
+      ---
+
+      Joder, joder, joder, ¿qué has hecho? Esto no es lo que quería.
+      ¡Esto no es lo que quería, puto psicópata! Me cago en la ostia.
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="RE(4): New Case - Bit">
+
+      El objetivo ha muerto.
+      El pago procederá TAL COMO SE PROMETIÓ o mis empleados pueden tomar medidas con su cliente.
+      --- 
+        
+   No es demasiado tarde si aún no está muerto, joder. Anula esto inmediatamente, voy a anular el pago. No te contraté para esto, me cago en la ostia.
+      Dejando a un lado el valor personal del proyecto, no voy a ser un puto cómplice de un asesinato por culpa de tu estúpido malentendido.
+
+    </email>
+    
+    <email recipient="rc" sender="bcarter@entech.com" subject="RE: Mainframe Access Emergency">
+      
+      Claro, 
+
+     Usuario: admin
+      Contraseña: v19328hQ9
+       
+     Anularé la rotación de contraseña automática hasta que hayas acabado.
+      -Ben
+          
+  ---- 
+     Ha surgido algo, necesito acceder al sistema central para echar un vistazo. Voy a investigar los recientes accesos y versiones, así que necesito privilegios de administrador.
+
+    </email>
+    
+    <email recipient="rc" sender="Anonymous" subject="RE(3): New Case - Bit">
+
+      Es demasiado tarde, no puedo detenerlo. Es anónimo. Tienes que explicarte bien si quieres que se tomen acciones específicas.
+      --- 
+     ¿Muerto? ¿De qué cojones estás hablando? Quería que aplastases sus ordenadores y le detuvieras, no que le mataras, joder. Detente inmediatamente, esto ha ido demasiado lejos. Yo me ocuparé personalmente.
+            
+El tío es un genio, incluso aunque se opone al proyecto le quiero conmigo. Encuentra la forma de detenerlo, por el amor de Dios.
+      Si vas en serio con esto, te consideraré responsable personalmente. No me jodas con esto.
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="RE(2): New Case - Bit">
+
+      He dado la orden. Ha sido caro, pero estará muerto esta semana.
+      Lo he cargado en tu cuenta como siempre.
+      ---      
+
+Me alegro de tenerte a bordo. ¿Cuáles son exactamente tus planes esta vez? Es una persona importante, y está bien informado.
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="RE: New Case - Bit">
+      
+      Entendido, me ocuparé de ello.
+      --- 
+
+     Un antiguo empleado está actuando deshonestamente y amenazando el proyecto. Aunque lo que más me preocupa es que sabe lo que hace y podría suponer un verdadero problema. Por mucho que odie ser tan ordinario sobre el tema, este proyecto es demasiado importante para mí, y también para el mundo ante el riesgo que correría. ¿Puedes desalentarle?
+      Te he adjuntado los detalles. Llámale &quot;Bit&quot;.
+        
+    -rc
+    </email>
+
+  </mailServer>
+  
+</Computer>

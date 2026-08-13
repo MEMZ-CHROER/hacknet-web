@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="alphaCredits">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>Re: Das Ende</subject>
+    <body>
+Oh, eine Sache noch...
+
+Ich weiß, dass du eine illegale Kopie von Hacknet verwendest.
+
+Ist okay, wirklich - Ich weiß, es gibt eine Menge Gründe dafür und ich werde dich nicht dafür verurteilen, wenn du pleite oder unzufrieden mit dem Zustand der Indie-Szene bist.
+
+Aber,... Hacknet ist fast vollständig durch mich allein entstanden und jeder Verkauf fließt direkt in die Finanzierung von neuen Projekten und Updates. Wenn dir das Spiel gefallen hat, solltest du es in Betracht ziehen, es zu kaufen!
+
+Solltest du gegen DRM sein, ist Hacknet ebenso DRM-frei auf GOG.com und im Humble Store erhältlich - obwohl ich Steam bevorzuge.
+
+Wie auch immer, danke für's Spielen - ich hoffe, du hast das Spielen so genossen wie ich die Entwicklung.
+
+-Matt
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

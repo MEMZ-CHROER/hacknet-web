@@ -1,0 +1,59 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nortronInternalServices" name="Nortron Internal Services Server" security="2">
+  <ports>22,21</ports>
+  <trace time="60" />
+  <firewall level="1" />
+  <link target="nortronMail" />
+  <link target="nortronMainframe" />
+  <positionNear target="nortronMainframe" position="1" total="3" />
+  <!-- J. Abrams -->
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat" >#BINARY#</file>
+  <file path="staff_folders/J.Abrams" name="REMINDER.txt" >
+    NOTIZ:
+    neue Zugangsdaten
+    Benutzername = j.abrams
+    Passwort = bootyking420
+
+    Wieso lassen sie uns das jedes Jahr aufs Neue ändern?
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy).doc" >
+TO DO: Beitrag schreiben
+http://de.wikipedia.org/wiki/Antivirenprogramm
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy)(Copy).doc" >
+Antivirenprogramme können versuchen nach Rootkits zu suchen;
+Ein Rootkit gehört zur Familie der Malwares und wurde entwickelt 
+um die Kontrolle über einen Computer 
+zu erhalten, ohne entdeckt zu werden. Rootkits können die Funktionsfähigkeit 
+des Betriebssystems ändern und in einigen Fällen das Antivirenprogramm 
+täuschen, um es unwirksam zu machen. Rootkits sind sehr schwer entfernbar,
+in einigen Fällen erfordert es eine komplette Neuinstallation des Betriebssystems.
+
+Source - http://de.wikipedia.org/wiki/Antivirenprogramm
+  </file>
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat" >#BINARY#</file>
+
+  <!-- P. Evans -->
+  <file path="staff_folders/P.Evans" name="SecuDoc.bat" >#BINARY#</file>
+
+  <!-- L.L. Coolay -->
+  <file path="staff_folders/L.L.Cooljay" name="SecuDoc.bat" >#BINARY#</file>
+
+  <!-- T.Stark -->
+  <file path="staff_folders/T.Stark" name="SecuDoc.bat" >#BINARY#</file>
+  <file path="staff_folders/T.Stark" name="Harrasment_Evidence.txt" >
+
+Das Folgende ist eine Kopie einer E-Mail, die ich von einem Kollegen erhalten habe:  
+    
+| T-BONE, Tony, mein Mann - Was los?
+| Wir gehen doch heute noch runter Mittagessen oder? Habe Lust auf Hühnchen.
+| Vielleicht auch auf Wassermelone. Mal sehn.
+| Lass es mich wissen
+| 
+| -Cool JJJJJJJJJJJJ
+
+MEIN NAME IST NICHT TONY, WIESO HÖRT ER NICHT DAMIT AUF!?!
+THOMAS STARK IST EIN ABSOLUT NORMALER NAME.
+    
+  </file>
+</Computer>

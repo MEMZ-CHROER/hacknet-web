@@ -1,0 +1,7 @@
+Agent,
+Sie haben Ihren aktuellen Auftrag aufgegeben und kommen somit zu dessen Erfüllung nicht weiter in Frage.
+Sie können nun andere Aufträge aus dem Auftragsverzeichnis annehmen.
+Ihr jetziger Rang ist {0} von {1}
+
+Vielen Dank,
+{2}

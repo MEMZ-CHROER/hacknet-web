@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet07">
+  <goals>
+    
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Check out a suspicious server">
+이상해 보이는 서버에 들어왔어 - 보안은 내가 감당할 수 있는 것보다 좀 더 탄탄해 보여서 테스트해보진 않았지만, 여기 누군가가 살펴보는 게 좋을 것 같다.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>레드 라인</subject>
+    <body>
+이봐,
+
+자네가 여기서 뭔가 찾을지는 모르겠지만 자네가 확인해 보는 게 좋을 것 같아 - 나는 스캐닝 소프트웨어로 이 서버에 들어왔는데 - 이게 발자취를 남기므로 많이 뒤지지는 못했어, 하지만 경험이 더 많은 자가 한 번 보는 게 좋을 것 같다.
+뭔가 찾거나 보안이 빡세든지 하면 알려줘!
+
+-Anon
+    </body>
+    <attachments>
+      <link comp="honeypot01"/>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,53 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+    <!-- Coel was on Alchemists cleanup duty, Default was on "Personal Ties" 
+    We want to delay the player for 30 seconds here so they can get hacked without starting the next mission...
+    -->
+    
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-10.0">Boulot terminée @Coel - désolé que tu aies dû t'occuper de ça. J'ai fait de mon mieux pour m'en charger proprement.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="0.1">Merci. C'est quelque chose que j'aurais aimé pouvoir faire moi-même... mais bon.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="3">Je comprends tout à fait, te bile pas pour ça. Ta tâche s'est bien passée ?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="5.0">Merci de t'être occupé de ça @D3f4ult</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="9.0">Pas de problème, chef.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="15.2">Ouais - je suis en train de repasser sur les serveurs de Hermetic Alchemist pour m'assurer qu'on n'a pas laissé de trace. On devrait en être à l'abri maintenant, autant que possible.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="20.2">Quelqu'un a laissé des journaux de déconnexion un peu partout, mais t'inquiète pas, je ne suis pas allé fouiner.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="24.5">Argh, ouais. @Kaguya - il y aurait moyen que tu nous trouves quelque chose pour gérer les logs de Déco ?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="28.1">Tu veux dire, à part utiliser des forkbombs ?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="32.1">C'est juste tellement crade :\</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="35.1">hmm, je ne peux qu'être d'accord.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="37.1">Je vais voir ce que je peux faire. Mais je ne vous promets rien.</AddIRCMessage>
+    
+  </OnConnect>
+
+  <!-- These trigger when the player has passed the recovery and connects back to IRC for the first time -->
+  <OnConnect target="dhs" needsMissionComplete="false" requiredFlags="startupBreakinTrapPassed">
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-220.0">@channel ALERTE - @#PLAYERNAME# est en train de déclencher des alarmes un peu partout - ça a l'air sérieux.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-210.0">@Coel - annule ta mission en cours, j'ai besoin de ton aide là-dessus tout de suite</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-200.0">!ATTACHMENT:link#%##PLAYERNAME# PC#%##PLAYER_IP#</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-194.0">C'est @#PLAYERNAME# - identifie le problème et aide-le à trouver une solution.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-185.0">@Kaguya Je m'en occupe.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-180">Tu veux que je fasse quelque chose ?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-175.0">Possible - Tiens-toi prêt</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-160.0">Ok, je t'ai assigné la tâche dont @#PLAYERNAME# s'occupait - essaie de voir d'où ça vient. SOIS PRUDENT.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-155">Compris.</AddIRCMessage>
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-120.0">C'était une attaque sur machine virtuelle - J'ai fait ce que je pouvais, mais à ce stade, c'est à @#PLAYERNAME# de régler ça...</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-115.0">Excellent travail @Coel - Je garde un œil dessus.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-110.0">Du nouveau @D3f4ult ?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-90.0">Je rassemble quelques liens. J'essaie de faire ça proprement.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-85.0">Continue comme ça.</AddIRCMessage>
+
+    <!-- After this displays in real-time -->
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="1.0">@#PLAYERNAME# Content de te revoir</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="8.0">Bien joué #PLAYERNAME#</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="14.0">Hé @#PLAYERNAME# - Kaguya m'a demandé d'aller fouiller un peu, mais ça avait l'air d'être un proxy bien protégé. Tu devrais quand même pouvoir le pister via tes journaux.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="25.0">La proie t'appartient, bien sûr, mais si tu veux voir s'abattre un peu de chaos sur elle, à la D3f4ult, tu n'as qu'à m'envoyer une IP.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="40.0">Et note pour moi-même - toujours avoir un shell bien ouvert pour contrer les pièges quand j'essaie de mettre d'autres hackers au pas...</AddIRCMessage>
+
+  </OnConnect>
+  
+</ConditionalActions>

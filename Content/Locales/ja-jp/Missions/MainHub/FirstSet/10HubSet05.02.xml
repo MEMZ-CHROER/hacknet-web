@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="C_EXE_contact.dec" path="home" destTarget="hubPubDrop" destPath="Drop/Uploads" decrypt="true" decryptPass="quinnoq"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="暗号化された贈り物を解読せよ" reqs="decypher">
+あるCSECのメンバーの元に暗号化されたファイルが送られてきたのですが、本人は解読する方法を持っていないというのです。解読に必要なパスワードは判明しています。
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>一期一会</subject>
+    <body>
+やあ。
+
+友達が仕事内容に関するファイルを送ってきたんだけど、なぜか暗号化したまま送ってきたんだ。どうやって解読するのか、俺は知らない。
+「C_EXE_contact.dec」って名前のファイルがクロスロードサーバーにあるはずだから、解読してドロップサーバーにアップロードしてくれないか？
+
+パスワードは「quinnoq」のはずだ。
+
+よろしく！
+
+-CSEC Dan
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <link comp="hubPubDrop" />
+      <note title="依頼内容詳細">C_EXE_contact.decをダウンロード
+      
+ファイルを解読
+
+解読したファイルをCSECのドロップサーバーにアップロード</note>
+    </attachments>
+  </email>
+</mission>

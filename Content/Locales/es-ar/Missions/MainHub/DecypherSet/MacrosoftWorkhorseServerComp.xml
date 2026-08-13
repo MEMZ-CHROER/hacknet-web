@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="macrosoftWorkhorse04" name="Macrosoft Workhorse Server 04" ip="168.61.82.245" security="3" type="3">
+  <ports>21, 80, 1433</ports>
+  <portsForCrack val="3"/>
+  <firewall level="-1"/>
+  <trace time="240"/>
+  <proxy time="0"/>
+
+  <file path="WORKLOGS" name="0118917.log">
+    TRABAJO: CODIFICAR ARCHIVO
+    ARGUMENTOS:
+    Archivo: LemonStealingWhore.avi
+    Salida: SeriousBuisnessDocuments.dec
+    --------------------------------------
+    TRABAJO COMPLETADO: 0 ERRORES DETECTADOS
+  </file>
+
+  <file path="WORKLOGS" name="8978163.log">
+    TRABAJO: COMPILAR CÓDIGO FUENTE (C#)
+    ARGUMENTOS:
+    Archivo: Main.cs
+    Salida: WinC_DEBUG_NONRELEASE.exe
+    --------------------------------------
+    TRABAJO INCOMPLETO: 1 ERROR DETECTADO
+    ARCHIVO Main.cs NO ENCONTRADO
+  </file>
+
+  <file path="WORKLOGS" name="3345633.log">
+    TRABAJO: CODIFICAR ARCHIVO
+    ARGUMENTOS:
+    Archivo: WinCE_FirmwareSpecs.pdf
+    Salida: WinCE_FirmwareSpecs.dec
+    Contraseña: beepbeep
+    -------------------------------------- 
+   TRABAJO COMPLETADO: 0 ERRORES DETECTADOS
+  </file>
+
+  <file path="WORKLOGS" name="489820.log">
+    TRABAJO: COMPILAR CÓDIGO FUENTE (C#)
+    ARGUMENTOS:
+    Archivo: Main.cs
+    Salida: WinC_DEBUG_NONRELEASE.exe
+    -------------------------------------- 
+   TRABAJO COMPLETADO: 0 ERRORES DETECTADOS
+    1 ADVERTENCIA DETECTADA:
+    Main.cs Línea 12, posición 8: Código inalcanzable detectado
+  </file>
+
+  <file path="WORKLOGS" name="9982711.log">
+    TRABAJO: CODIFICAR ARCHIVO
+    ARGUMENTOS:
+    Archivo: Naruto_Xrated_Collection.zip
+    Salida: printer_Drivers.dec
+    Contraseña: BELIEVEIT
+    -------------------------------------- 
+   TRABAJO COMPLETADO: 0 ERRORES DETECTADOS
+  </file>
+  
+  
+</Computer>

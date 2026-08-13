@@ -1,0 +1,8 @@
+-NETWORK UPLINK ESTABLISHED-
+__________________________
+ 
+Welcome Agent,
+You have been paired with a second hacker on this subnet, in direct competition.
+Your task is to permenantly disable your opponent's system before they do the same to you.
+
+Be Smart, Be Efficient, Be Fast.

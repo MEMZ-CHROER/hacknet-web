@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education07">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="*Nix Notitie Systeem">
+Alle terminal gedreven besturingssystemen gebaseerd op de *Nix kernel hebben een notitie programma ingebouwd (gebruik "notes") dat erg handig kan zijn.
+Het wordt meestal weinig gebruikt, het is ram effecient en goed geintegreerd met mail clients en andere programma's (zodat deze gemakkelijk
+notities kunnen aanmaken).
+
+Gebruik is zo simpel als het "notes" commando te gebruiken, notities kunnen met de hand toegevoegd worden via de UI of met het "addNote [NOTITIE]" commando.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Ontvangen van deze email betekent dat er een onverwachte fout is opgetreden.
+Raak in paniek.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

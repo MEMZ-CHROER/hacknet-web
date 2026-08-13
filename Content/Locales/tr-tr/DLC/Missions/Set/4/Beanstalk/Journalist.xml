@@ -1,0 +1,67 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds4_journalist" name="Manananggal_workbook" ip="244.188.232.231" security="1" type="empty" icon="DLCLaptop">
+
+  <proxy time="-1" />
+  <portsForCrack val="1" />
+  <ports>80, 6881</ports>
+  <portRemap>443=43</portRemap>
+  <trace time="80" />
+
+  <file path="home/dagrunsdottir_leak" name="038457_doc.pdf">#BINARY#</file>
+
+  <file path="home/Articles" name="MentalEnergy.txt">
+Kafamdaki enerji havuzlarının listesini yapmam gerektiğini düşünüyorum.
+Bilirsiniz, gün içinde yeni tanıştığınız kişilerle çok konuştuğunuzda, iş yerindeki toplantı saatlerce sürdüğünde, eski bir dostunuz saatlerce onun için dünyanın en önemli, sizin içinse en anlamsız şeyinden bahsettiğinde ve tüm bu şeylerden kaçamadığınızda hissedersiniz. Saatlerce yazı yazarak yaratıcılığın sınırlarını zorlarsınız ve geriye hiçbir şey kalmaz.
+İşte bunlardan bahsediyorum.
+Bence hepsi çekirdekteki enerji havuzuyla bağlantılı. Çoğu insan ise bu enerji havuzuna sabır diyor.
+İsme takılmayın. Ayrıca bu kelimenin geleneksel karşılığının düşüncelerinizi çelmesine izin vermeyin. Gerçi bu karşılığı kabullenmek zorunda kalacağım. Pekala, bakalım elimizde başka neyin enerji havuzu varmış.
+Yorucu toplumsal etkinlikten çıkıp eve gidebileceğimin ve işim için yazı yazabileceğimin farkındayım. Ancak bence olay tükenip sonsuza dek yıkılmak değil. O haldeyken yazı yazdığımda kafam sakinken yazdığım kadar iyi olmayacak ve uzun süre yazamayacağım.
+Hazır bundan bahsetmişken, eğer sadece kendinizi yanıltmak için alıştırma yapıyorsanız bence merkezde sabır enerjisinin havuzu var. Ayrıca özel enerjileri oluşturmak için birleştiği birkaç havuz daha var. Mesela bunlardan biri sosyallik için, birisi 'saf' sabır (umursamadığınız şeyleri dinlemek) için, birisi yaratıcılık için. Bunlara ek olarak ne için olduğunu bilmediğim birkaç tane daha olabilir.
+Beynimdeki durağan kimyasal havuzlardan mı yoksa yorulan nöral yollardan (bu mümkün mü?) mı yoksa daha başka bir şeyden mi bahsediyorum bilmiyorum. 'Bu' durumdayım işte.
+İşlemleri kodlama enerjim yaratıcı yazım enerjimden farklı bir yapıya sahip. Eğer bu iki enerjim de tükendiyse, bir şeyler yapmam çok ama çok zorlaşacak. Bunun anlamı ya farklı düşünmek konusunda (ilginç!) yanıldım ya da kodlama ve yazma dönüştürücü kimyasallarım merkezi sabır havuzumu (ki bu da ilginç!) yıprattı.
+Bunu deneyebilir miyiz? Bir makale daha var. Eğer verim düştüğünde, kendimizi yıpranmış bulduğumuzda, kalıpları tanımlamayı faydalı buluyor muyuz diye eniyilemeye çalışırsam; enerjinin ve yaratıcılığın nasıl çalıştığını ve yorgun olmanın geleceği iyileştirmedek için nasıl büyük bir adım olduğunu tanımlayabilirsem denemeyiz.
+  </file>
+  
+  <file path="home/Articles" name="TestingMentalEnergyPools.txt">
+Hipotez: Yaratıcı yazım ve kodlama işleminin gerçekleşmesini sağlayan zihinsel enerjilerin kaynağı aynıdır. İkisi de kişi yorulunca tükenir.
+Düşünce: Tarafsız olarak değerlendirmek çok zor. Muhtemelen en iyisi önümüzdeki birkaç ay boyunca bunun doyma testlerini yapmak ve rejim farklılıklarını da göz önüne alarak verimlilikteki değişiklikleri ölçmek ama bu yorucu ve sıkıcı bir test süreci olacak.Önümüzdeki ayki çalışmalar daha gergin geçebilir.
+Ayrıca test edilmesi gereken bu mu yani? Bunu kanıtlasam veya çürütsem ne kazanacağım ki hem?
+Yalanlanmış Düşünce: Enerji farklılıkları ve kaynaklarını daha yakından tanımlayarak verimliliğimi iyileştirmek için daha iyi bir dayanak noktası buldum. Havuzları daha hızlı doldurabiliyor muyum diye denemeler yaptığımda bunu hedefleyebilirim. Bu bilgi ön koşul kısmını oluşturacak.
+Kanıtlanmış Düşünce: Yukarıdakine benziyor ancak bu sefer verimliliğimi artırmak için (sonrasında ise yorulmaya neyin sebep olduğunu bulacak ve etkinliğini keseceğim - bu havuz çalışmasının işe yaraması gerekiyor) odaklanmam gereken havuzun tam olarak bu havuz olduğunu biliyorum.
+Tamam! Bu bilgi işime yarayacak gibi. İki taraf içinde kanıt elde etmek için derhal hızlı gerçekleştirilen testlere başlayalım.
+Testler:
+1: .... kahretsin. Bunu nasıl test edeceğim...
+Tamam... müzik yok, bir düşüneyim.
+Eğer bu GERÇEKSE, kodlama işlemini, ardından da yaratıcı yazımı bitik hissedene ve daha fazla yapamayağımı fark edene kadar sürdürebilmeliyim ki çoktan bunun eksiksiz olarak gerçekleştiğini fark ettim. Yani aslında test etmeye gerek yok.
+Aslına bakarsak bu, en başında bu noktaya gelmemi sağlayan hipotez için yeterli bir kanıt değil. Daha güçlü bir kanıt bulamayacağımdan şüphele --
+BİR DAKİKA. Zayıf kanıtım ilgili bir hipotez kurmama vesile oldu! Yanlış bilim sorusu yine kafamı kemiriyor!
+İkinci hipotezi kurma zamanı.
+Düzenleme: Bir saniye, şimdi bu yanlış bilim mi? Zayıf kanıtlara dayalı bir evrensel davranış tahmininde bulundum ve bunu çürütmenin yollarını aradım. Temele bakarsak doğru bilim prosedürünü uygulamamış olmaz mıyım? Lanet olsun.
+</file>
+  
+  <file path="home/Articles" name="TestingMentalEnergyPoolsV2.txt">
+Hipotez: Yaratıcı yazım ve kodlama işleminin gerçekleşmesini sağlayan zihinsel enerjilerin kaynağı aynıdır.
+Tamam, eğer bunu kanıtlayabilirsem veya çürütebilirsem MK1 için çevrili ve güçlü bir kanıtım olur. Hadi deneyelim.
+Test: Bir hafta boyunca ana işlevi yaratıcı yazım ve kodlama işlemi arasında günlük değiştir. İkisinin de olduğu günlerde oluşan verimliliği ölç.
+Düşünce: Şarj gecikmesi ve aralı şarjın faydalı özellikleri (enerji altı saatlik bir aranın ardından şarj olmaya başlarsa) göze alınırsa ikisinin de enerjisi, bir günlük gecikmeyle şarj edilir.
+Eğer hipotezim doğruysa, bu yöntemin kullanılmasıyla elde edilen verimlilik iki eylemin birlikte gerçekleştirilmesiyle elde edilenden daha fazla olacak.
+Sonuçlar: Bekleniyor.
+</file>
+  
+  <file path="home/Articles" name="Marrige.txt">
+Hadi evlilikten bahsedelim. Yani, insanlar evlenir. İçeriğe gelirsek; bu yazı beyaz homoseksüel insanların evliliği ile ilgili. Aman, neyse... çoğunlukla bu insanlar için de olsa sonuçta her tür evlilik için geçerli sayılabilir.
+Toplumun kabul ettiği garip bir norm vardır: evlenmek 'amaçtır'. Ya da idealdir, her neyse işte... aynı zamanda tüm eğlenceli şeyleri sonlandırması ve sizi aşırı mutsuz kılması pek şaka değilmiş gibi görünse de çoğu kişinin bunu 'şaka' olarak kabul etmesini sağlar. 
+Toplum, sıkıntınız nedir yani? Bu çok saçma. Tüm bu baskı ne diye? Geleneksellik ideali olmasını, yüzlerce (binlerce) yıl boyunca boktan olan bu dünyanın en yerinde çözümü olmasını falan anlarım da sonuçta bu evlilik müessesesi genetik bir şey değil. Ayrıca günümüzde birkaç nesilin bu tuzaktan kurtulmayı başardığına adım gibi de eminim.
+Mantığımı konuşturuyorum. Bizi evlilikten vazgeçmekten alıkoyan nedir?
+İlk olarak insanlar neredeyse tamamen çevrelerine göre şekillenirler. Bu çevre de genel anlamda çok yavaş değişiklik gösterir. Bu etkiyi eşcinsel evliliklerinde görebiliriz: Belli bir seviyenin üzerinde eğitim alanlar bu evlilikleri kabul eder ve bu düşüncenin yerleşmesi uzun sürer. Aynı şey dinde de geçerli. Tabi bu başka bir yazının konusu (haha - yorum kısmı GG Easy).
+Yani çevrenin normu budur. Biz de yavaş yavaş ilişkilere modern bakış açısıyla bakmaya başlıyoruz. Ancak bu eski düşünce tarzının etkilerini yıllar boyunca hissettiğimizden 'baskı' altında kalıyoruz.
+Fena durumda değiliz. Ancak, daha iyisini de yapabiliriz.
+Bunu denemeliyiz. Hayatımızdaki hedeflerimize güzel, başarılabilir ve olay bazlı bir amaç eklemiş oluruz. Boktan bir hedef de olabilir tabiki. Son kısmı muhtemelen çoğu kişi kızdıracaktır, ancak bunu es geçersek evliliğin ne anlamı kalır ki? Asıl amaç "huzurlu hissedeceğimiz güzel ilişkimizi tamamına erdirmek" değil mi? Yani bu isimlendirme çokaşklılık için saçma olsa da, ne olursa olsun daha iyisini yapabiliriz.
+Güzel amaçlar (en azından benim için güzeller) ulaşılması zor olanlardır. Neredeyse yerine getirilemezler. Bu bizi mükemmelliğe ve gerçek mutluluğa yönlendirebilir ancak bunun bedeli amaca ulaşana dek mutsuz olmak ve korkuyla dolmaktır. Bu amaca ulaşmak sonsuza dek sürebilir. Sonuçta bu amaçlar amaç imkansız olacak şekilde *tasarlanır*.
+Bu sorundan kaçınmak için insanlar amaçları doğrultusunda ulaşabilecekleri bir bitim noktası belirler ve bunu benimserler. Bu şekilde bitişi her zaman görebildiklerini düşünürler. Siz bu gerçekten mümkün mü?
+Böyle düşünürsek, evlenmek hayatın amacı sorunsalının ilişki alt sorununu çözmenizi sağlar. Ne kadar mutlu olduğunuz konusuna kafa yormanıza gerek yoktur. Çünkü hedefiniz mutluluk değil, sadece bu alt sorunun karşısına tik atmaktır.
+Ulaşılabilinecek amaçlar insanlar için iyidir. Ben buna karşı değilim ama bu konu canımı sıkıyor. Ulaşması 'çok zor' bahanesiyle denklik unsurları aradan çıkartıldığında, bunun insanları kandırarak mutluluk ve düzen arayışlarını sonlandırmak için yem atmaktan farkı yok aslında. Aksine insanlar sonrasında *bu gerçekliğe kendilerini sonsuza dek kaptırırlar*!
+Evet. Garip valla. Sizin için çözüm yolu bulmayacağım ama bana kalırsa, insanların bir şeyin *neden* amaçları olduğunu ve bu amaca ulaşmanın onları mutsuz kılacağı gerçeğini düşünmek için adam akıllı zaman ayırabilecekleri bir sürü vaka var.
+  </file>
+  
+</Computer>

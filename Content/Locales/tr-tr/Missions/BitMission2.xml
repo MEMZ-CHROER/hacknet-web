@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission02" activeCheck="true">
+  <goals>
+    <goal type="FileDownload" target="bitMission02" file="Entropy_Induction_Test" path="home" />
+  </goals>
+  <nextMission>Entropy/EntropyMission1.1Delayer.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Buradan Sonrası</subject>
+    <body>
+Harika! Eğer bunu görüyorsan, işini layıkıyla yerine getirdin demektir ve şey... bütün bunların bir anlamı olabilir.
+Acaba fazla mı umutlandım? Galiba fazla umutlandım.
+
+Farkettim de, tüm bu olanları yazacak vaktim yok - öğrenecek çok şeyin var, benimse tüm bu işi yapacak zamanım yok. Senden daha fazla şey istemem gerekecek. 
+
+Bu aralar yeni üyeler alan 'Entropy' isimli bir grup var. Sana daha fazla şey öğretebilirler. Hazır olduğun zaman seninle iletişime geçeceğim.
+Entropy'e katılamaya gelince... proxy sunucusu aşman gerekiyor. Yönetici olarak eriştiğin bilgisayarlarda uygulayacağın kabuk programlaması ( açmak için "shell" komutunu kullan) bu işi halletmene yeter.
+
+Bol şans...
+ve de teşekkür ederim.
+
+--Bit
+0
+
+Not: Az kalsın unutuyordum... eğer başın belaya girerse diye eğitim arşivi ağı sunucusunu da link olarak ekledim. Orada bir sürü faydalı şey bulabilirsin.
+    </body>
+    <attachments>
+      <note title="Proxy Sunucusu Notları">Proxy sunucusu - klasik Entropy denemesi - notları
+
+Yönetici erişimin olan bilgisayarlarda "Shell" komutuyla kabuğu çalıştır.
+
+Hedef bilgisayara bağlan ve güvenliğini irdele.
+
+Hedef Proxy'i aşırı yüklemek için kabuğu kullan.
+
+Eğitim Arşivi Ağı'nda ayrıntılara ulaşabilirsin.
+      </note>
+      <link comp="netEduComp" />
+      <link comp="bitMission02" />
+    </attachments>
+  </email>
+</mission>

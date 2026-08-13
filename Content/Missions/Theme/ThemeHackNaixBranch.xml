@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="themeHackEndMission" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="naixGateway" file="x-server.sys" path="sys" />
+  </goals>
+  <nextMission>lelzSec/IntroTestMission.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Warning</subject>
+    <body>
+      Connect-Responder.exe has noticed a forigen connection from your IP adress to 173.194.35.163.
+      External connections are prohibited on this device. If you have connected in error, please seek sysadmin assitance.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

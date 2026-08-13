@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="AddDegree" owner="John Stalvern" degree="Masters in Digital Security" uni="Manchester University" gpa="3.0"/>
+  </goals>
+  <missionEnd val="1">changeSong</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Einem alten Hund einen neuen Trick beibringen [Int.Akad.Db.]">
+Ein potenzieller Freund braucht einen neuen Abschluss.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Binary Universe(ity)</subject>
+    <body>Es ist immer gut, Freunde in Sicherheitsfirmen zu haben - *besonders*, wenn diese keine Ahnung von IT-Sicherheit haben.
+Einen solchen potenziellen Freund haben wir vor Kurzem kontaktiert - und wir sollen erst unser Können unter Beweis stellen, bevor er mitmacht.
+
+Wir wollen ihm einen neuen Abschluss bei seiner Uni in Manchester verschaffen.
+
+Name: John Stalvern
+Abschluss: "Masters in Digital Security"
+Universität: "Manchester University"
+GPA: 3.0 oder besser (beachte, dass das GPA auf einer Skala von 4.0 (gut) bis 0.0 (schlecht) basiert)
+
+WICHTIG: Achte darauf, deine Spuren zu verwischen - internationale Organisationen müssen sich auf ihren Ruf verlassen können - dem du schadest. Und wenn sie das herausfinden, werden sie ziemlich ungemütlich werden.
+
+Viel Glück,
+-CSEC
+    </body>
+    <attachments>
+      <link comp="academic" />
+      <note title="Missionsübersicht">Name: John Stalvern
+Abschluss: "Masters in Digital Security"
+Universität: "Manchester University"
+GPA: >3.0</note>
+    </attachments>
+  </email>
+</mission>

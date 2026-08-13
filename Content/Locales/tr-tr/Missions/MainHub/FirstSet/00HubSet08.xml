@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet08">
+  <goals>
+    <sendemail recipient="gila" subject="MedicalRecord - Sandburg_Jonas" />
+  </goals>
+  <nextMission>MainHub/Continuations/FirstSet08_Reply.xml</nextMission>
+  <posting title="Sağlık Kaydı İncelemesi">
+Bir meseleyi çözmek için birinin sağlık kaydının kopyasını al.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Asklepios'un Sopası</subject>
+    <body>
+Hey,
+
+Birinin AÇIKÇA fotoşoplu resim paylaşma meselesine dahil olmuş veya olmamış olabilirim...
+Neyse, önemi yok. Şimdi, bu meseleyi çarpıcı bir şekilde çözmek için bu elemanın sağlık kaydına ihtiyacım var. Kendim alırdım ama... ee, niyetimi açıkça belirttim. Zaten CSEC'in nasıl işlediğini biliyorsundur.
+Bana yardım edebilir misin? Elemanın adı "Jonas Sandburg" - Medikal Veritabanı kayıtları kişilere göndermek için belli bir araç kullanıyor. Bu arkadaşın kaydının kopyasını "gila@jmail.com" adresine gönderir misin?
+
+Teşekkür ederim.
+-G
+    </body>
+    <attachments>
+      <link comp="medical" />
+      <note title="Notlar">Kaydına ihtiyacım olan eleman:
+"Jonas Sandburg"
+Gönderilecek E-Posta Adresi:
+"gila@jmail.com"
+</note>
+    </attachments>
+  </email>
+</mission>

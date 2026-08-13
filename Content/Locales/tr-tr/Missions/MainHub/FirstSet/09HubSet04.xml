@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="modifyDeathRowRecord" name="John Boorman">I'm ready, Warden</goal>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="İdam Kaydı Eklenecek">
+İdam edilmiş bir mahkumun akrabalarından biri idam kaydının resmi listelere eklenmesi için bizden yardım istedi.
+Kararın arkasında şaibeli bir durum söz konusuymuş gibi (idamın haksız yere gerçekleştirildiği iddia ediliyor) duruyor. Bu durumun gizlenebilsin 
+diye resmi listelere kayıt eklenmemiş. Akrabası, "En azından son sözleri korunmalıydı" dedi.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Adaletsizlik</subject>
+    <body>
+İdam Kaydı oluşturulmasını istiyoruz. İdam edilen şahsın ailesinden biri  aşağıda verilen ayrıntılarla birlikte gerçek kaydın veritabanına eklenmesini talep etti:
+
+------------------------------------
+İsmi: "John"
+
+Soy İsmi: "Boorman"
+
+Son Sözleri: "I'm ready, Warden"
+------------------------------------
+
+Diğer ayrıntılar mühim değil. Ancak bizim tercihimiz diğer kayıtlara da benzemesi. Bu konuda sana yardımcı olmak için CSEC Asset Server'a kayıt şablonu yükledik (/home/Templates'de).
+Şablonu kopyalamanı, düzenlemeni ve oraya yüklemeni öneriyoruz. İsmi ve kayıt numarasını yansıtacak şekilde dosyanın adını değiştirmeyi ("mv" komutu) unutma. 
+
+Talep eden şahsın göndermiş olduğu ileti:
+"Yardım ettiğin için çok teşekkür ederim. Yargılama ta en başından beri şaibeliydi. Hala onun masum olduğuna inanıyor ve bu şekilde hatırlanması için elimden geleni yapıyorum.
+Veritabanında yer almaması anısına hakaret etmektir. En azından son sözlerini korumalıyız. Tekrardan teşekkür ederim."
+    </body>
+    <attachments>
+      <link comp="mainHubAssets" />
+      <link comp="deathRow" />
+      <note title="Kayıt Bilgisi">İsmi: "John"
+Soy İsmi : "Boorman"
+Son Sözleri: "I'm ready, Warden"</note>
+    </attachments>
+  </email>
+</mission>

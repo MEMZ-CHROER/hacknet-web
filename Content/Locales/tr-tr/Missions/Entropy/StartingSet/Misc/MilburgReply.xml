@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entRep01" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+BİLİNMEYEN GÖNDERİM HATASI
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Yanıt: Okula Dönüş</subject>
+    <body>
+Ciddi misin?
+
+*******.... Şifreye bak anasını satayım. Bu herif zeki mi aptal mı bilemedim şimdi... muhtemelen ikisi de.
+Vay be. Doğrulama betiği çalıştığını bildirdiği için denemek istedim ve hakikaten *vay be* diyorum.
+
+Okul idaresine böyle bir posta göndermek... hiç kolay olmayacak. Oof of...
+
+Sonuç olarak iyi işti. Kalan kısmını bana bırak.
+-Yönetici
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

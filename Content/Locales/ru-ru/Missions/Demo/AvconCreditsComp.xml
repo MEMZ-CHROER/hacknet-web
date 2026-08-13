@@ -1,0 +1,61 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="avconCreditsComp" name="Avcon Credits Server" security="0">
+  <addAvconDemoEndDaemon name="Demo End"/>
+  <file path="home" name="Entropy_Contact.txt">
+    Похоже хакерская группа Entropy  в поиске новых участников,- у них есть сервер для наема и многое другое.
+
+Вы можете подключиться к серверу через 199.59.149.230
+       
+ -M
+  </file>
+  <file path="home" name="ProxyOverloadGuide.txt">
+    Чтобы перезагрузить прокси, сначала установите (настройте) некоторые shell узлы на узлы, к которым у вас есть доступ администратора. 
+Сделав это, просто  запустите shell программу (I.e: exe shell).
+
+Когда, у вас есть несколько запусков shell программ, используя их функцию перезагрузки, пока подключенные к целевой машине начнут затоплять ее запросами,
+  перегружая до того как прокси временно отключится .
+
+Это создаcт изменяемое окно, в котором программы, которым прокси в любом случае предотвратил бы запуск, могут свободно работать.
+    -M
+  </file>
+  <file path="home" name="Credits.txt">
+    -----HackNet-----
+
+    A Game by:
+    --Matt Trobbiani--
+    Twitter: @Orann
+    Email: mtrobbia@gmail.com
+
+    Flavour Text and Logos:
+    --Sarah Riggall--
+
+    Appearance Concept
+    Jeryth
+    http://www.reddit.com/user/jeryth
+
+    -Music-
+    Revolve - Hisboyelroy
+    Leviathan - Kirkoid
+    Ana - Hisboyelroy
+    www.ccmixter.org
+
+    -Testing and Thanks-
+    Tristan &quot;tijit&quot; Trabilsie
+    Jamie Williamson
+    Alex Mackay
+    Noblekale
+    Chris Johnson
+    Sam Crisp
+    Dylan Sale
+    Richard Taylor
+    Ben Kislby
+    Matt LeKrupa
+    Brad Wesson
+    Jamie Pillianaros
+  </file>
+  <file path="sys" name="DefaultBootModule.txt">[Locked]</file>
+  <!--
+  <addEmailDaemon />
+  -->
+</Computer>
+

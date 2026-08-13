@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="airline_player">
+  <goals>
+    <goal type="getadminpasswordstring" target="dpa_bookings"/>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="Abflug - #PLAYERNAME#">
+Beschaffe dir Zugang zum Buchungs-Mainframe einer internationalen Fluggesellschaft.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Abflug</subject>
+    <body>
+Beschaffe dir Zugang zum Buchungs-Mainframe einer internationalen Fluggesellschaft.
+----
+Ich komme gleich zum Punkt. Für künftige Absicherungsprojekte brauche ich Zugang zum Buchungs-Mainframe der internationalen Fluggesellschaft „Pacific Air“.
+
+Ich habe mir die Sache bereits angesehen und habe einige gute Hinweise. Die IP-Adresse des Buchungs-Mainframes kennen wir bereits - nur das Knacken wird leider nicht so einfach werden.
+Er ist nicht nur außergewöhnlich gut geschützt, sondern besitzt auch einen eigenen Whitelist-Server. Der wird alle Verbindungen von externen Quellen sofort ablehnen, dementsprechend auch uns. Wir müssen einen anderen Eingang in das Netzwerk (unten) finden, um ihn zu umgehen und so reinzukommen.
+
+Das Netzwerk wird von Psylance Cyber Security betrieben. Macht euch also auf eine Herausforderung gefasst und verwischt stets eure Spuren.
+
+Sobald ihr einen Weg hinein gefunden habt, gebt das Administrator-Passwort des Buchungs-Mainframe beim Missionsabschluss unter Details an.
+Viel Glück.
+</body>
+    <attachments>
+      <note title="Mission Guidelines">
+Den Whitelist-Server des Buchungs-Mainframe untersuchen
+Das Netzwerk vom LAX-Eingangspunkt aus erkunden
+Das Mainframe-Passwort zu den Details beim Missionsabschluss hinzufügen.
+      </note>
+      
+      <link comp="dal_lax" />
+      <link comp="dpa_bookings" />
+      
+    </attachments>
+  </email>
+</mission>

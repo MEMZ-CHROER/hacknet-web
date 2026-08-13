@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dhaComp1" name="HA_Coagula" security="4" icon="Alchemist" type="empty">
+  
+  <proxy time="-1" />
+  <trace time="200" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dhaComp2" position="320" total="360"/>
+
+  <file path="home" name="alchemy.txt">Les anciens alchimistes pensaient, par erreur selon certains, que les métaux avaient une vie propre ; qu'ils la démarraient en tant que plomb, représenté par Saturne, avant d'évoluer vers d'autres éléments jusqu'à l'or (le Soleil).
+
+Plus tard, on se rendit compte qu'il s'agissait d'une métaphore. Vie et substance, la Matière, évoluent par cycles. Ce qui est en bas est comme ce qui est en haut, dit la Table d'émeraude. 
+
+"Vous, mon ami, évoluerez, démarrerez un nouveau cycle, et il sera glorieux."</file>
+
+  <!-- Translators note: Do not translate this file! It's meant to stay in Latin -->
+  <file path="home" name="tablet_latin.txt">Tabula Smaragdina
+
+Verum, sine Mendacio, certum et verissimum:
+
+Quod est Inferius est sicut quod est Superius, et quod est Superius est sicut quod est Inferius, ad perpetranda Miracula Rei Unius. Et sicut res omnes fuerunt ab Uno, meditatione inius, sic Omnes Res natae ab hac una Re, adaptatione.
+
+Pater eius est Sol. Mater eius est Luna. Portavit illud Ventus in Ventre suo. Nutrix eius Terra est. Pater omnis Telesmi totius Mundi est hic. Virtus eius integra est si versa fuerit in Terram. Separabis Terram ab Igne, subtile ab spisso, suaviter, magno cum ingenio.
+
+Ascendit a Terra in Coelum, iterumque descendit in Terram, et recipit Vim superiorum et inferiorum. Sic habebis Gloriam totius Mundi. Idio fugiet a te omnis Obscuritas. Haec est totius Fortitudinis Fortitudo fortis, quia vincet Omnem rem subtilem, Omnemque Solidam penetrabit.
+
+Sic Mundus creatus est. Hic erunt Adaptationes Mirabiles, quarum Modus est hic. Itaque vocatus sum Hermis Trismegistus, habens tres partes Philosophiae totius Mundi.
+
+Completum est quod dixi de Operatione Solis.</file>
+
+  
+  <file path="home" name="tablet_newton.txt">La Table d'émeraude
+
+Il est vrai, sans mensonge, certain, et très véritable :
+
+ce qui est en bas, est comme ce qui est en haut ; et ce qui est en haut est comme ce qui est en bas, pour accomplir les miracles d'une seule chose.
+
+Et comme toutes les choses ont été, et sont venues d’un, par la médiation d'un : ainsi toutes les choses sont nées de cette chose unique, par adaptation.
+
+Le Soleil en est le père, la Lune la mère, le vent l'a porté dans son ventre ; la Terre est sa nourrice.
+
+Le père de toute la perfection du monde entier est ici.
+
+Sa force, sa puissance est entière, si elle est convertie en terre.
+
+Tu sépareras la terre du feu, le subtil de l'épais doucement, avec forte précaution.
+
+Il monte de la terre au ciel, puis redescend vers la terre, et il reçoit la force des choses supérieures et inférieures.
+
+Tu auras ainsi la gloire du monde entier
+et tu seras purgé de toute obscurité.
+
+C'est la force au-dessus de toute force : car elle vaincra l'infime et pénétrera tout élément solide.
+
+Ainsi naquit le monde.
+
+De là sont issues d'admirables adaptations, dont le moyen (ou processus) est intrinsèque. C’est pourquoi j'ai été appelé, Hermès Trismégiste, possédant les trois parties de la philosophie du monde entier.
+
+Ce que j'ai annoncé de l'opération du Soleil s'est accompli, et parachevé.</file>
+
+  <file path="home" name="nameofgod.txt">Yod
+HÉ
+Vav
+Hé
+</file>
+
+  <!-- This should be more cryptic than this, and require, ideally, a player to have read 
+  something on the entry comp to understand it properly. It does need to be an explicit hint 
+  for gameplay purposes though. -->
+  <file path="home" name="Rebis.txt">Les motifs d'illusions et de changement sont cycliques, se répétant et se reflétant à travers les générations, les domaines, les sujets.
+  
+Il est donc clair, pour les technologies actuelles également, de suivre les écrits alchimiques au pied de la lettre.
+
+Le « pare-feu » apparaît à nouveau, non en tant que signe religieux ou belliqueux, mais en tant qu'objet sociétal. Et pourtant, on se réfère au même mot, de la même façon.
+Terre, Matière Première, K'un.
+
+A partir de Rebis, recherche la sagesse du mouvement, de la connexion, de la mobilité.
+</file>
+
+  <LogoDaemon Name="COAGULA" ShowsTitle="true" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/Alchemists1">
+De tao vient un.
+D'un vient deux.
+De deux vient trois.
+De trois viennent toutes choses.
+  </LogoDaemon>
+  
+</Computer>

@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubIntro3" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>Приглашение от CSEC - поздравления</subject>
+    <body>
+Отличная работа, 
+
+#PLAYERNAME#! Ранее я сам пытался найти лазейку в их главном сервере, но безуспешно - видимо, они приняли надлежащие меры. 
+Вы отлично зарекомендовали себя. 
+
+Пользуясь случаем, я официально приветствую вас в рядах CSEC - здесь все знают свое дело (ну, более-менее), так что если прошлое задание показалось вам легким, вы попали по адресу. 
+
+Прилагаю данные для входа на наш центральный сервер - это наша база, где можно принять контракты и найти новый код. 
+В качестве приветственного подарка выберите себе новые программы из нашего хранилища. Будем на связи.
+
+-Vap0r, 
+администратор CSEC
+    </body>
+    <attachments>
+      <link comp="mainHub"/>
+      <account comp="mainHub" user="#PLAYERNAME#" pass="reptile"/>
+      <link comp="mainHubAssets"/>
+      <account comp="mainHubAssets" user="admin" pass="csec-5xg3D11"/>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dPsyInternal" name="Psylance Internal Services" security="4" type="empty" icon="Psylance">
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 25, 443, 80, 1433</ports>
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="90" />
+  <portRemap>22=340</portRemap>
+  <adminPass pass="catsarebestpet" />
+  <dlink targer="dPsyArchives" />
+
+  <account username="faithless" password="catsarebestpet" type="2" />
+  
+  <file path="home" name="Organization.txt">Aufgrund der Art und Weise, wie ich unser Archiv-System eingerichtet habe, verwendet bitte den Ordner „projects“ für alle Berichte und Dateien – manche Programme usw. generieren Müll im Home-Verzeichnis, der sich nicht mit unserer eigentlichen Arbeit vermischen sollte. Also lasse ich es leer.
+Danke!
+-Faith
+  </file>
+
+  <encryptedFile path="projects/investigations" name="PA_0022_Incident.dec" ip="209.68.41.129" header="Psylance cyber security abteilung interne untersuchungen inc.">
+Psylance Cybersicherheit - interne Untersuchungsabteilung
+---------------------------------------
+
+Während des Fluges Pacific Air PA_0022 ereignete sich ein Ausfall der Flugsteuerung, wodurch kritische Sinkgeschwindigkeiten und das Risiko eines Absturzes ausgelöst wurden. Die Kontrolle wurde kurz vor einem kritischen Ausfall wiedererlangt und die Piloten konnten den Flug sicher fortsetzen.
+Bei der Untersuchung des Flugzeugs nach der Landung konnten keinerlei Defekte an der Hardware des Flugzeugs festgestellt werden und Software wie Firmware schienen intakt zu sein.
+Eine vollständige Kopie der Software wurde zwecks Fehleruntersuchung an Psylance geschickt.
+
+Nachdem zunächst nichts vermisst oder als beeinträchtigt eingestuft wurde, zeigte eine vollständige Untersuchung ein überraschendes *Fehlen* von Systemprotokollen zu diesem Ereignis. Dies legt nahe, dass auf das System von außen eingegriffen wurde, woraufhin eine vollständige Protokoll-Durchsuchung durchgeführt wurde.
+Während es sich noch um Spekulation handelt, ist eine umfassende Untersuchung diesbezüglich im Gang und es kam zu einer vollständigen Durchsuchung existierender Server.
+
+Eine Anomalie trat auf – ein Disconnect-Protokoll von einer unbekannten IP auf Pacific_ATC_Skylink (208.91.196.94). Die zurückgelassene IP lautet 208.73.210.214
+Diese Spuren führten uns zum Gateway eines Hackers namens „Coel“, den wir für diesen Vorfall als verantwortlich betrachten.
+
+Ich empfehle, dass in dieser Angelegenheit eine umfassende Untersuchung eingeleitet wird. Psylance hat sich der Sicherheit Ihrer Server verschrieben und wird seine Bemühungen verdoppeln, um alle Systeme in Ihrem Netzwerk zu sichern.
+  </encryptedFile>
+
+  <file path="projects/investigations" name="WhitelistGlitches.zip">#BINARY#</file>
+
+  <file path="projects/misc" name="IRC_Config.txt">//IRC Baseline-Setup für Roaming-Admins – für einfache Wartung in neue Kundenkonten kopieren
+Color=67,204,148 //PSYLANCE GRÜN
+//CORE USER SET
+:user name="faithless" color="0,209,232"
+:user name="dardypants" color="202,98,0"
+:user name="da_vito" color="0,196,82"
+//Admin Config
+:Auth public="false" sec="restricted"
+  </file>
+
+  <file path="projects/misc" name="IRC_setup.zip">#BINARY#</file>
+  
+  <file path="projects/clients" name="Nisei_MK_III.txt">Von Jintech Inc. kontaktiert wegen neuer Sicherheit für ihre Server.
+Anscheinend vor Kurzem von einer Art Gruppe SCHWER angegriffen – sie haben alle Archive ihres „Nisei“-Projekts verloren und haben Hardcopys physisch (!!) an einen sicheren Ort geflogen, um es zu verhindern.
+Sie behaupten, dass sie die Daten verlieren, sobald sie sie transkribieren, ganz egal, wo sie hingeschickt werden.
+
+Ihre Aufzeichnungen sind *unglaublich* sauber – jemand hat es wirklich auf sie abgesehen, und ich bin nicht 100 % sicher, dass wir so einen Druck zurzeit aushalten können. 
+
+Sieht nach PR-Selbstmord aus, jetzt zu versuchen, es aufzuhalten. Schlage vor, abzulehnen.
+</file>
+
+  <Memory>
+    <Commands>
+      <Command>cd /projects</Command>
+      <Command>scp * ARCHIVE_LINK.bat</Command>
+    </Commands>
+    <Data>
+      <Block>PA_0022_todo.txt
+-------------
+Es wäre schön, einen Weg zu finden, damit unser Unternehmen in diesem Bericht weniger erbärmlich klingt – weniger wie ein Haufen totaler Versager.
+Ich denke, er ist so gut, wie er sein kann – schick ihn einfach ab und hoffen wir, dass sie uns deswegen nicht zu sehr Feuer unterm Hintern machen ... :/</Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Misc/Psylance_Big</Image>
+    </Images>
+  </Memory>
+  
+</Computer>

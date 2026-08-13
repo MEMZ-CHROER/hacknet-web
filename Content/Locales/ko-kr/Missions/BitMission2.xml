@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitMission02" activeCheck="true">
+  <goals>
+    <goal type="FileDownload" target="bitMission02" file="Entropy_Induction_Test" path="home"/>
+  </goals>
+  <nextMission>Entropy/EntropyMission1.1Delayer.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>이제 다음은 어디로</subject>
+    <body>
+좋아! 당신이 이걸 읽고 있다면 일을 잘 해낸 것이고... 이 모든 게 아주 헛수고는 아닐 것이란 희망이 생기는군. 
+무리한 희망은 아니길... 무리한 희망일지도 모르겠네. 
+
+나한테는 모두 다 적을 시간이 없어. 당신이 배워야 것이 너무나도 많은데, 나는 가르쳐줄 시간이 없어. 그래서 부탁을 더 해야겠어. 
+
+현재 신입을 받고 있는 'Entropy'라는 이름의 그룹이 있어. 그들이라면 당신을 가르칠 수 있을 거야. 당신이 준비가 되면 다시 연락을 할게. 
+Entropy에 가입하려면 프록시 서버를 바이패스해야 돼. 이미 관리자 권한을 가진 컴퓨터에 셸(&quot;shell&quot; 명령어로 열 수 있음) 몇 개 실행하면 오버로드할 수 있을 거야. 
+
+조심하고... 
+고마워,
+
+--Bit
+0
+
+&lt;br&gt;추신: 잊을 뻔했는데, 문제가 생길 경우를 대비해 네트워크 교육 기록 서버를 링크했어. 쓸만한 정보가 아주 많아.
+    </body>
+    <attachments>
+      <note title="프록시 서버 정보">프록시 서버에 대한 몇 가지 메모 - 전형적인 Entropy 도전 과제. 
+
+&quot;Shell&quot;을 사용하여 관리자 권한이 있는 컴퓨터에 셸을 실행하세요. 
+
+대상 컴퓨터에 연결하여 보안을 살피십시오. 
+
+셸을 사용해 대상 프록시를 오버로드하십시오. 
+
+자세한 정보는 NetEdu Archives에서 찾을 수 있습니다.
+      </note>
+      <link comp="netEduComp"/>
+      <link comp="bitMission02"/>
+    </attachments>
+  </email>
+</mission>

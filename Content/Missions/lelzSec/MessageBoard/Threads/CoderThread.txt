@@ -1,0 +1,44 @@
+junkCoder
+------------------------------------------
+#Academic
+Daily Programming Thread
+What are you working on, /el/?
+------------------------------------------
+Trying to find the resolve to program again.
+It brings back so many memories of my ex-bf. ;_;
+------------------------------------------
+Is it safe to schedule events like that? Just create a new thread? 
+
+boost::thread( [] { boost::this_thread::sleep (boost:: posix_time :: seconds(5)); running = false;});
+>inb4 >C++ >boost
+------------------------------------------
+>>37334564
+Just be careful with those flags. Use locks or atomics instead.
+------------------------------------------
+>>37334598
+What do you mean by flags? Also what are atomics?
+------------------------------------------
+>>37334626
+>running = false
+
+The problem with C++'s low level roots is that at ASM level this can do crazy shit. 
+Atomics ensure that all operations you do on that variable really act like a single operation.
+------------------------------------------
+Somebody rate my Sudoku solver?
+http://pastebin.com/uTyyud5q
+------------------------------------------
+In the check function, int tx and ty are assigned x/3 and y/3 respectively, but then are multiplied by 3 right afterwards. Why not just assign x and y directly?
+------------------------------------------
+Well, too late a reply but, 
+Im looking for the particular block in which they are. 
+Say, x = 5, y = 5.
+The particular block starts at 3,3. And that's the only way i could figure out how to do that.
+------------------------------------------
+>>37334068 (OP)
+Working on becoming happier and learning the Windows API and the FreeBSD kernel perhaps
+------------------------------------------
+>>37343926
+>happier
+>Windows API
+hhehehe
+------------------------------------------

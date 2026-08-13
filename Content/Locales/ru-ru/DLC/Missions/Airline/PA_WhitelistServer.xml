@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa_whitelist" name="PacificAir_Whitelist_Authenticator" security="5" type="4" icon="PacificAir">
+
+  <!-- This server is part of the security system the external contractors "Psylance" put in place
+  Connections to the critical servers (Bookings mainframe, mail, and this one) are automatically denied
+  unless they're on the whitelist, hosted on this server.
+  
+  Shortly after the player gets here, Coel or Default will work their magic to disable it.
+  Alt plan is to add the team's IP's to the list, but that involves a lot of extras
+  (making comps for Coel/default if the player follows the lead, scan being less elegant,
+  someone needing to delete those entries after mission is over. Desirables, if I have time)
+  
+  This means that this computer contains a list of external IPs of employee home computers that can access it.
+  Scanning will reveal all of these, as a shortcut.
+  
+  It should contain a few technical documents explaining what it does, and a few notes from the Psylance staff about
+  people who want access etc, and a copy+paste message they can use to deny people.
+  -->
+  
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="55" />
+  <portsForCrack val="2" />
+  <ports>21, 6881, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <positionNear target="dpa_nethub" position="180" total="360" extraDistance="0.1"/>
+
+  <dlink target="dpae_airline_misc"/>
+  <dlink target="dpae_airline_mailLink"/>
+  <dlink target="dpae_airline_home"/>
+  <dlink target="dpae_psy_1"/>
+  <dlink target="dpae_psy_2"/>
+
+  <WhitelistAuthenticatorDaemon />
+  
+  <file path="Whitelist" name="list.txt">
+98.124.245.24
+141.8.224.143
+141.88.107.140
+208.91.197.160
+209.68.11.125
+  </file>
+
+
+  <file path="home" name="general.txt">Этот сервер является частью интегрированной системы безопасности Psylance. Его цель - предотвращение несанкционированного доступа к критическим частям вашей инфраструктуры.</file>
+  
+  <file path="home" name="connection_autodeny_draft.txt">Отказано в доступе Причина: Нет в белом списке
+Если вы получили это письмо по ошибке, свяжитесь с нашим Psylance-сертифицированным администратором и ВСТАВЬТЕ ПИСЬМО ЗДЕСЬ.
+примечание: согласуйте это с psylance</file>
+
+  <file path="home/requests" name="denial_template.txt">Здравствуйте, ВВЕДИТЕ ИМЯ!
+Мы получили вашу заявку на получение доступа к серверу.
+К сожалению, доступ к данной машине строго ограничен, и указанные вами цели для получения доступа не соответствуют нашим требованиям для добавления в белый список.
+Если вы хотите получить дополнительную информацию или получили это письмо по ошибке, свяжитесь с нашим Psylance-сертифицированным администратором по адресу ВСТАВЬТЕ ПИСЬМО ЗДЕСЬ.</file>
+
+  <file path="home/requests" name="rq_g.txt">log:denied
+примечание: относится несерьезно к правам доступа</file>
+
+  <file path="home/requests" name="rq_n.txt">log:accepted
+примечание: неотъемлемый член команды, доступ для него важен, можно доверять</file>
+
+  <file path="home/requests" name="rq_test.txt">привет, меня зовут бла-бла-бла-бла-бла и мне нужно получить доступ с целью бла-бла-бла. впустите меня, мне так одиноко.</file>
+  
+</Computer>

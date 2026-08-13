@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dAttackSource" name="Proxy Striker" security="6" ip="72.52.4.119" type="4" icon="DLCPC2">
+  
+  <trace time="80" />
+  <portsForCrack val="3" />
+  <ports>21, 22, 6881</ports>
+  <proxy time="0.4" />
+  <firewall level="-1"/>
+  
+
+  <dlink target="dAttackHome" />
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+
+  <file path="home" name="irc_autolog_286.log">fdsfjga: deja de ser tan tóxico
+StrikeR: qué tal si
+StrikeR: dejas
+StrikeR: de comer
+StrikeR: y de paso me mandas ya
+StrikeR: tu tema
+fdsfjga: suspiro
+fdsfjga: ahora?
+StrikeR: sí
+fdsfjga: no puedes esperar a que acabe el juego?
+StrikeR: .
+fdsfjga: en serio
+fdsfjga: estoy ocupado haciendo jungling
+StrikeR: ah pensaba que estabas ausente
+fdsfjga: ja, ja que te jodan
+StrikeR: xd
+fdsfjga: eh
+StrikeR: qué
+StrikeR: qué quieres ahora
+fdsfjga: se acabó el juego
+StrikeR: qué
+fdsfjga: te acuerdas del juego?
+StrikeR: lo siento, tendrás que recordármelo
+fdsfjga: maldita sea
+fdsfjga: eres un listillo
+StrikeR: ahora vuelvo, *estoy ausente*
+fdsfjga: no, no lo estás
+StrikeR: mierda, me pillaste
+fdsfjga: quieres el paquete temático o no?
+StrikeR: puuufffFFFFFFFFF
+StrikeR: vale
+StrikeR: vamos al irc
+fdsfjga: este es el irc
+StrikeR: ¡hala!
+StrikeR: da qué pensar eh
+</file>
+  
+  <file path="home" name="irc_autolog_289.log">StrikeR: tu tema está roto
+fdsfjga: ?
+StrikeR: ?
+fdsfjga: ???
+StrikeR: está roto
+StrikeR: qué
+fdsfjga: qué/?
+StrikeR: no sé qué decir
+StrikeR: no carga
+fdsfjga: a ver
+fdsfjga: en el mío carga bien
+fdsfjga: no será que tú eres malísimo
+StrikeR: a ver
+StrikeR: seamos sinceros
+StrikeR: eso es muy improbable
+fdsfjga: jodiste la extensión del archivo?
+StrikeR: no
+fdsfjga: lo comprobaste?
+StrikeR: sí
+fdsfjga: lo comprobaste en serio?
+StrikeR: sí
+fdsfjga: compruébalo otra vez
+StrikeR: que te den
+fdsfjga: qué me dices de la extensión del archivo, eh?
+StrikeR: tienes suerte de que tus temas sean buenos
+fdsfjga: ?
+fdsfjga: está bien saber cuánto valoras a tu propio personaje
+fdsfjga: :3
+StrikeR: reportado
+</file>
+  
+  <file path="home" name="irc_autolog_290.log">fdsfjga: eh
+fdsfjga: creo que deberías saber
+fdsfjga: que jammy ha estado soltando mierda desde que te fuiste
+fdsfjga: algo como que las chicas no son tan buenas en el dota
+fdsfjga: qué capullo ja, ja
+StrikeR: ok
+StrikeR: en la próxima partida iré a la línea central
+fdsfjga: sí, ya se lo he dicho a todos
+StrikeR: ni siquiera me importa ganar el juego
+fdsfjga: oh no
+StrikeR: oh sí
+fdsfjga: por favor
+StrikeR: central sf
+StrikeR: sabes ese build malo?
+fdsfjga: no
+StrikeR: el mecanismo dagon
+StrikeR: te aseguro que dejará la partida
+</file>
+
+  <file path="home" name="irc_autolog_291.log">
+fdsfjga: en serio?
+fdsfjga: de verdad
+fdsfjga: hackeo en el servidor
+StrikeR: ?
+fdsfjga: Ay dios
+fdsfjga: tú...
+StrikeR: no utilizó un proxy
+StrikeR: así que prácticamente me lo estaba suplicando
+fdsfjga: no me lo creo
+fdsfjga: estaba lloriqueando en el #dota
+fdsfjga: espera
+StrikeR: funcionó?
+fdsfjga: sí, destruiste su tarjeta gráfica
+fdsfjga: la hiciste pedazos
+StrikeR: Ja, ja, ja. Debería haber sospechado de mí cuando le pregunté qué modelo tenía.
+fdsfjga: increíble
+fdsfjga: se gastó todo su sueldo en eso
+StrikeR: debería haberse gastado 5$ en un vps
+fdsfjga: sabía que te parecía un mierdas pero
+fdsfjga: no crees que te has pasado?
+StrikeR: no
+StrikeR: ja, ja
+fdsfjga: valep
+StrikeR: necesita aprender
+StrikeR: que
+StrikeR: sus palabras
+StrikeR: tienen
+StrikeR: consecuencias
+StrikeR: JA, JA
+StrikeR: adivina qué más encontré mientras flasheaba la bios de la gráfica
+fdsfjga: ooh qué
+StrikeR: un chat completo en el que acosaba a una tía
+fdsfjga: no puede ser
+StrikeR: sip, guardaba todos los registros del chat msn messenger, jo, jo, jo
+fdsfjga: es increíble
+</file>
+  
+  <file path="home" name="strikeout.txt">j4mmy: ¡Eh! :)
+- - -
+j4mmy: ¡hola!
+* ¡j4mmy ha enviado un codazo! *
+- - -
+j4mmy: q tal?
+- - -
+j4mmy: *te da un masaje de hombros*
+* ¡j4mmy ha enviado una pegatina! *
+- - -
+j4mmy: *dice hola*
+* ¡j4mmy ha enviado un codazo! *
+- - -
+* ¡j4mmy ha enviado un codazo! *
+j4mmy: por dios deja de ignorarme
+[A]LEX[A]: qué quieres?
+j4mmy: qué pasa? :)
+[A]LEX[A]: escucha
+[A]LEX[A]: no me gustas
+[A]LEX[A]: deja de acosarme
+j4mmy: qué??
+j4mmy: te has pasado un poco
+[A]LEX[A]: sabes lo que es pasarse?
+[A]LEX[A]: enviarme mensajes guarros cada dos por tres.
+[A]LEX[A]: esperando acostarte conmigo.
+[A]LEX[A]: Tienes literalmente 0 posibilidades conmigo y tus mensajitos han puesto el marcador por debajo de cero.
+j4mmy: no hace falta que te pongas histérica conmigo
+[A]LEX[A]: Eso conmigo no funciona, no intentes hacerme sentir mal.
+[A]LEX[A]: en conclusión: lárgate, perdedor, no vayas a llorar encima de tus cereales, después sabrán mal.
+[A]LEX[A]: adióssssss :)
+* [A]LEX[A] se ha desconectado. Es posible que tus mensajes no le lleguen. *
+* [A]LEX[A] se ha desconectado. Es posible que tus mensajes no le lleguen. *
+* [A]LEX[A] se ha desconectado. Es posible que tus mensajes no le lleguen. *
+</file>
+  
+  
+  
+  
+</Computer>

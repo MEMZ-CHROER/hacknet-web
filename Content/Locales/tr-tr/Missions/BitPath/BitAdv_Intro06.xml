@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase6" >
+  <goals>
+    <!--
+    <goal type="FileDownload" target="EnTechOutsiderRepo" file="heart.dec" path="Contractors/Bit" />
+    -->
+  </goals>
+  <missionStart val="1">changeSong</missionStart>
+  <nextMission>BitPath/BitAdv_Intro07.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Doğrulama</subject>
+    <body>Bu tam da umduğum şey. Güzel temizlenmiş, fakat Bit'in klasöründeki şu şifreli dosya (muhtemelen görmüşsündür), o dosya yok mu...
+Nasıl açıldığını biliyorum. Uzun zaman önce beraber başka bir proje üzerinde çalışırken bana bu şifreyi söylemişti. O zamanda bunun gibi şifrelenmiş mesaj göndermişti.
+
+Şifre: "divingsparrow" - Çoktan okudum bile. Şimdi de kontrol etmem gereken bir e-posta hesabı var. Seninde aynını yapmanı öneririm.
+Dosyayı indir ve şifresini çöz. Etrafta açık kopya bırakayım deme. Sonra da benimle iletişime geç. Gerçekler ortaya çıkacakmış gibi geliyor, tabi birazcık da aksiyon yaşayacağız sanki.
+
+Hallettiğinde iletişime geç. Bu işi bitireceğiz.
+
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dIntro1" name="Test-PC 1" security="1">
+
+  <proxy time="0.5" />
+  <portsForCrack val="2" />
+  <ports>22, 21</ports>
+
+  <trace time="150" />
+  
+<file path="home" name="readme.txt">Hier wird es ein Programm geben, das dein Interface verändert,
+deine Netmap und dein Mail-Symbol zerstört, das Design ändert, ein paar Nachrichten über weitere Tests oder so postet.
+
+gehe fürs Erste einfach nur an dessen Zielort und tu so, als ob du keine Shells hättest – das Programm wird die auch beenden.
+216.239.32.21
+ </file>
+  
+  
+</Computer>

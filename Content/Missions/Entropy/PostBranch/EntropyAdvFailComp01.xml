@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="entropyAdvFail01" name="KyonBox" security="3" ip="176.194.38.111">
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <account username="admin" password="haruhi" />
+  <proxy time="2" />
+  <trace time="70" />
+  <file path="home/loot" name="Macrosoft_dox.txt">Macrosoft Storage Servers:
+  168.61.82.246
+  </file>
+  <file path="home/docs" name="jessie.txt">
+[lilsebastian] So, do you think you'll be allowed to come?
+[kkswatch] I don't know, mom doesn't like me to be out of the house.
+[lilsebastian] I'll buy you some McDonalds.
+[kkswatch] Oh yeah?
+[lilsebastian] Whatever you want.
+[kkswatch] Then what will we do?
+[lilsebastian] Well, I was thinking we could go up to the lookout.
+[lilsebastian] Watch the stars or something.
+[kkswatch] Oh really? This is starting to sounds like a date.
+[lilsebastian] Well, would that be okay?
+[kkswatch] Meet me in the back alley in 25. I'll be ready.
+[lilsebastian] :D
+  </file>
+  
+  <file path="home/docs" name="lantime.txt">
+[jlord93] You ready to hit it this weekend?
+[xn00bslayerx] yup!
+[xn00bslayerx] gots me booze and me coddles ready to go
+[jlord93] 360NOSCOPE fools for dayz :p
+[xn00bslayerx] I hope Jessie comes to the LAN this weekend
+[jlord93] Here we go....
+[xn00bslayerx] shut up!
+[jlord93] Impress her with your 1337 skillz man
+[jlord93] Anyways, I'm out. See you at school tomorrow.
+  </file>
+  
+  <file path="home/docs" name="update.txt">
+[slaggedfire] Can you believe the BS these developers have crammed into this update?
+[slaggedfire] I mean, who cares about procedrual grass animations?  
+[slaggedfire] I just want more actual content! 
+[zuggj1] They'll probably charge us an arm and a leg for this too
+[slaggedfire] Want to log in and do the raid again? 
+[zuggj1] Might as well.
+  </file>
+  
+</Computer>

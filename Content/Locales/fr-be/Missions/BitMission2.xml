@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitMission02" activeCheck="true">
+  <goals>
+    <goal type="FileDownload" target="bitMission02" file="Entropy_Induction_Test" path="home"/>
+  </goals>
+  <nextMission>Entropy/EntropyMission1.1Delayer.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Et maintenant on va où</subject>
+    <body>
+Super ! Si tu vois ça, c'est que tu as réussi et... tout ça vaut peut-être le coup. 
+On peut espérer, en tout cas. L'espoir fait vivre, il paraît. 
+
+J'ai compris que je n'aurais pas le temps de tout écrire, il y a trop de choses à apprendre, je n'ai pas le temps. Bref, je vais devoir te demander quelque chose d'autre. 
+
+Un groupe qui se fait appeler « Entropy » recherche des membres. Ils pourront t'apprendre plus de choses. Je te recontacterai quand tu seras prêt. 
+Pour rentrer dans Entropy, tu devras contourner un serveur proxy en le surchargeant. Ça devrait le faire avec quelques shells (la commande pour les ouvrir est « shell ») sur des ordis où tu as un accès admin. 
+
+Bonne chance,
+ et merci, 
+
+--Bit
+0
+
+ P.S. : J'oubliais : si tu as des problèmes, je t'ai lié le serveur d'archives d'éducation réseau. Il y a plein d'infos intéressantes dessus. 
+    </body>
+    <attachments>
+      <note title="Infos du serveur proxy">Quelques notes sur les serveurs proxy - un défi Entropy classique. 
+
+Lance des shells sur des ordinateurs où tu as un accès admin avec « Shell ». 
+
+Connecte-toi à un ordinateur cible et probe sa sécurité. 
+
+Sers-toi des shells pour surcharger le proxy.
+
+ Il y a plus d'infos dans les Archives de NetEdu.
+      </note>
+      <link comp="netEduComp"/>
+      <link comp="bitMission02"/>
+    </attachments>
+  </email>
+</mission>

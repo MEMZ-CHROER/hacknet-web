@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Firewalls: Analyze und Solve">
+Firewalls sind in der IT-Security schon seit geraumer Zeit bekannt und dienen i.d.R. eher dem Blockieren von automatisiertem Traffic als der Abwehr von Hackern.
+Moderne Firewalls können jedoch auch so konfiguriert werden, dass sie *jeden* sicherheitskritischen Datenverkehr blockieren; es sei denn, er wird mit einer sog. Firewall-Solution eingeleitet (welche von Endnutzern häufig und fälschlicherweise als Passwort bezeichnet wird - es gibt jedoch Unterschiede zwischen den beiden Konzepten).
+
+In diesem Fall muss zunächst eine solche Firewall-Solution angegeben werden, bevor ein Versuch gestartet werden kann, Zugangsrechte zu erlangen - in der Praxis bedeutet das, dass sämtliche Passwort-Knacker absolut nutzlos sind, während die Firewall aktiv ist.
+
+Die Komplexität einer Firewall kann mithilfe des Befehls "analyze" überprüft werden - Nach mehreren Durchläufen werden dank automatischer Mustererkennung in den Headern der Server-Antwort Symbole, die nicht in der Firewall-Solution enthalten sind, herausgefiltert.
+Wenn eine potenzielle Lösung gefunden wurde, kann mithilfe des "solve [FIREWALL_SOLUTION]" Befehls ein Versuch gestartet werden, die Firewall zu umgehen.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Wenn du diese Mail erhalten hast, ist ein unerwarteter Fehler aufgetreten.
+Bitte in Panik geraten.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

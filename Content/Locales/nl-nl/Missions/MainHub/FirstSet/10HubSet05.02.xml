@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="C_EXE_contact.dec" path="home" destTarget="hubPubDrop" destPath="Drop/Uploads" decrypt="true" decryptPass="quinnoq"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Decodeer een beveligd bericht" reqs="decypher">
+Een beveilgd bestand was gestuurd naar een CSEC lid die het niet kan decoderen. Ze hebben het wachtwoord ervoor nodig.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Twee schepen in de nacht</subject>
+    <body>
+Hey,
+
+Een vriend stuurde me wat details van een klus waaraan we werken, maar het is versleuteld en ik kan het niet open krijgen.
+Het staat op de crossroads als "C_EXE_contact.dec", kan je het ontcijferen en uploaden naar de drop server?
+
+Het wachtwoord zou "quinnoq" moeten zijn.
+
+Bedankt!
+
+-CSEC Dan
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <link comp="hubPubDrop" />
+      <note title="Contract Details">Download C_EXE_contact.dec
+
+Ontcijfer het
+
+Upload het resultaat naar de CSEC publieke drop server.</note>
+    </attachments>
+  </email>
+</mission>

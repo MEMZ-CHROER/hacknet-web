@@ -1,0 +1,29 @@
+<ConditionalActions>
+  
+  <OnConnect target="dPets_Home" needsMissionComplete="false">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="2.0">#PLAYERNAME# , bununla sen ve ben ilgileneceğiz!</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="6.0">Yarışabiliriz hatta :P</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="9.2">Sizin işiniz benimkinden daha eğlenceli sanki ._.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="14.0">Evet. Sana da o gizemli işinde kolay gelsin Coel -_-</AddIRCMessage>
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="84.0">Ah! Ne zaman FTP için Tab'la tamamlasam eski programa tamamlıyor.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="87.0">Sinirimi bozuyor.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="94.0">Aslında tek...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="98.0">yapman gereken eskisini silmek...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="103.0">değil mi?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="107.0">hatta mv komutuyla ismini bile değiştirebilirsin.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="112.0">Hmm</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="119.0">Şu salla ilgili olan meseleyi hatırlıyor musun?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="123.0">Hani okyanus, utanç falan vardı?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="127.0">Evet.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="129.0">Bende.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="133.0">hahaha</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="170.0">@channel , ana bilgisayarıyla ilgili yeni bilgiler elde ettim.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="176.0">Veritabanları beklediğimden daha şaşalı çıktı. Kullanıcı kayıtlarının tamamını tek dosya olarak saklıyorlarmış. Bu da işimizi kolaylaştırıyor dolayısıyla.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="180.0">Doğru kullanıcı dosyasını bulduğunuzda istediğiniz değerleri değiştirmek için klasik değişiklik komutunu kullanmanız yeterli olacak.</AddIRCMessage>
+
+  </OnConnect>
+  
+</ConditionalActions>

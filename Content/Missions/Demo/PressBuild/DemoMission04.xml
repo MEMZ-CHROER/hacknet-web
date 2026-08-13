@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pressdemoMission04" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="finalNodeDemo" file="@19002_185.11.124.4_Disconnected" path="log" />
+    <goal type="FileDeletion" target="finalNodeDemo" file="@19002_logarchive" path="log" />
+    <goal type="FileDeletion" target="finalNodeDemo" file="x-server.sys" path="sys" />
+    <goal type="FileDeletion" target="finalNodeDemo" file="netcfgx.dll" path="sys" />
+  </goals>
+  <missionStart>demoFinalMissionStart</missionStart>
+  <missionEnd>demoFinalMissionEnd</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Vindication</subject>
+    <body>We're ready.
+
+I need you to do a takedown. As you might have guessed, most before this was just to get you up to speed - here's where it really starts.
+When you run "Sequencer", it's going to activate a script I've left on one of my servers. It'll open a connection to a web server, and I want that server destroyed - go in there and delete everything in the /sys/ folder.
+
+This isn't going to be quite like before - that server's hidden for a reason. It's going to have tracers on it in a big way. What's where sequencer helps - It'll be keeping that connection open as long as it can, and feeding your UI a guide on how much time you've got. Make sure you keep it running.
+
+Details attached, as always.
+For now, this'll be the last you hear of me - either way this build was meant to be temporary - a holdover to set things up for the real thing.
+
+Good luck.
+Fight.
+--Bit
+0
+    </body>
+    <attachments>
+      <note title="Mission Overview">Before starting, memorize these notes, then clear them away - you'll need all your system resources.
+
+Run Sequencer
+Connect to EnTech
+Probe the system
+Run your port breakers
+Porthack
+Move to the /sys/ folder
+Delete everything (rm *)
+Delete all logs
+Disconnect
+      </note>
+    </attachments>
+  </email>
+</mission>

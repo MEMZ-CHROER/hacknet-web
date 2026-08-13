@@ -1,0 +1,90 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa_nethub" name="PacificAir_Network_Hub" security="5" type="4" icon="PacificAir">
+  
+  <!-- Network hub for the airline. This is an "internal Services" node for the airline,
+  it runs misc services and hosts data for them. This sort of catch-all, "don't know
+  where to put it so just put it there" server exists *a lot* in corporate networks.
+  Because of it's generic nature, it's the easy answer to where things go, so it naturally
+  becomes the center of things over time.
+  
+  Mechanically, it mostly exists to provide a central point from which players can reference things,
+  and for players to feel like the network is big and expansive, when not everything has a specialized role.
+  
+  In terms of the files it'll have on it, probably a few memos from people to one another (and another one
+  complaining that they should just use the company email for that sort of thing), bits and pieces that
+  employees want to send each other, or be able to access at work, both personal and work-related.
+  We don't want players to spend too long here (there isn't anything too useful to the mission to find) so keep
+  it light.-->
+
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="61" />
+  <portsForCrack val="4" />
+  <ports>22, 21, 443, 6881, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <dlink target="dpa_mail" />
+  <dlink target="dpa_bookings" />
+  <dlink target="dpa_whitelist" />
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/PacificAir_Big" title="DLC/Sprites/PacificAirTitle" overdrawLogo="true" buttonAlignment="right" />
+  
+  
+  <file path="home/memos" name="0504_nkudo_contractors.txt">
+natが契約業者のリストを渡しに来ないので、ここに晒し上げる。
+はやくしろ！！！！！！ -g</file>
+
+  <file path="home/memos" name="0505_gfinbow_clarification.txt">ぐうの音も出ません、griffinさま。
+理知的な先輩には我慢ならなかったでしょうね。
+Finbow先輩、どうか許してください！
+知ってると思いますが、
+寝てたんです。これからは自覚を持って真面目に働きます。
+よかったらこのメモをよく読み直して。-nat</file>
+
+  <file path="home/memos" name="0506_hfadden_contractors.txt">
+2人ともいい加減にしろ。大人らしく振るまえないなら、このノードへのアクセス権を剥奪するぞ。 
+-Harry</file>
+
+  <file path="home/memos" name="0507_hg.txt">
+    おｋ
+  </file>
+
+  <file path="home/memos" name="0508_nkudo.txt">psylanceと一緒に行くことになりそうだな。リストをありがとう。
+-g</file>
+
+  <file path="home/memos" name="0509_g.txt">早く届けろって受動攻撃的に命令してよかったですね。しなかったらどうなってたでしょうね（笑） -n</file>
+
+  <file path="home/memos" name="0510_everyone_STOP_THIS.txt">これはプロダクション・サーバーだ。ファイルシステムをメモで荒らすのはやめろ。
+わざわざ用意してやったんだから、インスタントメッセージかメールシステムを使え、アホが。
+
+ちくしょうめ！
+
+-管理者</file>
+
+  <file path="home/memos" name="0510_to_admin.txt">
+    おこった？
+  </file>
+
+  <file path="home/memos" name="0511_everyone.txt">griffinの権限を剥奪した。もう1人への警告としたい。
+-管理者
+  </file>
+
+  <file path="home/share" name="underwater.txt">「なあ旦那、海軍予備隊に挑戦する気はないか？」とRossは聞いた。「普通の環境ならサンドハーストの課程はこなせるつもりだが、普通じゃないからな。合格する前にたぶんこの戦争が終わるだろう」
+
+「もっと楽しいことを考えたいな」とVernonが言った。
+
+「今は楽しくないってか？」 とRoseは切り返した。「でもわかるよ。Uボートに閉じ込められて仲間に狩られるより、ドイツの潜水艦を一網打尽にしたいってもんさ。それぞれ長官に手紙を書くに一票」 </file>
+
+
+  <file path="home/share" name="bonzibuddy.msi">#BINARY#</file>
+
+  <file path="home/share" name="bonzibuddy_v2.msi">#BINARY#</file>
+
+  <file path="home/share" name="the_tingler.msi">#BINARY#</file>
+
+  <file path="home/share" name="frog_fractions_3_beta.txt">#BINARY#</file>
+
+</Computer>

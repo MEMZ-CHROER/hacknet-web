@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Person id="csec_med_01" handle="Sal" firstName="Elanor" lastName="Helleran" isMale="false">
+  <Birthplace name="런던"/>
+  <Degrees>
+    <Degree uni="맨체스터 대학" gpa="3.1">컴퓨터 과학 석사</Degree>
+  </Degrees>
+  <DOB>06/08/1991 14:22:00</DOB>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>167</Height>
+    <Allergies>없음</Allergies>
+    <Perscription>아미오다론 (코다론) X70 격월</Perscription>
+    <Notes>부정맥으로 진단된 환자. 카페인 등 각성제의 남용에 의해 악화된 초기의 가벼운 사례 환자는 그녀가 공개적으로 마셔도 되는 에너지 음료와 커피의 양에 대해 반복적으로 충고를 받았지만, 보통 재발했습니다. 전체 진단을 하기 전에 흥분제 (합법 등)에  대한 혈액 검사를 하도록 권합니다.</Notes>
+  </Medical>
+  <Notes>의료 사례 구축을 누릅니다</Notes>
+</Person>

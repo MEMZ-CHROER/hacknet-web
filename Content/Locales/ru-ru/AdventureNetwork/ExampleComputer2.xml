@@ -1,0 +1,44 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="advExamplePC2" 
+          name="Adventure Example PC 2" 
+          ip="167.194.132.8"
+          security="0"
+          allowsDefaultBootModule="false"
+          type="1" > <!-- 1=  корпоративный, 2 = Домашний, 3 = сервер, 4 = пустой-->
+  <!-- Степень защиты от 0 до 5 в зависимости от уровня сложности взлома
+  От 1-4 - нужно открыть столько портов, в 4 и выше будет автоматически
+  добавляться еще один уровень защиты с возможностью постепенного увеличения, ты можешь переписать спецификацию ниже-->
+
+  <!-- Учетные записи -->
+  <adminPass pass="password" />
+  
+  <!-- Файлы -->
+  <file path="home" name="Test_File">Это тестовый файл в корневом каталоге </file>
+  <file path="home/NewDirectory" name="Test_File">
+    Это более длинное имя файла, которое также создает новый каталог при вводе маршрута
+
+    #BINARY
+    Он также генерирует двоичный код (состоящий из 2000 символов)
+
+    #PLAYER_IP#
+    Становится IP-адресом компьютера игрока
+
+    #PLAYERNAME#
+    вышеуказанная двоичная строка конвертируется в имя игрока
+
+    test test
+  </file>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file> <!-- port 1433 -->
+
+  <file path="sys" name="White-Theme.sys">#WHITE_THEME#</file>
+  <file path="sys" name="Green-Theme.sys">#GREEN_THEME#</file>
+  <file path="sys" name="Yellow-Theme.sys">#YELLOW_THEME#</file>
+  <file path="sys" name="Teal-Theme.sys">#TEAL_THEME#</file>
+
+  <addOnlineWebServer name="Reddit" url="http://www.reddit.com" /> <!-- Remember the http:// -->
+  
+</Computer>

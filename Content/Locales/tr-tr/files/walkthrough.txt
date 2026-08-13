@@ -1,0 +1,45 @@
+ GGG  RRRR   OOO    CCC  EEEE RRRR   22   11   11  
+G     R   R O   O  C     E    R   R 2  2 111  111  
+G  GG RRRR  O   O C      EEE  RRRR    2   11   11  
+G   G R  R  O   O  C     E    R R    2    11   11  
+ GGG  R  RR  OOO    CCC  EEEE R  RR 2222 11l1 11l1 
+                                                 
+Grocery Simulator 2010 TAM ÇÖZÜM
+COPYRIGHT 2011 GROCER211
+BAKKALİYE TARZI İŞLERDEKİ kANkAN
+e-posta: grocer211@grocermail.groc!
+
+========================================
+==========İÇERİK=====================
+
+GİRİŞ
+
+BÖLÜM 1
+
+BÖLÜM 2
+
+BÖLÜM 3
+
+BÖLÜM 4
+
+SON
+
+HİLELER
+
+SON NOTLAR
+========================================
+
+GİRİŞ
+
+WİKİ'DEN:
+"Grocery Simulator 2010, oyuncuların John Citizen ismindeki bir bakkalın rolüne bürünerek müşterilere hizmet ettiği, rafları düzenlediği ve yerleri sildiği bir simülasyon oyunudur. Ekim 2011'de yayınlanmış ve birçok inceleme sonucu..."
+
+Naber millet? Bugün sizlere dünyanın en bakkaliye tarzı simülasyonu olan Grocery Simulator 2010'u anlatacağım.
+
+bu oyunda hayatı bakkallıkla mahvolan ve kendi götünü kurtarıp tatlı dolarcıkları avuçlamak için her türlü saçma şeyi satmak zorunda olan (ezik) John Citizen isimli bakkalı oynuyorsunuz.
+
+Her şey sırayla. Arayüz, hangi rafların doldurulacağını, nerelerin temizleneceğini ve kaç müşteriniz olduğunu görebildiğiniz kısımdır. Eğer takılırsanız, bakkalgörüşünü açıp ne yapmanız gerektiğini görebilirsiniz. Hareket etmek için e (ileri), s (sol), d (geri), f (hızlı dönüş) tuşlarını, nesneleri kullanmak için (paspaslama veya toplama gibi görevleri gerçekleştirmek için) z tuşunu kullanacaksınız. İPUCU: Karakteriniz hareket ediyormuş gibi görünmeyebilir. Fakat bacaklarını görmüyor oluşunuz hareket etmediğini göstermez.
+
+========================================
+
+BÖLÜM 1

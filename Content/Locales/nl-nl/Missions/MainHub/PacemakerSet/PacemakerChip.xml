@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pacemaker01"
+          ip="202.6.141.219"
+          name="KBT-PM 2.44 REG#10811"
+          security="1"
+          icon="chip"
+          type="4" > <!-- 1=  corporate, 2 = Home, 3 = server, 4= empty -->
+  <!-- Security Stuff -->
+  <trace time="-1" />
+  <ports>104</ports>
+
+  <HeartMonitor patient="E_Whit"/>
+
+  <file path="KBT_Pacemaker" name="readme.txt"> Alle bestanden in deze map worden gedetecteerd door de pacemaker software en kunnen worden gebruikt in de ui als firmware patch, als het bestand correct ondertekent is.
+Als je deze chip op afstand wil patchen, upload een bestand naar deze map met "upload [LOKAAL BESTANDSPAD]".
+  </file>
+
+</Computer>

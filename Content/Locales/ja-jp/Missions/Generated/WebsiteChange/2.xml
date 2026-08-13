@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="generatedWebVandal02">
+  <generationKeys Data="Content/Web/BaseCorporateRecruiterPage.html"/>
+  <goals>
+    <goal type="FileChange" removal="true" target="#COMP#" file="#FILE#" path="#PATH#" keyword="@jmail.com" />
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="社員採用ページを妨害せよ">
+#CLIENT#から依頼がありました。ライバル企業の新人採用戦略を、一時的に妨害してほしいとのことです。
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>雇用の妨害</subject>
+    <body>
+こんにちは。
+
+新たな才能を発見するため、近々私たちの会社は新規雇用プロジェクトを行うこととなりました。そこで、おそらく同じことを考えているライバル会社を出し抜きたいのです。
+さほどお手間はとらせないはずです。ライバル会社のホームページ上にある採用担当の連絡先詳細を削除し、見込みのある候補者が私たちに連絡するようにしていただければ十分です。
+
+手を加えていただきたホームページのリンクは、メールに添付しておきました。
+
+どうかよろしくお願いします。
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

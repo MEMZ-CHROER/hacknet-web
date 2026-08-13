@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="milburgHigh" name="Milburg High IT Office" security="2" type="4">
+  
+  <proxy time="0.9" />
+  <portsForCrack val="1" />
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1" />
+
+  <adminPass pass="*******" />
+  
+  <file path="home/misc" name="People_not_To_Trust.txt" EduSafe="false">
+[jinkle] Hey Alter, hast du ne Ahnung, wo ich ein bisschen Gras kriege?
+[jinkle] so'n typ aus dem Lacy's hat dich empfohlen.
+[marcy] ja alter, wieviel brauchst du?
+[jinkle] cool, wieviel für 30 gramm?
+[marcy] €145
+[jinkI;tle] geht klar. wo treffen wir uns?
+[marcy] gut, wir haben einen Deal, 145€ für 30 gramm vom besten Gras?
+[jinkle] ja alter, abgemacht.
+[marcy] Cool. Habe deine IP. Werde vorbeischauen.
+[jinkle] warte, woher weißt du das?
+[marcy] Polizist zu sein, hat seine Vorteile......
+[jinkle] Verdammt. Meine Mutter wird mich umbringen.
+  </file>
+  
+  <file path="home/MH_STAFF" name="Student_TopSearchHistory.txt" EduSafe="false">
+1  Google
+2  Titten
+3  Titte
+4  Sex
+5  Sideboob
+6  Pron
+7  pornofilter deaktivieren
+8  dinge die durch den pornofilter kommen
+9  bürgerkrieg malerei
+10 GTA
+11 Twerking
+12 Was ist Twerking
+13 Twerkingtechniken
+14 bild französischer krieg oben ohne weib
+15 Sport
+16 Sportball
+....
+  </file>
+  
+  <file path="home/MH_STAFF" name="Announcements.txt">
+Bezüglich der Ankündigung der Internet-/Proxyserver-Wartung:
+
+Auch wenn einigen unserer Mitarbeiter offenbar nicht klar ist, was "Proxyserver ist down" bedeutet, scheint dies unseren Schülern sehrwohl bewusst zu sein.
+Während des angekündigten Ausfalles letzte Nacht haben einige Schüler herausgefunden, dass die Internetverbindung noch aktiv war, und der Suchfilter nicht. Im Ausfallszeitraum von 20 Minuten wurden insgesamt 22 Terabyte an pornografischen Inhalten auf die Schulserver und verschiedenste PCs in den Klassenräumen geladen.
+Natürlich wollen wir so etwas in Zukunft mit schärferen Sicherheitsmaßnahmen verhindern, allerdings könnte es auch helfen, die Wartungsarbeiten demnächst nicht mehr anzukündigen.
+
+Danke,
+-Verwaltung
+  </file>
+  
+  <file path="home/MH_STAFF" name="pw_memo.log">
+4:37 PM - MBIT: Ich habe über Sicherheit nachgedacht.
+4:37 PM - JBrooks: Ja?
+4:37 PM - MBIT: Ja, und ich finde, all diese Upgrades sind eigentlich nur verdammt viel unnötige Arbeit
+4:37 PM - MBIT: aber schau mal:
+4:38 PM - MBIT: einfache Lösung:
+4:38 PM - MBIT: wir nehmen einfach dieses IT Passwort
+4:38 PM - MBIT: *******
+4:38 PM - JBrooks: Kapier ich nicht
+4:38 PM - MBIT: Genau!
+4:38 PM - MBIT: Nur 7 *
+4:38 PM - MBIT: das ist das Passwort, nur Sterne
+4:38 PM - MBIT: Wer würde das jemals erraten? Niemand. Selbst wenn jemand versucht es zu hacken - es wird immer "geschützt" aussehen!
+4:38 PM - MBIT: Buchstäblich unknackbar!
+  </file>
+  
+  <file path="home/MH_STAFF/PRIVATE_STUDENT_EMAILS" name="mail.txt">Sollte mir je ein Schüler ein "Dankeschön" schreiben, werde ich die Mail hier speichern.
+Gott, ich bin so allein. Notepad, du bist die Einzige, die mich versteht :(</file>
+  
+</Computer>

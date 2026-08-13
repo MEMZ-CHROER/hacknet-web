@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechOutsiderRepo" name="EnTech External Contractor Relay Server" security="5" ip="156.151.59.35">
+
+  <adminPass pass="ax889msjA" />
+
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+
+  <positionNear target="EnTechMainframe" position="1" total="6" />
+
+  <encryptedFile path="Contractors/Bit" name="heart.dec" ip="23.236.62.147" extension=".txt" header="Bitwise / last words" pass="divingsparrow">
+Ik schrijf dit omdat ik in vertrouwen je dit wachtwoord heb verteld - in vertrouwen dat jij de persoon bent wie ik denk dat je bent. En omdat het alles is wat ik kan gebruiken nu.
+Bedankt voor zo ver te zoeken. Het lijkt veel te vragen voor wie dit dan ook leest, maar ik denk dat ik dat laatst nogal veel heb gedaan.
+Ter zaken dan - Als je echt hier bent, dan, dat is al mijn ergste scenario en ik heb nog wat hevige verzoeken bij me. Je moet in de bestanden die je tegenkomen bent wel hebben gezien wat EnTech's plan is - en ik hoop dat je er hetzelfde over voelt als ik. Je hebt al gezien hoe goed ze zijn - ongeloofelijk zelfs, en als het klaar is, vraag ik me af hoeveel vrijheid we verliezen.
+Dit is.. misschien we prima. Ik vind het prima en op meerdere niveau's respecteer ik ze om beveiling te repareren en wil ik dat het werkt, zelfs als het verlamd waar ik het beste in ben.
+
+Maar niet zo.
+
+Het Hacknet project is het probleem. Het is goed om goeie beveiliging te maken, het is zelfs een soort van ok? om er veel controle over te houden en over het gebruik. Maar alles kapotmaken behalve wat jij gemaakt hebt is dat niet.
+Voordat ik het wist had ik te veel bijgedragen aan Hacknet - Het was een ongeloofelijk project, leuk en uitdagend en ze gooide er eindeloos middelen naar - fantastisch om aan te werken. En ik heb iets fantastisch gemaakt.
+Het heet "Porthack" - eigenlijk een totaal van mijn kennis en vaardigheid - het opent deuren bijna overal.
+
+Ik werd nieuwsgieger na een tijdje, en brak in in het mainframe, en zette het allemaal samen - misschien de eerste "complete" versie die gemaakt is van dit project met een complete Porthack ingebouwd...
+Het is neit zo moeilijk om te zien wat vanaf daar gebeurt - ze maken het af, Hacknet lekt uit, de wereld is een totale chaos, en onze ene kans om digitale beveiliging te redden van deze belachelijke monopolie slipt weg.
+Wat we nu hebben is niet perfect en EnTech's beveiliging is goed, maar Hacknet verpest alles - en als we het nu niet stoppen, is het misschien te laat om het ooit te stoppen.
+
+Het email account van de directeur verteld de rest.
+
+Gebruikersnaam: rc@entech.com 
+Wachtwoord: "byC89kMMe"
+
+Alsjeblieft,
+-Bit
+0
+</encryptedFile>
+
+  <file path="Contractors/teja" name=".gitkeep">#dit bestand is bewust leeg om te verzekeren dat deze map actief blijft in Git als alle andere bestanden weg zijn</file>
+  
+</Computer>

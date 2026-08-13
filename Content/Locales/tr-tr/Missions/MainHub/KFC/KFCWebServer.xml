@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kfcWebServer" name="www.cfc.com" security="2" type="4">
+  <ports>80,25</ports>
+  <trace time="0" />
+  <addWebServer name="CFC Homepage" url="Content/Web/Presets/KFC/KFCHomePage.html" />
+  <positionNear target="kfcMainframe" position="0" total="3" />
+  <link target="kfcMainframe" />
+
+  <file path="home" name="ServerStructure.txt">İnternet Yöneticileri; bu sunucunun ÖZELLİKLE başlangıç aşaması içeriği için açıldığını unutmayınız!
+Tüm şirket dosyaları daha güvenlik olan ana sunucu ve diğer iç sunucularda tutulmalıdır.
+Bu sunucu güncelleme ve bakım hizmetleri için ana bilgisayarla bağlantı kurmaktadır - bu yapılandırma dosyasını düzenlemeyin!</file>
+  
+</Computer>

@@ -1,0 +1,14 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-15.0">¡Configuración de desencriptado completa!</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-12.0">Desafortunadamente aún no es transferible. Volveré al trabajo y crearé un archivo .exe compartible.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-7.0">Por ahora solo dejaré que pasen las cosas y ya les echaré un vistazo.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-3.0">Me pregunto si pasará más tiempo en lo que descifras cosas para nosotros que en lo que me ha llevado prepararte apropiadamente para esto.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="0.5">Vale, me avergüenzo de mí mismo, pero no responderé a eso. Funciona, será mejor cuando tenga más tiempo. Estoy seguro de que podremos vivir con esto por ahora -_-</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="3.2">¿Debemos hacerlo, no?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="3.5">-_-</AddIRCMessage>
+  </OnConnect>
+  
+</ConditionalActions>

@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="test01" name="Test" ip="tttload" security="0" icon="PacificAir" type="5">
+
+  <file path="testfolder" name="eduSafeFile.txt">EDU Safe test file content</file>
+  <file path="testfolder" name="eduUnsafeFile.txt" EduSafe="false">EDU Unsafe test file content</file>
+  <file path="testfolder" name="eduSafeExplicit.txt" EduSafe="true">EDU safe explicit test file content</file>
+  <file path="testfolder" name="eduSafeOnlyFile.txt" EduSafeOnly="true">EDU safe only test file content</file>
+  
+</Computer>
+

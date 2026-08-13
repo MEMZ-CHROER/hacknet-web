@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="CSEC_DLC_Connector">
+  <goals>
+    <!-- Impossible goal here - this mission isn't completable in the normal sense
+    It leads the player to KaguyaTrials, which replaces this. We don't want the player
+    to skip past this mission by quick replying or anything, so put a debug only goal here-->
+    <goal type="getstring" target="kaguyatrialscompletedebug" />
+  </goals>
+  <missionStart val="1" suppress="true">addFlags:dlc_start_csec</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#ALERT# - Les Épreuves de Kaguya"> ### ALERT ###
+Note : Cette tâche représente le début de ce que les administrateurs CSEC prédisent comme étant une séquence anormalement longue. Si vous avez d'importants projets CSEC en cours, nous vous recommandons de les terminer avant de procéder.
+ ### ALERT ###
+ 
+Un agent du nom de « Kaguya » a posté un lien vers une étrange série d'épreuves dans le but de recruter une équipe. Le message laisse entendre que les agents seront bien récompensés, en échange de leur aide s'ils parviennent à passer les épreuves.
+Cette tâche n'est pas cruciale pour CSEC, nous laissons aux agents le choix de décider par eux-mêmes.
+  </posting>
+  <email>
+    <sender>Services d'échange CSEC</sender>
+    <subject>Les Épreuves de Kaguya</subject>
+    <body>Agent,
+    
+Un certain « Kaguya » a envoyé un défi de recrutement à plusieurs groupes de renom, l'un d'entre eux étant CSEC. Ceci a l'air plutôt sophistiqué, et bien organisé, nous supposons que le travail offert requerra un investissement personnel important, qui risque de tenir les agents éloignés de CSEC pendant quelque temps. Prenez-en conscience avant de vous engager.
+Ceci étant dit, vous êtes libres de faire ce que bon vous semble, l'annonce a l'air prometteuse si vous êtes à la recherche de nouveaux outils.
+
+Les instructions fournissent une adresse IP, et les consignes pour commencer les épreuves.
+
+Bonne chance.
+-L'Équipe CSEC
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,45 @@
+﻿﻿ GGG  RRRR   OOO    CCC  EEEE RRRR   22   11   11  
+G     R   R O   O  C     E    R   R 2  2 111  111  
+G  GG RRRR  O   O C      EEE  RRRR    2   11   11  
+G   G R  R  O   O  C     E    R R    2    11   11  
+ GGG  R  RR  OOO    CCC  EEEE R  RR 2222 11l1 11l1 
+                                                 
+Simulador de la compra 2010 RECORRIDO COMPLETO
+COPYRIGHT 2011 COMPRA211
+TU tIPo en INFOS SOBRE COMPRA
+¡manda un correo a compra211@mailcompra.comp!
+
+========================================
+==========ÍNDICE=====================
+
+INTRO
+
+MISIÓN 1
+
+MISIÓN 2
+
+MISIÓN 3
+
+MISIÓN 4
+
+JEFE FINAL
+
+HAX + CHEATZ
+
+APUNTES FINALES
+========================================
+
+INTRO
+
+de WIKI:
+"Simulador de la compra 2010 es un juego de simulación en el que el jugador asume el rol de John Citizen, un tendero que tiene que servir a los clientes, reponer las estanterías y fregar los suelos de vez en cuando. Se publicó en octubre de 2011 y recibió críticas puntuándolo entre"
+
+Superhermanos, hoy os voy a guiar a través de la última sensación en el mundo de las simulaciones basadas en tiendas de alimentación, simulador de compra 2010.
+
+en este juego eres John Citizen: un tendero cuya vida se queda patas arriba (¡lol!) y tiene que vender todo tipo de chorradas para conseguir algo de pasta fresquita.
+
+Así que lo primero es lo 1.º: el HUD. El HUD es donde puedes ver qué pasillos debes reponer, dónde hace falta una limpieza y cuántos clientes tienes. Si te atascas, puedes encender tu visióndetendero, que te indicará el trabajo más importante que tienes que hacer. Para dar una vuelta, usa e (adelante) s (izquierda), d (atrás) y f (ametrallar hacia la izquierda), y z para dar un salto hacia atrás y usar un artículo (básicamente usa esto para hacer cualquier trabajo que tengas + cerca, como fregar o reponer). CONSEJO: Puede parecer que tu personaje no está caminando, pero si te fijas bien puedes ver que se mueve sin que se muevan sus pies.
+
+========================================
+
+MISIÓN 1

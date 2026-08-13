@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ds2m1">
+  <goals>
+    <goal type="clearfolder" target="dDdoserComp" path="LOIC"/>
+    <goal type="clearfolder" target="dDdoserHomeComp" path="LOIC"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Ataque DDoS en un servidor importante">
+Coel investigó la fuente de algunos de los problemas del servidor de Grindcraft. Queremos que pare.
+    </posting>
+  <email>
+    <sender>1</sender>
+    <subject>1</subject>
+    <body>
+Coel investigó la fuente de algunos de los problemas del servidor de Grindcraft. Queremos que pare.
+----
+Al parecer, alguien cree que es muy divertido intentar un ataque DDoS en los secretos de los servidores de Grindcraft, como si no tuvieran suficiente trabajo ahora que todo el mundo intenta descargar la nueva actualización. Aun así, Coel ha conseguido que sigan online a condición de unirse al grupo, así que queremos solucionar el problema.
+Es probable que usen el código LOIC (Low Orbit Ion Cannon), así que yo diría que lo mejor es borrar esa carpeta y detenerlo, pero si quieres causar más daños en /sys nadie te va a decir nada.
+
+Ten en cuenta que también deberías poder echar un vistazo rápido y examinar cualquier cosa que encuentres para asegurarte de que lo tienes todo.
+    </body>
+    <attachments>
+      <link comp="dDdoserComp" />
+    </attachments>
+  </email>
+</mission>

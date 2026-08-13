@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase6" >
+  <goals>
+    <!--
+    <goal type="FileDownload" target="EnTechOutsiderRepo" file="heart.dec" path="Contractors/Bit" />
+    -->
+  </goals>
+  <missionStart val="1">changeSong</missionStart>
+  <nextMission>BitPath/BitAdv_Intro07.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 証明</subject>
+    <body>これこそ探してたやつだ。ほとんどのファイルは削除されてたが、Bitのフォルダにあった暗号化ファイルだけ残ってた（君も見たと思うけど）。それにしても、このファイルは・・・
+開き方は知ってる。昔Bitと同じプロジェクトチームで働いてたとき、彼は何人かの友達にパスワードを教えてたんだ。あの時も、メッセージを送るときはこんなふうに暗号化してたもんだよ。
+
+パスワードは「divingsparrow」だ。僕はもう読んだ。あるメールアカウントが載ってたから、こいつを確認しないと。君も確認したほうがいい。
+ファイルのダウンロードと暗号化の解除は、君のローカルコンピュータ上でやったほうがいい。くれぐれも、君のコンピュータ以外の場所にコピーをほっとくなんてことするなよ。アカウントのチェック
+が済んだら連絡してくれ。行動を起こそう。――真実はもうすぐそこだと思う。
+
+終わったら返信してくれ。これを終わらせよう。
+
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="eosIntro" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <nextMission IsSilent="true">Entropy/StartingSet/eosMissions/eosIntroMission.xml</nextMission>
+  <posting title="eOSデバイスをスキャンせよ">
+とあるクライアントが、目標の携帯電話に保存された情報へのアクセスを希望しています。
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>eOSデバイスをスキャンせよ</subject>
+    <body>
+エージェントさん、こんにちは。
+
+新技術を使うチャンスが舞い込んで来ました。新しい依頼です。いまオンラインにいるあなたにお願いしたいのですが、この依頼を受けていただき、新技術のテストを行ってもらえると助かります。
+今回の仕事では目標の携帯電話、つまりeOSデバイスへのアクセスが必要となります。私たちはこの分野の専門家に協力を要請し、この仕事に必要なツールを手に入れることができました。ただし、
+このツールの大部分はまだテストされていません。使うときは注意してください。ツールに関する情報はすぐにお送りします。
+
+携帯電話へのアクセスに成功したら、持ち主のメールアカウントのパスワードを探してください。eOSデバイスに同期してあるはずです。パスワードを添付して返信してくれれば、あとはこちらで
+対応します。
+
+健闘を祈ります。
+-Entropy管理部
+    </body>
+    <attachments>
+      <link comp="eosIntroComp" />
+    </attachments>
+  </email>
+</mission>

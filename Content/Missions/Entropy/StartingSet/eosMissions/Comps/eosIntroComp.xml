@@ -1,0 +1,79 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="eosIntroComp" name="Jason's PowerBook Plus" security="2" icon="laptop">
+
+<file path="home/documents" name="Kelly.txt">
+[valley] need anything on the way home?
+[kittyhat22] why do you even bother asking?
+[valley] come on, I thought we were done with all this?
+[kittyhat22] done with what?
+[valley] all this useless fighting over nothing.
+[kittyhat22] you're never home, and when you are you don't even bother to talk to me
+[valley] well maybe you should try and appreciate that I'm working my ass off to pay off our debts so we can finally get out of here
+[valley] what do you do all day? 
+[kittyhat22] don't turn this around on me. 
+[kittyhat22] you know I've been looking for a job. At least I try to understand what is going on in your life. You don't even ask about mine.
+[valley] whatever. See you when I get home.
+</file>
+  
+<file path="home/documents" name="lmao.txt" EduSafe="false">
+[dirtweed] How was the weekend?
+[willow] Great until they kicked me out of Laundry.
+[dirtweed] ROFLCOPTER
+[dirtweed] You got kicked out of that hell hole? What did you do?
+[willow] Well....apparently I was pretty smashed and the security guards caught me falling over.
+[dirtweed] LOL
+[willow] So as they were shoving me outside, I protested that "I'M NOT EVEN THAT DRUNK GUYS"
+[willow] and proceeded to vomit all over one of the guards, in front of about 30 people lining up outside
+[dirtweed] holy shit! 
+[willow] I'm going to bed. Still hungover. Night.
+</file>
+  
+<file path="home/documents" name="lmao2.0.txt" EduSafe="false">
+[budzyyy] wots going on m8?
+[heller] Where the hell are you? 
+[budzyyy] not entirely sure
+[budzyyy] woke up without a shirt, hidden inside a shrub
+[heller] We were looking for you for hours.
+[heller] Last I saw, you were pinging on E and chasing after the ice-cream truck
+[budzyyy] we have an ice-cream truck in this town?
+[heller] No, but you thought we did last night
+[budzyyy] I'm getting too old for this. 
+</file>
+  
+  <eosDevice name="Jason's ePhone 4S" id="eosIntroPhone">
+    <note>Pork Buns
+    
+  ----------------------
+  1.5 tbspn caster sugar
+  250ml warm water
+  1.5 teaspoon yeast
+  tbspn veg oil
+  1.5 tspn baking powder
+  400g flower
+  ----------------------
+  
+  Sugar + water into bowl, disolve, add yeast, cover and wait 10m.
+  
+  Sift in rest of stuff, mix+knead into smooth stretchy dough, cover w. towel 1h.
+  
+  Split into balls, add filling if you want, steam for 20m.
+  
+    </note>
+    <note>Tortillas
+
+----------------------
+2cups flour
+1/2 teaspoon salt
+Teaspoon baking powder
+Tbspn lard
+3/4 cups water
+----------------------
+
+Mix powders and work lard in. Add water and make dough. Knead till smooth.
+
+Roll thin and cook in pan till golden.</note>
+    <mail username="jjstacks@jmail.com" pass="tintin7" />
+  </eosDevice>
+  
+  <account username="admin" password="tintin7" />
+</Computer>

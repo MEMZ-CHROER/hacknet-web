@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="CSEC_DLC_End" activeCheck="true">
+  <goals>
+    <!-- No goals and autocomplete here - this exists to clear player missions and also send them back to their faction -->
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="">
+  </posting>
+  <email>
+    <sender>Центральные сервисы CSEC</sender>
+    <subject>Re:Испытания Kaguya</subject>
+    <body>Агент,
+    
+Тебя не было в сети с того самого дня, как тебе были предложены испытания Kaguya. Нам следует беспокоиться?
+Мы не против, если тебе нужен отпуск или ты занимаешься другими проектами. Твое место в CSEC останется за тобой. Можешь вернуться и продолжить работать с нами в любое время.
+
+-Команда CSEC
+    </body>
+    <attachments>
+      <link comp="mainHub" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,14 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-15.0">Configuration de décryptage terminée !</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-12.0">Malheureusement, ce n'est pas encore très portable - Je vais m'atteler à mettre au point un nouveau .exe à partager</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-7.0">Mais pour le moment, si vous me montrez ce que vous avez, j'y jetterai un coup d'œil.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-3.0">Je me demande quand tu en arriveras au point où tu auras passé plus de temps à décrypter des trucs pour nous que de mettre en place un executable correct.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="0.5">Oui bon... Oui j'ai honte, mais non, pas question de répondre à ça. Déjà ça fonctionne, ensuite je l'améliorerai quand j'aurai le temps. Donc on va tous se contenter de ça pour l'instant -_-</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="3.2">C'est pas comme si on avait le choix, pas vrai ?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="3.5">-_-</AddIRCMessage>
+  </OnConnect>
+  
+</ConditionalActions>

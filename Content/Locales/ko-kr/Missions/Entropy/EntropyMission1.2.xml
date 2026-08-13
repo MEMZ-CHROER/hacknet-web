@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyMission01.2">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>Entropy/EntropyMission2.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>환영 인사</subject>
+    <body>
+안녕하신가, #PLAYERNAME# 
+
+축하해. 
+당신이 신속하게 첫번째 계약을 수행한 결과 Entropy에 정식으로 일원으로 맞이할 수 있게 되었어. 
+
+작은 환영 선물로 우리 애셋 서버의 관리자 계정에 대한 사용자 정보를 첨부하였지. 필요한 프로그램은 마음껏 가져가고, 우리의 신조를 살펴보도록. 필요한 걸 다 갖추었으면 이 주소로 답신해줘. 그러면 당신의 진짜 실력을 보여줄 기회를 마련해놓을게.
+
+ 그럼, 다시 한 번 축하해.
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy01"/>
+      <account comp="entropy01" user="admin" pass="rosebud"/>
+    </attachments>
+  </email>
+</mission>

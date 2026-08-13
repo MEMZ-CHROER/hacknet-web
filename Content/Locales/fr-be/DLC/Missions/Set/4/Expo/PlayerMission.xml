@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dFollowsMission">
+  <goals>
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="ds4_expo" destPath="home/talks/files"/>
+
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="dHGrave_Phone" destPath="eos/STORAGE"/>
+    <goal type="fileupload" target="dhsDrop" file="patch_checksum.chk" path="home/grave" destTarget="dHGrave_Phone" destPath="eos/STORAGE"/>
+    
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="ds4_grave" destPath="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Présentation Grave">Un chercheur en sécurité informatique va effectuer une présentation portant sur les vulnérabilités des bases de données en SQL. Le partage de ces informations aurait un effet négatif sur nos hacks actuels. Ralentis-le.</posting>
+  <email>
+    <sender>Bibliothèque</sender>
+    <subject>Présentation Grave</subject>
+    <body>
+Un chercheur en sécurité informatique va effectuer une présentation portant sur les vulnérabilités des bases de données en SQL. Le partage de ces informations aurait un effet négatif sur nos hacks actuels. Ralentis-le.
+----
+Bien que nous ne soyons pas du tout opposés au progrès dans le domaine de la sécurité informatique, il est dans notre intérêt de retarder légèrement cette avancée précise.
+
+Howard Grave a élaboré une présentation concernant les vulnérabilités du SQL, centrée sur un patch qu'il a développé pour y pallier. Nous souhaitons remplacer ce patch par notre propre version, laquelle est un tout petit peu moins efficace.
+
+Pénètre les serveurs du salon de l'informatique et remplace ses fichiers de démonstration « proof-of-concept » par nos archives factices maquillées. Il te faudra donc remplacer non seulement les archives, mais aussi la somme de contrôle qui se trouve à côté, s'il y en a une. Nos versions se trouvent sur le serveur de stockage de données.
+
+Assure-toi de bien tous les trouver - il y aura probablement des copies sur ses appareils personnels, ainsi que sur le serveur principal du salon de l'informatique.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="dhsDrop" />
+      <link comp="ds4_grave" />
+      <link comp="ds4_expo" />
+      <note title="Objectifs de mission">Télécharger p_SQL_399.gz et son fichier de total de contrôle sur le serveur de stockage de données
+Accéder au serveur du salon de l'informatique, ainsi qu'aux appareils personnels de Grave, et remplacer tous les exemplaires du patch et du fichier de somme de contrôle par ceux du serveur de stockage de données.</note>
+    </attachments>
+  </email>
+</mission>

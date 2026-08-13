@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission1.1">
+  <goals>
+    <goal type="FileDeletion" target="entropy01.1" file="config.sys" path="MsgBoard" />
+  </goals>
+  <nextMission>Entropy/EntropyMission1.2.xml</nextMission>
+  <posting title="Entropy Database Test-Mission">
+Bestätige den Abschluss deiner Test-Mission - schalte einen News-Server aus.
+  </posting>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Test</subject>
+    <body>
+Sei gegrüßt, Agent,
+
+dies ist eine Test-Mission.
+Du solltest sie schon abgeschlossen haben. Wenn nicht, mach das bitte jetzt und
+schalte den News-Server aus.
+
+-Entropy
+    </body>
+    <attachments>
+      <link comp="entropy01.1" />
+    </attachments>
+  </email>
+</mission>

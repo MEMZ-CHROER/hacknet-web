@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubIntro3" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>CSEC Invitation - Congratulations</subject>
+    <body>
+#PLAYERNAME#,
+
+Goed gedaan! Ik heb het weliswaar eerder al geprobeert, en ik kon het niet vinden - goed gedaan.
+Het is best een entree die je voor jezelf hebt gemaakt.
+
+Ik grijp hierbij de kans om je fomeel te verwelkomen bij CSEC - iedereen hier weet wat ze doen, tot een bepaald niveau, en je zou je hier prima thuis moeten voelen als je die klus makkelijk vond.
+
+Ik heb je nieuwe login gegevens voor de hub server toegevoegd - vanaf daar kan je contracten aangaan, nieuwe code downloaden en het is gewoon een thuisbasis.
+We houden contact, ga wat nieuwe programma's ophalen van de stash als een welkomscadeau.
+
+-Vap0r
+CSEC Admin
+    </body>
+    <attachments>
+      <link comp="mainHub" />
+      <account comp="mainHub" user="#PLAYERNAME#" pass="reptile" />
+      <link comp="mainHubAssets" />
+      <account comp="mainHubAssets" user="admin" pass="csec-5xg3D11" />
+    </attachments>
+  </email>
+</mission>

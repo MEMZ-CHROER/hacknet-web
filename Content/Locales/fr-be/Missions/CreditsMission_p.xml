@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="alphaCredits">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>Re : La Fin</subject>
+    <body>
+Oh, une dernière chose... 
+
+Je sais que vous avez piraté Hacknet. 
+
+C'est pas grave, il y a plein de raisons possibles, et je ne vais pas vous juger pour être fauché ou pour ne pas avoir confiance en l'état des jeux indépendants d'aujourd'hui. 
+
+Par contre... J'ai fait Hacknet tout seul, et ses ventes financent directement ses mises à jour et les projets futurs. SI vous avez aimé le jeu, merci d'envisager de l'acheter quand vous le pourrez ! 
+
+Si vous êtes contre les DRM, vous pouvez passer par GOG.com et par le Humble Store, même si c'est la version Steam qui a ma préférence. 
+
+Bref, merci d'avoir joué à mon jeu, j'espère que vous en avez autant profité que moi à le faire.
+
+-Matt
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

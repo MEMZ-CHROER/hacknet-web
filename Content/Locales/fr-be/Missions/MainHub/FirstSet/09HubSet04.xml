@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="modifyDeathRowRecord" name="John Boorman">I'm ready, Warden</goal>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Add a Death Row record for a family member">
+Un membre de la famille d'un individu exécuté nous a approchés pour chercher à avoir leur dossier du couloir de la mort ajouté aux listes officielles. 
+La sentence était apparemment liée à des affaires louches (ils ont clairement fait sous-entendre que le jugement était injuste) et il semblerait que les efforts pour les dissimuler 
+ont contribué à ne pas lister le dossier sur les listes officielles. Pour reprendre leurs mots « Nous souhaitons tout au moins que ses derniers mots sont préservés ».
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Absence injuste</subject>
+    <body>
+Nous souhaitons qu'un dossier du couloir de la mort soit créé. La famille du défunt a demandé que son exacte entrée soit ajoutée à la base de données avec les détails suivants :
+
+------------------------------------
+Prénom : « John » 
+
+Nom de famille : « Boorman »
+
+Déclaration finale : « I'm ready, Warden »
+------------------------------------
+
+Les autres détails ne sont pas importants mais doivent, si possible, imiter les autres rapports au maximum. Pour vous aider, un dossier modèle a été téléchargé sur le serveur d'actifs CSEC (In /home/Modèles). 
+Nous vous recommandons de le copier, de l'éditer localement et de le télécharger une fois à l'intérieur. Rappelez-vous de renommer correctement le fichier (commande « mv ») pour refléter le nom et tout numéro de dossier que vous utiliserez.
+
+Un message de la partie requérante :
+ «  Merci beaucoup pour votre aide. Tous les aspects du procès étaient louches depuis le début. Nous sommes persuadé qu'il était innocent et nous nous battons de notre mieux pour le faire reconnaître, même maintenant. 
+Malgré tout, son absence de la base de données est une insulte à sa mémoire. Nous souhaitons tout au moins que ses derniers mots soient préservés. De nouveau, merci. »
+    </body>
+    <attachments>
+      <link comp="mainHubAssets"/>
+      <link comp="deathRow"/>
+      <note title="Détails du dossier">Prénom : « John » 
+Nom de famille : « Boorman »
+Déclaration finale : « I'm ready, Warden »</note>
+    </attachments>
+  </email>
+</mission>

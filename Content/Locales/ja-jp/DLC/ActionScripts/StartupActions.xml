@@ -1,0 +1,17 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-8.0">なぁ、TorrentStreamInjectorの終了プロセス長すぎてイライラしないか。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-70.0">ポートが開くまではほんの数秒なのに、プログラムはずーっと起動したまま。デコンパイルしたいとこだけど、どうせ中身はぐちゃぐちゃなんだろうな。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-60.0">そんなのたいした問題じゃないでしょ。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-50.0">？？？</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-40.5">めっちゃ遅くてイライラするんだ。大問題だろ？</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-30">事が済んだらプロセス自体をkillすればいいでしょ。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-25">…</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-20">考えもしなかったよ。お騒がせしてすまない。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-10">ふふ</AddIRCMessage>
+    
+  </OnConnect>
+  
+</ConditionalActions>

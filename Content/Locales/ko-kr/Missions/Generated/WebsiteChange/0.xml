@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="generatedWebVandal00">
+  <goals>
+    <goal type="FileChange" target="#COMP#" file="#FILE#" path="#PATH#" keyword="liars"/>
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# : Expose the Truth">
+기부 고객이 경쟁사의 추한 본 모습을 대중에게 드러내 달라고 요청했다.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>진실을 밝혀라</subject>
+    <body>
+안녕하신가, 요원.
+
+ #TARGET#의 진실을 밝히고 싶다네. 악의적으로 대중을 기만하는 거짓 광고 캠페인으로 우리 회사보다 앞서나가고 있지. 
+
+진실을 저들의 웹사이트에 게시해주면 좋겠네. 저들의 웹사이트가 자신들을 거짓말쟁이라고 몰아붙이는 것을 보면 이 계약이 성사된 것으로 알겠네.
+
+ 수고하게,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

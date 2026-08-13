@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews01">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Entropy Group engaged in malicious Hacking?">
+Recent reports suggest that the internet group "Entropy" has recently taken to sheltering and providing work for a notorious hacker.
+While this information cannot be confirmed yet, if it is, the group will be sure to face severe legal action in the near future.
+In the eyes of this reporter, this represents a clear act of betrayal towards the network that allows productive groups to thrive, and should be punished severely.
+
+Reporter : Tom Wilkins
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Must Be Stopped</subject>
+    <body>
+Destroy the entropy Database
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pressdemoMission01">
+  <goals>
+    <goal type="FileDeletion" target="pointclickerDemo" file="Bit.pcsav" path="PointClicker/Saves" />
+  </goals>
+  <nextMission>Demo/PressBuild/DemoMission02.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Maiden Flight</subject>
+    <body>Congratulations!
+I honestly have no way of knowing if you succeeded in this responder, but if you're seeing this it means you at least found SOMETHING, so going to assume it's really useful.
+
+I've got a good test for you here - something to let you try out this new program you've found. There's this game that i've spent a frankly embarrassing amount of time on, and if it's come to this - well - I figure I can do without that being in my legacy, such as it is.
+Security on the server shouldn't be too tight - I want you to break in and delete my account.
+
+You might need to use your new tool. If you do, you can run it by typing it's name, and a port number to target, like this:
+
+>SSHCrack 22
+ ^filename ^portnumber
+     
+Just find a port you want to crack and run it on that.
+
+Oh, and incase you don't know already, you can hit tab to autocomplete commands - hitting "ssh" then tab should autocomplete it to the full name, etc. Works for everything!
+
+Good luck!
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <note title="Mission Overview">Connect to the Point Clicker server.
+Use Probe to see what ports are open.
+Target one with a program and target the correct port
+I.E: "SSHCrack 22"
+    ^filename ^portnumber
+    
+Breaking sufficient ports leaves the target vulnerable to a security breach using "Porthack".
+Use the "ls" command to list files and folders
+Delete the save file of username "Bit"
+      </note>
+      <link comp="pointclickerDemo" />
+    </attachments>
+  </email>
+</mission>

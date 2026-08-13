@@ -1,0 +1,19 @@
+﻿﻿Cette base de données existe pour préserver et trier les détails des criminels exécutés dans le couloir de la mort, incluant, sans s'y limiter, leurs déclarations finales et les détails de leurs crimes.
+
+Sexe et statistiques raciales des criminels dans le couloir de la mort
+
+Race     Femme   Homme    Total
+--------------------------------------
+Blanc      5         76       81
+            55.6 %    28.7 %    29.6 %
+
+Noir      3         107      110
+            33.3 %    40.4 %    40.1 %
+
+Hispanique   1         78       79
+            11.1 %    29.4 %    28.8 %
+
+Autres      0         4        4
+            0.0 %     1.5 %       1.5 %
+
+TOTAL      9         265      274

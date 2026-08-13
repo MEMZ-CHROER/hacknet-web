@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="encrypt_source.dec" path="home" destTarget="hubPubDrop" destPath="Drop/Uploads" decrypt="true" />
+  </goals>
+  <missionEnd val="1">addFlags:decypher</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="解読用ソフトウェアを見つけ出せ">
+新型の暗号化ソフトウェアを販売する新会社が現れ、以前は自由に見ることができていたソースコードでも、多くが閲覧できなくなってしまいました。
+アルゴリズム自体は過去存在した同種のソフトとそれほど変わらないのですが、まだ解析方法は見つかっていません。どんな方法を使ってもよいので、ファイルを解読することが今回の仕事となります。
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>金庫の中に忍び込め</subject>
+    <body>
+DEC Solutionsが、最近新しい「DEC暗号化ツール」を発表した。まあ文字通り、ファイルを暗号化するツールだ。俺たちはあるファイルの中身を知りたいんだが、そのファイルはこのツールで暗号化
+されている。ファイルのコピーを俺たちのクロスロードサーバー（CSECメンバーが利用してる、セキュリティフリーの物置みたいなもんだ）に投げといた。ファイル名は「encrypt_source.dec」。
+ああ、「.dec」ってのは、このツールで暗号化されたファイルの拡張子だ。
+
+まずはこのファイルをチェックするといい。会社のホームページに利用価値のあるものはさっぱり見当たらなかったが、ちょっと掘り下げて探してみたら何か見つかるかもな。ネットワークに何かないか調べる
+ために、侵入したらスキャンしてみな。
+
+ファイルを解読できたら、CSECのドロップサーバーにアップロードしといてくれ。
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <link comp="hubPubDrop" />
+      <link comp="decSoftWeb" />
+      <note title="契約内容詳細">DEC Solutionsの社内ネットワークを調べる
+DECファイルの解読方法を見つける
+CSECクロスロードにあるファイルを解読する
+解読したファイルをCSECのドロップサーバーにアップロードする
+</note>
+    </attachments>
+  </email>
+</mission>

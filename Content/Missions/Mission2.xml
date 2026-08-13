@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="testMission">
+  <goals>
+    <goal type="FileDeletion" target="test01" file="Binary_File" path="home" />
+  </goals>
+  <nextMission>Mission1.xml</nextMission>
+  <email>
+    <sender>Real Nigerian Prince</sender>
+    <subject>An Offer You Cant Refuse</subject>
+    <body>
+HOr$e Exp@nding R0Lexxxx corp
+    
+Hello Mister Mott,
+I am but a humble nigerian prince who is crippled by the instability in my country, and require a transfer of 5000 united states dollar in order to rid my country of the scourge of the musclebeasts which roam our plains and ravage our villages
+    
+Please send these funds to real_nigerian_prince_the_third@boatmail.com
+    
+Yours in jegus,
+Nigerian Prince
+    
+    </body>
+    <attachments>
+      <link comp="test01" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,104 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission00" name="Bitwise Test PC" security="1">
+  <file path="home" name="Test_File.txt">Congratulations, You win!</file>
+  <file path="home" name="L-E_x-server.sys">#PURPLE_THEME#</file>
+  <file path="sys" name="x-server.sys">#PURPLE_THEME#</file>
+
+<file path="home" name="Hobbes_TerminalGuide.txt.txt">
+Handy list of commands you'll want from the command line :
+
+cat [filename] - brings up the text output of the filename specified
+
+cd / - drops you to the root directory of the file system
+
+ls - outputs the directory and files in the dir that you're in
+
+cd .. - pulls you up one level from where you are
+
+replace [filename] "[string1]" "[string2]" - replaces the specified content of the target file (String 1) with the stuff you want to replace it with (string 2)
+
+mv [filename] [target] - moves OR renames a file, if you want to move the file, you need to specify the folder you want to move it to like this -
+
+mv config.sys /misc/
+
+if you want to rename the file, then simply specify the string that you want the file to be renamed to such as 
+
+mv config.sys config.old
+
+Help 1, Help 2, Help 3 - The help file, all three pages. Read and absorb.
+
+forkbomb - It's not specified, but it's a useful panic button if you need to down a system in a hurry, you'll need admin rights for this one, you CAN forkbomb your own system as a defensive measure
+
+shell - sets up a remote host on a system where you've admin access, this CAN be run on your own system as a defensive measure (See "Trap" for details)
+</file>
+  
+<file path="home/autolog_reports" name="log01332.txt" EduSafe="false">
+[shinterland] Waiting for the boss to leave
+[shinterland] Then I'll meet you out the back
+[jwalter] Do you think he has any idea?
+[shinterland] Pfft, I doubt it. 
+[shinterland] He's got no idea about the shitstrom that's coming. 
+[jwalter] Don't forget to clear the browser history, we don't want him tracing it back to us. 
+[shinterland] Yeah yeah yeah, I got it covered.
+[shinterland] He just grabbed his coat, and he's walking out the door....now.
+[jwalter] Okay, give me a minute to set up the camera feed.....
+[jwalter] Good to go. You got three minutes before that static image falls down.
+[shinterland] I'll take the list, then we'll grab a pint to celebrate.
+</file>
+  
+<file path="home/autolog_reports" name="log01332.txt" EduSafeOnly="true">
+[shinterland] Waiting for the boss to leave
+[shinterland] Then I'll meet you out the back
+[jwalter] Do you think he has any idea?
+[shinterland] Pfft, I doubt it. 
+[shinterland] He's got no idea about the storm that's coming. 
+[jwalter] Don't forget to clear the browser history, we don't want him tracing it back to us. 
+[shinterland] Yeah yeah yeah, I got it covered.
+[shinterland] He just grabbed his coat, and he's walking out the door....now.
+[jwalter] Okay, give me a minute to set up the camera feed.....
+[jwalter] Good to go. You got three minutes before that static image falls down.
+[shinterland] I'll take the list, then we'll grab a pint to celebrate.
+</file>
+  
+<file path="home/autolog_reports" name="log0177_F.txt" EduSafe="false">
+[vope] you wouldn't believe this shit if I told you
+[r@$put1n] what?
+[r@$put1n] did it work?
+[vope] got mercs banging down my door for the source
+[r@$put1n] damn son, sounds like you've hit the big leagues!
+[r@$put1n] getting a decent payout?
+[vope] 12k, not bad for two months of work
+[vope] wonder what they'll use it for
+[r@$put1n] probably to drain your bank accounts
+[vope] good luck, got no money for them to steal lol
+
+-- confirmed fake --
+</file>
+  
+  <file path="home/autolog_reports" name="log0177_F.txt" EduSafeOnly="true">
+[vope] you wouldn't believe this if I told you
+[r@$put1n] what?
+[r@$put1n] did it work?
+[vope] got mercs banging down my door for the source
+[r@$put1n] damn son, sounds like you've hit the big leagues!
+[r@$put1n] getting a decent payout?
+[vope] 12k, not bad for two months of work
+[vope] wonder what they'll use it for
+[r@$put1n] probably to drain your bank accounts
+[vope] good luck, got no money for them to steal lol
+
+-- confirmed fake --
+</file>
+  
+<file path="home/autolog_reports" name="log01009.txt">
+[felix] All good on my end, that idiot Bill got fired and I'm safe
+[bleedingcool] Great. 
+[felix] I always hated Bill. You did me a favor.
+[bleedingcool] Not to mention that 10k kickback right?
+[felix] Well that helped too.
+[felix] So we good here?
+[bleedingcool] All good. I've got months of exlusives here. I'll hit you back next year when the new Brisby movie coming out.
+[felix] later boss.
+</file>
+  
+</Computer>

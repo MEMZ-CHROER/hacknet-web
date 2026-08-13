@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="CSEC_DLC_End" activeCheck="true">
+  <goals>
+    <!-- No goals and autocomplete here - this exists to clear player missions and also send them back to their faction -->
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="">
+  </posting>
+  <email>
+    <sender>Servicios Hub CSEC</sender>
+    <subject>Re: Las pruebas Kaguya</subject>
+    <body>Agente:
+    
+Has estado online mucho tiempo tras aceptar el trabajo en las pruebas Kaguya, ¿hay algo que debamos investigar?
+Si te has tomado un descanso para trabajar en otros proyectos, no hay problema. Tu puesto en CSEC está a salvo y esperando a que quieras volver al trabajo.
+
+-El equipo de CSEC
+    </body>
+    <attachments>
+      <link comp="mainHub" />
+    </attachments>
+  </email>
+</mission>

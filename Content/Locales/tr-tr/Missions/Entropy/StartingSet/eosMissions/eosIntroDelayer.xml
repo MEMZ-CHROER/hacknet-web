@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="eosIntro" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <nextMission IsSilent="true">Entropy/StartingSet/eosMissions/eosIntroMission.xml</nextMission>
+  <posting title="eOS Aygıt Taraması">
+Müşterilerden birisi başka birinin telefonundaki verilere erişmek istiyor.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>eOS Aygıt Taraması</subject>
+    <body>
+Merhaba sayın temsilci,
+
+Karşımıza farklı bir teknolojinin kullanılmasını gerektiren yeni bir teklif çıktı. Şu anda çevrimiçi olduğundan ötürü bu işi kabul etmek ve bizim için göz atmak yeni görevin olarak belirlendi.
+Bu işinde hedef şahsın telefonuna, eOS aygıtına bağlanman gerekiyor. Bu alanda uzman birisi ile görüşüp bu işi tamamlaman için gereken araçları temin ettik. Fakat aklında bulunsun, bu araçlar tarafımızdan test edilmedi.
+Yakında bu araçlarla ilgili bilgilendirme içeren bir posta alacaksın.
+
+Telefona erişim sağladığında, telefonu kullanan şahsın e-posta hesabının şifresini bulman gerekecek. Şifre, telefon ile senkronize edilmiş durumda. İşi hallettiğinde şifreyi gönder. Kalanını biz hallederiz.
+
+Kolay gelsin,
+-Entropy Yönetimi
+    </body>
+    <attachments>
+      <link comp="eosIntroComp" />
+    </attachments>
+  </email>
+</mission>

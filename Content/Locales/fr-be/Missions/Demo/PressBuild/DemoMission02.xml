@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pressdemoMission01">
+  <goals>
+    <sendemail recipient="gila" subject="MedicalRecord - Helleran_Elanor"/>
+  </goals>
+  <nextMission>Demo/PressBuild/DemoMission03.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Un écho dans les archives</subject>
+    <body>Beau travail. Tu es prêt. 
+C'est maintenant qu'on arrive au moment où je te raconte pourquoi je te demande tout ça si tôt. J'ai toujours l'intention de tout balancer sur le net. J'ai besoin d'autant de chances que possible et même si tu es d'une aide immense, ça ne suffira peut-être pas. 
+Il y a des dettes à payer à des gens qui m'ont aidé à tout comprendre (même s'ils ne le savaient pas à l'époque). 
+
+L'un d'eux en particulier, Gila, un ami hacker de CSEC, avait échangé de l'aide avec ce projet contre un boulot, que je ne peux plus faire aujourd'hui. J'ai trop formaté mes disques durs pour risquer qu'il reste une trace maintenant. Bref, je vais être à nouveau déraisonnable et demander ton aide. 
+
+Il veut qu'on vole un dossier médical et qu'on lui envoie. J'ai fait ce que je pouvais pour saboter la sécurité d'International Medical, tu devrais donc pouvoir y arriver avec ce que tu as pour le moment. J'ai joint les détails sur ce qu'il veut. Ce serveur est sérieux, tu devras effacer tes logs, ne bâcle pas le travail. 
+
+Ce sera ton premier véritable boulot. Bonne chance.
+
+ --Bit
+0
+    </body>
+    <attachments>
+      <note title="Aperçu de la mission">
+Connecte-toi à la base de données d'International Medical. 
+Contourne la sécurité active 
+(Probe/Programs/Porthack). 
+
+Cherche le dossier de 
+« Elanor Helleran ». 
+Envoie un email du dossier médial à 
+« gila@jmail.com ». 
+
+Supprime tous les logs du répertoire /logs (rm *)
+      </note>
+      <link comp="medicalDemo"/>
+    </attachments>
+  </email>
+</mission>

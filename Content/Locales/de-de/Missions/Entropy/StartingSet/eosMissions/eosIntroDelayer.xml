@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="eosIntro" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <nextMission IsSilent="true">Entropy/StartingSet/eosMissions/eosIntroMission.xml</nextMission>
+  <posting title="eOS-Gerätescan">
+Ein Kunde sucht nach Informationen. Diese befinden sich auf einem Mobiltelefon.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>eOS-Gerätescan</subject>
+    <body>
+Sei gegrüßt, Agent,
+
+ein neuer Auftrag kam rein, der es erfordert, dass wir uns neue Skripte besorgen. - Während du online bist, wäre es praktisch, wenn du besagten Auftrag annehmen und diese dabei testen könntest.
+Der Auftrag verlangt Zugriff auf ein Telefon - ein eOS Gerät. Wir haben einen Spezialisten auf diesem Gebiet kontaktiert und dieser hat uns daraufhin Tools für diesen Job besorgt - die jedoch weitgehendst ungetestet sind; behalte das im Hinterkopf.
+Die Dokumentation der Tools wird in Kürze an dich weitergeleitet.
+
+Sobald du einmal Zugang zu dem Telefon besitzt, versuche das Passwort für das E-Mail-Konto des Besitzers zu finden - einem Konto, von dem wir wissen, dass es mit dem Gerät synchronisiert wird. Antworte uns mit diesem Passwort und wir kümmern uns um den Rest.
+
+Viel Glück,
+-Entropy Admins
+    </body>
+    <attachments>
+      <link comp="eosIntroComp" />
+    </attachments>
+  </email>
+</mission>

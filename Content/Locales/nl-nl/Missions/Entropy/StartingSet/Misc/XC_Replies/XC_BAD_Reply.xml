@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="xcRepBAD" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+UNKNOWN POSTING ERROR
+  </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>Re: Intern onderzoek</subject>
+    <body>
+Oh, ok dan.
+
+Dit lijkt.. een beetje onproffesioneel. Ik denk dat ik er maar even over moet hebben met onze befaamde doktor over... gebruik van projectmiddelen.
+
+Bedankt dat je dit hebt laten weten,
+-C.O Bradford
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

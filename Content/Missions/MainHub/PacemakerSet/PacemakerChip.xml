@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pacemaker01"
+          ip="202.6.141.219"
+          name="KBT-PM 2.44 REG#10811" 
+          security="1"
+          icon="chip"
+          type="4" > <!-- 1=  corporate, 2 = Home, 3 = server, 4= empty -->
+  <!-- Security Stuff -->
+  <trace time="-1" />
+  <ports>104</ports>
+
+  <HeartMonitor patient="E_Whit"/>
+  
+  <file path="KBT_Pacemaker" name="readme.txt"> All files in this folder will be detected by the pacemaker software and can be nominated in the ui as a firmware patch, if it detects that the file is correctly signed.
+If you with to remotely patch this chip, upload a file to this folder using the "upload [LOCAL FILE PATH]".
+  </file>
+  
+</Computer>

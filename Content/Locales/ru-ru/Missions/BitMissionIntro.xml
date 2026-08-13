@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitMissionIntro">
+  <goals>
+    <goal type="FileDeletion" target="playerComp" file="SecurityTracer.exe" path="bin"/>
+  </goals>
+  <nextMission>SSHCrackMission.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>Первый контакт</subject>
+    <body>Привет.
+
+ Я тебя не знаю, и к сожалению никогда уже не узнаю, но если ты это читаешь, то ты единственный человек который может все исправить.
+
+ Я сейчас в ловушке. Выхода нет, у меня недостаточно времени и мне нужна твоя помощь.
+
+ Но, сначала ты должен кое о чем позаботиться, и чем быстрее, тем лучше.
+ ОС Hacknet не должна была быть выпущена такой, как сейчас - через некоторое время автоматизированный трекер самоактивизируется  - мы не можем этого допустить. 
+Подключись к собственному узлу сети (он отображается зеленым на твоем netMap), затем найди и удали файл SecurityTracer.exe.
+
+ Как только ты это сделаешь, сразу ответь на это письмо. 
+
+И поспеши!
+ -Bit
+0
+    </body>
+    <attachments>
+      <note title="Руководство по пользованию Hacknet ">Руководство по навигации в Hacknet
+      
+Для навигации по файлам используй экранное меню, или команды cd [Foldername] и cat [Filename]. 
+
+Стирай файлы командой rm [Filename], 
+
+клавишей Tab можно вызывать автодополнение команд и имён файлов.
+      </note>
+    </attachments>
+  </email>
+</mission>

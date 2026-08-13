@@ -1,0 +1,79 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="eosIntroComp" name="PowerBook Plus de Jason" security="2" icon="laptop">
+
+<file path="home/documents" name="Kelly.txt">
+[valley] necesitas que te pille algo de camino a casa??
+[kittyhat22] para qué preguntas?
+[valley] oh venga ya, pensé que ya habíamos acabado con esto
+[kittyhat22] acabado con qué??
+[valley] todas estas peleas absurdas por nada.
+[kittyhat22] nunca estás en casa y cuando estás en casa ni te molestas en hablar conmigo
+[valley] igual deberías tratar de agradecer que estoy trabajando como un imbécil para pagar nuestras deudas y poder largarnos de aquí
+[vallenx] tú qué haces todo el día? 
+[kittyhat22] ahora no me eches a mí la culpa de todo. 
+[kittyhat22] ya sabes que he estado buscando trabajo. Al menos yo trato de entender los problemas que tienes en tu vida. Tú ni siquiera me preguntas sobre los míos.
+[valley] lo que tú digas. Nos vemos en casa.
+</file>
+  
+<file path="home/documents" name="lmao.txt">
+[dirtweed] Qué tal el finde??
+[willow] Genial hasta que me echaron de la Lavandería.
+[dirtweed] JOJOJOJO
+[dirtweed] Te echaron de ese puto antro? Qué coño hiciste?
+[willow] Pues... por lo visto estaba bastante pedo y los seguratas me pillaron cayéndome.
+[dirtweed] LOL
+[willow] Así que mientras me sacaban fuera, les grité y les dije, &quot;JODER, QUE NO ESTOY TAN BORRACHO&quot;
+[willow] y entonces vomité sobre uno de los guardias, delante de unas 30 personas que estaban fuera haciendo cola
+[dirtweed] me cago en la puta! 
+[willow] Me piro a la cama. Todavía tengo resaca. Buenas noches.
+</file>
+  
+<file path="home/documents" name="lmao.txt" EduSafe="false">
+[budzyyy] qué cojones pasa tío?
+ [heller] Dónde coño estás?? 
+[budzyyy] no sé, tío
+[budzyyy] me he despertado sin camisa, escondido dentro de un arbusto
+[heller] Llevamos horas buscándote.
+[heller] Lo último que vi es que estabas llamando a E y corriendo detrás de una furgoneta de los helados
+[budzyyy] tenemos una furgoneta de los helados en la ciudad?
+[heller] No, pero tú creías que sí la había anoche
+[budzyyy] Me estoy haciendo viejo para esto. 
+</file>
+  
+  <eosDevice name="Jason's ePhone 4S" id="eosIntroPhone">
+    <note>Bollitos de cerdo
+     
+ ----------------------  
+1,5 cucharaditas de azúcar en polvo 
+ 250 ml de agua tibia
+  1,5 cucharaditas de levadura 
+ 1 cucharadita de aceite vegetal 
+1,5 cucharadita de levadura en polvo  
+400 g harina  
+----------------------
+    
+Azúcar + agua en un recipiente, disolver, añadir la levadura, tapar y esperar 10 m.
+   
+ Tamizar el resto de ingredientes, mezclar y amasar en una masa elástica suave, cubrir durante 1 hora.
+   
+ Dividir en bolas, añadir relleno al gusto, cocer al vapor durante 20 m.
+
+    </note>
+    <note>Tortillas
+
+----------------------
+2 tazas de harina 
+1/2 cucharadita de sal 
+1 cucharadita de levadura en polvo 
+1 cucharada de manteca de cerdo 
+3/4 tazas de agua
+----------------------
+
+Mezclar la levadura y verter la manteca. Añadir agua y hacer una masa. Amasar hasta que esté suave. 
+
+Hacer una base fina y cocinar en una sartén hasta que quede dorada.</note>
+    <mail username="jjstacks@jmail.com" pass="tintin7"/>
+  </eosDevice>
+  
+  <account username="admin" password="tintin7"/>
+</Computer>

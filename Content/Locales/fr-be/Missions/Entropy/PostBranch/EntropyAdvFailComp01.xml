@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="entropyAdvFail01" name="KyonBox" security="3" ip="176.194.38.111">
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <account username="admin" password="haruhi"/>
+  <proxy time="2"/>
+  <trace time="70"/>
+  <file path="home/loot" name="Macrosoft_dox.txt">Serveurs de stockage de Macrosoft : 
+ 168.61.82.246
+  </file>
+  <file path="home/docs" name="jessie.txt">
+[lilsebastian] Alors, tu crois que tu pourras venir ?
+ [kkswatch] Je sais pas, maman aime pas quand je sors de la maison. 
+[lilsebastian] On ira au McDo. 
+[kkswatch] Ah oui ? 
+[lilsebastian] Tout ce que tu veux.
+[kkswatch] Et ensuite on fera quoi ? 
+[lilsebastian]Ben... je pensais qu'on pourrait aller sur le promontoire. 
+[lilsebastian] Pour regarder les étoiles par exemple. 
+[kkswatch] Ah oui ? Ça ressemble de plus en plus à un rendez-vous. 
+[lilsebastian] Hum, et qu'est-ce que t'en dis ? 
+[kkswatch] Retrouve-moi dans la ruelle dans 25 min. Je serai prête. 
+[lilsebastian] :D
+  </file>
+  
+  <file path="home/docs" name="lantime.txt">
+[jlord93] T'es prêt pour ce week-end ? 
+[xn00bslayerx] ouaip ! 
+[xn00blayserx] j'ai de quoi boire, j'suis prêt 
+[jlord93] 360NOSCOPE pendant des jours... :p 
+[xn00bslayerx] J'espère que Jessie va venir à la LAN ce week-end 
+[jlord93] C'est reparti... 
+[xn00bslayerx] ta gueule ! 
+[jlord93] Impressionne-la avec tes talents de 1337, mec
+ [jlord93] Enfin bref, j'me casse. Je te vois à l'école demain.
+  </file>
+  
+  <file path="home/docs" name="update.txt">
+[slaggedfire] J'arrive pas à croire les conneries que les développeurs ont fourrées dans cette mise à jour. 
+[slaggedfire] On s'en fout, de l'animation procédurale de l'herbe !   
+[slaggedfire] Je veux plus de vrai contenu ! 
+[zuggj1] En plus ils vont nous faire payer plus cher pour ça, je suis sûr 
+[slaggedfire] On se connecte et on refait le raid ? 
+[zuggj1] Pourquoi pas.
+  </file>
+  
+</Computer>

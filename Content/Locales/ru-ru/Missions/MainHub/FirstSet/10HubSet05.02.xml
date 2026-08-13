@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="C_EXE_contact.dec" path="home" destTarget="hubPubDrop" destPath="Drop/Uploads" decrypt="true" decryptPass="quinnoq"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Decrypt a secure transmission" reqs="decypher">
+Один из сотрудников CSEC получил зашифрованный файл, но он не может его расшифровать. У них есть необходимые пароли для работы.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Два корабля в ночи</subject>
+    <body>
+Привет! 
+
+Один друг выслал детали одного нашего заказа, но скинул их в зашифрованном виде, и у меня нет подходящей проги, чтобы открыть его. 
+Он лежит на общем сервере под названием &quot;C_EXE_contact.dec&quot;. Можешь расшифровать его и скинуть на дроп-сервер? 
+
+Пароль должен быть &quot;quinnoq&quot;.
+
+ Спасибо!
+
+-CSEC Dan
+    </body>
+    <attachments>
+      <link comp="hubCrossroads"/>
+      <link comp="hubPubDrop"/>
+      <note title="Детали задания">Скачать C_EXE_contact.dec;
+      
+Расшифровать его; 
+
+Загрузить полученный файл на дроп-сервер CSEC.</note>
+    </attachments>
+  </email>
+</mission>

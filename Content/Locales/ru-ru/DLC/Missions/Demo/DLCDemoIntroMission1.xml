@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dlcDemoIntro1">
+  <goals>
+    <goal type="filedownload" target="dDemointro1" file="FTPSprint.exe" path="bin"/>
+  </goals>
+  <nextMission>../DLC/Missions/Demo/DLCDemoIntroMission2.xml</nextMission>
+  <email>
+    <sender>Matt</sender>
+    <subject>Вводная</subject>
+    <body>Привет,
+    
+С возвращением. У нас есть кое-что новенькое, что привлекло много разных групп. Агенты Entropy и CSEC этим занимаются, но мне кажется, тебе это тоже может быть интересным.
+
+Но сначала я введу тебя в курс дела. На этой ВМ уже должны стоять SSHCrack и FTPBounce. Взломай сервер по ссылке и скачай файл из ~/bin. Потом продолжим. Надеюсь, тебе понравится.
+
+Когда закончишь, я перешлю кое-что от Teкса.
+Надеюсь, ты все еще в хорошей форме - она нам понадобится.
+-Мэтт
+    </body>
+    <attachments>
+      <link comp="dDemointro1" />
+      <note title="Recap">Запуск программы:
+НазваниеПрограммы [НомерПорта]
+Используй "Porthack", чтобы взломать активную защиту, когда порты будут открыты.
+
+Скачай bin/XXXX с целевого компьютера и ответь на это письмо.
+- scp [имя файла]
+
+Удали логи в /log
+-rm [* или имя файла]
+</note>
+    </attachments>
+  </email>
+</mission>

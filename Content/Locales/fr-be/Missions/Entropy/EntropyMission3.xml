@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyMission03">
+  <goals>
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS.rar" path="bin"/>
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Data.xnb" path="bin"/>
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Content.xnb" path="bin"/>
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS.rar" path="bin"/>
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Data.xnb" path="bin"/>
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Content.xnb" path="bin"/>
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS.rar_backup" path="bin"/>
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Data.xnb_backup" path="bin"/>
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Content.xnb_backup" path="bin"/>
+  </goals>
+  <missionStart val="0">entropyEndMissionSetup</missionStart>
+  <nextMission>AlphaCreditsMission.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Une dernière tâche</subject>
+    <body>
+#PLAYERNAME#, 
+
+Voici la dernière chose que le groupe Entropy te demandera directement. Que tu rates ou que tu réussisses, il deviendra bien trop risqué de conserver un tel... contact personnel. 
+
+Cette mission implique l'éradication. Une grande entreprise que nous surveillons depuis quelque temps est en train de développer un nouveau système d'exploitation appelé « HacknetOS » basé sur les recherches de feu le hacker « Bit ». 
+Cela fait planer une menace très sérieuse sur la sécurité du monde numérique tel que nous le connaissons. Les outils fournis dans le système facilitent grandement le piratage même pour les débutants avec très peu d'entraînement. 
+
+Cette menace doit être totalement éliminée. 
+Tu as le soutien total d'Entropy et donc l'accès à deux nouveaux outils très puissants (et chers) dans le serveur d'actifs d'Entropy. Tu en auras sûrement besoin. Je te suggère de les récupérer immédiatement. 
+
+Voici également un lien vers la machine de services internes de l'entreprise responsable. Il ne fait aucun doute qu'ils auront plusieurs copies de sauvegarde. Tu devras scanner avec soin leur réseau pour t'assurer que la menace soit totalement supprimée. 
+
+Bonne chance. Ne nous déçois pas. 
+-Tex
+    </body>
+    <attachments>
+      <link comp="corp0#IS"/>
+    </attachments>
+  </email>
+</mission>

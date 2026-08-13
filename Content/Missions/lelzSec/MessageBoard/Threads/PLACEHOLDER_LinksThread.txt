@@ -1,0 +1,28 @@
+placeholderLinks
+------------------------------------------
+#Mod
+This path of the game is not yet complete - aside from the other links and information found here, this is where the path ends. For now.
+What follows are several links, showing some bits and peices from the future that are not yet implemented here.
+
+Note: The other main path has significantly more content - you should probably go try that one! You'll find it if you "follow the rules" more.
+------------------------------------------
+#Duck
+CFC Web Server
+>connect www.cfc.com
+------------------------------------------
+#Mod
+Thanks for playing!
+Let me know what you thought at mtrobbia@gmail.com
+
+This is the second of the two main paths - try again and be more obidient to find the first.
+------------------------------------------
+Death Row Records Database
+168.51.178.4
+------------------------------------------
+International Academic Database
+129.67.0.11
+------------------------------------------
+#Speech
+Credits Server
+226.187.99.3
+------------------------------------------

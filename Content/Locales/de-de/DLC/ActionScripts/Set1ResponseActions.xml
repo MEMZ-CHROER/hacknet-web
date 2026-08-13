@@ -1,0 +1,14 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-15.0">Entschlüsselungs-Setup fertig!</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-12.0">Leider ist es noch nicht so portabel – ich werde bei Zeiten eine neue, teilbare .exe erstellen.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-7.0">Schickt mir aber vorerst einfach Sachen rüber und ich schau sie mir dann an.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-3.0">Ich frage mich, wie lange es dauern wird, bis du mehr Zeit damit verbracht hast, Kram für uns zu entschlüsseln, als es dich gekostet hätte, das hier anständig einzurichten.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="0.5">Okay, ja. Ich schäme mich, aber darauf gebe ich keine Antwort. Es funktioniert. Und ich werde eine bessere Lösung finden, sobald ich die Zeit dazu finde. Ich bin mir sicher, dass wir alle vorerst damit leben können -_-</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="3.2">Da haben wir wohl keine Wahl, oder?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="3.5">-_-</AddIRCMessage>
+  </OnConnect>
+  
+</ConditionalActions>

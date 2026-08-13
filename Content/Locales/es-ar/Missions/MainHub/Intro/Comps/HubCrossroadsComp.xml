@@ -1,0 +1,137 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="hubCrossroads" name="Servidor de intercambio de CSEC" security="0">
+
+  <positionNear target="mainHub" position="1" total="6"/>
+
+  <file path="home" name="REQUEST.zip">#BINARY##BINARY#</file>
+  <file path="home" name="CT2.zip">#BINARY##BINARY#</file>
+
+  <encryptedFile path="home" name="encrypt_source.dec" ip="101.0.89.154" header="Secured Source Code" extension=".cs">
+    
+        private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data[i] * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + &quot; &quot;);
+            }
+            return ret.ToString().Trim();
+        }
+        
+         ///resumen
+        /// Devuelve una matriz que contiene
+        /// [0] Mensaje de encabezado
+        /// [1] Enlace de IP
+        /// [2] Datos de mensaje
+        /// [3] Extensión de archivo si se proporciona, si no, null
+        /// [4] &quot;1&quot; si la contraseña es válida, &quot;0&quot; si no lo es
+        ///resumen
+        public static string[] DecryptString(string data, string pass = &quot;&quot;)
+        {
+            string[] ret = new string[5];
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string[] split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException(&quot;Tried to decrypt an invalid valid DEC ENC file&quot;);
+            string[] headersSplit = split[0].Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException(&quot;Tried to decrypt an invalid valid DEC ENC file&quot;);
+
+            string headerMsg = Decrypt(headersSplit[1], passcode);
+            string ipLink = Decrypt(headersSplit[2], passcode);
+            string check = Decrypt(headersSplit[3], passcode);
+            string fileExtension = null;
+            if (headersSplit.Length &gt; 4) fileExtension = Decrypt(headersSplit[4], passcode);
+            string message;
+            string passValid = &quot;1&quot;;
+            if (check == &quot;ENCODED&quot;) {
+                ////¡La contraseña era correcta!
+                message = Decrypt(split[1], passcode); 
+           } 
+           else { 
+               //contraseña no válida
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+                passValid = &quot;0&quot;;
+            }  
+          ret[0] = headerMsg; 
+           ret[1] = ipLink;
+            ret[2] = message;
+            ret[3] = fileExtension;
+            ret[4] = passValid;
+            return ret;
+        }
+  </encryptedFile>
+
+  <encryptedFile path="home" name="CSEC_encode_1.dec" ip="168.61.82.245" header="WinC Firmware Specifications" extension=".pdf" pass="beepbeep">
+    Guía de desarrollo de controladores y firmware de WinCE 
+   ------------------------------------------------------  
+  Para el desarrollo de controladores y firmware que se usarán en sistemas incrustados que ejecuten sistemas operativos WinCE. Miles de dispositivos utilizan este sistema operativo, desde coches a reproductores multimedia. Recuerda la gran variedad de dispositivos en los que se desplegará tu código cuando desarrolles tus controladores o tu firmware.
+    ------------------------------------------------------  
+
+  Muchos controladores de dispositivos WinCE implementan la interfaz de transmisión. Los puntos de entrada principales de la interfaz de transmisión son XXX_Open (administrador de dispositivos), XXX_Close (administrador de dispositivos), XXX_Read (administrador de dispositivos), y XXX_Write (administrador de dispositivos). Para obtener más información, consulta Controladores de la interfaz de transmisión.
+    Los adaptadores de red, los adaptadores de pantalla, los ratones, los teclados y otros dispositivos para fines especiales no utilizan la interfaz de transmisión. Estos dispositivos utilizan una interfaz adecuada a las funciones de dicho dispositivo.
+    Con independencia de la interfaz que exponga el controlador del dispositivo, podrías tener que implementar una rutina de servicio de interrupción (ISR). Para obtener más información sobre las interrupciones y las ISR, consulta Interrupciones.
+    Distintos procesos cargan controladores diferentes. La tabla siguiente muestra los procesos que cargan controladores y qué controladores carga cada proceso.
+
+    Para insertar el código para el controlador deberías usar las rutas siguientes: 
+
+   %_WINCEROOT%\Platform\%_TGTPLAT%
+    Contiene el código dependiente de la plataforma de hardware. Este directorio contiene principalmente la OAL, los archivos de configuración y los controladores BSP. No deberías tener que modificar los controladores dependientes de la plataforma de hardware que hay en %_WINCEROOT%\Platform\%_TGTPLAT%\Drivers.
+    %_WINCEROOT%\Platform\Common\Src\SOC
+    Contiene controladores SOC para microprocesadores de alta integración o complementos de microprocesador con muchos periféricos integrados en el microprocesador. Los controladores SOC incluyen controladores OAL específicos del microprocesador para relojes en tiempo real, temporizadores, tarjetas Ethernet de depuración, etc. Unas placas de desarrollo estándar (SDB) con los mismos microprocesadores pueden utilizar el mismo conjunto de controladores SOC.
+    %_WINCEROOT%\Public\Common\OAK\Drivers
+    Contiene controladores comunes para periféricos que no sean nativos, que son dispositivos en una tarjeta de plug-in o que se conectan directamente a una placa de circuitos. Los controladores comunes contienen código independiente de la plataforma que se enlaza con el código dependiente de la plataforma para crear un controlador de hardware Los controladores comunes no son específicos de ninguna plataforma de hardware ni de ningún microprocesador. Cualquier SDB puede utilizar controladores comunes.
+  </encryptedFile>
+
+  <file path="home" name="FOF_Screenplay.doc">
+    SIN NINGUNA MIERDA
+    - Un guion -
+
+ Escena inicial: De fondo suena música de piano suave. Vemos el reloj del salpicadero de un carrito de golf. Son las 7:22.
+    Un hombre mal vestido da un trago a un cartón de vino obviamente robado. No lo juzgues: es lo que necesita, y es delicioso. Por mal vestido 
+me refiero claro, a que solo lleva un bañador ajustado. Su perfil es claramente visible.
+
+    Pasando junto a una cafetería a la máxima velocidad del carrito, 40 km/h (tiene un turbocargador detrás) saca la mano como si nada y le tira el café a un hombre de negocios.
+
+    Derrapa para pararse entre dos plazas de aparcamiento para minusválidos, sale andando, vacía lo que queda del cartón y lo lanza a la carretera, como si no le importara nada. Nada de nada.
+    La música aumenta mucho de intensidad. Alcanza un punto dramático, con trompas y todo lo demás. Nuestro héroe camina valerosamente hacia un contenedor de basura cercano, se sube en él y, sin dudarlo, se quita el bañador y salta con satisfacción.
+
+    Corte al rostro horrorizado de una anciana. Se muestra el título.
+  </file>
+
+  <encryptedFile path="home" name="T2_Screenplay.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" pass="DANGER">
+    Titanic 2: La venganza del iceberg
+    - Un guion - 
+
+JACK DAWSON: «Nadie ha pensado en esto, pero el iceberg no nos golpeó... ¡NOSOTROS LO GOLPEAMOS!» 
+ROSE DEWITT BUKATER: «¡¿Cómo?! ¿La loca operación científica que te resucitó te afectó la cabeza? ¡Te he traído de vuelta porque te *AMO*!». 
+JACK DAWSON: «Lo sé, pero aquí estamos en peligro. Ese iceberg tenía familia y quiere vengarse. Me lo dijeron cuando estaba a punto de morir... no esperaban...». 
+- JACK DAWSON sacude sus GAFAS DE SOL MOLONAS y se las pone. 
+JACK DAWSON: «Volveré». 
+
+Corte al litoral de California. 
+
+Un iceberg aparece en el agua y se aproxima a la ciudad a una velocidad increíble. 
+Empiezan a sonar sirenas de evacuación, la gente en la playa grita, lo señala y huye para salvar la vida.
+ Junto a él aparecen más icebergs, que también se dirigen rápidamente hacia la orilla. 
+
+ROSE DEWITT BUKATER: «¡Socorro!». 
+JACK DAWSON: «¡Rose! ¡Estoy aquí por ti! ¡Nunca te abandonaré!». 
+
+El primer iceberg ya está en la orilla y se desliza hacia los dos protagonistas. Saca una pistola. 
+
+ROSE DEWITT BUKATER: «¡JAAAAACCCKKKKKKK!».
+
+  </encryptedFile>
+  
+  <encryptedFile path="home" name="C_EXE_contact.dec" ip="74.125.237.119" header="Encrypted Messaging Systems inc" extension=".txt" pass="quinnoq">
+
+    El contacto usa una cuenta de JMail con el seudónimo «dlocke».
+      
+  Sé que llevamos mucho detrás de esto, pero ahora no te aceleres porque sea una pista sólida: nos lo tomaremos con calma.
+    Más novedades cuando tenga un plan.
+
+  </encryptedFile>
+</Computer>

@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="generatedWebVandal01">
+  <generationKeys Data="Content/Web/BaseCorporateRecruiterPage.html"/>
+  <goals>
+    <goal type="FileChange" target="#COMP#" file="#FILE#" path="#PATH#" keyword="#LC_CLIENT#@jmail.com" />
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT#の社員募集サポート">
+#CLIENT#は現在、社員募集に苦戦中です。ライバル会社のメールアドレスを書き換え、社員募集をサポートしてください。
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>社員募集キャンペーン</subject>
+    <body>
+エージェントへ
+
+最近、わが社は新しい社員を見つけ出すのに苦戦している。それというのも、ライバル会社による圧倒的な求人戦略に、新社員をことごとく奪われてしまっているからなのだ。
+何とかこの差を埋めるために、ライバル会社に流れてしまう人材を、一時的にわが社に回してほしい。
+
+ライバル会社の社員募集ホームページには以下のリンクから飛べる。彼らへの連絡用メールアドレスを、下に記すわが社のアドレスに変更してもらいたい。
+
+#LC_CLIENT#@jmail.com
+
+
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitRelay01" 
+          name="Bitwise Relay 01" 
+          security="2"
+          allowsDefaultBootModule="false"
+          type="2" > <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <!-- Accounts -->
+  <account username="bittest" password="test" type="1" />
+
+  <!-- Security Stuff -->
+  <ports>1433, 22, 21, 80</ports>
+  <portsForCrack val="4" /> <!-- Number of ports to be open to allow porthack to run -->
+  <trace time="-1" /> <!-- Adds a trace timer - set to -1 to remove -->
+  <admin type="basic" />
+  
+  <!-- Files -->
+  <file path="home" name="Home_Base.txt">Wenn du das hier liest, bist du auf einen meiner Relay-Server gestoßen und anschließend eingebrochen.
+Wenn du aus irgendeinem Grund den Kontakt mit mir suchst, lade eine Datei auf meinen Drop Server. Da schau ich gelegentlich nach.
+
+108.160.165.139
+</file>
+
+  
+  <file path="sys" name="x-server.sys">#WHITE_THEME#</file>
+  
+  
+</Computer>

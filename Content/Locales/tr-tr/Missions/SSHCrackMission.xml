@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="sshcrack01">
+  <goals>
+    <goal type="FileDownload" target="portcrack01" file="SSHcrack.exe" path="bin" />
+  </goals>
+  <missionEnd val="0">transitionToBitMissions</missionEnd>
+  <nextMission>NONE</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>Araç Toplama</subject>
+    <body>
+Harika - bu seni şimdilik güvende tutmaya yeter. En azından kendi bilgisayarına karşı...
+Başlamadan önce birkaç şeye ihtiyacın olacak - öyle sadece PortHack yaparak modern bilgisayarlara giremezsin... En azından içinde görmeye değer şeyler olanlara giremezsin.
+      
+Bir arkadaşımı kontrol ederek başlamalısın - "Viper" olarak tanınır - Biliyorum, korkunç bir kullanıcı adı. O... dürüst olmak gerekirse beyinsizin tekidir fakat her zaman elinin altında işe yarar kodlar bulundurur.
+Viper'ın dosyalarına erişmekte sıkıntı çekmezsin - fakat işe yarar bir şeyler bulmakta zorlanabilirsin.
+
+Çoğunlukla 'genel' olarak nitelendirilen dosyaları - programların girilerini ve kayıtlarını; IRC Girdileri veya benzeri şeyleri - görmezden gelebilirsin. Asıl araman gereken özel isimlendirilen .exe ve benzeri dosyalar. 
+İşine yarayacak dosyaları "scp" komutunu kullanarak indir.
+
+Bol şans - işi hallettiğin zaman e-postayı yanıtla.
+      
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <link comp="portcrack01" />
+      <note title="Hızlı Başvuru Kılavuzu">Hızlı Başvuru Kılavuzu
+      
+'probe' komutu ile güvenlik sistemlerini irdele.
+Etkin güvenliği aşmak için 'PortHack' komutunu kullan.
+
+'scan' komutunu kullanarak daha fazla ağın yerini belirle.
+~/log klasöründeki girdileri "rm [DOSYA ADI veya *]" komutu ile sil.
+
+"scp [DOSYA ADI]" komutuyla dosyaları indir.
+      </note>
+    </attachments>
+  </email>
+</mission>

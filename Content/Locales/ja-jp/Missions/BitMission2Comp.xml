@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission02" name="Entropy test Server" ip="199.59.149.230" security="1" type="4">
+  <file path="home" name="Entropy_Induction_Test">
+おめでとう！
+  
+このファイルをダウンロードすれば、入団試験は完了です。
+
+Entropyからすぐに連絡が届くはずです。    
+  </file>
+  <file path="bin" name="e_admins_are_lazy.txt">何で誰もbinフォルダーをきれいにしないんだよ。これは試験用のサーバーだぞ、ハッキングされるためにあるんだぞ！整理くらいしろよ！</file>
+
+  <file path="bin/zer0cool" name="hack_the_planet.txt">愚民どもは俺にひれ伏せ！俺はすげえテクを持ってるんだぞ！お前らにはできねーだろ！</file>
+  <file path="bin/zer0cool" name="retort.txt">反論って言葉の意味くらいは知ってるよな。言わせてもらうと、お前は三流以外の何者でもない。
+  ここのプロキシを突破するのに一週間まるまるかけたみたいだな。お前はママのXPを使って「この惑星をハッキング」できると思ってるだけの、ただの12かそこらのガキだ。まあ頑張れ。プロに任せてお寝んねしてな</file>
+
+  <file path="bin/OP_Stormwind" name="need_help.txt">これを読んでるってことは、本来権限がないはずの場所に入る方法にくわしいってことだね。Stormwindのバカどもがオークションなんか追加して、Shaytan 3のゲームバランスをめちゃくちゃにしやがったんだ。96年に初代のShaytonがリリースされてから、俺はこのゲームの大ファンなんだ。俺はオークションなんて機能をぶっ壊してやりたい。協力してくれるなら、ここにテキストファイルを残してくれ。そしたら俺から連絡する。
+-slaggedfire</file>
+
+  <file path="bin/OP_Stormwind" name="Wo_lai_bang.txt">
+400 Jin Stormwind Online.
+</file>
+
+  <file path="bin/OP_Stormwind" name="lulz.txt">
+運営がお前にキレてるぞ、slaggedfire。中国人が、ゴールドをよこせって一晩中サーバーに攻撃し続けてるらしい。
+</file>
+
+  <file path="bin" name="SOgold.txt">
+面倒なクエストをこなすのはもう飽き飽きじゃありませんか？お金のことを心配することなく、幸せで健康な人生を送りたいとは思いませんか？でしたら、SOgoldがあなたにピッタリのサービスです！Stormwind Onlineプレイヤー向けの理想のサービスを、あなたにお届けします。たった少しの手数料で、あなたのアカウントの管理や、必要なアイテムが全て買えるだけのゴールドの調達を実現いたします。あなたのStormwind Onlineのアカウント詳細と、頭金もしくは29.99USDをいただければ、想像したこともないくらいのゴールドを調達してみせます。
+</file>
+
+<file path="bin" name="BIT_PLZ_READ.txt">
+Bit、隠れているんなら出てきてくれないか。君に話したいことがあるんだ。
+Vap0rが、僕の件にずいぶんこだわるんだ。彼女が言うには何かがおかしいらしい。連絡をくれないか？
+-T
+</file>
+  
+  <proxy time="0.3" />
+</Computer>
+

@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission00">
+  <goals>
+    <goal type="getAdmin" target="practiceServer"/>
+  </goals>
+  <missionStart val="0">CSECTesterGameWorldSetup</missionStart>
+  <missionEnd val="0">assignPlayerToHubServerFaction</missionEnd>
+  <nextMission>MainHub/Intro/Intro01.xml</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>Super Speciale Geheime Tester Missie</subject>
+    <body>
+    Yo,
+
+    Bedankt voor het helpen testen! Dit is een opwarm missie gemaakt om je weer vertrouwd te maken met de mechanics.
+    Je hebt een hoop admin nodes gekregen en je basisset van 4 programma's (SSHCrack, WebServerWorm, SMTPOverflow, FTPBounce).
+
+    Krijg Admin op de gelinkde computer en beantwoord dit om verder te gaan.
+    Dit doen zal je direct naar CSEC level sturen waar je de nieuwere contracten kan accepteren.
+    Vergeet niet eerst naar de CSEC asset server te gaan!
+          
+    -Matt
+
+
+    .
+
+
+    </body>
+    <attachments>
+      <link comp="practiceServer" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="kfcMainframe" name="Sistema principal corporativo de CFC" security="5" type="4">
+  <trace time="320"/>
+  <proxy time="0"/>
+  <firewall level="0"/>
+  <dlink target="kfcWebServer"/>
+  <dlink target="kfcRecordsRepo"/>
+  <admin type="fast" resetPassword="true"/>
+
+  <file path="home/training_files" name="New_Employee_Welcome_Email.txt">
+    %NAME%: 
+
+   ¡Te damos la bienvenida a la familia CFC!
+
+    Kernel's Food Corner ofrece grandes oportunidades laborales, un trabajo emocionante y equipos llenos de amigos: ¡esperamos que estés de maravilla con nosotros!
+    Como miembro del equipo, tendrás derecho a la tarjeta de descuento para empleados del 12 %, que encontrarás junto con esta carta: ¡disfrútala!
+
+    Recibirás un curso de introducción formal a la tienda y nuestras prácticas en tu primer turno pero, antes, quiero volver a darte la bienvenida a la familia.
+
+    - La dirección
+  </file>
+
+  <file path="home/training_files" name="11_Secret_Herbs_And_Spices.txt">
+    Muchos nuevos empleados preguntarán por la fórmula secreta, por curiosidad o porque quieren implicarse más en la empresa. Por desgracia, la fórmula es demasiado importante para dársela a todos los trabajadores (en especial, con los índices de abandono que tenemos últimamente) y por eso está protegida.
+    La combinación se envía a las tiendas regularmente en bolsas de plástico blancas sin marcar y debe mezclarse con la masa de rebozado como se indica.
+
+    La fórmula no se le puede dar ni siquiera a la dirección. De hecho, solo 2 personas del mundo la conocen en cada momento dado (y tienen terminantemente prohibido viajar en el mismo vehículo a la vez).
+
+    Ten la seguridad de que la fórmula para nuestro pollo perfecto se produce y se pide de manera cuidadosa y es un secreto muy bien guardado.
+  </file>
+  <file path="home/training_files" name="Order_Records_Guide.txt">
+    Los registros de los pedidos de cada tienda deben registrarse localmente, y las actualizaciones archivadas deben enviarse cada año al almacén de registros central de CFC.
+    El origen de los pedidos se guarda en el mismo almacén, y los registros solo están disponibles en caso de emergencia (generalmente, para rastreo en caso de envenenamiento alimentario) y solo se emiten de forma personal, impresos y por solicitud.
+
+    Almacén de registros de CFC: 202.7.177.65
+
+  </file>
+
+
+  <file path="home/Media" name="Logo.png">#BINARY#</file>
+  <file path="home/Media" name="Logo_Small.png">#BINARY#</file>
+  <file path="home/Media" name="MediaKit_2011.zip">#BINARY##BINARY#</file>
+  <file path="home/Media" name="Guide.txt">
+    En Kernel's Food Corner tenemos una única misión: servir el pollo más sabroso del mundo.
+    Por eso solo usamos los mejores ingredientes, pollos enteros entregados frescos.
+    Luego se prepara al momento, se reboza a mano con nuestras recetas secretas y nuestros cocineros certificados por CFC lo cocinan en ese instante en todos nuestros restaurantes.
+    ¿Fácil? No. Pero solo hace falta un bocado para recordar por qué ese esfuerzo extra merece la pena.
+    Porque recién hecho, sabe mejor. Párate en tu CFC local y pruébalo.
+  </file>
+
+</Computer>

@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="HasFlag" target="E_Whit:DEAD" />
+  </goals>
+  <missionStart val="9" suppress="true">changeSong</missionStart>
+  <missionEnd val="1">junebugComplete</missionEnd>
+  <nextMission>BitPath/BitAdv_Intro.xml</nextMission>
+  <branchMissions>
+    <branch>MainHub/PacemakerSet/PacemakerSet_Deny_Branch.xml</branch>
+  </branchMissions>
+  <posting title="Projekt Junebug" reqs="dechead, decypher,csecRankingS2Pass">
+Eine unglaublich heikle Situation erfordert es, einen erfahrenen Agenten zu involvieren, der einwilligt, einige fragwürdige Aktionen für eine Person in Not durchzuführen.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Projekt Junebug</subject>
+    <body>
+Hacker,
+
+dies ist keine normale Anfrage und wir weigern uns, sie so zu behandeln. Wir wurden gebeten, Sterbehilfe zu leisten.
+Natürlich haben wir die Situation gründlich überprüft (und auch außenstehende Hacker darum gebeten, um nicht zu viel Verdacht zu erregen) - und sind zu diesem Ergebnis gelangt: Der betroffene "Elliot Whit" liegt im Krankenhaus und leidet unter enormen Schmerzen. Dennoch wird ihm der Wunsch nach dem Tod verwehrt.
+Ein gescheiterter Versuch seitens der Angehörigen, ihm diesen Wunsch zu erfüllen, hat es ihnen unmöglich gemacht, diese Angelegenheit selbst zu regeln, weswegen sie nun diesen Weg einschlagen. Der Patient besitzt einen Herzschrittmacher, der (mit ausreichenden Zertifikaten) Fernzugriffe zulässt. Die Familie sieht darin die beste Möglichkeit, sein Leiden zu beenden.
+
+Natürlich können wir nachvollziehen, wenn du nicht involviert sein möchtest. Antworte mit "deny" und wir werden dich aus diesem Projekt entfernen.
+
+Wenn du dich dafür entscheiden solltest, uns in dieser Angelegenheit zu helfen, solltest du wissen, dass du vermutlich viel experimentieren musst, da so etwas, soweit wir wissen, noch nie zuvor versucht wurde.
+Wir empfehlen mit den medizinischen Aufzeichnungen des Ziels zu beginnen, den Chip zu identifizieren, nach dessen Hersteller herauszufinden und von dort aus fortzufahren.
+      
+-CSEC Admins
+    </body>
+    <attachments>
+      <link comp="medical" />
+      <note title="Projekt Junebug: Details">
+Ziel : Elliot Whit
+Maßname: Sterbehilfe
+</note>
+    </attachments>
+  </email>
+</mission>

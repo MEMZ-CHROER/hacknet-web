@@ -1,0 +1,12 @@
+Merhaba Entropy'ciler,
+
+eOS Aygıt Tarayıcısını sunucuya (~/bin/eosDeviceScanner.exe) yükledim. Bağlantı hedefli exe dosyası olduğundan kolayca kullanabilirsiniz.
+Sistemin dosyalarını okuyacağından (hedef sistem ile senkronize edilmiş aygıtlar hakkında bilgi toplayacak) çalışmaya başlaması için yönetici erişimine ihtiyaç duyuyor. Bir defa erişim sağlandığında bilgisayarla bağlantıyı kesseniz de kapatsanız da sıkıntı çıkmaz.
+Bu aygıt cihazların bilgisayara bağlandığında gerçekleştirdikleri senkronizasyon işleminin yedeklerini kontrol ediyor. Sonra aygıtın gerçekleştirdiği kablosuz senkronizasyon işlemini taklit ediyor ve SSH portu ve benzeri unsurları aşıyor.
+
+Asıl numara ise şu: eOS kullanıcıları kendi cihazlarının terminaline erişemediği için tüm yönetici şifreleri aynı. Dünya üzerinde satılan tüm ürünleri bir düşünsenize! 
+
+Şifremiz "alpine" - Bana teşekkür etmenize gerek yok, alt tarafı size bir milyon yıl falan kazandırdım.
+Yükleme tamamlanır tamamlanmaz bana söz verdiğiniz ücretin ödenmesi istiyorum. Anlaştık mı?
+
+-vtfx

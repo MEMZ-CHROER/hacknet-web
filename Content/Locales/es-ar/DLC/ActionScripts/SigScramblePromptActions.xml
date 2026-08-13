@@ -1,0 +1,14 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhsDrop" needsMissionComplete="false">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="105.0">Whoa</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="110.0">@channel , Ya han probado SignalScrubbler? Desde los servidores Alchemists?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="114.0">Es una locura!</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="130.0">Si. Es muy impresionante. Donde has oido sobre esto @Kaguya ?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="140.5">Intercambio de secretos.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="147.5">Me alegra que te guste. Sospecho que será muy util en proximas tareas.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="160.0">Buenisssssimo</AddIRCMessage>
+  </OnConnect>
+  
+</ConditionalActions>

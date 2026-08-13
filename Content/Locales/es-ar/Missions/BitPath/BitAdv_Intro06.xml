@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit02_Phase6">
+  <goals>
+    <!--
+    <goal type="FileDownload" target="EnTechOutsiderRepo" file="heart.dec" path="Contractors/Bit" />
+    -->
+  </goals>
+  <missionStart val="1">changeSong</missionStart>
+  <nextMission>BitPath/BitAdv_Intro07.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Justificación</subject>
+    <body>Esto es justo lo que deseaba. Lo habían borrado todo por completo, excepto por un archivo encriptado en la carpeta de Bit (como seguramente habrás visto), pero ese archivo... 
+sé cómo abrirlo, tiene una contraseña que nos dijo a unos cuantos hace tiempo cuando trabajábamos en un proyecto con él. Nos envió un mensaje encriptado como este. 
+
+La contraseña es &quot;divingsparrow&quot;. Ya lo he leído. Hay una cuenta de correo que necesito comprobar ahora también, te sugiero que hagas lo mismo. 
+Descarga el archivo y desencríptalo localmente, no dejes una copia por ahí. Y ponte en contacto conmigo después. Creo que estamos llegando a la verdad, y a alguna acción. 
+
+Contáctame cuando lo hayas hecho y acabemos con esto. 
+
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

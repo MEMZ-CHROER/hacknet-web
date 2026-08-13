@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ds1m1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Erstelle Entschlüsselungs-Tools">Wir stoßen immer wieder auf verschlüsselte Dateien und brauchen daher etwas, das sie knacken kann. D3f4ult, das ist dein Fachgebiet. Du weißt, was zu tun ist.</posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ds1m3">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Trouver l'origine des pannes de serveur de Grindcraft">À la demande de Coel, j'ai obtenu des adresses IP qui semblent être liées à ceux qui ont perpétré les attaques DDoS. Découvre qui en est à l'origine.
+  </posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

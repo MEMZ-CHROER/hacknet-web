@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <generationKeys File="GameFile_Source_Pak.zip" Path="home/code"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# Ürününün Yasadışı Kopyası">
+Bu şirketin ürününün birebir aynısı, başka bir ürün olarak pazarda satışa sunulmuş. Korsanlar, başkasının emeklerinden kar sağlıyorlar.
+İleri giden bu arkadaşların işini gör.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - Sadece bir tane olabilir</subject>
+    <body>
+Sayın temsilci,
+
+#CLIENT# olarak bizler bir süre önce App Store'da yeni bir ürün yayınlamıştık. Satışlar ilk günlerde gayet iyi giderken, bir anda büyük bir düşüş yaşandı. Bunun sebebini araştırırken, hırsızın tekinin uygulamamızı çaldığını ve aynı mağazada daha ucuza sattığını fark ettik.
+Rekabete hayır demeyiz fakat bu ürün resmen bizimkinin birebir kopyası! *Bizim* emeğimiz üzerinden para kazanıyorlar! Buna bir dur denilmesi gerekiyor.
+
+Bu sorunu "çözmemizde" bize yardımcı olursanız çok müteşekkir oluruz.
+Nasıl çözeceğinize gelirsek... eğer bu arkadaşların bilgisayarında gördüğünüz her şeyi yok etmeniz yeterli. Linki ekte bulabilirsiniz.
+
+Teşekkürler,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

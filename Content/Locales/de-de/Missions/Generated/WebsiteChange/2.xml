@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="generatedWebVandal02">
+  <generationKeys Data="Content/Web/BaseCorporateRecruiterPage.html"/>
+  <goals>
+    <goal type="FileChange" removal="true" target="#COMP#" file="#FILE#" path="#PATH#" keyword="@jmail.com" />
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Das verschwundene Postfach">
+#CLIENT# möchte die Rekrutierungskampagne seiner Konkurrenten außer Gefecht setzen.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Das verschwundene Postfach</subject>
+    <body>
+Guten Tag,
+
+Unsere Firma möchte bald eine Reihe neuer Stellen besetzen, um frischen Wind in ihre Projekte zu bringen und hätte dabei gerne die Oberhand über #COMP#, die höchstwarscheinlich das Gleiche vorhaben.
+Es sollte nicht lang dauern, die Kontaktdaten von ihrer Website zu entfernen, um sicherzugehen, dass potenzielle Bewerber uns zuerst kontaktieren.
+
+Einen Link zu besagter Webseite ist unten angefügt.
+
+Vielen Dank,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

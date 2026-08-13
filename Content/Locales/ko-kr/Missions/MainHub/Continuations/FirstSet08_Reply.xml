@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet08_p2" activeCheck="true">
+  <goals>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Investigate a medical record">
+    분쟁을 해결하려면 누군가의 진료 기록 사본을 구하시오.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>답장: 아스클레피오스의 지팡이</subject>
+    <body>
+나는…
+뭐? 정말? 이걸 정말 거기서 얻었다고 - 이거 진짜야?
+내 말은, 그냥… 
+
+와우. 
+
+난 그냥.. 이제 더이상 뭘 믿어야 할지 모르겠어. 와우.
+
+어, 그래, 아뭏든 도와줘서 고맙다. 난 내 인생을 재평가하러 가야겠다.
+-G
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

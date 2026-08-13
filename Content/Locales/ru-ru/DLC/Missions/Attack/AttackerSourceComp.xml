@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dAttackSource" name="Striker Proxy" security="6" ip="72.52.4.119" type="4" icon="DLCPC2">
+  
+  <trace time="80" />
+  <portsForCrack val="3" />
+  <ports>21, 22, 6881</ports>
+  <proxy time="0.4" />
+  <firewall level="-1"/>
+  
+
+  <dlink target="dAttackHome" />
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+
+  <file path="home" name="irc_autolog_286.log">fdsfjga: хватит меня чмырить
+StrikeR: может ты уже
+StrikeR: перестанешь
+StrikeR: сливать
+StrikeR: и пришлешь мне
+StrikeR: свою гребаную тему
+fdsfjga: *вздох*
+fdsfjga: прямо сейчас?
+StrikeR: да
+fdsfjga: нельзя подождать до конца игры?
+StrikeR: .
+fdsfjga: ну серьезно
+fdsfjga: я тут лесник
+StrikeR: я думал ты афк
+fdsfjga: лол иди нахуй
+StrikeR: xd
+fdsfjga: йо
+StrikeR: что
+StrikeR: что тебе
+fdsfjga: игра окончена
+StrikeR: что
+fdsfjga: игра, в которую мы играли?
+StrikeR: извини, тебе придется мне напомнить
+fdsfjga: обалдеть
+fdsfjga: откуда столько язвительности
+StrikeR: брб афк
+fdsfjga: ни фига ты не афк
+StrikeR: ты меня заебал
+fdsfjga: так тебе нужны файлы с темой или нет
+StrikeR: ууууууххх
+StrikeR: ладно
+StrikeR: пошли в irc
+fdsfjga: мы и так в irc
+StrikeR: ух ты
+StrikeR: надо же
+</file>
+  
+  <file path="home" name="irc_autolog_289.log">StrikeR: твоя тема сломана
+fdsfjga: ?
+StrikeR: ?
+fdsfjga: ???
+StrikeR: она не пашет
+StrikeR: что
+fdsfjga: что/?
+StrikeR: я не знаю даже что сказать
+StrikeR: она не грузится
+fdsfjga: ща проверю
+fdsfjga: у меня все грузится
+fdsfjga: может, у тебя руки кривые
+StrikeR: это
+StrikeR: если сказать по правде
+StrikeR: просто невозможно
+fdsfjga: разрешение файла не менялось?
+StrikeR: нет
+fdsfjga: точно?
+StrikeR: да
+fdsfjga: лучше проверить
+StrikeR: да
+fdsfjga: проверь еще раз
+StrikeR: идешь ты
+fdsfjga: так что там с расширением файла?
+StrikeR: тебе повезло твои темы хороши
+fdsfjga: ?
+fdsfjga: приятно, что ты так высоко оцениваешь собственного персонажа
+fdsfjga: :3
+StrikeR: жалоба отправлена
+</file>
+  
+  <file path="home" name="irc_autolog_290.log">fdsfjga: привет
+fdsfjga: хочу кое-что сказать
+fdsfjga: после твоего ухода jammy болтал хуйню про тебя
+fdsfjga: типо что девушки паршиво играют в доту
+fdsfjga: он ТАКОЙ злобный лол
+StrikeR: ага
+StrikeR: в следующей игре я в центр
+fdsfjga: да я уже всем рассказал
+StrikeR: я не парюсь по поводу победы в игре
+fdsfjga: о нет
+StrikeR: о да
+fdsfjga: пожалуйста
+StrikeR: центр sf
+StrikeR: ты знаешь тот смачный билд
+fdsfjga: нет
+StrikeR: dagon mek
+StrikeR: гарантирую, он психанет и выйдет
+</file>
+
+  <file path="home" name="irc_autolog_291.log">
+fdsfjga: ты что
+fdsfjga: серьезно
+fdsfjga: взломала jammy
+StrikeR: ?
+fdsfjga: боже
+fdsfjga: ты
+StrikeR: он не использовал прокси
+StrikeR: так что сам нарвался
+fdsfjga: невероятно
+fdsfjga: он плакался в #dota об этом
+fdsfjga: погоди еще
+StrikeR: что, сработало?
+fdsfjga: да, ты прикончила его видеокарту
+fdsfjga: полностью
+StrikeR: лол он должен был напрячься, когда я спросила, какая у него модель
+fdsfjga: поверить не могу
+fdsfjga: он на нее всю зарплату потратил
+StrikeR: надо было потратить 5$ на vps
+fdsfjga: я знаю, что он тебя доставал, но
+fdsfjga: не думаешь, что это слишком
+StrikeR: нет
+StrikeR: лол
+fdsfjga: видимо нет
+StrikeR: пусть знает
+StrikeR: что
+StrikeR: за слова
+StrikeR: надо
+StrikeR: отвечать
+StrikeR: ЛОЛ
+StrikeR: угадай что еще я нашла пока стирала биос его видяхи
+fdsfjga: что
+StrikeR: полный лог чата в котором он УПОРНО подкатывает к одной девчонке
+fdsfjga: да ладно
+StrikeR: да, он хранил логи всех своих чатов в msn messenger ЛОЛ
+fdsfjga: обалдеть
+</file>
+  
+  <file path="home" name="strikeout.txt">j4mmy: привет :)
+- - -
+j4mmy: приветик!
+* j4mmy пытается привлечь ваше внимание! *
+- - -
+j4mmy: как дела?
+- - -
+j4mmy: *массирует вам плечи*
+* j4mmy отправил вам стикер! *
+- - -
+j4mmy: *машет рукой*
+* j4mmy пытается привлечь ваше внимание! *
+- - -
+* j4mmy пытается привлечь ваше внимание! *
+j4mmy: омг хватить меня игнорить
+[A]LEX[A]: чего тебе надо
+j4mmy: как дела? :)
+[A]LEX[A]: слушай
+[A]LEX[A]: ты не мой тип
+[A]LEX[A]: хватит меня доставать
+j4mmy: что??
+j4mmy: как грубо
+[A]LEX[A]: знаешь, что действительно грубо?
+[A]LEX[A]: постоянно присылать мне похотливые сообщения
+[A]LEX[A]: в надежде залезть мне в трусы
+[A]LEX[A]: у тебя 0 шансов закрутить со мной. а твои тупые сообщения опустили этот показатель ниже нуля
+j4mmy: ни к чему так истерично набрасываться на меня
+[A]LEX[A]: у тебя ничего не выйдет. и не думай вызвать у меня чувство вины.
+[A]LEX[A]: короче: иди нахуй, неудачник, и не лей слезы над своими кукурузными хлопьями, а то они станут горчить.
+[A]LEX[A]: пока-пока :)
+* [A]LEX[A] выходит из сети. Ваши сообщения не могут быть доставлены. *
+* [A]LEX[A] выходит из сети. Ваши сообщения не могут быть доставлены. *
+* [A]LEX[A] выходит из сети. Ваши сообщения не могут быть доставлены. *
+</file>
+  
+  
+  
+  
+</Computer>

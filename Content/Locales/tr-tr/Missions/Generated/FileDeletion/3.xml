@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <generationKeys File="#LC_CLIENT#_delivery.zip" Path="home"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Ters Giden #CLIENT# Satışı">
+Müşterilerimizden birisi geçenlerde değerli bir yazılım satın aldı. Fakat ödeme yapmayı reddediyor. Haksızca sahip olduğu yazılımı sil.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - İade Politikası</subject>
+    <body>
+Sayın temsilci,
+
+Yakın zamanda müşterimiz olan bir şirket, #CLIENT# isimli şirketimizden çok pahalı bir yazılım satın aldı. Fakat ödeme yapmak gibi bir niyetleri yokmuş gibi görünüyor. Yasal işlemler konusunda bizden yetenekli olduklarını gösterdiler. Dolayısıyla bu işi geleneksel yöntemlerle çözmemiz söz konusu değil.
+Bu noktada siz devreye giriyorsunuz. Sizden bilgisayarlarını ziyaret etmenizi ve yasadışı olarak kullandıkları yazılımımızı silmenizi istiyoruz. Yazılımlarımızı arşiv formatında aktarmaktayız. Dosyanın ismi: "#FILE#".
+
+Bu hassas ve sinir bozucu konuda bize yardımcı olduğunuz için teşekkür ederiz.
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

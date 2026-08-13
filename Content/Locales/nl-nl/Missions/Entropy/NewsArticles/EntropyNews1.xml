@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews01">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Entropy Groep betrokken bij kwaadaardig Hacken?">
+Recentelijke verslagen suggereren dat de groep "Entropy" betrokken is geweest bij het onderbrengen en werk geven aan een beruchte hacker.
+Ondanks deze informatie nog niet geconfirmeerd is, zal de groep vrij zeker heftige juridisch actie zien in de nabije toekomst.
+In de ogen van deze reporter, laat dit duidelijk veraad zien naar het netwerk dat toestaat productieve groepen te laten groeien, en zou zwaar bestraft moeten worden.
+
+Journalist: Tom Wilkins
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Moet Gestopt Worden</subject>
+    <body>
+Vernietig De Entropy Database
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

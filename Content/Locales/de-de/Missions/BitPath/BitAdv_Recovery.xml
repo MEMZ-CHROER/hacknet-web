@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit_recovery">
+  <goals>
+    <goal type="getString" target="156.151.59.35"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro03.xml</nextMission>
+  <branchMissions>
+    <branch>BitPath/BitAdv_Intro07.xml</branch>
+    <branch>BitPath/BitAdv_Intro05.xml</branch>
+    <branch>BitPath/BitAdv_Intro03.xml</branch>
+  </branchMissions>
+  <posting title="[ V ] - Weitere Untersuchungen">
+Dieser Auftrag ist nur für #PLAYERNAME#.
+Du hast einen anderen Auftrag gestartet? Akzeptiere diesen, sobald du bereit bist weiterzuarbeiten.
+
+-V
+  </posting>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Fortsetzung</subject>
+    <body>
+Bereit weiterzumachen?
+
+Mach einfach da weiter, wo wir aufgehört haben. Ich bin noch immer am Recherchieren.
+
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

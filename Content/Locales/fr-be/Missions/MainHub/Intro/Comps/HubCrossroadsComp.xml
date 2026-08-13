@@ -1,0 +1,137 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="hubCrossroads" name="Serveur Crossroad CSEC" security="0">
+
+  <positionNear target="mainHub" position="1" total="6"/>
+
+  <file path="home" name="REQUEST.zip">#BINARY##BINARY#</file>
+  <file path="home" name="CT2.zip">#BINARY##BINARY#</file>
+
+  <encryptedFile path="home" name="encrypt_source.dec" ip="101.0.89.154" header="Secured Source Code" extension=".cs">
+    
+        private static string Encrypt(string data, ushort passcode) 
+       { 
+           StringBuilder ret = new StringBuilder(); 
+           for (int i = 0; i LESS_THAN data.Length; i++) { 
+               int newVal = ((ushort)data[i] * 1822) + ushort.MaxValue / 2 + passcode; 
+               ret.Append(newVal + &quot; &quot;);
+            } 
+           return ret.ToString().Trim();   
+     } 
+             
+  ///sommaire
+        /// Retourne un tableau contenant 
+       /// [0] En-tête de message
+        /// [1] Liaison IP
+        /// [2] Données de message
+        /// [3] Extension de fichier si connue, sinon nul 
+       /// [4] &quot;1&quot; est mot de passe valide, &quot;0&quot; sinon
+        ///sommaire 
+       public static string[] DecryptString(string data, string pass = &quot;&quot;)
+        {
+            string[] ret = new string[5];
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string[] split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException(&quot;A essayé de décrypter un invalide fichier valide DEC ENC&quot;); 
+           string[] headersSplit = split[0].Split(HeaderSplitDelimiters, StringSplitOptions.None); 
+           if (headersSplit.Length LESS_THAN 4) throw new FormatException(&quot;A essayé de décrypter un invalide fichier valide DEC ENC&quot;); 
+
+           string headerMsg = Decrypt(headersSplit[1], passcode);
+            string ipLink = Decrypt(headersSplit[2], passcode);
+            string check = Decrypt(headersSplit[3], passcode);
+            string fileExtension = null;
+            if (headersSplit.Length &gt; 4) fileExtension = Decrypt(headersSplit[4], passcode);
+            string message;  
+          string passValid = &quot;1&quot;;
+            if (check == &quot;ENCODED&quot;) { 
+               //Le mot de passe était correct !
+                message = Decrypt(split[1], passcode);
+            }
+            else { 
+               //mot de passe invalide
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+                passValid = &quot;0&quot;;
+            } 
+           ret[0] = headerMsg;
+            ret[1] = ipLink;
+            ret[2] = message; 
+           ret[3] = fileExtension;
+            ret[4] = passValid;
+            return ret; 
+       }
+  </encryptedFile>
+
+  <encryptedFile path="home" name="CSEC_encode_1.dec" ip="168.61.82.245" header="WinC Firmware Specifications" extension=".pdf" pass="beepbeep">
+    &quot;Guide de développement de pilote et microprogramme WinCE
+
+ Des milliers d'appareils utilisent cet OS, des voitures aux lecteurs multimédias. Gardez à l'esprit la variété d'appareils sur lesquels votre code peut être déployé durant le développement de vos pilotes et/ou microprogrammes.
+    ------------------------------------------------------ 
+
+   De nombreux pilotes d'appareils WinCE mettent en œuvre l'interface de flux. Les points d'entrée essentiels de l'interface de flux sont XXX_Open (gestionnaire de périphériques), XXX_Close (gestionnaire de périphériques), XXX_Read (gestionnaire de périphériques), et XXX_Write (gestionnaire de périphériques). Pour plus d'informations, consulter les pilotes de l'interface de flux.
+    Les adaptateurs réseau, les cartes graphiques, les souris adaptées, claviers et autres périphériques spéciaux n'utilisent pas l'interface de flux. Ces appareils utilisent une interface adaptée aux fonctionnalités de l'appareil.
+    Indépendamment de l'interface que votre pilote du périphérique révèle, vous devrez peut-être mettre en place une routine de service d'interruption (ISR). Pour plus d'informations concernant les interruptions et les ISR, voir Interruptions.
+    Différents processus chargent différents pilotes. Le tableau suivant montre le processus qui charge les pilotes et quels sont les pilotes que chaque processus charge.
+
+    Vous devriez utiliser les chemins suivants pour injecter le code de votre pilote : 
+
+   %_WINCEROOT%\Platform\%_TGTPLAT%
+    Contient un code dépendant de la plateforme matérielle. Ce répertoire comprend essentiellement les pilotes OAL, de fichiers de configuration et BSP. Vous ne devriez pas avoir à modifier les pilotes dépendants de la plateforme matérielle dans %_WINCEROOT%\Platform\%_TGTPLAT%\Drivers.
+    %_WINCEROOT%\Platform\Common\Src\SOC
+    Contient des pilotes SOC pour les microprocesseurs ou microprocesseurs compagnons haute intégration avec de nombreux périphériques d'origine intégrés dans le microprocesseur. Les pilotes SOC comprennent des pilotes OAL spécifiques aux microprocesseurs pour les horloges à temps réel, chronométreurs, cartes Ethernet de débogage, etc. Les cartes de développement standards (SDB) avec les mêmes microprocesseurs peuvent utiliser le même jeu de pilotes SOC.
+    %_WINCEROOT%\Public\Common\OAK\Drivers
+    Contient les pilotes courants pour les périphériques non d'origine, qui sont les appareils existant sur une carte enfichable ou qui sont directement connectés à une carte de circuit. Les pilotes courants contiennent un code indépendant de la plateforme relié à un code dépendant de la plateforme pour créer un pilote matériel. Les pilotes communs ne sont pas spécifiques à la plateforme matérielle ou au microprocesseur. Tous les SDB peuvent utiliser des pilotes communs.
+  </encryptedFile>
+
+  <file path="home" name="FOF_Screenplay.doc">
+    NONCHALANCE
+    - Un scénario-
+
+    Scène d'ouverture : Un fond de musique douce pour piano se fait entendre. Nous observons l'horloge sur le tableau de bord d'une voiture de golf - il est 7h22.
+    Un homme mal vêtu prend une lampée d'un cubi de vin manifestement volé. Ne le jugez pas - c'est commode et délicieux. Par mal vêtu,
+    je veux dire bien sûr qu'il ne porte rien qu'un maillot. Ses contours sont clairement visibles.
+
+    Roulant devant un café à 40 km/h, la vitesse maximale de la voiture (elle a un turbocompresseur à l'arrière), il atteint et renverse négligemment le café d'un homme d'affaire.
+
+    Il s'arrête bruyamment à travers deux emplacements de parking pour handicapés, descend, vide le reste du cubi et le jette simplement sur la route comme s'il ne s'en souciait pas. pas le moins du monde.
+    La musique se développe vraiment maintenant. Jusqu'à son apogée avec des cors etc. Notre héros marche vaillamment vers une poubelle proche, monte dessus, et, sans hésitation, retire son « pantalon » et fait ses besoins avec satisfaction.
+
+    Coupe sur le visage horrifié d'une vieille dame. Titre.
+  </file>
+
+  <encryptedFile path="home" name="T2_Screenplay.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" pass="DANGER">
+    Titanic 2 : La revanche de l'iceberg
+    -Un scénario-
+
+JACK DAWSON : Personne n'a encore pensé à ça - mais l'iceberg ne nous a pas seulement heurtés... NOUS L'AVONS HEURTÉ ! »
+ROSE DEWITT BUKATER : « Quoi ?! Est-ce que la folle opération scientifique qui t'a fait revivre t'a fait perdre la tête ? Je t'ai ramené car JE *T'AIME* ! »
+JACK DAWSON :  « Je sais mais nous sommes en danger ici. Cet iceberg avait une famille et ils veulent une revanche. Ils me l'ont dit quand j'étais sur le point de mourir...ils ne s'attendaient pas à... »-
+JACK DAWSON sort ses COOL LUNETTES DE SOLEIL et les met sur son nez
+JACK DAWSON : « Je reviendrai. » 
+
+Coupe sur la côte californienne
+
+Un iceberg apparaît dans l'eau, s'approchant de la ville à une vitesse fulgurante. 
+Des sirènes d'évacuation commencent à retentir, les gens sur la plage crient, pointant l'iceberg du doigt en courant pour sauver leur vie. 
+De plus en plus d'icebergs apparaissent dans l'eau à ses côtés, se hâtant aussi vers le rivage.
+
+ROSE DEWITT BUKATER : « À l'aide ! »
+JACK DAWSON : « Rose ! Je suis là ! Je ne t'abandonnerai jamais ! »
+
+L'iceberg en plomb est maintenant sur le rivage, glissant vers les deux protagonistes. Il sort un pistolet. 
+
+ROSE DEWITT BUKATER : « JAAAAACCCKKKKKKK ! »
+
+  </encryptedFile>
+  
+  <encryptedFile path="home" name="C_EXE_contact.dec" ip="74.125.237.119" header="Encrypted Messaging Systems inc" extension=".txt" pass="quinnoq">
+
+    Le contact utilise JMail sous le compte « dlocke ».
+        
+Je sais que ça nous préoccupe depuis longtemps mais ne soyez pas pressé pour la simple raison que c'est une piste solide - allons-y doucement.
+    Je vous tiens au courant quand j'aurais établi un plan.
+
+  </encryptedFile>
+</Computer>

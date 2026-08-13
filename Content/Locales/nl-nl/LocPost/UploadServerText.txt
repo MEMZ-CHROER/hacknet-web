@@ -1,0 +1,8 @@
+Uw bent bevoegd om bestanden te uploaden naar deze server.
+Gebruik "upload [LOKALE_BESTANDSNAAM]" om bestanden te uploaden
+
+
+HERINNERING: Bestanden gedownload met [scp] worden in ~/home geplaatst
+(of ~/bin voor programma's)
+Voor uploads vanaf daar moet je het pad specificeren zoals:  home/[BESTANDSNAAM]
+De Tab toets kan worden gebruikt om paden en namen van lokale bestanden af te maken.

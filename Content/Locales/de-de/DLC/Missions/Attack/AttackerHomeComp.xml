@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dAttackHome" name="Striker_Battlestation" security="3" ip="72.60.4.119" type="empty" >
+
+  <trace time="-1" />
+  <portsForCrack val="1" />
+  <ports>22, 21, 80, 6881, 443</ports>
+  <portRemap>ssh=1</portRemap>
+  <proxy time="0.1" />
+
+  <file path="home/uni" name="assignments.txt">Bin mir nicht sicher, ob es leichter ist, in den Noten-Server der Uni einzubrechen und meine gewünschten Noten einzutragen, oder tatsächlich meine Hausaufgaben zu machen. Ersteres macht sicher mehr Spaß, aber das Ding ist ja eine Festung.
+Langsam denke ich, dass da was falsch läuft, wenn du dir deine Noten für dein Cybersec-Studium erhackst.
+  </file>
+
+  <file path="home/uni" name="notes.txt">todo:
+  
+Kunstverständnis 3 (UA101-3)
+Kunstverständnis 4 (UA101-4)
+Kommunikationen 101 3
+
+In Arbeit:
+Einführung in Filmstudien 1 (IFS-1)
+Bereit zum Einreichen:
+CMS101-1
+CMS101-2
+
+Bisherige Gedanken:
+Ich hasse das ich hasse das ICH HASSE ALLE DIESE IDIOTEN WARUM KÖNNT IHR NICHT IN GANZEN SÄTZEN SCHREIBEN, IHR SEID AN DER UNI, IHR SEID ALLE ERWACHSENE!!!!!</file>
+
+  <file path="home/uni" name="IFS1-1-film_study.doc">#BINARY#</file>
+
+  <file path="home/uni" name="CMS101-1-reading_comprehension.doc">#BINARY#</file>
+
+  <file path="home/uni" name="CMS101-2-understanding_paragraphs.doc">#BINARY#</file>
+
+  <file path="home/themes/CCTThemePack" name="This_Pack_Downloaded_From_CoolComputerThemes.Rice.txt">
+    Dieses Themepaket wurde von CoolComputerThemes.Rice heruntergeladen! Denkt dran und schaut zuerst bei uns vorbei, wenn ihr coole Computerthemes sucht!
+  </file>
+  <customthemefile path="home/themes/CCTThemePack" name="Hora_x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+  <customthemefile path="home/themes/CCTThemePack" name="HoraAlt_x-server.sys" themePath="DLC/Themes/HoraThemeAlt.xml"/>
+  <customthemefile path="home/themes/CCTThemePack" name="Miami-blue_x-server.sys" themePath="DLC/Themes/MiamiThemeLightBlue.xml"/>
+
+  <file path="home/themes" name="CCTThemePack.zip">#BINARY##BINARY#</file>
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+
+  <positionNear target="dAttackSource" position="90" total="360" extraDistance="0"/>
+
+</Computer>

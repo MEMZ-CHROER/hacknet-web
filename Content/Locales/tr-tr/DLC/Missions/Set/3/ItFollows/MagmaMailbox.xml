@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds3_mail" name="MagmaMailbox" security="1" type="4" icon="DLCSERVER" ip="26.26.62.62">
+
+  <proxy time="-1" />
+  <portsForCrack val="7" />
+  <ports>22, 21, 6881, 443, 80, 25, 104</ports>
+  <trace time="250" />
+
+  <customthemefile path="home" name="caution_standard_x-server.sys" themePath="DLC/Themes/CautionThemeStandard.xml"/>
+
+  <account username="cornch1p" password="SaltyChippies22" type="2" />
+  
+  <mailServer name="MagmaMailbox" color="224,52,0">
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(konu yok)">Bilgisayarınızın IP adresi 177.3.200.6, değil mi? Lütfen VPS'imi beyaz listeye alın. IP adresim: 7.201.4.178.
+Daha dikkatli olmalısınız. Gürültülü biri olduğunuzu duydum; bu kesinlikle dikkatleri üzerinize çekecektir.</email>
+    
+    <email recipient="cornch1p" sender="temp_ACCC0" subject="(konu yok)">Batı topluluğundaki hackerlar ile görüşüp Kaguya'nın ünlenip ünlenmediğini öğrenmeniz gerekiyor.
+Sessiz olun. Dikkatli olun.</email>
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(konu yok)">Kaguya bu sefer çok ileri gitti. Sabırlı olmanızı öneririm.</email>
+    
+    <email recipient="cornch1p" sender="do-not-reply@magmamailbox.com" subject="Otomatik Bilgilendirme: Abonelik Yenilemesi">Sayın cornch1p,
+Bu, MagmaMailbox aboneliğinizin yenilendiğini size bildirmek üzere gönderilmiş olan otomatik bir iletidir.
+İnternetin 1 numaralı güvenli e-posta servisine sadık bir abone olduğunuz için size teşekkür ederiz.
+Saygılarımızla.
+MagmaMailbox Yönetici Ekibi
+---
+BU İLETİYE CEVAP VERMEYİNİZ - BU ADRESİN GELEN KUTUSU KONTROL EDİLMEMEKTEDİR.
+---</email>
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(konu yok)">İletişime geçtiğin için teşekkür ederim. Bu bildirimi geçen ay almıştım. Kimden geldiğini biliyorsun zaten:
+---
+Bu günlerde ""Kaguya"" olarak bilinen cengaverden.
+Dostlarının sabit sürücülerini yakmış ve Batı'ya taşınmıştı.
+Her ne kadar takip etmeye çalışsak da izlerini gizlemişti.
+O yaşıyor.
+---</email>
+    
+    <email recipient="cornch1p" sender="do-not-reply@magmamailbox.com" subject="Otomatik Bilgilendirme: Gelen Kutusu Temizliği">Sayın cornch1p,
+Bu, MagmaMailbox haftalık temizlik etkinliğinin bir parçası olarak gelen kutunuzun temizlendiğini size bildirmek üzere gönderilmiş olan otomatik bir iletidir. Amacımız sadece durumu size bildirmektir. Bir şey yapmanız gerekmemektedir.
+Saygılarımızla.
+MagmaMailbox Yönetici Ekibi
+---
+BU İLETİYE CEVAP VERMEYİNİZ - BU ADRESİN GELEN KUTUSU KONTROL EDİLMEMEKTEDİR.
+---</email>
+    
+  </mailServer>
+  
+</Computer>

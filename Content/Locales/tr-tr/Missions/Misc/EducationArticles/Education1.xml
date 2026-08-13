@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Güvenlik Duvarı Analizi ve Çözümü">
+Güvenlik Duvarı bilgisayar güvenliği denince akla gelen isimlerden birisidir. Genellikle hackerlara karşı güvenliği sağlamaktan çok otomatikleştirilmiş yabancı ağ trafiğini engellemek üzere hizmet verir.
+Modern Güvenlik Duvarları ise Güvenlik Duvarı Çözümü (çoğunlukla uç kullanıcılar için şifre olarak nitelendirilir fakat ikisi arasında belirgin fark vardır) ile kodlanmadıkça güvenlik açısından risk oluşturan *tüm* trafiği engellemek üzere yapılandırılabilir.
+
+Bu durumda güvenlik duvarı çözümünün izinsiz giriş yapılmaya çalışılmadan önce uygulanması gerekmektedir - bu da, güvenlik duvarı etkinken bilinen herhangi bir şifre kırma yazılımının işe yaramayacağı anlamına gelmektedir. 
+
+Güvenlik duvarının karmaşıklığı "analyze" komutu ile incelenebilir. Birkaç defa "analyze" komutunun girilmesiyle yanıtlayıcı veri başlığı modelleri otomatik olarak tespit edilir ve doğru güvenlik duvarı çözümünün parçası olmadığı kesin olan karakterler yok edilir.
+Olası bir çözüm bulunduğunda, giriş yapmak için "solve [GÜVENLİK_DUVARI ÇÖZÜMÜ]" komutu girilmelidir.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>HATA</subject>
+    <body>
+Bu postayı almanız beklenmedik bir hatanın oluştuğunu göstermektedir.
+Lütfen panikleyiniz.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

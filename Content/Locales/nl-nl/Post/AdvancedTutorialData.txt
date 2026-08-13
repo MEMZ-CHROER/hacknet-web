@@ -1,0 +1,178 @@
+<#
+Je loopt nu gevaar!
+#>
+Leer zo snel mogelijk. Begin de introductie sequens door het drukken op de continue knop hieronder.
+
+%&%&%&%
+Verbind aan een computer met "connect [IP]" in de terminal - of door het klikken op een node op de netwerkkaart.
+<#
+Verbind aan je eigen computer
+#>
+op de netwerkkaart door op de groene cirkel te klikken.
+
+%&%&%&%
+Goed gedaan.
+ 
+Het eerste wat je moet doen op een systeem is het scannen voor nabijgelegen nodes. Dit zal meer computers zetten op de kaart.
+
+<#
+Scan deze computer nu
+#>
+
+met de Scan Network knop op de weergave module.
+
+%&%&%&%
+Dit zou alles moeten zijn wat je nu nodig hebt.
+<#
+Verbreek De Verbinding Naar Jouw Machine
+#>
+
+
+%&%&%&%
+Het is tijd dat je verbind aan een andere computer.
+ 
+Weet dat het breken van beveiliging op een computer die niet van jou is Illegaal is onder de U.S.C. Wet 1030-18.
+ 
+Ga verder op eigen risico en
+<#
+verbind aan een andere machine
+#>
+door te klikken op een blauwe node op de netwerkkaart
+
+
+%&%&%&%
+Deze VM's Terminal module is nu geactiveerd. Dit zal je primaire interface voor navigeren en interactie zijn met nodes.
+
+Een commando kan worden gerunt door het te typen en op enter te drukken. 
+ 
+Een computers beveiliginssysteem en open poorten kunnen worden gezien met
+<#
+probe
+#>
+(of "nmap") commando. analyzeer de computer waar je nu aan bent verbonden.
+
+
+%&%&%&%
+Hier zie je actieve poorten, beveiliging en het aantal open poorten nodig om succesvol de machine te kraken met PortHack.
+Deze Machine heeft geen actieve beveiliging en vereist geen open poorten om te kraken. Als je er klaar voor bent is het mogelijk deze computer te kraken met "PortHack".
+
+<#
+Gebruik het programma PortHack
+#>
+|Om een programma dat je hebt te gebruiken op een machine waaraan je verbonden bent, typ de naam van het programma het terminal commando.
+Een programma vereist nooit ".exe op het einde"
+ 
+
+%&%&%&%
+Gefeliciteerd, Je hebt controle genomen over een extern systeem en bent nu de
+administrator. Je kan nu alles doen wat je wil, maar begin met het
+<#
+Scannen voor lokale nodes
+#>
+om andere computers te lokaliseren. Gebruik hiervoor het "Scan" commando.
+
+
+%&%&%&%
+Geen resultaten - geen probleem.
+
+Hierna, bekijk het bestandssyteem.
+<#
+Krijge een lijst van bestanden en mappen in de huidige map
+#>
+ 
+
+|Gebruik "ls" om een lijst te krijgen.
+ 
+De Weergave module is hiervoor ge heractiveerd.
+
+
+%&%&%&%
+<#
+Navigeer naar de "bin" map.
+#>
+(Binaries map) om te zoeken naar handige programma's met het commando
+ 
+"cd [MAP NAAM]"
+
+(Let op de spatie)
+
+
+%&%&%&%
+Om inhoud van de huidige map te zien gebruik "ls".
+ 
+
+Er zijn hier geen programma's, maar je moet
+<#
+kijken naar config.txt
+#>
+in het geval dat het handige informatie bevat.
+ 
+|Lees de inhoud van een bestand met het cat commando. Bijv:
+ 
+"cat config.txt"
+   
+LET OP: Lezen van data zonder bevoegdhijd is illigaal en strafbaar met gevangenisstraf onder internationale wet.
+ 
+
+
+%&%&%&%
+Totaal nutteloos!
+  
+Nu wis je sporen voordat je weggaat.
+<#
+Verplaats een map naar boven in de bestandsboom
+#>
+met "cd .."
+ 
+Let op: de wildcard ".." staat voor 'Terug' of 'Omhoog'.
+ 
+
+
+%&%&%&%
+<#
+Verplaats jezelf naar de log map.
+#>
+"cd [MAP NAME]"
+
+
+%&%&%&%
+<#
+Verwijder alle bestanden in deze map
+#>
+ 
+Je kan een bestand verwijderen met
+<#
+rm [BESTANDSNAAM]
+#>
+maar je kan ook ALLE bestanden verwijderen in de huidige map met het commando
+ 
+<#
+rm *
+#>
+ 
+Let op: de wildcard "*" betekent 'Alles'.
+
+
+%&%&%&%
+Uitstekent werk.
+ 
+<#
+Verbreek de verbinding met deze computer
+#>
+ 
+Doe dit met het "dc" of "disconnect" commando
+
+
+%&%&%&%
+Gefeliciteerd, Je hebt dit onderdeel van de introductie voltooid.
+ 
+<#
+Om het te beindigen, vind het process ID van deze introductie en het killen.
+#>
+ 
+Het "help" commando geeft je een volledige commandolijst.  
+ 
+|Het commando "ps" zal een lijst met de PIDs van elk actief proces geven.
+
+
+%&%&%&%

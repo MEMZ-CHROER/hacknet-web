@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="decSoftWeb" name="DEC Solutions 웹 서버" security="2">
+  <ports>80, 1433</ports>
+  <portsForCrack val="2"/>
+  <firewall solution="ENCRYPT"/>
+  <addWebServer name="www.DEC-Solutions.com" url="Content/Web/Presets/DEC/DECMainPage.html"/>
+  <proxy time="0"/>
+
+  <positionNear target="decSoftMainframe" position="1" total="3"/>
+  <dlink target="decSoftMainframe"/>
+
+  <file path="home" name="README.txt">
+    하하 당신 뭐처럼 보인다
+  </file>
+  
+  <encryptedFile path="home" name="Staff_Memo.dec" ip="101.0.89.154" header="Staff memo" extension=".txt">
+모두들 안녕하세요,
+
+우선, 우리의 새 암호화 제품군의 성공적인 출시를 축하하는 바입니다, 대단한 성공작이었으며,여러분 모두가 새로운 마케팅 자료에 저만큼 흥분되어 있기를 바랍니다.
+DEC Solutions가 전세계 소프트웨어 개발에 있어 더 확고한 위상을 세워감에 따라, 우리는 한 기업으로서 순발력 있는 대응으로 더 높은 수준으로 나아갈 준비를 시작해야 한다고 
+생각합니다.   이를 위해,저는 워크플로우 개선책으로서(정말 그렇다고 생각합니다) 여러분 모두가 좋아하고 훌륭하다고 여기게 되길 바라는 몇몇 새로운 사내 정책을 시행하려고 합니다.
+
+새 정책은 제가 마무리 작업을 마치는 대로 며칠 내에 발표할 것입니다. 그때까지는 이전과 동일합니다 남성분들(그리고 숙녀분들, 전 성차별주의자가 아닙니다!) 
+
+생산적인 하루를 보내세요,
+-David Leatrou, CEO
+  </encryptedFile>
+  
+  <encryptedFile path="home" name="New_Policies.dec" ip="101.0.89.154" header="Staff memo" extension=".txt">
+모두들 안녕하세요,
+여기 며칠 전 약속한 새 정책이 나왔으니, 잘 읽어보세요!
+   
+1) 민감한 기업 데이터(소스 코드, 기밀 메모, 등)는 작업하지 않을 때는 항상 암호화되어야 합니다.
+이를 위해 저희 제품보다 더 좋은 소프트웨어가 어디 있을까요! 웹사이트를 보신 여러분들은 이것이 어떻게 우리 비즈니스를 더 안전하고 믿을 수 있는 곳으로 만들어 주는지 이해할 수 있을 거라고 확신합니다.
+나는 이미 내 파일들로 이것을 시작했으며, 어떤 건 이중 암호화를 했을 정도로 중요한 것들이에요! 콘돔 2개를 쓰는 것과 마찬가지죠, 하나가 어찌해서 뚫린다 해도, 여전히 안전하죠.
+
+2) 파일을 암호화할 때, 대체로는 암호 없이 진행해도 괜찮겠지만,어떤 건 정말 중대하다고 생각한다면, 회사 ID를 암호로 사용하세요.
+예를 들어, 안전하게 암호된 내 파일은 내 ID &quot;dleatrou&quot;를 사용할 겁니다!
+
+3) 암호화 제품군 빌드는 항상 오프라인으로 유지되어야 합니다. 이러한 디지털 보안 시대에는 아무리 조심해도 지나치지 않습니다!
+
+암호화되지 않은 마지막 회사 메모를 즐기세요
+-David Leatrou, CEO
+  </encryptedFile>
+  <encryptedFile path="home" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+</Computer>

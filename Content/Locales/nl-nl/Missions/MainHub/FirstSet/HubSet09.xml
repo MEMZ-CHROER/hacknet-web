@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="HasFlag" target="E_Whit:DEAD" />
+  </goals>
+  <missionStart val="9" suppress="true">changeSong</missionStart>
+  <missionEnd val="1">junebugComplete</missionEnd>
+  <nextMission>BitPath/BitAdv_Intro.xml</nextMission>
+  <branchMissions>
+    <branch>MainHub/PacemakerSet/PacemakerSet_Deny_Branch.xml</branch>
+  </branchMissions>
+  <posting title="Project Junebug" reqs="dechead, decypher,csecRankingS2Pass">
+Een extreem gevoelige situatie is opgedaagt, vereist een gevaardigde, anonieme agent, willend om verantwoordelijk te zijn voor wat twijfelachtige daden om iemand die hulp nodig heeft groots te helpen.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Project Junebug</subject>
+    <body>
+Hacker,
+
+Dit is geen normaal verzoek en zo gaan we het ook niet behandelen. We zijn gevraagd een euthanasie uit te voeren.
+Uiteraard, hebben we wat anders informatie op laten graven (en een paar van andere groepen, om geen verdenkingen op te wekken) en het kwam grotendeels kloppend terug - het lijkt erop dat de man in kwestie, ene "Elliot Whit" in het ziekenhuis ligt met redelijke pijn en tegen zijn wensen, de optie van dood geweigerd is.
+Een mislukte poging van zijn familie eerder heeft hun voorkomen van meerdere pogingen, totdat een lid deze optie voorstelde. Het lijkt erop dat de pacemaker die hij heeft draadloze toegang toelaat, met correcte gegevens, en ze geloven dat dit een weg is om zijn verzoek te voltooien.
+
+Natuurlijk, vanwege de aard van dit verzoek snappen we het als je niet betrokken wil worden. Beantwoord dit met "deny" in je antwoord en dan verwijderen je van het project.
+
+Als je ervoor kiest om ons te helpen, moet je weten dat het waarschijnlijk veel onderzoek en testen gaat kosten, omdat zo ver we weten, dit nog nooit eerder is gedaan.
+We raden je aan te beginnen met het doelwits medisch dossier, de chip identificeren, zoeken naar de fabrikant en vanaf daar verder te gaan.
+
+-CSEC Admins
+    </body>
+    <attachments>
+      <link comp="medical" />
+      <note title="Project Details">
+Doelwit: Elliot Whit
+Actie: Euthanasie
+</note>
+    </attachments>
+  </email>
+</mission>

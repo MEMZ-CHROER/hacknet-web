@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Shells">
+Los shells son procesos remotos, compactos y de baja memoria que se ejecutan en un equipo distinto que puede controlarse de forma local desde cualquier conexión. 
+Estos procesos son muy cómodos y resultan útiles para muchas tareas, aunque su auténtica capacidad depende del tipo de shell que se ejecute.
+ Las funciones comunes en redes incluyen: 
+
+Overload: 
+Esta función, diseñada para probar redes y servidores proxy, inunda el equipo de destino con tráfico de red basura procedente del nodo en el que se ejecuta el shell, lo que llena la memoria del servidor proxy y agota el tiempo de CPU. 
+
+Trap: 
+Un shell que se ejecute en este modo informará al usuario si un usuario extraño externo se conecta al equipo que ejecuta dicho shell y permitirá ejecutar una inundación de «forkbombs» de emergencia en los demás usuarios conectados a él de forma remota. 
+Esto puede ser muy útil para mantener la seguridad de un equipo conectado a una red remota mientras se realiza otro trabajo.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Si recibe este correo electrónico, es que se ha producido un error inesperado. 
+Échese a temblar.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

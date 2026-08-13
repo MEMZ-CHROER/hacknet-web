@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="*******"/>
+  </goals>
+  <nextMission>Entropy/StartingSet/Misc/MilburgReply.xml</nextMission>
+  <posting title="Okula Dönüş">
+Bir lisenin idaresi bizimle iletişime geçerek öğrencilerin özel verilerine erişilmesi konusundaki endişelerini (muhtemelen velilerden birinin isteği üzerine) bildirdi. Hiçbir şey silinmeyecek. Kendileri dosyaları inceleyebilsin diye şifreyi kendilerine bildirmemiz istendi.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Okula Dönüş</subject>
+    <body>Sayın temsilci,
+    
+Milburgh Lisesi idaresi bizimle iletişime geçti. Bilgi Teknolojileri sorumlusunun şifresini bulmamızı ve onlara göndermemizi istiyorlar. Amaçları ise öğrencilerinin hangi verilerinin tutulduğunu ve soruşturma sırasında inceleneceğini görmek.
+Tüm verileri bulduğun halde bırakmayı unutma. Verileri kurcaladığın fark edilirse başımıza bela alabiliriz.
+Yapman gereken, sunucuya girmek, izlerini temizlemek ve bu postaya yanıt olarak şifreyi göndermek. Okulla iletişime geçme işini biz halledeceğiz.
+
+Kolay gelsin,
+-Entropy Yönetimi
+    </body>
+    <attachments>
+      <link comp="milburgHigh" />
+    </attachments>
+  </email>
+</mission>

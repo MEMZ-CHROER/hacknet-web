@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="1299"/>
+  </goals>
+  <nextMission>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply.xml</nextMission>
+  <branchMissions>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply2.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply3.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply4_Penetrator.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply5.xml</branch>
+  </branchMissions>
+  <posting title="X-C Projesi">
+Garip bir durum var. Oldukça iyi ödenek alan biri meslektaşı acaba iş yerinde kişisel amaçları için tabletini kullanıyor mu diye bunu araştırıp öğrenmemizi istedi.
+
+Üstünkörü koyulmuş bu şeylere bakacak olursak, bu heriflerin uzaylılara taktıkları besbelli. Gerçekten kafayı sıyırmış konu gruplarından biriyle karşı karşıya olabilir. Belki de komplo teorisiyle uğraşan bir gruptur...
+ </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>İçe Yönelik Araştırma</subject>
+    <body>
+Sayın temsilci,
+X-C Project yardımınıza muhtaç durumda. Kesinlikle içe yönelik olsa da, bir süredir kafamı kurcaladığı için dikkatlice araştırılmasını istediğim bir mesele var. Ekibimizin öncü araştırmacılarından birinin göründüğünden daha az... üretken olduğuna inanıyorum.
+Bizimle ilgisi olmayan bir temsilcinin bu arkadaşımızın tabletini araştırıp uygunsuz veya iş dışı bir şey olup olmadığına bakmasını istiyorum.
+
+Sunucularımız dosyaları kimlik numarasına göre yansıtan, merkezi veri depolama bilgisayarı kullanmakta. Bilgisayarı araştırmanızı ve incelemeye değer olduğunu düşündüğünüz dosyaların kimlik kodlarını bana göndermenizi istiyorum.
+Aradığımız dosyaların kimlikleri üstlerinde olmalı. Mesela; X-C_PROJECT:ID#11111111. Bu dosyada aradığımız kimlik "11111111" oluyor.
+
+Araştırılacak tabletin linkini bu postaya ekledim.
+
+Kolay gelsin,
+-C.O Bradford
+    </body>
+    <attachments>
+      <link comp="xcTablet" />
+    </attachments>
+  </email>
+</mission>

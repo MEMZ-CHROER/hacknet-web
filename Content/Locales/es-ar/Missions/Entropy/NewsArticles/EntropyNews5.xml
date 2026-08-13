@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyNews05">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="New Opbol Dongle patent will Tantalize Fanboys">
+Fans acérrimos de Opbol, poned vuestros asuntos en orden y preparad vuestras carteras.  Una nueva patente presentada hoy por el niño de oro tecnológico Opbol Computing sugiere que la empresa podría estar entrando en el mercado de consolas domésticas. La patente, de un &quot;dongle&quot; extensible, podría ser un componente de un nuevo 
+sistema de videojuegos según afirman los expertos, tal vez un mando o un sensor de movimiento. Hasta el momento, solo el diseño –un cilindro telescópico con extremos redondeados– ha recibido la patente, pero nuestras fuentes apuntan que las noticias sobre la funcionalidad del dispositivo podrían salir a la luz en cuestión de días. ¡Sigan atentos!
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Se debe detener a Entropy</subject>
+    <body>
+Destruye la base de datos de Entropy
+    </body>
+    <attachments>
+      <link comp="entropy01"/>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission01.2">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>Entropy/EntropyMission2.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Hoşgeldin</subject>
+    <body>
+Merhaba #PLAYERNAME#, 
+
+Seni tebrik ederim,
+İlk işini zamanında yerine getirerek yeteneklerini kanıtladın. Artık sana memnuniyetle, Entropy'e hoşgeldin diyebilirim.
+
+Ufak bir hoşgeldin hediyesi olarak Asset Server'ın yönetici hesabı bilgilerini bu postaya ekliyorum. Buradan ihtiyacın olan programları alabilirsin. Ayrıca mantramıza bakmanı da tavsiye ederim. Hazır olduğun zaman bu postaya cevap gönder. Yeteneklerini gerçekten gösterebileceğin bir şey hazırlayacağım.
+
+Tekrardan tebrik ederim.
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+      <account comp="entropy01" user="admin" pass="rosebud" />
+    </attachments>
+  </email>
+</mission>

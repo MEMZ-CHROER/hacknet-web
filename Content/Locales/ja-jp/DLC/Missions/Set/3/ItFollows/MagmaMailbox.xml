@@ -1,0 +1,49 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ds3_mail" name="MagmaMailbox" security="1" type="4" icon="DLCSERVER" ip="26.26.62.62">
+
+  <proxy time="-1" />
+  <portsForCrack val="7" />
+  <ports>22, 21, 6881, 443, 80, 25, 104</ports>
+  <trace time="250" />
+
+  <customthemefile path="home" name="caution_standard_x-server.sys" themePath="DLC/Themes/CautionThemeStandard.xml"/>
+
+  <account username="cornch1p" password="SaltyChippies22" type="2" />
+  
+  <mailServer name="MagmaMailbox" color="224,52,0">
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(no subject)">そちらのホームサーバーのIPアドレスは177.3.200.6で間違いありませんね？ こっちのVPSをホワイトリストに入れてください。IPアドレスは7.201.4.178です。
+もっと用心したほうがいいですよ。騒ぎすぎだと言っている人もいました。もう確実に嗅ぎつけられるでしょう。</email>
+    
+    <email recipient="cornch1p" sender="temp_ACCC0" subject="(no subject)">欧米コミュニティーのハッカーたちに探りを入れ、Kaguyaの評判を確かめてくれ。
+目立たないよう、用心深く。</email>
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(no subject)">Kaguyaは遠くに行ってしまいました。ここは辛抱するところでしょう。</email>
+    
+    <email recipient="cornch1p" sender="do-not-reply@magmamailbox.com" subject="Automatic Notification: Subscription Renewed">cornch1p　様
+これはあなたのMagmaMailboxの登録内容が更新されたことを通知するための自動送信メールです。
+インターネットで一番安全なメールサービスへの忠誠心ある登録者でいてくださり、ありがとうございます。
+MagmaMailbox管理チーム
+---
+このメールに返信しないでください。このアドレスは送信専用です。
+---</email>
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(no subject)">連絡ありがとうございます。先月、私の元に下記の声明が届きました。送信者に心当たりはありませんか。
+---
+Dreadnoughtは今、""Kaguya""を名乗っている。
+彼（？）は仲間のハードドライブを根絶やしにして西へ移った。
+我々は彼を追っているが、手がかりはない。 
+あれは生きている。
+---</email>
+    
+    <email recipient="cornch1p" sender="do-not-reply@magmamailbox.com" subject="Automatic Notification: Mailbox Wiped">cornch1p　様
+週例パージのため、あなたのメールボックスは全削除されました。これは通知メールなので、特に対応していただくべきことはございません。
+
+MagmaMailbox管理チーム
+---
+このメールに返信しないでください。このアドレスは送信専用です。
+---</email>
+    
+  </mailServer>
+  
+</Computer>

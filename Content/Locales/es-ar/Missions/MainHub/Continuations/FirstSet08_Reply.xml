@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet08_p2" activeCheck="true">
+  <goals>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Investigate a medical record">
+    Consigue una copia del historial médico de alguien para zanjar una discusión.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>RE: Vara de Asclepius</subject>
+    <body>
+Yo... 
+¿Cómo? ¿En serio? Esto lo has sacado de... ¡¿Es de verdad, no?! 
+Quiero decir que.... 
+
+Vaya. 
+
+Sí, yo es que... ya no sé qué creer. Vaya, 
+
+ah, sí, gracias por la ayuda de todas formas. Voy a reevaluar mi vida.
+ -G
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

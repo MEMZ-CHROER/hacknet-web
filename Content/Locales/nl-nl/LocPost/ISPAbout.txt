@@ -1,0 +1,12 @@
+Deze server is een ISP routing en beheer systeem
+ontworpen voor gemakkelijk opzeten en beheren
+van derde partij ISP beheer bedrijven.
+Om het beheerssysteem te gebruiken, bemachtig eerst
+een administrator account voor deze machine
+(contacteer je sysadmin team), daarna zoek voor het
+IP adres van belang.
+
+
+Als het programma technische problemen vertoont,
+contacteer klantenondersteuning via
+1-800-827-6364

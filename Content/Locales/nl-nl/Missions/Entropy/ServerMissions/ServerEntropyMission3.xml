@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyServer01">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Opschoon operatie">
+Een waardevolle klant van onze groep heeft verzocht een bestand te verwijderen op een exwerknemers privé computer.
+Het estand is niet uniek, en het bedrijf wil slechts deze kopie verwijderd.
+Het doelwit zal waarschijnlijk geen grote trace tegen je doen.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Losse eindjes opruimen 2 - MOET BEWERKT WORDEN</subject>
+    <body>
+Gegroet Agent,
+
+Een werknemer in ons bedrijf is onlangs voor een concurrent gaan werken. Daarmee heeft hij een grote hoeveelheid interne data van ons meegenomen en het zou onhandig zijn voor ons als hij het mocht houden.
+
+We willen vragen om zijn computer te hacken en deze informatie te verwijderen. Het is waarschijnlijk opgeslagen in een enkel archief bestand zonder backup.
+
+Bedankt,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

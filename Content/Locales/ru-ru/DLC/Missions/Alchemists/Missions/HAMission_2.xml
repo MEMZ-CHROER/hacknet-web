@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ham2">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Алхимики-отшельники - D3f4ult">
+Администратор сервера странной философской группы разработал некоторое ПО, которое нужно нам для следующих проектов.
+    </posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="alphaCredits">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>Yanıt: Son</subject>
+    <body>
+Bir mesele daha var...
+
+Hacknet'i korsan olarak indirdiğini biliyorum.
+
+Sorun değil, gerçekten. Bunun için birçok sebebin olduğunu biliyorum. Ayrıca kimseyi de korsan kullandığı için veya bağımsız yapımlara güvenmediği için yargılamıyorum.
+
+Fakat... Hacnet neredeyse tek başıma yaptım. Satışlarda gelecek projelerin ve güncellemelerin para kaynağını oluşturuyor. Eğer oyunu beğendiysen, fırsatın olduğundan satın almayı bir düşün.
+
+Ben Steam sürümünü tercih ediyorum. Fakat eğer DRM kullanıyorsan, GOG.com veya Humble Store üzerinden DRM Free sürümünü de satın alabilirsin.
+
+Her halükarda, oynadığın için teşekkür ederim. Umarım benim oyunu yapmaktan aldığım kadar sende oynamaktan zevk almışsındır.
+
+-Matt
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

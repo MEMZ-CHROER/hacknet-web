@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pressdemoMission04" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="finalNodeDemo" file="@19002_185.11.124.4_Disconnected" path="log"/>
+    <goal type="FileDeletion" target="finalNodeDemo" file="@19002_logarchive" path="log"/>
+    <goal type="FileDeletion" target="finalNodeDemo" file="x-server.sys" path="sys"/>
+    <goal type="FileDeletion" target="finalNodeDemo" file="netcfgx.dll" path="sys"/>
+  </goals>
+  <missionStart>demoFinalMissionStart</missionStart>
+  <missionEnd>demoFinalMissionEnd</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Reividicación</subject>
+    <body>Estamos listos. 
+
+Quiero que realices una caída. Como tal vez hayas ya adivinado, hasta ahora te estaba preparando y ahora es donde empieza esto de verdad.
+ Cuando ejecutes &quot;Sequencer&quot;, activará un script que he dejado en uno de mis servidores. Abrirá una conexión a un servidor web y quiero que destruyas el servidor. Accede allí y borra todo en la carpeta /sys/. 
+
+Esto no va ser como antes, ese servidor está oculto por un motivo. Va a tener rastreadores por todas partes. Y ahí es donde ayuda el secuenciador. Mantendrá la conexión abierta todo el tiempo que pueda y enviará a tu interfaz una indicación del tiempo de que dispones. Asegúrate de que se está ejecutando. 
+
+Te adjunto los detalles, como siempre. 
+Por ahora, este será el último mensaje mío; de cualquier forma, esta versión se diseñó para ser temporal y para preparar la de verdad. 
+
+Buena suerte. 
+Lucha. 
+--Bit
+0
+    </body>
+    <attachments>
+      <note title="Descripción de la misión">Antes de comenzar, memoriza estas notas y bórralas. Necesitarás todos los recursos de tu sistema. 
+
+Ejecuta Sequencer
+Connect a EnTech
+Probe el sistema 
+Ejecuta los crackeadores de puerto
+ Porthack 
+Ve a la carpeta /sys/ folder 
+Borra todo (rm *)
+ Borra todos los registros 
+Desconéctate
+      </note>
+    </attachments>
+  </email>
+</mission>

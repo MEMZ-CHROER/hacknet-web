@@ -1,0 +1,6 @@
+  ----- WARNUNG -----  
+
+config.sys in diesem Ordner ist eine systemkritische Datei.
+NICHT LÖSCHEN ODER UMBENENNEN
+Dies würde das Forum zum Absturz bringen und das Hostprogramm abschießen
+Änderungen der Konfiguration sollten nur während der geplanten Wartungen vorgenommen werden, um solche Probleme zu vermeiden.

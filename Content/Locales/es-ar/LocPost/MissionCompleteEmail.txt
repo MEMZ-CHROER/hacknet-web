@@ -1,0 +1,8 @@
+Felicidades,
+El cliente de tu último contrato ha reportado un éxito, y está encantado con tu trabajo.
+Ahora eres libre de aceptar nuevos contratos de la base de datos.
+
+Tu rango actual es {0} de {1}.
+
+Gracias,
+{2}

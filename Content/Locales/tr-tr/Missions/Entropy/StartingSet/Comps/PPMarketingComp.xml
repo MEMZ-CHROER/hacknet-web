@@ -1,0 +1,112 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ppMarketing" name="PP Marketing Inc." security="2" type="4">
+  
+  <proxy time="1.1" />
+  <portsForCrack val="2" />
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1" />
+  <trace time="400" />
+  
+  <account username="admin" password="willsmith" />
+
+  <encryptedFile path="home/WORKSPACE" name="SECURE_MAILLIST.dec" ip="74.125.237.119" header="Marketing encryption lv.2">Kandırıldın korsancık. Yanlış listeye bakıyorsun. Sence kamuya açık sunucularımızda böyle önemli verileri barındırır mıyız? Özellikle birisinin sızmaya çalışacağını biliyorsak!
+  Al; bu dosyanın boyutunu ayarlamak için kullandığım gereksiz veriler.
+  
+  #BINARY#
+  
+  Sevgilerimle, 
+  - Güvenlik Uzmanı
+  XOXO
+  </encryptedFile>
+
+  <file path="home/WORKSPACE/INDUCTION" name="welcome.docx">
+Merhaba sayın çalışan. P.P Marketing'de ki ilk gününde sana hoşgeldin demek istiyorum. Kurumsallık imajına kanma lütfen. Aslında savaştayız. Sende iyilerin tarafındaki askerlerden birisi. Amerika'nın bir numaralı pazarlama şirketinde çalışmak kolay değildir. Her bir çalışan bizim için kale görevi görür. Her bir ürünümüz silahlarımızdır. Her bir kampanyamız çalışanlarımızın kazandığını görmek istediğim muharebelerdir.
+
+Markalarımız arasındaki sinerjiyi artırmak için içimizdeki mevcutun dışa yönelik iletişimdeki mevcut ile aynı miktarda olması her daim önemlidir. Çevrimiçi konumun aracılığıyla kampanya ortaya çıkarma oranını artırma konusunda sorun varsa, lütfen bölüm müdürün ile Ortaklaşa Öğrenim Oturumu'nda görüş.
+
+İnsan Kaynakları Müdürü olarak kariyerinin bu heyecan dolu geçiş döneminde sana başarılar dilerim.
+	
+Jane Halliday - İnsan Kaynakları Müdürü, P.P Marketing</file>
+  
+  <file path="home/WORKSPACE/INDUCTION" name="dresscode.docx">
+Tesis ve Bilgi Teknolojisi Bölümü haricindeki tüm çalışanların P.P Marketing'in dışarıdan görünüşünü güzelleştirmek amacıyla koyulan kıyafet yönetmeliğine uyması gerekmektedir:
+	
+- Her zaman siyah, kahverengi, gri veya mavi takım giyilecek.
+- Takımınızla uyumlu olacak şekilde beyaz, açık mavi, bej veya gri önden düğmeli veya uzun kollu gömlek giyilecek.
+- Tüm erkek çalışanlar siyah, kırmızı, mor veya yeşil kravat takacak. Araştırmalarımıza göre desenler müşterilerimizi ürküttüğü için düz renkli kravatlar takılacak.
+- Kadın çalışanlarımız kış aylarında düz renkli boyunbağı takacak veya yakalı gömlek giyecek.
+- Siyah veya kahverengi renkli ayyakabı giyilecek.
+	
+Tesis ve Bilgi Teknolojileri Bölümü çalışanları düzgün şirket imajını korumak için düzenli olarak temizlenmek ve düz lacivert iş önlüğünü giymek zorundadır.
+	
+Katı kıyafet yönetmeliğimiz konusundaki anlayışınız için teşekkür ederiz. P.P Marketing her daim dış görünülüyle gurur duymuş ve duymaya da devam edecek bir firmadır.
+	
+Jane Halliday - İnsan Kaynakları Müdürü, P.P Marketing</file>
+  
+  <file path="home/WORKSPACE" name="Maillist_info.txt">Hackerdan aldığımız posta listesi bu. Sanırım dosya bir çeşit şifreleme sistemiyle korunuyor. O zaman bu herife neden bu kadar (ne kadar yüklü miktarda ödediğimizn farkındasınız, değil mi) para ödedik?
+İnsan Kaynakları Müdürü şifreyi çözmesi veya açmak için başka bir yol bulması için başkasını tutacaklarını söyledi. Fakat tuttuğumuz adamın aldığı parayı düşünürsek, bize teslim ettiği dosyanın doğru dosya olduğundan eminiz.
+Ne rezil bir durum ama. Henüz kesinleştiremesek de, en azından bu işten çıkarımız olacak....</file>
+  
+  <file path="home/WORKSPACE/INDUCTION" name="complaint_procedure.docx">
+Meslektaşları veya temsilciler hakkında şikayet bildirmek isteyen çalışanların bölüm müdürlerine veya temsilci sorumlusuna 106B formu göndermeleri gerekmektedir. Şikayet özet olarak bildirilmeli, kanıtlar belirtilmelidir. Şikayete sebep olan durumun yaşandığı tarihten sonraki otuz (30) gün içerisinde gönderilmeyen şikayetler kabul edilmemektedir. Tüm şikayet İnsan Kaynakları tarafından dikkatlice incelenip 12 ay içerisinde soruşturulmakta ve çözüm üretilmektedir.
+</file>
+  
+  <file path="home/WORKSPACE/INVESTIGATIONS" name="winters_kevin.txt">
+Çalışanlardan Kevin Winters'in dış adreslere gönderdiği tüm postaların P.P Marketing'den kötü amaçlı bilgi sızdırma şüphesi nedeniyle incelenmesi istenmiştir. Bu istek Yönetici James Wilson tarafından onaylanmıştır. Winters'ın özellikle rakip firmalarla ticari sırlarımızı paylaştığını gösteren kanıtlar aranmaktadır.
+</file>
+  
+  <file path="home/WORKSPACE/INVESTIGATIONS" name="kw_evidenceA01.txt">
+[winters] Terry, sana diyorum ya... ciddi şekilde saklamaya çalıştıkları şeyler var.
+[craigmore] Bir şeyleri sakladıklarını herkes biliyor zaten.
+[winters] Kelimenin tam anlamıyla diğer firmaların listelerini satın alıyorlar. Genellikle J-Mail veritabanını kullanıyorlar.
+[craigmore] Bunun onlara ne faydası var ki?
+[winters] Algoritmalar ve e-posta işlemleri konusunda çalışan bir ekipleri var. Bunu dikkate almamız gerekiyor.
+[craigmore] Ciddi misin? Soktuklarım kim bilir ne karanlık işler çeviriyor...
+[winters] Forumlardaki kullanıcıları birebir taklit edip en ufak ayrıntısına kadar pazarlama işlemlerini sohbet bölmelerine aktaracak bir çeşit Chatbot üzerinde çalıştıklarına dair dedikodular dolaşıyor.
+[winters] Bir çeşit bilinçaltı pazarlama sistemi yani.
+[craigmore] Siktir. 
+[winters] Dinle. Atabildiğim kadarını harici belleklere atacağım ve sen bana fırsatı sağlar sağlamaz ayrılacağım.
+[winters] Çıkmam gerekiyor.
+</file>
+  
+  
+  
+  <file path="home/documents" name="IncidentLog1.txt">
+[nem] Haftasonu S3'e giriş mi yaptın?
+[felix] hayır, niye ki?
+[nem] Bazı dosyalar kayıp. Bant genişliği kullanımımız alışılmışın dışında. Ancak hiç kayıt bulunmuyor.
+[felix] çok garip.
+[felix] Güvenlik Duvarı ne alemde hiç baktın mı?
+[nem] henüz bakmadım.
+[nem] kahretsin.
+[felix] ne oldu?
+[nem] posta sistemi ayrıştırıcısı çökmüş.
+[nem] sunucu odasına gidip kontrol edeceğim.
+[nem] birazdan dönerim.
+</file>
+  
+<file path="home/documents" name="IncidentLog2.txt">
+[nem] Pekala... her şeyi toparlayıp gönderiyorum.
+[felix] Dış sitede yedekleyeceğim. Daha sonra alabileceğiz.
+[felix] Bu arada çok saçma bir durumdayız...
+[nem] Güvenliğimizi aştıklarına inanamıyorum.
+[nem] Tüm postalarımız gitti.
+[nem] Letterman'ın fena sinirleneceğine eminim.
+[felix] Weinstein'de muhtemelen küplere binecek.
+[nem] Kovulma da gerisi önemli değil.
+[nem] Sonra konuşuruz.
+</file>
+  
+  <file path="home/documents" name="logs.txt">
+[gscott] Bu sabah paylaşılan bildiriyi okudun mu?
+[cgershwin] Fazladan mesai yapıp ücret talep etmememizi istediklerine inanabiliyor musun?
+[gscott] Şaşırmadım. Bunu kullanarak insanları istifa ettirmeye çalıştıklarının farkındayım. Cidden bize daha iyi muamele etmeleri gerek.
+[gscott] Buraya gelebilmek için maaşımın büyük oranda kesilmesine göz yumdum.
+[cgershwin] Bu işi düzeltmek için üç ayları var.
+[cgershwin] Düzeltmezseler ben yokum.
+[gscott] Ben de yok olabilirim.
+[gscott] İşten sonra bira içmeye gidelim mi?
+[cgershwin] Sen ısmarlıyorsan gidelim!
+</file>
+  
+</Computer>

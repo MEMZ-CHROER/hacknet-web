@@ -1,0 +1,6 @@
+<OnAdminGained target="dhaComp2" >
+<AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="4" >@__hacknettestaccount Looks like you got admin on dha2!</AddIRCMessage>
+<CrashComputer TargetComp="dpa_whitelist" CrashSource="D3F_POD" DelayHost="dhs" Delay="30" />
+<DeleteFile TargetComp="dpa_whitelist" FilePath="Whitelist" FileName="" DelayHost="dhs" Delay="62" />
+
+</OnAdminGained>

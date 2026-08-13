@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Person id="csec_med_01" handle="Ehwitt" firstName="Elliot" lastName="White" isMale="true">
+  <Birthplace name="Londres"/>
+  <Degrees>
+    <Degree uni="Universidad de Manchester" gpa="3.3">Máster en Derecho</Degree>
+    <Degree uni="Universidad de Manchester" gpa="3.1">Licenciatura en Ciencias Políticas</Degree>
+  </Degrees>
+  <DOB>9/09/61 22:00:00</DOB>
+  <Medical>
+    <Blood>BO</Blood>
+    <Height>166</Height>
+    <Allergies>NINGUNO</Allergies>
+    <Perscription>Ivermectina x35 al mes :: regulación del ritmo cardiaco</Perscription>
+    <Notes>Los serios problemas de arritmia recurrentes en el corazón del paciente se han arreglado con un marcapasos que permite algunos ajustes para tener en cuenta variables desconocidas sin cirugía invasiva.
+    Referencias:. 
+. 
+ID de conexión del marcapasos: 202.6.141.219Documentación y observaciones: 66.96.147.84. 
+.Otros datos: Antes de realizar acciones que puedan perturbar el marcapasos o realizar una cirugía invasiva, hablar con los fabricantes para confirmar su estabilidad.
+    </Notes>
+  </Medical>
+  <Notes>Caso de la misión del marcapasos</Notes>
+</Person>

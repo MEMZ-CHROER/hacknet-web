@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="lelzSec0">
+  <goals>
+    <goal type="FileChange" target="nortronWebServer" file="index.html" path="web" keyword="dicks"/>
+  </goals>
+  <missionStart val="10">changeSong</missionStart>
+  <nextMission>lelzSec/NortronBreakIn.xml</nextMission>
+  <branchMissions>
+    <branch>Theme/ThemeHackEndMission.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Naix</sender>
+    <subject>gg wp</subject>
+    <body>
+OK, OK, j'ai compris. C'est bon. Arrête de me faire chier. 
+
+Laisser ces logs dans ta boîte c'était pas malin. T'avais l'air de vraiment pas savoir quoi faire, pendant un moment. 
+Enfin bon, c'est peut-être pour le mieux, finalement. C'est pas tous les jours qu'on tombe sur quelqu'un qui n'est pas totalement con sur Internet. 
+
+J'ai un petit test pour toi, ça devrait être marrant. Il y a une compagnie de sécurité, Nortron, qui n'est qu'une grosse blague géante. Tu les connais ? 
+Ouais, je préférerais avoir un virus plutôt que leur antivirus pourri pour faire ramer mon système. C'est de la pure merde. Ils font la majorité de leurs ventes grâce à l'ignorance des gens. 
+
+Ça fait longtemps que j'ai envie de niquer leur site Web. En bref, j'ai envie de taguer des « bites » partout dessus. Des bites dans le titre, des bites dans l'en-tête, l'ensemble du site recouvert du mot dicks, je m'en fous un peu en fait. 
+Si tu veux faire un peu d'hacktivisme rigolo, montre-moi de quoi tu es capable. C'est sûrement vachement plus amusant que ce que tu venais faire ici à la base, non ?
+
+ -Naix 
+
+P.S. : Tu sais probablement encore rien de ce que c'est que la véritable sécurité, alors voilà un lien vers un guide de piratage pour les nuls. Amuse-toi bien !
+    </body>
+    <attachments>
+      <link comp="nortronWebServer"/>
+      <link comp="netEduComp"/>
+      <note title="Instructions">Remplace un truc dans le titre avec « DICKS ». Je fermerais les yeux sur les autres changements, tant qu'ils sont drôles.</note>
+    </attachments>
+  </email>
+</mission>

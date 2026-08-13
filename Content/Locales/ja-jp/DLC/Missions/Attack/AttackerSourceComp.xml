@@ -1,0 +1,178 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dAttackSource" name="Striker Proxy" security="6" ip="72.52.4.119" type="4" icon="DLCPC2">
+  
+  <trace time="80" />
+  <portsForCrack val="3" />
+  <ports>21, 22, 6881</ports>
+  <proxy time="0.4" />
+  <firewall level="-1"/>
+  
+
+  <dlink target="dAttackHome" />
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+
+  <file path="home" name="irc_autolog_286.log">fdsfjga: 毒気強すぎだろ
+StrikeR: そっちこそ
+StrikeR: 相手に
+StrikeR: 養分おくるな
+StrikeR: で、はやくおくれ
+StrikeR: テーマをよこせ
+fdsfjga: はぁ
+fdsfjga: 今？
+StrikeR: うん
+fdsfjga: ゲームが終わってからじゃだめか
+StrikeR: 。
+fdsfjga: マジで
+fdsfjga: ジャングリングで忙しい
+StrikeR: なんだ離席してるかと思った
+fdsfjga: ふざけんな氏ね
+StrikeR: XD
+fdsfjga: あのさ
+StrikeR: なに
+StrikeR: なんかよう
+fdsfjga: ゲーム終わった
+StrikeR: は？
+fdsfjga: 俺たちがやってたゲーム？
+StrikeR: なんのことだっけ
+fdsfjga: くそが
+fdsfjga: なにおこってんの
+StrikeR: ちょっと離席
+fdsfjga: うそだろ
+StrikeR: クソがクソが
+fdsfjga: テーマほしいの、ほしくないの
+StrikeR: あああああああ
+StrikeR: わかった
+StrikeR: ircへ出ろ
+fdsfjga: ここがircだよ
+StrikeR: なに
+StrikeR: なんでそうなる
+</file>
+  
+  <file path="home" name="irc_autolog_289.log">StrikeR: お前のテーマは壊れた
+fdsfjga: ？
+StrikeR: ？
+fdsfjga: ？？？
+StrikeR: 壊れた
+StrikeR: ん
+fdsfjga: ん？
+StrikeR: なんつーか
+StrikeR: ロードされない
+fdsfjga: ちょっとまって
+fdsfjga: 普通にロードできるけど
+fdsfjga: そっちがなんかミスってるんじゃ
+StrikeR: それは
+StrikeR: まともに考えて
+StrikeR: ありえない
+fdsfjga: 拡張子変えたんじゃない
+StrikeR: いや
+fdsfjga: 確認した
+StrikeR: した
+fdsfjga: ほんとに確認した
+StrikeR: した
+fdsfjga: もっかい確認して
+StrikeR: 氏ね
+fdsfjga: で、拡張子は？
+StrikeR: よかったなテーマは無事だ
+fdsfjga: ？
+fdsfjga: 君がどんなに自分を高く評価してるかはわかった
+fdsfjga: :3
+StrikeR: 通報した
+</file>
+  
+  <file path="home" name="irc_autolog_290.log">fdsfjga: なあ
+fdsfjga: 伝えときたいんだけど
+fdsfjga: あのあとjammyが君の悪口言ってた
+fdsfjga: dotaが上手じゃない女の子たちのことで
+fdsfjga: めっちゃおこってたｗ
+StrikeR: ｗｗｗ
+StrikeR: 次のゲームでミドルになるから
+fdsfjga: うんもう他のみんなに言った
+StrikeR: 勝ち負けとかどうでもよくなるな
+fdsfjga: おいおい
+StrikeR: いい気分だ
+fdsfjga: しっかりしろ
+StrikeR: ミドルシャドーフレンド
+StrikeR: あのチーズのビルド知ってるか
+fdsfjga: いや
+StrikeR: ダゴン　メカンズム
+StrikeR: キレ落ち間違いなし
+</file>
+
+  <file path="home" name="irc_autolog_291.log">
+fdsfjga: マジで
+fdsfjga: ハッキングするの
+fdsfjga: jammyを
+StrikeR: ？
+fdsfjga: うわー
+fdsfjga: おまえ
+StrikeR: あいつプロキシ使わないから
+StrikeR: やれって言ってるようなもの
+fdsfjga: 俺にはできない
+fdsfjga: あいつ#dotaで泣き言言ってたんだぞ
+fdsfjga: ちょっと様子見よう
+StrikeR: お、成功か？
+fdsfjga: ビデオカードが破壊されたようだ
+fdsfjga: 完全に機能停止
+StrikeR: 笑えるな、使用モデルを聞いたらペラペラ喋ったんだぜ
+fdsfjga: 信じられない
+fdsfjga: 1月分の給料をつぎ込んだビデオカードが
+StrikeR: VPSにほんの5ドルでも払うべきだったな
+fdsfjga: あいつが君にとってクソみたいな存在なのはわかるけど
+fdsfjga: ちょっとやりすぎじゃない
+StrikeR: いや
+StrikeR: ｗｗｗ
+fdsfjga: ちょっとはｗ
+StrikeR: 勉強したら
+StrikeR: いいんだ
+StrikeR: 言葉に
+StrikeR: 気を付けないと
+StrikeR: 痛い目みるって
+StrikeR: ｗｗｗｗｗ
+StrikeR: GPUのBIOSを消すときに面白いものを見つけた。
+fdsfjga: 何だ
+StrikeR: 女を口説いてるときのチャットログだ。超濃厚なやつ。
+fdsfjga: そんなまさか
+StrikeR: MSNメッセンジャのチャットを全部保存してやがったｗ
+fdsfjga: すごいな
+</file>
+  
+  <file path="home" name="strikeout.txt">j4mmy: hi :)
+- - -
+j4mmy: やあ！
+* j4mmyがシェイクを送信しました！ *
+- - -
+j4mmy: 調子はどう？
+- - -
+j4mmy: *がマッサージを送信しました！*
+* j4mmyがステッカーを送信しました！ *
+- - -
+j4mmy: *ウェーブ*
+* j4mmyがシェイクを送信しました！ *
+- - -
+* j4mmyがシェイクを送信しました！ *
+j4mmy: おねがい無視しないで
+[A]LEX[A]: なんか用
+j4mmy: 元気？ :)
+[A]LEX[A]: いい？
+[A]LEX[A]: あんたには興味ない
+[A]LEX[A]: 近寄らないで虫けら
+j4mmy: ええっ？
+j4mmy: 失礼すぎない？
+[A]LEX[A]: 礼を欠いているのはどっち？
+[A]LEX[A]: あからさまにいやらしいメッセをずっと送ってきて
+[A]LEX[A]: あたしとヤりたいだけでしょ。
+[A]LEX[A]: 付き合うチャンスは文字通りゼロです。そして雑なメッセでマイナスになりました。
+j4mmy: そんなヒステリックにならないで
+[A]LEX[A]: その手はもう通じないわ！あんたみたいな下衆野郎に同情なんてしないから。
+[A]LEX[A]: 結論：負け犬は去るべし。コーンフレークに涙を落としすぎないことね。不味くなっちゃうから。
+[A]LEX[A]: じゃあね :)
+* [A]LEX[A] はオフラインです。あなたのメッセージは届かない可能性があります。 *
+* [A]LEX[A] はオフラインです。あなたのメッセージは届かない可能性があります。 *
+* [A]LEX[A] はオフラインです。あなたのメッセージは届かない可能性があります。 *
+</file>
+  
+  
+  
+  
+</Computer>

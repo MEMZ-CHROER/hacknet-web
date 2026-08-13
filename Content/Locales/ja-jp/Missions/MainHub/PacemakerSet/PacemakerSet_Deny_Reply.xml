@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitHubSet01" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Error">
+    
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Re: ジューンバグプロジェクト</subject>
+    <body>
+承知しました。
+
+ご検討に感謝します。
+あなたの慎重で勇気ある決断に敬意を表します。
+
+-CSEC 運営
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa_psylance" name="Psylance Cyber Security_Employee IRC" security="5" ip="50.31.225.93" type="4" icon="Psylance">
+  
+  <!-- This will have the IRC of the Psylance guys on it - player will need to log in to view it. -->
+
+  <firewall level="-1"/>
+  <proxy time="4" />
+  <trace time="90" />
+  <portsForCrack val="9" />
+  <ports>22, 21, 443</ports>
+  <portRemap>22=340</portRemap>
+
+  <account username="faithless" password="catsarebestpet" type="2" />
+  
+  <IRCDaemon themeColor="67,204,148" name="Psylance Client Admin IRC Channel" needsLogin="true">
+    <user name="faithless" color="0,209,232"/>
+    <user name="dardypants" color="202,98,0"/>
+    <user name="da_vito" color="0,196,82"/>
+
+    <post user="faithless">Yani evet... bilgisayar oyunları insanları şiddete yönlendiriyor da ona bakarsan yüzlerce sene önce insanların cadı olduklarını düşündüğümüz için onları yakmışız. Ben paramı insanların şerefsiz piçler olduğunu söyleyen kesime yatıracağım.</post>
+    <post user="da_vito">lol</post>
+    <post user="dardypants">Buna inanamıyorum Yasu, cidden ya</post>
+    <post user="faithless">Kime?</post>
+    <post user="dardypants">Pacific Air BT Yöneticisi Yasu Arai</post>
+    <post user="dardypants">E-posta hesabının şifresini açıkça paylaştı! Tanrı aşkına, bu adam bir de YÖNETİCİ!</post>
+    <post user="faithless">Ne yazmış ki?</post>
+    <post user="dardypants">Tam olarak şunu yazmış:</post>
+    <post user="dardypants"> "Bilgisayarımdan giriş yapıp benim için halledebilir misin? Şifre, 1185JACK"</post>
+    <post user="faithless">Vay ananınki... ahahaha</post>
+    <post user="faithless">Senin de bunu BURAYA yazacağına inanmazdım</post>
+    <post user="dardypants">Sorun yok, şifreyi değiştirmesini söyledim.</post>
+    <post user="dardypants">Gerçi diğer şifresi de farklı... henüz tabi.</post>
+    <post user="dardypants">Bir de bu sunucuyu savunmamız gerekiyor. Adamlar resmen gözümüzün önünde sabotaj yapıyor.</post>
+  </IRCDaemon>
+
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+
+</Computer>

@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1_mf_2">
+  <goals>
+    <goal type="filedeletion" target="dMF_2_Lihotas" file="sn_memory_dump_decompiled.rar" path="share/secure/originals"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Memory Forensics (2/3)">
+メモリダンプ（3と4）を解析し、セキュアサーバーへのリンクを見つけてください。
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Memory Forensics</subject>
+    <body>
+みなさんが新型セキュリティー・ツールを入手している間に、私は今後の調査で大いに活躍するであろう新ソフトウェア、Memory Forensicsの情報を掴みました。これは標的のRAMの状態を完全コピーし、有用なデータをツールによって取り出すという、私たちにとって有用なソフトです。
+「売人」は対価として、このプログラムで得たいくつかのメモリダンプの解析を要求しています。
+もうおわかりと思いますが念のため――これは明らかに罠…でなければ何らかの試験です。ツールを持っている（作った）彼女自身で解析できないわけがないのです。それを私たちに押しつけるのですから、確実に利用者の記録を取ろうとしています。
+
+ツールの流通を監視することが悪とは言い切れませんが、身元と周囲との関係を明らかにしないためには、自身のログと接続先への出入りには細心の注意を払う必要があります。
+そのため、ファイルを3グループに分けることにします。 
+
+あなたの担当はダンプ3と4です。
+
+Memory Forensicsと説明書をドロップサーバーにアップしてあるので、それを使って分析し、コネクションをいくつか特定してください。
+
+送信元からのメッセージです。「無法者を罰せよ。奴らはメモリダンパーをデコンパイルし、売りさばこうとした。売人に逆らうとどうなるか、思い知らせろ。」
+これは「デコンパイルされたメモリダンパーを見つけたら削除し、それが発見されたシステムを攻撃せよ」という意味に読めます。
+
+では、くれぐれも気を付けて。
+-Kaguya
+</body>
+    <attachments>
+      <note title="Mission Guidelines">ドロップサーバーからMemory Forensicsをダウンロード
+ダンプ1と2を解析
+ダンプから接続先を探す（scan [ip]コマンドでForensics画面のままサーバーにPINGできる）
+デコンパイルされたメモリダンプを削除
+その発生元システムを攻撃
+</note>
+      <link comp="dhsDrop" />
+    </attachments>
+  </email>
+</mission>

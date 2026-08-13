@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Intro">
+  <goals>
+  </goals>
+  <missionStart>csecAddTraceKill</missionStart>
+  <nextMission>BitPath/BitAdv_Intro02.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Grundstein</subject>
+    <body>Hey,
+mag zwar etwas unkonventionell erscheinen, aber ich habe mal meine Beziehungen spielen lassen. Du musst derjenige sein, der den Auftrag, Bits Spuren zu verfolgen, angenommen hatte.
+Ich bin auf der Suche nach näheren Information und wollte dafür die gleiche Person. Wenn du diese Mail erhältst, bedeutet das, dass du deinen bisherigen Auftrag abgeschlossen hast, also können wir loslegen.
+
+Ehrlichgesagt, es ist ziemlich schwer, "Beziehungen" bei CSEC spielen zu lassen, in diesem Fall besonders. Aber du hast sehr schnell für Ergebnisse gesorgt und deshalb möchte ich dich für diesen Fall.
+Mehr Zusammenarbeit diesmal. Oh, und wenn du dich fragst, warum ich so zuversichtlich bin, dass du mitmachen willst - auf dich wartet etwas auf dem CSEC-Asset-Server auf dich. Das sollte als Anreiz reichen:
+
+Suche nach der Datei ~/bin/TK/TraceKill.dec
+Entschlüssle sie mit dem Passwort "dx122DX"
+
+Wenn du deine Kopie hast, antworte mir wieder. Wie immer sind die Admins etwas paranoid was deren Sicherheit betrifft, also werden sie es anonym zu mir weiterleiten - mir egal. Antworte mir einfach, wenn du bereit bist und ich lass dich wissen, was als Nächstes zu tun ist.
+
+
+    </body>
+    <attachments>
+      <link comp="mainHubAssets" />
+    </attachments>
+  </email>
+</mission>

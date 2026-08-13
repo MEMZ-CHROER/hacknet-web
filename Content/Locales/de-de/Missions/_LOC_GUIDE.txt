@@ -1,0 +1,30 @@
+Do not translate! Guide for Localizers:
+
+For files starting with <Computer>:
+
+Translate only the following:
+Body contents of files (Never filenames) Example:
+<file path="home" name="Test_File.txt">Congratulations, You win!</file>
+Translate "Congratulations, You win!" but nothing else
+
+Do not translate anything in between hashes. For example:
+#BINARY#
+or #PLAYERNAME# - these are program wildcards and should remain as-is
+
+
+"name" atributes of the top tag (never ids). Example:
+<Computer id="bitMission00" name="Bitwise Test PC" security="1">
+Translate only "Bitwise Test PC"
+
+
+
+
+For files starting with <Mission>
+
+Translate the title and body of <posting> tags
+
+Translate the subject and body of <email> tags
+DO NOT TRANSLATE SENDER TAGS OF EMAILS!
+Translate the body and title of <note> tags.
+
+Do not translate anything in <goal> or other tags!

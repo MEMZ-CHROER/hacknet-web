@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle04">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0015 - Pacemaker v2.44 Beveiliging en verklaringen">
+Deze post maakt de beveiligingsfuctionaliteiten van de v2.44 pacemaker duidelijk. Voor algemene functies refereer naar de documentatie kopie of vraag een nieuwe kopie aan via support@kellisBio.com
+---------------------------------------------
+
+Langs beveiliging komen om een firmware update te doen als een gesigneerd binair is opgehaald van de software ontwikkelaar vereist een aantal stappen.
+Ten eerste, verbind aan de pacemaker via het referentie IP adres van de patient.
+
+Log in als administrator met de gevegevens die zijn toegewezen op een per-keer basis door de klant. Deze stap is beveiligd met Kellis' gepatenteerd micro-poort beveiligingssysteem (poort 6652).
+
+Vanaf hier zal remote monitoren toegankelijk zijn, zodat de gebruiker live ECG data kan zien.
+
+Om een firmware update te doen is er een tweede software-login nodig, gebruik hiervoor de authenticatie code van de software ontwikkelaar.
+
+Met beide gegevens bevestig kan er een update geupload en geactiveerd worden op de chip, die automatisch zal soft-resetten (geen gevaar voor de patient) en de nieuwe code zal activeren.
+
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+      Het ontvangen van deze email betekent dat er een onverwachte fout is opgetreden.
+      Raak in paniek.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

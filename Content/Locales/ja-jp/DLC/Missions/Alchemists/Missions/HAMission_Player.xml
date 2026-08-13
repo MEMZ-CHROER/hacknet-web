@@ -1,0 +1,35 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ham_player">
+  <goals>
+    <goal type="fileupload" target="dhaAdminHome" file="SignalScrambler.exe" path="bin" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionStart val="3" suppress="true">changeSongDLC</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="Hermetic Alchemists - #PLAYERNAME#">
+奇妙な哲学グループのサーバーシステムで、あるプログラムが開発されています。今後のプロジェクトで役に立ちそうなので入手したいところです。
+  </posting>
+  <email>
+    <sender>Hermetic Alchemists - #PLAYERNAME#</sender>
+    <subject>Hermetic Alchemists</subject>
+    <body>
+奇妙な哲学グループのサーバーシステムで、あるプログラムが開発されています。今後のプロジェクトで役に立ちそうなので入手したいところです。
+----
+標的は組織内で開発されている高度な追跡回避プログラムです。しかし、現時点でわかっているのは、開発者がサーバーネットワークを構築していることぐらいです。
+ネットワークを隅まで調査し、彼らの開発設定を見つけ、追跡回避プログラムを入手してください。
+予めスキャンしたところ、ネットワークは実に広大で、Hermetic Alchemistsという哲学グループのファイルや様々なサービスが置いてあるようです。
+
+システム管理者はかなりの腕ききと思われるので、メンバー全員で同時に調査してください。チームにとって有益なものを発見したら、チャットで共有してください。
+    
+健闘を祈ります。</body>
+    <attachments>
+      <note title="Mission Guidelines">
+ネットワークを調査、管理者を特定、標的をダウンロード。
+可能なら他に有益なものを見つけ、チャットで報告。
+標的のファイルはドロップサーバーへ。
+      </note>
+      
+      <link comp="dhaEntry" />
+      
+    </attachments>
+  </email>
+</mission>

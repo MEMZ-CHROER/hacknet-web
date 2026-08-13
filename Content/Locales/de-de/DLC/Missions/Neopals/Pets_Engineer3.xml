@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dPets_Engineer3" name="Tiff Doehan_PersonalPowerbook" security="2" ip="98.129.229.204" icon="laptop" type="empty">
+
+  <ports>21, 80, 6881, 9418</ports>
+
+  <positionNear target="dPets_MF" position="5" total="360" extraDistance="0.05"/>
+
+  <file path="home" name="EventsTodo.txt">
+Gruselige Geister
+Feen v2
+Musicalstadt (Oh Gott, bitte nicht)
+Tie-in mit Dark Souls (!!)
+Panzer (...)
+</file>
+  
+  <file path="home/productivity" name="Trello.txt">
+Trello-Tests. Wollte das ursprünglich als Arbeitssystem verwenden, sehen, wie es für die persönliche Organisation usw. passt.
+-----
+
+Das Brettsystem ist super; es ist toll, wie man eine Karte für eine größere Aktion erstellen und mehrere Checklisten einstellen kann, um den Fortschritt innerhalb eines größeren Ziels zu verfolgen.
+Nachteil - die App ist mies. Sie funktioniert zwar, aber für den Nutzer ist es total umständlich, langsam und sperrig, Sachen auf eine Checkliste zu stellen und zu prüfen.
+Eigentlich funktioniert es auch nicht so recht als To-Do-Listen-Manager. Irgendwie bekommt man keinen rechten Überblick darüber, was man aufgeschrieben hat und was als nächstes zu tun ist.
+
+Ich merke, dass ich mich auf abstrakte Weise von der Arbeit überwältigt fühle, die ich erledigen muss. Wenn ich das Problem kritisch betrachte, bedeutet das, dass ich ein Organisationsproblem habe.
+Ich weiß, dass ich viel erledigen muss und es ist ok, sich überwältigt zu fühlen, wenn man buchstäblich zu viel zu tun hat, bevor die Deadline erreicht ist. Aber wenn ich mir nicht ganz sicher bin, was ich bis wann zu tun habe, dann habe ich keine guten Organisationssysteme, und das ist vermutlich die Ursache dieser Gefühle.
+Also, der Umstand, dass man keine einzelne Aufgabenliste aus diesem komplexen Brett und dem komplexen Projekt ziehen kann, ist eine echte Niete. Trello funktioniert nicht.
+
+Sonstiges - man kann Karten nicht auf gute Weise als „erledigt“ markieren. Es gibt eine „fertig“-Spalte, aber das will ich eigentlich nicht. Bei diesem System werden Aufträge nur in Spalten verschoben, nicht von einer Liste gestrichen.
+Muss mir andere Systeme anschauen.
+</file>
+  
+  <file path="home/productivity" name="AnyDo.txt">
+AnyDo - etwa eine Woche getestet
+---
+Ein bisschen zu simpel für meinen Bedarf. Zu schlicht.
+Die Synchronisation ist ok, das E-Mail-Plugin ist eine großartige Idee (werde ich übernehmen), aber in der Ausführung wieder ein bisschen zu schlicht.
+Warum hat es nicht mehr Parser für E-Mail-Inhalte, um Text und Betreff in To-do-Notizen usw. zu ziehen?
+Vermutlich, weil es keine Notizen zu einem Einzeleintrag hat.
+
+Die Idee mit einem „Tagesplaner“-Bildschirm, der aus den Benachrichtigungen erstellt wird, finde ich *total* gut, aber es gibt keine Schaltfläche dafür!
+
+Die Aufforderungen, das bezahlte Upgrade zu kaufen, sind nervig. Gute Ideen, aber einige Fehler oder Designentscheidungen machen es frustrierend und unangenehm. Verzichte drauf.
+
+Ich verstehe, was sie damit wollen - superleichtes und freundliches Design, für Persönliches gedacht, nicht für Großprojekte. Das ist zwar ok, aber für mich ungeeignet.
+Enthält aber viele gute Ideen, die bei einem komplexeren System verwendet werden können. War das Austesten echt wert..
+</file>
+  
+  <file path="home/productivity" name="ePhoneAppsGeneral.txt">
+Verschiedene eOS Produktivitäts-Apps
+---
+Eigentlich wollte ich hier tiefer ins Details gehen, aber für mich haben sie alle das gleiche Grundproblem: Ich brauche ein relativ komplexes System, um jede Menge Sachen für Großprojekte im Auge zu behalten, und verbringe meine hauptsächliche Organisationszeit an einem Computer. Fast alle dieser Systeme sind viel zu simpel und handyorientiert.
+Ich brauche eine Computer-Schnittstelle. Ich habe immer mehr das Bedürfnis, etwas für meinen Eigengebrauch zu entwickeln.
+</file>
+  
+  <file path="home/productivity" name="Asana.txt">
+Asana
+---
+Ich hätte schon früher davon hören sollen. Ich hätte nicht so lange brauchen sollen, nur um das, was ich möchte, in Google einzutippen. Egal, ich habe zwei vielversprechende Ergebnisse gefunden - Asana und Taskworld. Taskworld hat echt ekelhafte Preis- und Eintrittshürden, bevor man es sich überhaupt ansehen kann. Daher ist Asana zuerst dran.
+Kleiner Hinweis - verdammt, es ist nervig, dass alle diese Dinger keine besseren Systeme eingerichtet haben, damit man seine Listen zwischen den Systemen transferieren kann. Man würde meinen, dass ein Trello-Export und ein Asana-Import eine kostenfreie Kernfunktion wäre, damit man es ausprobieren kann, ohne wieder ganz von vorne anzufangen, aber neiiiiiin. Urrrgh.
+
+Also, Asana kommt meinem Bedarf ziemlich nahe. Absolut nicht perfekt und es scheint mir ein bisschen *zu* komplex für meinen Bedarf. Es scheint auf Konzerne abzuzielen (Taskworld scheint das gleiche Problem zu haben).
+Vorteile: Ebenso schön wie die Trello-Bretter, aber mehr auf Listen und To-do orientiert. Man kann Karten als abgeschlossen markieren. Karten können dir zugeordnet und in meinem To-do angezeigt werden. Toll.
+Karten können nur eine interne Checkliste haben (heißt hier Unteraufgaben), was ziemlich nervig ist. Anscheinend hat man hier einfach nur ein Listensystem in eine Brettdarstellung umgemodelt? Aber auf seine eigene Art ist es toll.
+
+Keine gute Möglichkeit, um seine täglichen Aufgaben zu sortieren, aber das ist nicht allzu schlimm. Man kann ziemlich schnell die größere Liste durchgehen und einige Sachen als „Heute fällig“ markieren - das funktioniert recht gut.
+
+KEINE STANDARDEINSTELLUNGEN FÜR DINGE WIE ZUSTÄNDIGE! Auuughhhh!
+Jedes Mal, wenn du etwas machst, musst du es dir manuell selbst zuteilen und jede Menge Markierungen setzen. Das ist *echt* ätzend - deine Interaktionen mit dem System sollen ja so gering wie möglich mit so vielen Details wie möglich sein. Wenn du also nicht deine eigenen, vernünftigen Standardeinstellungen machen kannst, wo Sachen automatisch hinzugefügt werden, ist das einfach total schrecklich.
+
+Momentan arbeite ich mit einem System, wo ich Bretter für große Projekte habe. Ich mache eine Karte für einen Meilenstein und ordne Sachen Unteraufgaben zu (die ich mir dann wieder selbst zuordnen muss, seufz). Das bedeutet, dass ich schön Fälligkeitsdaten für große Aufgabengruppen bestimmen und diese auch gut sortieren kann, das ist also cool.
+Insgesamt kommt es „ziemlich nahe“ an meinen Bedarf heran, und generell gibt es Lösungen für meine Probleme und Wege, wie man diese Sachen erreicht ... nur ... Es ist nervig, dass so viele Dinge, die offensichtlich notwendig sind, ganz einfach fehlen - besonders Standardeinstellungen für die Aufgabenerstellung.
+
+Außerdem werden die Kacheln manchmal viel zu groß, wenn man das Brett mit Bildern und Assets schmückt - es wäre supernützlich, wenn man Optionen innerhalb jeder Kachel hätte, wie die Assets darin angezeigt werden, damit man sein Brett besser aufhübschen kann. Hmm.
+</file>
+  
+  <file path="home/productivity" name="My_System_Planning.txt">
+Notizen für mein eigenes Produktivitätssystem.
+Ideen von anderen Systemen, die mir gefallen, und Dinge, von denen ich glaube, dass sie bei den meisten fehlen usw.
+---
+Im Kern steht ein Brett-Layout wie bei Trello. Karten können als „erledigt“ markiert werden - sie werden auf ein normalerweise ausgeblendetes (einblendbares) abgeschlossenes Brett verschoben.
+Es gibt ein optionales Fokus-Brett auf der linken Seite (standardmäßig aktiviert), auf das man Karten verschieben kann - Sachen, die man sich als nächstes ansieht.
+Karten können mehrere Unterlisten enthalten - Karten zeigen auf dem Hauptbildschirm die Positionen auf ihren Unterlisten an (zusammenklappbar - das System erinnert sich zwischen Plattformen und Systemen an den Klappstatus der Karten). Kann von der Brettansicht aus Dinge in den Karten streichen (Nur Checkbox Hitbox, Etiketten öffnen Kartenansicht).
+Kann Sprites zu Karten hinzufügen mit einigen Optionen, wie dieser Asset auf der Hauptanzeige wiedergegeben wird.
+
+Meilensteinfokus - du erstellst einen Meilenstein, den du erreichen möchtest (wie eine Produktfreigabe oder so), und gibt dazu Details an, wie Fälligkeitsdatum, das heranrückende Datum usw.
+Wenn du eine Aufgabe erstellst, definierst du ihren Meilenstein, und sie kann aufgrund einer vagen Priorität, die du ihr wahlweise gibst, automatisch einem Fälligkeitsdatum zugeordnet werden. Die Anfangsarbeit bei der Definition der Meilensteine soll am wichtigsten sein. Einzelne Aufgaben sollten so vielseitig und schnell wie möglich erstellt werden können.
+
+Ansicht, bei der nur der aktuelle Tagesfokus angezeigt wird, mit Optionen, wie dieser zu erweitern ist.
+</file>
+  
+  <file path="home/productivity" name="My_System_PlanningView.txt">
+Schaltfläche, die eine Art "Plan My Day" Bildschirm anzeigt - er stellt einfache Fragen, um eine Liste mit Tagesaufgaben einzugrenzen und dazu anzuregen, diese Dinge auch zu erledigen. Diese Informationen für die spätere Analyse und Planung speichern (feststellen, ob die Person ständig ihre Fähigkeiten über- oder unterschätzt, Projekttermine schätzen usw.)
+Fragen:
+
+Wie viel Zeit hast du momentan zum Planen? - Gar keine, 30 Sekunden, einige Minuten
+Wie viel Zeit und Energie hast du heute für die Arbeit - eigentlich gar keine, nicht viel, in etwa normal, viel!
+Definiert die Details weiterer Fragen - keine teilt automatisch gestern verpasste Sachen und zufällige (?) Sachen vom aktuellen Meilenstein zu
+Ist es wichtig, die unvollendeten Aufgaben von gestern fortzuführen? Ja/Nein
+An welchen der folgenden Aufgaben möchtest du heute gerne weiterarbeiten (präsentiere einige Optionen für Aufgaben/Hauptkarten/Unterlisten und priorisiere sie für heute. Diese temporäre Prioritätssteigerung dauert 20 Stunden an.
+
+Wenn der Nutzer einige Minuten ausgewählt hat, zeige einige Details an, welche Fortschritte der aktuelle Meilenstein macht (Nicht das ganze Projekt, nur der Meilenstein - konzentriere dich darauf, was gerade ansteht).
+Erstelle anhand dieser Informationen eine To-do-Liste für den Tag, basierend auf historischen Daten darüber, wie viel der Nutzer an einem normalen Tag mit der obigen Energieantwort tatsächlich macht.
+
+Zeige eine anspornende Nachricht an, wenn der Nutzer seine Fragen abgeschlossen hat! Zeig‘s ihnen, Tiger!
+
+Sobald eine To-do-Liste für den Tag erstellt wurde, diese anzeigen. Wenn der Spieler alles für den Tag erledigt hat, eine andere Schaltfläche mit der Aufschrift „gib mir mehr zu tun!“ anzeigen - diese werden nicht zu den unfertigen Tagesaufgaben hinzugefügt, wenn der Nutzer sie nicht erledigt.
+Auch eine Schaltfläche mit der Aufschrift „Oder mach heute mal früher Schluss! Tolle Arbeit!“
+</file>
+  
+  <file path="home/productivity" name="My_System_Dailies.txt">
+Ausgeklügeltes, aber benutzerfreundliches System zum Erstellen sich wiederholender Aufgaben - die täglich oder wöchentlich usw. anfallen.
+System, das fragt, was du möchtest und dir dann viele Arbeit abnimmt. z. B.:
+
+Möchtest du an Geburtstage erinnert werden? Such dir ein paar Leute aus! (Facebook?) Wie wäre es mit dieser Vorlage?
+Schaltflächen haben wie: ich muss keine Geschenke besorgen, erinnere mich nur am entsprechenden Tag daran“
+
+Dinge, für die wir Systeme brauchen:
+Vor Geburtstagen Geschenke besorgen
+Weihnachtseinkäufe
+Valentinstag (RISKANT)
+Jahrestage
+
+
+Wiederholt auftretende Sachen wie „Ins Fitnessstudio gehen“. Wenn es einmal abgehakt wurde, erscheint es 2 Tage später wieder. Und zeige an, wie lange es überfällig ist, wenn es sich mehr als zwei Tage verspätet usw.
+
+Diese Sachen lassen sich in einem Tutorial nur schwer rüberbringen und die Leute vergessen, dass man sich in ein System weiter einarbeiten muss, wenn sie sich einml grob auskennen. Dafür brauche ich im Tutorial eine Option ...
+</file>
+  
+  <file path="home/productivity" name="My_System_Tutorial.txt">
+Erstes Starten ist unheimlich wichtig.
+Frage „Möchtest du das System jetzt näher kennenlernen?“ -> Führ mich rum! + Jetzt nicht
+Danach fügt es eine Aufgabe mit einer Sonderschaltfläche mit der Aufschrift „Richte mein System ein“ zum System hinzu (wobei es natürlich nachfragt). Damit können Leute es erledigen, wenn es ihnen passt.
+
+Die System-Einrichtung fragt, ob es ok ist, später Aufgaben hinzuzufügen, um den Nutzer mehr beizubringen. Verdeutliche, das Nutzer nicht alles auf einmal lernen sollten. Sagt auch „Bis morgen!“ oder so.
+Biete eine Option an, mit der sie auf Wunsch gleich alles auf einmal machen können.
+In den Aufgaben am Tag 2 lernst du mehr über sich wiederholende Aufgaben oder so.
+
+Tutorials sollten auch eine Option haben, auf der „Ich habe keine Zeit, mach schnell“ steht.
+
+BAUE OPTION EIN, VON ANDEREN SYSTEM ZU IMPORTIEREN! Führe den Nutzer durch das koplette Setup.
+</file>
+  
+  <adminPass pass="ixidixie" />
+  <dlink target="dPets_VC" />
+
+  <eosDevice name="Tiff's ePhone 7" id="dPets_Engineer3_Phone" icon="ePhone2">
+    <note>Platzhalter todo
+Tanks-Event
+</note>
+    <note>Arbeits-Logins
+Auth (admin): mlk3fsdie321
+VC (admin): undc321b9y
+</note>
+    <mail username="tdoehan@boatmail.com" pass="ixidixie" />
+  </eosDevice>
+  
+  
+  
+
+</Computer>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet08_p2" activeCheck="true">
+  <goals>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Untersuche eine Krankenakte">
+Besorge eine Krankenakte, um einen Streit zu beenden.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>RE: Äskulapstab</subject>
+    <body>
+Ich...
+Was? Die hast du ja von der echten ...- Die Akte ist echt, oder?
+Weil ich....
+
+Wow.
+
+Ich.. weiß nicht mehr, woran ich noch glauben kann. Wow.
+
+Öh, und, danke für deine Hilfe. Ich denke, ich muss meine ganze Existenz nocheinmal gründlich überdenken.
+-G
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

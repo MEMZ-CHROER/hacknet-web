@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="encrypt_source.dec" path="home" destTarget="hubPubDrop" destPath="Drop/Uploads" decrypt="true"/>
+  </goals>
+  <missionEnd val="1">addFlags:decypher</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Locate or Create Decryption Software">
+Какая-то компания создала новую программу для шифрования файлов, и закрыла с ее помощью большую часть кода, которая была нам ранее доступна. 
+Алгоритм, по-видимому, не настолько плох, как то, с чем мы имели дело раньше, но мы пока не нашли, как его расшифровать. Можете решать проблему любыми способами, нам важно получить расшифрованный файл.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Ghosting the Vault</subject>
+    <body>
+DEC Solutions недавно выпустили свой DEC Encryption Suite - по-сути, пакет для шифрования файлов. У нас есть файл, на который мы хотели бы взглянуть, и который зашифрован с помощью этой штуки. 
+Я скинул копию файла на наш общий сервер (незащищенный файлообменник для всех пользователей CSEC), называется &quot;encrypt_source.dec&quot;. Кстати, .dec - это расширение, генерируемое пакетом шифрования. 
+
+Вероятно, ты захочешь сначала взглянуть на сам файл. На сервере компании практически нет ничего полезного, но если ты покопаешься немного, возможно, найдешь что-нибудь. Когда зайдешь туда, попробуй просканировать сеть, посмотреть, есть ли что-то дальше. 
+
+Когда расшифруешь файл, загрузи его на дроп-сервер CSEC.
+    </body>
+    <attachments>
+      <link comp="hubCrossroads"/>
+      <link comp="hubPubDrop"/>
+      <link comp="decSoftWeb"/>
+      <note title="Детали задания">Исследовать корпоративную сеть DEC Solutions; 
+Найти метод для расшифровки файлов; 
+Расшифровать файл с общего сервера CSEC; 
+Загрузить файл на дроп-сервер CSEC.</note>
+    </attachments>
+  </email>
+</mission>

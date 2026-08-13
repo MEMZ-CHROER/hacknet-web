@@ -1,0 +1,84 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechRomulus" name="En_Romulus" security="5" ip="156.151.1.12">
+
+  <admin type="basic" resetPassword="false"/>
+
+  <adminPass pass="h7ggNKl2" />
+  
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+
+  <positionNear target="EnTechMainframe" position="4" total="6" />
+
+  <file path="STORE/Contractors/Bit" name="Hacknet_Project_BitReport04.txt">
+Bu raporun ne kadar uzun olmasını istediğinizi bilemedim. O yüzden kısa tutacağım.
+İlerleme iyi gidiyor. Benim kısmımın çoğunluğu plana uygun şekilde devam ediyor. Çalışıyor ve test aşamalarının çoğunu geçiyor (#86 nedir? İpucu falan mı?).
+Merkezileştirme gerektiren birkaç sorunla karşılaştım. Yeni sürümler "Heart" sunucusuyla iletişime geçecek, bu sunucu da sahtekarlık vakalarının bir kısmını etkisizleştirecek ve çözümlerle geri dönüş yapacak. Böylelikle bu vakalar ikinci bir açıdan değerlendirilebilinecek. Bence bu bana beyaz listeye alınan sunucular gibi şeyler konusunda daha fazla seçenek sunabilir.
+Bu aşama işliyor ve Heart linkinin prototipi de yerine yüklendi.
+
+Beni bayağı rahat bıraktın. Bu yüzden bir sıkıntı olmadığını varsayıyorum. Eğer sorun çıkarsa bana haber ver.
+
+--Bit
+1
+  </file>
+  <encryptedFile path="STORE/Contractors/Bit" name="hn_repo_archive.dec" ip="156.151.59.35" header="EnTech(tm) Repository Backup" pass="ax229msjA">#BINARY#</encryptedFile>
+  <encryptedFile path="STORE/Contractors/Bit" name="hn_PH_LinkPrototype.dec" ip="23.236.62.147" header="Porthack heart link prototype" pass="ax229msjA">#BINARY#</encryptedFile>
+
+  <file path="STORE/Contractors/Deonyx" name="Hacknet_Project_DeonyxReport4.txt">
+Güncelleme Raporu:
+---------------
+
+İyi haberlerim var. Programın bayağı ilerisindeyiz. Anlaşılan WINE Projesi'nin kaynak kodlarının bir kısmını alıp Unix'de şu hile hurda sorunlarını çözmek için kullanabileceğim.
+
+Standart Unix programları adam gibi çalışıyor. Cross Distro sorunları umduğumdan kolay halloldu. Kernel erişimini sağladım. Birkaç şeyi taklit edip kalanları için bağlayıcı yazabilir ve güzelcene ayarlayabilirim. Bunları sorun olarak görmüyorum.
+Diğer işletim sistemleri hep sorun çıkarırdı. Ana bilgisayarımızda hiçbir şeyi adam akıllı çalıştırmazdı. Bu WINE ile birlikte çoktan çoğu terminal uygulamasında çalışana sızmayı başardım. .NET ve C# çalışsa da (mono projesi sağolsun) C++'ın çalışma durumu lib dizini ve derleyici seçimlerine göre değişiklik gösteriyor.
+En fazla sorunu C çıkartıyor. Fakat tahminen neler olacağını biliyorum (bir sürü internet erişimi, değil mi?). Bu da düzelecek.
+
+Sonuç olarak, umut vaat ediyor. Yakında evrensel çalıştırma uzantılarında da düzgünce çalıştırabilmeliyiz. Bu arada çalıştırabilmeliyiz derken, ben çalıştırabilmeliyim yani.
+
+_Deonyx
+  </file>
+  <encryptedFile path="STORE/Contractors/Deonyx" name="Hacknet_Codelink_v1.dec" ip="xxx.xxx.xxx.xxx" header="deonyx server has almost all programs on it for testing" pass="84833mmn1">#BINARY#</encryptedFile>
+
+  <file path="STORE/Contractors/teja" name="04Report_Hacknet_Project_teja.txt">
+Hacknet Projesi 4. Rapor:
+
+--Bu haftanın ek görevi tamamlandı
+SecurityTracer.exe yüklendi ve yeni Hacknet sürümleriyle birlikte tam projenin hazırlanması için geçici önlem olarak paketlenecek.
+Basit çözüm fakat otomatik olarak etkinleştirilebilir olmalı. Kopya çalışmaya başladıktan sonra kullanıcıdaki kopyayı devre dışı bırakabilmeli ve konumunu (IP ve coğrafi) merkezi sunuculara gönderebilmeli.
+
+--Daha bütünleşmiş, fark edilmeyen Security Tracer planlaması yolda
+Çalışmalar, TraceTracker zamanında tamamlanabilsin ve sıradaki sürüme yetişebilsin diye ertelendi.
+
+--Trace Tracker v0.93 yayınlandı
+Tam sürümün öncüsü yayınlandı. Ayarlanan 92 testi başarıyla geçerken, kendi geliştirdiğim 25 testten 22'sini de başarıyla geçti.
+Bilindik izleme yazılımlarını başarıyla izliyor, izleme süresini ve dönüt sayısını da başarıyla hesaplıyor. Ayrıca otomatik gerçekleştirilen acil durum oturumlarının başlatılmasından önce ne kadar süre geçeceğini de (göreceli olarak) hesaplayabiliyor.
+
+Fırsatımı, bu teknolojinin gücünü yeniden elde etmekte kullanmak istiyorum. Güncellemeler olmadan da bu araç çok işe yarayacak. Ayrıca kendi geliştirdiğim sıkı denetleme araçlarını kullanmanızı da öneririm. Sağlamayı ayarlamak için sürümleri inceleyeceğim.
+
+Teşekkürler.
+teja
+  </file>
+  <encryptedFile path="STORE/Contractors/teja" name="HacknetSecurityTracer.dec" extension=".exe" ip="xxx.xxx.xxx.xxx" header="teja server has loads fo copies of security tracer" pass="84833mmn1">#SECURITYTRACER_PROGRAM#</encryptedFile>
+
+
+  <file path="STORE/Contractors" name="IMPORTANT_ContractorUploadGuide.doc">Her yükleyicinin ikili sürümü raporlarıyla birlikte burada yer alacaktır.
+  
+  UYARI - DOSYALARIN İSİMLERİNİ DEĞİŞTİRMEYİN
+  
+Tam sürümler ve raporların derlenmesi komut dosyalarına başvurularak gerçekleştirilir.
+  </file>
+  
+  <file path="STORE/Contractors" name="Contractor_Server.doc">Bu repo sadece yükleyicilerin hazır sürümlerini depolar. Ayrıca dağıtıma hazır EnTech kodları için de tasarlanmıştır.
+Daha fazla test edilmemiş sürüm ve güncelleme için Yükleyici Aktarım Sunucusu'na göz atın:
+
+EnTech Harici Yükleyici Aktarım Sunucu : 156.151.59.35
+
+---------------------------------
+
+DÜZENLEME: Bu konuyla ilgili e-postalar *bitmek bilmediği için*... yüklenen dosyaları görmek için girilmesi gereken şifre: "ax889msjA". Aynı erişim sağladığınızda size verilen yazılı kopyadaki gibi.
+
+  </file>
+
+</Computer>

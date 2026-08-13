@@ -1,0 +1,8 @@
+-UPLINK-VERINDUNG HERGESTELLT-
+__________________________
+ 
+Willkommen Agent,
+Du wurdest für einen Wettstreit mit einem weiteren Hacker via Subnet verbunden.
+Deine Aufgabe wird es sein, das System deines Gegners permanent zu deaktivieren - bevor dieser die Möglichkeit hat, das Gleiche mit deinem zu tun.
+
+Be Smart, Be Efficient, Be Fast.

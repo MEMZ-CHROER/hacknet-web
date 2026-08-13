@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dCredits" name="Kaguya_Projects" security="4" type="empty" ip="54.183.231.34">
+
+  <portsForCrack val="1" />
+  <ports>21</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="-1" />
+  <portRemap>21=1886</portRemap>
+
+  <DLCCredits />
+
+  <file path="bin" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+  <file path="home" name="Prospectives.txt">
+Возможные кандидаты
+--------------------------
+
+        
+Shimo7even
+        - Страна: Japan
+        - Лидер L0sExtraditables
+        
+d3f4ult
+        - Страна: Japan
+        - "Пастух ботнетов", BushidoBot 
+        
+L0m1s
+        - Страна: НЕИЗВЕСТНО
+        - Разработчик ransomware, веб эксплуатация
+        
+meepkittyfXck
+        - Страна: Канада/Швеция
+        - Социальный инженер, Disinfo 
+        
+Bit
+        - Страна: Австралия
+        - Разработчик эксплоитов/утилит
+        
+Lorde_Bashtien
+        - Страна: Майами, США
+        - Кардер, социальный инженер
+        
+Sh1n0d4
+        - Страна: Japan (?)
+        - Разработчик BushidoBot
+        
+Coel
+        - Страна: Германия
+        - Профи по информационной безопасности
+        
+MLT
+        - Страна: Великобритания
+        - Разработчик эксплоитов, хранитель 0day
+        
+#PLAYERNAME#
+        - Страна: #PLAYERLOCATION#
+        - Неизвестно - разработка 0day?
+
+</file>
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/FloatVoidTheme.xml"/>
+  <customthemefile path="home/themes" name="FloatVoid_x-server.sys" themePath="DLC/Themes/FloatVoidTheme.xml"/>
+  <customthemefile path="home/themes" name="FloatVoidAlt_x-server.sys" themePath="DLC/Themes/FloatVoidThemeStandard.xml"/>
+  <customthemefile path="home/themes" name="Deep_x-server.sys" themePath="DLC/Themes/MiamiThemeLightBlue.xml"/>
+
+<file path="home" name="CreditsData.txt">
+%---  Проект Labyrinths  ---
+
+^Дизайн и разработка
+Matt Trobbiani
+
+^Сценарий
+Damon Reece (@demanrisu)
+Matt Trobbiani (@Orann)
+
+^Логотипы и диаграмы
+W O V A Studio
+www.wova.pl
+
+^Художники Neopals
+Poppy de Raad (@pixecology)
+
+^Фотографии клавиатуры
+/u/koalapear
+
+^Фоновые изображения
+Angelus-Hellion
+angelus-hellion.deviantart.com
+
+^Music
+Music Supervision: Fabian Malabello (The Otherworld Agency) 
+
+OGRE - Snidely Whiplash 
+Tonspender - Slow Motion
+Remi Gallego - Clear Text 
+Remi Gallego  - Payload (AKA Userspacelike)
+Remi Gallego  - Sabotage (AKA Altitude_Loss)
+Cinematrik - World Chase
+HOME - Resonance
+HOME - Dream Head
+
+^Bonus Writing Help
+Aisha Black
+Hanna Siek
+
+^Icons
+Pavel Kozlov
+Gregor Cresnar
+Lucy G
+
+^Community Managers
+Colamaeleon
+RainShatter
+Aidy
+
+^Testers
+Peer
+phonic88
+Colamaeleon
+Scratch
+SpadeGamer_Dallas
+Rain Shatter
+Chris Johnson
+p4l4d1n
+
+^Special Thanks
+Hanna Siek
+Jamie Williamson
+Bec Pelvay
+Chris Johnson
+Chelsea Easton
+Alex Mackay
+Lauren  Clinnick
+Morgan Jaffit
+Sasha Mattschoss
+Izzy Gramp
+Ben Trobbiani
+Stephen Trobbiani
+Laura Trobbiani
+Gabriele Trobbiani
+Pam Carroll
+
+^- Localization -
+
+First pass translation to F/S/R/G/K by Game Scribes
+Team lead by William Farrell
+
+^Community translation polish teams:
+
+^Russian
+Ray Volkov
+
+^French
+Julien Genaille
+
+^German
+Hanna Siek
+Jonas Schloemer
+
+^Korean
+Hong-gi Lee
+
+^Spanish
+Nahuel Peruzzo
+
+^Chinese
+CE Asia Translation team
+Chenxiao Liu + Team
+Shuangnan Liu
+Zhouyue Chen
+Sonkwo Team
+
+^Japanese
+PLAYISM translation staff
+(Special thanks to Hugo though!)
+
+^ - Published by Fellow Traveller -
+Chris Wright
+Drew Taylor
+Stephen Heller
+Lex Suurland
+Fiona Murray
+James Kozanecki
+Marla Fitzsimmons
+
+</file>
+  
+  <Memory>
+    <Data>
+      <Block>damon.txt
+
+дэймон рис, известный как "тот, кто сунул все несмешные шутки в этот DLC", говорит:
+
+спасибо всем моим друзьям-творцам и писателям: - lucy, lauren, saf, bridget, zoe, livs, soha, jess, ash, em, kim, craig, shoe, sled. вы все герои, и я не знаю, как бы жил без вас!
+
+спасибо, мэтт, что взял меня на этот проект и что был такой легкой мишенью для язвительных и остроумных шуток, которые он больше нигде не увидит, если только не сделает огромную ошибку и снова не наймет меня в будущем. И Я НЕ ИЗВИНЯЮСЬ
+
+спасибо вам, что купили и играете в это клевое, серьезное, глупое, юмористичное, ~драматичное~ дополнение. благодаря таким людям, как вы, я и мэтт можем осуществлять свои мечты и создавать потрясные видеоигры - и это классно.
+
+и отдельное спасибо тому аккаунту twitter, который постит угарные твиты вперемешку со скриншотами из metal gear solid 3. чувак, ты супер</Block>
+    <Block>matt.txt
+
+Честно сказать, часть вины за плохие шутки лежит и на мне.
+
+Спасибо Дэймону за неоценимую помощь в работе над сценарием вместе со мной, а также всем перечисленным выше за поддержку и за то, что вы такие классные.
+Работа над таким продуктом - дело нелегкое, и вы все очень мне помогали.
+
+Спасибо
+    </Block>
+      <Block>54.192.133.33</Block>
+    </Data>
+  </Memory>
+  
+</Computer>

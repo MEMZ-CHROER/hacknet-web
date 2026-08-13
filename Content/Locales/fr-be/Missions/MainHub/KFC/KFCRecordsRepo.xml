@@ -1,0 +1,81 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="kfcRecordsRepo" ip="202.7.177.65" name="Dépôt de dossiers CFC " security="2" type="4">
+  <ports>80,25</ports>
+  <trace time="125"/>
+  <proxy time="0"/>
+  <firewall level="2" solution="CHICKEN"/>
+  <positionNear target="kfcMainframe" position="1" total="3"/>
+  <link target="kfcMainframe"/>
+
+  <file path="home/Ordering" name="Seasoning_Order_Guidelines.docx">
+DIRECTIVES SUR LA SÉGRÉGATION DES COMMANDES
+    
+Les commandes de mélanges d'épices doivent être sondées en deux entreprises séparées, produisant chacune la moitié du mélange (actuellement, l'établissement du Nouveau-Mexique associe les épices de 1 à 6 et l'établissement du Kentucky mélange les 5 autres épices). 
+Les deux livraisons séparées doivent être mélangées au siège des distributions CFC et placées dans des sachets non marqués pour la distribution dans les franchises. 
+
+Les sachets de mélange d'épices préparés sont envoyés aux franchises, où ils sont combinés à de la farine, des œufs en poudre, du lait en poudre et un mélange de panure salée en magasin pour créer le produit final. 
+Cela permet de s'assurer qu'aucune copie numérique de la recette secrète ne soit jamais distribuée.
+  </file>
+
+  <file path="home/Ordering" name="Seasoning_Order_Placement_Template_Pt1.docx">
+    COMMANDE TYPE LIVRAISONS DE MARCHANDISES SÈCHES CFC
+
+Établissement : 228 Esperenza Rd. Nouveau-Mexique
+Produit : Mélange d'herbes et épices
+Volume unitaire : 1kg
+Nombre total d'unités : [UNIT_VOLUME_NEEDED]
+
+Guide de production produit : 
+
+   Formule -- 
+   16 % | Paprika.
+    09 % | Sauge râpée.
+    24 % | Poudre d'ail.
+    28 % | Piment de la Jamaïque.
+    07 % | Origan.
+    16 % | Marjolaine. 
+
+  </file>
+  
+    <file path="home/Ordering" name="Seasoning_Order_Placement_Template_Pt2.docx">
+    COMMANDE TYPE LIVRAISONS DE MARCHANDISES SÈCHES CFC
+
+Établissement : 11 Mt Eden Rd. Shelbyville, Kentucky
+Produit : Mélange d'épices
+Volume unitaire : 1kg
+Nombre total d'unités : [UNIT_VOLUME_NEEDED]
+
+Guide de production produit : 
+
+   Formule --
+    14 % | Basilic.
+    04 % | Chili en poudre.
+    42 % | Glutamate monosodique.
+    24 % | Sel d'oignon.
+    16 % | Poivron rouge(Kampot).
+
+  </file>
+
+  <file path="home/Ordering" name="Order_Requirement_Certs.docx">
+Certification pour les responsables des aliments - PDF anglais / PDF espagnol Formulaire 
+
+DBPR RH 5030-080, feuille de découpe utilisée par les inspecteurs de la division hôtels et restaurants pour rappeler aux titulaires les exigences des responsables des aliments. (7 mai 2010) 
+Guide de ressources pour la récupération alimentaire - PDF 
+
+ Guide du département de l'agriculture et service consommateurs de Floride aux organisations ayant indiqué leur intérêt à participer au programme de récupération alimentaire, pour mettre à disposition les surplus ou excédents de conserves et aliments non périssables aux nécessiteux ou collecter et transporter des aliments à de telles organisations.
+Rapport d'inspection des services alimentaires - PDF
+
+ Formulaire DBPR RH 5022-015, exemple de formulaire utilisé par la division hôtels et restaurants pour enregistrer les inspections dans les établissements publiques de services alimentaires. (Révisé le 1er octobre 2009)
+  </file>
+  
+  <file path="home/Media" name="Logo.png">#BINARY#</file>
+  <file path="home/Media" name="Logo_Small.png">#BINARY#</file>
+  <file path="home/Media" name="MediaKit_2011.zip">#BINARY##BINARY#</file>
+  <file path="home/Media" name="Guide.txt">
+    Chez Kernel's Food Corner, nous avons une mission : servir le meilleur poulet au monde. 
+    Nous n'utilisons donc que les meilleurs ingrédients, un poulet entier livré frais. 
+    Il est ensuite fraîchement préparé, pané à la main avec nos propres recettes secrètes et fraîchement cuit pour vous par nos cuisiniers certifiés dans chacun de nos restaurants. 
+    Facile ? Non. Mais il suffit d'une bouchée pour se rappeler pourquoi tous ces efforts supplémentaires valent la peine. 
+    Car les produits frais sont meilleurs. Visitez votre CFC local et goûtez par vous-même.
+  </file>
+</Computer>

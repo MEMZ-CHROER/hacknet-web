@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dFollowsMission">
+  <goals>
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="ds4_expo" destPath="home/talks/files"/>
+
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="dHGrave_Phone" destPath="eos/STORAGE"/>
+    <goal type="fileupload" target="dhsDrop" file="patch_checksum.chk" path="home/grave" destTarget="dHGrave_Phone" destPath="eos/STORAGE"/>
+    
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="ds4_grave" destPath="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Expo Grave">あるセキュリティー研究者がSQLデータベースの脆弱性に関するプレゼンを予定しています。この情報が拡散してしまうと、私たちの計画に悪影響があるでしょう。妨害工作を行います。</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>Expo Grave</subject>
+    <body>
+あるセキュリティー研究者がSQLデータベースの脆弱性に関するプレゼンを予定しています。この情報が拡散してしまうと、私たちの計画に悪影響があるでしょう。妨害工作を行います。
+----
+サイバーセキュリティー界の進歩を邪魔したいわけではありませんが、この特定の進歩を少しだけ遅らせることが私たちの利益になります。
+
+Howard GraveはSQLの脆弱性へのカウンターとなる、自分で開発したパッチを公開しようとしています。そのパッチを私たちが作った効果の薄いバージョンにすり替えるのが今回の作戦です。
+
+エキスポのサーバーに侵入し、概念実証デモ用のファイルを、こちらで用意したダミーアーカイブに置換してください。アーカイブの隣にチェックサムがある場合は、両方が対象です。偽バージョンはドロップサーバーに上げておきました。
+
+エキスポのメインサーバーだけでなく、彼の個人用デバイスにもコピーがあるはずです。それらをすべてすり替えてください。
+
+-Kaguya</body>
+    <attachments>
+      <link comp="dhsDrop" />
+      <link comp="ds4_grave" />
+      <link comp="ds4_expo" />
+      <note title="Mission Guidelines">p_SQL_399.gzとチェックサムファイルをドロップサーバーからダウンロード。
+expoサーバーとGraveの個人デバイスに侵入し、パッチ及びチェックサムファイルのすべてのコピーを偽物に置き換える。</note>
+    </attachments>
+  </email>
+</mission>

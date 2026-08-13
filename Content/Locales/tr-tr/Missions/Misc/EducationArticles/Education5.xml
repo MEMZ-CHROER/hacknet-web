@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="İzlence - Pasif">
+Gittikçe büyüyen ve tehlikeli bir hal alan bilgisayar güvenliği ve korsanlığına karşılık olarak ortaya çıkarılan yeni dijital güvenlik uygulaması, sunuculara karşı gerçekleştirilen her bir "düşmancıl" eylemin gerçekleştirildiği konumu izleyebilecek bazı yöntemleri içerecek.
+    
+Bu uygulama da kuşkusuz kusurlar barındırmakta. Bu yüzden genel anlamda bilinen iki ayrı izlence biçimi bulunmakta: Aktif ve Pasif.
+    
+Bu yazı Pasif İzlence'yi tanımlamaktadır.
+    
+1: Pasif İzlence
+-----------------
+Pasif izlence, üzerinde yürütüldüğü bilgisayara karşı saldırgan eylemleri tespit etmeye çalışan ve bu eylemlere karşı olarak izleme eylemi gerçekleştiren bilgisayar programıdır. Bu işlemin yöntemi programdan programa değişiklik gösterir (işlemin tamamlanması için gerekli süre de değişiklik gösterir).
+Teorik olarak pasif izlence, saldırgan sunucudan tam olarak ping'in vardığı anda kendiliğinden ortaya çıkan bir hata kullanılarak engellenebilir. Böylece geri dönüş yapma şansı ortadan kalkar ve sorun hiç yaşanmamış gibi algılanır.
+Bu işlem sistem düzeyli entegrasyon gerektirmektedir fakat bu özellik kullanılan işletim sistemlerinin bilinen özellikleri arasında yer almamaktadır. Bu yüzden saldırganların etkili izleme yöntemleri arasında yer almaktadır.
+    
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>HATA</subject>
+    <body>
+Bu postayı almanız beklenmedik bir hatanın oluştuğunu göstermektedir.
+Lütfen panikleyiniz.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,22 @@
+<ConditionalActions>
+
+  <!-- Coel needs to delete skylink and do something to d3f and kaguya here... -->
+
+  <OnConnect target="dhs" needsMissionComplete="false">
+    
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="1.2">Ahhhhhhhh</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="5.2">Estuvo cerca. Gran trabajo.</AddIRCMessage>
+    <RunFunction DelayHost="dhs" Delay="6.0" FunctionName="deActivateAircraftStatusOverlay" />
+    
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="10.2">Aún tenemos que asegurarnos de que no vuelvan a atacarnos.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="14.2">Borrar sus carpetas /bin y /sys será suficiente.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="18.2">Me encargaré de D3f4ult, tú ocúpate de Kaguya.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="20.0">!ATTACHMENT:link#%#Portal_Kaguya#%#54.183.231.31</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="25.2">Casi a salvo. Buena suerte.</AddIRCMessage>
+    
+    <LoadMission MissionName="DLC/Missions/Finale/Missions/Ending_Save_Mission.xml" />
+    <AddConditionalActions Filepath="DLC/ActionScripts/FinaleSaveActions2.xml" Delay="8.0" DelayHost="dhs"/>
+  
+  </OnConnect>
+
+</ConditionalActions>

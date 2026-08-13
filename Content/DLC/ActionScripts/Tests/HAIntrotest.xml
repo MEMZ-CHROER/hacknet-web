@@ -1,0 +1,11 @@
+<ConditionalActions>
+  
+  <OnAdminGained target="playerComp">
+    
+    <AddIRCMessage Author="Matt" TargetComp="dhs" Delay="4.0">@#PLAYERNAME# thanks for checking out the Alchemists servers. You have the full set of DLC intro tools already. Remember you can use the "exe" command at any time to see what programs you've got.</AddIRCMessage>
+    
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="10.2">This message delayed 12 seconds from when that happened.</AddIRCMessage>
+    
+  </OnAdminGained>
+  
+</ConditionalActions>

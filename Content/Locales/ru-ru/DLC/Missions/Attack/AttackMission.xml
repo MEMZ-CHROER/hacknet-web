@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dAttackMission_P">
+  <goals>
+    <goal type="fileupload" target="dAttackTarget" file="MemDumpGenerator.exe" path="bin" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="1">scanAndStartDLCVenganceHack</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Архивы Striker-а">
+Малоизвестный хакер Striker разработал отличный генератор дампов памяти. Мы хотим копию.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Тайник Striker-а</subject>
+    <body>
+Малоизвестный хакер Striker разработал отличный генератор дампов памяти. Мы хотим копию.
+----
+Система цели оснащена неплохой защитой, но это не та защита, которая может нас остановить. Эту работу нужно выполнить максимально чисто - если возможно, не надо ничего уничтожать и портить.
+Получи копию генератора дампов памяти и выгрузи их на центральный дроп-сервер.
+
+Удачи,
+-Kaguya</body>
+    <attachments>
+      <note title="Руководство по выполнению задания">
+Исследуй сервер Striker'а.
+Найди программу-генератор дампов памяти и скачай его.
+Выгрузи его на центральный дроп-сервер.
+      </note>
+      
+      <link comp="dAttackTarget" />
+      
+    </attachments>
+  </email>
+</mission>

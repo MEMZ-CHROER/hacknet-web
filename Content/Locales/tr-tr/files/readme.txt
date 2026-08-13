@@ -1,0 +1,7 @@
+Readme.txt
+
+Grocery Simulator 2011'i satın aldığınız için teşekkür ederiz.
+
+Grocery Simulator 2015'de beş farklı sınıftan seçip kontrol edeceğiniz Kişi, kahraman rolünü üstlenecektir. Oyuncular, kahramanlarının seviyesini yükseltip yeni nesneler elde etmek için vahşetin ortasına ve zindanlara dalıp canavarlarla savaşacaktır. Savaş sahneleri gerçek zamana dayalı olarak gerçekleşecek ve izometrik bakış açısından gösterilecektir. Oyuncuların aynı zamanda kendi kahramanlarını takip edip düşmanlarına saldıracak, bilgisayar tarafından kontrol edilen paralı asker veya uşak tutma fırsatı da olacaktır. Her sahnenin sonunda oyunucuyu bekleyen büyük bir düşman bulunmaktadır. Diablo II'de düşen nesneler, canavar özellikleri ve çoğu zindan yapıları rastgele oluşturulmaktadır.
+
+Daha önceki Doom oyunlarında olduğu gibi oyunun amacı on blok kullanıp, açık kısmı olmayan ve her bir bloğun yana kaydırılıp 90 derece döndürüleceği bir yatay çizgi oluşturmaktır. Fakat Doom 3'ün hikaye odaklı kısmında ise oyuncular dost canlısı olmayan, bilgi sağlayan, görev veren ve Güç Yıldızı kazandıran karakterlerle karşılaşacaktır. [7] Her bir galakside belli miktarda gezegen bulunur ve uzay oyuncular tarafından keşfedilir. [7] Oyunda yeni bir fizik motoru kullanılmış ve nadir bulunan bir özellik - Havalandırıcı Alan - eklenmiştir. Havalandırıcı Alan sayesinde oyuncular bir nesne misali havaya atılabilir ve hatta bazen Svenska Foldansringen'e (İsveç Halk Oyunları Topluluğu), kısaca "Folkdansringen", (İsveç'in en büyük amatör kültür organizasyonu) katılabilir.

@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="HasFlag" target="E_Whit:DEAD" />
+  </goals>
+  <missionStart val="9" suppress="true">changeSong</missionStart>
+  <missionEnd val="1">junebugComplete</missionEnd>
+  <nextMission>BitPath/BitAdv_Intro.xml</nextMission>
+  <branchMissions>
+    <branch>MainHub/PacemakerSet/PacemakerSet_Deny_Branch.xml</branch>
+  </branchMissions>
+  <posting title="ジューンバグプロジェクト" reqs="dechead, decypher,csecRankingS2Pass">
+実力ある外部の匿名エージェントの力を必要とする、非常に扱いの難しい依頼が入りました。この依頼を受ける際には、依頼人を助けるためとはいえ、倫理的に問題がある行動とそれに伴う重大な責任を引き受けることになります。
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>ジューンバグプロジェクト</subject>
+    <body>
+ハッカーへ。
+
+これは扱いに注意する必要がある特別な依頼です。先日CSECのもとに、安楽死に関する依頼が舞い込んできました。   
+当然、数名のメンバーに依頼して、私たちはこの依頼に関するデータを調査し（疑惑を回避するため、外部の集団からも手を借りました）しばらくして、全容がはっきりして
+きました。情報によれば、問題の人物の名前は「Elliot Whit」。彼は想像を絶する苦痛を抱えつつ入院しており、彼の希望に反して安楽死を認められていません。
+彼とその家族による安楽死実行の試みはことごとく失敗に終わってきましたが、CSECのメンバーがある方法を提案しました。彼の心臓に取り付けられたペースメーカーは
+リモートアクセス機能に対応しており、適切な権限さえあれば外部からアクセスできる可能性があります。彼とご家族は、これこそが望みをかなえる手段だと信じています。
+
+依頼の性質上、拒否したいと感じることがあってもそれは当然です。この依頼を引き受けたくない場合は「deny」と打ち込んで返信してくれれば、あなたをプロジェクト
+から外します。
+
+このプロジェクトに参加する場合であっても、この件では相当な分量の調査や試行錯誤が必要になることを理解しておいてください。私たちの知る限り、このような試みは
+未だかつて行われたことがありません。
+まずはターゲットの医療記録から調べることをお勧めします。機器に使われるチップ、またその製造元から突き止めるといいでしょう。
+      
+-CSEC 運営
+    </body>
+    <attachments>
+      <link comp="medical" />
+      <note title="プロジェクト詳細">
+ターゲット: Elliot Whit
+最終目的: 安楽死
+</note>
+    </attachments>
+  </email>
+</mission>

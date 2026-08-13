@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews04">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Loopt jouw data gevaar?">
+Populair sociaal netwerk FriendHole was het laaste slachtoffer van kwaadaardig hacken blijkbaar gedreven om alle sociale media in opsraak te brengen. De groeps identiteit en locatie zijn nog steeds een mysterie voor de Cyber Politie, maar hun bericht is duidelijk: 'Niks is Veilig'. FaceSpace's CEO probeerde vandaag
+om the nerveuze gebruikers gerusttestellen, door uitteleggen dat "FaceSpace's beveiliging waterdicht is" en dat de enigen met toegang tot gebruikersdata op FaceSpace zij zijn en diegene met wie ze het kiezen te delen en FaceSpaces 12000 betrouwbare reclame partners.
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Moet Gestopt Worden</subject>
+    <body>
+Vernietig de entropy Databank
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

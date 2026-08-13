@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="1299"/>
+  </goals>
+  <nextMission>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply.xml</nextMission>
+  <branchMissions>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply2.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply3.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply4_Penetrator.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply5.xml</branch>
+  </branchMissions>
+  <posting title="X-C Project">
+A bit of a strange request - someone exceptionally well funded's asked for some help in investigating a co-worker's tablet to see if it's being used for personal matters at work.
+
+A cursory poke around their system made it look like they were obsessed with aliens - might be a really dedicated roleplaying group, or group of conspiracy theorists?
+ </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>Internal investigations</subject>
+    <body>
+Hello Civilian,
+The X-C project has need of your assistance. While strictly a quiet and internal matter, it's something I'd personally like investigated, as I've held suspicions on it for some time. I believe one of the prominent research leads on our science team here may be being.. less productive than she could be.
+I'd like an outside operative to investigate her tablet and see if anything's out of place or not work related.
+
+Our servers use a centralized data storage system that mirrors files by an ID code. I'd like you to investigate the system and reply to me with the code to any file you think might be worth investigating.
+The files that we're after should have their ID marked at the top, like this: X-C_PROJECT:ID#11111111, where "11111111" is the ID we're after here.
+
+Attached is a direct link to the tablet in question.
+
+Good Luck,
+-C.O Bradford
+    </body>
+    <attachments>
+      <link comp="xcTablet" />
+    </attachments>
+  </email>
+</mission>

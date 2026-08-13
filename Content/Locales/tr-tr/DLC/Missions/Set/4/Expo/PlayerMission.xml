@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dFollowsMission">
+  <goals>
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="ds4_expo" destPath="home/talks/files"/>
+
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="dHGrave_Phone" destPath="eos/STORAGE"/>
+    <goal type="fileupload" target="dhsDrop" file="patch_checksum.chk" path="home/grave" destTarget="dHGrave_Phone" destPath="eos/STORAGE"/>
+    
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="ds4_grave" destPath="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Expo - Grave">Güvenlik konusunda araştırmalar yapan bir şahıs SQL veritabanının açıklarıyla ilgili konuşma yapacak. Elde ettiği bilgileri paylaşması süregelen hack'leme çabalarımıza darbe vurabilir. Bu şahsı yavaşlat.</posting>
+  <email>
+    <sender>Biblioteqhue</sender>
+    <subject>Expo - Grave</subject>
+    <body>
+Güvenlik konusunda araştırmalar yapan bir şahıs SQL veritabanının açıklarıyla ilgili konuşma yapacak. Elde ettiği bilgileri paylaşması süregelen hackleme çabalarımıza darbe vurabilir. Bu şahsı yavaşlat.
+----
+Siber güvenlik alanındaki gelişmelere karşı değiliz. Bu gelişmeleri yavaşlatmak için çabalarımız da olmadı değil tabiki.
+
+Howard Grave SQL'in zayıf noktalarıyla ilgili bir konuşma hazırladı. Konuşmasının merkezinde SQL'de ki açıkları kapatmak için bir geliştirdiği güncelleme yer alıyor. Bu güncellemeyi daha etkisiz olan kendi sürümümüz ile değiştirmek istiyoruz.
+
+Expo'nun sunucularına sız. Kavram kanıtlama dosyalarını kukla dosyalarımızla değiştir. Hem arşivleri hem de eğer varsa, yanlarında bulunan sağlama (checksum) dosyalarını değiştireceksin. Oluşturduğumuz sürümü Drop Server'da bulabilirsin.
+
+Hepsini değiştirdiğinden emin ol. Expo'nun ana sunucusunun haricinde kişisel bilgisayarında da kopyalar bulunuyordur.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="dhsDrop" />
+      <link comp="ds4_grave" />
+      <link comp="ds4_expo" />
+      <note title="Görev Kılavuzu">Drop Server'dan p_SQL_399.gz ve sağlama (checksum) dosyasını indir.
+Expo sunucusu ve Grave'in kişisel aygıtlarına erişerek güncelleme ve sağlama dosyalarını değiştir.</note>
+    </attachments>
+  </email>
+</mission>

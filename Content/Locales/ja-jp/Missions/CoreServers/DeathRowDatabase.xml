@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="deathRow" name="Death Row Records Database" ip="168.51.178.4" security="5" type="4">
+  <adminPass pass="texas" />
+  <admin type="fast" resetPassword="false"/>
+
+  <portsForCrack val="3" />
+  <ports>80, 21, 1433</ports>
+  <firewall solution="AHSUNYAG" />
+  <proxy time="-1" />
+  <trace time="160" />
+  
+  <file path="home/SECURE/ProtectedFolder/AdminOnly" name="InternalMemo.txt">
+  プログラムの責任者としてこのコンピュータにログインしようとしたんだが、またできなかった。いいか、こいつは私の管理下にあるんだぞ。原因はITスタッフによるパスワード変更だ。これで何回目だ！
+  
+  パスワードの変更があったのは1度や2度じゃない。そのたびにわが社と私の貴重な時間が無駄になってるんだぞ。たった今からパスワードは「texas」に変更し、今後変更しないように。パスワードの選語は私の独断だ。
+ このメモは今後の参照のため、安全な場所に保存しておく。法的証拠として使えるように日付もつけておいた。もし今後また誰かが私の時間を無駄にしたら、このメモを使用する。
+  
+  二度と同じことを繰り返すなよ！
+  
+  投稿日 04/02/2012
+  
+  Brad Collier
+  事務局長 - 記録部
+  刑事裁判課
+  </file>
+  
+  <deathRowDatabase />
+  
+</Computer>

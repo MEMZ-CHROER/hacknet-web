@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entRep01" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+UNKNOWN POSTING ERROR
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Re: Terug naar School</subject>
+    <body>
+Ok echt?
+
+*******.... Wow. Ik weet niet of die gast een idioot of genie is. Waarschijnlijk beide?
+Damn, Ik bedoel, Ik heb het zelf gechecked omdat het verficiatiescript zei dat het werkte en ik wilde *dat* testen!
+
+Huh. Dit wordt... een verwarrend antwoord naar de school admins. Ugh.
+
+Goed werk aan jou kant, ik stuur het nu door.
+-Admins
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kfcMainframe" name="CFC Corporate Mainframe" security="5" type="4">
+  <trace time="320" />
+  <proxy time="0" />
+  <firewall level="0" />
+  <dlink target="kfcWebServer" />
+  <dlink target="kfcRecordsRepo" />
+  <admin type="fast" resetPassword="true"/>
+  
+  <Tracker />
+  
+  <file path="home/training_files" name="New_Employee_Welcome_Email.txt">
+    %NAME%,
+
+    Welcome to the CFC Family!
+
+    Kernel's Food Corner offers great careers, exciting work and friendly teams, we hope you have a great time with us!
+    As a team member, you are entitled to your 12% off employee discount card, which you can find attached to this letter - enjoy it!
+
+    You'll receive your formal induction to the store and our practices on your first shift, but again, welcome to the family.
+
+    -Management
+  </file>
+
+  <file path="home/training_files" name="11_Secret_Herbs_And_Spices.txt">
+    Many new employees will question the secret formula, out of curiosity or because they wish to be more involved in the company. Unfortunately, the formula is far too important to give out to all workers (especially given recent employee retention rates), and as such it is protected.
+    The combination is sent to stores regularly in unmarked white plastic bags, and should be mixed with the frying batter as directed.
+
+    As for the management, even they cannot be given the formula. Infact, only 2 people in the world know the formula at any one time (and they are expressly forbidden from traveling in the same vehicle at the same time).
+
+    Rest assured that the formula for our perfect chicken is carefully produced and ordered, and is a very well kept secret.
+  </file>
+  <file path="home/training_files" name="Order_Records_Guide.txt">
+    Order records for each store should be logged locally, and archived updates should be sent annually to the central cfc records repository.
+    Sourcing from the orders is kept in the same repository, records are available only in case of emergency (usually to trace food poisoning issues) and are only issued personally, in printed format, upon request.
+
+    CFC Records Repository: 202.7.177.65
+
+  </file>
+  
+  <file path="home/Media" name="Logo.png">#BINARY#</file>
+  <file path="home/Media" name="Logo_Small.png">#BINARY#</file>
+  <file path="home/Media" name="MediaKit_2011.zip">#BINARY##BINARY#</file>
+  <file path="home/Media" name="Guide.txt">
+    At Kernel's Food Corner, we have one mission: serve the world's best tasting chicken.
+    So we start with only the best ingredients, whole chicken that's delivered fresh.
+    Then it's prepared fresh, hand-breaded in our own secret recipes and cooked fresh for you by certified CFC cooks in every one of our restaurants.
+    Easy? No. But it only takes one bite to remember why all that extra effort is worthwhile.
+    Because fresh tastes better. Stop by your local CFC and taste for yourself.
+  </file>
+
+</Computer>

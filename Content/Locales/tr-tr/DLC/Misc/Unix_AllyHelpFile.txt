@@ -1,0 +1,23 @@
+-- VM Bootloader Tuzak Tamir Kılavuzu --
+
+1: Eğer elinde Bootloader yoksa engelli dosyanın olduğu konumda terminale gir. Dosya bilgisayardan bilgisayara değişiklik gösterir ancak VM'in veri dosyalarını depoladığı konumun yakınlarındadır.
+
+2: Sorunlu dosyayı bulmak için klasörleri tek tek dolaş. "VMBootloaderTrap.dll" isimli dosyayı bulman gerekiyor.
+
+Bu arada, her dizin değiştirdiğinde "ls" komutunu kullanmanı öneririm. Bu şekilde nerede olduğunu görebilirsin.
+
+Geri dönmek için ".." yazmayı unutma.
+
+3: VMBootloaderTrap.dll dosyasını bulduğunda, dosyayı silmeden önce izin kilidini açman gerekecek.
+
+Çalıştır:
+chmod +rw Injections
+chmod +rw Injections/VMBootloaderTrap.dll
+
+
+4: Artık silebilirsin!
+
+
+5: VM'i yeniden başlat ve hayatına kaldığın yerden devam et.
+
+-Coel

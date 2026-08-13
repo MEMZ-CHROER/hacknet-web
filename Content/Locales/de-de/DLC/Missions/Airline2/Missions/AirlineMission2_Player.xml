@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="airline2_player">
+  <goals>
+    <goal type="fileupload" target="dHidden" file="sysinfo.bat" path="home" destTarget="dpa2_target" destPath="sys"/>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="#PLAYERNAME# - Abflug Fort.">
+Installiere eine Backdoor auf einem sicheren PacificAir-Linkserver.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Abflug Fort.</subject>
+    <!-- Translators notes - don't translate the folder name "sys"-->
+    <body>
+Installiere eine Backdoor auf einem sicheren PacificAir-Linkserver.
+----
+#PLAYERNAME#, deine Aufgabe besteht darin, uns einen Backup-Plan zu sichern, nur für den Fall, dass sich mein Verdacht über Coels Job bestätigt. Sollte alles gut gehen, brauchen wir ihn gar nicht.
+Ich habe eine Software sichergestellt, mit der wir die Übertragungssoftware von PacificAir kapern können. Ihre Hardware läuft auf einem Computer, den sie „Skylink“-Server nennen. Wenn du diese Hintertür auf den Server im ~/sys/ Ordner installierst, kann ich mich um den Rest kümmern.
+
+Ich habe die Hintertür, die du installieren sollst, auf dem Drop-Server hochgeladen. Sie heißt "sysinfo.bat". Lade sie herunter, finde einen Weg in das Skylink-System und lade sie in dessen sys-Ordner hoch. Ich kümmere mich um den Rest. Aktivieren ist unnötig.
+Vergiss nicht, deine Spuren zu verwischen. Das ist nicht der richtige Augenblick, um leichtsinnig zu werden.
+
+Viel Glück.
+</body>
+    <attachments>
+      <note title="Mission Guidelines">Lade die Datei "sysinfo.bat" vom home Ordner des Drop-Servers herunter und dann in das ~/sys/ Verzeichnis auf dem Pacific Air "Skylink"-Server hoch.</note>
+      
+      <link comp="dhsDrop" />
+      <link comp="dpa2_start" />
+      <link comp="dpa2_target" />
+      
+    </attachments>
+  </email>
+</mission>

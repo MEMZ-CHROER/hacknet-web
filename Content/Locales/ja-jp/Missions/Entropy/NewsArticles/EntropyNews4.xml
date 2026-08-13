@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews04">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="あなたのデータは大丈夫？">
+人気のSNSである「FriendHole」が最近、ある犯罪ハッカーグループの被害にあった。このハッカーグループは、あらゆるタイプのソーシャルメディア全てをターゲットにしている。
+サイバー警察によれば、このグループの正体や潜伏場所は未だ謎に包まれていると言う。しかし、彼らのメッセージは明らかだ。「安全な場所はない」。FaceSpaceのCEOは今日、不安に駆られるユーザーに向けて「FaceSpaceのセキュリティは完璧だ」と説明した。FaceSpaceにおいてユーザーの個人情報にアクセスできるのは、ユーザー本人が設定した共有を許可した人とFaceSpaceが信頼を置く12000社の広告パートナーのみである、とCEOは続けた。
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropyは止めなければいけない</subject>
+    <body>
+Entropyのデータベースを破壊しろ
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dCredits" name="Kaguya_Projects" security="4" type="empty" ip="54.183.231.34">
+
+  <portsForCrack val="1" />
+  <ports>21</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="-1" />
+  <portRemap>21=1886</portRemap>
+
+  <DLCCredits />
+
+  <file path="bin" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+  <file path="home" name="Prospectives.txt">
+Candidats potentiels
+--------------------------
+
+        
+Shimo7even
+        - Pays: Japon
+        - Leader des L0sExtraditables
+        
+d3f4ult
+        - Pays: Japon
+        - BotHerder, BushidoBot 
+        
+L0m1s
+        - Pays: INCONNU
+        - Dev de ramsonwares, Exploitation de faille Web
+        
+meepkittyfXck
+        - Pays: Canada/Suède
+        - Ingénieur Social, travaillait pour Disinfo 
+        
+Bit
+        - Pays: Australie
+        - Dev d'exploits/Programmes de cassage
+        
+Lorde_Bashtien
+        - Pays: Miami, USA
+        - Ingénieur Social
+        
+Sh1n0d4
+        - Pays: Japon (?)
+        - Dev pour BushidoBot
+        
+Coel
+        - Pays: Allemagne
+        - Experte pour CybserSec
+        
+MLT
+        - Pays: Royaume-Uni
+        - Chercheur d'exploits, thésauriseur pour 0day
+        
+RainShatter
+        - Country: UNKNOWN
+        - Disinfo, target analysis
+        
+#PLAYERNAME#
+        - Pays: #PLAYERLOCATION#
+        - Inconnu - Un technicien de 0day ?
+
+</file>
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/FloatVoidTheme.xml"/>
+  <customthemefile path="home/themes" name="FloatVoid_x-server.sys" themePath="DLC/Themes/FloatVoidTheme.xml"/>
+  <customthemefile path="home/themes" name="FloatVoidAlt_x-server.sys" themePath="DLC/Themes/FloatVoidThemeStandard.xml"/>
+  <customthemefile path="home/themes" name="Deep_x-server.sys" themePath="DLC/Themes/MiamiThemeLightBlue.xml"/>
+  
+  
+<file path="home" name="CreditsData.txt">
+%---  Projet Labyrinths  ---
+
+^Conception et développement
+Matt Trobbiani
+
+^Scénario
+Damon Reece (@demanrisu)
+Matt Trobbiani (@Orann)
+
+^Logos et diagrammes
+W O V A Studio
+www.wova.pl
+
+^Artistes Neopals
+Poppy de Raad (@pixecology)
+
+^Photos de claviers
+/u/koalapear
+
+^Arrière-plans
+Angelus-Hellion
+angelus-hellion.deviantart.com
+
+^Music
+Music Supervision: Fabian Malabello (The Otherworld Agency) 
+
+OGRE - Snidely Whiplash 
+Tonspender - Slow Motion
+Remi Gallego - Clear Text 
+Remi Gallego  - Payload (AKA Userspacelike)
+Remi Gallego  - Sabotage (AKA Altitude_Loss)
+Cinematrik - World Chase
+HOME - Resonance
+HOME - Dream Head
+
+^Bonus Writing Help
+Aisha Black
+Hanna Siek
+
+^Icons
+Pavel Kozlov
+Gregor Cresnar
+Lucy G
+
+^Community Managers
+Colamaeleon
+RainShatter
+Aidy
+
+^Testers
+Peer
+phonic88
+Colamaeleon
+Scratch
+SpadeGamer_Dallas
+Rain Shatter
+Chris Johnson
+p4l4d1n
+
+^Special Thanks
+Hanna Siek
+Jamie Williamson
+Bec Pelvay
+Chris Johnson
+Chelsea Easton
+Alex Mackay
+Lauren  Clinnick
+Morgan Jaffit
+Sasha Mattschoss
+Izzy Gramp
+Ben Trobbiani
+Stephen Trobbiani
+Laura Trobbiani
+Gabriele Trobbiani
+Pam Carroll
+
+^- Localization -
+
+First pass translation to F/S/R/G/K by Game Scribes
+Team lead by William Farrell
+
+^Community translation polish teams:
+
+^Russian
+Ray Volkov
+
+^French
+Julien Genaille
+
+^German
+Hanna Siek
+Jonas Schloemer
+
+^Korean
+Hong-gi Lee
+
+^Spanish
+Nahuel Peruzzo
+
+^Chinese
+CE Asia Translation team
+Chenxiao Liu + Team
+Shuangnan Liu
+Zhouyue Chen
+Sonkwo Team
+
+^Japanese
+PLAYISM translation staff
+(Special thanks to Hugo though!)
+
+^ - Published by Fellow Traveller -
+Chris Wright
+Drew Taylor
+Stephen Heller
+Lex Suurland
+Fiona Murray
+James Kozanecki
+Marla Fitzsimmons
+
+</file>
+  
+  <Memory>
+    <Data>
+      <Block>damon.txt
+
+damon reece, alias celui qui a mis toutes les blagues foireuses dans ce DLC, vous dit :
+
+Merci à mes amis créatifs et fans d'écriture - lucy, lauren, saf, bridget, zoe, livs, soha, jess, ash, em, kim, craig, shoe, sled. vous êtes tous des héros et je ne sais pas ce que je ferais sans vous !
+
+Merci à matt de m'avoir permis de participer au projet, et d'avoir été une cible si facile pour toute sorte humiliations dévastatrices et salasses, qu'on ne reverra jamais à moins qu'il ne fasse une énorme erreur et décide de me recruter à nouveau à l'avenir. JE NE REGRETTE RIEN
+
+Merci à vous d'avoir acheté et joué à cette extension cool, sérieuse, bêta, dingo, ~spectaculaire~. c'est grâce aux gens comme vous que les gens comme matt et moi pouvons vivre nos rêves et faire des jeux vidéo badass, ce qui est vraiment une bonne chose en plus d'un travail passionnant.
+
+Et aussi je fais une dédicace spéciale pour ce compte twitter qui mélange tweets hilarants et captures d'écran de metal gear solid 3. T'es le meilleur</Block>
+    <Block>matt.txt
+
+Pour être honnête, je me sens moi aussi responsable pour beaucoup des blagues foireuses.
+
+Merci Damon pour ton boulot incroyable dans l'écriture de ce jeu à mes côtés, et à tout le monde figurant dans les listes ci-dessus pour votre soutien et pour être des gens géniaux.
+Travailler sur ce genre de projets est vraiment stressant parfois - vous m'avez tous aidé à traverser beaucoup d'épreuves.
+
+Merci.
+    </Block>
+      <Block>54.192.133.33</Block>
+    </Data>
+  </Memory>
+  
+</Computer>

@@ -1,0 +1,7 @@
+Agent,
+Je hebt je huidig contract verlaten, en mag daarom deze niet meer voltooien.
+Je staat vrij om een nieuw contract te accepteren van onze databank.
+Je Huidig Rang is {0} van de {1}
+
+Bedankt,
+{2}

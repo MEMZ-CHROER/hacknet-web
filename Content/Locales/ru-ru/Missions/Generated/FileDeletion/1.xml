@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Intimidation Tactics">
+Коллеги важного клиента были неучтивы, нужно отправить сообщение.
+
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Тактика запугивания</subject>
+    <body>
+Привет агент, 
+
+наш коллега недавно перешел границы в самой непростительной манере. Мы хотим отправить им сообщение. 
+
+У нас есть информация, что они недавно завершили корпоративный бэкап и хранят все данные на отдельном сервере. Мы считаем, что удаление этого архива, станет для них достаточным сигналом, не нанося ущерба их текущей работе. 
+В приложении информация о цели. 
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

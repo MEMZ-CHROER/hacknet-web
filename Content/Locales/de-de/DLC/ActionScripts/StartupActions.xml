@@ -1,0 +1,17 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-8.0">Alter, die Spindown-Zeit beim TorrentStreamInjector ist verdammt nervig.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-70.0">Der Port ist schon nach ein paar Sekunden genügend gesättigt, aber das Ding lässt sich ewig Zeit. Da juckt es mich in den Fingern, das Ganze zu dekompilieren. Wette aber, dass da drin das reine Chaos herrscht.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-60.0">Ist aber nicht wirklich ein Problem, oder?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-50.0">???</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-40.5">Es kostet Zeit und ist außerdem nervig. Wie ist das kein Problem?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-30">Sobald er seinen Zweck erfüllt hat, einfach per ps -> kill beenden. Wo ist das Problem?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-25">...</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-20">Daran habe ich echt nicht gedacht. Vergiss einfach, was ich gesagt hab.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-10">Haha</AddIRCMessage>
+    
+  </OnConnect>
+  
+</ConditionalActions>

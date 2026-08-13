@@ -1,0 +1,30 @@
+notes
+------------------------------------------
+#Speech
+Dus wat is er met het Notes programma? Waarom deze totale rommel?
+Waarom kost de string "test note", zeg, 100mb ram? Hoe is dat überhaupt mogelijk?
+------------------------------------------
+>Waarom deze totale rommel?
+Zucht. Echt? Je snapt het niet?
+------------------------------------------
+>Notes
+>Rommel
+Oh jongens daar gaan we, iemand haal de eend er bij.
+------------------------------------------
+#Duck
+>iemand haal de eend er bij.
+ 
+>insunieerd dat ik hier al niet was
+------------------------------------------
+#Academic
+Ok, ik haat het lepel voeden zoals iederen maar dit moet stoppen. Notes is een extreem goed ontworpen software en je snapt duidelijk het doel van het programma niet.
+
+UITERAARD kost het niet zo veel ram om een string op te slaan, het gebruikt alleen de RAM display om de note altijd op het scherm te houden door precies genoeg ruimte te vullen met rommel data.
+Het is een hack, tuurlijk, maar het betekent dat het een gewoon notitie programma is dat output naar alle os met een ram monitor - betekent dat het programma geen speciale UI nodig heeft.
+Wat betekent dat het altijd bruikbaar is, als je iets op wil schrijven en te lui bent om een godverdomme pen te pakken.
+
+
+
+
+
+------------------------------------------

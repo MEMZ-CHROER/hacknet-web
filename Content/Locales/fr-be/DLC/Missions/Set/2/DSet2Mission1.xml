@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ds2m1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Déchiffrer et configurer le craqueur SSL">Reconfigurer le casseur SSL obtenu afin que l'équipe puisse l'utiliser. Le développer en privilégiant la flexibilité et la modularité, idéalement avec des instructions complètes.
+  </posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

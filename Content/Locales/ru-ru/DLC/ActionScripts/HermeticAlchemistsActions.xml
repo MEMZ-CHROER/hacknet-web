@@ -1,0 +1,22 @@
+<ConditionalActions>
+  
+  <OnAdminGained target="dhaComp2">
+    
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="23.0">@channel Я нашел зашифрованный файл на "Solve" который может заинтересовать вас.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="32.2">Я расшифровал его - в нем указан пароль для Rebis - "clarity". Правда он почему-то не подходит для аккаунта админа?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="50.2">Спасибо за информацию @D3f4ult</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="60.2">Кстати, у тебя eOS сканнер стоит?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="66.0">Да, он у меня есть... Зачем спрашиваешь?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="72.2">Увидишь :P</AddIRCMessage>
+
+  </OnAdminGained>
+
+  <OnConnect target="dhaAdminPhone" needsMissionComplete="false">
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="17.0">@channel - кто-нибудь помнит стандартный пароль админа для eOS?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="24">По умолчанию "alpine".</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="27.0">Спасибо.</AddIRCMessage>
+    
+  </OnConnect>
+  
+</ConditionalActions>

@@ -1,0 +1,58 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="nortronInternalServices" name="Servidor de servicios internos de Nortron" security="2">
+  <ports>22,21</ports>
+  <trace time="60"/>
+  <firewall level="1"/>
+  <link target="nortronMail"/>
+  <link target="nortronMainframe"/>
+  <positionNear target="nortronMainframe" position="1" total="3"/>
+  <!-- J. Abrams -->
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat">#BINARY#</file>
+  <file path="staff_folders/J.Abrams" name="REMINDER.txt">
+    NOTA:
+    detalles del nuevo email 
+   Usuario = j.abrams
+    Contraseña = bootyking420 
+
+   ¿por qué tenemos que estar cambiando esto cada año?
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy).doc">
+TAREA: Escribir informe 
+http://en.wikipedia.org/wiki/Antivirus
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy)(Copy).doc">
+El software antivirus puede intentar buscar rootkits; 
+un rootkit es un tipo de malware que está diseñado para hacerse con el 
+control a nivel administrador de un sistema informático sin ser detectado. Los rootkits pueden cambiar
+ la forma en que funciona el sistema operativo y en algunos casos puede interferir con el 
+programa antivirus y dejarlo inoperativo. Los rootkits son también difíciles de eliminar, 
+en algunos casos requieren una reinstalación completa del sistema. 
+
+Fuente: http://en.wikipedia.org/wiki/Antivirus
+  </file>
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat">#BINARY#</file>
+
+  <!-- P. Evans -->
+  <file path="staff_folders/P.Evans" name="SecuDoc.bat">#BINARY#</file>
+
+  <!-- L.L. Coolay -->
+  <file path="staff_folders/L.L.Cooljay" name="SecuDoc.bat">#BINARY#</file>
+
+  <!-- T.Stark -->
+  <file path="staff_folders/T.Stark" name="SecuDoc.bat">#BINARY#</file>
+  <file path="staff_folders/T.Stark" name="Harrasment_Evidence.txt">
+    
+La siguiente es una copia de un email recibido de un compañero:
+    
+| T-BONE, Tony, tío, ¿qué pasa?
+| ¿Sigue en pie lo de comer juntos hoy? Me apetece pollo.  
+| Igual sandía también. Ya veremos.
+| Ya me dices.
+| 
+| -Guay JJJJJJJJJJJJ
+
+NO ME LLAMO TONY, YA ESTÁ BIEN. 
+THOMAS STARK ES UN NOMBRE PERFECTAMENTE VÁLIDO.
+
+  </file>
+</Computer>

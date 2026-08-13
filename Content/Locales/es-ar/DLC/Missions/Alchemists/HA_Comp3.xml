@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dhaComp3" name="HA_Rebis" security="4" ip="66.96.149.16" type="4" icon="Alchemist">
+  
+  <proxy time="-1" />
+  <trace time="180" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dhaComp2" position="160" total="360"/>
+  
+  <firewall level="20" solution="clarity" additionalTime="6.2"/>
+
+  <!-- This server should contain "revelations" - the architect designed this one to be the end of the line. -->
+
+  <file path="home" name="behindthecurtain.txt">El ciclo del cambio
+
+1. Concentración activa (Fuego)
+2. Expansión activa (Aire)
+3. Contracción pasiva (Agua)
+4. Expansión pasiva (Tierra)
+
+Antes se creía que, de alguna manera, los metales tenían vida. Se creía que cada metal pasaba por un proceso lento de crecimiento evolucionario hacia la perfección, algo que casa con las teorías contemporáneas de la "muerte térmica".
+
+La forma de metal más primitiva (el principio de todas las cosas) es el plomo. Si se le deja, el plomo puede evolucionar a mejor: hojalata, hierro, hasta llegar a un estado de pura perfección: el oro. Se trata de un viaje a través de lo mundano y de lo astrológico: un viaje desde Saturno a Júpiter, Marte, Venus, Mercurio y la Luna, hasta llegar al Sol. El Sol es la perfección. Todos llegaremos a ser habitantes de las estrellas.
+
+Los alquimistas solo se dedicaban acelerar este proceso. Los alquimistas son las mentes que juegan con lo simple y lo complejo del universo. Los que luchan por alcanzar la perfección, aunque parezca que el resto de la raza humana intenta evitarlo a conciencia.
+</file>
+
+  <file path="sys" name="eos_sync.log">SYNC_LOG: Iniciado reinicio de fábrica
+Razón: Reinicio automático por detección de jailbreak
+Código del problema: JA6629B_43</file>
+  
+  <file path="home" name="rebis.txt">el final es el principio es el final es el principio es plomo a hojalata a hierro a cobre a mercurio a plata a oro al principio al final al principio al final al principio a la suma perfecta de la vida y la perfección supina al principio
+
+no es magia negra, solo la verdad.</file>
+
+  <file path="home" name="nameofgod.txt">yod
+he
+vau
+HE
+
++o
+o+
+++
+oo
+
+uno
+dos
+tres
+cuatro
+
+punto
+raya
+plano
+sólido
+
+arcanum I: la piedra filosofal
+arcanum II: SOLVE
+arcanum III: COAGULA
+arcanum iv: ilusiones de manifestación
+arcanum v: cambio
+</file>
+  
+  
+  <eosDevice name="ePhone 4S de Nate" id="dhaAdminPhone" icon="ePhone2">
+    <note>Casa:
+66.175.58.9
+
+Trabajo:
+66.96.149.16
+</note>
+    <note>
+Calcinación:
+reducción de los cuerpos a su forma primigenia sin destruir su esencia.
+Cuando uno descubre su yo interior, como ocurre en la meditación, lo que se hace es reducir la conciencia física y ser más consciente de las sutiles energías que son la base de nuestra existencia.
+</note>
+<note>
+Fijación:
+fijar lo volátil es un proceso regular que empieza con la Negrura, pasa por la Blancura, hasta llegar a la Rojez, donde la fijación alcanza su máximo esplendor. 
+</note>
+<note>
+Proyección:
+Los filósofos herméticos llamaban a su proyección polvo, un polvo que era el resultado de su arte y que proyectaban en pequeñas cantidades a los metales imperfectos que fusionaban para así transmutarlos en oro o plata, según su grado de perfección. Hay que tener en cuenta que durante la proyección, el metal en el que se proyecta el polvo no se transmuta del todo en plata u oro si el polvo que se mezcla no estaba bien purificado.
+</note>
+    <mail username="AlchemistNate@jmail.com" pass="manifestation" />
+  </eosDevice>
+
+  <LogoDaemon Name="REBIS" ShowsTitle="false" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/Alchemists3" />
+
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/RiptideTheme.xml"/>
+</Computer>

@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jscottHome" name="Joseph Scott's Battlestation" security="3" icon="laptop">
+
+  <encryptedFile path="home/work" name="Decypher.dec" ip="101.0.89.154" header="DECYPHER - DO NOT SHARE" extension=".exe">#DECYPHER_PROGRAM#</encryptedFile>
+  <file path="home/work" name="DEC_Header_Analysasdsadsafds.txt">
+  Bu iş çığrından çıkmaya başladı. Önce özel aracımız olmadan şifrelerimiz çözülebilir hale geldi, şimdi de bu mu yani?
+  Başlıkların okunurluğu *hala* büyük bir sorun. Şifreleme kaynak kodunun IP'si orada ki bu da sayenizde insana büyük güvenlik endişesi duyduruyor. 
+  Bunun hata ayıklama oturumlarını ve istemci ayarlamalarını ne kadar kolaylaştırdığı ise umurumda değil.
+  
+  Sorunlarımız olduğunu gösteren kanıtlar var. Önce her şeyin aynı kalmasını sağlayacağım, sonra da bu işi kökünden çözeceğim.
+  Aynı anda iki sorun kovulmama sebep olabilir. O yüzden ortamın yatışmasını beklemeliyim.
+  
+  Ah be DECHead.exe... neden bu kadar sorunlusun.
+  Sanırım bunun sebebi genellikle dış kaynak kullanılması.
+  
+  Neden bunu txt dosyasına yazıyorum ki?
+  Ahhh ağrı kesiciler.
+  </file>
+  <file path="home/work" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  
+</Computer>

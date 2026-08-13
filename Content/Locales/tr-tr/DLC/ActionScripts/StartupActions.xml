@@ -1,0 +1,17 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-8.0">TorrentStreamInjector'ın yavaşlatma süresi çok sinir bozucu.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-70.0">Birkaç saniye geçince port doyuyor ama bu halde kalıyor işte. Yeniden derleyesim geliyor. Yeniden derlesem bu sefer de başka bir şey çıkar.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-60.0">Bu aslında bize sorun yaratmıyor.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-50.0">???</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-40.5">İşimi yavaşlatıyor. Canımı sıkıyor. Nasıl oluyorda sorun yaratmıyor?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-30">ps -> İşin hallollduğunda işleme kill atarsın. Olur biter. Sorun nedir?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-25">...</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-20">Aslında bunu hiç düşünmemiştim. Beni çok da takmayın yav.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-10">Haha</AddIRCMessage>
+    
+  </OnConnect>
+  
+</ConditionalActions>

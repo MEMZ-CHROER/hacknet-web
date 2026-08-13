@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="lelzSec4" activeCheck="true">
+  <goals>
+    <goal type="delay" time="3.50"/>
+  </goals>
+  <missionEnd>lelzSecVictory</missionEnd>
+  <nextMission IsSilent="true">lelzSec/CSEC_TransferMission.xml</nextMission>
+  
+  <email>
+    <sender>Polar Star</sender>
+    <subject>Zafer, Belki De Dönüm Noktası</subject>
+    <body>
+Tarafımızdan fark edildiniz. Yetenekleriniz ve göstermiş olduğunuz başarılar önemsiz değil.
+Daha iyi bir şirkette çalışmayı hak ediyorsunuz. Yakında sizinle iletişime geçeceğiz.
+      
+Devam edin.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,210 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPets_VC" name="Neopals_VersionControl" security="5" type="4" icon="DLCServer">
+
+  <adminPass pass="undc321b9y" />
+
+  <positionNear target="dPets_MF" position="150" total="360" extraDistance="0.01"/>
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/Neopals/Scorchum" title="DLC/Sprites/NeopalsLogo" overdrawLogo="false" buttonAlignment="left" />
+
+  <trace time="65" />
+  <portsForCrack val="3" />
+  <ports>21, 6881, 443, 9418</ports>
+  <portRemap>443=8080</portRemap>
+  <admin type="progress"/>
+
+  <proxy time="0.5" />
+  <firewall level="-1"/>
+
+  <admin type="progress" isSuper="true"/>
+
+  <file path="git/trunk" name="Neopals.php">[?php
+$f03f7000="\x62\x61\163\x65\x36\x34\x5f\144\x65\143\x6f\x64\145";@eval($f03f7000(
+"Ly9OcU5lWTlFcU1tRW5LcTZKSlNTZWVCa2p3Q0VRQWY2VTY1NDNLbFVxdkpwOHhTbEFOeGtNSHlWVGNw
+Slo4aG10M3MxdEZINHA5WG9HaitsQ3NCRzRnZ2VoMHN1VlpjQnljSVUyTmpURnZpSlRxV0ppaUlROEx2d
+kwwNWJFMEhjOExXQkxIOFBOQml2NnBhVE1OUTlzUm5YR3E5dGkvLzdrNEJ6emZ5RytVL3lTNFFxV1lMRz
+dBb0l2cGsya1VZaXhIS2J1M3hLTy9nRVgrQ3RFeVRFN3VtejVvclMwR2tBWHVZRkg0MTJyVkNpb3FWMXV
+xVWwwMjZJK21rU0I5Vi9TZ21oWGxXSTljTXJxMHBrMHhxMHlLcjd0M01DM01KQy95bUZhUXZsSnY0S05p
+RjZueHVTRUZPRHRiNlBmNmJWaUk2ejVpSTIvWk5hMWcybGluemVLZDRhTWVpUHdHTGU0ZkVOVTdwbmI1Y
+VBLZzRJb1dwU3pIM3BPNDNrbXdLRUVVMThwUWFxMk9odWY5Nmg3MnlvVXJKMEl3U0dyNFNYMFRmQzhtMl
+JnR29OcnNhdHRLUTIxT1JsZUJSc090eWtBYklxY1RJM25IRDFOTW5PS3FEdzJVVWxVK2xPeE1UNXc5RmR
+MRU56cTZMRitiNisvQXJzU0lQY2I5ZnNEZWtuNmd2QWRFeWY1NzBPOXQwazVJNm8wRzMrWFRwb2NwS3lQ
+NGZBdHZhN2k3MmhwQ0ZETUlSdFlSODE0SHRvZVZPYmtlOTl4QTk2QTRKOHR4WUNUM1k0YmdRT0N5eXAzS
+TdUdmhBV2lLOUYyZXB3Z1g0YWpYY0JKT1JJNjczSmtkVTd1b3hFbUNjaWQvWXpPRmJiM2F2YXA4M2VRN2
+dzZlgrYUk2YjVHT21DWUJkcWU3aldvOWlsVE1SUm1BL3pSMkM3M1dSMVZ6Uk5UcFdmQ1RJcDZQS2luUHV
+ThGTy9aUkpVeDBUQ05UZGtVeXhRSzVCSUNjQnIvaU9LdjhOOWVSRlNNZW01MC9CY3UyRmwrYzRkQ2FBY2
+5wYnF2ZVhvdTdPR2dIaVpxbHR2SmduRjJyRllmQjJXZ3RRWDFXSzdaSElFYjlCcmlwZ0dRamxwZmloYjZ
+BRTZLUDZBaWlKRUdzQjdmdDVCREVVdDZmSzFKUHZLMUc2VzFKM2lqb25xdjhCTkZHbTY0SW9WZ0ZRdkZM
+RXEyRHl3L2IrUklSTDZnQzVUSW14VmZ3eG1URnhxZmszdEpNdEttNGZUdnp1Z3V4TkFYZDV5SGVLMDY3M
+00rK01udEdCTXRGdWZRUzY0S1lGSjBZUUJDQTJIdWt2TGF1d1J6V0pnVUhrYVJDQ25YSlJjTEJnNTRPal
+FjdFV5OWhtOGhIN3ZId0hBd3VOMGV4TVR5eHRESlZyQzdPUzFBMVd6WFJ3Sm80cFVPNTZ0UElVYWJIQlo
+0WDFNUlBhOWd3cHlrcEhienVzcVVYYkRqK0NoNTlORjd5bUNlWEFhZFE4ZkVUbm1XUlRWTis3YUtWSEEv
+FVSUkdsSENrVU9uUklQSFVEcy8zMTVsbkQzNFkvak5HNk84b2pDbXFYL1BUakNtcXIvcUQvRnJOLzlyOF
+ZXLyttLzVhODluOS95T0RTeDBFVy9OcUMvYlVXLy9TTy80bFZhbEUrUmloQ201aThLOE8veTJwNi9DQy9
+Mcy84ay85cTRXOS9zTVdaNWUrQnlaOU01RUVmam1jUllBbGtDaVlHaytQZCtJZWhTOTlBWndTZWpXRWtu
+WnlqaWpjdHBUd0xnVDhMTkZtWW00eURVQlBwUmRvR1FLQVBQOXRJWVB3TnFISE1aNVFnUUx1TEJOd1hBR
+jROQTBlV1ZDTmNYOW5DSlNISDdPQjFMK1BxU1dsZ1l0MEdpQ0N2MmpKeHVYZlFGc1FXZE5OSUV3UTdERF
+A0ZHhQbE54UERoUlFDbC9hdTZRbU5iREdTMnNGSTlEa1RBK2ZtVVdHZXlTcnJmM3d4VnF5b2dMcTBQakJ
+KSzRScUM5OW03NElRelI2bVdsUFVnSExpb2xRTVZZUERMbHJMaS9ENThEMGFPTjQxeUVhTC83VmIxZkhX
+SzNSaWg5enJOMkJTdEFqWkRGWVdaZDdldDJJMzV1emhES3VLNE9wRllZbEIybU05NzhoaGZ1TW40Q2F1V
+mNuQmttVDhZM2JmdVJMQzZBRndud0FwZnhzaUxkZGJSNWdKb1hQMXY2eHBjL05wS21UUWRqbmx3bnFBeH
+JBZ2dWcURMdndIUHExUzVMbXlyaVVEcHRDZHY2d09TR2RSam54SXhQemhSOHdqRWs1OGw4b1VZQy9UUXR
+5VDdHeURRc294NzlyckZlTTJWYmRVZXBvWjg5b2k0N3ZNVDBUaDBEcGxGN1BiZXBGazBVd2Q2RXVVWDUz
+S1lMODYvckZHMGE2WUFkbk56QXhUZVZpaFJibkZBVXRzOVlucnB0K2FrNmJITjZVQ1J6M1dXbG1laGoyM
+kJvaHZ4cklacjZYU2tWQTJ6MStlcWtTNzR2RUFwVE1iNi9FWkF0NFNNb3Q1L01qdmU3aHNkcWttY29tYn
+ltVWVudFhOOXJ5czdKQXozbHBiUzBnRGsxcCtsMlZVY2l6T3c2R0hzcmdJOWQvY24wRks4MHZ1T2pieDJ
+PRTJTdWpBRFZGUEwwVHBTbEhxWDh3dHdETDJUcktMdXJ5QTdWY2hzM0pUK2pWQ3BmNXVYeWhkbHhES0ht
+SDRra2hsL2h5Nkw3SjdkNURTZ1FlVncxNkt6TlJiTUFKMFlyNDBWb0hWYWFoWU5ZakZKcmRuZVYxZEF2Q
+nlCUy9oa25RZkc3cnRvTjdzYjJYcC9hc0RoeHdabHJ6RnQrR1B3SllPV1c1TnZ4aUtuazVZNEUwejd6Q1
+VPU3hlbEhwRUZiSklab2pMbHRJdFIwdU1VSmFQUTVKQkE4Q2Q4NHhZUWh4Z2l2MHVaZGUyYllPUitEcjM
+2SGcvNzl6UXMxRUIvYzVQUTRkcEh2bnR5STMyTkp0OG9lcDBaNDJqVDlaMDdJdEkwb3cxeWxvek00TzFk
+lBDS0JFVnJjcXlad29FOVl3UmxVOVhQYXRrdUJIaWErVEFPK3JMRGdYalk3VndYMURVaUZ5V2FGR3FUcE
+QwL3JSQXMzRlZLdDRhdXI1ZVc3N3V4RGI2OTYyRTU2MDFZZVJaM1J4bnZwZWZBcTBqTVh4R090ZzJjWVB
+FK0MrSk5rcDJ0Q01qanB6S044VTRCbkc5NVdneCtyVlNKdmQzVlhudm1QczE2NzBMVDNTSEJrS1BSa3Jh
+djdWQW0rOU50TkloYXJIRm42NUNldUkzbitNR3JMcnZkcHZBalpFL3pndWhiQ0pyOVZwZmlMMVVGMm9aM
+FRSd1RQNkRJc2RwbEV6UHIzZEgvSUljNEVZa1FGRmplWUFYVzBYZWZxMkJZd3NEQ2hHZElIemtrcHRiQ1
+JYMmwrRHM3K08yUC9hNlRDMDVlc1dHZVBxa3ovS1hwVGl3cDlOL1lNRDNNOGRFYTIyL0M2a1MzdWRDUk1
+tRHd1OEZTRU9ZYnVuRGJRSEl2Q1dUbWlxRXJBVUxGVnFHU3loU0tnRHhHckZ4MCtBSWJoU0dlbTliOWtv
+RndNc05UWW5WL2Vpdk9EeGhabENVZ0JCY1lCcVRXaGF2ME0rckFJa0pwalA3cmpoWXZXd2pjVFZmVXlKQ
+WhLMGFEcXA0R3N3dy9pcjgwQkFkOXMxeUNXQWpJMG5JeEREVkJpbUZqWnVzMmQxb0sraWtEYXZXZjZZZm
+lsTDNIRWh0MzJycDlWaXVZa3phZ0NVOU1vbG0ybys2d0t2N2U0czZwL1J0RkN4NmhvSVBVQUg0MDZCSlc
+xMGVTc0lUSzd0YXpZeWpuc0toS2pJT0l6bUtMMTlZb2p4Szl0YzQxNDdrMStyUnluMldORkZ4ZHFaRlg2
+VFV6SkhCOFlrV3JZRTdxUFlWemxUQnhDVW5qWGNRb0V1dk5uMW5rb0o1SW83QWp2V3ZqR28wRnlzZzcxN
+FFXak1wOUVTZldvbVk2T3o5SVg5SDByUE5VUHBTS3c5V2Z6Ly8vNzdLLzhUIikpKSk7"));
+?]</file>
+  <file path="git/trunk" name="favicon.ico">#BINARY#</file>
+  <file path="git/trunk" name="Content.pak">#BINARY##BINARY#</file>
+  <file path="git/trunk" name="Developer_SetupGuide.txt">--Neopals Kurulum Kılavuzu v1--
+  
+Neopals geliştirme ekibine hoşgeldiniz! Kurulumu kolayca tamamlayabilir ve birkaç dakika içinde verimli çalışmanıza başlayabilirsiniz!
+
+YOK ÖYLE BİR ŞEY! CEHENNEME HOŞGELDİN...
+Ne? Cidden bu 10 milyon yıllık internet sitesinin temiz, bakılabilir bir veritabanına sahip olacağını mı sandın? kafa-karıştırıcı-200-sayfalı-php-dosyalı-internet-sitesi-sıkıntısı bölgesine hoşgeldin!
+Şu anda, tükenen programcıların yıllar boyunca hayatını mahvetmek, acı verici ve sınanamaz hale getirmek için vermiş olduğu emeğe bakıyorsun. Ne o? Yoksa gerçek veritabanına nasıl ulaşacağını mı öğrenmek istiyorsun? Tabi canım... aç dosyaları gitsin. Ben beklerim.
+Ya da beklemem ya. Çünkü sen onu anlayana kadar ölür giderim. Bu ses de ne? Burası yerine sanat kulübüne katılmadığına pişman mı oldun? Makul. Bazen bende masum karakterler tasarlamak ve insanların düşük kaliteli pornolar yükleyebilmek için terabaytlarını harcayışlarını izlemek istiyorum. 10/10.
+
+İşte aradığın kurulum kılavuzu:
+
+1. Adım: Dolu bir altıpatlar bul
+2. Adım: Bunun sorumlularının izini sür
+3. Adım: ???
+4. Adım: HALA BOZUK AMINA KOYAYIM
+
+Bir seferinde giriş yap butonunun rengini değiştirmiştim. Gel gör ki savaş sistemini bozdum. Sikeyim.
+
+Neyse, bu işini görör! Eğer aklına takılan bir şey olduysa; sana tavsiyem huzurlu bir şekilde ölmek için dua etmen.
+-Thomas
+  </file>
+  
+  <file path="git/trunk" name="Developer_SetupGuide_V2.txt">--Neopals Kurulum Kılavuzu v2--
+Yöneticilerimiz kurulum kılavuzunu "aşırı olumsuz" ve "ekip moralini olumsuz şekilde etkileyebilir" bulduğu için yeni bir sürüm geliştirilmesini istedi. Bu sürüm incelenerek yazıldı!
+
+1. Adım: Bilgisayarınıza PHP'yi kurun
+2. Adım: Git sistemi üzerinden yazılım kısmını seçin
+3. Adım: Müsait geliştiricilerden biriyle şifre çözümleme yöntemlerini görüşün. Kısa bir süre önce tüm kurumsal kodlarımızı bulut sisteminde tutma kararı almıştık. Bu aldığımız en aptalca karardı. Gel gör ki sonumuz bu metin oldu. Bir de "güvenlikten" bahsediyorduk, değil mi?
+4. Adım: Dosyaları çıkarmanız, düzeltmeleri yazmanız, tekrar birleştirmeniz, sonra da "Git Birleştirme Karmaşası" olarak adlandırdığımız eğlenceli işlemi gerçekleştirmeniz gerekiyor :) :) :) :)
+5. Adım: İsteğiniz gidene kadar veya destek ticket'ınız tükenene kadar işlemleri tekrar edin (lol)
+
+Kovulmak için çok değerliyim. Ben olmazsam kimse bu şeyle uğraşmaz. Ayrıca bunu da silmeyeceğim.
+-Thomas
+
+  </file>
+
+  <DatabaseDaemon Name="Neopals Version Control" DataType="GitCommitEntry" Permissions="admin" Foldername="git" Color="255,197,61">
+    <GitCommitEntry>
+      <EntryNumber>8613</EntryNumber>
+      <ChangedFiles>
+        <String>Neopals.php</String>
+      </ChangedFiles>
+      <Message>Her şeyi bozduğu için ikincil güncelleştirmeyi geri aldım</Message>
+      <UserName>T.Champer</UserName>
+      <SourceIP>192.168.1.1 (Localhost)</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8612</EntryNumber>
+      <ChangedFiles>
+        <String>Neopals.php</String>
+      </ChangedFiles>
+      <Message>İkincil Güncelleme</Message>
+      <UserName>T.Champer</UserName>
+      <SourceIP>192.168.1.1 (Localhost)</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8611</EntryNumber>
+      <ChangedFiles>
+        <String>Content.pak</String>
+      </ChangedFiles>
+      <Message>HARİCİ ÖNERME: Işıldayan kostümünün leğen kemiği çıkıntısı kırpıldı :(</Message>
+      <UserName>A.Wallin</UserName>
+      <SourceIP>54.192.234.65</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8610</EntryNumber>
+      <ChangedFiles>
+        <String>Content.pak</String>
+      </ChangedFiles>
+      <Message>HARİCİ ÖNERME: Işıldayan köstüm eklendi :D</Message>
+      <UserName>A.Wallin</UserName>
+      <SourceIP>54.192.234.65</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8609</EntryNumber>
+      <ChangedFiles>
+        <String>Neopals.php</String>
+      </ChangedFiles>
+      <Message>Mağazanın istikrarının sağlanması için Altın düşüş şansı ile oynandı</Message>
+      <UserName>T.Doehan</UserName>
+      <SourceIP>192.168.1.1 (Localhost)</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8608</EntryNumber>
+      <ChangedFiles>
+        <String>Developer_SetupGuide.txt</String>
+        <String>Developer_SetupGuide_V2.txt</String>
+      </ChangedFiles>
+      <Message>... 'düzenlenen' kurulum kılavuzu eklendi</Message>
+      <UserName>T.Champer</UserName>
+      <SourceIP>192.168.1.1 (Localhost)</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8607</EntryNumber>
+      <ChangedFiles>
+        <String>Developer_SetupGuide.txt</String>
+      </ChangedFiles>
+      <Message>HARİCİ ÖNERME: Yeni Kurulum Kılavuzu eklendi (SONUNDA)</Message>
+      <UserName>T.Champer</UserName>
+      <SourceIP>104.95.129.117</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8606</EntryNumber>
+      <ChangedFiles>
+        <String>Neopals.php</String>
+      </ChangedFiles>
+      <Message>HARİCİ ÖNERME: Yıldızlı fırça kullanımının oyuncuları batırması sorunu düzeltildi</Message>
+      <UserName>T.Doehan</UserName>
+      <SourceIP>98.129.229.204</SourceIP>
+    </GitCommitEntry>
+
+    <GitCommitEntry>
+      <EntryNumber>8605</EntryNumber>
+      <ChangedFiles>
+        <String>Neopals.php</String>
+        <String>Content.pak</String>
+        <String>Favicon.ico</String>
+      </ChangedFiles>
+      <Message>Eski ve bozuk VC Sisteminden YÜKLEME gerçekleşti</Message>
+      <UserName>T.Doehan</UserName>
+      <SourceIP>192.168.1.1 (Localhost)</SourceIP>
+    </GitCommitEntry>
+
+  </DatabaseDaemon>
+  
+
+</Computer>

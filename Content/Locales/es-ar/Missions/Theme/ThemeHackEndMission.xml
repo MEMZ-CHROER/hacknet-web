@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="themeHackEndMission">
+  <goals>
+    <goal type="FileDeletion" target="naixGateway" file="Macrosoft_Internal_Raid_Archive.rar" path="home"/>
+  </goals>
+  <nextMission IsSilent="true">Entropy/PostBranch/EntropyAdv01.xml</nextMission>
+  <branchMissions>
+    <branch>Theme/ThemeHackNaixRudeReply.xml</branch>
+    <branch>Theme/ThemeHackNaixBranch.xml</branch>
+    <branch>Theme/ThemeHackEndMissionFail.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Advertencia</subject>
+    <body>
+      Connect-Responder.exe ha detectado una conexión externa desde tu dirección IP a 173.194.35.163.
+      En este dispositivo, las conexiones externas están prohibidas. Si te has conectado por error, pide ayuda al administrador del sistema, sysadmin.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

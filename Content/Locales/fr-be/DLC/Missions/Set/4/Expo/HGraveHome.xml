@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="ds4_grave" name="Ordinateur personnel de Howard Grave" security="1" type="4" icon="DLCPC1">
+
+  <proxy time="0.2" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 6881, 443, 80, 25, 1443</ports>
+  <trace time="-1" />
+
+  <file path="home" name="p_SQL_399.gz">001101010110111#BINARY#</file>
+
+  <file path="home" name="Thank_You_For_Purchasing_File_.txt">Merci pour votre achat de File Backup Manager 2099. 
+Votre clé de licence a été envoyée à l'adresse e-mail que vous avez indiquée lors de votre achat.
+
+Le dossier par défaut de File Backup Manager 2099 est /home/fman_cfg/. </file>
+
+
+  <file path="home/fman_cfg/files-backup" name="setup_log.txt">ERREUR CRITIQUE : Échec des systèmes de sauvegarde de fichiers.
+L'erreur est la suivante :
+Exception non gérée de sécurité de fichier :
+Le dossier home/fman_cfg est inaccessible au niveau de sécurité actuel de ce programme.</file>
+    
+  
+  <file path="home" name="phone_reminder.txt">alpine n'est plus du tout au goût du jour. Aujourd'hui, on ne jure plus que par fma93dK
+N'oublie pas d'installer Seedia et d'obtenir tous les bons repos</file>
+  
+  <eosDevice name="Howard Grave's ePwned+-" id="dHGrave_Phone" icon="ePhone2" passOverride="fma93dK">
+    <note>TestNote
+Plus de texte</note>
+    
+    <file path="eos/STORAGE" name="p_SQL_399.gz">001101010110111#BINARY#</file>
+    <file path="eos/STORAGE" name="patch_checksum.chk">3F636BDC-946E-4021-B29C-1BD1511C5B40S</file>
+  </eosDevice>
+
+</Computer>

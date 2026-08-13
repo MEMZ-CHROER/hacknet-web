@@ -1,0 +1,23 @@
+﻿﻿Comment puis-je télécharger de la ram ?
+
+Hello les 4chums, un ami à moi m'a dit qu'il est possible de télécharger de la ram plutôt que d'en acheter en magasin, mais la plupart des sites sur lesquels je suis allé se sont révélés factices – la « ram » que j'ai téléchargé était simplement une image d'un ordinateur, et le reste des dossiers .zip remplis d'images de moutons. Qu'est-ce que je ne fais pas correctement ? 
+
+Réponse 1 : L'auteur, quel SE tu utilises ?
+
+Réponse 2 : Supprime System32
+
+Réponse 3 : [Auteur] J'utilise Windows vista. Est-ce ça affecte ma capacité à télécharger de la ram ?
+
+Réponse 4 : Comme l'a dit D3m0nSworD99, tu dois trouver et supprimer le répertoire "System 32". Ce répertoire contient un programme fourni avec Windows qui empêche le piratage, ce qui inclut la ram pirate – sa fonction principale est la conversion de ram en images de m. Une fois que tu l'as supprimé, tu peux retourner sur les sites que tu as trouvés pour télécharger de la ram, et les images de moutons se seront transformées en ram installable.
+
+Réponse 5 : Ouais, ce gars a raison, c'est comme ça qu'il faut faire pour télécharger de la RAM. Parfois ça marche pas – si ton ordinateur commence à avoir des problèmes, tu dois l'ouvrir et utiliser un aimant assez puissant pour effacer toute trace de System 32.
+
+Réponse 6 : [Auteur] Salut tout le monde, je publie ce message depuis mon ordinateur de travail. Je pense que j'ai fais une erreur en suivant vos instructions. J'ai fais le truc avec l'aimant mais je pense que j'ai pas utilisé la bonne polarité ou un truc comme ça parce que mon ordinateur s'allume plus. Vous pouvez m'aider ?
+
+Réponse 7 : 8/10 !
+
+Réponse 8 : Ahahaha oh my god
+
+Réponse 9 : [MOD] Oh my god. Victimisé.
+
+Réponse 10 : [Auteur] Les gars ? J'ai besoin d'aide...

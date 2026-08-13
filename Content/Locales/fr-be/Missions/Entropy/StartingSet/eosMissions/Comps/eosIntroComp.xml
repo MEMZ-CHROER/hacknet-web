@@ -1,0 +1,79 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="eosIntroComp" name="PowerBook Plus de Jason" security="2" icon="laptop">
+
+<file path="home/documents" name="Kelly.txt">
+[valley] besoin de quelque chose sur le chemin ? 
+[kittyhat22] et pourquoi tu t'embêtes à me demander ? 
+[valley] nan mais je pensais qu'on en avait fini avec tout ça ?
+ [kittyhat22] avec tout quoi ? 
+[valley] toutes ces disputes inutiles 
+[kittyhat22] t'es presque jamais à la maison, et quand t'y es tu me parles jamais
+ [valley] ben peut-être que tu devrais essayer de comprendre que je bosse tant que ça pour payer nos dettes et enfin partir d'ici 
+[valley] tu fais quoi de tes journées, toi ? 
+[kittyhat22] n'essaie pas de faire croire que c'est ma faute 
+[kittyhat22] tu sais que je cherche du boulot. Au moins j'essaie de comprendre ce qui se passe dans ta vie. Tu me demandes jamais comment je vais moi. 
+[valley] ouais, ouais... Je te vois à la maison.
+</file>
+  
+<file path="home/documents" name="lmao.txt">
+[dirtweed] Ça été le week-end ?
+ [willow] Super, jusqu'à ce qu'on me vire de la Laverie.
+ [dirtweed] PTDR 
+[dirtweed] On t'a viré de ce trou perdu ? T'as fait quoi ? 
+[willow] Ben... apparemment j'étais bien torché et les gardes m'ont capté alors que je tombais. 
+[dirtweed] MDR
+ [willow] Pendant qu'ils poussaient dehors je me suis mis à gueuler « J'SUIS JUSTE POMPETTE LES MECS ! » 
+[willow] ensuite, j'me suis mis à dégueuler sur l'un des gardes devant la trentaine de personnes qui faisait la queue dehors
+ [dirtweed] putain ! 
+[willow] Je vais me coucher. J'ai toujours la gueule de bois. Bonne nuit.
+</file>
+  
+<file path="home/documents" name="lmao.txt" EduSafe="false">
+[budzyyy] sava cop1 ?
+[heller] T'es où putain ? 
+[budzyyy] j'suis pas totalement sûr 
+[budzyyy] me suis réveillé torse nu dans un buisson
+ [heller] Ça fait des heures qu'on te cherche partout. 
+[heller] La dernière fois que je t'ai vu, tu pinguais sur E et tu pourchassais un camion de glace 
+[budzyyy] y'a un camion de glace dans cette ville ?
+ [heller] Non, mais t'en étais persuadé hier soir 
+[budzyyy] j'suis trop vieux pour ces conneries. 
+</file>
+  
+  <eosDevice name="Jason's ePhone 4S" id="eosIntroPhone">
+    <note>Pains au porc
+     
+ ---------------------- 
+ 1,5 cuillère à café de sucre en poudre  
+250 ml d'eau tiède  
+1,5 cuillère à café de levure  
+1 cuillère à café d'huile végétale 
+ 
+ 400 g de farine
+  ---------------------- 
+   
+Mettez l'eau dans un bol et dissolvez-y le sucre, ajoutez la levure, couvrez et attendez 10 minutes.
+    
+Ajoutez le reste, mélangez et pétrissez jusqu'à ce que la texture soit lisse, et couvrez avec un torchon pendant une heure.
+    
+Séparez en boulettes, ajouter de la farce si vous le souhaitez et faites cuire à la vapeur pendant 20 min.
+ 
+    </note>
+    <note>Tortillas
+
+ ---------------------- 
+2 tasses de farine, 
+1/2 cuillère à café de sel, 
+1 cuillère de levure, 
+1 cuillère à café de saindoux, 
+3/4 de tasse d'eau
+ ---------------------- 
+
+Mélangez les éléments secs et intégrez-y le saindoux. Ajoutez de l'eau pour faire une pâte. Pétrissez jusqu'à ce qu'elle soit lisse.
+
+ Étalez-la et cuisez-la à la poêle jusqu'à ce qu'elle soit dorée.</note>
+    <mail username="jjstacks@jmail.com" pass="tintin7"/>
+  </eosDevice>
+  
+  <account username="admin" password="tintin7"/>
+</Computer>

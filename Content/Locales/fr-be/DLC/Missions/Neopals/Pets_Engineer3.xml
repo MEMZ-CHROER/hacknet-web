@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dPets_Engineer3" name="Tiff Doehan_PersonalPowerbook" security="2" ip="98.129.229.204" icon="laptop" type="empty">
+
+  <ports>21, 80, 6881, 9418</ports>
+
+  <positionNear target="dPets_MF" position="5" total="360" extraDistance="0.05"/>
+
+  <file path="home" name="EventsTodo.txt">
+Fantômes effrayants
+Fées v2
+Bourg Comédie Musicale (mon dieu, non...)
+Avant-première Dark Souls (!!)
+Tanks (...)
+</file>
+  
+  <file path="home/productivity" name="Trello.txt">
+Tests de Trello. J'utilisais ça à l'origine pour travailler, histoire de voir comment l'organisation personnelle fonctionne, etc.
+-----
+
+Le système d'interface est génial, on peut créer une carte pour quelque chose d'important et y mettre plusieurs checklists pour suivre la progression d'un but à atteindre.
+Inconvénient - l'App pour gérer tout ça est vraiment moisie. Elle fonctionne, mais l'expérience de l'utilisateur requise niveau ajout des checklists est trop disproportionnée et le passage en revue de ce dont on a besoin s'avère pénible, lent et mal fichu.
+D'ailleurs, l'utiliser bêtement comme d'une liste de choses à faire ne marche pas super bien non plus - c'est dur d'avoir une vue d'ensemble de tout ce que j'ai écrit, et de ce qu'il me reste à faire.
+
+J'ai l'impression d'être submergé par le travail qu'il me reste, d'une façon abstraite... En regardant le problème de manière réaliste, il est évident que j'ai un problème d'organisation.
+Je sais que j'ai beaucoup de travail, et c'est normal de se sentir accablé lorsque les délais sont trop courts au vu du travail à abattre, mais je ne suis pas vraiment sûr de ce que j'ai à accomplir et pour quand, donc je ne sais pas m'organiser. Ces sentiments viennent sans doute de là.
+Donc, cette incapacité à sortir une liste de tâches distinctes à partir de ce panneau et ce projet compliqués est un véritable problème ici. Trello ne me va pas.
+
+Autre chose, il est impossible de marquer une carte comme « terminée » correctement. On trouve une colonne « complété », évidemment, mais ce n'est pas ce que je recherche. Ce système doit pouvoir bouger les tâches d'une colonne à l'autre, pas les enlever de la liste.
+Je dois jeter un œil à d'autres systèmes.
+</file>
+  
+  <file path="home/productivity" name="AnyDo.txt">
+AnyDo - testé pendant près d'une semaine
+---
+C'est un peu trop simpliste pour mes besoins. Trop léger.
+La synchronisation se passe bien, l'extension mail est une idée géniale (que je vais voler), mais son exécution est trop juste.
+Pourquoi n'a-t-il pas plus d'analyseurs pour les mails, en piochant dans les contenus et les sujets pour alimenter les checklists, par exemple ?
+Je suppose que c'est parce qu'il lui manque des notes sur les entrées individuelles.
+
+J'*aime* énormément l'idée de l'écran « préparer sa journée » qu'ils font avec les notifications, mais il n'y a pas de bouton pour ça !
+
+Les pop-ups incessants pour acheter la version complète sont énervants. De bonnes idées, mais quelques oublis et des décisions sur l'exécution le rendent frustrant et désagréable. Je passe.
+
+Mais je comprends bien son raisonnement : il est fait pour être super léger, chaleureux et pour un contenu personnel, pas pour de gros projets. C'est bien, mais ce n'est pas ce que je recherche.
+Beaucoup de bonnes idées qui pourraient être utilisées sur de plus gros systèmes, qui valent leur temps de test.
+</file>
+  
+  <file path="home/productivity" name="ePhoneAppsGeneral.txt">
+Plusieurs Apps orientées productivité sur eOS
+---
+J'étais sur le point de m'y coller en détail, mais tous partagent le même problème fondamental - J'ai besoin d'un système assez robuste pour traquer un certain nombre d'activités sur de gros projets, et je passe la plupart de mon temps sur l'ordinateur. Presque toutes ces Apps sont trop petites, et orientées pour les mobiles.
+Il me faut une interface d'ordinateur. J'ai vraiment l'impression que je vais devoir commencer à créer une appli moi-même.
+</file>
+  
+  <file path="home/productivity" name="Asana.txt">
+Asana
+---
+J'aurais vraiment dû en entendre parler avant. Ça n'aurait pas dû prendre aussi longtemps de chercher sur Google ce que je cherche. Bref, j'ai trouvé 2 résultats prometteurs : Asana et Taskworld. Taskworld affiche un prix rébarbatif et un système d'entrée avant même de s'être présenté, donc je vais faire le test avec Asana d'abord.
+N.B. : bon sang que c'est agaçant qu'il n'existe aucun système sur aucune de ces Apps permettant de transférer ses listes entre les applications. J'aurais aimé que les données de Trello puissent s'exporter vers Asana, comme fonctionnalité de base gratuite, afin de permettre de l'utiliser sans avoir à tout refaire, mais nooooon. Pfff.
+
+Bref, Asana se rapproche de ce que je cherche. Mais il est imparfait, et il semble être un peu *trop* lourd pour ce dont j'ai besoin, un peu trop dans un style d'entreprise (Taskworld en fait encore plus à ce niveau).
+Points positifs : Beaucoup d'élégance inspirée de l'interface de Trello, mais avec plus de listes, et tout est concentré sur les tâches à faire. On peut cocher les listes une fois terminées. Les listes peuvent être assignées et vues sous forme de tâche dans la checklist. C'est génial.
+Les listes ne peuvent avoir qu'une checklist interne (appelée sous-tâche), ce qui est embêtant. On dirait qu'ils ont fait une refonte d'un système à base de listes formant une interface d'affichage. Ce qui est déjà incroyable.
+
+Il n'existe aucun meilleur moyen pour organiser ses tâches quotidiennes, mais ce n'est pas si grave, car on peut rapidement revenir à la liste principale et marquer des éléments à faire pour le même jour, cela fonctionne plutôt bien.
+
+AUCUN PARAMÈTRES PAR DÉFAUT POUR DES TRUCS DU GENRE LES ASSIGNEMENTS! Arrrgh !
+À chaque nouvelle tâche, il vous faut l'assigner soi-même manuellement et les libeller soi-même aussi. Et ça, c'est *vraiment* ennuyant - vous voulez des réaliser des interactions aussi légères que possible avec le système tout en ayant un maximum de détails, donc ne pas pouvoir gérer ces paramètres pour les ajouts automatiques est une déconvenue.
+
+Je travaille actuellement sur un système où j'ai plusieurs panneaux pour les projets principaux, je fais une carte par étape et y assigne les sous-tâches (qu'il me faut assigner à nouveau, pfff). Je peux néanmoins planifier des échéances pour les groupes de travail, et les classer efficacement, c'est déjà ça.
+C'est presque ce que je veux, et j'y trouve en général des solutions à mes problèmes et d'autres manières de faire... c'est juste... C'est pénible de ne pas avoir tout un tas d'outils qui devraient être présents par évidence même - surtout pour gérer les paramètres de création de tâche.
+
+Et améliorer l'aspect du tableau avec des images et autres aspects cosmétiques rend les cartes trop grandes - ce serait génial que chaque carte ait ses propres options d'affichage afin d'améliorer le tableau dans son ensemble. Hmm.
+</file>
+  
+  <file path="home/productivity" name="My_System_Planning.txt">
+Notes pour planifier mon propre système de productivité.
+Idées d'autres systèmes que j'aime, choses qui, je pense, manquent à la plupart, etc.
+---
+Pour la mise en page, je prends le modèle de Trello. Les listes peuvent être cochées comme effectuées avant de les déplacer sur un panneau caché (mais révélable).
+Il y aura un panneau optionnel à gauche (mais disponible par défaut) nommé « focus », où l'on pourrait faire glisser des cartes pour ce que l'on désire faire ensuite.
+Les cartes contiendraient plusieurs sous-listes, dont elles afficheraient les objets sur l'écran (pliables - le système se souviendra de leur état en support multiplateformes). Possibilité d'examiner les cartes depuis le panneau (seulement pour les cases à cocher, les étiquettes ouvrent les cartes).
+Possible ajout de sprites sur les cartes avec options d'extension en vue principale.
+
+Étape focus - création d'une étape à accomplir (comme la sortie du produit) et des détails sur ses échéances, etc.
+Création de tâche, définition des étapes et possibilité d'assignation automatique en fonction de la priorité accordée au début. Définir à l'avance les grandes étapes à accomplir, créer une tâche individuelle devrait être facile et rapide.
+
+Vue détaillant les éléments mises en focus pour la journée, et montre les options pour les agrandir.
+</file>
+
+  <file path="home/productivity" name="My_System_PlanningView.txt">
+Un bouton pour afficher un écran du type « planifier ma journée » - il poserait des questions simples pour affiner la liste des choses à faire et encourager leur réalisation. Garder ces informations pour une analyse ultérieure et planifier son utilisation (à voir si les compétences sont sous ou surestimées, estimer les deadlines de projets, etc).
+Questions :
+
+"Combien de temps pour planifier cette tache ?"" -Rien du tout, 30 secondes, quelques minutes maximum
+"Avez-vous les ressources et le temps pour développer ce projet ce jour ?" Presque rien, pas grand chose, ressources modérés, beaucoup de fonds !
+Il faut définir les détails de l'affinage des questions - personne n'assigne automatiquement des tâches manquées la veille et des choses aléatoires (?) dans un événement en cours.
+Est-ce important de terminer le travail de la veille ? Oui/Non
+"Lequel de ces projets vous sentez-vous capable d'affronter aujourd'hui ?" (présente quelques options pour les tâches/cartes principales/sous-listes, à classer par priorité). Ceci est un boost temporaire et durera 20 heures.
+
+Si l'utilisateur sélectionne quelques minutes, montrer plus de détails sur l'étape à accomplir (pas le projet tout entier, juste l'étape - se concentrer ce qui l'attend).
+Utiliser ces infos pour créer une liste de choses à faire basée sur l'historique des données et ce qu'accomplit l'utilisateur dans une journée normale d'un point de vue énergétique, décrit plus haut.
+
+Montrer un message encourageant pour que l'utilisateur termine ses questions ! Il faut accaparer son attention !
+
+Une fois la liste des tâches quotidienne terminée, affichez-la. Si le joueur termine tout en une journée, il y aura un autre bouton disant : « je veux plus de tâches ! ». - ces tâches ne s'ajoutent pas à la liste des tâches non terminées si l'utilisateur ne les fait pas.
+Et avoir un message disant : « Termine donc la journée un peu plus tôt ! Tu as fait un super travail ! »
+</file>
+  
+  <file path="home/productivity" name="My_System_Dailies.txt">
+Système élaboré mais approchable de création de tâches récurrentes, journalières et autres à traiter une fois par semaine, etc.
+Système posant des questions sur ce que l'on veut et ensuite fait presque tout le travail. Ex. :
+
+Voulez-vous que l'on vous rappelle les dates d'anniversaire ? Choisissez des amis ! (Facebook ?) Ce modèle vous parait correct ?
+Prévoir des boutons comme "pas besoin de cadeaux, me le rappeler simplement le jour même".
+
+Les choses pour lesquelles on a besoin d'un système efficace :
+Acheter des cadeaux avant la date d'anniversaire
+Faire les courses de Noël
+Saint Valentin (RISQUÉ)
+Anniversaires
+
+
+Aussi, des événements récurrents tels que « Aller à la gym » - une fois coché, il réapparaîtra 2 jours plus tard, et affichera le retard s'il reste 2 jours ou plus après la date, etc.
+
+Ajouter ce genre de choses est difficile à expliquer, et les gens ont tendance à oublier le besoin d'en apprendre plus sur le système une fois avoir commencé à l'utiliser. On devrait ajouter cette option dans le tuto...
+</file>
+  
+  <file path="home/productivity" name="My_System_Tutorial.txt">
+Le premier démarrage est très important.
+Demander « Voulez-vous que l'on vous présente le système maintenant ? » -> C'est parti ! / Pas tout de suite
+Suite à ça, le programme ajoute une tâche dans le système (en tant que demande, bien sûr) avec un bouton spécial indiquant « Paramétrer mon système ». Et laisser ainsi les gens le faire à leur convenance.
+
+L'installation demandera à l'utilisateur d'ajouter d'autres tâches qui lui apprendront d'autres fonctionnalités plus tard. Il faut leur faire comprendre qu'ils n'ont pas besoin de tout apprendre tout de suite. Le système devrait aussi dire « À demain », ou quelque chose comme ça.
+Avoir une option leur permettant tout faire immédiatement si l'utilisateur le souhaite.
+Les tâches de la 2e journée aborderont des tâches récurrentes, ou quelque chose comme ça.
+
+Les tutoriaux devraient tous avoir l'option « Je n'ai pas le temps, faisons vite ».
+
+INCORPORER L'OPTION « IMPORTER DEPUIS UN SYSTÈME DIFFÉRENT » ! Guider l'utilisateur à travers l'installation complète.
+</file>
+  
+  <adminPass pass="ixidixie" />
+  <dlink target="dPets_VC" />
+
+  <eosDevice name="ePhone 7 de Tiff" id="dPets_Engineer3_Phone" icon="ePhone2">
+    <note>À faire
+Événements Tanks
+</note>
+    <note>Identifiants travail
+Authentification (admin) : mlk3fsdie321
+VC (admin) : undc321b9y
+</note>
+    <mail username="tdoehan@boatmail.com" pass="ixidixie" />
+  </eosDevice>
+  
+  
+  
+
+</Computer>

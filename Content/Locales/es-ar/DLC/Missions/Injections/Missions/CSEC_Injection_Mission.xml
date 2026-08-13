@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dCSEC_Injection">
+  <!-- NOTE: This mission requires copying the upload file listed below to the CSEC hub before being added to the CSEC mission list -->
+  <goals>
+    <!-- corrupt the archive containing this one... blanket with delete, to stop it being un-completable 
+    File deletion will still work if the file exist but has it's data changed -->
+    <goal type="filedeletion" target="dPsyArchives" file="2_q1.zip" path="home/archives"/>
+   
+    <!-- upload the false report -->
+    <goal type="fileupload" target="dHidden" file="PA_0022_Incident.dec" path="home" destTarget="dPsyInternal" destPath="projects/investigations"/>
+    
+  </goals>
+  <missionStart val="2" suppress="true">changeSongDLC</missionStart>
+  <missionEnd val="3">changeSong</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>>
+  <posting title="Trastocar la investigación de Psylance">
+Psylance Cyber Security ha culpado a una hacker inocente por un error de firmware reciente. Necesitamos corregir ese error en nombre de nuestro beneficiario anónimo.
+  </posting>
+  <email>
+    <sender>Servicios Hub CSEC</sender>
+    <subject>Silencio de Psylance</subject>
+    <body>Agente CSEC:
+    
+Una amiga del negocio de la seguridad informática ha sido acusada por algo que no cometió.
+Psylance Cyber Security ha realizado un informe sobre el tema que me gustaría reemplazar por uno que he escrito yo. He enviado mi informe a los admin de CSEC (nota del ADMIN: el informe encriptado está subido al servidor central: home/PA_0022_incident.dec) para su uso.
+He sido muy meticuloso con la estructura, así que no notarán el cambio. Hay que acceder a su servidor de servicios internos (enlazado), encontrar el informe con el mismo nombre, borrarlo y reemplazarlo por el que he subido a CSEC.
+
+Después tendrás que encargarte de la copia de seguridad. Entrar en el servidor de copias automatizado (enlazado también) y, si es posible, corromper los archivos en lugar de borrarlos. Hay que hacerlo en el más reciente (2_q2, si no me equivoco).
+Para corromperlo, bastará con remplazar contenido en binario por letras o algo así.
+
+Gracias por tu ayuda con el trabajo,
+-K
+    </body>
+    <attachments>
+      <link comp="dPsyArchives" />
+      <link comp="dPsyInternal" />
+
+      <note title="Resumen">Descargar PA_0022_Incident.dec del servidor de CSEC
+Acceder a los servicios internos de Psylance
+Borrar la copia del informe del incidente
+Subir la versión del informe de CSEC a la misma ruta
+Acceder al servidor de copias de seguridad
+Corromper el archivo backup_2q2.zip (o nombre similar)
+NO DEJAR RASTRO</note>
+      
+    </attachments>
+  </email>
+</mission>

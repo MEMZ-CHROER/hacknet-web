@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="lelzSec0">
+  <goals>
+    <goal type="FileChange" target="nortronWebServer" file="index.html" path="web" keyword="dicks"/>
+  </goals>
+  <missionStart val="10">changeSong</missionStart>
+  <nextMission>lelzSec/NortronBreakIn.xml</nextMission>
+  <branchMissions>
+    <branch>Theme/ThemeHackEndMission.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Naix</sender>
+    <subject>gg wp</subject>
+    <body>
+Ok, ok, ik snap het. Eerlijk waar. Stop met mijn shit rotzooien.
+
+Een beetje stom om die logs op je box te laten liggen, maar serieus, het leek echt alsof je niet wist wat je deed.
+Maar hey, dit kan des te beter zijn, het is niet dagelijks dat je iemand op het internet tegenkomt die geen complete idioot is.
+
+Ik heb een kleine test voor je - zou leuk moeten zijn. Er is een beveiligingsbedrijf dat serieus een grap is, Nortron. Ken je hen?
+Ja, eerlijk ik heb liever een virus dan hun "beveiliging" shit op mijn systemen. Het is totale rotzooi. Ze verdienen het meest aan mensen die geen idee hebben van wat ze doen.
+
+Ik was vanplan om met hun website te klooinen voor een langere tijd - eigenlijk het woord "dicks" er helemaal over. Dicks in de titel, op de header, het kan me niet eens schelen als je de hele website veranderd in een woord DICKS, echt.
+Als je zin hebt in wat Hacktivisme voor de lol, laat me zien wat je kan. Waarschijnlijk leuker dan waar je hier origineel voor kwam, toch?
+
+-Naix
+
+P.S: Je weet waarschijnlijk nog steeds niet wat echte beveiliging is, dus heb ik de baby's eerste hacking gids gelinkd. Veel Plezier!
+    </body>
+    <attachments>
+      <link comp="nortronWebServer" />
+      <link comp="netEduComp" />
+      <note title="Instructions">Vervang iets in de titel met "DICKS". Andere veranderingen zijn ook goed, zolang ze maar hilarisch zijn.</note>
+    </attachments>
+  </email>
+</mission>

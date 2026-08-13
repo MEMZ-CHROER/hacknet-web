@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dHidden" name="Bibliotheque Ghost Storage" security="10">
+
+  <!-- Programs and rewards -->
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+  <!-- Custom Theme Files -->
+  <customthemefile path="home" name="Floatvoid_x-server.sys" themePath="DLC/Themes/FloatVoidTheme.xml"/>
+  <customthemefile path="home" name="FloatvoidStandard_x-server.sys" themePath="DLC/Themes/FloatVoidThemeStandard.xml"/>
+  
+  <!-- Expo Mission -->
+  <file path="home" name="p_SQL_399.gz">#BINARY#</file>
+  <file path="home" name="patch_checksum.chk">16060154-F6FD-4876-82FD-8544E6BD6C21</file>
+
+  <!-- Memory Forensics Files -->
+  <file path="home" name="Memory_Forensics_Readme.txt">
+Accédez au dossier contenant la mémoire à analyser.
+Exécutez la commande :
+MemForensics [FILENAME]
+Vous pouvez utiliser la touche TAB pour terminer automatiquement les chemins et noms de fichier.
+Cela prendra un peu de temps pour traiter (répertorier) la mémoire, puis l'outil de scan sera alors à votre disposition.
+Chaque option manipulera la mémoire en tentant d'identifier les données essentielles.
+Il n'y a aucun coût, ni risque de traçabilité impliqués, comme les outils n'opéreront pas sur la mémoire, mais iront simplement la lire et l'imprimer sur le terminal.
+  </file>
+
+  <file path="home" name="sysinfo.bat">
+::Scénario  de batch pour porte dérobée à distance
+::Réf : La Batchographie, par Elias Bachaalany
+certutil -déchiffrage « %~1.tmp » « %~1]nul 2]A1
+-----DÉBUTER CERTIFICAT-----
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAsAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5v
+dCBiZSBydW4gaW4gRE9TIG1vZGUuDQ0KJAAAAAAAAABdXG3BGT0Dkhk9A5IZPQOS
+lyIQkh49A5LlHRGSGD0DklJpY2gZPQOSAAAAAAAAAABQRQAATAEBALL6QFcAAAAA
+AAAAAOAADwELAQUMAAIAAAAAAAAAAAAAEBAAAAAQAAAAIAAAAABAAAAQAAAAAgAA
+BAAAAAAAAAAEAAAAAAAAAAAgAAAAAgAAAAAAAAIAAAAAABAAABAAAAAAEAAAEAAA
+AAAAABAAAAAAAAAAAAAAAGwQAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC50ZXh0AAAA
+7gAAAAAQAAAAAgAAAAIAAAAAAAAAAAAAAAAAACAAAGAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADSEAAAAAAAALgQAAAAAAAA
+6zJEcm9wcGVkIGV4ZWN1dGFibGUATGV0J3MgZG8gbW9yZSBldmlsIHN0dWZmLCBu
+b3QhAGoAaBIQQABoJRBAAGoA6AcAAABqAOgGAAAA/yUIEEAA/yUAEEAAzMywEAAA
+AAAAAAAAAADGEAAACBAAAKgQAAAAAAAAAAAAAOAQAAAAEAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAADSEAAAAAAAALgQAAAAAAAAsQFNZXNzYWdlQm94QQB1c2VyMzIuZGxs
+AACbAEV4aXRQcm9jZXNzAGtlcm5lbDMyLmRsbAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAA==
+-----TERMINER CERTIFICAT-----
+  </file>
+
+  <!-- These are memory dump files! The player will be assigned 2 of these to investigate (either 1 + 2 or 3+4)
+        5+6 are visible to the player, but are auto-assigned to one of the NPC hackers. You can add
+        as many <Block> or <Command> items as you like.
+        These represent memory dumps from RAM, so it makes sense for some files etc to be scrambled or have chunks missing here.
+        If you want me to write any file scrambling code (I can add in "safe regions" that wont get scrambled too) let me know.-->
+  
+  <memoryDumpFile name="Kaguya_Dump_1.md" path="home">
+    <Memory>
+      <Data>
+      </Data>
+      <Commands>
+        <Command>^C
+iodependency-atlas:Outils iodependency$ fdsfdsfds
+-bash: fdsfsdfs: commande introuvable
+iodependency-atlas:~ boucle iodependency$ ipecho.net/simple ; écho
+88.29.144.6
+iodependency-atlas:Outils iodependency$ cd ..
+iodependency-atlas:Applications iodependency$ cd ~
+iodependency-atlas:~ iodepedency$ cat vidage_mémoire_dcryptd.app/Contents/MacOS/listen.ini</Command>
+      <Command>$ip=167.72.73.56
+$log_win=C:/Windows/SysWOW64/listefichier.txt
+$log_lnx=
+$log_osx=/Bibliothèque/Application\ Support/Apple/listefichier.plist
+#enlever pour version prod
+#utilisateur : listen
+#passe : 4TL4S</Command>
+        <Command>iodependency-atlas:~ iodependency$ ls
+Applications
+calembours pâtissiers.txt
+analyseur_vidage_décodé.app
+Bureau
+Téléchargements
+Bibliothèque
+Films
+Musique
+Images
+Public
+Évaluation du risque.pdf
+SSHCrack.exe
+Outils</Command>
+        <Command>
+iodependency-atlas:~ iodepedency$ ls
+Applications
+calembours pâtissiers.txt
+analyseur_vidage_décodé.app
+Bureau
+Téléchargements
+bonjour.txt
+Bibliothèque
+Films
+Musique
+Images
+Public
+Évaluation du risque.pdf
+SSHCrack.exe
+Outils</Command>
+        <Command>iodependency-atlas:~ iodepedency$ cat bonjour.txt
+Bonjour ! -SN
+iodependency-atlas:~ iodependency$ hlat -lq
+-bash: hlat: commande introuvable
+iodependency-atlas:~ iodependency$ sudo rm *; sudo halt -lq
+Mot de passe :
+Diffusion message de iodependency@iodependency-atlas
+(/dev/pts/1) à 11 h 28...
+    Le système va s'éteindre MAINTENANT !</Command>
+      </Commands>
+    
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_2.md" path="home">
+    <Memory>
+      <Data>
+        <Block>Notes sur Snackintosh, enquête en cours sur TemplarSecurityNet par @alidaxavier22
+        
+Vrai(s ?) nom(s ?) :
+Vita Prendergast - trouvé sur l'IP liée à son adresse mail
+Maia Burgess - nom relié à Vita, aucune archive disponible
+Hikari Krizan - idem (ce seraient des identités jetables ?)
+Rose Ishikawa - un de « ses amis » mentionnée par mon contact du darknet
+
+Profession :
+Importante dans le monde des hackers. Mais... pas très populaire ? Puissante.
+Empreintes un peu partout. Plus qu'elle ne s'en rend compte. La plupart datent d'il y a quelques années. Négligence ? Négligence intentionnelle ? Un fil d'Ariane pour ceux qui la recherchent ? (Bon sang, je suis le hacker Hansel, maintenant !)
+Pour autant que je sache, elle reste active. Elle conçoit des outils, peut-être ? Dans la *seule* discussion publique que j'ai trouvée, elle a abasourdi les participants en parlant de chaîne de compilation et de codage assembleur. Ça vaut le coup de continuer à fouiner.
+
+IP connues :
+143.78.36.213 - OBSOLÈTE - connectée sur un dropbox publique
+219.242.177.14 - OBSOLÈTE - connectée sur notre chat
+39.46.123.206 - OBSOLÈTE - son proxy ?
+185.160.171.69 - morte ? - son proxy derrière le premier proxy ? J'ai engagé quelqu'un pour percer le premier. J'ignore comment passer celui-là. Il me faut de nouveaux outils sur HackerForums.
+
+Détails du contact :
+J'en sais rien du tout. J'ai pu lui parler une fois, grâce à un contact en commun, mais elle ne semble pas intéressée par une reprise de contact. Elle me trouvera si elle souhaite me parler, enfin j'imagine.
+
+Plans en cours : 
+-continuer mes trucs
+-suivre quelqu'un d'autre j'sais pas
+-mourir
+</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_3.md" path="home">
+    <Memory>
+      <Data>
+        <Block>[@sbeezy] lol ouais j'ai pris mes jambes à mon cou
+[@sbeezy] ... c'était pas mon meilleur moment xD
+[@sbeezy] ça en est où l'opération éco-troc
+[@addili] Quoi
+[@annili] ????
+[@addili] Oh
+[@addili] Des acheteurs ?
+[@sbeezy] ouais
+[@annili] Je leur donne le mot de passe du canal sous peu.
+[@annili] Préviens-moi dès que tu es disponible.
+[@addili] T'es sûr qu'on devrait faire ça ?
+[@annili] Oui.
+[@annili] Trop tard pour faire marche arrière.
+[@sbeezy] on a bien couvert nos traces ?
+[@sbeezy] elle faisait un peu flipper quand elle nous a mis en garde
+[@sbeezy] de
+[@sbeezy] ne pas faire ce que l'on comptait faire
+[@addili] Ouais...
+[@addili] Moi et Annie devrions prendre la parole
+[@sbeezy] mouais
+[@sbeezy] j'me fais pas de tracas
+[@sbeezy] en même temps je risque rien
+[@sbeezy] envoie-les quand tu veux
+[@annili] Je leur envoie les accès maintenant.
+[@sbeezy] ok
+* blanner a rejoint #atohil, en mode(s) +v
+[+blanner] salut
+[@sbeezy] hé
+[@addili] Ravi de te voir
+* dramm a rejoint #atohil, en mode(s) +v
+[+dramm] yo yo yo
+[+dramm] bonjour ?
+[@addili] Salut dramm, donne-nous un instant, on prépare quelque chose :)
+[@annili] 2/3. Et notre troisième type ?
+[@sbeezy] ça va être un putain d'espion
+[+dramm] j'espère pas.
+[+blanner] Je serais vraiment déçu
+* intehan a rejoint #atohil, en mode(s) +v
+[+intehan] salut
+[@annili] T'es en retard.
+[+intehan] du calme mec
+[+intehan] g eu un contretemps
+[+intehan] ct tro pde la mrede lol
+[@addili] ...ouais.
+[@addili] Bref, nous en avons déjà parlé avec chacun d'entre vous
+[@addili] Pouvez-vous afficher vos chiffres de transactions ?
+[+intehan] ouaip no souci
+[+blanner] moi c'est to7meuX64Q
+[+dramm] a7hxZsULur pour moi
+[+intehan] zSp01aALFr
+[@annili] Donnez-nous un petit moment afin de vérifier les reçus.
+* blanner a quitté #atohil
+[@sbeezy] bordel
+* blanner a rejoint #atohil, en mode(s) +v
+[+blanner] désolé
+[+blanner] internet tient pas debout ici
+[@addili] Hmm
+[+intehan] g pa toute la journée...
+[@annili] Nous avons examiné le blockchain, les reçus ont été vérifiés.
+[@annili] Le serveur de stockage à distance est prêt.
+[@annili] addili, pourrais-tu copier les détails ?
+[@addili] Oups, une seconde
+[@addili] Adresse IP : 40.73.228.137
+[@addili] Utilisateur : atohil
+[@addili] Mot de passe : JHhTSDtxYv
+[@addili] Ce compte utilisateur ne dure que 24 heures, donc assurez-vous de récupérer votre achat avant qu'il n'arrive à échéance
+[+intehan] cool
+[+intehan] cool
+[+intehan] cool !
+[+dramm] merci !
+[+blanner] je l'ai
+[@addili] Excellent
+[@annili] Ceci constitue la fin de notre transaction. Nous avons hâte de retravailler avec vous.
+* annili a quitté #atohil
+* addili a quitté #atohil
+[+intehan] propre
+* intehan a quitté #atohil
+* blanner a quitté #atohil
+* blanner a rejoint #atohil, en mode(s) +v
+* dramm a quitté #atohil
+* blanner a quitté #atohil
+[@sbeezy] Bloqué. Bloqué. Aucun d'entre vous n'est libre de péché
+[@sbeezy] oups mauvaise fenêtre
+* sbeezy a quitté #atohil</Block>
+      </Data>
+      <Commands>
+      </Commands>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_4.md" path="home">
+    <Memory>
+      <Commands>
+        <Command>
+> profilmemoire.exe -gp alihotatohila
+Accès au profil...
+Nom : Lihota, Addi
+Âge : 22
+Profession : Ingénieur informatique, Netsec (Laboratoire d'innovation Schiss-Co)
+Description du profil : (vide)
+Pages aimées : Perturbateur, Émancipateur, C'est quoi le délire avec les memes de Drôle d'abeille, CFC : Colonel's Fried Chicken, Page des ePads cadeaux, (plus)
+Date d'inscription : 11 juillet 2010
+Dernière connexion : Il y a 3 heures (03:22 GMT+1)
+Dernière IP : 17.5.3.9
+Profils rattachés : 363
+Profils récemment regardés : Ani Lihota (frère), Devi Muhammad, Jaswinder Esan (partenaire), Sharma Lihota (mère), Simon Bestman (pas ami) (more)
+Récemment parlé à : Ani Lihota (frère), Sharma Lihota (mère)
+> déconnecter
+</Command>
+      </Commands>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_5.md" path="home">
+    <!-- Should be a secret here... -->
+    <Memory>
+      <Commands>
+        <Command>ping 208.73.49.146</Command>
+      </Commands>
+      <Data>
+        <Block>Phrase secrète : Sésame ouvre-toi.
+-: Retour : Je te l'ai répété 100 fois.
+Entendu.
+Opération Éco-troc.
+-: Vraiment ?
+Le but est de piquer le logiciel, le modifier pour que personne ne se rende compte qu'on le revend, et se faire des profits. Addi se charge de la rétro-ingénierie. Ani se charge de trouver des acheteurs. Simon blanchit l'argent. 
+-: ?
+Fais pas ta pute, Simon.
+-: Je suis doué pour trouver des acheteurs moi aussi.
+Oui, mais moins qu'Ani. Laisse-le s'en occuper.
+-: D'accord. Mais t'es « vraiment » sûr de pouvoir *le* faire ?
+100 % sûr. Mon matériel est prêt.
+Simon. Qu'en est-il de notre acquisition ?
+-: En cours. Je vous tiens au courant.
+Merci. Un souci quelconque ?
+-: Non, je suis convaincu que tout ira bien.
+Très convaincu ?
+-: Suffisamment convaincu.
+Continue comme ça. On se parle plus tard.
+-: Ne laisse pas Ani tout foutre en l'air.
+Compte sur moi.</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+  208.73.49.146
+  <memoryDumpFile name="Kaguya_Dump_6.md" path="home">
+    <Memory>
+      <Data>
+        <Block>Deux personnes embarquent dans un avion, main dans la main.
+L'une est épicière au cœur de pierre.
+L'autre est fleuriste amateur de chute libre.
+Après l'atterrissage, l'une d'entre elles part en emportant une mallette.
+Laquelle ?
+
+Que se passe-t-il si l'on lance un volcan sur un koala confus dans son arbre ?
+C'est un frigo.
+
+*imitation forcée de Jerry Seinfield* J'achète ça pour un ringgit malaisien !
+
+C'est l'histoire de trois corgis : un gros, l'autre impassible et le dernier au regard vitreux. Ils entrent dans un bar. Derrière le comptoir se trouve une jeune femme en smoking. Dans un recoin, un catcheur à la retraite lutte avec un chevalier portant un casque. Que se passe-t-il ensuite ?
+
+Une personne a une chaussure sur la tête. Il raconte des légendes d'antan. Il possède une créature mal lunée vivant dans une carapace. Qui est-il ?
+
+Il existe un faiseur de miracles dans toutes les contrées glacées. Cette personne est une aventurière. Cette personne porte une épée. Cette personne ne ment jamais.
+Qui est-elle ?
+
+- Extrait de « Blagues et énigmes par Markov Chain, volume III : On y est presque »
+</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+  
+  <!-- False report for Psylance CSEC Injected mission -->
+  <encryptedFile path="home" name="PA_0022_Incident.dec" ip="54.183.231.31" header="Rapport d'incident de Psylance v2">
+Cyber sécurité Psylance - division des enquêtes internes.
+---------------------------------------
+
+L'enquête sur le soudain incident matériel du vol Pacific Air PA_0022 est en cours, mais les rapports préliminaires font état d'un bug dans le firmware embarqué dans l'avion lui-même.
+Les serveurs Psylance demeurent sécurisés et ne montrent aucun écart dans la conduite attendue durant l'incident (de fait, cet incident laisse entrevoir une application future prometteuse sur les capacités de contrôle à distance du skylink et autres serveurs liés - avec une latente inférieure à celle prévue !).
+
+L'incident sur le firmware même semble concerner le fichier 747FlightOps.dll - lequel, sous des circonstances encore inconnues, peut cesser de répondre aux commandes du pilote et nécessite un redémarrage (ce qui s'est passé avec succès dans notre cas, comme vous pouvez le constater).
+Psylance recommande de mener l'enquête au niveau des fournisseurs de logiciels derrière ce module, et former tous les pilotes sur la procédure de redémarrage de firmware dans les rares cas où cela se produirait en vol.
+
+Comme toujours, la priorité de Psylance est la sécurité de vos données, de vos archives et votre sécurité physique. Nous continuerons à surveiller la situation afin de nous assurer que vos réseaux sont sûrs en ces heures fragiles.
+  </encryptedFile>
+  
+</Computer>

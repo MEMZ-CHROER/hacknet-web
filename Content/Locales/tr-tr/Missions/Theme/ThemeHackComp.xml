@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="themeHackComp" name="Proxy_Node-X22" security="1">
+  <dlink target="naixGateway" />
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="sys" name="x-server.sys">#GREEN_THEME#</file>
+  <file path="home" name="Get_Out.txt" >
+Harika.
+    
+Beklediğimden iyi çıktın! Şaşırdım valla.
+
+Keşke yazı yazarak iğneleme yapabilsem.
+
+Bu arada, hiçbir şeyi bok etme. Bu proxy'i seviyorum.
+  </file>
+  <file path="log" name="@11907_Connection_Routed_173.194.35.172_To_173.188.235.2">173.194.35.172 - Bağlantı Adresine 173.188.235.2 Yönlendirildi</file>
+  <file path="log" name="@28907_Connection_Routed_173.194.35.172_To_203.194.22.112">173.194.35.172 - Bağlantı Adresine 203.194.22.112 Yönlendirildi</file>
+  <file path="log" name="@52734_Connection_Routed_173.194.35.172_To_#PLAYER_IP#">173.194.35.172 - Bağlantı Adresine #PLAYER_IP# Yönlendirildi</file>
+</Computer>

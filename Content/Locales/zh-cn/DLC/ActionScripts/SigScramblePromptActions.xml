@@ -1,0 +1,14 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhsDrop" needsMissionComplete="false">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="105.0">哇</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="110.0">@channel , 你们有试过炼金师服务器中的SignalScramble吗？</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="114.0">这玩意太厉害了</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="130.0">没错。它非常强。你是从哪知道这个的？ @Kaguya ?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="140.5">商业机密.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="147.5">但很高兴你们喜欢。我想它对于我们以后的任务会非常有用。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="160.0">太棒了！</AddIRCMessage>
+  </OnConnect>
+  
+</ConditionalActions>

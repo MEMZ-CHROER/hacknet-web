@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entRep01" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="エラー">
+不明な投稿エラー
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Re: 学校へ行こう</subject>
+    <body>
+え、本当ですか？
+
+*******・・・ほんとだ。彼、天才なんだかただの馬鹿なんだか。ひょっとして両方ですかね？
+くそっ、ええとですね、スクリプト認証には問題なかったし、私も試してみたかったもんだから、"これ"、自分でしかチェックしてないんですよ！
+
+うーん、これは・・・学校管理部に書く返事がややこしくなりそうですね。ああもう・・・
+
+まあとにかく、今回の事はお疲れ様でした。
+-管理部
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

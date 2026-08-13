@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ds1m1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Анализ памяти (3/3)">
+    Проанализируй дампы памяти (5 - 6), чтобы найти ссылки на защищенный сервер.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

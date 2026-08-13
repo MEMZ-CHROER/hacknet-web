@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="airline2_player">
+  <goals>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="Coel - Exode du Nisei MK III">
+Extraction puis nettoyage.
+Tu connais les enjeux.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>blanc</subject>
+    <body>
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews02">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Entropyに対する疑惑の目">
+インターネット上で活動するグループ「Entropy」は、ネット世界の最新情報に関する信頼できる情報源として名高い。しかし、情報収集に利用してきたパブリックなアクセス端末を突然シャットダウンするなど、最近の彼らの行動には謎が多い。このような動きに対して、記者も企業も疑惑の念を抱かざるを得ない。
+
+情報を公開することで培ってきた信頼があるとはいえ、もしこの集団が違法なやり方で情報を収集しているとしたら、何かの対策は打たれるべきだろう。
+新たな情報が入り次第、続報は随時更新していく。
+
+記者 : Tom Wilkins
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropyは止めなければいけない</subject>
+    <body>
+Entropyのデータベースを破壊しろ
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

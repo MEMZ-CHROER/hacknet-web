@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="decSoftWeb" name="DEC Solutions Web Server" security="2">
+  <ports>80, 1433</ports>
+  <portsForCrack val="2" />
+  <firewall solution="ENCRYPT"/>
+  <addWebServer name="www.DEC-Solutions.com" url="Content/Web/Presets/DEC/DECMainPage.html" />
+  <proxy time="0" />
+
+  <positionNear target="decSoftMainframe" position="1" total="3" />
+  <dlink target="decSoftMainframe" />
+
+  <file path="home" name="README.txt">
+    haha bu dosyaya bakmanı sağladım
+  </file>
+  
+  <encryptedFile path="home" name="Staff_Memo.dec" ip="101.0.89.154" header="Staff memo" extension=".txt">
+Merhaba millet,
+
+Öncelikle yeni şifreleme paketimizi başarıyla piyasaya sürebildiğimiz için hepinizi tebrik etmek istiyorum. Büyük başarı elde ettik. Yeni pazarlama aracımızdan ötürü sizlerinde benim kadar heyecanlı olduğunuzu umuyorum.
+DEC Solutions dünya çapında geliştirilen yazılımlar arasında belirgin bir güç haline geldikçe bizlerde geliştiren şirket olarak basamakları adım adım çıkacak ve daha yüksek standartlara ulaşacağız.
+Bu yüzden şirketimiz içerisinde uygulanacak yeni kurallar koyacağım. Umarım bu iş akışı geliştirmelerinden memnun kalırsınız. 
+
+Yeni kurallar ben tamamlar tamamlamaz geçerli olacak. Bu da birkaç gün sürer. O zamana kadar eski düzeninizde takılın!
+
+Verimli günler dilerim.
+-David Leatrou, İdari Başkan
+  </encryptedFile>
+  
+  <encryptedFile path="home" name="New_Policies.dec" ip="101.0.89.154" header="Staff memo" extension=".txt">
+Merhaba millet,
+İşte birkaç gün önce bahsettiğim yeni kurallar. Dikkatlice okumanızı tavsiye ederim!
+   
+1) Hassas şirket verileri (kaynak kodları, gizli notlar vs.) üzerinde çalışılmadıkları zamanlarda şifrelenecek.
+Bunun içinde kendi yazılımımızdan iyisini düşünemiyorum! Sitemizi sizde gördünüz. Bunun yaptığımız işi ne kadar güvenli hale getireceğini anladığınızdan eminim.
+Şifrelemeye kendi dosyalarımdan başladım bile. Hatta çok önemli olan dosyaları İKİ DEFA şifreledim. Bu resmen 2 prezervatif kullanmak gibi bir şey. Birisi yırtılırsa, bir tane daha olacak.
+
+2) Dosyaları şifrelerken genellikle şifre girmemelisiniz. Ancak eğer önemli bir dosya ise, şirket kullanıcı adınızı şifre olarak girin.
+Mesela dosyaları ben şifreleyecek olsam şifreleri "dleatrou" olurdu!
+
+3) Şifreleme paketinin sürümleri sürekli olarak çevrimdışı tutulacaktır. Dijital güvenlik çağında dikkatinizin dağıldığı anlar olabilir sonuçta!
+
+Şifrelenmemiş son şirket notunuzun tadını çıkarın!
+-David Leatrou, İdari Başkan
+  </encryptedFile>
+  <encryptedFile path="home" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+</Computer>

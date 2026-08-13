@@ -1,0 +1,179 @@
+﻿﻿
+<#
+¡A partir de ahora estás en riesgo!
+#>
+Aprende cuanto antes. Comienza la serie tutorial presionando más abajo el botón Continuar.
+
+%&%&%&%
+Conéctate a un ordenador tecleando "connect [IP]" en el terminal, o haciendo clic en un nodo del mapa de red. 
+<#
+Conéctate ahora a tu propio ordenador
+#>
+en el mapa haciendo clic en el círculo verde.
+
+%&%&%&%
+Buen trabajo.
+ 
+Lo primero que hay que hacer en cualquier sistema es analizarlo en busca de nodos adyacentes. Esto mostrará más ordenadores en tu mapa de los que puedas usar.
+
+<#
+Scan este ordenador ahora
+#>
+
+presionando el botón Scan la red en el módulo de visualización.
+
+%&%&%&%
+Esto debería ser todo lo que necesitas por ahora de tu propio servidor.
+<#
+Disconnect de tu equipo
+#>
+
+
+%&%&%&%
+Es hora de que te conectes a un ordenador externo.
+ 
+Te advertimos que intentar vulnerar la seguridad del ordenador de otra persona es ilegal según la ley estadounidense (U.S.C. Act 1030-18).
+ 
+Actúa bajo tu propia responsabilidad y
+<#
+connect a un ordenador externo
+#>
+haciendo clic en un nodo azul en el mapa de red.
+
+
+%&%&%&%
+Este módulo de la terminal del equipo virtual se ha activado. Esta será tu interfaz principal para navegar e interactuar con los nodos.
+ 
+Para ejecutar un comando hay que teclearlo y presionar Intro.
+ 
+El sistema de seguridad y los puertos abiertos de un ordenador pueden analizarse usando el 
+<#
+probe
+#>
+explorar (o "nmap"). analizar el ordenador al que estás conectado.
+
+
+%&%&%&%
+Aquí puedes ver los puertos activos, la seguridad activada y el número de puertos abiertos que necesitas para crackear este equipo usando PortHack.
+Este equipo no tiene seguridad activada y no necesitas puertos abiertos para crackearla. Si estás dispuesto, es posible crackear este ordenador usando el programa "PortHack".
+ 
+<#
+Ejecutar el programa PortHack
+#>
+|Para ejecutar tu propio programa en el equipo al que estás conectado, teclea el nombre del programa como el comando del terminal.
+El nombre de un programa nunca necesitará llevar ".exe al final"
+ 
+
+%&%&%&%
+Enhorabuena, has tomado el control de un sistema externo y ya eres su 
+administrador. Puedes hacer con él lo que te apetezca, aunque deberías empezar por
+<#
+analizar los nodos locales
+#>
+para localizar ordenadores adicionales. Hazlo usando el comando "Scan".
+
+
+%&%&%&%
+No hay resultados: no hay problema.
+
+Después deberías examinar el sistema de archivos.
+<#
+Registra los archivos y carpetas en el directorio actual
+#>
+ 
+
+|Registra los archivos y carpetas usando el comando "ls".
+ 
+El módulo de visualización se ha reactivado para usarlo con este.
+
+
+%&%&%&%
+<#
+Navegar por la carpeta "bin"
+#>
+(de binarios) para buscar ejecutables útiles usando el comando 
+ 
+"cd [NOMBRE DE LA CARPETA]"
+
+(Atención al espacio)
+
+
+%&%&%&%
+Para ver los contenidos de la carpeta actual en la que estás, usa el comando "ls".
+ 
+
+Aquí no hay programas, pero deberías
+<#
+mirar en config.txt
+#>
+por si contiene información útil.
+ 
+|Lee los contenidos de cualquier archivo usando el comando cat. Es decir:
+ 
+"cat config.txt"
+   
+AVISO: Leer información sin permiso es ilegal y está castigado con pena de cárcel si se detecta en virtud de la legislación internacional.
+ 
+
+
+%&%&%&%
+¡Totalmente inservible!
+  
+Ahora, a limpiar las huellas antes de marcharte. 
+<#
+Sube una carpeta en el árbol de directorios
+#>
+usando "cd .."
+ 
+Aviso: el carácter ".." indica "Volver" o "Subir".
+ 
+
+
+%&%&%&%
+<#
+Mover a la carpeta log.
+#>
+"cd [NOMBRE DE LA CARPETA]"
+
+
+%&%&%&%
+<#
+Borrar todos los archivos de este directorio
+#>
+ 
+Puedes borrar un archivo usando el comando 
+<#
+rm [NOMBRE DEL ARCHIVO]
+#>
+aunque puedes borrar TODOS los archivos del directorio actual con el comando 
+ 
+<#
+rm *
+#>
+ 
+Aviso: el carácter "*" indica "Todos".
+
+
+%&%&%&%
+Excelente trabajo.
+ 
+<#
+Disconnect de este ordenador
+#>
+ 
+Puedes hacerlo usando el comando "dc" o "disconnect"
+
+
+%&%&%&%
+Enhorabuena, has completado la parte guiada de este tutorial.
+ 
+<#
+Para finalizarlo, tienes que localizar el Process ID de este programa tutorial y acabar con él.
+#>
+ 
+El comando "help" te dará una lista completa de comandos en cualquier momento.  
+ 
+|El comando "ps" hará una lista de PID de cada proceso que se esté ejecutando.
+
+
+%&%&%&%

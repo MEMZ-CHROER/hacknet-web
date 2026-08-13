@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dKeebsMission">
+  <goals>
+    <goal type="filedeletion" target="dKeebs" file="purchase_blacklist.txt" path="home/records"/>
+
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="The Keyboard Life">Ein Mitglied der Community für mechanische Tastaturen möchte aus der Verkaufs-Blacklist gestrichen werden.</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>The Keyboard Life</subject>
+    <body>
+Ein Mitglied der Community für mechanische Tastaturen möchte aus der Verkaufs-Blacklist gestrichen werden.
+----
+
+User „ChucklingKumquat“, der scheinbar für „vollkommen vernünftige“ Kommentare in seiner Community auf die schwarze Liste gesetzt wurde, will von der Blacklist auf dem Server eines bestimmten Tastaturkomponenten-Designers gestrichen werden.
+Er meint, dass die Liste vermutlich ziemlich umfangreich sei, wenn man bedenkt, wie schnell er selbst gesperrt wurde, und schlägt daher vor, lediglich seinen eigenen Namen von der Liste zu streichen, um die Community sauber zu halten.
+
+Im Austausch habe ich einen Deal ausgehandelt, der uns bei einem schwer aufzuspürenden Projekt einen Vorteil verschaffen sollte.
+
+Viel Glück,
+
+-Kaguya</body>
+    <attachments>
+      <link comp="dKeebs" />
+      <note title="Mission Guidelines">Lösche User „ChucklingKumquat“ aus der Blacklist des ClickLab-Servers.</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="ds3_mail" name="MagmaMailbox" security="1" type="4" icon="DLCSERVER" ip="26.26.62.62">
+
+  <proxy time="-1" />
+  <portsForCrack val="7" />
+  <ports>22, 21, 6881, 443, 80, 25, 104</ports>
+  <trace time="250" />
+
+  <customthemefile path="home" name="caution_standard_x-server.sys" themePath="DLC/Themes/CautionThemeStandard.xml"/>
+
+  <account username="cornch1p" password="SaltyChippies22" type="2" />
+  
+  <mailServer name="MagmaMailbox" color="224,52,0">
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(sin asunto)">La dirección del servidor IP de tu casa es 177.3.200.6, ¿verdad? Pon mi VPS en la lista de permisos, por favor. La IP es 7.201.4.178.
+Tienes que tener más cuidado. He oído que haces mucho ruido y podrías llamar la atención.</email>
+    
+    <email recipient="cornch1p" sender="temp_ACCC0" subject="(sin asunto)">Necesito que empieces a hablar con los hackers de la Costa Oeste y descubras si Kaguya se ha hecho un nombre por allí.
+No la armes. Te cuidado.</email>
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(sin asunto)">Esta vez, Kaguya se ha pasado. Te aconsejo que tengas paciencia.</email>
+    
+    <email recipient="cornch1p" sender="do-not-reply@magmamailbox.com" subject="Notificación automática: Suscripción renovada">Saludos, cornch1p:
+Este es un mensaje automático para notificarle que su suscripción a MagmaMailbox se ha renovado.
+Gracias por su fidelidad como suscriptor del servicio número 1 en correo seguro de Internet.
+Saludos,
+Equipo de MagmaMailbox
+---
+NO RESPONDAS A ESTE CORREO - ESTE BUZÓN NO SE SUPERVISA.
+---</email>
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(sin asunto)">Gracias por ponerte en contacto. El mes pasado recibí este comunicado. Sabes quién es el remitente:
+---
+Dreadnought ahora se hace llamar "Kaguya".
+Ese tío (¿?) destruyó los discos duros de sus compatriotas y se mudó a la Costa Oeste.
+Hemos intentado seguirlo, pero no ha dejado rastro. 
+Vive.
+---</email>
+    
+    <email recipient="cornch1p" sender="do-not-reply@magmamailbox.com" subject="Notificación automática: Bandeja de entrada borrada">Saludos, cornch1p:
+Este es un mensaje automático para notificarle que su bandeja de entrada se ha borrado debido a la purga semanal de MagmaMailbox. No es más que una notificación. Usted no tiene que hacer nada.
+Saludos,
+Equipo de MagmaMailbox
+---
+NO RESPONDAS A ESTE CORREO - ESTE BUZÓN NO SE SUPERVISA.
+---</email>
+    
+  </mailServer>
+  
+</Computer>

@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="sshcrack01">
+  <goals>
+    <goal type="FileDownload" target="portcrack01" file="SSHcrack.exe" path="bin" />
+  </goals>
+  <missionEnd val="0">transitionToBitMissions</missionEnd>
+  <nextMission>NONE</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>Die Trickkiste Füllen</subject>
+    <body>
+Großartig - für's Erste solltest du jetzt sicher sein! Zumindest vor deinem eigenen Rechner...
+Bevor wir durchstarten wirst du aber noch ein paar Sachen brauchen - Porthack allein wird nicht reichen, um in moderne Computer einzudringen... Schon gar nicht, wenn sie wertvolle Daten enthalten.
+
+Zunächst solltest du einen Freund von mir aufspüren - er nennt sich "Viper" - Grauenhaft, ich weiß. Er scheint auch nicht der Hellste zu sein, aber er kommt immer wieder in Besitz von nützlichem Code.
+Es sollte kein Problem sein, an seine Dateien zu kommen - darunter etwas Nützliches zu finden ist da schon eine größere Herausforderung.
+
+Den Großteil der Dateien kannst du ignorieren - Textdokumente, Chat-Logs und so. Ausschau halten solltest du jedoch nach Dateien mit der Endung .exe.
+Um Dateien auf deinen Rechner herunterzuladen kannst du den Befehl "scp" verwenden.
+
+Viel Glück - antworte mir, wenn du fertig bist!
+      
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <link comp="portcrack01" />
+      <note title="Hacknet Kurzanleitung">Kurzanleitung
+
+Analysiere Systeme mithilfe von 'probe'.
+Verwende 'PortHack', um aktive Sicherheitssysteme zu knacken.      
+
+Um nach verbundenen Geräten zu suchen, verwende "scan"
+Lösche Logs im ~/log Ordner mithilfe von "rm [DATEINAME oder *]"
+
+Dateien lädst du mit dem Befehl "scp [DATEINAME]" herunter
+      </note>
+    </attachments>
+  </email>
+</mission>

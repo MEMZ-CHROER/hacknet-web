@@ -1,0 +1,6 @@
+  ----- WAARSCHUWING -----
+
+config.sys in deze map is een cruciaal syteem bestaand
+NIET VERWIJDEREN OF HERNOEMEN
+Gebeurt dit wel dan crashet het bord en het host programma.
+Verandering aan de config mogen alleen gemaakt worden tijdens geplande uitval

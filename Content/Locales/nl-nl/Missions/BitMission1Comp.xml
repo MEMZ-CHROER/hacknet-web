@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission01" name="P. Anderson's Bedroom PC" security="1" type="4">
+  <file path="log" name="@18907 Connection From XXX.XXX.XXX.XXX" >Connection from [IP MASKED] established.</file>
+  <file path="log" name="@18922 XXX.XXX.XXX.XXX Given Administrator Access">Connection from [IP MASKED] given administrator privileges.</file>
+  <file path="log" name="@18928 XXX.XXX.XXX.XXX Acessed File [Valence_Dossier.pdf]">File [Valence_Dossier.pdf] was read by [IP MASKED] -- System Administrator</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Deleted File [Valence_Dossier.pdf]">File [Valence_Dossier.pdf] was deleted by [IP MASKED] -- System Administrator</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Disconnected">[IP MASKED] Disconnected from system</file>
+
+  <file path="home/Documents" name="Laptop_PoliceReport.txt">
+politie num
+14 L 510 66
+
+
+vordering num
+AAH 886</file>
+
+  <file path="home/Documents/personal" name="letter_draft.txt">
+[CONCEPT]
+
+05/08
+
+Pap.
+
+Ik weet dat je mijn keuzes niet snapt en ik verwacht dat ook niet van je. Wat ik wel verwacht is het normale fatsoen om die keuzes te respecteren en om mij te blijven behandelen als je kind.
+
+Totdat je dat wil doen heb ik besloten Boston te verlaten. Ik kan het niet aan om in dezelfde stad te leven wetend dat mijn held, mijn rolmodel, leeft in de zelfde plaats, en mijn bestaan negeerd.
+
+Ik heb mijn best gedaan om aantepassen, te snappen en te proberen deze overgang uit te leggen, maar ik kan het niet meer hebben.
+
+Ik ga verhuizen naar LA met James. Als je wilt praten dan heb je mijn nummers.
+
+Weet dat ik deze keuze niet lichtelijk heb gemaakt. Dit is iets dat ik moet doen en ik hoop dat je met tijd, het zal lukken om mij te accepteren voor wie ik ben.
+
+Ik houd van je.
+
+Paul
+  </file>
+
+  <file path="home/Documents" name="chatlog.txt">
+[HotRice] Zijn jullie klaar om te steamen?
+[Kiah] Ligt eraan.....
+[Kiah] Zijn jullie klaar om te sterven?
+[M4cr0b4t] LOL
+[HotRice] Stil Johnson!
+[HotRice] Laat me niet de pindakaas en microchips halen :P
+[M4cr0b4t] HET WAS EEN KEER
+[HotRice] Een keer was genoeg
+[HotRice] Waar is Hellerphant? Iemand van hem gehoord?
+[Kiah] Niemand weet echt waar hij is.
+[Kiah] Een mythisch magisch wezen die verschijnt als je het minst verwacht.
+[HotRice] Serieus, ons stream schema is verpest.
+[HotRice] Elke keer ik kom is het niet wat ik verwacht dit schema is een hoopje gebroken dromen.
+  </file>
+
+  <file path="home/Documents" name="Laptop.txt">
+    Conventie verzekering wil niet instaan (claims, rechten etc? ??)
+    Persoonlijke verzekering
+    "Niet aangegeven voordat het is gestolen"
+    (moet dingen van waarden aangeven voor dat ze worden gestolen???)
+
+    Politie:
+    "Kan onderzoeken, kan niet instaan"
+    onwaarschijnlijk dat iets daaruit komt...
+  </file>
+
+  <file path="home/Documents" name="TaxReturn002.TAX">#BINARY#</file>
+
+  <file path="home/Work" name="ReportEmailDraft.txt">
+    -Intro
+    -Niets bevestiging, heb clues
+    -laptop gestolen op conventie, had de dossier rapporten
+    -had kopies van de meest waarschijnlijke hier --- ????? Wist dit zeker?
+    -Zal de details van wat we hebben gevonden binnenkort geven
+  </file>
+</Computer>

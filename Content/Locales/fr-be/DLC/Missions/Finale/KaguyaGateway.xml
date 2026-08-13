@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dKagGate" name="Kaguya_Gateway" security="4" type="empty" ip="54.183.231.31">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 192, 443, 6881</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="-1" />
+
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+  <file path="bin" name="trnt.exe">#TORRENT_EXE#</file>
+  <file path="bin" name="SignalScramble.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+
+  <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+
+  <file path="home/projects" name="KaguyaTrial.exe">#KAGUYA_EXE#</file>
+
+  <file path="home/projects" name="trialSources.txt">
+    //P1
+    PhaseTitle = « 74.125.23.121 »;
+    PhaseSubtitle = « Télécharger outils » + « \n » + « Supprimer fichiers système »;
+
+    //P2
+    PhaseTitle = « 216.239.32.181 »;
+    PhaseSubtitle = « Enquêter » + "\n" + « Avancer »;
+  </file>
+  
+  <file path="home/projects" name="LabyrinthsTodo.txt">
+Supprimer la porte dérobée Skylink et revérifier les entrées liste blanche pour les traqueurs
+Reconfirmer que les suppressions sont accomplies
+Punir le PDG
+Utiliser un shell pour surveillance
+Effacer les serveurs de l'équipe Labyrinths
+Ne plus apparaître en tant que Kaguya
+  </file>
+  
+  <file path="home/projects" name="KTH.txt">
+Projet porte dérobée Nortron KTH
+---------------------------
+
+Les enquêtes dans leur système de build et leur configuration d'entreprise montrent qu'ils utilisent une IDE personnalisée développée en interne, dérivée d'un modèle open source existant, pour générer tous leurs produits. Ceci inclut leur serveur pour la compilation, qui utilise une version sans affichage de celle-ci.
+Cette IDE utilise une version personnalisée du compilateur C++. Pour être précis, ils ont leur propre version qui inclut des modifications. Cette version de compilateur est écrite en C++, et les nouvelles versions sont compilées par la version en C++ précédente de leur propre système. Le cycle est auto-entretenu.
+
+Phase 1 : Accéder au code source de cette version spécifique du compilateur et la télécharger.
+Ajouter hors-ligne les systèmes suivants au compilateur :
+
+1 : Une petite section est injectée dans tous les programmes compilés, pour que tous les paquets entrants d'un réseau soient prétraités. Si le paquet est doté d'un en-tête spécifique, le contenu du paquet est exécuté en tant que code, avec les niveaux de permission les plus élevés possibles pour ces exécutions au sein du système cible.
+
+2 : Ajouter une vérification de compilateur qui détecte si le programme qui est compilé est *le compilateur lui-même* et réinjecter les systèmes 1 et 2 dans le compilateur fraîchement généré.
+
+Compiler la nouvelle version du compilateur avec le nouveau système d'accès aux paquets, et le hack de propagation.
+
+Phase 2 : Accéder à nouveau à leurs systèmes. Remplacer leur *version actuelle* du compilateur par la version hackée, mais ne pas mettre à jour leur code source.
+Mener une attaque sur leur serveur de production et injecter une faiblesse visible dans leur code source affectant tous les produits de sécurité qu'ils élaborent.
+Minutieusement nettoyer les fichiers-journaux.
+
+Phase 3 : Mener une attaque publique sur un système protégé par leur logiciel. Provoquer une mise à jour, qui inclut l'erreur injectée. Ils la trouveront, la corrigeront et l'enlèveront, mais ils seront alors obligés de rebâtir leurs systèmes en se servant du compilateur corrompu. L'attaque-leurre les forcera à le faire, et leur fera également croire qu'ils ont résolu le problème.
+
+Toutes les versions futures de leur logiciel donneront désormais un accès total aux machines cibles. Il n'y a pas de code source à réparer, aucune erreur dans leur programme, car l'injection n'aura été effectuée que tard dans la compilation.
+De plus, même s'ils vérifient et recompilent leur *compilateur*, ça ne changera rien, car le hack se propage vers la nouvelle version de manière invisible et automatique.
+
+  </file>
+  
+  
+  
+</Computer>

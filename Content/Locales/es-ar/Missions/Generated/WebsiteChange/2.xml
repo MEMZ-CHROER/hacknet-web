@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="generatedWebVandal02">
+  <generationKeys Data="Content/Web/BaseCorporateRecruiterPage.html"/>
+  <goals>
+    <goal type="FileChange" removal="true" target="#COMP#" file="#FILE#" path="#PATH#" keyword="@jmail.com"/>
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Sabotage a company's hiring website">
+#CLIENT# quiere anular temporalmente la estrategia de contratación de una empresa de la competencia.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Contratación de sabotaje</subject>
+    <body>
+Saludos: 
+
+Nuestra compañía está a punto de comenzar un nuevo proyecto de contratación de personal para conseguir nuevos talentos, y nos gustaría tener ventaja frente a nuestros competidores, que probablemente están tratando de hacer lo mismo.
+ La operación no debería tardar mucho y todo lo que queremos es eliminar sus datos de contacto de su página web para asegurarnos de que sus posibles candidatos nos contactan primero a nosotros. 
+
+Te proporcionamos un enlace de la página web que queremos modificar. 
+
+Gracias.
+ -#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

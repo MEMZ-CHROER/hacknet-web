@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="ds4_journalist" name="Manananggal_workbook" ip="244.188.232.231" security="1" type="empty" icon="DLCLaptop">
+
+  <proxy time="-1" />
+  <portsForCrack val="1" />
+  <ports>80, 6881</ports>
+  <portRemap>443=43</portRemap>
+  <trace time="80" />
+
+  <file path="home/dagrunsdottir_leak" name="038457_doc.pdf">#BINARY#</file>
+
+  <file path="home/Articles" name="MentalEnergy.txt">
+Empiezo a pensar que debería hacer una lista de mis reservas de energía mental.
+Ya sabes, esa que se suele agotar cuando un día hablas con mucha gente, cuando estás muchas horas en una reunión de trabajo o cuando un amigo te habla horas y horas sobre algo que le entusiasma y a ti te da un poco igual y no sabes cómo escapar. La que se agota cuando llevas unas horas escribiendo y tu creatividad ha llegado a su límite y te quedas seco.
+Esas cosas.
+Creo que todas se corresponden con una fuente de energía central que mucha gente llama "paciencia".
+No dejes que el nombre te engañe y que no te influya la definición tradicional del término, pero voy a seguir llamándolo así. Lo que me lleva a pensar en qué otras reservas de energía tenemos.
+Sé que puedo marcharme de una situación social agotadora, volver a casa y ponerme a escribir para el trabajo, así que no creo que cuando se acabe la pierdas para siempre. Pero cuando escribo así, el resultado no será tan bueno como si lo hiciera descansado.
+Además, ya que esto es solo una reflexión, diría que tengo una reserva central de energía de paciencia y algunas otras reservas que se combinan para formar energías específicas: una para temas sociales, otra de paciencia "pura" (escuchar cosas que no te interesan), otra para la creatividad y puede que alguna más que no llego a entender.
+No estoy seguro de si estas cosas tienen alguna relación química en el cerebro o solo son caminos neuronales que se cansan (¿eso es posible?) o vete a saber qué, pero es lo que se me ocurre.
+Mi energía para escribir código es diferente a la que uso para escribir, pero si una de ellas está agotada se me hace muy difícil utilizar la otra. Esto puede significar que o me equivoco a la hora de pensar que son diferentes (¡interesante!) o que mi reserva química para escribir ambas cosas es mayor que la de mi paciencia (¡interesante también!).
+¿Podemos probarlo? Esto da para otro artículo, así que no quiero profundizar, pero si lo optimizo podría ser útil para descubrir que patrón es el que nos hace perder productividad. Sería posible saber cómo funciona la energía y la creatividad, y conocer cómo se agota es un buen primer paso para optimizar su uso en el futuro.
+  </file>
+  
+  <file path="home/Articles" name="TestingMentalEnergyPools.txt">
+Hipótesis: La energía mental para escribir código y para escribir se obtiene de la misma reserva mental, por lo que al agotar una se agotan ambas.
+Ideas: Es muy complicado medir esto de manera objetiva. Lo mejor quizá sea probar a base de saturar durante unos pocos meses y determinar los cambios en la productividad midiendo las diferencias, pero es una prueba pesada. Quizá en un mes de trabajo menos estresante.
+De hecho, ¿debería poner esto a prueba? Veamos, ¿qué gano si determino si mi teoría es cierta o no?
+Si no es cierta: Tendrá un mejor punto de partida para optimizar mi productividad al conocer mejor las diferencias de energía y de dónde vienen. Así, cuando haga pruebas para saber si se pueden recargar las reservas, podré centrar en una en concreto. Esta información es un prerrequisito.
+Si es cierta: Igual que arriba, pero sabré que esta reserva es en la que me tengo que centrar para mejorar la productividad (luego podré investigar cómo se agota para minimizarlo. La necesito para trabajar).
+¡Vale! Parece información útil. Hagamos unas pruebas rápidas para comprobar ambas teorías.
+Pruebas:
+1: Me cago en... ¿y esto cómo se prueba?
+Bien, música fuera. Vamos a concentrarnos.
+Si ES cierto, podré escribir código hasta estar muy cansado y luego escribir algo creativo para descubrir que no puedo más. Ya he comprobado que es algo que me ocurre seguro, así que tampoco hace falta probarlo.
+La prueba no es muy fiable para esta hipótesis, hipótesis que ha hecho que me plantee todo esto. Supongo que nunca conseguiré una prueba determinante que...
+UN MOMENTO - ¡El hecho de tener pruebas no determinantes me ha hecho crear una hipótesis en la misma línea! ¡Eso es ciencia barata! Así no conseguiré nada.
+Hora del segundo prototipo.
+Editado: Un momento, ¿seguro que es ciencia barata? He realizado una predicción de un comportamiento universal basado en pruebas no determinantes y buscado la manera de hacer que fuera cierta. ¿El método científico no trata de eso? Maldición.
+</file>
+  
+  <file path="home/Articles" name="TestingMentalEnergyPoolsV2.txt">
+Hipótesis: La energía mental para la escritura creativa y para escribir código usa reservas mentales diferentes.
+Bien, si probamos que esto es cierto, por propiedad transitiva sería una prueba clara para el primer prototipo. Intentémoslo.
+Prueba: Alternar entre escritura creativa y de código como tarea principal del día durante una semana y comparar la productividad con otra semana en la que ambas estén mezcladas.
+Teoría: Debido a las propiedades de retraso y bloqueo de recarga (la energía se empieza a recargar bien después de un bloqueo de 6 horas), se optimizará la energía de ambas al haber un día de retraso entre ellas.
+Si la hipótesis es correcta, con este método la productividad será mucho mayor al mezclar ambas cosas.
+Resultados: Pendiente.
+</file>
+  
+  <file path="home/Articles" name="Marrige.txt">
+Hablemos de matrimonio. De la gente que se casa y eso. Contexto: solo hablaré de matrimonios entre blancos heterosexuales, pero supongo que se puede aplicar a cualquiera. 
+Lo de que casarse sea un objetivo es un estándar curioso aceptado por la sociedad, lo ideal, pero al *mismo tiempo* también está aceptado en plan "broma", aunque en realidad no lo sea, que es algo que te hará muy infeliz el resto de tu vida.
+¿De qué vas, sociedad? No tiene sentido, ¿a qué viene tanta presión? Entiendo que haya sido el ideal tradicional desde hace cientos (¿miles?) de años y que sea la mejor solución en este mundo de mierda, pero no es algo genético y estoy seguro que unas generaciones escaparemos de su influencia.
+Seamos francos, ¿por qué lo hacemos?
+Lo primero que viene a la cabeza es que la gente se casa a causa de su entorno, un entorno que en términos colectivos tarda mucho en cambiar. Se puede decir lo mismo de los matrimonios homosexuales que, en su mayor parte, ve bien todo el mundo con un cierto nivel de educación, pero ha costado tiempo que sea así. Podría decir lo mismo de la religión y lo que le queda, pero eso da para otro artículo (jaja, se va a armar en los comentarios).
+Veamos, el entorno marca ese estándar, pero estamos llegando a un mundo con una percepción moderna de las relaciones, aunque todavía persisten las opiniones conservadoras que nos hacen sentir esa "presión".
+No está mal, pero podemos hacerlo mejor.
+En realidad hace que un objetivo vital sea bonito y sencillo de conseguir. Aunque sea un objetivo vital un tanto cutre. Este apartado final puede que moleste a mucha gente, pero, en serio, ¿de qué sirve el matrimonio? ¿El objetivo no debería ser feliz y estar cómodo en una relación en la que te sientas bien? Ni el poliamor encajaría bien ahí, así que yo creo que podemos hacerlo mejor. Da igual.
+Los objetivos "buenos", al menos los míos, son complicados. Y es posible que nunca los consiga. Eso puede que lleve a la excelencia y a la verdadera felicidad, pero a costa de un miedo existencial y una infelicidad permanente hasta que lo consigues, que puede que sea nunca, porque los objetivos están *diseñados* para ser un ideal imposible.
+Para conseguirlo, la gente busca un objetivo más asequible y lo toma como el final, porque así siempre creen que están cerca de conseguirlo. ¿O no?
+Por ello, casarse es la solución al objetivo vital de las relaciones, no tienes que volver a preocuparte por ser feliz, pero en realidad eso no es lo que quieres. Solo lo haces para marcar el objetivo como cumplido.
+Los objetivos asequibles son buenos y no estoy en contra, pero este me perturba. Parece que hace que la gente abandone la búsqueda de la felicidad y de la estabilidad porque quitan de la ecuación estos elementos por "ser difíciles", ¡y viven así el resto de su vida!
+Sí. Es raro. No voy a dar por sentado tus respuestas, pero creo que hay muchos casos en los que merece la pena tener las cosas claras sobre las *razones* de por qué algo es tu objetivo y asegurarte de que te lleva hacia una situación que te hará infeliz.
+  </file>
+  
+</Computer>

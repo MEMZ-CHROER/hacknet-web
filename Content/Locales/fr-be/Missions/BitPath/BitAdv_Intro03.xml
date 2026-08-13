@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit02_Phase3" activeCheck="true">
+  <goals>
+    <goal type="getAdmin" target="EnTechPrometheus"/>
+  </goals>
+  <missionStart val="11" suppress="true">changeSong</missionStart>
+  <nextMission>BitPath/BitAdv_Intro04.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Investigation</subject>
+    <body>Humm.
+    
+J'ai de l'expérience, mais j'ai jamais rien vu de tel. Il est encore tôt pour dire que c'est incraquable, mais c'est... nouveau. Différent. Hum. 
+EnTech, hein ? Ils font pas un antivirus pas terrible, eux ? S'ils vendaient ce machin, ils se feraient une fortune. 
+
+Regarde-moi ça, leurs bidules clients n'ont rien de semblable. Je vais faire des recherches du côté du serveur Web, voir à quel moment ce nouveau machin démarre. On dirait qu'ils ont envie de le cacher pour une raison ou une autre. 
+Je sais vraiment pas pourquoi. Ça doit être un boulot de monstre pour passer au travers, et les corpos adorent ce genre de trucs. C'est tout nouveau... 
+
+C'est super suspect. 
+Regarde ce que tu peux trouver et jusqu'à où on peut pénétrer. Je sais pas si c'est juste moi, mais j'espérais pas trouver une aussi bonne piste. 
+
+Pingue-moi quand t'en as vu suffisamment. Sois minutieux. 
+
+-V   
+    </body>
+    <attachments>
+      <link comp="EnTechWeb"/>
+    </attachments>
+  </email>
+</mission>

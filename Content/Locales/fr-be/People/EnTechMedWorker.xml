@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Person id="entechboss" handle="Jojo" firstName="Joseph" lastName="Jorioni" isMale="true">
+  <Birthplace name="Californie"/>
+  <Degrees>
+    <Degree uni="Université de Californie" gpa="2.9">Licence de d'ingénierie logicielle</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>178</Height>
+    <Allergies>AUCUN</Allergies>
+    <Perscription> Spironolactone x70 bi-mensuellement :: Inhibiteur de l'aldostérone comme régulateur cardiaque</Perscription>
+    <Notes>Le patient souffre d'un cas grave d'angine : le flux sanguin délivrant l'oxygène au cœur est dramatiquement réduit par rapport à la normale à cause de problèmes vasculaires évidents depuis la naissance. Le patient est équipé d'un moniteur de surveillance qui peut l'alerter lorsque le SpO2 est faible, puisqu'il a des chances plus élevées d'insuffisance cardiaque et qu'il doit réagir vite. Ce n'est pas un pacemaker, mais simplement un système d'alarme précoce.</Notes>
+  </Medical>
+  <Notes>
+  </Notes>
+</Person>

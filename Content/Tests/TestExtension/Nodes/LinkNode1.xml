@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="linkNode1" 
+          name="Link Node 1" 
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="chip" 
+          type="1" >
+
+  <dlink target="linkNode2" />
+  
+</Computer>

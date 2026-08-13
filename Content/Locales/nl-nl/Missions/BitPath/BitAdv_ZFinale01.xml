@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_finale01" >
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission> <!-- For real this time :D -->
+  <email>
+    <sender>Bit</sender>
+    <subject>Terminal</subject>
+    <body>Hey,
+Ik weet niet of het logisch is om deze als eerste te schrijven - als alles volgens plan verlopen is, zal dit het laaste zijn wat je van me hoort.
+Misschien het laatste wat iemand van me hoort.... Maar hé, deze is optimistisch! Als dit je ooit bereikt, dan is dat het beste nieuws waarvoor ik kon hopen.
+
+Dus, bedankt. Ik kan me niet voorstellen dat het makkelijk wordt - (het makkelijk was?).. Deze tijd is even wennen.
+
+Er is nog één laaste ding dat ik van je wil vragen - niet dat ik al te veel heb gevraagd. Porthack is niet volledig zelfstandig - Het was ooit, maar, je snapt waarschijnlijk wewl waarom het niet kan bestaan als iets dat mensen gewoon doorgeven.
+De kern - hart, is het laaste deel over. Het is gebouwt om onbewerkbaar te zijn, maar ik heb gedaan wat ik kan. Dit is mijn laaste verzoek, van veel te veel.
+
+--Bit
+0
+
+    </body>
+    <attachments>
+      <link comp="porthackHeart" />
+    </attachments>
+  </email>
+</mission>

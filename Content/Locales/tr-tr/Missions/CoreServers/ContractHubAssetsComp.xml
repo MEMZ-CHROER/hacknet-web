@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mainHubAssets" name="CSEC Assets Server" security="4">
+  <adminPass pass="csec-5xg3D11" />
+  <admin type="fast" resetPassword="false"/>
+  <positionNear target="mainHub" position="5" total="6" />
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="template.txt">[FIRST_NAME]#[LAST_NAME]#[RECORD_NUM]#32#Rural#N/A#N/A#N/A#[LAST_WORDS]</file>
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="FileNamingScheme.txt">
+İdam Mahkumu Veritabanı dosya isimlendirme taslağı:
+
+LastName_FirstName[RecordNumber]
+
+Template.txt dosyasının bir kopyasını indirmeniz, düzenlemeniz ve veritabanına eklemeden önce taslağa uygun olarak yeniden adlandırmanız önerilir.
+Örnek: Doe_John[12345]
+
+Template'de yer alan tüm kısımları değiştirmek istemeniz durumunda, çabuk değiştirme kısayolunu kullanmanız gerekecek:
+1: Dosyayı, işletim sisteminizde "etkin" olarak işaretleyin (bunu yapmanın en kolay yolu cat komutuyla okutmaktır - "cat template.txt")
+2: replace komutunu dosya adını eklemeden kullanın - (replace "[FIRST_NAME]" "John")
+3: Dosya istediğiniz şekle gelene kadar ikinci adımı gerçekleştirmeyi sürdürün.
+4: Dosya adını değiştirin (mv template.txt Doe_John[12345])
+5: Dosyayı veritabanına yükleyin (harici veritabanına bağlanın, "upload /home/Doe_John[12345]" - Yüklemeyi gerçekleştirmek istediğiniz klasörde olduğunuzdan emin olun!)
+</file>
+  
+  <file path="bin/SQL_Mem_Corrupter" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+  <file path="bin/SQL_Mem_Corrupter" name="info.txt">
+--SQL Bellek Bozma Saldırısı Benioku--
+    
+SQL Bellek Bozma Saldırısı (SQL_MemCorrupt.exe) halka açık SQL portlarını (varsayılan numarası 1433) hedef alan saldırıdır.
+Okunduğunda, veritabanında bellek bozulması hatası oluşmasını sağlayan bir tablo girdisi yükler. Hata oluştuktan sonra söz konusu tabloyu sorgular ve SQL veritabanı ve çekirdek dökümünün çökmesine neden olur.
+Böylece, OS, SQL sunucusunu temizleyip sunucuyu yeniden başlatmadan önce doğrulanmamış trafik geçici süreliğine de olsa sunucu portuna erişebilir.
+
+Görüntü modundayken, program işlem durumunu en üstte, SQL sunucu durumunu (yüklenen girdinin bellek dökümünü) ise bir altta gösterir.
+</file>
+
+  <file path="bin/WebServerWorm" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin/WebServerWorm" name="info.txt">
+--Sunucu Solucanı Benioku--
+
+Bu çabuk erişim sağlayan sunucu solucanı HTTP sunucularına (genellikle portları 80 veya 8080'dir) saldırabilen hedeflenmiş yürütülebilir bir uygulamadır.
+Program etkin olan sunucu yazılımındaki kusurlardan faydalanarak arabellek aşımına sebep olur. Böylece rastgele seçilen kodun (solucanın kendisi) yüklenmesini sağlar.
+Solucan sunucuya eriştikten sonra port güvenliğini aşmayı başarır ve bütün dış trafiği işletim sistemine iletir.
+Bu da portun sıkıntısız bir şekilde kullanılabilmesini sağlar.
+
+Bu solucan sunucunun normal işlemlerini *engellemez*. Çünkü, engellediği taktirde solucanın bulunması kolaylaşır. Ayrıca, böyle bir durumda, harici erişkenler sunucuda bir şeylerin ters gittiğini çok net bir şekilde fark eder.
+
+</file>
+
+  <file path="bin/Sequencer" name="Sequencer.exe">#SEQUENCER_EXE#</file>
+
+  <file path="Themes" name="CSEC_x-server.sys">#WHITE_THEME#</file>
+  <file path="Themes" name="Mint_x-server.sys">#MINT_THEME#</file>
+  <file path="Themes" name="Teal_x-server.sys">#TEAL_THEME#</file>
+  <file path="Themes" name="Blue_x-server.sys">#BASE_THEME#</file>
+  
+  
+</Computer>

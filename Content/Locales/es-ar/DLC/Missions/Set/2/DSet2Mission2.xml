@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ds2m1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="PointClicker 2">Un cliente quiere una copia del código fuente de PointClicker 2.</posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

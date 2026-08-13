@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpae_airline_misc" name="Mark Robertson's Office Computer" security="2" ip="98.124.245.24" type="4" icon="DLCPC1">
+
+  <!-- Low security misc employee of the airline!
+  There's nothing mission critical here, this just exists to pad things out, give a little more variety
+  and have a location for a non-critical character to talk about stuff. Pretty free reign with this one!
+  -->
+  
+  <portsForCrack val="2" />
+  <ports>22, 21, 443, 6881, 80, 25, 192</ports>
+
+  <positionNear target="dpa_whitelist" position="180" total="360" extraDistance="0"/>
+
+  <file path="home" name="todolist.txt">todolist.txt
+
+- GitV beenden
+- Plan für nächste Woche holen
+- Streit auf animeFora gewinnen
+- Pumpen
+- Facebook löschen
+- Mir einen Rechtsanwalt besorgen
+- Mir doch keinen Rechtsanwalt besorgen
+- Rechtsanwalt löschen</file>
+
+  <file path="home" name="watchlist.txt">
+Anime Watchlist
+
+--Läuft--
+Nights in Cydonia
+Goats in the Veldt
+Two Samurai
+Ball Boy Chipstop
+Game: Hard Mode
+Shield Science Offline
+Hey-O!
+
+--Noch nicht gestartet--
+Goats in the Veldt: Stand on the Fence
+Die El Die
+The Guy Who Punches People But Only Once And Then He Wins The Fight And That's The Whole Episode See You Next Week!
+Hey-O!!
+Hey-O!: A Movie We Made
+My Complex Relationship With My Butt
+My Complex Relationship With My Butt II
+My Complex Relationship With My Butt II OVA : Firm Complex
+Unsatisfying Ending
+Retcon Paradise
+Large Wizard Alchemia
+Starts;Fate
+Fate;Verb/Noun
+Gatherer y Gatherer
+Story of the Secret Generator
+Spoon Collector!!!!!
+Lifeboat
+Three:Re:Hero
+Heavenyodel
+Two or Three Pieces
+Piece/Two
+Magical Friend Motoko Arcana
+Meta-Commentary On Working Conditions In The Anime Industry
+Foolish Coolish
+Immobile Dressup
+Big Fighters....???</file>
+  
+  <file path="home" name="namegenerator.txt">Ortsnamengenerator, für Rollenspielnerds oder so gedacht.
+
+Progress Report: 
+Präfixe 0 %
+Suffixe 92 %
+
+Suffix - Weiten
+
+Zusage,Weite,Übereinstimmung,Division,Klippen,Wüste,Gebirge,Berge,Ebene,Flachland,Strand,Vorgebirge,Steilhang,Insel,Inseln,Eiland,Eilande,Fels,Felsen,Öde,Abwesenheit,Anhöhe,Gipfel,Canyon,Mesa,Abhänge,Sumpf,Leuchtturm,Einöde,Einöden,Küste,Küsten,Front,Heimat,Wasserfall,Wasserfälle,Grenzländer,Wildnisse,Plateau,Hinterland,Gletscher,Vulkan
+
+
+Suffix - Orte im Binnenland
+
+Tal,Forst,Wald,Ruinen,Gipfel,Hügel,Höhle, Höhlen,Hain,Außenposten,Teich,Sumpf,See,Bach,Wasserfall,Bergschlucht,Sumpf,Niedermoor,Pass,Damm,Bergsee
+
+Suffix - Dörfer/Ansiedlungen
+
+Division,Großstadt,Stadt,Dorf,Straße,Gemeinde,Außenposten,Lager,Bezirk
+
+Suffix - Orte am Wasser
+
+Hafen,Fjord,Dock,Pier,Seehafen,Werft,Ankerplatz,Badebucht,Golf,Steg,Bucht,Landeplatz,Sund,Meeresarm,Lagune,Bayou,Becken,Mündung,Straße,Meerenge,Brücke,Kanal,Wasserweg,Strand,Überfahrt
+
+Suffix - Militärischer Ort
+
+Festung,Fort,Burg,Burgfried,Hochburg,Schanze,Bastion,Zitadelle,Garnison,Turm,Palidade,Stützpunkt,Station,Versorgungslager
+
+Suffix - Wohnorte Wohlhabender
+
+Herrenhaus,Schloß,Bergfried,Herrensitz,Landhaus,Haus,Villa,Anwesen,Palast,Saal,Alcazar
+
+Suffix - Wohnorte von Privatpersonen
+
+Appartements,Haus,Bauernhof,Anwesen,Residenz,Hütte</file>
+  
+</Computer>

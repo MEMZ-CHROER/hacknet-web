@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Person id="csec_med_01" handle="Whitewash" firstName="Jonas" lastName="Sandburg" isMale="true">
+  <Birthplace name="Лондон"/>
+  <Degrees>
+    <Degree uni="Университет Манчестера" gpa="2.9">Магистр компьютерных наук</Degree>
+  </Degrees>
+  <DOB>03.05.93 14:00:00</DOB>
+  <Medical>
+    <Blood>BO</Blood>
+    <Height>166</Height>
+    <Allergies>НЕТ</Allergies>
+    <Perscription>Альбендазол x70 в два месяца :: Смотрите примечания</Perscription>
+    <Perscription>Ивермектин x35 в месяц :: Смотрите примечания</Perscription>
+    <Notes>У пациента острых случай элефантиаза яичек, впервые наблюдался в возрасте 8 лет, с этого времени проводилось регулярное лечение с хорошим результатом. Несмотря на то, что опухоль в области поражения СИЛЬНО выражена, соблюдение правил гигиены и регулярное лечение позволили сделать ее управляемой.
+    </Notes>
+  </Medical>
+  <Notes>CSEC История болезни M_09  </Notes>
+</Person>

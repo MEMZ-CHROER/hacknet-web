@@ -1,0 +1,7 @@
+﻿﻿Agent,
+
+Les administrateurs ont marqué votre compte avec des permissions pour accepter un contrat critique.
+Ceci est listé en tant que {0} sur la page de référencement.
+Soyez conscient qu'accepter ce contrat peut être chronophage, ou nécessiter des mesures de confidentialité et l'abandon d'autres projets pendant un temps. Ce contrat doit être accepté en ayant conscience que d'autres contrats, et possiblement {0} services sont susceptibles d'être indisponibles pendant sa durée.
+Merci,
+{0}

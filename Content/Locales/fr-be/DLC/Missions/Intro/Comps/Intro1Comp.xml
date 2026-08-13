@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dIntro1" name="test PC 1" security="1">
+
+  <proxy time="0.5" />
+  <portsForCrack val="2" />
+  <ports>22, 21</ports>
+
+  <trace time="150" />
+  
+<file path="home" name="readme.txt">Il y aura ici un programme qui interfère clairement avec ton interface
+Il détruit ta netmap, ton icône de courrier, change le thème, poste des messages au sujet d'autres tests plus avancés ou quelque chose du genre
+
+pour l'instant, rends-toi simplement à sa destination et fais comme si tu n'avais pas d'interpréteurs de commandes (shell) - le programme les éliminera aussi.
+216.239.32.21
+ </file>
+  
+  
+</Computer>

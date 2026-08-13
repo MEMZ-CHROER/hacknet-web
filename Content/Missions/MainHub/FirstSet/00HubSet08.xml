@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet08">
+  <goals>
+    <sendemail recipient="gila" subject="MedicalRecord - Sandburg_Jonas" />
+  </goals>
+  <nextMission>MainHub/Continuations/FirstSet08_Reply.xml</nextMission>
+  <posting title="Investigate a medical record">
+Get a copy of someone's medical record to settle an argument.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Rod of Asclepius</subject>
+    <body>
+Hey,
+
+So, I may or may not have gotten involved in a bit of an internet shout off with someone who's posting CLEARLY photoshopped pictures of...
+You know, it doesnt really matter, look, i need a legit medical record of this guy to settle it all in dramatic fashion. I'd get it myself but, uhh, I made those intentions pretty clear and, you know how CSEC is with stuff like that.
+Anyway, can you help me out? His name's "Jonas Sandburg" - the medical database has a tool to send records to people, could you flick a copy to "gila@jmail.com"
+
+Thanks!
+-G
+    </body>
+    <attachments>
+      <link comp="medical" />
+      <note title="Notes and stuff">Guy i need a record of:
+"Jonas Sandburg"
+Address to email to:
+"gila@jmail.com"
+</note>
+    </attachments>
+  </email>
+</mission>

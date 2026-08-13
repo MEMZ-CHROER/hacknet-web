@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Fichiers .exe Exécution à Distance">
+La commande exe sur les terminaux modernes exécute un fichier résidant sur la machine locale de l'utilisateur, ciblant ce programme sur la machine sur laquelle l'utilisateur local est connecté.
+
+La commande agit efficacement en tant que raccourci sémantique et évite la nécessité d'ajouter l'adresse IP de la machine connectée en tant qu'argument pour toute commande de démarrage. Cela permet également à de multiples programmes d'envoyer du trafic par la même connexion, augmentant l'efficacité du réseau au niveau de l'OS.
+Bien sûr, de nombreux fichiers exe ne sont pas écrits pour avoir une quelconque fonction sur un réseau et, dans ce cas, le programme ignorera la connexion inter-réseau disponible et exécutera simplement sa fonction de manière locale.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERREUR</subject>
+    <body>
+Recevoir cet email indique qu'une erreur inattendue est survenue.
+Veuillez paniquer.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

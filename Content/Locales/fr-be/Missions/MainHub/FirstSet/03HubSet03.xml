@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="removeDeathRowRecord" name="Joseph Felman"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Remove a Fabricated Death Row Record">
+Ceci est un travail de nettoyage pour supprimer des fausses informations qu'un hacker a plantées dans la base de données du couloir de la mort. 
+Pour des raisons inconnues, un dossier dupliqué a été ajouté aux dossiers du couloir de la mort - probablement une sorte de projet d'usurpation d'identité ou de « griefing ». 
+Nous souhaitons que ce faux dossier soit supprimé.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Imposteurs dans le couloir de la mort</subject>
+    <body>Ce contrat a été ajouté par un membre anonyme de CSEC. Bien qu'il soit possible de détecter l'identité du commanditaire grâce à ce contrat, CSEC demande que, comme toujours, vous respectiez la vie privée et l'anonymat de ses membres en ne le faisant pas. 
+
+Contrat : 
+Le dossier du couloir de la mort de « Joseph Felman » (#119080) est manifestement un double du dossier d'Alva Curry (#999080) qui est, de toute évidence, l'original. 
+Supprimez le dossier de Joseph Felman de la base de données - sa présence présente non seulement un risque pour tous les Joseph Felman mais elle est aussi une insulte à la déclaration originale faite par M. Curry. Corrigez cela.
+
+-CSEC
+    </body>
+    <attachments>
+      <link comp="deathRow"/>
+      <note title="Détails du dossier">Supprimer le dossier
+Nom: « Joseph Felman »</note>
+    </attachments>
+  </email>
+</mission>

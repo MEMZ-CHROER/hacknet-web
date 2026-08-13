@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit_recovery">
+  <goals>
+    <goal type="getString" target="156.151.59.35"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro03.xml</nextMission>
+  <branchMissions>
+    <branch>BitPath/BitAdv_Intro07.xml</branch>
+    <branch>BitPath/BitAdv_Intro05.xml</branch>
+    <branch>BitPath/BitAdv_Intro03.xml</branch>
+  </branchMissions>
+  <posting title="[ V ] - Continue Investigation">
+#PLAYERNAME#, 
+새로운 계약 맡았어? 다시 일할 준비 되면 이거 수락해줘.
+
+-V
+  </posting>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 재회</subject>
+    <body>
+다시 일할 준비 됐어?
+
+ 지난 번에 갔던 데로 가지, 난 아직도 조사 중이야.
+
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

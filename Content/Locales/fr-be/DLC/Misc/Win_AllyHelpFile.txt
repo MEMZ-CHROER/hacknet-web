@@ -1,0 +1,30 @@
+-- Guide de réparation d'un Bootloader de VM corrompu par Piège --
+
+1: Si tu n'en a pas déjà un, ouvre un invité de commande proche de la localisation du fichier bloquant.
+(Je t'ai copié un raccourci vers un script pour t'aider. Je l'ai nommé "OpenCMD.bat" - le lancer devrait fonctionner)
+
+2: Déplace-toi de dossier en dossier pour trouver le fichier bloquant. Tu dois trouver un fichier nommé "VMBootloaderTrap.dll". Note bien que pour Windows :
+
+linux/osx | windows
+cd  ------->  cd
+ls  ------->  dir
+rm  ------->  del
+
+Tu devrais utiliser immédiatement la commande "dir", et d'en faire de même à chaque fois que tu te déplaces pour ne pas te perdre.
+Ajoute ".." pour retourner au dossier précédent. Ne l'oublie pas. Aussi, la touche Tab sous Windows complétera les noms de fichier et de dossier, mais pas les commandes !
+Le fichier que tu cherches devrais se trouver dans l'un des sous-dossiers proches de l'emplacement de ce guide.
+
+
+3: Une fois que tu as trouvé VMBootloaderTrap.dll, il faut que tu fasses sauter le verrou de permissions avant de pouvoir supprimer le fichier.
+
+Lance exactement la commande suivante (n'oublie pas ":d" a la fin):
+icacls VMBootloaderTrap.dll /grant USERS:d
+
+4: Maintenant supprime le fichier!
+
+
+5: Relance ta VM et remet-toi au travail.
+
+(note: VM = Machine Virtuelle)
+
+-Coel

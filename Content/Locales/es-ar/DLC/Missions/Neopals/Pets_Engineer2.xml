@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dPets_Engineer2" name="Ash-ALIENGEAR13" security="2" ip="54.192.234.65" icon="DLCPC2">
+
+  <!-- Neopals artist - contains eos device hint for other comp  -->
+  
+  
+  <dlink target="dPets_VC" />
+
+  <positionNear target="dPets_MF" position="220" total="360" extraDistance="0.05"/>
+
+  <file name="IMPORTANT_SusanLog.txt" path="home">
+
+[S.Bonesau] Nadie está diciendo que TENGAS que cambiar tu estilo artístico, es solo que...
+[S.Bonesau] Recibes muchas solicitudes de cambio tras el envío
+[S.Bonesau] Y creo que mejoraríamos nuestra eficacia si te lo tomaras un poco más en serio
+[S.Bonesau] Y he observado algunos comentarios mientras planeaba los futuros diseños
+[Ash] Vale, lo entiendo, pero tengo mucha fe en este diseño
+[S.Bonesau] Lo sé Lo entiendo, es solo que...
+[S.Bonesau] Se supone que es un atuendo fantasmagórico para una casa embrujada y los has dibujado a todos sentados en tanques
+[S.Bonesau] Otra vez.
+[Ash] Me gustan los tanques. Son terroríficos.
+[S.Bonesau] Ya sé que te gustan los tanques.
+[Ash] ¿No crees que a los rumanos les parecían aterradoras las líneas de tanques alemanas?
+[S.Bonesau] No, quiero decir, claro que sí, pero ese no es el tema, espera un seg
+[Ash] Son 25 toneladas de ingeniería alemana mortal que se dirigen a ti, ¿no te parece bastante aterrador?
+[S.Bonesau] ¡Espera un momento!
+[S.Bonesau] Simplemente no creo que nuestros jugadores habituales conecten tanto con los tanques como tú.
+[S.Bonesau] ¿Debo recordarte que también los dibujaste sentados en tanques para el evento de las hadas?
+[Ash] Los tanques se parecen mucho a las hadas.
+[S.Bonesau] ...
+[Ash] Me gustan las cosas monas y las cosas militares de la II Guerra Mundial, ¿qué quieres que haga?
+[S.Bonesau] Quiero que dibujes los Neopals con disfraces de Drácula y cosas así
+[Ash] Lo haré si hacemos un evento para tanques más adelante
+[S.Bonesau] No tienes posibilidad de negociar.
+[Ash]  Estoy seguro de que Drácula tenía muchos tanques.
+[S.Bonesau] Por Dios, vale, trato hecho, solo dibuja esos duendecillos
+[Ash] Guardaré este registro, ¿lo sabes, no? Ya lo he hecho.
+[S.Bonesau] No te preocupes, es mi teléfono
+  </file>
+
+  <file name="DRACULATANK.psd" path="home">#BINARY##BINARY#</file>
+  <file name="asdf.psd" path="home">#BINARY#</file>
+  <file name="asdf2.psd" path="home">#BINARY##BINARY#</file>
+  <file name="asdfasdf.psd" path="home">#BINARY#</file>
+
+  <!-- Memory dump with viewable sketches of Dracula tank -->
+  <Memory>
+    <Data>
+      <Block>
+STEAM_CHAT:ventana activa
+4e0f622c-c5f1-4959-902d-bd2c1009a4cb
+Registro:
+CONSOLA: Nunca digas tu contraseña a nadie.
+2:46 PM - Jigxor: estos vídeos de autómatas son una locura
+2:47 PM - Jigxor: Tío, estoy viendo otro sobre un autómata de 240 años llamado "El escritor". Es un chico mecánico que puede escribir una o dos frases con boli y papel de verdad en sus manos, todo controlado de forma mecánica como un reloj. Esta mierda es increíble.
+2:48 PM - Jigxor: y parpadea y mueve la cabeza y esas cosas
+2:48 PM - [P]Ash: oh dios mío, ¿por qué me lo has enseñado? Hoy iba a tener un día productivo ;_;
+2:48 PM - Jigxor: es una locura
+CONSOLA: Jigxor se ha desconectado
+CONSOLA: Jigxor se ha vuelto a conectar al chat
+3:18 PM - Jigxor: Me siento muy inteligente
+3:18 PM - Jigxor: a pesar de que he copiado algunos regex del StackOverflow
+3:18 PM - [P]Ash: >mi_vida.txt
+      </Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Misc/TanqueDracula</Image>
+    </Images>
+  </Memory>
+  
+  
+</Computer>

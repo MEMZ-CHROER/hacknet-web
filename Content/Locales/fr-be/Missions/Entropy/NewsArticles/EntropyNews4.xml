@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyNews04">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Is your data at risk?">
+Le réseau social populaire FriendHole est la dernière victime d'un groupe de pirates malveillants décidé à faire tomber tous les médias sociaux. L'identité et l'emplacement du groupe reste un mystère pour la cyberpolice, mais leur message est clair : « Rien n'est sûr ». Le PDG de FaceSpace a tenté aujourd'hui de rassurer ses utilisateurs, 
+inquiets, en expliquant que la « sécurité de FaceSpace est absolue », et que les seules personnes à avoir accès à leurs données personnelles sont eux-mêmes, ceux à qui ils choisissent de les partager et les 12 000 partenaires publicitaires de confiance de FaceSpace.
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy doit être arrêté</subject>
+    <body>
+Détruis la base de données d'Entropy
+    </body>
+    <attachments>
+      <link comp="entropy01"/>
+    </attachments>
+  </email>
+</mission>

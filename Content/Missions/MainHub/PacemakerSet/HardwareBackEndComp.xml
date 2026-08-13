@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisHW_BE"
+          ip="66.96.148.1"
+          name="Kellis Biotech Production Asset Server" 
+          security="4"
+          icon="kellis"
+          type="1" > <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <!-- Security Stuff -->
+  <dlink target="kellisHW" />
+  <ports>80, 22, 1443, 25, 21, 104</ports>
+  <trace time="260" /> 
+  <firewall level="6" solution="BIOGEL"/>
+
+  <file path="home/Production/Output" name="Catalyst_Driver.dll">#BINARY#</file>
+  <file path="home/Production/Output" name="KBT_PortTest.exe">#MEDICAL_PROGRAM#</file>
+  <file path="home/Production/Output" name="README_Port_Tester.txt">
+The Kellis BioTech Port Tester (KBTPT)
+--  --  --  --  --  --  --  -- --  --
+
+KBPT is a utility made for testing and stressing the Kellis medical standard port (#104). This tool can be deployed with a hardware package on request to test the device under scrutiny. It is designed to flood the port with traffic, including that of outside sources (some of which the program pulls in itself), so, obviously this should not be used on live devices as, though they are tested by kellis locally, applying unnecessary stress on components and code (which this program is deliberately designed to do) is not responsible behavior.
+Take care in the distribution of this program. Local copies sent out are versioned and tracked on deployment, along with this document.
+  </file>
+
+  <file path="home/Production" name="KellisMediaPack_v2RevisedFinal3LAST_v2">#BINARY##BINARY#</file>
+  
+  
+</Computer>

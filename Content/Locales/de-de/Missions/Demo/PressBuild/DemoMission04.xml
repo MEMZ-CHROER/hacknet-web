@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pressdemoMission04" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="finalNodeDemo" file="@19002_185.11.124.4_Disconnected" path="log" />
+    <goal type="FileDeletion" target="finalNodeDemo" file="@19002_logarchive" path="log" />
+    <goal type="FileDeletion" target="finalNodeDemo" file="x-server.sys" path="sys" />
+    <goal type="FileDeletion" target="finalNodeDemo" file="netcfgx.dll" path="sys" />
+  </goals>
+  <missionStart>demoFinalMissionStart</missionStart>
+  <missionEnd>demoFinalMissionEnd</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Erklärung</subject>
+    <body>Wir sind soweit.
+
+Ich brauche deine Hilfe bei einem Takedown. Du hast warscheinlich gemerkt, dass die vorherigen Mission eher Aufwärmübungen waren, um dich in Form zu bringen - Jetzt geht's erst richtig los.
+Wenn du den "Sequencer" ausführst, führt dieser auf einem meiner Server ein Skript aus. Es wird dich mit einem Webserver verbinden - und den sollst du ausschalten - lösche alles im Verzeichnis /sys/.
+
+Das ist nicht wie in den anderen Missionen - der Server ist nicht ohne Grund versteckt. Er hat jede Art von Trace, die du dir vostellen kannst. Da kommt der Sequencer ins Spiel - Er wird die Verbindung so lange wie möglich offen halten und dir einen Hinweis geben, wie viel Zeit du noch hast, bis du vollständig getraced wirst. Lass ihn unbedingt am Laufen.
+
+Wie immer sind die Details im Anhang.
+Das wird vorerst das Letzte sein, was du von mir hören wirst - dieser Build hier war eh bloß als Test gedacht - eine provisorische Lösung, bevor der Richtige fertig ist.
+
+Viel Glück.
+Kämpfe.
+--Bit
+0
+    </body>
+    <attachments>
+      <note title="Missionsübersicht">Bevor du anfängst, präge dir diese Anleitung genau an und schließe danach die Notiz - du wirst allen RAM brauchen, den du kriegen kannst.
+
+Sequencer ausführen
+Mit EnTech verbinden
+Probe
+Port-Cracker ausführen
+Porthack
+Ins /sys/ Verzeichnis navigieren
+Alles löschen (rm *)
+Alle Logs löschen
+Verbindung trennen
+      </note>
+    </attachments>
+  </email>
+</mission>

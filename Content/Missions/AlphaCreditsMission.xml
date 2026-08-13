@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="alphaCredits">
+  <goals>
+  </goals>
+  <missionStart val="5">changeSong</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>The End</subject>
+    <body>
+Congratulations!
+
+You just completed the alpha demo of Hacknet!
+This was a side project started in a 48hour game jam between friends, and people liked it so much that I worked on it casually for a while to produce what you just finished.
+Development's continuing, but i'm not going to rush it to try and finish the game by any specific date - it'll be done when I think it's ready.
+
+Thanks for playing! If you liked the game (or didn't), send me an email at "mtrobbia@gmail.com" and let me know what you think. Suggestions welcome!
+
+If you're interested in following more stuff I make, or want to bug me to work more on this, you can follow me on twitter as @Orann, or my website www.fractalalligator.com.
+
+Thanks,
+-Matt
+
+P.S: The linked computer has a few secrets from the game on it - take a look!
+    </body>
+    <attachments>
+      <link comp="creditsComp" />
+    </attachments>
+  </email>
+</mission>

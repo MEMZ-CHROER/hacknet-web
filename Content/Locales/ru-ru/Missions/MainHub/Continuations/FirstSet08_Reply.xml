@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet08_p2" activeCheck="true">
+  <goals>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Investigate a medical record">
+    Получить копию чьей-то истории болезни, чтобы уладить спор.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>RE: Посох Асклепия</subject>
+    <body>
+Я... 
+Что? Серьезно? Вообще-то я получил это с... Это же законно, верно? 
+То есть, я просто... 
+
+Ого! 
+
+Да я... даже не знаю, что теперь думать. Ого.
+
+ Ах, да, кстати, спасибо за помощь. Пойду переосмыслю свою жизнь. 
+-G
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

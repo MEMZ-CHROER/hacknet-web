@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="HasFlag" target="E_Whit:DEAD"/>
+  </goals>
+  <missionStart val="9" suppress="true">changeSong</missionStart>
+  <missionEnd val="1">junebugComplete</missionEnd>
+  <nextMission>BitPath/BitAdv_Intro.xml</nextMission>
+  <branchMissions>
+    <branch>MainHub/PacemakerSet/PacemakerSet_Deny_Branch.xml</branch>
+  </branchMissions>
+  <posting title="Project Junebug" reqs="dechead, decypher,csecRankingS2Pass">
+Une situation incroyablement délicate est apparue, exigeant l'implication d'un agent extérieur anonyme qualifié étant prêt à prendre la responsabilité d'actions discutables afin d'aider un individu dans le besoin.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Projet Junebug</subject>
+    <body>
+Hacker,
+     
+Ceci n'est pas une demande normale et nous ne la considérerons pas comme tel. Il nous a été demandé d'effectuer une euthanasie. 
+Évidement nous avons envoyé d'autres personnes récolter des données à ce sujet (et quelques personnes de groupes externes pour ne pas éveiller les soupçons) il y a quelque temps, et, de façon générale, tout est en ordre - il semblerait que l'homme en question, un certain « Elliot Whit » soit hospitalisé et dans de grandes souffrances et on lui a refusé, contre son gré, la possibilité de mourir. 
+Une tentative ratée de sa famille les a, plus tôt, empêché d'effectuer des efforts ultérieurs jusqu'à ce qu'un membre ait proposé cette option. Il semblerait que le stimulateur cardiaque qu'il porte permette un accès à distance avec une autorisation appropriée, et ils pensent que ce serait une façon de satisfaire cette demande. 
+
+Naturellement, compte tenu de la nature de celle-ci, nous accepterons que vous ne souhaitiez pas être impliqué. Répondez par « deny » et nous vous retirerons du projet.  
+
+Si vous décidez de nous aider à ce sujet, vous devriez savoir que des recherches et des tests seront probablement nécessaires étant donné que, pour autant que nous le sachions, ceci n'a jamais été tenté avant. 
+Nous vous recommandons de commencer par le dossier médical de la cible, l'identification de la puce, chercher ses fabricants et partir de là.
+      
+-Administrateurs CSEC
+    </body>
+    <attachments>
+      <link comp="medical"/>
+      <note title="Détails du projet">
+Cible : Elliot Whit
+Action : Euthanasie
+</note>
+    </attachments>
+  </email>
+</mission>

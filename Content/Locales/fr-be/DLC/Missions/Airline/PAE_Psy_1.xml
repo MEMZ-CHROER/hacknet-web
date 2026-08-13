@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpae_psy_1" name="Faith Morello's Laptop" security="3" ip="209.68.11.125" type="4" icon="DLCLaptop">
+  
+  <!-- Home comp of someone who works at Psylance, contracting out to the airport
+  Goes by NAME_WIP on the IRC chat of Psylance employees. 
+  
+  Has File downloaded form the Internet describing how to speed up torrents (opening torrent port),
+  contains some sort of example with port numbers, and they've changed the port to match it exactly
+  
+  This needs to contain the username and password used for the IRC server on it (but not an IP link to the server itself).
+  Perhaps write a file about it always being open, so they never have to reconnect to it or something?
+  -->
+
+  <firewall level="-1"/>
+  <trace time="-1" />
+  <portsForCrack val="3" />
+  <ports>21, 443, 6881, 80</ports>
+  <portRemap>21=1887,6881=8,80=8080</portRemap>
+
+  <positionNear target="dpa_whitelist" position="240" total="360" extraDistance="0"/>
+
+  <customthemefile path="sys" name="RTClassic_x-server.sys" themePath="DLC/Themes/RiptideClassicTheme.xml"/>
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/RiptideClassicTheme.xml"/>
+  
+  
+  <file path="home/torrents" name="guide.txt">Guide d'utilisation de PortSmacker
+
+PortSmacker est un outil visant à améliorer la vitesse des torrents en utilisant des ports non traditionnels, ces derniers n'étant pas filtrés par les pare-feux et ralentisseurs NAT des fournisseurs d'accès.
+
+L'interface utilisateur reproduit un tableur ; pour changer de configuration, insérez un chiffre dans une cellule et tapez Entrée. Cet outil est destiné aux utilisateurs expérimentés, alors ne faites pas les cons.
+
+Exemple d'utilisation :
+
+J'aimerais accélérer mes torrents, mais le port 6881 est ralenti par mon FAI. Pour contourner le problème, je passe sur le port 8, qui semble fonctionner beaucoup mieux. Bon, le FAI finira bien par le découvrir et ralentir le port 8, mais en attendant, on peut l'utiliser.
+  </file>
+
+    <file path="home/torrents" name="HackerCracker_Cracked_NoDVD.zip">#BINARY#</file>
+
+    <file path="home/torrents" name="PortSmacker.zip">#BINARY#</file>
+
+    <file path="home/torrents" name="DIY_Pickles_A_Guide_To_Pickling_In_The.zip">#BINARY#</file>
+
+    <file path="home/torrents" name="VRDesk.zip">#BINARY#</file>
+
+  <file path="home/torrents" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+
+
+  <!-- Translators: DO NOT TRANSLATE THE NAME OR PASSWORD HERE -->
+    <file path="home/work" name="logindetails.txt">> dardour@psylance.net a envoyé :
+> Salut, Faith,
+> Voilà tes identifiants de connexion pour l'IRC.
+> Assure-toi de les modifier dès que possible, via NickServ. Tu n'auras pas besoin de te reconnecter, pour des raisons évidentes.
+> -Darryl
+
+> Nom d'utilisateur IRC : faithless
+> Mot de passe : catsarebestpet</file>
+  
+</Computer>

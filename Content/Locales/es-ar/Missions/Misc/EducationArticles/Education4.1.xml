@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Proxy Servers - Advanced">
+Fundamentalmente, los servidores proxy son un equipo secundario a través del que uno se conecta a un destino, que filtra y guarda en caché el tráfico de red para proporcionar seguridad y aumentar el rendimiento web para información muy solicitada. 
+
+De forma predeterminada, los proxis se configuran para rechazar el tráfico que pueda considerarse un peligro para la red (como la inundación FTP), al precio de necesitar una lista blanca de tráfico autorizado (como el tráfico de la transmisión de vídeo de YouTube). 
+Esto implica que, aunque pueden ser incómodos para ciertos usuarios pese a estar bien configurados, son capaces de evitar por completo la ejecución de programas que podrían poner en peligro un puerto o un servicio de seguridad. 
+
+El defecto más conocido de los servidores proxy es su límite de memoria superior: cuando se alcanza, obliga a dichos servidores a cerrar del todo la red a la que están conectados (una función que casi nunca se utiliza) o a permitir el paso de tráfico sin comprobar. 
+Por eso, el aumento de los presupuestos de seguridad de red ha permitido unos servidores proxy más robustos, con mucha más memoria, que hace que sobrecargarlos sea una tarea larga y abrumadora, imposible con un solo equipo.
+
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Si recibe este correo electrónico, es que se ha producido un error inesperado. 
+Échese a temblar.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitHubSet01">
+  <goals>
+    <goal type="FileUpload" target="bitDropBox" file="READ_all_hackers.txt" path="Drop/Uploads" destTarget="hubPubDrop" destPath="Drop/Uploads" />
+  </goals>
+  <missionStart val="8" suppress="true">changeSong</missionStart>
+  <nextMission>MainHub/BitSet/Missions/BitHubSet01_REPLY.xml</nextMission>
+  <posting title=" [NEW] Investigate a CSEC member's disappearance">
+Bit, a well regarded member of CSEC, and a personal friend of many people here dropped off grid over 2 weeks ago, and hasn't made contact with anyone.
+While numerous private investigations are no doubt underway, I'd like to make this an official CSEC posting for anyone that wants to help.
+We're looking for any information we can get regarding his disappearance, or, ideally, current state.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Bit's disappearance Investigation</subject>
+    <body>Hey,
+    
+This'll be a less formal email, and I'm going to sign it with my handle, no need for anonymity here, we're looking out for a friend.
+So Bit went dark a little over 2 weeks ago which is pretty unusual. I mean, going dark for a bit is fine, but not contacting anyone here? 2 weeks? Something's up.
+
+I've thrown in a few links to some servers he owns/uses, so maybe dig around there. If you find anything, throw it up on the CSEC drop server and I'll check it out. 
+
+Thanks,
+-Vapor 
+    </body>
+    <attachments>
+      <link comp="bitMission00" />
+      <link comp="bitRelay01" />
+      <link comp="hubPubDrop" />
+    </attachments>
+  </email>
+</mission>

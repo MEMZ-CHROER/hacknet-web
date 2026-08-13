@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="themeHackStartMission">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Uyarı</subject>
+    <body>
+      Connect-Responder.exe IP Adresinizden 173.194.35.163 adresine harici bağlantı gerçekleştirildiği fark etti.
+      Bu cihazdan harici bağlantı kurulması yasaklanmıştır. Eğer yanlışlıkla bağlandıysanız, lütfen sysadmin yardımına başvurun.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

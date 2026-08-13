@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="generatedWebVandal02">
+  <generationKeys Data="Content/Web/BaseCorporateRecruiterPage.html"/>
+  <goals>
+    <goal type="FileChange" removal="true" target="#COMP#" file="#FILE#" path="#PATH#" keyword="@jmail.com"/>
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Sabotage a company's hiring website">
+# CLIENT# хочет,чтобы стратегия конкурентов по найму на работу была временно выведена из строя.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Саботаж трудоустройства</subject>
+    <body>
+Привет,
+
+Наша компания собирается начать новый кадровый проект, дабы привлечь новые таланты, и мы хотели бы иметь  преимущество перед нашими конкурентами, которые, вероятно, хотят того же самого. 
+Эти усилия не должны занять много времени, и все, что нам нужно, чтобы их контактные данные были удалены с их сайта, чтобы потенциальные кандидаты связывались сначала с нами. 
+
+В приложении ссылка на сайт, на который нужно внести изменения. 
+
+Спасибо,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

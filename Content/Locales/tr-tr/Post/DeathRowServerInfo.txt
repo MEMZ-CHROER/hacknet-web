@@ -1,0 +1,19 @@
+Bu veritabanı idam cezasına çarptırılan mahkumların suçları ve son sözleriyle ilgili verileri saklamak için kurulmuştur.
+
+İdam Cezasın Çarptırılan Suçluların Cinsiyet ve Irk İstatistikleri
+
+Irk     Kadın   Erkek    Toplam
+--------------------------------------
+Beyaz      5         76       81
+            55.6%    28.7%    29.6%
+
+Siyah      3         107      110
+            33.3%    40.4%    40.1%
+
+Hispanik   1         78       79
+            11.1%     29.4%    28.8%
+
+Diğer      0         4        4
+            0.0%     1.5%       1.5%
+
+TOPLAM      9         265      274

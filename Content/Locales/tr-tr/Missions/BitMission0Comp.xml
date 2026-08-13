@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission00" name="Bitwise Test PC" security="1">
+  <file path="home" name="Test_File.txt">Tebrikler! Dosyayı açmayı başardın!</file>
+  <file path="home" name="L-E_x-server.sys">#PURPLE_THEME#</file>
+  <file path="sys" name="x-server.sys">#PURPLE_THEME#</file>
+
+<file path="home" name="Hobbes_TerminalGuide.txt.txt">
+Terminalde yazılabilecek bazı faydalı komutlar :
+
+cat [dosyaadı] - girilen dosya adını metin olarak açar
+
+cd / - dosya sisteminin köküne indirir
+
+ls - dizini ve bulunulan dizindeki dosyaları çıkartır
+
+cd .. - bulunulan yerden bir üst dizine çıkartır
+
+replace [dosyaadı] "[girdi1]" "[girdi2]" - hedefteki dosyanın (Girdi 1) belirtilen içeriğini ayarlanan içerikle (Girdi 2) değiştirir.
+
+mv [dosyaadı] [hedef] - dosyayı taşır veya yeniden adlandırır, eğer dosyayı taşımak istiyorsan, taşımak istediğin klasörü belirtmen gerek, örnek: 
+
+mv config.sys /misc/
+
+eğer dosyayı yeniden adlandırmak istersen, yeniden adlandırılmasını istediğin dosyayı ve yeni adını gir, örnek: 
+
+mv config.sys config.old
+
+Help 1, Help 2, Help 3 - Üç sayfadan oluşan yardım dosyası. Oku ve özümse.
+
+forkbomb - Belirli değil, fakat eğer bir bilgisayarı devre dışı bırakman gerekiyorsa ve acelen varsa bunu panik anında basılacak tuş olarak görebilirsin. Kullanmak için bilgisayar yöneticisi olman gerek. Savunma önlemi olarak kendi bilgisayarında da uygulayabilirsin.
+
+shell - yöneticisi olduğun bilgisayara uzaktan bağlantı kurar. Savunma önlemi olarak kendi sisteminde kullanabilirsin (Ayrıntılar için: "Tuzaklama").
+</file>
+  
+<file path="home/autolog_reports" name="log01332.txt">
+[shinterland] Patronun çıkmasını bekliyorum.
+[shinterland] Çıkınca arka tarafa geleceğim.
+[jwalter] Sence bir şey biliyor mu?
+[shinterland] Sanmıyorum. 
+[shinterland] Başına gelecek belaya dair en ufak bir fikri bile yok. 
+[jwalter] Tarayıcı geçmişini silmeyi unutma. İz sürüp bizi bulmasını istemeyiz. 
+[shinterland] Elbette sildim.
+[shinterland] Az önce montunu aldı... şu anda da kapıdan çıkmak üzere.
+[jwalter] Pekala. Kamera yayınını ayarlamam için bana bir dakika ver.....
+[jwalter] Tamamdır. Sabit fotoğraf düşmeden önce üç dakikan var.
+[shinterland] Hemen listeyi alıyorum. Sonrasında kutlama için bira içmeye gideceğiz.
+</file>
+  
+<file path="home/autolog_reports" name="log0177_F.txt">
+[vope] sana anlatacağım şeye inanmayacaksın
+[r@$put1n] ne oldu?
+[r@$put1n] işe yaradı mı?
+[vope] çıkarcı herifler kaynağı almak için kapıma dayandı bile
+[r@$put1n] vay be, sanırım bu sefer turnayı gözünden vurmayı başardın!
+[r@$put1n] iyi para kaldırdın mı bari?
+[vope] 12 bin, iki aylık iş için fena değil
+[vope] acaba bunu ne için kullanacaklar
+[r@$put1n] muhtemelen ilk iş senin banka hesabını boşaltacaklar 
+[vope] o zaman şansları bol olsun çünkü çalacakları para orada değil, lol
+
+-- sahte olduğu doğrulandı --
+</file>
+  
+<file path="home/autolog_reports" name="log01009.txt">
+[felix] Her şey yolunda, gerzek Bill kovuldu, bende götümü kurtardım.
+[bleedingcool] Harika. 
+[felix] Bill'den hep nefret ederdim. Bana iyilik yapmış oldun.
+[bleedingcool] 10 binlik ücrete laf yok tabi...
+[felix] Elbette.
+[felix] Sıkıntı yok değil mi?
+[bleedingcool] Hem de hiç. Aylarca kullanabileceğim özel dosya var. Önümüzdeki sene Yeni Brisby filmi çıktığında sana ulaşırım.
+[felix] Sonra.
+</file>
+  
+</Computer>

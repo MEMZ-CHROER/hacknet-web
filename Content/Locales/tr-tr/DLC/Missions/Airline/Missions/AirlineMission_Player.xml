@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="airline_player">
+  <goals>
+    <goal type="getadminpasswordstring" target="dpa_bookings"/>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="Uçuş - #PLAYERNAME#">
+Uluslarası bir uçuş firmasının rezervasyon sunucusuna eriş.
+  </posting>
+  <email>
+    <sender>Uçuş - #PLAYERNAME#</sender>
+    <subject>Uçuş</subject>
+    <body>
+Uluslarası bir uçuş firmasının rezervasyon sunucusuna eriş.
+----
+Direk konuya gireceğim. Gelecekte gerçekleştireceğim bir korunma projesi için "Pacific Air" isimli uluslararası uçuş firmasının rezervasyon sunucusuna erişmeliyim.
+
+Bir süredir bu konuyla ilgileniyordum. Sağlam ipuçları topladım. Rezervasyon Sunucusunun IP adresi zaten elimde. Ne yazık ki sunucuya girmek o kadar da kolay olmayacak.
+Özel güvenliğin yanında bir de beyaz liste (whitelist) sunucusu tarafından da korunuyor. Biz de dahil olmak üzere dış kaynaklardan gelen bağlantı istemlerini direkt olarak reddediyor. Sunucuya girmenin başka bir yolunu bulmalıyız.
+
+Sunucu Psylance Cyber Security tarafından işletiliyor. Kolay lokma olmayacak. Ne olursa olsun, izlerini kapat.
+
+Sunucuya girmenin yolunu bulduğunda yönetici şifresini görev tamamlama ayrıntılarına ekle.
+Şansın bol olsun.
+</body>
+    <attachments>
+      <note title="Görev Kılavuzu">
+Beyaz Liste sunucusunu incele
+LAX giriş noktasını kullanarak ağı keşfet
+Rezervasyon Sunucusuna eriş
+Yönetici şifresini görev tamamlama ayrıntılarına ekle.
+      </note>
+      
+      <link comp="dal_lax" />
+      <link comp="dpa_bookings" />
+      
+    </attachments>
+  </email>
+</mission>

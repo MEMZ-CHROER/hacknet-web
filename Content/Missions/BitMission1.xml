@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission01">
+  <goals>
+    <goal type="FileDeletion" target="bitMission01" file="@18907_Connection_From_XXX.XXX.XXX.XXX" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@18922_XXX.XXX.XXX.XXX_Given_Administrator_Access" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@18928_XXX.XXX.XXX.XXX_Acessed_File_[Valence_Dossier.pdf]" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@19002_XXX.XXX.XXX.XXX_Deleted_File_[Valence_Dossier.pdf]" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@19002_XXX.XXX.XXX.XXX_Disconnected" path="log" />
+  </goals>
+  <nextMission>BitMission2.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>Something in return</subject>
+    <body>Nice work! Here's where it's going to start getting harder.
+
+I need to ask a favor.
+I've been a little sloppy lately, which is what got me into this whole mess. It's why I'm writing this in the first place, I guess. Anyway, the point is, there's some logs on a few computers that I'd prefer weren't there. 
+You should remember this, if you forget everything else I tell you - Don't get sloppy. Delete your logs. If you haven't been, start now - everything you do on any modern OS is tracked and logged in the ~/log folder. Just go in there and >rm * the whole thing. Never forget to.
+
+Thanks. Good luck.
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <note title="Request Details">Delete all files in the target computer's ~/log folder
+The command "rm *" deletes every file in the folder you're currently in - use it carefully!
+      </note>
+      <link comp="bitMission01" />
+    </attachments>
+  </email>
+</mission>

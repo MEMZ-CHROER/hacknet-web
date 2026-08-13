@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="education01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Analyse de Pare-Feux et Solutions">
+Les pare-feux existent depuis très longtemps dans la sécurité informatique. Ils servent, le plus souvent, à empêcher le trafic automatique de réseaux étrangers plutôt que de sécuriser contre des hackers en particuliers.
+Les pare-feux modernes en revanche, peuvent être configurés pour empêcher *tous* les trafics critiques du point de vue de la sécurité, à moins qu'ils soient précédés d'une solution de pare-feu (que l'on désigne souvent aux utilisateurs comme un mot de passe - même s'il y a une nette différence entre les deux).
+
+Dans cette situation, la solution de pare-feu doit être fournie avant qu'une tentative de connexion non syndiquée soit tentée - ce qui signifie à proprement parler que tous les logiciels connus de piratage de mots de passe sont inutiles tant que le pare-feu est actif.
+
+La complexité d'un pare-feu peut être examinée avec la commande « analyze » - exécuter la commande analyze de nombreuses fois détectera automatiquement les modèles des en-têtes de données de réponse et éliminera les caractères qu'il peut garantir comme ne faisant pas partie de la solution correcte du pare-feu.
+Une fois une potentielle solution trouvée, la commande « solve [SOLUTION] » peut être utilisée pour tenter de syndiquer.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERREUR</subject>
+    <body>
+Recevoir cet email indique qu'une erreur inattendue est survenue.
+Veuillez paniquer.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

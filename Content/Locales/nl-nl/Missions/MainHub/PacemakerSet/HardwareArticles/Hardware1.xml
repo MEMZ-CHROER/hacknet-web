@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Kellis Biotech en jij">
+Kellis Biotech is een internationeel erkend, volledige dienst originele uitrustings fabrikant (OEM) gespecialiseerd in medische en comsetische apperaten.
+Van ontwerp tot productie op grote schaal, Kellis is industrieleindend in het maken van medische hardware, gespecializeerd in ingebedde micro-apperaten en operatie uitrusting.
+Onze standaarden komen met onze aanpak overeen, wat slechts gebeurt bij absolute betrouwbaarheid en stabiliteit - omdat wanneer het op gezondheid aankomt, we kwaliteit niet willen opofferen.
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+      Het ontvangen van deze email betekent dat er een onverwachte fout is opgetreden.
+      Raak in paniek.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

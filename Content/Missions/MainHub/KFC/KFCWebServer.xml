@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kfcWebServer" name="www.cfc.com" security="2" type="4">
+  <ports>80,25</ports>
+  <trace time="0" />
+  <addWebServer name="CFC Homepage" url="Content/Web/Presets/KFC/KFCHomePage.html" />
+  <positionNear target="kfcMainframe" position="0" total="3" />
+  <link target="kfcMainframe" />
+
+  <file path="home" name="ServerStructure.txt">WebAdmins - remember that this server is EXCLUSIVLEY for front-end content!
+All Company files should be hosted on the more secure mainframe and internal servers.
+This server maintains a link back to the mainframe for updating and maintenance purposes - do not modify this configuration!</file>
+  
+</Computer>

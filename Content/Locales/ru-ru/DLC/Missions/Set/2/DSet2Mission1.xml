@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ds2m1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Расшифровать и настроить программу для взлома SSL">Перенастрой найденный взломщик SSL, чтобы команда могла им пользоваться. Не забывай о гибкости и модульности. В идеале хорошо бы приложить полные инструкции.
+  </posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

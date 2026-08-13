@@ -1,0 +1,6 @@
+﻿﻿  ----- ATTENTION-----  
+
+config.sys dans ce dossier est un fichier système critique.
+NE PAS SUPPRIMER OU RENOMMER LE FICHIER
+Procéder ainsi fera crasher le tableau et le programme hôte
+Les changements apportés à la configuration doivent être faits uniquement pendant les coupures planifiées pour éviter ce problème

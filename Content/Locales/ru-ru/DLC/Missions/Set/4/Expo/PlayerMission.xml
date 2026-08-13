@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dFollowsMission">
+  <goals>
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="ds4_expo" destPath="home/talks/files"/>
+
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="dHGrave_Phone" destPath="eos/STORAGE"/>
+    <goal type="fileupload" target="dhsDrop" file="patch_checksum.chk" path="home/grave" destTarget="dHGrave_Phone" destPath="eos/STORAGE"/>
+    
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="ds4_grave" destPath="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Грейв на конференции">Исследователь безопасности делает доклад об уязвимости баз данных SQL. Разглашение этой информации может негативно повлиять на нашу работу. Замедлить его.</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>Грейв на конференции</subject>
+    <body>
+Исследователь безопасности делает доклад об уязвимости баз данных SQL. Разглашение этой информации может негативно повлиять на нашу эффективность. Замедли его.
+----
+Хотя мы совсем не против прогресса в сфере кибербезопасности, у нас есть серьезные мотивы немного замедлить ход этого конкретного исследования.
+
+Говард Грейв подготовил доклад об уязвимостях SQL, на котором представит патч, закрывающий ряд этих дыр. Нужно заменить его патч нашей версией, которая чуточку менее эффективна.
+
+Взломай серверы конференции и замени его демонстрационные файлы нашими подправленными архивами. Имей в виду, что придется заменить и архивы, и контрольные суммы, если они лежат рядом с архивами. Наши версии находятся на дроп-сервере.
+
+Не забудь забрать все - копии будут как на его личных устройствах, так и на главном сервере конференции.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="dhsDrop" />
+      <link comp="ds4_grave" />
+      <link comp="ds4_expo" />
+      <note title="Инструкция для выполнения миссии">Загрузи файл p_SQL_399.gz и его контрольную сумму с дроп-сервера
+Проникни на сервер конференции и на личные устройства Грейва и замени все экземпляры патча и его контрольной суммы файлами с нашего дроп-сервера.</note>
+    </attachments>
+  </email>
+</mission>

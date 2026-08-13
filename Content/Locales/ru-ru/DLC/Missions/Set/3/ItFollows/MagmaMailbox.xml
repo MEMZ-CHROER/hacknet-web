@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="ds3_mail" name="MagmaMailbox" security="1" type="4" icon="DLCSERVER" ip="26.26.62.62">
+
+  <proxy time="-1" />
+  <portsForCrack val="7" />
+  <ports>22, 21, 6881, 443, 80, 25, 104</ports>
+  <trace time="250" />
+
+  <customthemefile path="home" name="caution_standard_x-server.sys" themePath="DLC/Themes/CautionThemeStandard.xml"/>
+
+  <account username="cornch1p" password="SaltyChippies22" type="2" />
+  
+  <mailServer name="MagmaMailbox" color="224,52,0">
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(без темы)">IP-адрес твоего домашнего сервера 177.3.200.6, так? Добавь мой VPS в белый список, пожалуйста. IP-адрес 7.201.4.178.
+Тебе следует быть осторожнее. Я слышал, что ты создаешь много шума - это может привлечь лишнее внимание.</email>
+    
+    <email recipient="cornch1p" sender="temp_ACCC0" subject="(без темы)">Поговори с хакерами из западного сообщества. Выясни, правда ли Kaguya решил стать знаменитым.
+Действуй тихо. Действуй осторожно.</email>
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(без темы)">На этот раз Kaguya зашел слишком далеко. Советую проявлять терпение.</email>
+    
+    <email recipient="cornch1p" sender="do-not-reply@magmamailbox.com" subject="Автоматическое уведомление: Подписка продлена">Уважаемый cornch1p,
+Это автоматическое сообщение отправлено, чтобы уведомить вас о том, что ваша подписка MagmaMailbox продлена.
+Спасибо, что являетесь лояльным подписчиком самой безопасной почтовой службы в Интернете.
+С наилучшими пожеланиями,
+Команда MagmaMailbox
+---
+НЕ ОТВЕЧАЙТЕ НА ЭТО ПИСЬМО - ЭТОТ ПОЧТОВЫЙ ЯЩИК НЕ ПРОВЕРЯЕТСЯ.
+---</email>
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(без темы)">Спасибо, что связались с нами. Это сообщение было получено в прошлом месяце. Ты знаешь, от кого оно:
+---
+Dreadnought теперь носит имя "Kaguya".
+Он(?) сжег жесткие диски соотечественников и двинул на Запад.
+Мы пытались его выследить, но он умело заметает следы. 
+Оно живет.
+---</email>
+    
+    <email recipient="cornch1p" sender="do-not-reply@magmamailbox.com" subject="Автоматическое уведомление: Почтовый ящик удален">Уважаемый cornch1p,
+Это автоматическое сообщение отправлено, чтобы уведомить вас о том, что ваш почтовый ящик в MagmaMailbox был удален во время еженедельной чистки. Это просто уведомление: от вас не требуется никаких действий.
+С наилучшими пожеланиями,
+Команда администраторов MagmaMailbox
+---
+НЕ ОТВЕЧАЙТЕ НА ЭТО ПИСЬМО - ЭТОТ ПОЧТОВЫЙ ЯЩИК НЕ ПРОВЕРЯЕТСЯ.
+---</email>
+    
+  </mailServer>
+  
+</Computer>

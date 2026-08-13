@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jscottHome" name="Joseph Scott's Battlestation" security="3" icon="laptop">
+
+  <encryptedFile path="home/work" name="Decypher.dec" ip="101.0.89.154" header="DECYPHER - DO NOT SHARE" extension=".exe">#DECYPHER_PROGRAM#</encryptedFile>
+  <file path="home/work" name="DEC_Header_Analysasdsadsafds.txt">
+  Dit loopt serieus uit de hand. Eerst de problemen met het breken van de versleuteling zonder het goedgekeurde programma, nu dit?
+  Uitlezen van headers is *nog steeds* een groot probleem - er is de versleutelings ip waar, ja, dat is nog steeds een grote beveilingszorg hartelijk bedankt, het
+  kan me niet schelen dat het je debugsessie's makkelijker maakt en klantenrelaties.
+
+  Nou, hier is het werkend bewijs dat we problemen hebben. Ik laat stof eerst neerwaaien van de eerste bom, en dan gooi ik dit in de ring.
+  2 tegelijkertijd wordt misschien mijn ontslag, dus kijk wel of ik dingen kalm kan houden.
+
+  Oh DECHEAD.exe, waarom geef je me zo veel problemen?
+  Ik denk dat het outsourcen in het algemeen is.
+
+  Waarom blog ik naar een txt bestand..
+  Ughhh pijnstillers.
+  </file>
+  <file path="home/work" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+
+</Computer>

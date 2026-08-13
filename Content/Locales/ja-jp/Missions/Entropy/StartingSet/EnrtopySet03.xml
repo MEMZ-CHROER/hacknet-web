@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="*******"/>
+  </goals>
+  <nextMission>Entropy/StartingSet/Misc/MilburgReply.xml</nextMission>
+  <posting title="学校へ行こう">
+とある高校が私たちに相談を持ちかけてきました。高校のIT部門が生徒の個人情報に不正アクセスしている可能性を懸念しているようです。（生徒の親の依頼かもしれませんが、はっきりとしたことはわかりません）。どのファイルも削除することなく、ITスタッフのパスワードを秘密裏に入手してほしいとのことです。パスワードの入手さえしてもらえれば、あとは彼ら自身で捜査するそうです。
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>学校へ行こう</subject>
+    <body>エージェントへ
+    
+Milburgh高校の管理部が、彼らが雇っているIT管理スタッフのアカウントパスワードを秘密裏に入手できないか私たちに相談してきました。そのパスワードを使って、生徒の個人情報に関する内部調査をすることのことです。
+サーバーに存在するデータには一切手を加えないようにしてください。少しの改ざんでも、彼らの調査の妨げになってしまう可能性があります。サーバーに侵入し、侵入の痕跡を消し、発見したサーバーのパスワードをこのメールに返信することが今回のあなたの仕事です。詳細の送信など、学校との連絡はこちらにお任せください。
+
+健闘を祈ります。
+-Entropy管理部
+    </body>
+    <attachments>
+      <link comp="milburgHigh" />
+    </attachments>
+  </email>
+</mission>

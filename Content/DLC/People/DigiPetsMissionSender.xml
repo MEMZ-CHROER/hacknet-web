@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="minx" handle="Minx" firstName="Minxy" lastName="Jinxy" isMale="false">
+  <Birthplace name="Chicago" />
+  <Degrees>
+    <Degree uni="University of Chicago" gpa="3.1">Bachelor of Computer Science</Degree>
+  </Degrees>
+  <DOB>29/07/1991 02:22:00</DOB>
+  <Medical>
+    <Blood>AB</Blood>
+    <Height>158</Height>
+    <Allergies>Peanuts</Allergies>    
+    <Notes>Arm break at 16 years of age near the left shoulder healed with irregularities - see X-Ray in physical file.</Notes>
+  </Medical>
+  <Notes>
+  </Notes>
+</Person>

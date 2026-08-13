@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="csec_med_01" handle="Sal" firstName="Elanor" lastName="Helleran" isMale="false">
+  <Birthplace name="London" />
+  <Degrees>
+    <Degree uni="Manchester University" gpa="3.1">Master in Computer Science</Degree>
+  </Degrees>
+  <DOB>06/08/1991 14:22:00</DOB>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>167</Height>
+    <Allergies>KEINE</Allergies>
+    <Perscription>Amiodarone (Cordarone) x70 zwei-monatlich</Perscription>
+    <Notes>Bei der Patientin wurde eine Arrhythmie diagnostiziert. Ein zunächst leichter Fall, welcher jedoch durch eine Überdosis Koffein und/oder anderer Aufputschmittel verschlimmert wurde. Der Patientin wurde mehrmals und eindringlich geraten, ihren "Energydrink" und Koffeinkonsum zu reduzieren, dennoch kommt es häufig zu Rückfällen.
+Es wird geraten, die Patientin auf Stimulanzien (legal oder anderweitig) zu untersuchen, bevor eine Diagnose gestellt wird.</Notes>
+  </Medical>
+  <Notes>Press build medical case</Notes>
+</Person>

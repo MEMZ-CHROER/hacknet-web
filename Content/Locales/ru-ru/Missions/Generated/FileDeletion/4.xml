@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="GenMission">
+  <generationKeys File="GameFile_Source_Pak.zip" Path="home/code"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Illegal Clone of a #CLIENT# Product">
+На рынке появился прямой клон продукта этой компании,  принося пиратам прибыль за работу, котрая им не принадлежит. 
+Готовь наступительную атаку..
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - Там может мыть только один</subject>
+    <body>
+Агент, 
+
+наш #CLIENT# недавно выпустил новый продукт на App Store и, в течение нескольких дней продукт хорошо продавался,  но недавно мы заметили значительное падение. Мы выяснили, что причиной было то, что вор украл наше приложение и продавал его в магазине дешевле, чем у нас.
+ Конкуренция это конечно хорошо, но это полный клон нашего продукт, без каких-либо изменений! Они получают деньги и уважение за *нашу* работу! Это нужно прекратить.
+
+ Мы бы высоко оценили вашу помощь в *решении* этой проблемы. 
+Мы будем признательны, если ты  уничтожишь в их системе все, что только сможешь. Ссылка в приложении. 
+
+Спасибо, 
+- #CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

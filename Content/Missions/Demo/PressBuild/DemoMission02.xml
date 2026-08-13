@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pressdemoMission01">
+  <goals>
+    <sendemail recipient="gila" subject="MedicalRecord - Helleran_Elanor" />
+  </goals>
+  <nextMission>Demo/PressBuild/DemoMission03.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Ghosting the Vault</subject>
+    <body>Nice work - you're ready.
+Here's where we get to why I'm asking you for all this early. I'm still intending on throwing all of this up there on the net - I need as many chances at this as I can get, and as much as you're top of that list, I cant rely on just "best guesses" for this.
+There's debts to be paid, for people that helped me pull this together (even if they didn't know they were doing it).
+
+One in particular, Gila, a hacker friend of mine from CSEC traded some help with this project for a job - one that I cant do anymore. I've wiped my harddrives too clean to risk leaving a trace of anything at this last minute, so I'm being unreasonable again, and asking you.
+
+He wants a medical record lifted and sent to him. I've done what I can to sabotage the security of Int.Medical, so you should be able to make it in with what you've got now. I've attached details of what he wants below. This server's serious, so you'll need to clear your logs - don't be sloppy.
+
+This'll be your first real job - good luck.
+
+--Bit
+0
+    </body>
+    <attachments>
+      <note title="Mission Overview">
+Connect to the International Medical Database
+Break past active security
+(Probe/Programs/Porthack)
+
+Search for the record of
+"Elanor Helleran"
+Email the medical record to
+"gila@jmail.com"
+
+Clear all logs in the /logs folder (rm *)
+      </note>
+      <link comp="medicalDemo" />
+    </attachments>
+  </email>
+</mission>

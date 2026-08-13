@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet08_p2" activeCheck="true">
+  <goals>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Investigate a medical record">
+    Get a copy of someone's medical record to settle an argument.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>RE: Rod of Asclepius</subject>
+    <body>
+I...
+What? Really? You actually got this from th- It's legit right?
+I mean, I just....
+
+Wow.
+
+Yeah i just.. dont know what to believe anymore. Wow.
+
+Uh, yeah, thanks for the help though. I'm gonna go reevaluate my life.
+-G
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

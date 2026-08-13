@@ -1,0 +1,54 @@
+<ConditionalActions>
+
+  <OnConnect target="dhs" needsMissionComplete="false">
+
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-30.70">------------------------------------------------</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-30.75">!ANNOUNCEMENT!</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.0">*** iniciada función CHANNEL: ## k_rmt_BACKUPOVERRIDE.bat ##</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.2">*** Modo CHANNEL configurado: +b (ban) para el usuario @Coel</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.4">*** @Coel ha sido expulsado por CHANNEL</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.6">*** El usuario @Kaguya ha sido añadido por CHANNEL</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.8">*** El usuario @D3f4ult ha sido añadido por CHANNEL</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-32.2">------------------------------------------------</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-21.8">Hemos vuelto. </AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-20.8">@D3f4ult - ¿estás aquí? Parece que Coel intentaba desconectarnos.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-8.8">Sí, estoy aquí. Ha destruido mi portal principal. Estoy en un portátil temporal ahora mismo, me llevará un tiempo configurarlo de nuevo.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-6.8">Mierda... Te ayudaré a hacer una recuperación en un minuto. </AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-2.8">Hay ciertos temas que requieren mi atención.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-0.8">Como quieras. Avísame si necesitas mi ayuda.</AddIRCMessage>
+
+    <!-- Current time -->
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="1.2">Vale...</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="3.2">Ha caído. Se acabó.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="6.2">@#PLAYERNAME# , @D3f4ult, buen trabajo. Gracias por hacer esto.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="9.2">@D3f4ult , ojalá hubieras esperado a que Coel y yo solucionáramos esto antes de darte tanta prisa. No es un activo que podamos reemplazar. Jamás.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="15.2">@#PLAYERNAME#, gracias por entenderlo. Has tomado la decisión adecuada. Asumiré que la elección fue intencional y no hablaré más del tema.</AddIRCMessage>
+
+    <RunFunction DelayHost="dhs" Delay="16.0" FunctionName="deActivateAircraftStatusOverlay" />
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="20.8">¿Qué pasa con el segundo avión? Con los informes...</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="23.2">Yo... creo que podemos dejarlo.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="26.2">Sé que es un riesgo... Es solo que no creo que éste compense el coste que tendríamos que afrontar para asegurarnos.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="30.2">Hay mucho que procesar. Creo que no estoy pensando con claridad. ¿Qué opinas?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="34.0">Sí... Déjalo. Ya hemos cumplido con nuestro trabajo.</AddIRCMessage>
+    
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="37.2">Vale. Estoy de acuerdo.</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="41.2">Por ahora, creo que deberíamos disolvernos.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="45.6">Especialmente ahora que no está Coel, no es seguro que sigamos trabajando juntos, al menos en un tiempo.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="47.0">:(</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="48.2">Sí...</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="53.2">Tengo tus datos de contacto, cuando todo esto se enfríe, hablaremos.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="56.2">El próximo servidor eliminará vuestros rastreadores. Considerad las cosas que dejo atrás como vuestras.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="59.2">Ha sido un placer trabajar con vosotros. Gracias por vuestra ayuda.</AddIRCMessage>
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="62.2">Nos vemos, Kaguya, #PLAYERNAME#</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="65.2">Tened cuidado. Pero no demasiado ;)</AddIRCMessage>
+    <!-- Kaguya copy over crash assets to personal server here -->
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="67.2">!ATTACHMENT:link#%#Proyectos_Kaguya#%#54.183.231.34</AddIRCMessage>
+
+    
+  </OnConnect>
+
+</ConditionalActions>

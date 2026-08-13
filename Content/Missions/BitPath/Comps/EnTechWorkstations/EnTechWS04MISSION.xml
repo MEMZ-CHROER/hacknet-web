@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnWS04" name="EnTech Workstation _008" security="5" type="3" ip="156.151.0.42">
+
+  <ports>80, 22, 104</ports>
+
+  <portsForCrack val="3" />
+
+  <trace time="78" />
+
+  <admin type="fast" resetPassword="true" isSuper="true"/>
+  
+  <file path="WORKSTATION/store" name="comp.bin">#BINARY#</file>
+  <file path="WORKSTATION/store" name="MedStreamRef.txt">As per our talk, here's my written permission to keep the stream on your desktop open. As we discussed, save a copy of this locally to show to anyone that questions you on it. If they dont believe you, send them to me.
+To others reading it, the operator of workstation 008, a Mr. Jorioni has a serious heart condition - software to help him monitor it streams data to his workstation, which we've assisted him set up to he can keep track of his condition in case of emergency.
+We've gone to exceptional efforts to help Mr. Jorioni find a place here as part of our new "workplace Diversity" plan.
+Further issues with his setup can be directed to me personally.
+
+-D. Tagg,
+HR Director.
+  </file>
+  <file path="WORKSTATION/store" name="StoreServIPs.txt">--STORAGE SERVER IPS--
+Prometheus (In-Progress development project storage)
+156.151.1.1
+
+Romulus (Deployment / Compile server (Also deployment build upload))
+156.151.1.12
+  </file>
+  <file path="WORKSTATION/store" name="AssetPack_012.zip">#BINARY##BINARY#</file>
+  <file path="WORKSTATION/store" name="AssetPack_013.zip">#BINARY##BINARY#</file>
+  <file path="WORKSTATION/store" name="Prometheus.txt">
+    d88vAnnX
+  </file>
+  <file path="WORKSTATION/hn_os" name="Hacknet_NetCore.dll">#BINARY##BINARY#</file>
+  
+
+  <positionNear target="EnTechWSCore" position="8" total="12" />
+
+</Computer>

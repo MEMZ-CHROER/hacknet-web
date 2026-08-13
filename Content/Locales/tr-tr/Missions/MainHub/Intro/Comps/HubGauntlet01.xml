@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hubTestComp01" name="CSEC Invitation Gauntlet" security="2">
+  <link target="hubTestComp02" />
+  <file path="home/Test" name="CONTINUE.txt">
+Testin sıradaki aşamasına geçmek için bağlantılı sunucuya gidin.
+  </file>
+  <firewall solution="KRAKEN"/>
+  <proxy time="0" />
+  <account username="admin" password="easy" />
+</Computer>

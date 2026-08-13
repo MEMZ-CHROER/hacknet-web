@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="avconCreditsComp" name="Avcon Credits Server" security="0">
+  <addAvconDemoEndDaemon name="Demo End" />
+  <file path="home" name="Entropy_Contact.txt" >
+    Offenbar sucht die Hackergruppe "Entropy" nach neuen Mitgliedern - die haben eine Aufnahmeprüfung und alles.
+
+    Du kannst dich mit dem Server "199.59.149.230" verbinden.
+    
+    -M
+  </file>
+  <file path="home" name="ProxyOverloadGuide.txt" >
+    Um einen Proxy zu überlasten, musst du erst ein paar Shells auf Netzwerkknoten ausführen, auf denen du Adminrechte hast.
+    Dafür muss lediglich die Funktion 'shell' ausgeführt werden (tippe: "exe shell").
+    
+    Hast du erstmal mehrere Shells unter deiner Kontrolle, nutze ihre "Überlasten" Funktion, während du mit dem Zielcomputer verbunden bist.
+    Die Shells werden daraufhin den Proxy mit Traffic fluten und so überlasten, sodass dieser vorübergehend ungeprüften Datenaustausch erlaubt.
+    
+    Dies erlaubt für ein genügend großes Zeitfenster Programme, die der Proxy normlaerweise blockieren würde, uneingeschränkt auszuführen.
+    -M
+  </file>
+  <file path="home" name="Credits.txt" >
+    -----HackNet-----
+
+    A Game by:
+    --Matt Trobbiani--
+    Twitter: @Orann
+    Email: mtrobbia@gmail.com
+
+    Flavour Text and Logos:
+    --Sarah Riggall--
+
+    Appearance Concept
+    Jeryth
+    http://www.reddit.com/user/jeryth
+
+    -Music-
+    Revolve - Hisboyelroy
+    Leviathan - Kirkoid
+    Ana - Hisboyelroy
+    www.ccmixter.org
+
+    -Testing and Thanks-
+    Tristan "tijit" Trabilsie
+    Jamie Williamson
+    Alex Mackay
+    Noblekale
+    Chris Johnson
+    Sam Crisp
+    Dylan Sale
+    Richard Taylor
+    Ben Kislby
+    Matt LeKrupa
+    Brad Wesson
+    Jamie Pillianaros
+  </file>
+  <file path="sys" name="DefaultBootModule.txt" >[Locked]</file>
+  <!--
+  <addEmailDaemon />
+  -->
+</Computer>

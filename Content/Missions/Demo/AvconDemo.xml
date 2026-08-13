@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="avconMission">
+  <goals>
+    <goal type="getAdmin" target="avconComp"/>
+  </goals>
+  <nextMission>Demo/AvconDemoEnd.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Maiden Flight</subject>
+    <body>Congratulations!
+
+That sort of software isn't found just anywhere.
+    
+You should try something a little more interesting - if Viper had the sort of thing he's known for getting lying around, you should have everything you need to get into something more secure.
+How about the computer next to you, running the Glove Slap Demo? See if you can get in and open the CD tray.
+
+Remember, any non-basic programs you get need a port number to run - like this:
+
+>SSHCrack 21
+ ^filename ^portnumber
+     
+Just find a port you want to crack and run it on that.
+
+Make sure you look over and see if it worked.
+
+Good luck!
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <link comp="avconComp" />
+    </attachments>
+  </email>
+</mission>

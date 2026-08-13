@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dAttackHome" name="Striker_Battlestation" security="3" ip="72.60.4.119" type="empty" >
+
+  <trace time="-1" />
+  <portsForCrack val="1" />
+  <ports>22, 21, 80, 6881, 443</ports>
+  <portRemap>ssh=1</portRemap>
+  <proxy time="0.1" />
+
+  <file path="home/uni" name="assignments.txt">大学の学年サーバーに侵入して都合よく書き換えるのと、普通に課題をやるのと、どっちが楽かはわからない。当然楽しいほうだいいが、う、あんなの要塞じゃないか。
+サイバーセキュリティーの単位のために成績をハッキングしようなんて考えはやっぱりおかしいんだろうか。
+  </file>
+
+  <file path="home/uni" name="notes.txt">todo:
+  
+芸術理解3 (UA101-3)
+芸術理解4 (UA101-4)
+コミュニケーション101 3
+
+作業中：
+映像学入門1 (IFS-1)
+送信準備完了：
+CMS101-1
+CMS101-2
+
+今考えていること：
+嫌だ嫌だ嫌だこの馬鹿共が文章くらいまともに書け大学生だろうが大人だろうが！！！</file>
+
+  <file path="home/uni" name="IFS1-1-film_study.doc">#BINARY#</file>
+
+  <file path="home/uni" name="CMS101-1-reading_comprehension.doc">#BINARY#</file>
+
+  <file path="home/uni" name="CMS101-2-understanding_paragraphs.doc">#BINARY#</file>
+
+  <file path="home/themes/CCTThemePack" name="This_Pack_Downloaded_From_CoolComputerThemes.Rice.txt">
+    これはCoolComputerThemes.Riceからダウンロードされたテーマパックです！ クールなテーマならおまかせ！
+  </file>
+  <customthemefile path="home/themes/CCTThemePack" name="Hora_x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+  <customthemefile path="home/themes/CCTThemePack" name="HoraAlt_x-server.sys" themePath="DLC/Themes/HoraThemeAlt.xml"/>
+  <customthemefile path="home/themes/CCTThemePack" name="Miami-blue_x-server.sys" themePath="DLC/Themes/MiamiThemeLightBlue.xml"/>
+
+  <file path="home/themes" name="CCTThemePack.zip">#BINARY##BINARY#</file>
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+
+  <positionNear target="dAttackSource" position="90" total="360" extraDistance="0"/>
+
+</Computer>

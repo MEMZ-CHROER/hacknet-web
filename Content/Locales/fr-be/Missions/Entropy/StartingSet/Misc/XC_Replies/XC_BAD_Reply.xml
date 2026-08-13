@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="xcRepBAD" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+ERREUR DE PUBLICATION INCONNUE
+  </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>RE : Enquêtes internes</subject>
+    <body>
+Oh, eh bien... 
+
+Ça n'a pas vraiment l'air... professionnel. J'imagine que je vais devoir parler avec notre estimé docteur à propos de... l'usage approprié des ressources du projet à l'avenir. 
+
+Merci de m'en avoir parlé,
+ -C. O Bradford.
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

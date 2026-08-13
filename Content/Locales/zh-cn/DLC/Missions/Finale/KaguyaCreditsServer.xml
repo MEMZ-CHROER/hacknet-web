@@ -1,0 +1,223 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dCredits" name="Kaguya_计划" security="4" type="empty" ip="54.183.231.34">
+
+  <portsForCrack val="1" />
+  <ports>21</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="-1" />
+  <portRemap>21=1886</portRemap>
+
+  <DLCCredits />
+
+  <file path="bin" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+  
+  <file path="home" name="Prospectives.txt">
+Potential Candidates
+--------------------------
+
+
+        
+Shimo7even
+        - Country: Japan
+        - Leader of L0sExtraditables
+        
+d3f4ult
+        - Country: Japan
+        - BotHerder, BushidoBot 
+        
+L0m1s
+        - Country: UNKNOWN
+        - Ransomware Dev, Web Exploitation
+        
+meepkittyfXck
+        - Country: Canada/Sweden
+        - Social Engineer, Disinfo 
+        
+Bit
+        - Country: Australia
+        - Exploit/Tools Dev
+        
+Lorde_Bashtien
+        - Country: Miami, USA
+        - Carder, Social Engineer
+        
+Sh1n0d4
+        - Country: Japan (?)
+        - BushidoBot dev
+        
+Coel
+        - Country: Germany
+        - CybserSec expert
+        
+MLT
+        - Country: UK
+        - Exploit Dev, 0day Hoarder
+        
+RainShatter
+        - Country: UNKNOWN
+        - Disinfo, target analysis
+        
+#PLAYERNAME#
+        - Country: #PLAYERLOCATION#
+        - Unknown - 0day tech?
+
+</file>
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/FloatVoidTheme.xml"/>
+  <customthemefile path="home/themes" name="FloatVoid_x-server.sys" themePath="DLC/Themes/FloatVoidTheme.xml"/>
+  <customthemefile path="home/themes" name="FloatVoidAlt_x-server.sys" themePath="DLC/Themes/FloatVoidThemeStandard.xml"/>
+  <customthemefile path="home/themes" name="Deep_x-server.sys" themePath="DLC/Themes/MiamiThemeLightBlue.xml"/>
+  
+
+<file path="home" name="CreditsData.txt">
+%---  迷宫计划  ---
+
+^设计与开发
+Matt Trobbiani
+
+^写作
+Damon Reece (@demanrisu)
+Matt Trobbiani (@Orann)
+
+^标识与图表
+W O V A Studio
+www.wova.pl
+
+^Neopals艺术家
+Poppy de Raad (@pixecology)
+
+^键盘照片
+/u/koalapear
+
+^背景
+Angelus-Hellion
+angelus-hellion.deviantart.com
+
+^Music
+Music Supervision: Fabian Malabello (The Otherworld Agency) 
+
+OGRE - Snidely Whiplash 
+Tonspender - Slow Motion
+Remi Gallego - Clear Text 
+Remi Gallego  - Payload (AKA Userspacelike)
+Remi Gallego  - Sabotage (AKA Altitude_Loss)
+Cinematrik - World Chase
+HOME - Resonance
+HOME - Dream Head
+
+^Bonus Writing Help
+Aisha Black
+Hanna Siek
+
+^Icons
+Pavel Kozlov
+Gregor Cresnar
+Lucy G
+
+^Community Managers
+Colamaeleon
+RainShatter
+Aidy
+
+^Testers
+Peer
+phonic88
+Colamaeleon
+Scratch
+SpadeGamer_Dallas
+Rain Shatter
+Chris Johnson
+p4l4d1n
+
+^Special Thanks
+Hanna Siek
+Jamie Williamson
+Bec Pelvay
+Chris Johnson
+Chelsea Easton
+Alex Mackay
+Lauren  Clinnick
+Morgan Jaffit
+Sasha Mattschoss
+Izzy Gramp
+Ben Trobbiani
+Stephen Trobbiani
+Laura Trobbiani
+Gabriele Trobbiani
+Pam Carroll
+
+^- Localization -
+
+First pass translation to F/S/R/G/K by Game Scribes
+Team lead by William Farrell
+
+^Community translation polish teams:
+
+^Russian
+Ray Volkov
+
+^French
+Julien Genaille
+
+^German
+Hanna Siek
+Jonas Schloemer
+
+^Korean
+Hong-gi Lee
+
+^Spanish
+Nahuel Peruzzo
+
+^Chinese
+CE Asia Translation team
+Chenxiao Liu + Team
+Shuangnan Liu
+Zhouyue Chen
+Sonkwo Team
+
+^Japanese
+PLAYISM translation staff
+(Special thanks to Hugo though!)
+
+^ - Published by Fellow Traveller -
+Chris Wright
+Drew Taylor
+Stephen Heller
+Lex Suurland
+Fiona Murray
+James Kozanecki
+Marla Fitzsimmons
+
+</file>
+  
+  <Memory>
+    <Data>
+      <Block>damon.txt
+
+damon reece，也就是在DLC里塞了一堆冷笑话的那个家伙，说：
+
+感谢我的充满创意的作家朋友们——lucy, lauren, saf, bridget, zoe, livs, soha, jess, ash, em, kim, craig, shoe, sled。你们都是英雄，我不知道没了你们我还能做什么！
+
+感谢matt，感谢你把我带到这个项目来，感谢你一直是一个如此容易被毁灭的软目标。诸如此类的事不会再重现了，除非他犯下某种巨大的错误并且以后再次雇佣我。我并不感到抱歉
+
+感谢你购买并游玩这款酷炫的、严肃的、愚蠢的、疯癫的、~戏剧性的~扩展包。正是你这样的人这么做了，像matt和我这样的人才能追寻我们的梦想做出炸裂的视频游戏，这真是极好极棒的。
+
+另外，还要特别提一下用《潜龙谍影3》的截图恶搞dril tweets的那个twitter账号。你是真正的mvp</Block>
+    <Block>matt.txt
+
+老实讲，我觉得我对一大堆冷笑话也是负有责任的。
+
+感谢Damon，感谢你出色地完成了写作任务，还有上面列出的每个人，感谢你们的神奇与支持。
+做这样的工作真的让人倍感压力——你们都帮了我很多。
+
+谢谢大家
+    </Block>
+      <Block>54.192.133.33</Block>
+    </Data>
+  </Memory>
+  
+</Computer>

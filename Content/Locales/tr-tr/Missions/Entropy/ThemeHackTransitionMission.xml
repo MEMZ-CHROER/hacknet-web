@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyToThemeHackTransitionMission" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="themeHackTransComp" file="Macrosoft_Internal_Raid_Archive.rar" path="home" />
+  </goals>
+  <missionStart val="0">entropyAddSMTPCrack</missionStart>
+  <missionEnd val="0">triggerThemeHackRevenge</missionEnd>
+  <nextMission>Theme/ThemeHackEndMission.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Saldırganlık Cezalandırılmalı</subject>
+    <body>
+#PLAYERNAME#, 
+
+Kısa sürede yeteneklerini kanıtlamayı başardın. Etkilendiğimi belirtmeliyim.
+
+Bir süredir canımı sıkan bir mesele var. Bana yardım etmeni istiyorum. "Naix" isimli bir hacker var... acemi gibi görünse de yetenekli bir hacker. Son zamanlarda... biraz agresif davranıyor. Macrosoft Inc.'den fazla sayıda veri çaldığını iddia ediyor.
+
+Entropy aktif bir şekilde kamuoyunun gözündeki hackerlık imajını değiştirmeye çalışıyor. Yasadışı yöntemler kullandığımız zarar verme amacı güttüğümüz anlamına gelmiyor zaten. Naix ise bu çabamıza epey zarar veriyor.
+Çaldığı verileri silmeni istiyorum. Macrosoft sunucusuna bağlandığı IP'yi postaya ekledim. Veri arşivi orada olmalı.
+
+Ayrıca işine yarayacak bir programı da Asset Server'a ekledim.
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="themeHackTransComp" />
+    </attachments>
+  </email>
+</mission>

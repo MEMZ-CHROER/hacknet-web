@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="lelzSec0">
+  <goals>
+    <goal type="FileChange" target="nortronWebServer" file="index.html" path="web" keyword="dicks"/>
+  </goals>
+  <missionStart val="10">changeSong</missionStart>
+  <nextMission>lelzSec/NortronBreakIn.xml</nextMission>
+  <branchMissions>
+    <branch>Theme/ThemeHackEndMission.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Naix</sender>
+    <subject>よくやった GJ</subject>
+    <body>
+OK、わかった、わかったよ。十分だろ。もうやめてくれよ。
+
+あんたの箱にログを残したのはこっちの落ち度だ。だけどあんたも、自分がいったい何をしでかしたのかわかってなかったっぽいな。
+まあでも、今回のことはお互いにとってよかったんじゃないか？完全な馬鹿以外のやつとネットで出くわすなんて、そうあることじゃないだろ。
+
+で、あんたを試したいんだ。きっと楽しいと思う。存在が冗談としか思えないセキュリティ会社があるんだ。Nortron。知ってるか？
+マジレスすると、あいつらのセキュリティソフトを買うくらいならウイルスをぶち込んだほうがマシ。ありゃただのゴミだ。あいつらは、セキュリティのセの字も知らない奴らに売って儲けてんのさ。
+
+最近の趣味は、あいつらのホームページにイタズラすることなんだ。ページじゅうチンコの隠語、「dicks」って言葉で埋め尽くしてやるのさ。タイトルにdicks、ヘッダーにdicksってな感じさ。あんたもやってみなよ。ホームページを丸ごと、DICKSの一言にしちまってもいい。
+お遊びでハックティビズム活動をやってるんだったら、あんたのユーモアセンスを見せてくれよ。あんたがやってた「お仕事」より、こっちの方がよっぽど楽しいだろ？
+
+-Naix
+
+追伸: あんたはまだ本物のセキュリティがなんなのかわかってないだろうから、赤ちゃんでもできるハッキングガイドのリンクを教えてやるよ。楽しめよ！
+    </body>
+    <attachments>
+      <link comp="nortronWebServer" />
+      <link comp="netEduComp" />
+      <note title="Instructions">タイトルの何かを「DICKS」に書き換えろ。
+他の言葉でもなんでも、面白ければなんだっていい。</note>
+    </attachments>
+  </email>
+</mission>

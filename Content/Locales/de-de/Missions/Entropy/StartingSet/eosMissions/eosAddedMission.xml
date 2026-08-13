@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="eosAdded1">
+  <goals>
+    <goal type="getString" target="warsix22"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Smash N' Grab">
+Ein Klient möchte einige Informationen über das Telefon seines Kollegen zugesendet bekommen.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Smash N' Grab</subject>
+    <body>
+Agent,
+
+dieser Auftrag erfordert Erfahrung mit eOS Geräten und deren Sicherheitssystemen - ein Klient sucht nach Informationen - einem Passwort, um genau zu sein - auf dem Telefon seines Kollegen. Er hat - wie angefordert - die IP des Computers, mit dem das Phone synchronisiert ist, bereitgestellt.
+
+Der Link ist dieser E-Mail angefügt. Du suchst nach einem der verwendeten Passwörter - sende alle, solltest du mehrere finden - der Verification-Bot wird dann alle davon ausprobieren.
+
+Viel Glück,
+-Entropy Admins
+    </body>
+    <attachments>
+      <link comp="eosAdded1Comp" />
+    </attachments>
+  </email>
+</mission>

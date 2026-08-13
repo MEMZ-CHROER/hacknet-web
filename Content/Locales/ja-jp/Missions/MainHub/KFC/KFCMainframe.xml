@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kfcMainframe" name="CFC Corporate Mainframe" security="5" type="4">
+  <trace time="320" />
+  <proxy time="0" />
+  <firewall level="0" />
+  <dlink target="kfcWebServer" />
+  <dlink target="kfcRecordsRepo" />
+  <admin type="fast" resetPassword="true"/>
+
+  <file path="home/training_files" name="New_Employee_Welcome_Email.txt">
+    %NAME%、
+
+    CFCチームにようこそ！
+
+    Kernel's Food Cornerでは最高のチームと共に働き、素晴らしい経験を積むことができます。社員一同、ともに働くあなたがすてきな時間を過ごせることを願っています！
+    チームの一員として、あなたには社員専用の12%割引カードが与えられます。このメールに添付されているので、どうぞ使ってくださいね！
+
+    初シフト時に、作業内容や店の内装などに関する説明を行います。ではあらためて、CFCチームにようこそ。
+
+    -経営陣
+  </file>
+
+  <file path="home/training_files" name="11_Secret_Herbs_And_Spices.txt">
+    単に興味があるからなのか、会社の情報に首を突っ込みたいからなのかはわかりませんが、多くの新人社員が秘伝のレシピについて質問してきます。残念ながらこのレシピは、全ての社員に公開するにはあまりに重要な情報です（社員の残存率が低いことを鑑みればなおさらです）。公開範囲の制限が、レシピを守ることにつながるのです。
+    調合されたスパイスは無地の白いビニール袋に入れて定期的に店舗に発送され、マニュアル通りに衣と混ぜ合わせられます。
+
+    管理上の理由から、経営陣ですらレシピを知らされていません。実はどんなときも、レシピを知る人間は世界じゅうにたった2人しかいないのです（そしてこの2人は同じ乗り物で同時に移動することを認められていません）。
+
+    細心の注意を払って管理し、秘密を漏らさないことで、完璧なチキンのための調合レシピは安全に守られているのです。
+  </file>
+  <file path="home/training_files" name="Order_Records_Guide.txt">
+    注文の記録は店舗ごとにローカルで記録をつけ、整理された記録は一年に一回CFCの記録用中央レポジトリに送ること。
+    注文した材料の内容も同じレポジトリに保存することとし、この記録は緊急時（食中毒問題などが発生した場合）、もしくは個人的に支給が行われる場合のみ、要求に応じて印刷した形でのみ閲覧が許される。
+
+    CFC記録用レポジトリ: 202.7.177.65
+
+  </file>
+
+
+  <file path="home/Media" name="Logo.png">#BINARY#</file>
+  <file path="home/Media" name="Logo_Small.png">#BINARY#</file>
+  <file path="home/Media" name="MediaKit_2011.zip">#BINARY##BINARY#</file>
+  <file path="home/Media" name="Guide.txt">
+    Kernel's Food Cornerで働く私たちには使命があります。それは、「世界で1番おいしいチキンをお届けする」こと。
+    世界で1番おいしいチキンを作るため、私たちは世界で1番の材料を求め、鶏を丸ごと新鮮なまま調達することにしました。
+    そして私たちは、ハンドメイドで作りたて、秘伝のレシピを使ったチキンを私たちの店舗ならどこでも味わえるようにしたのです。
+    簡単？いやいや。このチキンのおいしさは、一口味わえばわかります。私たちがいかに努力してきたかもね。
+    作りたての味が1番。あなたもお近くのお店で、CFCのチキンを一度試してみてください。
+  </file>
+
+</Computer>

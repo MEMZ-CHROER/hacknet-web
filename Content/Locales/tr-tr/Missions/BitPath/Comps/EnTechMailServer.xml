@@ -1,0 +1,148 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="enMail" name="EnTech Mail Server" security="5" ip="156.151.59.82">
+
+  <adminPass pass="ax889msjA" />
+
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+
+  <positionNear target="EnTechMainframe" position="5" total="6" />
+  <account username="nstanford" password="murloc33" type="2" />
+  <account username="hnManager" password="hnmanager22" type="2" />
+  <account username="bcarter" password="dota4lyf" type="2" />
+  <account username="rc" password="byC89kMMe" type="2" />
+  
+  <mailServer name="EnTech Mail" color="0,129,242">
+    <email recipient="nstanford" sender="EnTech Management" subject="Hacknet Projesi - Güncelleme">
+Merhaba millet,
+
+Öncelikle ilerlemenin fevkalade olduğunu söylemeliyim. Bağlantı modülünde karşılaştığımız aksaklıklara rağmen bitirme süresi açısından iyi durumdayız. Hepiniz harika işler başarıyorsunuz. Daha önceden karşılaştığımız bazı sorunları dış yükleniciler ele almaktaydı. Onlar da oldukça etkileyici sonuçlar gösterdiler!
+
+Bu projenin herkesi aydınlattığını ve dijital güvenlik sorunlarının çözümünde kullanılacak doğru kaynak olduğunu düşünüyordum. Bu düşüncelerim sayenizde iyice kuvvetlendi.
+Aynı kendi sınırlarımızı zorladığımız gibi sistemlerin sınırlarını da zorlayarak EnSec teorisinde ve gerçekleştirilmesinde büyük engelleri aştık. Proje şu ana dek bize bugüne kadarki en büyük yardımı yaptı ve bunu görmek de bizi cesaretlendiriyor.
+
+Gelişmeleri size bildireceğim,
+Kolay gelsin.
+-RC
+    </email>
+    
+    <email recipient="nstanford" sender="EnTech Management" subject="Hacknet Projesi - Endişe ve Cevap">
+Merhaba millet,,
+Mühendislerimizden birisi projenin ilerleyişi hakkındaki endişelerini dile getirdi. Söyledikleri:
+"Eğer bu geliştirdiğimiz şey kötü niyetle kullanılırsa, son derece tehlikeli bir araç olabilir. Dağıtımın kesinlikle dikkatli bir şekilde gerçekleştirileceğinin ve izleneceğinin garantisini veremezseniz, bu proje üzerinde iyi niyetle çalışabileceğimden emin olamam."
+
+Çok önemli bir noktaya parmak basılmış. Şeffaflık açısından düşününce de tüm şirket çalışanlarına söylemek istediğim şeyler var.
+Daha önce söylediğim gibi, dağıtım ve izleme, tasarımın ilk aşamalarından bu yana sorun teşkil edebilir olarak işaretliydi. Güçlü makineler oluşturmanın özünde yer alan sıkıntılarından birisi kötüye kullanımın doğurduğu güç sonuçlardır. Bu sorununun çözümünde yapılacak en iyi şey harici uzmanların yardımına başvurmaktı. Bende öyle yaptım ve mükemmel sonuçlar elde ettik.
+Henüz elimde size sunabileceğim bir şey olmasa da, bu sorunun farkında olduğumdan ve bu konuda sizlere bilgi vermeye devam etmek istediğimden emin olabilirsiniz. Şu anki duruma göre, sistemimizin *tamamlanmış* halinde belirsiz aralıklarla devreye giren ve yapımın erken aşamalarında bile sorun oluşturacak durumları bildiren bir izleyici yer alacak. 
+
+Çalışmaya devam.
+-RC
+    </email>
+    
+    <email recipient="nstanford" sender="bcarter@entech.com" subject="Yanıt: Romulus Şifresi"> 
+Hey,
+
+Sana bunu en başında bildirmemiz gerekirdi diye düşünüyorum. Romulus'un yönetici şifresi:
+
+h7ggNKl2
+
+Masaüstünde bağlantı kısayolu olması gerek ancak eğer bağlanamazsan, 156.151.1.12 adresini gir.
+
+Kolay gelsin.
+-Ben
+    </email>
+
+    <email recipient="nstanford" sender="Hacknet team Management" subject="Hacknet Ekibine Hoşgeldin">
+Merhaba. Hacknet ekibine hoşgeldin. Projenin hassasiyetinden ötürü ekipteki katılımınız projedeki diğer çalışanlardan ayrı tutulacak. Ayrıca, projenin birleşmiş halini görecek olursanız da çok nadir göreceksiniz.
+Bu yüzden herkese projenin genel hedefleri ile ilgili içerikleri bildirmek istedik.
+
+Hacknet OS her yönüyle çığır açan bir güvenlik sistemi örneği ve girinim yapısı olarak tasarlanmıştır.
+EnTech'in bunu pazarlama ve diğer güvenlik yazılımlarına karşı üstünlüğünü göstererek yeni dijital güvenlik yazılım paketi (EnSec)'e eşlik etmesi için üretmektedir. 
+Projenin kalbi olan Hacknet pazarlama aygıtı olsa da tek başına düşünüldüğünde yaratılan en güçlü ve iddialı AntiSec araçlarından biridir.
+
+Ekibimize hoşgeldin. Eminim projemizin inanılmaz derecede heyecan verici olduğu konusunda bizimle hemfikir olacaksın.
+-Hacknet Ekip Yönetimi
+    </email>
+
+    <email recipient="nstanford" sender="EnTech Management" subject="EnTech Mevcut Proje ve Yönetim">
+Merhabalar. EnTech'e hoşgeldin!
+Mevcut durumda iki büyük proje üzerinde çalışmaktayız. Yakında ekibinizce daha ayrıntılı bir proje tanıtımı yapılacak. Bu e-postada ise şu anki hedefimizden ve projelerimizi nasıl bağlantılı tuttuğumuzdan kısaca bahsedeceğim.
+Öncelikle projemiz olan EnSec tamamıyla yeni bir bilgisayar güvenlik paketidir. Bu projedeki amacımız bilgisayar güvenliği konusunda devrim yapmaktır. İnsan hatası her zaman güvenlik sistemlerinin sorunlarından birisi olmuştur fakat bizler insan hatasının oluşacak *tek* sorun olacağına inanıyoruz. Bilgisayarlardaki insan hatası olasılığını azaltarak ve hatta ortadan kaldırarak ve yeni sistemimizi kullanarak dijital güvenliği iş olmaktan çıkartacak, bir seçenek haline getireceğiz.
+Hacknet OS ise mevcut güvenlik sorunlarını açıkça göstermek ve en iyi güvenlik seçeneği olduğuna inandığımız değer önerisini sunmak için yazılmıştır ve EnSec projesine eşlik etmektedir.
+
+Ekibe hoşgeldin!
+-RC
+    </email>
+    
+    
+    <!-- CEO emails -->
+
+    <email recipient="rc" sender="Anonymous" subject="YANIT(5): Yeni Sorun - Bit">
+
+      Ödeme alındı. Anlaşma tamamlandı.
+      ---
+
+      Siktirsiktirsiktir... ne yaptın lan sen? İstediğim bu değildi.
+      Ben bunu istememiştim psikopat herif! Tanrım...
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="YANIT(4): Yeni Sorun - Bit">
+
+      Hedef vefat etti.
+      Ödeme SÖZ VERİLDİĞİ gibi gerçekleştirilecek veya çalışanlarım sorunu müşteri ile birlikte çözecek.
+      ---
+      
+      Henüz ölmediyse geç kalmış olmayız. İptal et. Ödemeyi geri alacağım. Ben seni bu yüzden tutmadım amına koyayım.
+      Projeye kattığın kişisel değerlerin bir yana, senin aptal yanlış anlaman yüzünden suç ortağı olmayacağım lan.
+
+    </email>
+    
+    <email recipient="rc" sender="bcarter@entech.com" subject="YANIT: Ana Sunucu Acil Durum Erişimi">
+      
+      Kesinlikle.
+
+      Kullanıcı Adı: admin
+      Şifre: v19328hQ9
+      
+      Sen işini halledene kadar otomatik otomatik şifre değişiklik döngüsünü devre dışı bırakacağım.
+      -Ben
+      
+      ----
+      Bir şey çıkageldi. Bakabilmem için ana bilgisayara erişmem gerek. Son zamanlardaki erişimleri ve ayarlarmaları araştıracağım. Bu yüzden de yönetici erişimine ihtiyacım var.
+
+    </email>
+    
+    <email recipient="rc" sender="Anonymous" subject="YANIT(3): Yeni Sorun - Bit">
+
+      Çok geç. Onu durduramam. Meçhul. Eğer belli bir işlemin yapılmasını istiyorsan açık cümleler kurmalısın.
+      ---
+      Öldü mü? Ne diyorsun lan sen? Senden adamı içeri tıkıp bilgisayarlarını parçalamanı istemiştim, öldürmeni değil. Şimdilik iptal et. Bu iş boyunu aşalı çok oldu, kendim halledeceğim.
+      
+      Yer almasını istediğim projeye karşı çıksa da bu adam dahi. Tanrı aşkına onu durdurmanın bir yolunu bul.
+      Eğer bu konuda ciddiysen kişisel olarak seni sorumlu tutarım. Benim taşak geçme.
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="YANIT(2): Yeni Sorun - Bit">
+
+      Emri çıkardım. Pahalıya patladı. Bu hafta bitmeden ölecek.
+      Her zamanki gibi senin hesabına yükledim.
+      ---
+
+      Yönetim kurulunda olman iyi oldu. Bu sefer tam olarak ne planlıyorsun peki? Adam önemli ve oldukça da bilgili.
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="YANIT: Yeni Sorun - Bit">
+      
+      Anlaşıldı, işini bitireceğim.
+      ---
+
+      Eski bir çalışanımız kafasına göre hareket etti ve projemizi tehlikeye attı. Çoğunun aksine ne yaptığını bildiğinden ve gerçekten sorun çıkartabileceğinden endişe ediyorum. Bu konuda kaba davranmaktan nefret etsem de bu proje benim için çok önemli. Bunu hayatta riske atmam. Bu elemanı korkutabilir misin?
+      Ayrıntıları ekte bulabilirsin. Elemanın ismi: "Bit".
+      
+      -rc
+    </email>
+
+  </mailServer>
+  
+</Computer>

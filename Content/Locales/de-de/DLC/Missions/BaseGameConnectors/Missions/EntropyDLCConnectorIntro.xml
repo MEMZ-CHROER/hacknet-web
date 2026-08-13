@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="Entropy_DLC_Connector">
+  <goals>
+    <!-- Impossible goal here - this mission isn't completable in the normal sense
+    It leads the player to KaguyaTrials, which replaces this. We don't want the player
+    to skip past this mission by quick replying or anything, so put a debug only goal here-->
+    <goal type="getstring" target="kaguyatrialscompletedebug" />
+  </goals>
+  <missionStart val="1" suppress="true">addFlags:dlc_start_entropy</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#ALERT# - Die Kaguya-Trials"> ### ACHTUNG ###
+Die Admins von Entropy haben diesen Vertrag als ungewöhnlich langwierig, gefährlich oder schwierig markiert.
+Wenn du dir deiner Fähigkeiten nicht sehr sicher bist, schlagen die Admins vor, dir diese Angelegenheit
+später anzusehen.
+ ### ACHTUNG ###
+ 
+Ein bisher unbekannter Agent hat eine Art Rekrutierungsherausforderung an die Anführer einiger Gruppen gesendet. Dies ist eine öffentliche Einladung, die Sache weiter zu untersuchen.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Die Kaguya-Trials</subject>
+    <body>Agent,
+    
+Jemand namens „Kaguya“ hat soweit wir wissen eine Herausforderung an prominente Anführer von CyberSec Communitys und Administratoren verschiedener Fraktionen gesendet.
+Sieht wie ein Rekrutierungstest aus, um in ein Team zusammen zu stellen. Im Rahmen des Offenheitsgedanken bei Entropy geben wir diese Einladung an alle Interessenten weiter.
+
+Denk dabei daran, dass diese Gruppe in keinerlei Verbindung mit Entropy steht und dies vermutlich dazu führen wird, dass du diese Community eine Zeit lang verlassen musst, wenn du dieser anderen Fraktion beitreten solltest.
+Wenn du noch nicht vollendete Aufträge für Entropy hast oder weiter deinem derzeitigen Weg folgen möchtest, ist es sehr wahrscheinlich, dass diese Gelegenheit auch später noch besteht. Überleg dir, ob du diesen Auftrag zunächst ablehnen und diesen Faden vielleicht später wieder aufnehmen möchtest.
+
+Ansonsten bestehen die Anweisungen einfach nur aus einer IP-Adresse (beigefügt) und der Aufforderung, die „Prüfung zu starten“.
+
+Viel Glück.
+-Entropy Admins
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

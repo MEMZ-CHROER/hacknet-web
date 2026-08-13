@@ -1,0 +1,12 @@
+﻿﻿Hola, gente entrópica,
+
+Entonces, el escáner eOS se ha subido a tu servidor de assets (~/bin/eosDeviceScanner.exe), que debería funcionar como un ejecutable vulnerable de conexión bastante estándar. 
+Como tiene que leer un montón de archivos en una carpeta de sistema (para obtener la información de los dispositivos sincronizados con el equipo de destino), necesita privilegios de administración en el equipo destino para empezar a ejecutarse: cuando esté en marcha no debería importar que lo pierdas o lo desconectes.
+Básicamente, funciona comprobando las copias de seguridad realizadas cuando un dispositivo se sincroniza con un equipo, después intenta realizar una nueva conexión inalámbrica con el dispositivo y usa un exploit en él para abrir un puerto, etc., etc.
+
+Aquí está el truco: como los usuarios de eos no tienen acceso al terminal de su propio dispositivo, todas las contraseñas del administrador son las mismas (!), ¡en toda la gama de productos!
+
+Soy "alpine": no tienes por qué darme las gracias, puede que solo te haya ahorrado unos millones de años o algo así.
+Espero recibir el pago que acordamos en cuanto termine de subirse, ¿vale?
+
+-vtfx

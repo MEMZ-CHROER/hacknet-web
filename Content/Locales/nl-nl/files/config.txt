@@ -1,0 +1,9 @@
+config.ini
+init_num: "12"
+continu_spawning "JA"
+kleuren_ingeschakeld {"perzik","ivoor","toffee","chocola","magenta"}
+acties_ingeschakeld {"draai","steek","helicopter"}
+resolutie: {"1280","800"}
+volledig_scherm: "JA"
+alt_tab_ingeschakeld: "JA"
+texture_map: "C:/Documenten_en_Instellingen/Admin/Fax/Geen_Porno/Documenten/Serieuze_Documenten/Systeem/textures"

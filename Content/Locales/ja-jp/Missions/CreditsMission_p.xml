@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="alphaCredits">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>Re: The End</subject>
+    <body>
+あ、それともうひとつ。
+
+君、海賊版のHacknetで遊んだだろ。
+
+気にしないけどね。いろいろ理由があるのはわかる。お金がないのかもしれないし、インディーズゲームの今の状態に満足していないのかもしれない。悪く言うつもりはまったくないよ。
+
+でも・・・、Hacknetは僕ひとりで作り上げたものなんだ。このゲームの売り上げは、将来開発するゲームやアップデートのための資金になる。もしこのゲームを気に入ってくれたなら、できるときでいいから買ってくれるとうれしいな！
+
+もし君がデジタル著作権管理に反対しているなら、著作権フリーのものがGOG.comやHumble Storeで買えるよ。僕はSteamの方がお気に入りだけど。
+
+とにかく、遊んでくれてありがとう。僕がゲームを作るのを楽しんだのと同じように、遊ぶのを楽しんでくれたなら嬉しいよ。
+
+-Matt
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

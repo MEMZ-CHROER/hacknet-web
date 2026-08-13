@@ -1,0 +1,39 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dpetsM1">
+  <goals>
+    <goal type="databaseEntryChange" comp="dPets_MF" recordName="minx" fieldName="NeoPoints" operation="greater" targetValue="999999"/>
+  </goals>
+  <missionStart val="1" suppress="true">loadConditionalActions:DLC/ActionScripts/PetsAcceptedActions.xml</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="Neopals - #PLAYERNAME#">
+おなじみのターゲット、Neopalsがチームのテストとして指定されました。試練を突破してください。
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Neopals</subject>
+    <body>
+おなじみのターゲット、Neopalsがチームのテストとして指定されました。試練を突破してください。
+----
+これは私の決定ではありません。最終目的となる2つのミッションのうち、1つめが近づいています。
+私が追っている件のスタート地点を友人が探索してくれたのですが、彼女は私たちにチームとしての自信を示すよう要求しています。
+どうやら、まだ3人全員が優秀だとは認めない人がいるようです。そのため試練を与えるということのようです。
+
+さて、このネットワークは残念ながらジョークではありません。いわば、超本格的なハッキング・スキルのリトマス試験です。#PLAYERNAME#とD3f4ultのチームで挑戦してください。
+
+実質的仕事は、彼らのメインフレームのデータベースでいくつかの数値を改ざんすることです。MinxというユーザーがNeoPointsの値を1,000,000以上に設定してほしいとのことです。
+
+気を抜かないように――なかなか厄介な仕事です。
+-Kaguya</body>
+    <attachments>
+      <note title="Neopals Mission Guidelines">
+フロントのWebサーバーに侵入してノードをスキャン。ダメージを与えるとネットワーク管理者に警報が行く可能性あり。
+メインフレームでネットワークを探索し、侵入経路を見つける。
+ユーザーMinxのNeoPointsを1,000,000以上に設定。
+データベース画面で変更を確認。
+      </note>
+      
+      <link comp="dPets_Home" />
+      
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="bitMission00" name="PC de test de Bitwise" security="1">
+  <file path="home" name="Test_File.txt">Félicitations, c'est gagné !</file>
+  <file path="home" name="L-E_x-server.sys">#PURPLE_THEME#</file>
+  <file path="sys" name="x-server.sys">#PURPLE_THEME#</file>
+
+<file path="home" name="Hobbes_TerminalGuide.txt.txt">
+Petite liste de commandes pour le terminal : 
+
+cat [nomdufichier] - donne la sortie texte du fichier spécifié 
+
+cd / - te ramène au dossier source du système de fichiers 
+
+ls - liste les dossiers et fichiers du dossier actuel 
+
+cd .. - te fait remonter d'un niveau
+
+ replace [nomdufichier] « [chaîne1] » « [chaîne2] » - remplace le contenu spécifié du fichier cible (Chaîne 1) avec les trucs que tu veux remplacer (Chaîne 2) 
+
+mv [nomdufichier] [cible] - déplace OU renomme un fichier, si tu veux le déplacer, tu dois spécifier le dossier cible de cette manière : 
+
+mv config.sys /misc/ 
+
+si tu veux renommer le fichier, spécifie simplement le nouveau nom comme ça :
+
+ mv config.sys config.old 
+
+Help 1, Help 2, Help 3 - Le fichier d'aide en trois pages. Lis et absorbe. 
+
+forkbomb - C'est spécifié nulle part, mais c'est un bouton de panique utile si tu dois faire tomber un système rapidement, mais il te faudra des droits d'admin. Tu PEUX forkbomber ton propre système pour te défendre, aussi 
+
+shell - installe un hôte à distance sur un système où t'as un accès admin, tu PEUX le lancer sur ton propre système pour te défendre (regarde « Piège » pour plus de détails)
+</file>
+  
+<file path="home/autolog_reports" name="log01332.txt">
+[shinterland] J'attends que le boss s'en aille. 
+[shinterland] Je te retrouve derrière ensuite.
+ [jwalter] Tu crois qu'il se doute de quelque chose ? 
+[shinterland] Pfff, j'en doute. 
+[shinterland] Il a pas idée de la tempête de merde qui arrive. 
+[jwalter] Oublie pas d'effacer l'historique du navigateur, on veut pas qu'il nous piste. 
+[shinterland] Ouais ouais, c'est bon. 
+[shinterland] Il a pris son manteau, il passe la porte... maintenant.
+ [jwalter] Bon, donne-moi une minute pour lancer le flux vidéo... 
+[jwalter] C'est bon. T'as 3 minutes avant que cette image statique tombe.
+ [shinterlant] Je prends la liste, ensuite on se descend une pinte pour fêter ça.
+</file>
+  
+<file path="home/autolog_reports" name="log0177_F.txt">
+[vope] t'y croirais pas si j'ten parlais... 
+[r@$put1n] quoi ?
+ [r@$put1n] ça a marché ? 
+[vope] j'ai des mercs qui frappent à ma porte pour la source 
+[r@$put1n] putain mec, on dirait que t'as du level maintenant ! 
+[r@$put1n] t'es bien payé ? 
+[vope] 12k, pas mal pour deux mois de travail 
+[vope] j'me demande à quoi ça va leur servir 
+[r@$put1n] sûrement pour vider ton compte en banque 
+[vope] ha, j'leur souhaite bonne chance, y'a rien à voler dessus mdr
+
+ -- fake confirmé --
+</file>
+  
+<file path="home/autolog_reports" name="log01009.txt">
+[felix] Tout va bien de mon côté, ce con de Bill a été viré et je suis en sécurité. 
+[bleedingcool] Génial. 
+[felix] J'ai toujours détesté Bill. Tu m'as fait une fleur. 
+[bleedingcool] Sans oublier les 10 000 de pot-de-vin, nan ? 
+[felix] Ça aide, ouais.
+ [felix] On est quittes alors ? 
+[bleedingcool] On est quittes. J'ai des mois de scoops, là. J'te recontacte l'année prochaine quand le nouveau film Brisby sort.
+ [felix] bye, boss.
+</file>
+  
+</Computer>

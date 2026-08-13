@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase8_WIN" activeCheck="true">
+  <goals>
+    <goal type="delay" time="15"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_ZFinale01.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Abschluss</subject>
+    <body>Und so endet es.
+Für Rache war das hier irgendwie unbefriedigend. Bloß ein Schlag gegen das, was er war, und viel zu spät, um ihm helfen zu können... Ich weiß nicht, aber irgendwie hat es sich auch richtig angefühlt.
+Ich schätze, ich sollte es gewöhnt sein - niemand wird es bemerken, hmm? Außer denen, die außer sich sein werden, wenn sie ihre Arbeit in Trümmern sehen. Niemand wird uns dafür danken, ganz gleich, wieviel Schaden dadurch verhindert worden ist.
+Ich vermute, das ist einfach der Lauf der Dinge.
+Du warst wirklich ein große Hilfe und ich bin dir unendlich dankbar.
+Das war alles, was ich tun konnte, ohne meine Anonymität aufzugeben (und hiernach ist das vermutlich auch nicht die beste Idee); wir sehen uns also bei CSEC.
+
+Dort ist immer ein riesiges Chaos - ich werde schon einen Weg finden, mich erkenntlich zu zeigen.
+
+Danke. Wirklich.
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

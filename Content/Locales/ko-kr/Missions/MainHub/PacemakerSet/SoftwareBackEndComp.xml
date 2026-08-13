@@ -1,0 +1,71 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="pacemakerSW_BE" ip="111.105.22.1" name="Eidolon Soft 생산 서버" security="4" type="1"> <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <!-- Security Stuff -->
+  
+  <ports>80, 22, 1443, 25, 21</ports>
+  <trace time="320"/> 
+  <firewall level="-1"/>
+
+  
+  
+  <!-- Junk -->
+  <file path="projects/EnTech" name="SynergysticCloudGlassCeilingBreaker.app">#BINARY#</file>
+  <file path="projects/EnTech" name="HumanCapitalEnhancer.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="IntergratedChannelHarnesser.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="ProactiveFocusStorageExtender.dll">#BINARY#</file>
+  <file path="projects/EnTech" name="QualityVectorStreamliner.dll">#BINARY#</file>
+
+  <!-- The Goods -->
+  <file path="projects/KellisBT" name="Catalyst_Driver.cfg">#BINARY#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_0.1.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_0.22.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_1.0.dll">#PACEMAKER_FW_WORKING#</file>
+  <file path="projects/KellisBT" name="KBT_PacemakerFirmware_1.11.dll">#PACEMAKER_FW_WORKING#</file>
+
+  <file path="projects/KellisBT/Tests" name="TestGuide.txt">
+당사 테스트 사이클의 일환으로, 칩에서 단위 테스트 슈트를 작동하기 전에, &quot;사이클 체크&quot;를 수행해야 합니다 - 그것을 테스트 장치에 연결하고 사이클러를 그것의 우선 펌웨어로서 실행합니다 - 이는 스스로 모든 유효한 출력 및 시간을 순환하여 타이밍을 정확히 맞추는지 검사합니다 - 우리 입장에서 보면 하드웨어 테스트에 더 가깝지만, 미묘한 오류를 알아내는 것도 도움이 됩니다.
+실행 후에는 자신의 데이터를 테스트 장치에 덤프하게 되며, 당신은 곧바로 그것을 새 테스트 버전에 플래시하고 패치할 수 있습니다,
+
+---
+주의: 현재 서명된 테스트 펌웨어 이름은: &quot;PacemakerFirmware_Cycle_Test.dll&quot;
+그것을 배포 준비된 기기에 업로드하지 마시오
+---
+
+분명히 테스트 사이클러 펌웨어는 서명되고 암호화됐으므로 칩에서 실제로 작동하게 되며, 이는 빌드를 배포할 때 그것이 당신의 출력 폴더 중 하나에 포함되지 않도록 주의해야 함을 의미합니다.
+</file>
+
+  <file path="projects/KellisBT/Tests" name="KBTPM_Test_Suite.kbts">#BINARY#</file>
+  <file path="projects/KellisBT/Tests" name="PacemakerFirmware_Cycle_Test.dll">#PACEMAKER_FW_DANGER#</file>
+  
+  
+
+  <file path="projects/Internal" name="Goals.txt">
+점진적으로 단위 교차 품질 벡터를 극대화. 
+
+시너지 효과가 있게 고객 중심 관계를 벤치마킹. 
+
+차세대 협력과 아이디어 공유를 분명하게 구상. 
+
+최적의 전자 서비스를 표절. 
+
+프로세스 중심적 아웃소싱을 적절히 현금화. 
+
+제조업과 인터넷 사업 방법론을 효율적으로 제공. 
+
+실시간 혜택에 완벽한 영향을 주기
+  </file>
+  
+  <file path="projects/Internal" name="Eidolon_Security_Notes.txt">최근 회의에서 논의했듯이, 우리 지원 팀은 현장 출동 시 효과적인 유지관리 및 업데이트를 위해 시스템에 대한 와일드카드 접속이 필요합니다. 이를 위해 당사는 새로운 &quot;Eadmin&quot;(Eidolon 지원 관리자)를 당사의 모든 신규 제품에 도입했습니다.
+이 계정은 모든 권한 및 테스트 기능이 활성화되도록 설정되며, 당사의 모든 범위 및 버전에서 일정하게 유지됩니다. 이는 지원 팀이 현장의 테스트 제품에 대한 디버그 및 관리 기능에 접근하는 손쉬운 수단을 갖게 됨을 의미하며, 당사의 배포 관리자분들은 내보내는 모든 제품의 설정 스크립트에 이 계정을 추가하는 것을 잊지 말아야 합니다.
+
+사용자명     : 
+&quot;EAdmin&quot;
+암호      : &quot;tens86&quot;
+권한   : all
+Debug설정 : 활성화됨
+  </file>
+  
+  
+  
+  
+</Computer>

@@ -1,0 +1,83 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechRomulus" name="En_Romulus" security="5" ip="156.151.1.12">
+
+  <admin type="basic" resetPassword="false"/>
+
+  <adminPass pass="h7ggNKl2" />
+  
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+
+  <positionNear target="EnTechMainframe" position="4" total="6" />
+
+  <file path="STORE/Contractors/Bit" name="Hacknet_Project_BitReport04.txt">
+報告書のちょうどいい長さがわからないから、すごく簡潔に済ませることとする。
+進捗は順調だ。私の担当部分も、ほとんど予定通り進行してる。あれの具合も良好だ。君から依頼を受けたテストも、ほとんど問題なくパスしてる（#86は別。なんだい、あれ？アドバイスくれない？）。
+同時に、あれの分散を要する問題もいくつか見受けられた。あれの新しいバージョンは、見つかった問題を「Heart」サーバーに自動的に送るみたいだ。それを受け取ったHeartサーバーが問題を処理して、解決策を送り返すようになってる。問題が複雑な場合はまた送信を受け付けて、再び新しい解決策を送り返すようだ。この機能を利用すれば、ホワイトリストサーバーなどをうまく回避させてやることができるかもしれない。
+早速このプランを実行に移した。作ったHeartのプロトタイプのリンクはここにアップロードしてある。
+
+ずいぶん自由にやらせてもらってるし、たぶん大丈夫だとは思うけど、何か問題があったら連絡してくれ。
+
+--Bit
+1
+  </file>
+  <encryptedFile path="STORE/Contractors/Bit" name="hn_repo_archive.dec" ip="156.151.59.35" header="EnTech(tm) Repository Backup" pass="ax229msjA">#BINARY#</encryptedFile>
+  <encryptedFile path="STORE/Contractors/Bit" name="hn_PH_LinkPrototype.dec" ip="23.236.62.147" header="Porthack heart link prototype" pass="ax229msjA">#BINARY#</encryptedFile>
+
+  <file path="STORE/Contractors/Deonyx" name="Hacknet_Project_DeonyxReport4.txt">
+状況報告:
+---------------
+
+いい知らせだ。進行具合は予定より早く進んでいる。WINEプロジェクトに使われたソースコードの大半を再利用できることが判明したおかげだ。これで難しい問題にも対応できる。
+
+Unixから流用したプログラムは正常に機能している。カーネルアクセスが与えられていることを見る限り、流用による問題も予想したより遥かに少ないようだ。コードの問題も、偽装やラッパーで隠すことができるため、うまく機能するようだ。流用に関しては特に問題もない。
+心配なのが他のOSだ。我々のフレームワークでは、どのファイルも実行することができないようだ。だが、このWINEを流用する方法を使えば、ターミナルアプリケーションを起動できるよう、うまく改変できることが判明した。.NETとC#はほぼ問題なく起動する（monoプロジェクトに感謝）。C++は、どのライブラリとコンパイラーを選ぶかによって変わる模様。
+Flat Cが一番曲者だが、だいたい何をすればいいかは把握しているため（大半はネットワークアクセス、だろう？）、大丈夫だと思われる。
+
+概して言えば、非常に楽観的に捉えていいだろう。我々の努力で、全ての実行ファイルが実行可能になるはずだ。我々って、まあ僕ひとりなんだが――とりあえず、やってみる。
+
+_Deonyx
+  </file>
+  <encryptedFile path="STORE/Contractors/Deonyx" name="Hacknet_Codelink_v1.dec" ip="xxx.xxx.xxx.xxx" header="deonyx server has almost all programs on it for testing" pass="84833mmn1">#BINARY#</encryptedFile>
+
+  <file path="STORE/Contractors/teja" name="04Report_Hacknet_Project_teja.txt">
+Hacknetプロジェクトリポート 04:
+
+--今週追加で振られた仕事を完了しました。
+SecurityTracer.exeはここにアップロードしておきました。新たなHacknetがリリースされ次第、プロジェクトが完了するまでの一時的な対策として、Hacknetとセットで配信することとなります。
+応急処置ではあるものの、自動的に起動されたプログラムはユーザーの不正コピーを防ぎ、そのユーザーの現在地（IPアドレスと実際の現在地）をセントラルサーバーへと送信する仕組みになっています。
+
+--更に統合された、ユーザーに見えないSecurityTracerも製作中です。次のマイルストーンに向けて、遅れをとっているTraceTrackerプロジェクトと共に完成させていきます。
+
+--Trace Tracker v0.93がリリースされました。
+最終版の候補となるバージョンです。指示された92のテストは難なく通過。個人的に行ったテストで、25回中22回がパスしました。
+自動追跡ソフトウェアによるpingの反応や追跡の時間を記録、また推定します。エマージェンシーシーケンスが起動されるまでの時間を、実際の時間と（相対的ではあるものの）非常に近い推測結果として提供します。
+
+この場を借りて、この技術がどれだけ素晴らしいか、ということを再び強調したいと思います。アップデートが無かったとしても、このプログラムは素晴らしく便利なツールです。ですので、このツールの適度な調整を進言します。このことを確実にするため、私はこれからビルドを確認します。
+
+では。
+teja
+  </file>
+  <encryptedFile path="STORE/Contractors/teja" name="HacknetSecurityTracer.dec" extension=".exe" ip="xxx.xxx.xxx.xxx" header="teja server has loads fo copies of security tracer" pass="84833mmn1">#SECURITYTRACER_PROGRAM#</encryptedFile>
+
+
+  <file path="STORE/Contractors" name="IMPORTANT_ContractorUploadGuide.doc">ここには外部の契約社員のバイナリデータを彼らの報告書と共にまとめてある。
+  
+  注意 - フォルダの名前を変更しないこと
+  
+最終版と報告書をまとめるときは、彼らに向けてスクリプトのリファレンスを書くこと。
+  </file>
+  
+  <file path="STORE/Contractors" name="Contractor_Server.doc">このレポジトリには、配信準備ができたプログラムやファイル類のみ（展開準備ができたEnTech内部のコードも含む）保存すること。
+開発中のファイルやテストしていないファイルについては、以下の契約社員用リレーサーバーを参照。
+
+EnTech外部契約社員用リレーサーバー : 156.151.59.35
+
+---------------------------------
+
+追記: 上記「以外」のことに関するメールについて、アップロードされたファイルの閲覧にはパスワード「ax889msjA」を入力すること。このパスワードは、ここへアクセスするにあたって渡したプリントにも記載してある。
+
+  </file>
+
+</Computer>

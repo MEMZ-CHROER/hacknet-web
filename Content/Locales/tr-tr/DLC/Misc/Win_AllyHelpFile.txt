@@ -1,0 +1,30 @@
+-- VM Bootloader Tuzak Tamir Kılavuzu --
+
+1: Eğer elinde Bootloader yoksa engelli dosyanın olduğu konumda komut istemine gir.
+("OpenCMD.bat" isimli komut dosyası kısayolunu kopyalamıştım. Bunu çalıştırman yeterli.)
+Dosya bilgisayardan bilgisayara değişiklik gösterir ancak VM'in veri dosyalarını depoladığı konumun yakınlarındadır.
+
+2: Sorunlu dosyayı bulmak için klasörleri tek tek dolaş. "VMBootloaderTrap.dll" isimli dosyayı bulman gerekiyor.
+Windows Notu:
+
+linux | windows
+cd    =   cd
+ls    =   dir
+rm    =   del
+
+Bu arada, her dizin değiştirdiğinde "dir" komutunu kullanmanı öneririm. Bu şekilde nerede olduğunu görebilirsin.
+Geri dönmek için ".." yazmayı unutma. Windows'ta Tab tuşunu kullanırsan dosya ve klasör adları otomatik olarak tamamlanır. Komutlar içinse bu geçerli değildir.
+
+
+3: VMBootloaderTrap.dll dosyasını bulduğunda, dosyayı silmeden önce izin kilidini açman gerekecek.
+
+Çalıştır:
+icacls VMBootloaderTrap.dll /grant USERS:D
+
+
+4: Artık silebilirsin!
+
+
+5: VM'i yeniden başlat ve hayatına kaldığın yerden devam et.
+
+-Coel

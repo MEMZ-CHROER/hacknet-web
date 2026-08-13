@@ -1,0 +1,29 @@
+<ConditionalActions>
+  
+  <OnConnect target="dPets_Home" needsMissionComplete="false">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="2.0">Du und ich, #PLAYERNAME#!</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="6.0">Um die Wette :P</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="9.2">Oww, eurer Job sieht so viel lustiger aus als meiner ._.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="14.0">Ja, dir auch viel Glück bei deinem geheimnisvollen Geheimgeschäft, Coel -_-</AddIRCMessage>
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="84.0">Uff, jedes Mal, wenn ich meinen FTP-Breaker per Tab vervollständige, vervollständigt es meinen alten.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="87.0">Das ist so frustrierend.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="94.0">Du weißt schon, dass du einfach...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="98.0">den Alten löschen könntest ...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="103.0">oder?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="107.0">Oder ihn mit mv umbenennen?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="112.0">äh.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="119.0">Erinnerst du dich? An die Sache mit dem Floss?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="123.0">Und der See der Schande?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="127.0">Ja?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="129.0">Dito</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="133.0">hahaha</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="170.0">Ein paar neue Informationen für den Fall, dass ihr im Mainframe seid, @channel.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="176.0">Sieht aus, als sei deren Datenbank nicht so raffiniert, wie ich dachte – die speichern alle Benutzerdaten in einer Einzeldatei-basierten Struktur, was uns das Leben sehr viel einfacher macht.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="180.0">Sobald ihr die richtige Benutzerdatei gefunden habt, solltet ihr die Werte mit dem replace Befehl nach Belieben austauschen können.</AddIRCMessage>
+
+  </OnConnect>
+  
+</ConditionalActions>

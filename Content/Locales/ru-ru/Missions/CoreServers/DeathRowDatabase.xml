@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="deathRow" name="База данных записей смертников" ip="168.51.178.4" security="5" type="4">
+  <adminPass pass="texas"/>
+  <admin type="fast" resetPassword="false"/>
+
+  <portsForCrack val="3"/>
+  <ports>80, 21, 1433</ports>
+  <firewall solution="AHSUNYAG"/>
+  <proxy time="-1"/>
+  <trace time="160"/>
+  
+  <file path="home/SECURE/ProtectedFolder/AdminOnly" name="InternalMemo.txt">
+  Как директор программы я пытаюсь войти на компьютер, которым ДОЛЖЕН УПРАВЛЯТЬ Я, но админы сменили пароль. СНОВА!
+
+Это происходило слишком много раз и стоило нашей компании моего драгоценного времени. С этого момента паролем здесь должен оставаться texas - выбор, который я выбрал лично.
+Я сохраняю, эту запись в безопасном месте для будущего использования. Я поставил на нее дату , так что она может быть использована как легальный материал, если и в будущем захотите тратить мое время впустую.
+
+НЕ ЗАСТАВЛЯЙТЕ МЕНЯ ПОВТОРЯТЬ ЭТО!
+
+Опубликовано 04/02/2012
+   
+Brad Collier
+ - Исполнительный Директор   Records Division 
+ Department of Criminal Justice
+  </file>
+  
+  <deathRowDatabase/>
+  
+</Computer>

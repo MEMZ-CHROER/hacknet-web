@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dpetsM1">
+  <goals>
+    <goal type="databaseEntryChange" comp="dPets_MF" recordName="minx" fieldName="NeoPoints" operation="greater" targetValue="999999"/>
+  </goals>
+  <missionStart val="1" suppress="true">loadConditionalActions:DLC/ActionScripts/PetsAcceptedActions.xml</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="Neopals - #PLAYERNAME#">
+Neopals, el objetivo legendario de la vieja escuela, se ha entregado al equipo como una prueba. Escala esa montaña.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Neopals</subject>
+    <body>
+Neopals, el objetivo legendario de la vieja escuela, se ha entregado al equipo como una prueba. Escala esa montaña.
+----
+Esto no ha sido decisión mía. Estamos casi listos para el primero de nuestros dos trabajos finales.
+Un amigo mío ha estado investigando por mí para conseguirme algunos puntos de partida para algo que tengo en los trabajos, pero ahora me ha pedido una muestra de confianza en el equipo.
+Al parecer, no todo el mundo cree que vosotros seáis los buenos, así que tenemos que hacer algunas pruebas, y aquí estamos.
+
+Por desgracia, esta red no es una broma –es una prueba sorprendentemente legítima de las habilidades hacker– por lo que este es un trabajo de equipo, para #PLAYERNAME# y D3f4ult.
+
+La tarea en sí consiste en mezclar algunos valores en la base de datos de su mainframe, el usuario "Minx" quiere que su valor de "NeoPoints" se ajuste a un número superior a 1.000.000.
+
+Sé astuto, es complicado.
+-Kaguya</body>
+    <attachments>
+      <note title="Pautas de la misión Neopals ">
+Destruye el servidor web de la interfaz y escanea en busca de nodos. Intenta no causar daños o los administradores de la red serán alertados.
+Localiza el Mainframe e investiga la red hasta que encuentres una forma de acceder.
+Encuentra el archivo del usuario "Minx" y fija "NeoPoints" a cualquier cosa por encima de 1.000.000
+Verifica los cambios en la vista de la base de datos.
+      </note>
+      
+      <link comp="dPets_Home" />
+      
+    </attachments>
+  </email>
+</mission>

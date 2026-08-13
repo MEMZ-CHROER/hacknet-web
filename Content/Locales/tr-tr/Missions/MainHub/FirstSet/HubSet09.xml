@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="HasFlag" target="E_Whit:DEAD" />
+  </goals>
+  <missionStart val="9" suppress="true">changeSong</missionStart>
+  <missionEnd val="1">junebugComplete</missionEnd>
+  <nextMission>BitPath/BitAdv_Intro.xml</nextMission>
+  <branchMissions>
+    <branch>MainHub/PacemakerSet/PacemakerSet_Deny_Branch.xml</branch>
+  </branchMissions>
+  <posting title="Haziranböceği Projesi" reqs="dechead, decypher,csecRankingS2Pass">
+Ender bulunan bir durumla karşı karşıyayız. Yetenekli, sorumluluk sahibi, isimsiz bir kahramana ihtiyacımız var.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Haziranböceği Projesi</subject>
+    <body>
+Hacker,
+     
+Senden normal bir şey istemeyecek ve de normal davranmayacağım. Bizden ötenazi yapmamız istendi.
+Açıkçası bir süre önce başkalarını bu konuda araştırma yapmaları için gönderdik (şüphe çekmemek için bu kişilerin bir kısmını dış gruplardan tuttuk)ve çoğunluğu bir şey bulamadı. Söz konusu şahıs, "Elliot Whit" ağrılarından ötürü hastaneye kaldırıldı ve istemesine rağmen ölüm seçeneğini reddetti.
+Ailesinin önceden gerçekleştirdiği başarısız girişim çaba gösterilmesini engelledi, ta ki aileden birisi bu seçeneği önerene dek. Kendisine yerleştirilen kalp hızı ayarlama aygıtı, uygun yetki çerçevesinde uzaktan kontrol edilmesine olanak sağlıyor. Aile ise bunun şahsın isteğini yerine getirme fırsatları olduğuna inanıyor.
+
+İsteğimiz düşünüldüğünde bize yardımcı olmak istemeyebilirsin. Eğer cevap olarak "deny" dersen seni bu projeden çıkaracağız.
+
+Eğer bu konuda bize yardım etmeye karar verirsen, şunu bilmelisin ki, bu işin inceleme ve deneme kısımları uzun zaman alacak. Ayrıca bunu yapan ilk kişi olacaksın.
+Hedefin sağlık kaydından başlayarak çipi tanımlamanı, üreticilerine erişmeni ve oradan araştırmaya devam etmeni öneriyoruz.
+      
+-CSEC Yöneticileri
+    </body>
+    <attachments>
+      <link comp="medical" />
+      <note title="Ayrıntılar">
+Hedef : Elliot Whit
+Eylem : Ötenazi
+</note>
+    </attachments>
+  </email>
+</mission>

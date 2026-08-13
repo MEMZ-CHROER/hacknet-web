@@ -1,0 +1,12 @@
+1366
+768
+false
+bloom: false
+scanlines: true
+muted: false
+volume: 0
+fontConfig: default
+hasSaved: True
+shouldMultisample: True
+defaultLocale: zh-cn
+drawMusicVis: False

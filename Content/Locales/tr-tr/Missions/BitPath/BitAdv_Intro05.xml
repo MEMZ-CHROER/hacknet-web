@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase5" >
+  <goals>
+    <goal type="getString" target="ax889msjA"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro06.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- İlerleme</subject>
+    <body>Bu ağı görüyor musun?
+Neredeyse her şeye yayılmış yeni bir güvenlik var fakat dikkatle ilerleyebiliyorum. Hala açıklar var ancak ilerleme yavaş.
+
+Şu anda üzerinde durduğum şeyin IP'sini attım. İlerlediğim tarafta henüz çatlak göremedim. Sende durum nedir?
+Eğer yönetici şifresini bulursan bana e-posta olarak gönder. Bit'in olayla ne alakası olduğu konusunda bu sununucun kritik rol oynadığını düşünmeye başladım.
+
+Şu "Hacknet Projesi" muhabbetinin ortaya çıkması da beni endişelendiriyor. Hiç duymuş muydun? Tüm işletim sisteminin yeniden yazılması...
+Bunu daha sonra konuşabiliriz. Şimdilik bak bakalım bu aktarıcıya girebilecek misin. Sıradaki adımımızı bundan sonra konuşacağız.
+
+Bende muhtemelen yapım ve depolama sunucularına bakarım; şu "Prometheus" ve "Romulus" falan filan. Belki oradan da sızmanın yolunu bulurum.
+
+Bol şans.
+-V
+    </body>
+    <attachments>
+      <link comp="EnTechOutsiderRepo" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission02" activeCheck="true">
+  <goals>
+    <goal type="FileDownload" target="bitMission02" file="Entropy_Induction_Test" path="home" />
+  </goals>
+  <nextMission>Entropy/EntropyMission1.1Delayer.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Der nächste Schritt</subject>
+    <body>
+Okay! Wenn du das hier siehst, hast du's geschafft und... hey, das mit dir könnte sogar klappen.
+Ist das zu optimistisch? Es scheint mir sehr optimistisch. Wir werden sehen.
+
+Ich merke, dass ich bei weitem nicht genug Zeit habe, dir all die Dinge beizubringen, die du noch lernen musst. Deshalb muss ich dich nochmal um einen Gefallen bitten.
+
+Es gibt da eine Gruppe namens 'Entropy'. Die suchen zur Zeit neue Mitglieder. Die können dir noch viel mehr beibringen. Ich schreib dich wieder an, wenn du soweit bist.
+Was Entropy angeht; Du wirst ihren Proxyserver außer Gefecht setzen müssen - ein paar Shells (Verbinde dich mit einem System und benutze den "shell" Befehl) auf den Rechnern, auf denen du Admin bist, sollten da reichen.
+
+Viel Glück...
+und danke,
+
+--Bit
+0
+
+PS: Fast vergessen: Solltest du Probleme haben, hab ich dir die Network-Education-Archives verlinkt - das sollte dir helfen können.
+    </body>
+    <attachments>
+      <note title="Hinweise zu Proxys">Proxyserver -
+
+Lass eine Shell auf den von dir kontrollierten Rechnern laufen, indem du "shell" benutzt.
+
+Verbinde dich danach mit deinem Ziel; Suche nach Sicherheitssystemen ("probe").
+
+Benutze deine Shells, um den Proxy zu überlasten.
+
+Für mehr Details, schau bei den NetEdu-Archives vorbei.
+      </note>
+      <link comp="netEduComp" />
+      <link comp="bitMission02" />
+    </attachments>
+  </email>
+</mission>

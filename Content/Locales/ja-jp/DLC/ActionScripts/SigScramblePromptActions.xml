@@ -1,0 +1,14 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhsDrop" needsMissionComplete="false">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="105.0">うひょー</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="110.0">@channel みんな、SignalScrambleはもう試したか？Hermetic Alchemistsのサーバーにあったやつ。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="114.0">あれはクレイジーだぞ。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="130.0">そうね。感動モノだわ。@Kaguya はどこであのツールの情報を入手したの？</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="140.5">それは秘密です。</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="147.5">気に入っていただけたようでなによりです。このツールは今後のミッションで大いに活躍すると思います。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="160.0">神ツールだ。</AddIRCMessage>
+  </OnConnect>
+  
+</ConditionalActions>

@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMissionIntro">
+  <goals>
+    <goal type="FileDeletion" target="playerComp" file="SecurityTracer.exe" path="bin" />
+  </goals>
+  <nextMission>SSHCrackMission.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>Eerste Contact</subject>
+    <body>Hi.
+
+Ik ken je niet en vind het jammer dat ik je nooit zal kennen, maar als je dit leest betekent het dat jij wellicht de enige bent die alles kan rechtzetten.
+
+Ik zit nu gevangen. Er is geen uitweg, niet genoeg tijd en ik heb je hulp nodig.
+
+Maar er is iets wat je eerst moet doen - hoe sneller hoe beter.
+HacknetOS was niet klaar om uitgegeven te worden zoals het nu is - na een tijd zal er een tracker activeren - dat kunnen we niet hebben.
+Verbind aan je eigen node (Zou groen moeten zijn op je netKaart), vind en delete "SecurityTracer.exe".
+
+Als je klaar bent, beantwoord deze mail.
+
+Schiet op!
+-Bit
+0
+    </body>
+    <attachments>
+      <note title="Hacknet Navigation Guide">Hacknet Navigatie Gids
+
+Gebruik de display module, of de commando's "cd [mapnaam]" en "cat [bestandsnaam]" om je te navigeren en bestanden te lezen.
+
+Verwijder bestanden met "rm [bestandsnaam]"
+
+De Tab toets kan worden gebruikt om commando's af te maken.
+      </note>
+    </attachments>
+  </email>
+</mission>

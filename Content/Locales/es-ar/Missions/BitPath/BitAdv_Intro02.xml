@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit02_Phase2">
+  <goals>
+    <goal type="getString" target="156.151.59.35"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro03.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Confirmación</subject>
+    <body>Excelente.
+    
+TraceKill, como el nombre sugiere, desvía los rastreos activos contra ti mientras está ejecutándose. Debería facilitarte mucho el trabajo. 
+
+Comencemos. 
+
+He estado indagando un poco, después de la última operación —tú también viste el mensaje— se enteró de lo que estaba ocurriendo. En fin, simplemente la idea de que lo que ocurrió estaba relacionado con este trabajo fue suficiente para empezar. Hice algún rastreo y encontré una lista de sus servidores o retransmisores; no sé cuántos son terminales virtuales ejecutándose en la misma máquina, pero es un buen comienzo. 
+El más prometedor es uno cuyo enlace está al final. Es un servidor de trabajo personal, algo que él estaba utilizando para guardar de forma privada copias de los repositorios de control de versión en los que estaba trabajando, por lo visto. 
+Esto podría ser incluso una pista. ¿Quién guarda las copias de seguridad de una solución de VC de una empresa? Solo puedo pensar en tres casos. O bien eres responsable si la cagan y estás rodeado de incompetentes y quieres asegurarte, o necesitas tus copias de seguridad y registros por motivos legales o estás preocupado por algo y quieres registros en caso de que algo falle. 
+
+Sea como fuere, este parece el sitio para empezar a indagar. ¿Quieres echar un vistazo?  Yo también he mirado un poco, pero no he encontrado nada sustancial. 
+
+No he podido desencriptar los volcados de repositorio. Dime si encuentras algo, envíame la dirección IP de cualquier cosa rara que encuentres.
+
+ -V 
+    </body>
+    <attachments>
+      <link comp="BitWorkServer"/>
+    </attachments>
+  </email>
+</mission>

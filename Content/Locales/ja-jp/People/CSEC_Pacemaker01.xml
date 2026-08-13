@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="csec_med_01" handle="Ehwitt" firstName="Elliot" lastName="Whit" isMale="true">
+  <Birthplace name="ロンドン" />
+  <Degrees>
+    <Degree uni="マンチェスター大学" gpa="3.3">法学修士</Degree>
+    <Degree uni="マンチェスター大学" gpa="3.1">政治学学士</Degree>
+  </Degrees>
+  <DOB>09/09/1961 22:00:00</DOB>
+  <Medical>
+    <Blood>BO</Blood>
+    <Height>166</Height>
+    <Allergies>なし</Allergies>
+    <Perscription>イベルメクチン x35 毎月 :: 心拍数調整</Perscription>
+    <Notes>繰り返し発生する致命的な不整脈のため患者の心臓にはペースメーカーが取り付けられており、外科手術をすることなく原因不明の変化にも対応できるようになっている。
+    
+参照:
+. 
+. 
+ペースメーカー接続用ID: 202.6.141.219
+参考資料また注釈: 66.96.147.84
+. 
+.
+その他詳細:
+ペースメーカーに影響を与える可能性のある行動をとる際や外科手術を行う際は、製造業者にペースペーカーの安全性の確認を取ること。
+    </Notes>
+  </Medical>
+  <Notes>Pacemaker mission case</Notes>
+</Person>

@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="AddDegree" owner="John Stalvern" degree="digital security" uni="Manchester University" gpa="2.8"/>
+  </goals>
+  <missionEnd val="1">changeSong</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Teach an old dog new tricks [Int.Academic]">
+A potential friend of the group needs a degree added to his resume'
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Binary Universe(ity)</subject>
+    <body>It's good to have friends in high places in digital security companies - *especially* friends that know nothing about computer security.
+One such very friendly individual has recently been contacted by an agent, and we need a small show of power to win him over.
+
+We'd like you to give him a new degree, from his local university in Manchester.
+
+Name: John Stalvern
+Degree: "Masters in Digital Security"
+University: "Manchester University"
+GPA: 3.0 or higher
+
+IMPORTANT: Remember to clear your tracks - international institutes rely on their reputation to remain relevant - you are compromising that. If they discover this, they will not be forgiving.
+
+Good luck,
+-CSEC
+    </body>
+    <attachments>
+      <link comp="academic" />
+      <note title="Degree Details">Name: John Stalvern
+Degree: "Masters in Digital Security"
+University: "Manchester University"
+GPA: 3.0 or higher</note>
+    </attachments>
+  </email>
+</mission>

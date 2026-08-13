@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Yarım Kalan İş">
+Birkaç hacker değerli şirket verilerini çalmış. Hackerların icabına bakılmış, fakat çaldıkları şeyin silinmesi gerekiyor. 
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - Yarım Kalan İş</subject>
+    <body>
+Sayın temsilci,
+
+Şirketimiz olan #CLIENT# kısa süre önce hacker saldırısına maruz kaldı. Söz konusu saldırganlar adalete teslim edildi ancak çaldıkları arşivi geri alınamadı.
+Saldırganlarının sunucularının IP adresini biliyoruz. Sizin de bu sorunumuzu çözmenizi istiyoruz.
+
+Acele ederseniz seviniriz.
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

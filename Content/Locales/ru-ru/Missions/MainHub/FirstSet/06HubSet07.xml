@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet07">
+  <goals>
+    
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Check out a suspicious server">
+Я наткнулся на странный сервер - защита на нем стояла посерьезнее, чем я умею обходить, поэтому я не стал пробовать, но кому-то здесь это может быть интересно.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Красная линия</subject>
+    <body>
+Привет! 
+
+Не знаю, найдешь ли ты что-нибудь здесь, но я подумал, что тебе это будет интересно - я наткнулся на этот сервер с помощью сканирующей проги - он отслеживает соединения, поэтому я не стал с ним играться особо, но кто-то поопытнее может захотеть взглянуть на него. 
+Дай мне знать, если найдешь что-нибудь или если его защита окажется слишком серьезной или еще что-то! 
+
+-Anon
+    </body>
+    <attachments>
+      <link comp="honeypot01"/>
+    </attachments>
+  </email>
+</mission>

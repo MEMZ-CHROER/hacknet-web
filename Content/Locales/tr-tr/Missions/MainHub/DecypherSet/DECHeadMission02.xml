@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="beepbeep"/>
+  </goals>
+  <missionEnd val="1">addFlags:dechead</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Şifrelenmiş Dosya Takibi">
+DEC şifreli dosyaların nerede şifrelendirildiğini bulmanın yolunu bulduğumuzu düşünüyoruz. Elimizde şifrelenmiş bir dosya var. Bunun açılması gerek. Bu işi çözmen için yeterince ipucu var.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Yanıt: Dürbün</subject>
+    <body>
+Bir şey bulabildin mi?
+
+Şimdi, aradığımız dosyanın adı "CSEC_encode_1.dec" - Dosyayla oynayamasınlar diye adını değiştirdik. Aslında adı "WinCE_FirmwareSpecs.dec" idi.
+Neyse, başlıkları oku, nerede şifrelendiğini öğren ve şifreyi çöz! Bu e-postaya cevap verirken şifreyi de ekle. Kalanını biz hallederiz.
+
+Yardım için teşekkürler.
+-CT Ekibi
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+    </attachments>
+  </email>
+</mission>

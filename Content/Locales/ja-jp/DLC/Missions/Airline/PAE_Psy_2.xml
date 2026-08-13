@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpae_psy_2" name="Vito McMichael's Laptop" security="3" icon="DLCLaptop" ip="209.68.41.129" type="4">
+
+  <!-- Laptop of another Psylance employee. contains some bitching about how hard it is to keep
+  untrained people secure on a network. Contains a link to the IRC server of the Psylance workers.
+  This will be one of the people that posts on the IRC, so you can do callbacks here to that.-->
+
+  <firewall level="-1"/>
+  <trace time="60" />
+  <portsForCrack val="3" />
+  <ports>21, 443, 6881</ports>
+
+  <positionNear target="dpa_whitelist" position="180" total="290" extraDistance="0"/>
+
+  <dlink target="dpa_psylance" />
+
+  <file path="home" name="notes_for_keeping_the_idiots_down.txt">ネットワーク上で素人どもの安全を守る方法
+手順1：管理者権限を与えない
+手順2：組織外部へのEメール送信は特別な権限を持つ者のみに限定
+手順3：外部からデバイスを持ち込ませない
+手順4：不平不満を言わせない（その手のメッセージは/dev/nullへリダイレクトする）
+手順5：何もかもクソになるのを見届ける
+手順6：自分がこの世から去る</file>
+
+  <file path="home" name="irc_address.txt">Vito,
+二度とIPアドレスを忘れないように。メモするなど対策してください。
+50.31.225.93
+配属から6ヶ月になるのに、隔週以上のペースで忘れていますよ。頭大丈夫ですか。
+Darryl
+
+追伸　私の母に対する悪口をやめないと左遷します。</file>
+  
+</Computer>

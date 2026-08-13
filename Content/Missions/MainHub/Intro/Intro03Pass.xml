@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubIntro3" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>CSEC Invitation - Congratulations</subject>
+    <body>
+#PLAYERNAME#,
+
+Nice one! I've actually had a dig around on their mainframe before, a while ago and couldn't find it - props for tracking it down.
+That's quite the entrance you've made for yourself.
+
+I'll take the opportunity to formally welcome you to CSEC - everyone here knows what they're doing, at least to some extent, so you should feel right at home if you found that last job easy.
+
+I've attached your new login details to the hub server - from there you can pick up contracts, download new code, and generally just use it as a home base.
+I'll stay in touch, go pick yourself up some new programs from the stash as a congratulations present.
+
+-Vap0r 
+CSEC Admin
+    </body>
+    <attachments>
+      <link comp="mainHub" />
+      <account comp="mainHub" user="#PLAYERNAME#" pass="reptile" />
+      <link comp="mainHubAssets" />
+      <account comp="mainHubAssets" user="admin" pass="csec-5xg3D11" />
+    </attachments>
+  </email>
+</mission>

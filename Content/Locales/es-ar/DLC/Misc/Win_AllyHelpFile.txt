@@ -1,0 +1,31 @@
+-- VM Bootloader Trap Repair Guide --
+
+1: 1: Si aún no lo has hecho, abre el terminal cerca de donde el archivo bloqueante estará. 
+(He copiado un script de atajo que deberia hacer esto llamado "OpenCMD.bat" - hacer correr eso debería funcionar). 
+La carpeta cambia de sistema en sistema, pero deberías buscar cerca de donde guarda la data tu MV.
+
+2: Muevete por las carpetas hasta encontrar el archivo, estás buscando esto "VMBootloaderTrap.dll"
+Nota para Windows:
+
+linux/osx | windows
+cd  ------->  cd
+ls  ------->  dir
+rm  ------->  del
+
+Yo recomiendo usar "ls" al principio, y cada vez que cambias de directorios así no te pierdes.
+No lo olvides ".." vuelve hacia atras. La tecla Tab autocompletará archivos y carpetas en Windows, pero no comandos!
+El archivo que buscas lo puedes encontrar en una subcarpeta cerca de donde se guardan los archivos guía.
+
+
+3: Luego de encontrar VMBootloaderTrap.dll, deberás liberar el bloqueo de permisos sobre él antes de poder eliminarlo.
+
+Corre esto (recuerda el ":d" al final):
+icacls VMBootloaderTrap.dll /grant USERS:d
+
+
+4: Ahora elimínalo!
+
+
+5: Reinicia tu MV y continua tu camino.
+
+-Coel

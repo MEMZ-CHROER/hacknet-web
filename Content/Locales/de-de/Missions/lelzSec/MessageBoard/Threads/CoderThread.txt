@@ -1,0 +1,44 @@
+junkCoder
+------------------------------------------
+#Academic
+Daily Programming Thread
+Woran arbeitet ihr so, /el/?
+------------------------------------------
+Versuch immer noch, die Blockade zu überwinden.
+Weckt noch zu viele Erinnerungen an meinen Ex. ;_;
+------------------------------------------
+Geht das so? Oder sollte ich besser einen neuen Thread erzeugen? 
+
+boost::thread( [] { boost::this_thread::sleep (boost:: posix_time :: seconds(5)); running = false;});
+>inb4 >C++ >boost
+------------------------------------------
+>>37334564
+Sei besser vorsichtig mit diesen Flags. Nimm lieber locks oder atomics.
+------------------------------------------
+>>37334598
+Was meinst du mit Flags? Und was sind atomics?
+------------------------------------------
+>>37334626
+>running = false
+
+Das Problem bei C++ ist, dass es wegen seiner low level Ursprünge auf ASM Ebene viel kaputt machen kann. 
+Atomics stellen sicher, dass alle Änderungen an deiner Variable auch als eine Operation gewertet werden.
+------------------------------------------
+Will wer meinen Sudoku Solver bewerten?
+http://pastebin.com/Q6Qhm66E
+------------------------------------------
+In der check function, werden int tx und ty als x/3 und y/3 zugewiesen, und dann direkt mal 3 genommen. Warum weist du es nicht direkt zu?
+------------------------------------------
+Meh, schon etwas spät aber, 
+Ich suche nach der Zelle, in der sie stehen. 
+Z.b. x = 5, y = 5.
+Dieser Block fängt bei 3,3 an. Ich habs halt nur so hingekriegt.
+------------------------------------------
+>>37334068 (OP)
+Ich versuch mir mein Leben leichter zu machen und die Windows API und vlt. den FreeBSD kernel zu lernen
+------------------------------------------
+>>37343926
+>leichter
+>Windows API
+hhehehe
+------------------------------------------

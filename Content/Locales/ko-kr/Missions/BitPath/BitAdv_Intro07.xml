@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit02_Phase7">
+  <goals>
+    
+    <!--
+    <goal type="FileDeletion" target="EnTechMainframe" path="Repo/Hacknet" file="Hacknet.sln" />
+    <goal type="FileDeletion" target="EnTechMainframe" path="Repo/Hacknet" file="Hacknet_Runtime.dll" />
+    <goal type="FileDeletion" target="EnTechMainframe" path="Repo/Hacknet" file="HN_NETCORE.dll" />
+    <goal type="FileDeletion" target="EnTechMainframe" path="Repo/Hacknet" file="Hacknet_Source.src" />
+    -->
+    
+    <!-- Offline Backups -->
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/24-02" file="Hacknet_Content.xnb"/>
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/24-02" file="HacknetCore.dll"/>
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/24-02" file="Hacknet.exe"/>
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/24-02" file="Hacknet_Source.zip"/>
+
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/03-12" file="Hacknet_Content.xnb"/>
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/03-12" file="HacknetCore.dll"/>
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/03-12" file="Hacknet.exe"/>
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/03-12" file="Hacknet_Source.zip"/>
+
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/18-09" file="Hacknet_Content.xnb"/>
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/18-09" file="HacknetCore.dll"/>
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/18-09" file="Hacknet.exe"/>
+    <goal type="FileDeletion" target="EnTechOfflineBackup" path="ARCHIVE/Hacknet/18-09" file="Hacknet_Source.zip"/>
+    
+  </goals>
+  <missionStart>enTechEnableOfflineBackup</missionStart>
+  <nextMission>BitPath/BitAdv_Intro08_Complete.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 종료</subject>
+    <body>당신도 읽었군. 이게 무슨 뜻인지 알지? 
+최소한 나는 Bit이 시작한 일을 끝내기 위해 내가 할 수 있는 일을 할 거야. 당신이 협력자 서버에 들어갈 길을 찾는 동안 나는 백업을 뒤지고 있었거든. 
+
+오프라인으로 저장하지만 특정 시간마다 서버가 인터넷에 자동으로 연결해서 생산 서버에서 업데이트를 내려받거든. 
+잔머리 조금만 굴려보면 연결시킬 수 있을 것 같아. 당신을 연결시켜주는 일이 쉽지는 않겠지만, 생각이 있어. 당신한테 타이밍 맞춰주기 위해 옛날에 사용하던 시퀀스 프로그램 하나를 재조작했어. 친구들이랑 작업하면서 협력해서 테이크다운할 때 사용하던 거야. 
+CSEC 애셋 서버에 &quot;Sequencer&quot;라는 이름의 파일을 업로드해놨어. 준비되면 실행해. 그것으로 신호를 받으면 백업 서버를 온라인 상태로 만들고, 당신한테 연결을 시켜줄게. 연결이 그리 오래 가지는 않겠지만, 시간은 충분할 거야. 내가 온라인 상태로 열어두는 동안에, 백업에 접근해서 &quot;hacknet&quot;이 들어간 모든 것을 완전히 삭제해. 그 동안 나는 온라인 상태를 유지시키면서 메인프레임을 삭제시킬게. 
+Bit이 없애길 원했으니까, 우리로서는 이게 최선이야. 
+
+파이팅. 승리를 위하여.
+
+-V
+    </body>
+    <attachments>
+      <link comp="mainHubAssets"/>
+    </attachments>
+  </email>
+</mission>

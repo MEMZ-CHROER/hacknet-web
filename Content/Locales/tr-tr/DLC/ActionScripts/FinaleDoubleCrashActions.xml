@@ -1,0 +1,53 @@
+<ConditionalActions>
+
+  <OnConnect target="dhs" needsMissionComplete="false">
+
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-30.70">------------------------------------------------</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-30.75">!ANNOUNCEMENT!</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.0">*** CHANNEL işlevi başlatıldı: ## k_rmt_BACKUPOVERRIDE.bat ##</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.2">*** CHANNEL modu kuruldu: @Coel kullanıcısı için +b (ban)</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.4">*** @Coel isimli kullanıcı CHANNEL tarafından atıldı</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.6">*** @Kaguya isimli kullanıcı CHANNEL tarafından eklendi</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-31.8">*** @D3f4ult isimli kullanıcı CHANNEL tarafından eklendi</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="-32.2">------------------------------------------------</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-21.8">Geri geldik. </AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-20.8">@D3f4ult , burada mısın? Anladığım kadarıyla Coel bizi çökertmeye çalıştı.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-8.8">Evet, buradayım. Ana geçidimi çökertti. Kullan-at bilgisayardaydı gerçi. Yine de yeniden kurmak biraz zaman alacak.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-6.8">Kahretsin... kurmana yardım edeceğim. Bir dakika bekle. </AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-2.8">Öncelikle halletmem gereken bazı meseleler var.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-0.8">Anlaşıldı. Yardım gerekirse yazman yeterli..</AddIRCMessage>
+
+    <!-- Current time -->
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="1.2">Tamam...</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="3.2">Çöktü. Bu kadar.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="6.2">@#PLAYERNAME# , @D3f4ult - aferin. İşi bitirdiğiniz için teşekkür ederim.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="9.2">@D3f4ult , keşke bodozlama dalmak yerine Coel'i bekleyip bir konuşsaydık. Coel yerine başkasını geçirebileceğimiz kişilerden değildi.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="15.2">@#PLAYERNAME# , anlayışın için teşekkürler. Doğru seçimi yaptın.</AddIRCMessage>
+
+    <RunFunction DelayHost="dhs" Delay="16.0" FunctionName="deActivateAircraftStatusOverlay" />
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="20.8">İkinci uçak ne durumda? Raporlar falan var...</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="23.2">Hassiktir. Bu da düştü... #PLAYERNAME# ?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="26.2">Ah...</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="30.2">Tamam... sorun yok. En güvenli yol buydu. Emin olduk. İkinci kez hemde. En büyük önceliğimiz buydu zaten. İşi şansa bırakmamakla doğru olanı yaptık.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="34.0">Dostum...</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="37.2">Düşünmek için biraz zamana ihtiyacım var..</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="41.2">Şu an için dağılmamız gerektiğini düşünüyorum.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="45.6">Bir süre birlikte çalışmamız iyi olmayacak. Özellikle de Coel bizi arkadan bıçaklamışken.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="47.0">:(</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="48.2">Evet...</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="53.2">İletişim adresleriniz elimde mevcut. Ortalık yatıştığında sizinle iletişime geçeceğim.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="56.2">Aşağıdaki sunucu izlencelerinizi kaldıracak. Bulduğunuz şeyler sizindir. Kalan her şeyi kopyalayacağım.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="59.2">İkinizle de çalışmak zevkti. Yardımlarınız için teşekkürler.</AddIRCMessage>
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="62.2">Görüşmek üzere Kaguya, #PLAYERNAME#</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="65.2">Kendinize dikkat edin.</AddIRCMessage>
+    <!-- Kaguya copy over double crash assets to personal server here -->
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="67.2">!ATTACHMENT:link#%#Kaguya_Projects#%#54.183.231.34</AddIRCMessage>
+    
+  </OnConnect>
+
+</ConditionalActions>

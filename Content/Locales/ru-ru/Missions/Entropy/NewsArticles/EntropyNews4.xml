@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyNews04">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Is your data at risk?">
+Популярная социальная сеть FriendHole была последней жертвой хакерской группы Malicious вероятно пошла  (прогнулась) на компромисс со всеми формами социальных медиа. Личности группы и местонахождение, до сих пор остаются загадкой для Кибер-Полиции, но их посыл ясен: 'Ничто не в безопасности'. Гендиректор FaceSpace попытался сегодня успокоить  
+нервных пользователей, объясняя что защита FaceSpace - непроницаема, и единственные люди , которые будут иметь доступ к личиной информации в FaceSpace те, кто решил разделить это
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Должна Быть Остановлена</subject>
+    <body>
+Уничтожьте entropy Базу Данных 
+    </body>
+    <attachments>
+      <link comp="entropy01"/>
+    </attachments>
+  </email>
+</mission>

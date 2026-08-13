@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dpetsM1">
+  <goals>
+    <goal type="databaseEntryChange" comp="dPets_MF" recordName="minx" fieldName="NeoPoints" operation="greater" targetValue="999999"/>
+  </goals>
+  <missionStart val="1" suppress="true">loadConditionalActions:DLC/ActionScripts/PetsAcceptedActions.xml</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="Neopals - #PLAYERNAME#">
+Das legendäre Ziel Neopals wurde dem Team als Test gegeben. Erklimme diesen Berg.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Neopals</subject>
+    <body>
+Das legendäre Ziel Neopals wurde dem Team als Test gegeben. Erklimme diesen Berg.
+----
+Also, das war nicht meine Entscheidung. Wir sind fast für den ersten unserer beiden Endspiel-Aufträge bereit.
+Eine Freundin von mir hat viel für mich recherchiert, um uns Ausgangspunkte für etwas zu geben, das ich in Arbeit habe; aber jetzt bittet sie um einen Vertrauensbeweis.
+Anscheinend glaubt nicht jeder einfach, das ihr drei was auf dem Kasten habt, also müssen wir uns beweisen - und jetzt ist es soweit.
+
+Leider ist dieses Netzwerk kein Witz - es ist ein überraschend guter Lackmustest für euer Hackerkönnen. Das ist also eine Teamaufgabe für #PLAYERNAME# und D3f4ult.
+
+Bei dem Test geht es darum, einige Werte in der Datenbank des Mainframes etwas durchzumischen - Nutzerin „Minx“ möchte, dass ihre „NeoPoints“ auf einen beliebigen Wert über 1.000.000 gestellt werden.
+
+Haltet die Ohren steif, das wird knifflig.
+-Kaguya</body>
+    <attachments>
+      <note title="Mission Guidelines Neopals">
+Dringe in den Front-End-Webserver ein und scanne nach Rechnern. Versuche, hier keinen Schaden anzurichten, sonst merken die Netzwerk-Admins vielleicht etwas.
+Mache den Mainframe ausfindig und untersuche das Netzwerk, bis du einen Eingang findest.
+Finde den Eintrag der Nutzerin „Minx“ und stelle die „NeoPoints“ auf einen beliebigen Wert über 1.000.000 ein
+Bestätige die Änderung in der Datenbankansicht.
+      </note>
+      
+      <link comp="dPets_Home" />
+      
+    </attachments>
+  </email>
+</mission>

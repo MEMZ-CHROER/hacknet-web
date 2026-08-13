@@ -1,0 +1,79 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="eosIntroComp" name="Jason's PowerBook Plus" security="2" icon="laptop">
+
+<file path="home/documents" name="Kelly.txt">
+[valley] iets nodig op weg naar huis?
+[kittyhat22] waarom probeer je het uberhaupt?
+[valley] kom op, ik dacht dat dit over was?
+[kittyhat22] wat over was?
+[valley] dit onnodig vechten over niks.
+[kittyhat22] jij bent nooit thuis en je praat niet met me
+[valley] nou, misschien moet je appricieren dat ik mij doodwerk zodat we onze schulden kunnen afbetalen en hier weg kunnen
+[valley] wat doe je de hele dag?
+[kittyhat22] draai dit nou niet om.
+[kittyhat22] je weet dat ik zoek naar een baan. Probeer te minste te snappen wat er gebeurt in jouw leven, je vraagt nooit naar het mijne.
+[valley] whatever. Ik zie je thuis wel.
+</file>
+
+<file path="home/documents" name="lmao.txt">
+[dirtweed] Hoe was je weekend?
+[willow] Goed totdat ze me uit de wasserij schopte.
+[dirtweed] ROFLCOPTER
+[dirtweed] Je bent uit dat gat getrapt? Wat heb je gedaan?
+[willow] Nou....blijkbaar was ik vrij dronken en de beveiliging zag me omvallen.
+[dirtweed] LOL
+[willow] Dus toen ze me naar buiten duwde, protesteerde ik met "IK BEN NIET EENS ZO DRONKEN JONGENS"
+[willow] en vervolgens braakte ik een beveiliger onder, voor een rij van 30 mensen
+[dirtweed] holy shit!
+[willow] Ik ga naar bed. Kater. Goedenacht.
+</file>
+
+<file path="home/documents" name="lmao.txt" EduSafe="false">
+[budzyyy] wats up?
+[heller] Waar ben je?
+[budzyyy] niet helemaal zeker
+[budzyyy] wakker geworden zonder shirt, verstopt in een bosje
+[heller] We hebben uren naar je gezocht.
+[heller] Toen ik je het laaste zag, was je bij E aan het flirten en rende je achter de ijscoman aan
+[budzyyy] hebben we een ijscoman in ons dorp?
+[heller] Nee, maar jij dacht van wel gisteravond
+[budzyyy] Ik word hier echt te oud voor.
+</file>
+
+  <eosDevice name="Jason's ePhone 4S" id="eosIntroPhone">
+    <note>Varkensbroodjes
+
+  ----------------------
+  1.5 eetlepel suiker
+  250ml warm water
+  1.5 theelepel yeast
+  eetlepel veg olie
+  1.5 theelepel bakpoeder
+  400g meel
+  ----------------------
+
+  Suiker + water in kom, oplossen, gist toevoegen, afdekken en wacht 10 min.
+
+  Zeef de rest er in, mix+kneed naar soepel rekbaar deeg, denk af met handoek 1 uur.
+
+  Verdelen in ballen, vulling toevoegen als je wil, stomen voor 20 min.
+
+    </note>
+    <note>Tortillas
+
+----------------------
+2koppen bloem
+1/2 theelepel zout
+Teelepel bakpoeder
+Eetlepel reuzel
+3/4 kop water
+----------------------
+
+Mix poeders en voeg reuzel toe. Voeg water toe en maak deeg. Kneden tot soepel.
+
+Dun rollen en koken in pan tot goudkleurig.</note>
+    <mail username="jjstacks@jmail.com" pass="tintin7" />
+  </eosDevice>
+
+  <account username="admin" password="tintin7" />
+</Computer>

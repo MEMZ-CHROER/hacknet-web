@@ -1,0 +1,65 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="producerComp" 
+          ip="37.187.27.55"
+          name="Jason's LackBook Pro" 
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="laptop"
+          type="2" > <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <adminPass pass="DANGER" />
+  <!-- Security Stuff -->
+  <trace time="-1" /> <!-- Adds a trace timer - set to -1 to remove -->
+  <firewall level="6" solution="DANGER"/>
+  
+  <file path="sys" name="x-server.sys">#WHITE_THEME#</file>
+
+  <file path="home/scripts" name="DANGER.txt">
+    Why is the word danger so good? Not just danger, DANGER. All caps. It's just the objectively best word.
+    Best zone? The DANGER zone. best middle name? DANGER.
+    I wish i could use that word for everything.
+  </file>
+
+  <encryptedFile path="home/scripts" name="T2_Screenplay.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" >
+    Titanic 2: Iceberg's Revenge - Die Rache der Enteisten
+    -Ein Drehbuch-
+
+JACK DAWSON: "Es ist einfach niemanden in den Sinn gekommen - Der Eisberg hat nicht uns getroffen... WIR HABEN IHN GETROFFEN!"
+ROSE DEWITT BUKATER: "Bitte was?! Hat die unsagbar kostspielige, auf nicht geprüften und unwissenschaftlichen Thesen basierte, hoch experimentelle, unglaublich gefährliche und nicht zu vergessen extrem teure Operation mit der ich dich wiederbelebt habe dich verrückt werden lassen? Ich habe dich aus dem Reich der Toten zurückgebracht, weil ich dich *LIEBE*!"
+JACK DAWSON: "Ich weiß, *Seufzer* aber wir sind alle in Gefahr. Der Eisberg war Teil einer Gang, und jetzt sind sie hinter uns her. Sie haben gesagt, ich würde dort sterben... sie haben wohl nicht gedacht..."
+-JACK DAWSON greift nach einer COOLEN SONNENBRILLE und setzt diese auf
+JACK DAWSON: "dass ich wiederkomme."
+
+Szenenwechsel: Kaliforniens Küste
+
+Ein Eisberg erhebt sich aus dem Meer. Er nähert sich rasend schnell der Küste.
+Notsirenen ertönen, die Menschen am Strand schreien, starren und laufen um ihr Leben.
+Weitere Eisberge erscheinen in V-Formation; sie ziehen gemeinsam auf die Küste zu.
+
+ROSE DEWITT BUKATER: "Hilf mir!"
+JACK DAWSON: "Rose! Ich bin für dich da! Ich lass dich nicht allein!"
+
+Der Eisberg hat den Strand erreicht, er gleitet auf die Protagonisten zu. Er zieht eine Pistole.
+
+ROSE DEWITT BUKATER: "JAAAAACCCKKKKKKK!"
+
+  </encryptedFile>
+
+  <encryptedFile path="home/scripts" name="GHL_ChapterList.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" >
+    Galactic Hero's Legend
+    -Inhaltsverzeichnis-
+
+    KAPITEL EINS: In die Stratosphäre eingedrungen
+    KAPITEL 2:    Tiefer Einschlag
+    KAPITEL 3:    Rückstoß
+    KAPITEL 4:    Bis tief ins Herz
+    KAPITEL 5:    Schweres Beben
+    KAPITEL 6:    Das Etwas im Busch
+    KAPITEL 7:    Kriegsbeute
+    KAPITEL 8:    Zu tiefstem Dank verpflichtet
+    KAPITEL 9:    Reue, Angst, Triebe
+    KAPITEL 10:   Explosion in der Tiefe
+    KAPITEL 11:   Immer im Rhythmus schwingen
+    KAPITEL 12:   Erst sanft, dann energisch
+  </encryptedFile>
+  
+</Computer>

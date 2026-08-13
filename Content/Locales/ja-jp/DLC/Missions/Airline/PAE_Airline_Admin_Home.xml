@@ -1,0 +1,63 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpae_airline_home" name="Yasu Arai's eBook Touch" security="4" ip="141.88.107.140" icon="laptop" type="4">
+
+  <!-- Laptop of the administrator of the airline network.
+  
+  Contains an eOS device that has the admin's email account details on it.
+  Should also contain:
+  File describing how Psylence had insisted on installing specialized security on his home computer (the fast trace).
+  Very small mention of a tablet - it's mentioned elsewhere, and it shouldn't be too hand-hold-ey 
+  
+  eOS device needs some notes on it too
+  -->
+
+  <proxy time="-1" />
+  <firewall level="-1"/>
+  <trace time="40" />
+  <portsForCrack val="4" />
+  <ports>443, 6881, 192</ports>
+  <adminPass pass="1185JACK1" />
+
+  <positionNear target="dpa_whitelist" position="110" total="360" extraDistance="0"/>
+
+  <file path="home" name="ryosan_letter.txt">前略　リョウさま
+
+元気そうでなによりです。先月の手紙、とても面白く読みました。このごろ、リョウの詩はますます流れが良くなっていますね。まるで川のように。ごめん、僕には上手くできないみたいです（笑）。新しい詩を受け取るたびにリョウのことを誇らしく感じます。
+
+私の新生活については……まあ 
+上手くいっています。新しい仕事は緊張しますが、悪い緊張ではありません。毎日が挑戦の連続ですが、乗り越えられない壁はないと自分に言い聞かせています。 
+
+とはいうものの、ロサンゼルスの交通事情にはまいっています。ご存じでしょうが、いえ、ご存じでしょうか？東京のおばさんのアパートに車で行くのを想像してみてください。ロサンゼルスの交通はもっと酷い。最悪です。本当です。
+
+仕事場で困るのはセキュリティー会社の人たちとの付き合いです。彼らは何の相談もなく、勝手に社員のコンピューターをいじってプログラムをインストールするのです。想像できますか？先週のことです。その高慢なコンサルタントは急に現れたかと思うと、サーバーと僕のPCへのアクセスを要求してきたのです。僕のタブレットまで！こんなの絶対におかしいでしょう。
+
+実はPCがキーロガーに感染しているんだかなんだかわからない状態なんですが……たぶん心配ないでしょう。彼らが入れたセキュリティーは強力ですからね。おかげでPCが重くなっていますが、安全なはずです。
+
+日本が恋しくなってきました。母さんにもよろしく伝えてください。アパートの写真を同封するので、母さんと一緒にインテリアや内装を考えてくれると嬉しいです。
+
+もらったタブレットは活躍しています。ありがとう。おかげで最高の1週間になりました。Psylance社のやつらにいろいろ入れられてしまったけど、大切に使います。
+
+草々
+ヤス
+  </file>
+  
+  <file path="sys" name="eOS_SyncLog.dcs">#BINARY#</file>
+  
+  <eosDevice name="Yasu's ePad Plus" id="dpae_airline_tablet" icon="tablet">
+    <!-- note to Translators: "rx" means "prescription" -->
+    <note>ToDo: T処方薬を補充</note>
+    
+    <note>Bridgetが金曜に出かけたいと言った
+    いいバーをさがさないと。 
+    ボードゲームがある新しい店がいいかな</note>
+    <note>ToDo
+    Psylanceにクレームを送る
+    set alarm for ePad++ keynote
+    リョウへの手紙をプリントして投函
+    買い物リスト： ジン、サイダー、レモン、トニックウォーター、Jackのバースデーカード（27日）、食器用洗剤、漂白剤、安物のショットグラス
+    内分泌科の検査を予約</note>
+    
+    <mail username="YasuArai@pacificair.com" pass="9NINETWO2" />
+  </eosDevice>
+  
+</Computer>

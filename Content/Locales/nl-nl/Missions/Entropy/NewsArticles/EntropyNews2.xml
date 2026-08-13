@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews02">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Verdenkingen over Entropy">
+Internet groep Entropy is befaamd als een betrouwbare informatiebron op het gebied van ontwikkelingen in de internet wereled, maar recentelijke acties door de groep, zoals het stopzetten van hun publieke toegang terminal nadat ze de manier waarop ze informatie verzamelde onderzocht werd, heeft de verdenkingen opgewekt van beide journalisten en bedrijven.
+
+Ondanks de groep al lang een aanwist is geweest tot the openheid van informatie, als het dit deed bij illigile methodes, moet er actie ondernomen worden.
+Meer nieuws als de informatie binnenkomt.
+
+Journalist : Tom Wilkins
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Moet Gestopt Worden</subject>
+    <body>
+Vernietig de entropy Databank
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

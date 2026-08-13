@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyServer01">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Cleanup Operation">
+본 그룹의 주요 고객이 어떤 전 직원의 개인 컴퓨터에서 특정 파일을 삭제해달라고 요청했다.
+ 파일은 고유한 것이 아니고, 기업에서는 단순히 이 개인의 파일만을 삭제하기를 원한다. 
+대상이 당신에게 패시브 추적을 걸 일은 아마 없을 것이다.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>끝마무리 2 - 편집 요망</subject>
+    <body>
+안녕, 요원. 
+
+직원 한 명이 경쟁업체에 취직하여 우리 회사를 떠났다. 그러면서 우리 회사의 내부 데이터의 상당한 양을 가져갔는데, 그걸 이 사람이 계속 가지고 있는 것은 우리에게 좋은 일이 아니다. 
+
+당신이 이 사람의 컴퓨터에 접근하여 해당 정보를 삭제해주었으면 좋겠다. 아마 백업본 없이 하나의 아카이브 파일로 저장되어 있을 가능성이 높다.
+
+ 그럼, 부탁한다.
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

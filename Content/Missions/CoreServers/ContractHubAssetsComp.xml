@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mainHubAssets" name="CSEC Assets Server" security="4">
+  <adminPass pass="csec-5xg3D11" />
+  <admin type="fast" resetPassword="false"/>
+  <positionNear target="mainHub" position="5" total="6" />
+  <!-- template.txt and FileNamingScheme.txt are Localization critical files!
+  Be *very careful* not to include any non-English characters in files the player must use replace on
+  In the case where this doesn't make sense in a language without English glyphs, use the English term and include a passage in the
+  description file that translates the terms.
+  -->
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="template.txt">[FIRST_NAME]#[LAST_NAME]#[RECORD_NUM]#32#Rural#N/A#N/A#N/A#[LAST_WORDS]</file>
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="FileNamingScheme.txt">
+Death row database file naming scheme:
+
+LastName_FirstName[RecordNumber]
+
+It's recommended you download a copy of template.txt, edit it locally, then rename it to fit the scheme before inserting it into the database.
+Example: Doe_John[12345]
+
+Because you'll likely want to replace all of the wildcards in the template file, you should use the quick replace shortcut:
+1: Flag the file as "active" in your operating system (easiest way to do this is reading it with the cat command - "cat template.txt")
+2: use replace without adding in the filename - (replace "[FIRST_NAME]" "John")
+3: Continue step 2 until the file looks the way you want it
+4: Rename the file (mv template.txt Doe_John[12345])
+5: Upload the file into the database (connect to the remote database, "upload /home/Doe_John[12345]" - Make sure you're in the folder that you want it to upload to!)
+</file>
+  
+  <file path="bin/SQL_Mem_Corrupter" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+  <file path="bin/SQL_Mem_Corrupter" name="info.txt">
+--SQL Memory Corruption Injector Readme--
+    
+The SQL Memory Corruption Injector (SQL_MemCorrupt.exe) is a targeted exploit for public-facing SQL ports (Default number 1433).
+It injects a table entry that, when read, causes a memory corruption error in the database, then immediately queries said table, causing an immediate SQL database crash and core dump.
+This will temporarily allow otherwise unauthenticated traffic on the SQL server port before the target OS cleans up the dying SQL connection and restarts the service.
+
+The program, when in display mode, will output it's operational status at the top, and the sql server output (Ideally a memory dump of the injected entry) underneath.
+</file>
+
+  <file path="bin/WebServerWorm" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin/WebServerWorm" name="info.txt">
+--Web Server Worm Readme--
+
+This web server fast-access worm is a targeted executable that can attack HTTP web servers (generally running on port 80 or 8080).
+This program utilizes a flaw in currently active versions of web server software, exploiting a buffer overflow, to allow the injection of arbitrary code (the worm itself).
+This worm, once running on the server, will forward any outside traffic passed through the web port to the operating system, effectively bypassing the port security.
+This acts to open the port for free usage.
+
+The worm does *not* impede the normal actions of the web server itself, both because this generally leads to easier detection of the worm itself, and because it makes it very clear to outsiders that something unusual is going on.
+
+</file>
+
+  <file path="bin/Sequencer" name="Sequencer.exe">#SEQUENCER_EXE#</file>
+
+  <file path="Themes" name="CSEC_x-server.sys">#WHITE_THEME#</file>
+  <file path="Themes" name="Mint_x-server.sys">#MINT_THEME#</file>
+  <file path="Themes" name="Teal_x-server.sys">#TEAL_THEME#</file>
+  <file path="Themes" name="Blue_x-server.sys">#BASE_THEME#</file>
+  
+  
+</Computer>

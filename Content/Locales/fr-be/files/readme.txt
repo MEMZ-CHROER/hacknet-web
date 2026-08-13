@@ -1,0 +1,7 @@
+﻿﻿Readme.txt
+
+Merci d'avoir acheter Grocery Simulator 2011.
+
+Dans Grocery Simulator 2015, vous êtes le joueur, qui peut endosser jusqu'à 5 classes de personnage différentes. Les joueurs combattent des monstres dans des donjons et des zones sauvages pour faire progresser leur personnage et obtenir de meilleurs objets. Les combats sont en temps réel, avec un point de vue isométrique. Les joueurs ont aussi l'option de recruter un mercenaire PNJ, qui suivra le joueur et attaquera les ennemis proches. Un boss puissant attend le joueur à la fin de chaque acte. Les objets, les attributs des monstres, et la plupart des donjons sont générés aléatoirement dans Diablo II.
+
+Comme dans les précédents jeux Doom, l'objectif est de créer une ligne horizontale de dix blocs sans trou en déplaçant chacun des blocs latéralement et en les faisant pivoter à 90°. L'approche plus centrée sur l'histoire de Doom 3, cependant, signifie que le joueur rencontre souvent des PNJ amicaux, qui fournissent des informations clés sur l'intrigue, les objectifs et les Power Stars. [7] Chaque galaxie contient un certain nombre de planètes et d'espaces que le joueur peut explorer. [7] Le jeu utilise un nouveau moteur physique qui permet une fonctionnalité unique :  Aerial Faith Plates, qui lance le joueur ou des objets dans les airs, et parfois dans Svenska Folkdansringen (Le cercle de danse folklorique suédois), généralement appelé "Folkdansringen", la plus grande organisation amateur de culture folklorique suédoise.

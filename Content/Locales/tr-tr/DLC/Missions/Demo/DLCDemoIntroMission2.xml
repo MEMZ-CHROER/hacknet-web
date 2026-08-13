@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dlcDemoIntro2">
+  <goals>
+    
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Tex</sender>
+    <subject>Gönderilen: Kayuga Denemeleri</subject>
+    <body>
+Merhaba millet.
+
+Üyelerin bundan haberdar olması gerektiğini düşündüm. Görünüşe göre bir arkadaş ekip kuruyor ve üye alımı için de deneme niteliğinde çalışmalar sunuyor.
+Eğer yeni iş almak isteyeniniz varsa, göz atmaya değer olduğunu düşünüyorum. Bende şöyle bir baktım. Ne yazık ki şu anda bununla uğraşacak zamanım yok.
+Bu arada "Kayuga" denen arkadaşı tanıyan var mı? İsmini ilk defa duydum.
+
+Her neyse... linki attım. Doğru amaçlar için mücadele etmeye devam edin.
+-Tex
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

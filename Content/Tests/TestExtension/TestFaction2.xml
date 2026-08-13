@@ -1,0 +1,9 @@
+<CustomFaction name="AutoTest Faction" id="autoTestFaction" playerVal="0">
+  <Action ValueRequired="2">
+    <AddAsset FileName="FTPBounce.exe" FileContents="#FTP_CRACK#" TargetComp="linkNode1" TargetFolderpath="bin" />
+  </Action>
+  <Action ValueRequired="10">
+    <AddAsset FileName="SecondTestFile.txt" FileContents="123456789" TargetComp="linkNode1" TargetFolderpath="bin" />
+  </Action>
+  
+</CustomFaction>

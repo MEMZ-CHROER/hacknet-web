@@ -1,0 +1,12 @@
+Este servidor es un sistema de mantenimiento de ISP's
+diseñado para permitir una fácil configuración
+de otras compañías de mantenimiento de ISP's.
+Para usar el sisetma de mantenimiento, primero adquiere
+una cuenta de administrador en esta máquina
+(contacta con tu administrador de sistemas), y
+ busca la IP en cuestión.
+
+
+Si tiene problemas técnicos,
+contacta con el servicio al cliente en
+1-800-827-6364

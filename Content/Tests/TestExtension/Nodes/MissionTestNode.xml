@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="missionTestNode" 
+          name="Mission Test Node 1" 
+          security="2">
+
+  <account username="TestAccount" password="testpassword" type="1" />
+
+  <file path="home" name="asdf.txt">test document for deletion in mission 1</file>
+  <file path="home" name="downloadFile.txt">test document for deletion in mission 1</file>
+
+  <file path="home" name="changeFile.txt">text to change. data something something.</file>
+
+  <encryptedFile path="home" name="asdf2.dec" extension=".txt" ip="192.168.1.1" header="This is the header" pass="password">
+    This generates an encrypted file that can be decrypted using the password above
+  </encryptedFile>
+
+</Computer>

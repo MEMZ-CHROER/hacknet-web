@@ -1,0 +1,30 @@
+﻿﻿notes
+------------------------------------------
+#Speech
+Quelqu'un peut m'expliquer pour le programme Notes ? Pourquoi c'est une telle daube ?
+Pourquoi la chaîne test note prend-elle 100 Mo de ram ? Comment est-ce possible ?
+------------------------------------------
+>Pourquoi c'est une telle daube ?
+Soupir. Vraiment ? Tu ne captes pas ?
+------------------------------------------
+>Notes
+>Daube
+Ça y est, c'est parti, que quelqu'un ramène le duck
+------------------------------------------
+#Duck
+>que quelqu'un ramène le duck
+ 
+>insinuant que je n'étais pas déjà là
+------------------------------------------
+#Academic
+Ok, j'ai horreur de mâcher le travail pour les autres, mais faut arrêter avec ces conneries. Notes est un logiciel extrêmement bien conçu dont tu comprends visiblement de travers la fonction.
+
+ÉVIDEMMENT que ça ne prend pas autant de ram pour stocker une chaîne, le programme ne fait qu'exploiter l'affichage RAM pour maintenir constamment la note à l'écran en remplissant la quantité exacte dont il a besoin de junk data.
+C'est un hack, bien sûr, mais ça veut dire que c'est un programme de notes générique qui marchera sur n'importe quel système d'exploitation doté d'un moniteur de ram - ce qui veut dire que c'est un programme de notes qui n'a pas besoin d'une IU codée spécialement pour lui.
+Ce qui veut dire qu'il sera toujours disponible, au cas où tu aurais besoin de noter quelque chose et que tu es trop paresseux pour chercher un foutu stylo-bille.
+
+
+
+
+
+------------------------------------------

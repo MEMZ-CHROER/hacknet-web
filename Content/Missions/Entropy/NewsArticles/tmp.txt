@@ -1,0 +1,5 @@
+FaceSpace CEO "Had no idea" that apps were stealing customer Identities, banking details, houses
+Social networking giant FaceSpace has been no stranger to controversy these past few weeks, as more and more details about its' more unsavoury applications unfold. In this latest development, it seems that many of FaceSpace's integrated web apps have been given access to users' personal data including 
+credit card numbers, identity documents, and the location of house keys. FaceSpace's CEO assured users that this was only a minor security hiccup, and one that he had no knowledge of or responsibility for.
+
+

@@ -1,0 +1,8 @@
+Gratulation,
+Ihr letzter Klient hat einen Erfolg gemeldet und ist mit Ihrer Arbeit zufrieden.
+Sie können nun weitere Aufträge aus dem Auftragsverzeichnis annehmen.
+
+Ihr jetziger Rang ist {0} von {1}.
+
+Vielen Dank,
+{2}

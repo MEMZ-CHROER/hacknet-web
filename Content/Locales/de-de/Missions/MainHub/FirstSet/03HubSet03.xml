@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="removeDeathRowRecord" name="Joseph Felman"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Entferne einen gefälschten Death-Row Eintrag">
+Deine Aufgabe wird es sein, einen von einem anderen Hacker gefälschten Entrag in der Death-Row Datenbank zu entfernen.
+Aus einem unerfindlichem Grund ist ein gefälschter Eintrag aufgetaucht, offensichtlich eine Kopie eines existierenden Eintrags - Vermutlich ein versuchter Identitätendiebstahl oder eine persönliche Vendetta.
+Könntest du diesen Eintrag löschen?
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Mimikry im Todestrakt</subject>
+    <body>Dieser Auftrag wurden von einem anonymen CSEC Mitglied hinzugefügt. Auch wenn es möglich ist, dessen Identität festzustellen, bittet CSEC darum, die Privatsphäre und Anonymität seiner Mitglieder zu respektieren und dies nicht zu tun.
+
+Auftrag:
+Der Death-Row Eintrag für einen gewissen "Joseph Felman" (#119080) ist offensichtlich eine Kopie von Alva Currys (#999080).
+Lösche Joseph Felmans Eintrag aus der Datenbank - seine Existenz ist nicht nur ein Risiko für alle echten Joseph Felman, sondern auch beleidigend gegenüber Mr. Curry. Berichtige das.
+
+-CSEC
+    </body>
+    <attachments>
+      <link comp="deathRow" />
+      <note title="Details">Lösche den Eintrag
+Name: "Joseph Felman"</note>
+    </attachments>
+  </email>
+</mission>

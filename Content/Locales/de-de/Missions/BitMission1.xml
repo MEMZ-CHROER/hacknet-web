@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission01">
+  <goals>
+    <goal type="FileDeletion" target="bitMission01" file="@18907_Connection_From_XXX.XXX.XXX.XXX" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@18922_XXX.XXX.XXX.XXX_Given_Administrator_Access" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@18928_XXX.XXX.XXX.XXX_Acessed_File_[Valence_Dossier.pdf]" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@19002_XXX.XXX.XXX.XXX_Deleted_File_[Valence_Dossier.pdf]" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@19002_XXX.XXX.XXX.XXX_Disconnected" path="log" />
+  </goals>
+  <nextMission>BitMission2.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>Gegenleistung</subject>
+    <body>Gute Arbeit! Von hier an wird es nur noch schwieriger.
+
+Ich muss dich um einen Gefallen bitten.
+Ich war in letzter Zeit etwas nachlässig, weshalb ich auch in diese Schwierigkeiten geraten bin. Der Punkt ist: Es existieren auf mehreren Computern noch Logs, die ich gern verschwinden sehen würde.
+Und wenn du alles vergisst, merk dir eines - Werde niemals nachlässig! Lösche deine Logs. Falls du das bisher nicht gemacht hast, fang jetzt damit an - ALLES was du auf einem modernen OS machst wird im ~/log Ordner aufgezeichnet. Du musst nur  >rm * verwenden, um den Inhalt des Ordners zu löschen.
+
+Danke und viel Glück.
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <note title="Details">Lösche alle Dateien im ~/log Ordner des Zielcomputers
+Der Befehl "rm *" löscht ALLES aus dem Verzeichnis, in dem du dich gerade befindest - verwende ihn mit Bedacht!
+      </note>
+      <link comp="bitMission01" />
+    </attachments>
+  </email>
+</mission>

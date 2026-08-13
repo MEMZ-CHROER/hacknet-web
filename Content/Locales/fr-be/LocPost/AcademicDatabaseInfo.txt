@@ -1,0 +1,4 @@
+﻿﻿Bienvenue dans la Base de données académique internationale
+Ce serveur d'accès public fournit un accès centralisé aux dossiers académiques de chaque université internationalement reconnue dans le monde.
+Notre base de données est gérée par les administrateurs de ce terminal sécurisé, ainsi que par des universités sélectionnées qui contribuent à la base de données.
+Si vous êtes le Recteur adjoint d'une université qui souhaite apporter sa contribution à cette base de données et être internationalement reconnue, envoyez un e-mail à nos administrateurs à l'adresse admin@mail.academic.org

@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyServer01">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Cleanup Operation">
+Un client important de notre groupe a demandé la suppression d'un fichier sur l'ordinateur d'un ancien employé.
+ Ce n'est pas un fichier unique, l'entreprise veut simplement supprimer la copie de cet individu. 
+Il est peu probable que la cible lance un pistage passif.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Détails à régler 2 - BESOIN DE RETOUCHE</subject>
+    <body>
+Salutations Agent,
+
+ L'un de nos employés nous a quitté il y a peu pour une compagnie rivale. Ce faisant, il s'est emparé d'un large volume de données internes à notre entreprise. Il serait malvenu qu'il les conserve. 
+
+Nous souhaitons que vous accédiez à son ordinateur et que vous supprimiez ces informations. C'est probablement stocké dans un seul fichier d'archive sans copie de sauvegarde.
+
+ Merci, 
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="csec_med_01" handle="Whitewash" firstName="Jonas" lastName="Sandburg" isMale="true">
+  <Birthplace name="London" />
+  <Degrees>
+    <Degree uni="Manchester University" gpa="2.9">Masters in Computer Science</Degree>
+  </Degrees>
+  <DOB>05/03/1993 14:00:00</DOB>
+  <Medical>
+    <Blood>BO</Blood>
+    <Height>166</Height>
+    <Allergies>KEINE</Allergies>
+    <Perscription>Albendazole x70 zwei-monatlich :: siehe Notiz</Perscription>
+    <Perscription>Ivermectin x35 monatlich :: siehe Notiz</Perscription>
+    <Notes>Patient hat einen schweren Fall von testikulärer Elephantitis, bekannt seit 8. Lebensjahr, regelmäßige Behandlungen schlagen gut an. Dennoch ist die Schwellung SEHR AUFFÄLLIG. Penible Hygiene und regelmäßige Behandlung ermöglichen allerdings einen geregelten Tagesablauf.
+    </Notes>
+  </Medical>
+  <Notes>CSEC Med case for M_09  </Notes>
+</Person>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission02" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>RE: Welcome</subject>
+    <body>
+#PLAYERNAME#, 
+
+Excellent - I'd like to be the first to formally invite you to begin accepting entropy contracts. Attached is the location of the group's secure Contract database, along with login credentials necessary to access it.
+Feel free to accept and complete initial contracts at your leisure.
+
+I'll be in contact again to gauge your progress soon.
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy00" />
+      <account comp="entropy00" user="#PLAYERNAME#" pass="rosebud" type="3" />
+    </attachments>
+  </email>
+</mission>

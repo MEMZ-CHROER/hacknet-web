@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="xcRepBAD" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+UNKNOWN POSTING ERROR
+  </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>Re: Internal investigations</subject>
+    <body>
+Impressive work, civilian - you've been much more thorough than I expected.
+It looks like the interrogation tooling project is coming along nicely... A little bit more extensive than I would have expected, but we dont question the doctor on these things.
+
+At any rate, this was commissioned by the commander, it all seems in order.
+
+Bradford out,
+-C.O Bradford
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

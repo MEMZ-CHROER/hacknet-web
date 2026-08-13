@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="secuLockDrive" name="TU ME CHERCHES /Disque sécurisé SecuLock d&apos;EL" ip="69.172.201.208" security="4" type="4" icon="chip">
+
+  <portsForCrack val="4"/>
+  <proxy time="0.2"/>
+  <ports>25, 22, 21, 1433</ports>
+  <trace time="400"/>
+  <adminPass pass="ithoughtyouweremakingtea"/>
+  <admin type="fast" resetPassword="false" isSuper="true"/>
+  
+  
+  <file path="home" name="DeleteMe.txt">Bravo ! Supprime-ça pour être sûr que ce machin est aussi fragile que je pense</file>
+  
+  
+  
+</Computer>

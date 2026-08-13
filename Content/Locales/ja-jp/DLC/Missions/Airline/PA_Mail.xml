@@ -1,0 +1,135 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa_mail" name="PacificAir_Mail" security="5" type="4" icon="PacificAir">
+
+  <!-- The mail server, will need to have three accounts. Two of these are critical, one is just flavor.
+  The player will never be able to break in here, so we only need to populate the contents of those three
+  accounts, nothing else.-->
+  
+  <proxy time="4" />
+  <trace time="75" />
+  <portsForCrack val="5" />
+  <ports>22, 25, 443, 1433, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dpa_nethub" position="90" total="360" extraDistance="0.03"/>
+  
+  <!--TRANSLATORS: Do not translate these account lines -->
+  <account username="awilburn" password="1234" type="2" />
+  <account username="kburnaby" password="noneofyourbusiness" type="2" />
+  <account username="YasuArai" password="9NINETWO2" type="2" />
+  
+  <mailServer name="Pacific Air Mail" color="153,195,209">
+    <email recipient="kburnaby" sender="YasuArai" subject="サイバーセキュリティーのやつら">あいつらほんとムカつくんだ。
+ちょっと他の人に頼みごとして僕のラップトップを貸したら、あいついきなりキレるんだもんな。それでパスワードとか全部変えさせられたんだ。
+最後尾に1を足しただけだから忘れることはないけど、ほんとムカつく。
+頭の中どうなってるんだ？
+-Yasu</email>
+    
+    <email recipient="kburnaby" sender="sp_alerts" subject="第2週のスピアフィッシング警報"> {$ActiveMonth}の第2週に発動した警報の自動集計結果です。
+月: 3 Alerts
+火: 0 Alerts
+水: 4 Alerts
+木: 1 Alerts
+金: 2 Alerts</email>
+
+    <email recipient="kburnaby" sender="YasuArai" subject="Re: ランチ">遠慮しときます！プロどうしの関係でいたいので。
+-Yasu</email>
+
+    <email recipient="kburnaby" sender="MailAdmin" subject="[ATTN: Admins] 議事録">みなさん、議事録を書き始めないと、あとが大変ですよ。
+特に私が。 
+よろしくお願い致します。</email>
+
+    <email recipient="kburnaby" sender="awilburn" subject="フィッシングメール？">Kimさま
+他の人にも相談したのですが、これはKimさんに聞くのが一番だと判断しました。
+パスワードリセットに関するメールが来たのですが、本物かどうかわかりません。確認していただけますか？
+> admin_password_security_reset@pacifiicaircom.org sent:
+> ""各位
+> パスワードリセットのお知らせです。
+> このリンクをクリックしてパスワードをリセットしてください。
+> セキュリティー強化のため、ご協力お願いいたします。
+> 管理者""
+- Alexina</email>
+    
+    <!-- NetAdmin Emails -->
+  
+  <email recipient="YasuArai" sender="kburnaby" subject="Re: サイバーセキュリティーのやつら">メールは仕事の連絡のみに使ってください。これは個人的な不平でしょう。もっとプロとして自覚を持つようお願いします。
+-Kim</email>
+
+    <email recipient="YasuArai" sender="athurlow" subject="Re: Re: パスワードリセット">なんでですか。簡単なお願いなのに、どうしてやってくれないんですか？
+> NetAdmin@pacificair.com sent:
+> できません。
+> > athurlow@pacificair.com sent:
+> > ちょっと僕のパスワードリセットしてくれない？</email>
+
+    <email recipient="YasuArai" sender="kburnaby" subject="Fwd: フィッシングメール？">また来ました。
+-Kim
+> awilburn@pacificair.com sent:
+> Kimさま
+> 他の人にも相談したのですが、これはKimさんに聞くのが一番だと判断しました。
+> パスワードリセットに関するメールが来たのですが、本物かどうかわかりません。確認していただけますか？
+> > admin_password_security_reset@pacifiicaircom.org sent:
+> > ""各位
+> > パスワードリセットのお知らせです。
+> > このリンクをクリックしてパスワードをリセットしてください。
+> > セキュリティー強化のため、ご協力お願いいたします。
+> > 管理者""
+> - Alexina</email>
+
+    <email recipient="YasuArai" sender="kburnaby" subject="ランチ">こんにちは！コーヒーか何かどうですか？そろそろ1か月になるのにまだお互いのことほとんど知らないから、親睦を深めるためにも。 :)</email>
+
+    <email recipient="YasuArai" sender="MailAdmin" subject="[ATTN: Admins] 議事録">みなさん、議事録を書き始めないと、あとが大変ですよ。 
+特に私が。
+よろしくお願い致します。</email>
+
+    <email recipient="YasuArai" sender="sp_alerts" subject="第2週のスピアフィッシング警報">{$ActiveMonth}の第2週に発動した警報の自動集計結果です。
+月: 3 Alerts
+火: 0 Alerts
+水: 4 Alerts
+木: 1 Alerts
+金: 2 Alerts</email>
+    
+    
+  <!-- MiscPerson Email -->
+
+    <email recipient="awilburn" sender="temp_0340" subject="schedule for september">Alexinaさん、来週のシフトをください。 J</email>
+
+    <email recipient="awilburn" sender="dwiklowski" subject="Office Lottery">こんにちは！社内くじが延期になりました。AnthonyがまだiPadを買いに行ってないので、まだくじの話自体はまだ生きていますが、その、取りに行っても無駄です。今はかき入れどきなので2週間ほどお待ちいただくことになりそうです。
+Dan
+追伸 MartaとBenita、かわいい男の子誕生おめでとう！2人に会うのを楽しみにしてます！</email>
+
+    <email recipient="awilburn" sender="jadams" subject="火曜の会議">Alexinaへ
+	耳寄り情報：あなたは「今月の優秀社員」の有力候補です。
+今月の優秀社員は火曜の会議で選出します。出席してくれますよね？
+Jeremey</email>
+
+    <email recipient="awilburn" sender="employee_promotions" subject="[ATTN: ALL NON-CONTRACT EMPLOYEES] 旅行資格">~メールの印刷は環境にご配慮の上お願い致します。~
+人事部のBrandiです。
+年間旅行資格のお知らせです。
+ご承知かと存じますが、今年は何名か送り出さなければなりません。これは当社全体の緊縮策の一貫です。参考までに申し上げますと、CEO自らも減給し、みなさまの給与への影響を最小限に抑える努力をしています。
+Pacific Airの中上級社員向けだった無料旅行プログラムは大幅に変更され、制度の明確化により低級社員も参加させやすくなっております。
+詳細は当社ポータルの「ニュース」欄にてご確認ください。
+不明な点があれば私までお問い合わせください。
+
+人事部 Brandi</email>
+
+    <email recipient="awilburn" sender="mb_5f_broadcast" subject="[ATTN: 5階] トイレ被害">通告！
+5階で糞をまき散らした者は即時解雇する！
+トイレの外に監視カメラを設置した！
+絶対に逃がさない！
+見つけ次第クビだ！
+清掃員の精神を傷つけるな！
+ 
+Ramiro
+""世界を変えたいなら、まず自分が変わりなさい。"" - ガンジー（おそらく）</email>
+
+    <email recipient="awilburn" sender="admin_password_security_reset@pacifiicaircom.org" subject="パスワードリセット">各位
+パスワードリセットのお知らせです。
+このリンクをクリックしてパスワードをリセットしてください。
+セキュリティー強化のため、ご協力お願いいたします。
+管理者</email>
+    
+    
+  </mailServer>
+  
+</Computer>

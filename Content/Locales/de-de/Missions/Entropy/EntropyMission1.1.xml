@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission1.1">
+  <goals>
+    <goal type="FileDeletion" target="entropy01.1" file="config.sys" path="MsgBoard" />
+  </goals>
+  <missionEnd val="6">assignPlayerToEntropyFaction</missionEnd>
+  <nextMission>Entropy/EntropyMission1.2.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Mission angenommen</subject>
+    <body>
+Sei gegrüßt, #PLAYERNAME#,
+
+lass mich der Erste sein, der dir zur bestandenen Entropy-Aufnahmeprüfung gratulieren darf - obwohl sie für erfahrene Hacker eine triviale Aufgabe ist, scheint es nur Wenigen zu gelingen, sie zu bestehen.
+
+Bevor wir dir erlauben können, dich offizielles Mitglied dieser Gruppe zu nennen, musst du dich noch einmal beweisen.
+Ein Boulevardpresse-Server hat vor kurzem eine ablehnende Haltung gegenüber Entropy geäußert und wir würden ihn daher gerne vorübergehend deaktivieren. Als zweiten Test bitten wir dich also, ihre News-Seite lahmzulegen. Wenn möglich, lass die Artikel selbst, sowie den Rest des Servers, intakt - wir wollen nicht unnötig destruktiv sein.
+Du sollst NICHT einfach die Artikel von dem Server löschen - wir wollen nur die News-Seite lahmlegen.
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy01.1" />
+    </attachments>
+  </email>
+</mission>

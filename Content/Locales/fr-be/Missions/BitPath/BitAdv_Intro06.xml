@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit02_Phase6">
+  <goals>
+    <!--
+    <goal type="FileDownload" target="EnTechOutsiderRepo" file="heart.dec" path="Contractors/Bit" />
+    -->
+  </goals>
+  <missionStart val="1">changeSong</missionStart>
+  <nextMission>BitPath/BitAdv_Intro07.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Réclamation</subject>
+    <body>C'est exactement ce que j'espérais. Tout a été nettoyé, sauf un fichier chiffré dans le répertoire de Bit (comme tu as pu le voir). Ce fichier... 
+je sais comment l'ouvrir. Il nous avait donné le mot de passe il y a longtemps, quand on avait travaillé sur un projet ensemble. Il nous avait envoyé un message chiffré comme ça à l'époque, aussi. 
+
+Le mot de passe est « divingsparrow ». Je l'ai déjà lu. Il y a un compte email que je dois vérifier. Je te suggère de faire la même chose. 
+Télécharge le fichier et décrypte-le localement, ne laisse pas une copie ouverte dans la nature. Contacte-moi ensuite. On dirait qu'on touche au but et à l'action. 
+
+Réponds-moi une fois que t'es à jour, et finissons-en. 
+
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

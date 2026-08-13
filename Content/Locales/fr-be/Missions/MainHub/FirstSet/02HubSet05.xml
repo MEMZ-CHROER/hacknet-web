@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="encrypt_source.dec" path="home" destTarget="hubPubDrop" destPath="Drop/Uploads" decrypt="true"/>
+  </goals>
+  <missionEnd val="1">addFlags:decypher</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Locate or Create Decryption Software">
+Une nouvelle entreprise a élaboré un nouveau logiciel de cryptage de fichiers, et a verrouillé avec celui-ci une série de codes auparavant très ouverts pour nous. 
+L'algorithme ne semble pas aussi compliqué comparé à ce que nous avons pu confronter dans le passé, mais il n'existe pas encore de solution. Ce contrat vous engage à résoudre le problème de la manière que vous voulez, mais nous avons besoin du fichier décrypté.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Un écho dans les archives</subject>
+    <body>
+DEC Solutions a récemment fini sa nouvelle « suite de cryptage DEC » - essentiellement un package de cryptage de fichiers. Nous avons un fichier verrouillé par ce cryptage que nous souhaitons consulter. 
+J'ai mis une copie de celui-ci sur notre serveur crossroads (un dépotoir non sécurisé pour tous les utilisateurs CSEC) sous le nom « encrypt_source.dec ». Au fait, « .dec » est l'extension de fichier que ce nouveau cryptage génère. 
+
+Vous voudrez peut-être jeter un œil au fichier d'abord. Le site Internet de l'entreprise ne comporte pas vraiment d'informations utiles, mais si vous creusez un peu vous pourriez trouver quelque chose qui aidera. Une fois à l'intérieur, essayez d'explorer pour voir si le réseau va plus loin.
+
+ Une fois décrypté, téléchargez-le sur le serveur de stockage de données CSEC.
+    </body>
+    <attachments>
+      <link comp="hubCrossroads"/>
+      <link comp="hubPubDrop"/>
+      <link comp="decSoftWeb"/>
+      <note title="Détails du contrat">Enquêtez sur le réseau d'entreprise de DEC Solutions
+Trouvez une méthode de décryptage de fichier DEC
+Décryptez le fichier sur le Crossroads CSECT
+éléchargez le fichier décrypté sur le serveur de stockage de données CSEC</note>
+    </attachments>
+  </email>
+</mission>

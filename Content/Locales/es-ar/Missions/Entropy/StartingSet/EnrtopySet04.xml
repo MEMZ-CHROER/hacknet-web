@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="1299"/>
+  </goals>
+  <nextMission>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply.xml</nextMission>
+  <branchMissions>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply2.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply3.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply4_Penetrator.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply5.xml</branch>
+  </branchMissions>
+  <posting title="X-C Project">
+Una solicitud un tanto extraña. Alguien excepcionalmente acaudalado nos ha pedido algo de ayuda para investigar la tablet de una compañera de trabajo para ver si la está utilizando para asuntos personales en el trabajo. 
+
+Tras echar un vistazo superficial por su sistema parece que están obsesionados con los extraterrestres, ¿tal vez sean un grupo de rol, o un grupo de teóricos de las conspiraciones?
+ </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>Investigaciones internas</subject>
+    <body>
+Hola, civil: 
+El proyecto X-C necesita tu ayuda. Aunque se trata estrictamente de una cuestión tranquila e interna, es algo que personalmente me gustaría investigar, puesto que he tenido mis sospechas durante algún tiempo. Creo que una de las jefas de investigación más destacadas de nuestro equipo científico está siendo menos... productiva de lo que podría. 
+Quiero que un operario externo investigue su tablet y vea si hay algo fuera de lugar o no relacionado con el trabajo. 
+
+Nuestros servidores usan un sistema de almacenamiento de datos que contiene una réplica de los archivos mediante un código ID. Quiero que investigues el sistema y me respondas con el código de cualquier archivo que pienses que merezca la pena investigar. 
+Los archivos que nos interesan deberían tener su ID indicada en la parte de arriba, así: X-C_PROJECT:ID#11111111, donde &quot;11111111&quot; es la ID que estamos buscando. 
+
+Te adjunto un enlace directo a la tablet en cuestión. 
+
+Buena suerte, 
+-Director Bradford
+    </body>
+    <attachments>
+      <link comp="xcTablet"/>
+    </attachments>
+  </email>
+</mission>

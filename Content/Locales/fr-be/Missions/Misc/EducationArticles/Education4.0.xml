@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Guide Rapide des Serveurs Proxy">
+Les serveurs proxy fonctionnent comme une couche tampon entre l'ordinateur cible et un équivalent connecteur qui filtre, met en antémémoire et contrôle le trafic entrant pour, à la fois, optimiser les performances web pour les requêtes successives, et empêcher les attaques.
+
+La lacune la plus reconnue des serveurs proxy est leur limite supérieure de mémoire - si atteinte, ils seront forcés de permettre à du trafic non contrôlé de passer.
+
+Pour exploiter cela, les hackers et testeurs exécutent souvent des Shells sur d'autres ordinateurs dont l'attaquant a accès (en utilisant souvent le programme intégré en ligne de commande « shell »), et, avec une collection d'interpréteurs de commandes sur les machines servantes, ils se connectent ensuite à un ordinateur cible et utilisent la fonctionnalité de « surcharge » des interpréteurs de commandes pour noyer le serveur proxy de la cible de données indésirables, permettant de faire passer d'autre trafic potentiellement dangereux.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERREUR</subject>
+    <body>
+Recevoir cet email indique qu'une erreur inattendue est survenue.
+Veuillez paniquer.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

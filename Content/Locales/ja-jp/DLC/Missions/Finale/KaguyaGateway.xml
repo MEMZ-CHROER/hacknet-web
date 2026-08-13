@@ -1,0 +1,71 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dKagGate" name="Kaguya_Gateway" security="4" type="empty" ip="54.183.231.31">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 192, 443, 6881</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="-1" />
+
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+  <file path="bin" name="trnt.exe">#TORRENT_EXE#</file>
+  <file path="bin" name="SignalScramble.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+
+  <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+
+  <file path="home/projects" name="KaguyaTrial.exe">#KAGUYA_EXE#</file>
+
+  <file path="home/projects" name="trialSources.txt">
+    //P1
+    PhaseTitle = "74.125.23.121";
+    PhaseSubtitle = "ツールをダウンロードせよ" + "\n" + "システムファイルを削除せよ";
+
+    //P2
+    PhaseTitle = "216.239.32.181";
+    PhaseSubtitle = "調査せよ" + "\n" + "進歩せよ";
+  </file>
+  
+  <file path="home/projects" name="LabyrinthsTodo.txt">
+Skylinkのバックドアを削除、トラッカーのホワイトリストエントリを再チェック
+削除したことを再確認する
+CEOを罰する
+各サーバーのモニタリングのためshellを実行する
+Labyrinthsチームのサーバーを消す
+Kaguyaのペルソナを消す
+  </file>
+  
+  <file path="home/projects" name="KTH.txt">
+Nortron KTHバックドア・プロジェクト
+---------------------------
+
+
+彼らのビルドシステムとコーポレイトセットアップへの調査によれば、彼らは既存のオープンソースによる成果物から分岐させて社内開発したカスタムIDEを全製品に使用している。
+このIDEはそのC++コンパイラのカスタムバージョンを使用している。つまり、彼らは複数の改造を含む独自ブランチを持っているということだ。このコンパイラバージョン自体の内部はC++で書かれているが、新バージョンは彼らの独自システムの1つ前のバージョンのC++によってコンパイルされる。自己永続である。
+
+Phase 1: アクセス権を入手し、その特定のバージョンのコンパイラのソースコードをダウンロードする。
+オフラインで、コンパイラ自体に下記のシステムを組み込む：
+
+1: 全てのコンパイルされたプログラムは、ネットワークの全受信パケットをプリプロセスする小さいセクションをインジェクトされる。パケットに特別なヘッダーがある場合は、パケットの内容をコードとして、標的システム内で当該エグゼキューションが許容できる最高の権限で実行する。
+
+2:　コンパイルしているプログラムが「このコンパイラ自体」であるかどうか検知するコンパイラチェックを組み込む。新しく出力されたコンパイラへ、システム1と2を再インジェクトする。
+
+この新しいパケット・アクセス・システムと遺伝的ハックを組み込んでコンパイラの新バージョンをコンパイルする。
+
+Phase 2: 彼らのシステムに再度侵入する。コンパイラの「現在のバージョン」を、ハックしたバージョンにすり替える。ただし、ソースコードは更新しない。
+彼らのプロダクション・サーバーを攻撃し、全セキュリティー製品のためのソースコードに、敢えてわかりやすい脆弱性を仕込む。
+ログを削除する。
+
+Phase 3: 彼らのソフトウェアに保護されているシステムをパブリックに攻撃する。エラーを仕込んだアップデートを命令する。彼らはエラーに気付き修正するが、その際に感染したコンパイラを使用してシステムを再構築してしまう。おとり攻撃によって、彼らに感染を強いると同時に、問題が解決したと思い込ませることができる。
+
+その後、彼らが更新するソフトウェアの全バージョンは、こちらが要求する標的システムへの完全アクセスを無警告で許可するようになる。彼らのプログラムには修正対象となるソースコードやエラーは存在し得ない。こちらの工作は前のコンパイル時にインジェクトされるもののみだ。
+そればかりでなく、彼らの「コンパイラ」をチェックし、リコンパイルしても修正不可能だ。なぜなら、このハックは見えないまま自動的に新バージョンへ受け継がれるからだ。
+
+  </file>
+  
+  
+  
+</Computer>

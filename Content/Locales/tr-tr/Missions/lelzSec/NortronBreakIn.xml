@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="lelzSec1">
+  <goals>
+    <goal type="getAdmin" target="nortronMainframe"/>
+  </goals>
+  <nextMission>lelzSec/MessageBoardIntro.xml</nextMission>
+  <email>
+    <sender>Naix</sender>
+    <subject>Hilarious</subject>
+    <body>
+Ahaha, harika lan harika. Resmen sanat eseri olmuş.
+
+Pekala, bunu daha çok seveceksin. Gerçekten bi mücadeleye ne dersin?
+Nortron'un merkezi işlem birimiyle uğraşabilir misin sence? Açıkçası böyle bir güvenlik şirketinden daha fazlasını beklerdim. Yine de oldukça sağlam bir firewall bulunduruyorlar.
+O firewall'ı eski yollarla aşmaya çalışmak ve hatta aşmak oldukça sıkıntılıdır. Bu yüzden, sana bol şans diliyorum.
+
+İçeri sızabilir misin? İçeri sızarsan ne yapacağın umurumda değil, erişim yetkisine sahip olman bile beni etkilemeye yeter.
+
+Eğer başarısan sana göre bir şeyim olabilir.
+
+-Naix
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

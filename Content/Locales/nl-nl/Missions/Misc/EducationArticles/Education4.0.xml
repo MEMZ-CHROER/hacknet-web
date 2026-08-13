@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Proxy Server Snelle Gids">
+Proxy servers functioneren als een extra laag tussen het doelwit en het verbindingsonderdeel wat inkomend verkeer filtert, oplsaat en monitoord om prestaties te verbeteren voor herhaalijke opdrachten en om aanvallen af te kunnen slaan.
+
+De meest bekende fout in proxy servers in hun maximale geheugenlimiet - wat, waneer bereikt, het ongecontroleert verkeer door laat.
+
+Om dit uit te buiten, gebruiken hackers vaak Shells op andere computers waar een aanvaller toegang tot heeft (Meestal met het ingebouwde "shell" programma), dan, met de collecite van shells op slaafmachines, zal de hacker verbinden aan het doelwit, en "overload" gebruiken om de proxy te overvloeden
+met afvaldata, wat ander, potentieel gevaarlijk verkeer door zal laten.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Ontvangen van deze email betekent dat er een onverwachte fout is opgetreden.
+Raak in paniek.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

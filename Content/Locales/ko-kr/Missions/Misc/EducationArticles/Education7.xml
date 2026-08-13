@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="education07">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="*Nix Notes System">
+*Nix 커널 기반의 모든 터미널 중심 운영체제에는 내장된 메모장 프로그램(&quot;notes&quot;로 실행합니다)이 있으며 매우 편리할 수 있습니다.
+보통 사용률이 낮고, 비교적 램을 효율적으로 사용하며 많은 메일 클라이언트 및 기타 프로그램과 잘 통합됩니다
+(편리하게 메모를 자동으로 채울 수 있습니다).
+   
+실행은 &quot;notes' 명령만으로 이루어지므로 정말 간단하며, 메모는 UI, 또는 &quot;addNote [NOTE]&quot; 명령을 통해 수동으로 추가할 수 있습니다.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>오류</subject>
+    <body>
+본 이메일을 받았다는 건 예기치 못한 오류가 발생했음을 의미한다.
+제발 당황해라.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase2">
+  <goals>
+    <goal type="getString" target="156.151.59.35"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro03.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Substantiation</subject>
+    <body>Excellent,
+    
+TraceKill - as the name suggests, diverts active traces against you while it's running. It should make your work much easier.
+
+Let's begin.
+
+I've done some digging, after the last set - you saw that message too - he knew what was going on. Anyway, just the idea that whatever happened was linked to his work was enough to start with - I did some tracking and ended up with a bit of a list of his servers or relays - can't know how many of them are just virtual boxes running off the same machine, but it's a good start.
+The most promising one is linked at the end of this - it's a personal work server, something he was using to privately host copies of the version control repositories he was working on, apparently. 
+This itself might be a clue - who keeps the backups of a corporate VC solution? Only three cases I can think of - either you're responsible if they fuck it up, and you're surrounded by incompetents and you want to be sure, you need your backups and logs for legal reasons, or you're worried about something, and want records incase something goes down.
+
+Whatever's the case, this seems like the place to start digging - want to take a look? I've had a poke around, but didn't turn up anything substantial - cant decrypt the repo dumps.
+
+Let me know if you find anything - send over the IP address of anything strange if you dig up a link.
+
+-V    
+    </body>
+    <attachments>
+      <link comp="BitWorkServer" />
+    </attachments>
+  </email>
+</mission>

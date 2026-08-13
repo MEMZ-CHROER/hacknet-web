@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission02" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Yanıt: Hoşgeldin</subject>
+    <body>
+#PLAYERNAME#, 
+
+Her şey mükemmel. Seni Entropy iş sözleşmelerinin kabulü konusunda bilgilendirmek istedim. Entropy İş Sözleşmesi veritabanının yanında giriş bilgilerini de bu postaya ekledim.
+Boş vakitlerinde sözleşmeleri kabul edip tamamlayabilirsin.
+
+Durumun hakkında konuşmak için yakında sana dönüş yapacağım.
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy00" />
+      <account comp="entropy00" user="#PLAYERNAME#" pass="rosebud" type="3" />
+    </attachments>
+  </email>
+</mission>

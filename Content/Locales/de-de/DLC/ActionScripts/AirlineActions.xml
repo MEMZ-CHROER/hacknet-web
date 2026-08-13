@@ -1,0 +1,31 @@
+<ConditionalActions>
+
+  <OnAdminGained target="dpa_nethub">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="20">Äh, @channel beißt sich noch jemand hier gerade die Zähne an diesem Whitelist-Server aus?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="24">Mmm – aber ich denke, ich habe eine Idee. Wenn du ihn für ein zwei Minuten abschalten kannst, kümmere ich mich darum.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="25">Hä?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="30">Ich mein, klar doch. Ich kann mir vermutlich was überlegen, aber ich hab keinen Plan was du vorhast :\</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="34">Betriebsgeheimnis ;) Bereit? Countdown bitte</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="39">Klar, Moment ...</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="44">5</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="45">4</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="46">3</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="47">2</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="48">1</AddIRCMessage>
+    
+    <CrashComputer Delay="50" DelayHost="dhs" CrashSource="D3F_POD" TargetComp="dpa_whitelist" />
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="52">Fertig, los los los!</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="74">Fast geschafft...</AddIRCMessage>
+    <DeleteFile Delay="82" DelayHost="dhs" TargetComp="dpa_whitelist" FilePath="Whitelist" FileName="authenticator.dll" />
+
+    
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="85">Unnnnnd fertig! Wir sind soweit. D3f4ult, kannst du's einmal ausprobieren?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="90">Holy shit, wie hast du das gemacht?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="93">;)</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="95">Ach ja, @#PLAYERNAME# – der Whitelist-Server ist down!</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="101">Du solltest dich nun mit dem Buchungszentralrechner verbinden können</AddIRCMessage>
+    
+  </OnAdminGained>
+  
+</ConditionalActions>

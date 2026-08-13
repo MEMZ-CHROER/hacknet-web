@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entRep01" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+ERROR DE PUBLICACIÓN DESCONOCIDO
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Re: Vuelta a clase</subject>
+    <body>
+Ok, ¿en serio?
+
+*******... Guau. No sé si este tío es un genio o un idiota. ¿Igual las dos cosas? 
+Joder, quiero decir, solo lo comprobé por mi cuenta porque el script de verificación decía que estaba funcionando y quería *probarlo*. 
+
+Eh. La... respuesta a los administradores del instituto va a ser confusa. Agh. 
+
+Buen trabajo por tu parte, ahora nos encargamos del resto.
+-Administradores
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit02_Intro">
+  <goals>
+  </goals>
+  <missionStart>csecAddTraceKill</missionStart>
+  <nextMission>BitPath/BitAdv_Intro02.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Fondation</subject>
+    <body>Salut, 
+Bon, c'est pas trop orthodoxe, mais j'ai tiré quelques ficelles. C'est toi qui t'es occupé du contrat de Bit la fois dernière, celui qui a cherché ce qui s'était passé. 
+Je cherche des informations, et je voulais la même personne. Si tu reçois ça, ça veut dire que tu viens de terminer ton contrat, et donc qu'on peut continuer. 
+
+Pour être franc, « tirer quelques ficelles » chez CSEC, ça se fait pas à la légère, surtout dans ce cas. Tu as obtenu des résultats rapides, et je veux bosser avec toi. 
+Mais de manière plus collaborative, cette fois. Oui, je sais que tu vas accepter, j'ai de bonnes raisons pour ça. Il y a une motivation substantielle qui t'attend sur le serveur d'actifs de CSEC : 
+
+Cherche ~/bin/TK/TraceKill.dec 
+Décrypte-le avec le mot de passe « dx122DX » 
+
+Fais-en une copie, puis réponds-moi. Comme toujours, les admins sont paranos au sujet de leur sécurité, alors ce sera routé anonymement depuis leur serveur jusqu'à moi, mais peu importe. Réponds-moi ici quand tu es prêt et je t'expliquerai la suite.
+
+
+    </body>
+    <attachments>
+      <link comp="mainHubAssets"/>
+    </attachments>
+  </email>
+</mission>

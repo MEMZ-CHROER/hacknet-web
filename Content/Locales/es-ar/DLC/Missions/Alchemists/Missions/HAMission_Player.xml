@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ham_player">
+  <goals>
+    <goal type="fileupload" target="dhaAdminHome" file="SignalScrambler.exe" path="bin" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionStart val="3" suppress="true">changeSongDLC</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="Los alquimistas herméticos - #PLAYERNAME#">
+El administrador de un sistema de servidores grupales extraño y filosófico ha desarrollado un software que necesitaremos para futuros proyectos.
+  </posting>
+  <email>
+    <sender>Los alquimistas herméticos - #PLAYERNAME#</sender>
+    <subject>Los alquimistas herméticos</subject>
+    <body>
+El administrador de un sistema de servidores grupales extraño y filosófico ha desarrollado un software que necesitaremos para futuros proyectos.
+----
+El programa que buscamos es un software de desvío de rastreo avanzado que se ha desarrollado internamente. Por desgracia, lo único que sabemos es que el desarrollador lleva la red de servidores y poco más.
+Hay que rastrearlos, encontrar los datos de desarrollo y hacerse con una versión del software para usarlo en un futuro.
+La investigación preliminar muestra que la red es enorme y almacena archivos y servicios de un grupo filosófico llamado "alquimistas herméticos".
+
+Como el admin del sistema parece competente, he hecho que todo el mundo lo investigue a la vez para no darle tiempo a reaccionar. Si descubres algo que pueda ser útil para el resto del equipo, publícalo en el chat.
+    
+Buena suerte.</body>
+    <attachments>
+      <note title="Objetivos de la misión">
+Investiga la red, rastrea al administrador y descarga todo lo que creas que es importante.
+También puedes informar a través del chat sobre cosas interesantes para el resto.
+Sube los archivos relevantes al servidor compartido.
+      </note>
+      
+      <link comp="dhaEntry" />
+      
+    </attachments>
+  </email>
+</mission>

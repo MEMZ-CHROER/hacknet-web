@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission00" name="Bitwise Test PC" security="1">
+  <file path="home" name="Test_File.txt">おめでとう、君の勝ちだ！</file>
+  <file path="home" name="L-E_x-server.sys">#PURPLE_THEME#</file>
+  <file path="sys" name="x-server.sys">#PURPLE_THEME#</file>
+
+<file path="home" name="Hobbes_TerminalGuide.txt.txt">
+コマンドライン上で使える、便利なコマンドの一覧:
+
+cat [ファイル名] - 指定されたファイルの中のテキストを画面に表示
+
+cd / - ファイルシステムに存在する最上層のディレクトリに移動
+
+ls - 現在のディレクトリに存在するファイルやディレクトリを表示
+
+cd .. - 1つ上のディレクトリに移動
+
+replace [ファイル名] "[文字列1]" "[文字列2]" - 目標のファイルの、指定された内容（文字列1）を任意の内容（文字列2）に置き換える
+
+mv [ファイル名] [目標] - ファイルを移動、もしくはファイル名の変更。ファイルを移動させたい場合、移動先のフォルダは次のように指定する:
+
+mv config.sys /misc/
+
+ファイル名を変更したい場合は、目標のファイル名を指定したあと、その後に新しいファイル名を記述する:
+
+mv config.sys config.old
+
+Help 1, Help 2, Help 3 - 3ページからなる説明書。読んで勉強してくれ
+
+forkbomb - 詳細な説明は省くが、システムを素早くダウンさせたい時に使用する。緊急時に便利。使用には管理者権限が必要だが、自身のシステム内で防衛手段として使用することも可能
+
+shell - 自分が管理者権限を持つシステムのホストを、リモート操作できる状態で起動する。自身のシステム内で防衛手段として使用することも可能（詳細は「Trap」を参照）
+</file>
+  
+<file path="home/autolog_reports" name="log01332.txt">
+[shinterland] 上司が出て行くの待ってる
+[shinterland] 出てったらすぐそっちに伝える
+[jwalter] やつに気付かれてると思う？
+[shinterland] いや、それはないだろ。
+[shinterland] これから大騒ぎが起きるなんて夢にも思っちゃいないさ。
+[jwalter] ブラウザの履歴、削除するの忘れるなよ、やつに悟られたくない。
+[shinterland] わかってるわかってる、ちゃんとやってるよ。
+[shinterland] あ、コートをつかんだ。ドアから出てくぞ・・・今だ。
+[jwalter] よし、カメラのセットアップに少し時間をくれ・・・。
+[jwalter] できたぞ。静止画でごまかせるのは3分だけだ。
+[shinterland] 俺がリストをやる。終わったらビールで乾杯しようぜ。
+</file>
+  
+<file path="home/autolog_reports" name="log0177_F.txt">
+[vope] 今から言うことをお前は信じないだろうな
+[r@$put1n] は？
+[r@$put1n] うまくいったのか？
+[vope] 報酬が家のドアに吊るしてあった
+[r@$put1n] マジか、ついにお前もトップレベルの仲間入りだな！
+[r@$put1n] 報酬はどうだ？イイ感じ？
+[vope] 1万と2000ドル 2ヶ月の仕事にしては悪くない
+[vope] あいつらあれを何に使うんだか
+[r@$put1n] お前の銀行口座を乗っ取るとかか
+[vope] ははっ、盗れるほど金なんて入ってねえよｗ
+
+-- confirmed fake --
+</file>
+  
+<file path="home/autolog_reports" name="log01009.txt">
+[felix] 全部うまくいったよ。ビルのバカ野郎は解雇されて、俺はおとがめなしだ。
+[bleedingcool] 良かったな。 
+[felix] ビルのことはいつも嫌いだった。君のおかげだよ。
+[bleedingcool] 100万円の賄賂については話したのか？
+[felix] ああ、それも役に立った。
+[felix] じゃあ、これで一件落着か？
+[bleedingcool] ああ。2ヶ月の休暇ももらったしな。来年、ブリスビーシリーズの新作映画が公開される頃あたりにまた連絡する。
+[felix] それじゃ、また。
+</file>
+  
+</Computer>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dRicerMission">
+  <goals>
+    <goal type="fileupload" target="dRicer" file="SSLTrojan.dec" path="home/projects" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Le « Ricer »">
+J'ai reçu des infos concernant l'endroit où se trouve quelqu'un qui a développé le moyen de passer à travers des ports SSL. Malheureusement, son dispositif de sécurité est assez inhabituel.
+  </posting>
+  <email>
+    <sender>Le « Ricer »</sender>
+    <subject>Le « Ricer »</subject>
+    <body>
+J'ai reçu des infos concernant l'endroit où se trouve quelqu'un qui a développé le moyen de passer à travers des ports SSL. Malheureusement, son dispositif de sécurité est assez inhabituel.
+----
+La cible semble être un maniaque de la customisation - un « Ricer » comme on dit - et ça se reflète dans ses mesures de sécurité. C'est truffé de configs, de ports et d'allocations de services non standardisés.
+Une fois que tu auras réussi à entrer, nous voulons une copie du dernier logiciel crackeur de ssl. Il sera peut-être crypté ou sécurisé d'une façon ou d'une autre, mais ça ne fait rien. Télécharge-le vers notre serveur de stockage de données (lien fourni) lorsque tu l'auras et nous nous occuperons de le rendre opérationnel.
+    </body>
+    <attachments>
+      <link comp="dhsDrop" />
+      <link comp="dRicer" />
+      <note title="Objectifs de mission">Se connecter au serveur du « ricer » et contourner les mesures de sécurité.
+Chercher la dernière version du programme de crackage de port SSL.
+Note : Il sera peut-être crypté ou dissimulé.
+Télécharger le fichier vers le serveur de stockage de données de l'équipe lorsque tu auras trouvé quelque chose de prometteur.</note>
+    </attachments>
+  </email>
+</mission>

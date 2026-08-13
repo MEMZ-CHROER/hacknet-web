@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Aktive Traces">
+Aufgrund des immer größer werdenen Markts für digitale Sicherheitssyteme (und ebenso für Hacker) und den immer ausgeklügelteteren Taktiken auf beiden Seiten, bieten moderne Security-Suites in der Regel Möglichkeiten, "feindliche" Aktivitäten zurückzuverfolgen.
+    
+Natürlich gibt es dabei keine Silberkugel, weswegen Traces 2 Formen annehmen können; aktive und passive.
+    
+Dieser Artikel beschreibt aktive Traces.
+
+2: Aktive Traces
+----------------
+Ein aktiver Trace ist der Versuch eine Individuums, feindliche Aktivitäten zurückzuverfolgen, entweder mithilfe einer immer noch aktiven Verbindung oder, häufiger, von achtlosen Hackern zurückgelassener Logs.
+Daher ist ein aktiver Trace auf Seiten eines Hackers nicht aufspürbar und wird in der Regel durch Zurückverfolgung des Routing-Paths über die Logs der einzelnen Knotenpunkte unternommen.
+Ein aktiver Trace kann vereitelt werden, in dem die Kette von Verbindungen (durch das Löschen der Logs auf einem der Knotenpunkte) unterbrochen wird, was den Trace in folge dessen ins Leere laufen lässt. Deswegen empfielt es sich, einen potenziellen aktiven Trace so schnell wie möglich durchzuführen, um dem Angreifer keine Chance zu lassen, seine Spuren zu verwischen.
+
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Wenn du diese Mail erhalten hast, ist ein unerwarteter Fehler aufgetreten.
+Bitte gerate in Panik.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

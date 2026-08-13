@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dend_save" shouldIgnoreSenderVerification="true">
+  <goals>
+    <goal type="clearfolder" target="dKagGate" path="sys"/>
+    <goal type="clearfolder" target="dKagGate" path="bin"/>
+  </goals>
+  <nextMission IsSilent="true">NONE</nextMission>
+  <posting title="Finale - Save">
+  </posting>
+  <email>
+    <sender>Finale - Save</sender>
+    <subject>Finale - Save</subject>
+    <body>
+    </body>
+    <attachments>      
+    </attachments>
+  </email>
+</mission>

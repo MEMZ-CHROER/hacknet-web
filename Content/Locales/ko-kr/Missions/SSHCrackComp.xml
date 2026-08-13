@@ -1,0 +1,133 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="portcrack01" name="바이퍼-전투정거장" security="0" type="4">
+
+  <dlink target="viperScanEarlyGame"/>
+  
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="home" name="Youtubers.txt">
+유튜브 이용자는 다음을 확인하세요: 
+
+captainspinifex
+rockleesmile
+northernlion
+officialcalemgames
+jonathancrowgamer
+
+  </file>
+  <file path="home" name="Notes.txt">
+    Gollum이 말했던 서버에서 온 신종 haxxor 프로그램을 겨우 토렌트로 받았어 - 이건 정말 지긋지긋해!
+
+    당장 시험해 보고 싶은데 - 이걸 쓰는 방법부터 알아내야겠군.
+  </file>
+  <file path="home" name="asdf.txt">
+    연수 테스트?
+    199.59.149.230
+    프록시 서버
+     
+   ..
+     
+   과부하와 관련된 게 필요할 수도 있으려나?
+    좀 더 조사해야 겠군. 도움이 될만한 프로그램이 있을까? 자금을 더 요청하려고 한다.
+  </file>
+  <file path="home" name="EmailDraft.txt">
+    아빠,
+   한동안 이메일 안보내서 죄송해요 - 학교 때문에 정말 바빠서요 - 11학년은 힘들지만, 저는 잘 하고 있다고 생각해요.
+    실은 부탁드릴 일이 좀 있는데요 - 학교 프로젝트에 쓸 소프트웨어 가 새로 좀 필요해서요.  FTPBounce.exe'라고 해요. 그건 정말 유용해요! 근데 비용이 좀 많이 들어요, 지난번 보내주신 돈이 다 떨어져서 - 이런 IT 프로젝트 소프트웨어가 죄다 정말 비싸요. 
+    제 계정으로 $2,000을 또 한번 보내주실 수 있으세요? 정말 큰 도움이 될 거에요.
+
+   고마워요!
+    사랑해요,
+    팀
+  </file>
+  
+  <file path="home/work" name="jasperlog.txt">
+[viper] 내가 요청한 키 얻었어?
+[jasper]현금은 확보했어?
+[viper] 송금받을 준비는 됐다
+[jasper] 드롭 서버에 처음 절반을 업로드했어 . 자네는 전송이 완료되는 대로 마지막 키를 받게 될거다.
+[viper] 좋아. 지금 확인중이야.
+[viper] 훌륭해. 작동하네.
+[jasper] 이제 돈 받을 수 있을까?
+[viper] 보냈다
+[jasper] 받았다. 콜 오브 솔저가 올해에 이렇게 인기를 끌 줄을 누가 알았을까.
+[viper] 올해 최대 걸작이지.
+[jasper] 게이머.
+  </file>
+  
+  <file path="home/work" name="TARGET.txt">
+[viper] 환불받고 싶어요.
+[cs#1575] 고객님 죄송하지만, 단순 변심으로 환불은 불가능합니다.
+[cs#1575] 아이템을 J-Bay에 재게시하는 건 어떠세요?
+[viper] 당신네 그지같은 경매 사이트에 아이템을 올리긴 싫어요.
+[viper] 말씀드렸잖아요, 실수로 보기 버튼 대신에 입찰 버튼을 눌렀다고요 
+[cs#1575] 고객님, 죄송합니다만 저희 정책상 버튼 조작 실수는 환불 대상이 아닙니다. 
+[cs#1575] 따라서 고객님은 Penetrator 9000을 수락하시든지, 저희 경매 리스트를 통해 비용을 만회해 보실 수 있습니다.
+[viper] 당신 오늘 고객 한 명 잘못 건드렸어요. 당신 오늘 일 후회하게 해주지. 
+[cs#1575] 감사합니다, 고객님, 즐거운 저녁 되시길 바랍니다. 
+  </file>
+  
+    <file path="home/work" name="ripped_prerelease.log">
+[glaylor] 너가 망쳤어
+[glaylor]개발 기간 18개월
+ [glaylor] 3백만 달러에
+[glaylor] 기껏 휴대폰 화면이나 쳐보는 게임이라니 
+[glaylor] ..................
+[glaylor] 으아아아아아아아아아아아아아아아아아아아아아아
+[hoops]워, 진정하라구, 사람들이 이거 좋아할 거야 
+[hoops] 이건 단어의 상태에 대한 표현과도 같은 거야
+.[hoops]라이크, 최근에 거리를 걸어본 적 있어?
+[hoops] 사람들은 항상 머리를 폰에 묻고 있고, 자신들이 그런 줄을 알아채지도 못해. 
+[hoops] 그래서 우리는 계속 폰을 보면서 운전하고, 걷고, 총쏘고, 해킹하는 게임을 만들었지.
+[hoops] 이건 천재적이야.
+[glaylor] 이것 땜에 이사회가 날 조질 거야.
+ [glaylor] 게임 이름을 잘 짓는 게 좋겠어.
+[glaylor] 박스 디자인도 빡시게 하고.
+[glaylor] 셰이더 효과도 추가하고. 애들은 항상 그런 것에 끌리게 되지. 
+  </file>
+  
+  <file path="home/work" name="seb.txt" EduSafe="false">
+[viper]어떻게 됐어?
+[lilsebastian] 정말 끔찍했다.
+[viper] 왜?
+[lilsebastian] 우리는 망보면서 밤을 보냈어. 정말 로맨틱했다.
+[lilsebastian] 그 다음에 우린 애무하기 시작했지
+[lilsebastian]알다피시, 노닥거리기 시작했고.
+[lilsebastian]그 다음엔, 음.
+[viper] 뭐?
+[viper]말해봐.
+[lilsebastian] 그게, 음, 예상보다 빨리 끝났어. 라이크. 옷은 여전히 입고 있었어.
+[viper]......
+[viper]......
+[viper] 하하하하하하하하하하하크하하크하하하하하
+[lilsebastian] 닥쳐.
+[viper] 친구야, 누구 앞에서도 그걸 인정하지 마.
+[viper]너가 내 친구니까 망정이지, 그 얘기 모두한테 까발릴테니 말이지.
+[viper] 아뭏든, 가봐야 겠다. 코딩할 게 더 있어서 말야. 
+[lisebastian] 그래 좋아. 내일 학교에서 봐.
+[viper] 너무 일찍 가진 말고. 
+  </file>
+  
+  <eosDevice name="Tim's ePhone 4S">
+    <note>포트 번호.
+웹 브라우저 및 웹 서비스 : 80 (가끔은 8080인가? )
+SSH: 22 (####이것을 위한 프로그램)
+FTP: 21
+SQL: 1433
+    </note>
+    <note>Entropy
+는 해커 그룹 같은 건가?
+좀 작아 보이는데, 뉴스 나온 건 별로 없나?
+슬래시닷 추종자들이 뭔가로 싫어한다는 거 빼면?
+&quot;우리의 테스트 서버를 찾고 격파하라&quot; - 어떻게?
+게시판에 다른 세부정보는 없나? 
+
+어딘가에 색인화되어 있을지도? 넷 레지스트리를 찾고 Entropy를 검색?
+    </note>
+    <note>daves
+H22가 Westfield 정류장으로 (정류장 22)
+4:25 - 5:12
+4:55 e.30m
+    </note>
+  </eosDevice>
+</Computer>
+

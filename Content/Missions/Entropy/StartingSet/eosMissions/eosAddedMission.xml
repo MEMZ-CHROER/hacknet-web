@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="eosAdded1">
+  <goals>
+    <goal type="getString" target="warsix22"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Smash N' Grab">
+A client wants to be sent some information on a colleague's phone
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Smash N' Grab</subject>
+    <body>
+Agent,
+
+This contract will require familiarity with eOS devices and their security - a client's looking for some information stored on a colleague's phone - a password, to be precise, and wants it extracted. They've provided the IP of the computer the device is sync'd to, as we requested.
+
+It's linked to this email. You're looking for a password they use - if you find multiple respond with all of them if possible - the verification bot will try all of them.
+
+Good luck,
+-Entropy Admins
+    </body>
+    <attachments>
+      <link comp="eosAdded1Comp" />
+    </attachments>
+  </email>
+</mission>

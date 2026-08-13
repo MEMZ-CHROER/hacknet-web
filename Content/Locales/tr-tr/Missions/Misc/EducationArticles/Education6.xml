@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="İzlence - Aktif">
+Gittikçe büyüyen ve tehlikeli bir hal alan bilgisayar güvenliği ve korsanlığına karşılık olarak ortaya çıkarılan yeni dijital güvenlik uygulaması, sunuculara karşı gerçekleştirilen her bir "düşmancıl" eylemin gerçekleştirildiği konumu izleyebilecek bazı yöntemleri içerecek.
+    
+Bu uygulama da kuşkusuz kusurlar barındırmakta. Bu yüzden genel anlamda bilinen iki ayrı izlence biçimi bulunmakta: Aktif ve Pasif.
+
+Bu yazı Aktif İzlence'yi tanımlamaktadır.
+
+2: Aktif İzlence
+----------------
+Aktif izlence, tek çalışan bir şahsın, mevcut bir bağlantı veya dikkatsiz bir hackerın sunucuda bıraktığı girdiler üzerinden sürdürdüğü izleme yöntemidir.
+Aktif izlence takip edilemezdir ve genellikle yönlendirme yolunda bulunan düğümlerdeki güvenlik aşılarak ve bağlantı yolu girdileri incelenerek gerçekleştirilir. 
+Aktif izlence bağlantı linkindeki zincirlerden birisi silinerek engellenilebilir. Böylece izleyicinin takip edebileceği hiçbir şey kalmaz. Ayrıca aktif izlencenin saldırgana karşı kullanıldığı durumlarda bu işlem çabucak gerçekleştirilmelidir.
+
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>HATA</subject>
+    <body>
+Bu postayı almanız beklenmedik bir hatanın oluştuğunu göstermektedir.
+Lütfen panikleyiniz.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

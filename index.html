@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>HACKNETWED</title>
+    <base href="./" />
+    <link rel="icon" href="Hacknet.ico" type="image/x-icon" />
+    <link href="css/bootstrap/bootstrap.min.css?v=3" rel="stylesheet" />
+    <link href="css/app.css?v=3" rel="stylesheet" />
+    <link href="HACKNETWED.Web.styles.css?v=3" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div id="app">
+        <div id="loading" style="display: table-cell; margin: auto; width:100vw; height:100vh; vertical-align: middle; background: #0a0a0a;">
+            <div style="display: block; margin: auto; width: 20em; color: #00ff41;font-family: 'Consolas', 'Courier New', monospace; text-align: center;">
+                <div style="text-align: center; font-size: 1.2em; margin-bottom: 1em;">HACKNET<span style="color:#888;">WED</span></div>
+                <div id="loadingText" style="text-align: center; font-size: 0.85em;">Loading...</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">x</a>
+    </div>
+
+    <script src="_framework/blazor.webassembly.js" autostart="false"></script>
+    <script type="module">
+        import { BrotliDecode } from './js/decode.min.js';
+        window.BrotliDecode = BrotliDecode;
+        // Set this to enable Brotli (.br) decompression on static webServers
+        // that don't support content compression and http://.
+        var enableBrotliDecompression = true;
+        Blazor.start({
+            loadBootResource: function (type, name, defaultUri, integrity)
+            {
+                if (enableBrotliDecompression === true && type !== 'dotnetjs' && location.hostname !== 'localhost')
+                {
+                    return (async function()
+                    {
+                        const response = await fetch(defaultUri + '.br', { cache: 'no-cache' });
+                        if (!response.ok)
+                            throw new Error(response.statusText);
+                        const originalResponseBuffer = await response.arrayBuffer();
+                        const originalResponseArray = new Int8Array(originalResponseBuffer);
+                        const contentType = (type === 'dotnetwasm')
+                                          ? 'application/wasm'
+                                          : 'application/octet-stream';
+                        const decompressedResponseArray = BrotliDecode(originalResponseArray);
+                        return new Response(decompressedResponseArray,
+                                            { headers: { 'content-type': contentType }
+                                   });
+                    })();
+                }
+            }
+        });
+    </script>
+
+    <script src="_content/nkast.Wasm.JSInterop/js/JSObject.8.0.11.js?v=3"></script>
+    <script src="_content/nkast.Wasm.Dom/js/Window.8.0.11.js?v=3"></script>
+    <script src="_content/nkast.Wasm.Dom/js/Document.8.0.11.js?v=3"></script>
+    <script src="_content/nkast.Wasm.Dom/js/Navigator.8.0.11.js?v=3"></script>
+    <script src="_content/nkast.Wasm.Dom/js/Gamepad.8.0.11.js?v=3"></script>
+    <script src="_content/nkast.Wasm.Dom/js/Media.8.0.11.js?v=3"></script>
+    <script src="_content/nkast.Wasm.XHR/js/XHR.8.0.11.js?v=3"></script>
+    <script src="_content/nkast.Wasm.Canvas/js/Canvas.8.0.11.js?v=3"></script>
+    <script src="_content/nkast.Wasm.Canvas/js/CanvasGLContext.8.0.11.js?v=3"></script>
+    <script src="_content/nkast.Wasm.Audio/js/Audio.8.0.11.js?v=3"></script>
+    <script src="_content/nkast.Wasm.XR/js/XR.8.0.11.js?v=3"></script>
+
+    <script>
+        function tickJS()
+        {
+            window.theInstance.invokeMethod('TickDotNet');
+            window.requestAnimationFrame(tickJS);
+        }
+
+        window.initRenderJS = (instance) =>
+        {
+            window.theInstance = instance;
+
+            var canvas = document.getElementById('theCanvas');
+            var holder = document.getElementById('canvasHolder');
+
+            // Set game resolution and scale canvas to fit window
+            var gameW = 1280;
+            var gameH = 800;
+            canvas.width = gameW;
+            canvas.height = gameH;
+
+            function resizeCanvas() {
+                var scale = Math.min(
+                    holder.clientWidth / gameW,
+                    holder.clientHeight / gameH
+                );
+                canvas.style.width = Math.floor(gameW * scale) + 'px';
+                canvas.style.height = Math.floor(gameH * scale) + 'px';
+            }
+            resizeCanvas();
+            window.addEventListener('resize', resizeCanvas);
+
+            // disable context menu on right click
+            canvas.addEventListener("contextmenu", e => e.preventDefault());
+
+            // begin game loop
+            window.requestAnimationFrame(tickJS);
+        };
+
+        window.readContentPath = (instance) =>
+        {
+            var params = new URLSearchParams(window.location.search);
+            var content = params.get('content');
+            if (content)
+            {
+                instance.invokeMethodAsync('SetContentPath', content);
+            }
+        };
+
+        window.createBlobUrl = (dataPtr, dataLen, mimeType) =>
+        {
+            var bytes = Module.HEAPU8.slice(dataPtr, dataPtr + dataLen);
+            var blob = new Blob([bytes], { type: mimeType });
+            var url = URL.createObjectURL(blob);
+            return url;
+        };
+
+        window.revokeBlobUrl = (url) =>
+        {
+            URL.revokeObjectURL(url);
+        };
+
+        // 异步 fetch 读原始字节（预加载用，InvokeAsync 不阻塞游戏线程）
+        window.fetchBytesAsync = async (path) =>
+        {
+            try
+            {
+                const response = await fetch(path, { cache: 'no-cache' });
+                if (!response.ok) return null;
+                const buffer = await response.arrayBuffer();
+                return new Uint8Array(buffer);
+            }
+            catch (e)
+            {
+                console.log('[fetchBytesAsync] ERROR: ' + e);
+                return null;
+            }
+        };
+
+        // 分批预载：全局 FIFO 队列 + 并发池，priority（People/PersonData）先入队先处理
+        window.delayedPreload = (relPaths) =>
+        {
+            if (!window.__preloadQueue) window.__preloadQueue = [];
+            window.__preloadQueue.push(...relPaths);
+            console.log('[preload] queue now ' + window.__preloadQueue.length + ', started=' + (window.__preloadStarted||false));
+            if (window.__preloadStarted) return;
+            window.__preloadStarted = true;
+
+            const CONCURRENCY = 60;
+            let inflight = 0;
+            let doneCount = 0;
+            const next = () => {
+                while (inflight < CONCURRENCY && window.__preloadQueue.length > 0) {
+                    const rel = window.__preloadQueue.shift();
+                    inflight++;
+                    const path = 'Content/' + rel;
+                    fetch(path, { cache: 'no-cache' })
+                        .then(r => {
+                            if (!r.ok) throw new Error('HTTP ' + r.status);
+                            return r.arrayBuffer();
+                        })
+                        .then(buf => {
+                            const bytes = new Uint8Array(buf);
+                            return DotNet.invokeMethodAsync('HACKNETWED.Web', 'CacheFile', rel, bytes);
+                        })
+                        .catch(e => console.log('[preload] ERR ' + rel + ': ' + e))
+                        .finally(() => {
+                            inflight--; doneCount++;
+                            if (doneCount % 100 === 0) console.log('[preload] done ' + doneCount);
+                            next();
+                        });
+                }
+            };
+            next();
+        };
+
+        // 同步 XHR 读原始字节（Blazor WASM 禁止同步等待 JS 异步 Promise，须用同步 XHR）
+        window.fetchBytes = (path) =>
+        {
+            try
+            {
+                const xhr = new XMLHttpRequest();
+                xhr.open('GET', path, false);  // 同步
+                xhr.responseType = 'arraybuffer';
+                xhr.send(null);
+                if (xhr.status !== 200) return null;
+                const buffer = xhr.response;
+                // Blazor 会直接把 Uint8Array 编组为 byte[]
+                return new Uint8Array(buffer);
+            }
+            catch (e)
+            {
+                console.log('[fetchBytes] ERROR: ' + e);
+                return null;
+            }
+        };
+
+        window.updateLoadingProgress = (loaded, total, message) =>
+        {
+            var el = document.getElementById('loadingText');
+            if (el)
+            {
+                var pct = total > 0 ? Math.round(loaded / total * 100) : 0;
+                el.innerHTML = message + '<br/><span style="font-size:0.7em;">' + pct + '% (' + loaded + '/' + total + ')</span>';
+            }
+            var bar = document.getElementById('loadingBar');
+            if (bar && total > 0)
+            {
+                bar.style.width = Math.round(loaded / total * 100) + '%';
+            }
+        };
+
+        (function() {
+            var canvas = document.getElementById('theCanvas');
+
+            // Focus canvas on click so keyboard events go to the game
+            document.addEventListener('click', function() { if (canvas) canvas.focus(); });
+            document.addEventListener('touchstart', function() { if (canvas) canvas.focus(); });
+
+            // Hijack ALL keyboard events to prevent browser from stealing them
+            window.addEventListener("keydown", function(event)
+            {
+                event.preventDefault();
+            }, true);
+            window.addEventListener("keyup", function(event)
+            {
+                event.preventDefault();
+            }, true);
+            window.addEventListener("keypress", function(event)
+            {
+                event.preventDefault();
+            }, true);
+
+            // Prevent scrolling
+            window.addEventListener("wheel", function(event)
+            {
+                event.preventDefault();
+            }, { passive: false });
+
+            // Prevent context menu (right click)
+            window.addEventListener("contextmenu", function(event)
+            {
+                event.preventDefault();
+            });
+        })();
+    </script>
+<script>
+        // WASM 输入桥：字符 -> OnChar（TextInputEXT），特殊键 -> KeyboardBridge.OnKeyEvent（GuiData 键盘状态）
+        // 特殊键集合：Enter/Backspace/Tab/Escape/方向键/Shift/Ctrl/Alt/空格/Delete/Home/End/PageUp/PageDown
+        (function() {
+            var SPECIAL_KEYS = {
+                'Enter': true, 'Backspace': true, 'Tab': true, 'Escape': true,
+                'ArrowUp': true, 'ArrowDown': true, 'ArrowLeft': true, 'ArrowRight': true,
+                'Shift': true, 'Control': true, 'Alt': true, 'Space': true, 'Delete': true,
+                'Home': true, 'End': true, 'PageUp': true, 'PageDown': true
+            };
+            function bridgeKey(key, isDown) {
+                if (!key) return;
+                // 字符键（单字符且非特殊）走 OnChar；Backspace 走 OnChar '\b'
+                if (key.length === 1 && !SPECIAL_KEYS[key]) {
+                    if (isDown) {
+                        console.log('[InputBridge] char=' + key);
+                        window.theInstance.invokeMethodAsync('OnChar', key);
+                    }
+                    return;
+                }
+                // 特殊键 -> KeyboardBridge（仅 keydown 时登记；keyup 清除）
+                if (SPECIAL_KEYS[key]) {
+                    console.log('[InputBridge] special=' + key + (isDown ? ' down' : ' up'));
+                    window.DotNet.invokeMethodAsync('HACKNETWED.Web', 'OnKeyEvent', key, isDown);
+                }
+            }
+            window.addEventListener('keydown', function(event) {
+                bridgeKey(event.key, true);
+            }, true);
+            window.addEventListener('keyup', function(event) {
+                bridgeKey(event.key, false);
+            }, true);
+        })();
+    </script>
+</body>
+
+</html>

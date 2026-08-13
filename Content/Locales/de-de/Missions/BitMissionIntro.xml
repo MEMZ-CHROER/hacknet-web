@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMissionIntro">
+  <goals>
+    <goal type="FileDeletion" target="playerComp" file="SecurityTracer.exe" path="bin" />
+  </goals>
+  <nextMission>SSHCrackMission.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>Erster Kontakt</subject>
+    <body>Hi.
+
+Ich kenne dich zwar nicht - und es ist traurig sagen zu müssen, dass ich dich wohl nie kennenlernen werde, aber wenn du das hier liest, bedeutet es wohl, dass du die einzige Person bist, die die Dinge noch in Ordnung bringen kann.
+
+Ich stehe mit dem Rücken zur Wand. Es gibt für mich keinen Ausweg und nicht genug Zeit - ich brauche deine Hilfe.
+
+Es gibt jedoch etwas, worum du dich zuerst kümmern solltest - je schneller, desto besser.
+HacknetOS hätte nicht unter diesen Umständen veröffentlicht werden sollen - nach einer gewissen Zeit wird sich ein automatischer Tracker aktivieren - das dürfen wir nicht zulassen.
+Verbinde dich mit deinem eigenen Computer (sollte in der Übersicht grün angezeigt werden), finde und lösche "SecurityTracer.exe".
+
+Wenn du das erledigt hast, antworte einfach auf diese Email.
+
+Beeil dich!
+-Bit
+0
+    </body>
+    <attachments>
+      <note title="Hacknet Navigationshilfe">Hacknet Navigationshilfe
+
+Verwende dein Display-Modul oder die Befehle "cd [Foldername]" zum Navigieren und "cat [Filename]" um Dateien zu lesen.    
+
+Lösche Dateien mithilfe von "rm [Filename]"
+
+Die Tab Taste kann zur Auto-Vervollständigung von Befehlen und Dateinamen verwendet werden.
+      </note>
+    </attachments>
+  </email>
+</mission>

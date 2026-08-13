@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="csecFactionGainHelper" activeCheck="true">
+  <goals>
+    <goal type="delay" time="1.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission IsSilent="true">NONE</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>CSEC Daveti</subject>
+    <body>
+Tebrikler #PLAYERNAME#,
+
+İşi başardığınız için sizi tebrik ederiz. Yeteneklerin kayda geçirildi.
+
+Kolay gelsin.
+-CSEC Yönetimi
+
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

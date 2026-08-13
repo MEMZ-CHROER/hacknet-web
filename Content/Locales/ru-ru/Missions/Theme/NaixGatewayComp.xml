@@ -1,0 +1,90 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="naixGateway" name="Naix Root Gateway" security="3" ip="173.194.35.172">
+  <adminPass pass="roxxane"/>
+  <proxy time="2"/>
+  <trace time="70"/>
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="sys" name="x-server.sys">#GREEN_THEME#</file>
+  <file path="home" name="PirateKart_2011.zip">#BINARY#</file>
+  <file path="home" name="Macrosoft_Internal_Raid_Archive.rar">#BINARY#</file>
+  <file path="home" name="to_get.txt">
+    //Плагины, которые надо достать, когда будет время
+ Access Me 
+   Add N Edit Cookies+ 
+   Chickenfoot
+    CookieSwap
+    DOM inspector
+    Domain Details
+    Firebug
+    Firebug Autocompleter
+    Firecookie 
+   FireFTP 
+   Firesheep
+    FormBug
+    FoxyProxy
+    Google Site Indexer
+    Greasemonkey
+    Groundspeed
+    HackBar
+    Host Spy
+    HttpFox
+    iMacros
+    JavaScript Deobfuscator
+    JSview
+    Key Manager
+    Library Detector
+    Live HTTP Headers
+    PassiveRecon
+    Poster
+    RefControl
+    Refspoof
+    RESTClient
+    RESTTest
+    Resurrect Pages
+    Selenium IDE
+    SQL Inject ME
+    Tamper Data
+    URL Flipper
+    User Agent Switcher
+    Vitzo WHOIS
+    Wappalyzer
+    Web Developer
+    XSS Me
+  </file>
+  
+  <file path="home" name="contract.txt">
+[cs#2827] Понимаю, сэр. Могу я узнать номер вашего счета?
+[Gregory] Конечно. 6724001984.
+[cs#2827] Позвольте мне помочь вам.
+[cs#2827] Пожалуйста, назовите полное имя и дату рождения.
+[Gregory] Грегори Джордан Чайлдс, 22.01.1982.
+[cs#2827] Спасибо. Подтверждаю, что вы Грегори Чайлдс.
+[cs#2827] Ваш следующий контракт в Тирасполе. Вводную получите от человека по имени Spool.
+[cs#2827] Ожидаем, что вы приступите к выполнению не позже 9 августа. 
+[cs#2827] Оплата в размере 33000$ будет перечислена на ваш зарегистрированный счет, также вы получите 10000$ в качестве компенсации за расходы.
+[Gregory] Я принимаю контракт. 
+[cs#2827] Удачи, сэр. Спасибо, что обратились в службу поддержки компании Alliegence Energy. 
+[Gregory] Паршивый сайт.
+</file>
+  
+<file path="home" name="admissionletter.docx">
+Поздравляем, 
+
+Джулиус! Вы официально зачислены в Королевскую академию военной разведки. Мы очень рады, что вы выбрали наше престижное учебное заведение для продолжения своего образования. 
+
+По прибытии в кампус в следующем месяце администрация выдаст вам  удостоверение личности, а также назначит комнату для проживания. 
+
+До встречи в начале семестра. 
+
+Thaddius Venture
+Head из Admissions
+RMIC
+
+PS: спасибо за пожертвование, мы ОЧЕНЬ благодарны. 
+</file>
+  
+  <file path="home" name="[#PLAYERNAME#]x-server.sys">#BASE_THEME#</file>
+</Computer>
+

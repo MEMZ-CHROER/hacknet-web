@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Person id="csec_med_01" handle="Whitewash" firstName="Jonas" lastName="Sandburg" isMale="true">
+  <Birthplace name="런던"/>
+  <Degrees>
+    <Degree uni="맨체스터 대학" gpa="2.9">컴퓨터 과학 석사</Degree>
+  </Degrees>
+  <DOB>05/03/1993 14:00:00</DOB>
+  <Medical>
+    <Blood>BO</Blood>
+    <Height>166</Height>
+    <Allergies>없음</Allergies>
+    <Perscription>알벤다졸 X70 격월 :: 노트 참조</Perscription>
+    <Perscription>이버멕틴 X35 매월 :: 노트 참조</Perscription>
+    <Notes>환자는 고환 코끼리 피부병 급성 사례이고, 8 세에 처음 발견, 치료는 좋은 효과 이후, 주기적으로 이루어졌습니다. 감염된 부분 붓기가 믿을 수 없을 만큼 눈에 띄고, 훌륭한 위생 실시와 지속적인 치료로 관리 가능했습니다.
+    </Notes>
+  </Medical>
+  <Notes>CSEC Med case for M_09  </Notes>
+</Person>

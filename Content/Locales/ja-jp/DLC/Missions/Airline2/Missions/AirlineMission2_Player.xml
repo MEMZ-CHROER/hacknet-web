@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="airline2_player">
+  <goals>
+    <goal type="fileupload" target="dHidden" file="sysinfo.bat" path="home" destTarget="dpa2_target" destPath="sys"/>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="#PLAYERNAME# - Take_Flight Cont.">
+PacificAirの強固なリンクサーバーにバックドアをインストールしてください
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Take_Flight Cont.</subject>
+    <!-- Translators notes - don't translate the folder name "sys"-->
+    <body>
+PacificAirの強固なリンクサーバーにバックドアをインストールしてください。
+----
+#PLAYERNAME#、これはCoelの仕事が万が一失敗したときのためのバックアッププランを用意するための仕事です。全てが順調に行けば、これの出番はありません。
+PacificAirのブロードキャスト・ハードウェアを乗っ取るためのソフトウェアを入手しました。PacificAirのハードウェアはSkylinkサーバーと呼ばれる1台のコンピューターによって動作しています。ミッション内容は、サーバーにバックドアをインストールするところまでです。そこから先は私が処理します。
+
+バックドアはドロップサーバーのhomeフォルダに上げておきました。"sysinfo.bat"というファイル名です。それをダウンロードしたらSkylinkに侵入し、sysフォルダへアップロードするだけです。あとは私が面倒を見るので、それを起動する必要はありません。
+ログを残さないよう用心してください。不注意は許されませんよ。
+
+健闘を祈ります。
+</body>
+    <attachments>
+      <note title="Mission Guidelines">ドロップサーバーのhomeフォルダからsysinfo.batをダウンロードし、Pacific AirのSkylinkサーバーの~/sys/にアップロードする。</note>
+      
+      <link comp="dhsDrop" />
+      <link comp="dpa2_start" />
+      <link comp="dpa2_target" />
+      
+    </attachments>
+  </email>
+</mission>

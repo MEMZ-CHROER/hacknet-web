@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa_psylance" name="Psylance Cyber Security_Employee IRC" security="5" ip="50.31.225.93" type="4" icon="Psylance">
+  
+  <!-- This will have the IRC of the Psylance guys on it - player will need to log in to view it. -->
+
+  <firewall level="-1"/>
+  <proxy time="4" />
+  <trace time="90" />
+  <portsForCrack val="9" />
+  <ports>22, 21, 443</ports>
+  <portRemap>22=340</portRemap>
+
+  <account username="faithless" password="catsarebestpet" type="2" />
+  
+  <IRCDaemon themeColor="67,204,148" name="Psylance Client Admin IRC Channel" needsLogin="true">
+    <user name="faithless" color="0,209,232"/>
+    <user name="dardypants" color="202,98,0"/>
+    <user name="da_vito" color="0,196,82"/>
+
+    <post user="faithless">メディアはビデオゲームが人々を乱暴にすると言いますが、数百年前は魔女だと言って人間を焼き殺していたでしょう。人間に金渡してもろくなことになりませんね。</post>
+    <post user="da_vito">ははは</post>
+    <post user="dardypants">あのYasuという男はまずい。信じられません。</post>
+    <post user="faithless">誰それ？</post>
+    <post user="dardypants">Pacific AirのIT管理者、Yasu Araiです。</post>
+    <post user="dardypants">Eメールのパスワードをおおっぴらに送信したんですよ！管理者なのに。</post>
+    <post user="faithless">なんて言ったんです？</post>
+    <post user="dardypants">原文ママ：</post>
+    <post user="dardypants"> "僕のラップトップにログインして、これやっといてくれない？パスワードは1185JACK"</post>
+    <post user="faithless">ひどすぎる。あはははは</post>
+    <post user="faithless">ここに書いてるのもまずいでしょｗ</post>
+    <post user="dardypants">すぐ指導したから大丈夫ですよ。</post>
+    <post user="dardypants">パスワードも変えさせました……それにしても.</post>
+    <post user="dardypants">このネットワークを守るのが僕たちの使命なのに！あいつらなんて的確に妨害してくるんだ。</post>
+  </IRCDaemon>
+
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+
+</Computer>

@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews05">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Yeni Opbol Dongle Patenti Hayranları Umutlandıracak">
+Opbol hayranları; dikkatinizi toplayın ve cüzdanlarınızı hazırlayın. Teknoloji'nin altın çocuklarından Opbol Computing'in bugün bildirmiş olduğu yeni patent, firmanın oyun konsolu piyasasına girdiğini resmen göstermiş oldu. Uzatılabilir program kilidi adına bildirilen patent yeni bir oyun konsolunun parçalarından birisi olabilir. 
+Uzmanlara göre bu patent oyun kumandası veya hareket sensörü içeriyor. Patent statüsünü ise tasarım mekaniği olan yuvarlak uçlu teleskopik bir silindir almış durumda. Kaynaklarımıza göre cihazın işleviyle ilgili açıklamalar birkaç gün içerisinde yapılacak. Gelişmeler yaşandıkça sizlerle paylaşacağız.
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Durdurulmalı</subject>
+    <body>
+Entropy veritabanını yok et.
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

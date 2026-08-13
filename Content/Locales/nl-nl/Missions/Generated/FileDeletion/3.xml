@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <generationKeys File="#LC_CLIENT#_delivery.zip" Path="home"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Verkoop voor #CLIENT# Misgegaan">
+Een "klant" van ons heeft onlangs een waardevol programma gekocht, en weigerd te betalen. Verwijder wat ze nu oneerlijk hebben.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - Terugstuurbeleid</subject>
+    <body>
+Hallo Agent,
+
+Een klantbedrijf vroeg onslangs een extreem duur programmapakket van #CLIENT#, ons bedrijf, maar het ziet ernaar uit dat ze nooit van plan waren te betalen. Vanwege wat getalenteerd juridisch handelen bij hun, kunnen we er niet traditioneel achteraan.
+Hier ben jij. We willen verzoeken dat jij een bezoekje brengt aan hun systeem en de software die ze onrechtmatig kregen van ons verwijdert. We brengen onze software in archiefformaat over, meestal gelabeld als "#FILE".
+
+Bedankt voor je hulp in deze gevoelige en frustrerende zaak.
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

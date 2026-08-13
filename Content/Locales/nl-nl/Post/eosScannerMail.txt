@@ -1,0 +1,12 @@
+Hey Entropy peeps,
+
+Dus, eOS Device Scanner is geupload naar jullie asset server (~/bin/eosDeviceScanner.exe) - zou moeten werken op de meest standaard verbinding.
+Omdat het bestanden moet lezen in een systeemmap (om de info te verkrijgen over apperaten gesyncd aan het doelwit), heeft het admin toegang nodig op het doelwit om te kunnen runnen - als het werkt zou het ok moeten zijn als je het of de verbinding verliest.
+In feite, werkt het door het nakijken van de backups gemaakt als een apperaat syncd aan een computer en doet daarna een nieuwe draadloze sync na met het apperaat om een open ssh poort uit te buiten, etc.
+
+Hier is de truc - omdat eos gebruikers geen toegang hebben tot de terminal op hun apperaat, zijn alle admin wachtwoorden het zelfde (!) - over alle modellen!
+
+Het is "alpine" - bedank me maar niet, waarschijnlijk jullie een miljoen jaar geholpen.
+Ik verwacht betaling zoals beloofd zodra ik dit geupload heb, ja?
+
+-vtfx

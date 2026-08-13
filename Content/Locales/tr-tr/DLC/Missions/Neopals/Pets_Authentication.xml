@@ -1,0 +1,56 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPets_Auth" name="Neopals_Authentication" security="8" type="4" icon="DLCServer">
+
+  <adminPass pass="mlk3fsdie321" />
+
+  <positionNear target="dPets_MF" position="220" total="360" extraDistance="0.01"/>
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/Neopals/Chisha" title="DLC/Sprites/NeopalsLogo" overdrawLogo="false" buttonAlignment="right" />
+
+  
+  
+  <Memory>
+    <Commands>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+    </Commands>
+    <Data>
+      <Block>v=atY2Z0J6zX8</Block>
+      <Block>
+~/home/reminder.txt
+
+Mainframe Auth:
+Login: admin
+Pass: n8u5v432kj</Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Neopals/Kachici</Image>
+    </Images>
+  </Memory>
+
+  <dlink target="dPets_MF" />
+  <dlink target="dPets_Home" />
+
+  <file path="AUTHSERV" name="EncryptedVerificationCluster.blk">#BINARY##BINARY#</file>
+  <file path="AUTHSERV" name="AuthServ.dll">#BINARY#</file>
+  <file path="home" name="NO_REBOOT.txt">BİLGİSAYARI YENİDEN BAŞLATMAYIN!
+API, girişler için bu sunucuyu kullanıyor. Bilgisayarı yeniden başlatmayın yoksa ayarlar bozulur! En azından önce sorun. Ya da sormayın, kesinlike yeniden başlatmayın!
+-T</file>
+  <file path="home" name="Ash_READTHIS.txt">
+Lanet olsun be Ash. Benimle uğraştığını biliyorum. Bu şey ne kadar güvenli olursa olsun "doğrulama sunucusu" demek, doğrulama bilgilerini her yere yazmalısın demek değil!
+Dosya silindi. Beni, seni Tiff'e bildirmek zorunda bırakma.
+-T</file>
+  
+  <admin type="progress" isSuper="true"/>
+  
+</Computer>

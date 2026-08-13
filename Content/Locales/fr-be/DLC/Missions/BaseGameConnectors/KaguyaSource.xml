@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dKaguyaTrialIntro" name="Kaguya Source" security="3" type="4">
+
+  <!-- This is the second DLC intro server, that gives the player the intro exe that wipes their mail icon
+  It's designed to be pretty empty - it's a recruitment server that's designed to be hackable and targeted,
+  but Kaguys is pretty dilligent and wipes it often. The sort of people that will be trying this are a higher
+  class of Hacker too, so not as much vandalism. Mostly clean, I think - maybe just a single note or so in
+  a different folder?-->
+  
+  <proxy time="-1" />
+  <portsForCrack val="2" />
+
+  <file path="bin" name="Recruitment.txt">
+Je m'appelle Kaguya, je cherche à mettre une équipe sur pied.
+Je ne veux que l'élite. Une équipe prête à partager ses ressources, avec de grands projets en vue.
+Les candidats intéressés peuvent postuler via le fichier exécutable.
+Lancer ce programme signifie votre consentement à être testés,
+et que vous comprenez que vous puissiez être jugés inaptes.
+Bonne chance.
+  </file>
+
+  <file path="home/backups" name="KaguyaTrials.exe">#KAGUYA_EXE#</file>
+  <file path="home/reward" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+  <file path="bin" name="KaguyaTrials.exe">#KAGUYA_EXE#</file>
+  <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+
+  <encryptedFile path="home/msg" name="kenobi.dec" extension=".txt" ip="192.168.1.1" header="onlyhope" pass="Obi-Wan">
+J'ai entendu dire que ton équipe se battait pour la justice. 
+Aide-moi Kaguya, tu es mon seul espoir.
+Des salopards de script kiddies ont piraté le réseau de mes parents, nous ont volé nos identifiants bancaires, passeports et toutes nos économies. 
+Ça faisait des années qu'on mettait de côté pour pouvoir quitter ce trou à rat et rejoindre les USA. 
+Les détails de nos passeports ont déjà dû être vendus sur un quelconque marché parallèle, et nos économies ont disparu pour de bon.
+J'ai vraiment besoin d'aide. Je t'en prie.
+Je ne suis pas un hacker d'exception, mais j'ai pensé que vous pourriez nous aider.
+S'il te plaît ?
+kingjoffery227@jmail.com 
+</encryptedFile>
+
+  
+  
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/MiamiThemeLight.xml"/>
+
+</Computer>

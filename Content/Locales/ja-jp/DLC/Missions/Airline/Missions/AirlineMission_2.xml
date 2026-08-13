@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="airline_player">
+  <goals>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="Take_Flight - D3f4ult">
+標的は、ある国際航空会社の予約サーバーのアクセス権です。
+  </posting>
+  <email>
+    <sender>blank</sender>
+    <subject>blank</subject>
+    <body>
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

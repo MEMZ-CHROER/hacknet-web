@@ -1,0 +1,7 @@
+<ConditionalActions>
+  <OnConnect target="dhs" needsMissionComplete="false">
+
+    <RunFunction FunctionName="addRank" FunctionValue="1" />
+    
+  </OnConnect>
+</ConditionalActions>

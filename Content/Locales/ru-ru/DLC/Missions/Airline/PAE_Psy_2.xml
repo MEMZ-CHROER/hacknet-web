@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpae_psy_2" name="Vito McMichael's Laptop" security="3" icon="DLCLaptop" ip="209.68.41.129" type="4">
+
+  <!-- Laptop of another Psylance employee. contains some bitching about how hard it is to keep
+  untrained people secure on a network. Contains a link to the IRC server of the Psylance workers.
+  This will be one of the people that posts on the IRC, so you can do callbacks here to that.-->
+
+  <firewall level="-1"/>
+  <trace time="60" />
+  <portsForCrack val="3" />
+  <ports>21, 443, 6881</ports>
+
+  <positionNear target="dpa_whitelist" position="180" total="290" extraDistance="0"/>
+
+  <dlink target="dpa_psylance" />
+
+  <file path="home" name="notes_for_keeping_the_idiots_down.txt">как обеспечить безопасность необученных людей в сети.
+шаг 1: не давать им права администратора
+шаг 2: не позволять им отправлять е-мэйлы за пределы организации без особого разрешения
+шаг 3: не позволять им приносить внешние устройства
+шаг 4: не позволять им жаловаться - перенаправлять их жалобы в /dev/null
+шаг 5: наблюдать, как все катится в говно
+шаг 6: иди нахуй</file>
+
+  <file path="home" name="irc_address.txt">Вито,
+Перестань забывать IP адрес. Запиши его где-нибудь или придумай что-нибудь.
+50.31.225.93
+Ты работаешь здесь уже шесть месяцев, и это происходит, по крайней мере, раз в две недели. Наведи порядок в своей голове.
+Дэррил
+
+P.S. Перестань нести всякую херню про мою маму, или я быстро найду способ понизить тебя в должности.</file>
+  
+</Computer>

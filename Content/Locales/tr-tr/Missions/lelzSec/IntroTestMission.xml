@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="lelzSec0">
+  <goals>
+    <goal type="FileChange" target="nortronWebServer" file="index.html" path="web" keyword="dicks"/>
+  </goals>
+  <missionStart val="10">changeSong</missionStart>
+  <nextMission>lelzSec/NortronBreakIn.xml</nextMission>
+  <branchMissions>
+    <branch>Theme/ThemeHackEndMission.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Naix</sender>
+    <subject>GG WP</subject>
+    <body>
+Tamam tamam, anladık. Bu kadar yeter. Bana bok atmayı kes.
+
+O girdileri kutunda bırakmak birazcık aptalcaydı, fakat gerçekten ne yaptığın hakkında hiçbir fikrin yokmuş gibi görünüyordu.
+Ancak bu ikimiz içinde en iyisi olabilir. İnternette her gün tanıdığın aptalın tekine bulaşmıyorsun sonuçta.
+
+Senin için ufak bir testim olacak. Eğlenceli bir şey. Nortron adında şaka gibi boktan bir güvenlik şirketi var. Duymuş muydun?
+Açıkçası virüsleri, sistemimi tıkayan "güvenlik" saçmalıklarına tercih ederim. Çöp lan bildiğin. Zaten satışlarının çoğunu ne halt ettikleri konusunda en ufak fikri olmayan insanlara yapıyorlar.
+
+Bir süredir sitelerinin amına koymayı düşünüyordum. Her tarafa "dicks" kelimesini koymanı istiyorum. Başlıkta dicks, üstbilgide dicks, istersen sitedeki her bir kelimeyi dicks ile değiştir, ciddiyim.
+Eğer eğlenci amaçlı Hacktivizm'i seviyorsan neler yapabildiğini göster bakalım. Aslında burada olma sebebinden daha eğlenceli olacağı kesin, değil mi?
+
+-Naix
+
+NOT: Muhtemelen gerçek güvenlik nasıl olur bilmiyorsun. Bu yüzden sana hacklemeye ilk adım rehberini de atıyorum. İyi eğlenceler!
+    </body>
+    <attachments>
+      <link comp="nortronWebServer" />
+      <link comp="netEduComp" />
+      <note title="Talimatlar">Başlığı "DICKS" olarak değiştir. Ayrıca komik oldukları sürece, diğer değişiklikleri de kabul edeceğim.</note>
+    </attachments>
+  </email>
+</mission>

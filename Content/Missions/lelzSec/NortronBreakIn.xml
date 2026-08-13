@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="lelzSec1">
+  <goals>
+    <goal type="getAdmin" target="nortronMainframe"/>
+  </goals>
+  <nextMission>lelzSec/MessageBoardIntro.xml</nextMission>
+  <email>
+    <sender>Naix</sender>
+    <subject>Hilarious</subject>
+    <body>
+Ahaha, nice, nice. A real work of art.
+
+Ok, cool, this is more like it. How about a real challenge?
+Think you can tackle the Nortron mainframe? For a secutity company, I honestly expected more of them, but they do have a pretty beefy firewall going on there.
+It'd be a pretty huge hassle to try and take that down conventionally, so, you know, good luck with that.
+
+Think you can break in? I dont care what you do with it if you do get in - i'll be impressed if you get admin on it at all.
+
+If you manage it, I might have something for you.
+
+-Naix
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

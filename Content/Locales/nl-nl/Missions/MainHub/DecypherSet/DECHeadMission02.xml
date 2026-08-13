@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="beepbeep"/>
+  </goals>
+  <missionEnd val="1">addFlags:dechead</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Volg een gecodeerd bestand">
+We denken dat we een manier hebben gevonden om DEC gecodeerde bestanden kunnen volgen - we hebben een met wachtwoord beschermd bestand en willen het open. Er zou genoeg info moeten zijn om verder te kunnen.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>RE: Door het Spyglass</subject>
+    <body>
+Cool, iets goed gevonden?
+
+Oke, het bestand dat we bekijken is op de crossroads, "CSEC_encode_1.dec" - we hebben het hernoemed zodat mensen er niet mee gingen rotzooien. Het heette origineel "WinCE_FirmwareSpecs.dec" toen we dat kregen, als dat helpt.
+In ieder geval, lees de headers uit, vind waar het gecodeerd was en vind dat wachtwoord! Beantwoord deze email met het wachtwoord in de email en wij regelen de rest wel.
+
+Bedankt voor je hulp,
+-CT Team
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+    </attachments>
+  </email>
+</mission>

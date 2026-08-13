@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="bitMission02" name="Serveur test d&apos;Entropy" ip="199.59.149.230" security="1" type="4">
+  <file path="home" name="Entropy_Induction_Test">
+Félicitations,
+  
+Télécharge ce fichier pour terminer ton test d'admission.
+    
+Entropy te contactera rapidement.
+  </file>
+  <file path="bin" name="e_admins_are_lazy.txt">Personne ne se souvient jamais de vider la corbeille... C'est un serveur de test, bande de couillons, il est FAIT pour que des gens le craquent ! Nettoyez derrière vous, au moins !</file>
+
+  <file path="bin/zer0cool" name="hack_the_planet.txt">PR0ST3RN3Z V0US D3VANT M0I ! C'3ST M0I L3 PLUS SKILL3 ET VOUS LE SAV3Z.</file>
+  <file path="bin/zer0cool" name="retort.txt">Tu sais ce que ça veut dire, riposte, n'est-ce pas ? Laisse-moi te dire, t'es qu'un petit couillon. 
+Ça t'a probablement pris toute une semaine pour trouver comment craquer ce proxy. Tu dois avoir 12 ans et tu penses pouvoir « pirater la planète » depuis le 386 de ta maman. Bonne chance, gamin. Dégage et laisse les pros bosser. </file>
+
+  <file path="bin/OP_Stormwind" name="need_help.txt">Si tu es là, c'est que tu dois savoir deux ou trois trucs sur comment rentrer là où tu n'es pas invité. Ces cons chez Stormwind ont totalement foutu en l'air l'équilibrage de Shaytan 3 avec leur dernier patch et leurs maisons des enchères. J'étais super fan depuis la sortie du premier Shaytan en 96, mais là c'est trop. Moi je dis, on les fait s'effondrer, ces conneries de maisons. Si ça te dit, laisse un fichier texte ici et je te retrouverai 
+- slaggedfire</file>
+
+  <file path="bin/OP_Stormwind" name="Wo_lai_bang.txt">
+400 Jin Stormwind Online.
+</file>
+
+  <file path="bin/OP_Stormwind" name="lulz.txt">
+Les admins sont en colère contre toi, slaggedfire. Les Chinois ont été sur les serveurs toute la nuit à demander de l'or. 
+</file>
+
+  <file path="bin" name="SOgold.txt">
+Êtes-vous fatigué des quêtes qui prennent trop longtemps ? Souhaitez-vous une vie longue et heureuse sans jamais avoir à vous inquiéter d'avoir de l'argent pour acheter une monture ? Alors voici SOgold, le meilleur service de farming pour les joueurs de Stormwind Online. Pour une somme modique, nous prendrons soin de votre compte et nous nous assurerons que vous avez assez d'or pour acheter tous les objets que vous voulez. Nous avons juste besoin d'un accompte de 29,99 $ et les détails de votre compte Stormwind Online. Nous vous trouverons tellement d'or que vous ne saurez plus quoi en faire ! 
+</file>
+
+<file path="bin" name="BIT_PLZ_READ.txt">
+Bit, si tu lurkes, tu pourrais sortir de ta cachette s'il te plaît ? Je dois te parler. 
+Vap0r veut pas me lacher, elle me dit qu'un truc va pas. Elle est sûre qu'il se passe quelque chose. Tu me mets au courant ?
+-T
+</file>
+  
+  <proxy time="0.3"/>
+</Computer>
+
+

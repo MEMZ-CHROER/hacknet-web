@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyToThemeHackTransitionMission" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="themeHackTransComp" file="Macrosoft_Internal_Raid_Archive.rar" path="home" />
+  </goals>
+  <missionStart val="0">entropyAddSMTPCrack</missionStart>
+  <missionEnd val="0">triggerThemeHackRevenge</missionEnd>
+  <nextMission>Theme/ThemeHackEndMission.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Aggression must be Punished</subject>
+    <body>
+#PLAYERNAME#, 
+
+You've proved yourself very capable in a very small amount of time. I'm impressed.
+
+There's something that's been bothering me for a while that I'd like you to help with. A relatively new, but apparently talented hacker by the handle "Naix" has been a bit... Over aggressive. He claims to have recently stolen a great deal of internal data from Macrosoft inc.
+
+Entropy is actively trying to improve the view of the hacker community in the eyes of the public - just because our methods can be illegitimate, does not mean our intentions are to harm. Naix is doing a lot to damage this effort.
+I would like you to delete what he stole - the IP he used to access their servers it attached, the archive should be on that node somewhere.
+
+A recently acquired program has been added to the asset server to aid you in this task.
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="themeHackTransComp" />
+    </attachments>
+  </email>
+</mission>

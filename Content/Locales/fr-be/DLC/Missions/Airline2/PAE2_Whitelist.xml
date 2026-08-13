@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa2_whitelist" name="Pacific_ATC_WhitelistAuthenticator" security="5" type="4" icon="Psylance">
+  
+  <!-- This whitelist server is 'unhackably secure', but the player can dig up the password to it on an earlier comp. 
+  The player is here to sabotage the server to allow themselves access. I'm leaving this up to you and your narrative expertise,
+  but I'm thinking we could include a file on here somewhere that's kind of a whitelist setup guide with instructions on how to add to the list via terminal.
+  Also it should say you can only use this server via terminal.
+  The command to add a line to the whitelist (this works in game) is:
+  "append filename ip"
+  so like this:
+  "append list.txt 192.168.1.1"
+  You need to be in the folder where the file exists for it to work of course.
+  This mission is completable if the player adds their own IP to the whitelist or just crashes it's critical files, but I think it'll feel
+  cooler if we hint at the player that they are supposed to add themselves onto it via files here.-->
+  
+  <portsForCrack val="5" />
+  <ports>192, 9418</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="80" />
+  <portRemap>192=199</portRemap>
+  <adminPass pass="CKYX258" />
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  
+  <positionNear target="dpa_bookings" position="180" total="360" extraDistance="0.15"/>
+
+  <dlink target="dpa2_target" />
+
+  <file path="home" name="whitelist_add.txt">Afin d'ajouter une adresse IP vérifiée à la liste blanche, insérer la clé dongle contenant votre licence Schiss-Co dans votre appareil et en vous assurant d'avoir activé l'exécution automatique. La clé contient un ensemble de logiciels de gestion de liste blanche, mais ne fonctionnera que sur un poste habilité.
+
+Autrement, pour les systèmes protégés par pare-feu, air wall, ou auquel l'accès depuis les réseaux publics est impossible, consultez le fichier ajout_manuel_liste.txt pour obtenir les instructions sur la procédure manuelle d'ajout d'adresses IP à votre liste blanche.</file>
+
+
+  <file path="home" name="list_add.sys">#BINARY#</file>
+
+  <file path="home" name="list_add_manual.txt">Pour ajouter manuellement une adresse IP vérifiée sur votre liste blanche, lisez attentivement les instructions suivantes, et assurez-vous d'effectuer les commandes correctement afin d'éviter tout type d'intrusion de votre réseau.
+
+Note : assistance non disponible pour cette procédure, celle-ci devant être exécutée depuis un terminal. Schiss-Co se dégage de toute responsabilité ou dégât causé par l'utilisation ou le mauvais emploi de ces commandes. Pour plus d'informations, veuillez consulter le classeur d'installation fourni par votre représentant Schiss-Co.
+
+Ajouter manuellement une adresse IP sur votre liste blanche demande de pénétrer dans le terminal, accéder au dossier contenant la liste blanche et y insérer l'adresse IP sélectionnée.
+
+Voici la procédure pas à pas :
+
+1. Ouvrir le terminal. Schiss-Co recommande d'utiliser bash ou xsh
+2. Accéder au dossier contenant votre liste blanche. Par défaut : /Accueil/listeblanche.
+3. Assurez-vous de nouveau de l'adresse IP à ajouter.
+4. Ajouter l'adresse IP en utilisant la commande « append », suivi par un espace, le nom de votre liste blanche (« liste.txt », dans la plupart des cas), un autre espace et votre adresse IP. 
+
+Par exemple, si l'on veut ajouter l'adresse IP 192.168.1.1 à sa liste blanche, la sortie du terminal ressemblerait à cela :
+
+serveur-listeblanche:/ admin$ cd Whitelist
+serveur-listeblanche:whitelist admin$ append liste.txt 192.168.1.1</file>
+
+
+</Computer>

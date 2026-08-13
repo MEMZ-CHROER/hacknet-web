@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="airline2_player">
+  <goals>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="Coel - Nisei MK III_Exodus">
+Извлеки. Уберись.
+Ты знаешь, каковы ставки.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>blank</subject>
+    <body>
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

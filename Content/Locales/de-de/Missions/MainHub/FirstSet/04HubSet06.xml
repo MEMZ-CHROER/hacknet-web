@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDownload" target="jscottHome" file="DECHead.exe" path="home/work" />
+  </goals>
+  <nextMission>MainHub/DecypherSet/DECHeadMission02.xml</nextMission>
+  <posting title="Eine verschlüsselte Datei aufspüren">
+Wir glauben, einen Weg gefunden zu haben, DEC-verschlüsselte Dateien zu ihrem Ursprungsort zurückzuverfolgen - Wir haben eine mit einem Passwort versehene Datei, die wir einsehen wollen. Das sollte reichen, um der Sache auf die Spur zu kommen.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Unter der Lupe</subject>
+    <body>
+Offenbar speichern DEC-verschlüsselte Dateien die IP ihres Ursprungs (neben einiger Nebensächlichkeiten) in einem Header - vermutlich zum Debuggen, auch wenn wir darin vor allem eine klaffende Sicherheitslücke sehen. Das trifft sich gut, denn wir müssen eine Datei entschlüsseln und wir haben keine Ahnung, wo das Passwort sein könnte.
+
+Schritt 1 - Finde einen Weg, diese Header auszulesen. Wir haben uns schon mal umgehört und es scheint, als könnte einer der DEC-Solution Mitarbeiter eine Möglichkeit gefunden haben, diese Header ohne Passwort anzusehen.
+Schau dich mal bei ihm um und melde dich, solltest du irgendetwas interessantes finden.
+
+-CT Team
+    </body>
+    <attachments>
+      <link comp="jscottHome" />
+    </attachments>
+  </email>
+</mission>

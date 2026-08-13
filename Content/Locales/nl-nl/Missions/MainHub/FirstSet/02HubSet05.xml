@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="encrypt_source.dec" path="home" destTarget="hubPubDrop" destPath="Drop/Uploads" decrypt="true" />
+  </goals>
+  <missionEnd val="1">addFlags:decypher</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Vind of Maak ontcijferingssoftware">
+Een nieuw bedrijf kwam met nieuwe bestandsversleutelingssoftware, en heeft een grote hoeveelheid voorheen zeer open code voor ons versleuteld.
+Het algoritme lijkt niet erg complex, maar er nog geen oplosser voor uit. Bij dit contract zul je dat probleem moeten oplossen hoe je wil, maar we hebben een bestand ontsleuteld nodig.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>De Kluis Openbreken</subject>
+    <body>
+DEC Solutions heeft onlangs hun nieuwe "DEC Encryption Suite" afgemaakt - een bestandsversleutelingspakket. We hebben een bestand dat we willen bekeijken en dat versleuteld is bij deze software.
+Ik heb een kopie ervan op de crossroads server gegooit (een niet-beveiligde dumpgrond voor alle CSEC gebruikers) als "encrypt_source.dec". ".dec" is de bestandsextensie van deze nieuwe versleuteling.
+
+Je wil waarschijnlijk het bestand zelf bekijken. De website van het bedrijf is leeg als het op nuttige dingen aankomt, maar als je verder graaft kan je misschien iets vinden. Als je er in bent, probeer het netwerk te scannen om te zien of je verder kan komen.
+
+Als je het hebt ontcijferd, upload het naar de CSEC Drop server.
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <link comp="hubPubDrop" />
+      <link comp="decSoftWeb" />
+      <note title="Contract Details">Onderzoek DEC Solutions bedrijfsnetwerk
+Vind een manier om DEC bestanden te ontcijferen
+Ontcijfer het bestand op Crossroads
+Upload het bestand naar CSEC drop server</note>
+    </attachments>
+  </email>
+</mission>

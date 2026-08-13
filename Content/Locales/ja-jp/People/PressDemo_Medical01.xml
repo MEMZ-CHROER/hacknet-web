@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="csec_med_01" handle="Sal" firstName="Elanor" lastName="Helleran" isMale="false">
+  <Birthplace name="ロンドン" />
+  <Degrees>
+    <Degree uni="マンチェスター大学" gpa="3.1">コンピュータサイエンス修士</Degree>
+  </Degrees>
+  <DOB>06/08/1991 14:22:00</DOB>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>167</Height>
+    <Allergies>なし</Allergies>
+    <Perscription>アミオダロン (コルダロン) x70 隔月</Perscription>
+    <Notes>患者は不整脈と診断されており、始めは軽い症状であったもののカフェイン等の刺激物の過剰摂取により悪化の一途を辿っている。エナジードリンクやカフェインの摂取を控えるように繰り返し指導されてはいるのだが、摂取を再開してしまう模様。診察をする前に刺激物（指定物やその他）を確認するために血液検査することを勧める。</Notes>
+  </Medical>
+  <Notes>Press build medical case</Notes>
+</Person>

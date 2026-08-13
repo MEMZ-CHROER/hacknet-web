@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="generatedWebVandal00">
+  <goals>
+    <goal type="FileChange" target="#COMP#" file="#FILE#" path="#PATH#" keyword="liars" />
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# : 真実を暴け">
+いつも寄付をしてくださるクライアントが、ライバル会社の真実の姿を暴きたいと依頼してきました。
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>真実を暴け</subject>
+    <body>
+こんにちは、エージェントさん。
+
+#TARGET#に関する真実を暴いてください。彼らはわが社に対抗するため、嘘に満ちた広告キャンペーンを展開して人々を欺いています。
+
+彼らのホームページ上で真実を暴いてやってください。依頼の達成条件は、彼らが自身のホームページ上で「LIARS」と呼ばれることです、
+
+よろしくお願いします。
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

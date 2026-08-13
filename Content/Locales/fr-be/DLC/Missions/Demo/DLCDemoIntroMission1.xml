@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dlcDemoIntro1">
+  <goals>
+    <goal type="filedownload" target="dDemointro1" file="FTPSprint.exe" path="bin"/>
+  </goals>
+  <nextMission>../DLC/Missions/Demo/DLCDemoIntroMission2.xml</nextMission>
+  <email>
+    <sender>Matt</sender>
+    <subject>Récapitulatif</subject>
+    <body>Bonjour,
+    
+Bon retour parmi nous. Il se passe quelque chose qui intéresse de nombreux groupes. Entropy et CSEC ont leurs agents sur le coup, mais j'ai pensé que tu voudrais également y jeter un œil.
+
+Mais avant tout, je te laisse te remettre dans la course. Cette VM devrait avoir SSHCrack et FTPBounce préchargés, infiltre-toi sur le serveur lié, et télécharge le fichier dans ~/bin, on continuera après. Je pense que ça va te plaire.
+
+Une fois terminé, j'ai un message de Tex pour toi.
+J'espère que tu n'as pas perdu la main, tu vas avoir besoin d'être en forme.
+-Matt
+    </body>
+    <attachments>
+      <link comp="dDemointro1" />
+      <note title="Recap">Programmes tournant sur :
+NomProgramme [PortNumber]
+Utilise « Porthack » pour passer la sécurité quand les ports seront ouverts.
+
+Télécharge bin/XXXX sur l'ordinateur cible et réponds au mail.
+- scp [filename]
+
+Efface les journaux (aussi appelés logs) dans /log
+-rm [* ou filename]
+</note>
+    </attachments>
+  </email>
+</mission>

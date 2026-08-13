@@ -1,0 +1,361 @@
+<CustomFaction name="DLC Faction" id="Bibliotheque" playerVal="0">
+  <!-- Localization Guide:
+  ONLY translate the content of AddIRCMessage Tags.
+  Do NOT change text surrounded by # marks (like #PLAYERNAME#)
+  Do NOT change text surrounded by ! marks (like !ANNOUNCEMENT!)
+  Do NOT translate the agent names. Names are Coel, D3f4ult and Kaguya. Also included in this is keyword "Channel".
+  Make sure you leave @Mentions intact!
+  
+  For example in the line below:
+  Welcome to the team @#PLAYERNAME#!
+  
+  "@#PLAYERNAME#" should be left intact, the rest should be translated!
+  
+  Complex cases:
+  Attachments or links look like this:
+  !ATTACHMENT:note#%#SSL Trojan Usage#%#Some text here
+  For these, Do not translate !ATTACHMENT:note#%#
+  but you SHOULD translate the bits in between the #%# separator marks (the title and content of the note, in this case)
+  
+  Any questions about this, please let me know! I'm reachable via matt@hacknet-os.com
+  -->
+  <Action ValueRequired="1">
+    
+    <RunFunction FunctionName="changeSongDLC" FunctionValue="9" />
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Set/1/DSet1Mission1.xml" TargetComp="dhs" AssignmentTag="D3f4ult" StartsComplete="false"/>
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Set/1/DSet1Mission2.xml" TargetComp="dhs" />
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Set/1/DSet1Mission3.xml" TargetComp="dhs" AssignmentTag="Coel" StartsComplete="false"/>
+
+    <AddConditionalActions Filepath="DLC/ActionScripts/StartupActions.xml" />
+
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="0.1">!ANNOUNCEMENT!</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="0.3">Пользователь "#PLAYERNAME#" добавлен в белый список.</AddIRCMessage>
+    
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="4.0">@channel, #PLAYERNAME#, добро пожаловать к нам.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="10.2">@#PLAYERNAME# - поздравляю с успешным прохождением тестов.
+Остальные сейчас на задании, так что у тебя есть пока время освоиться.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="15.0">Теперь ты часть команды, так что последний контракт достается тебе.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="25.1">Работа здесь распределяется в форме "кто первый взял - тому и принаджежит" - я в основном занимаюсь администрированием, разведкой и прочим - в общем, слежу за тем, чтобы все у нас были заняты и имели под рукой необходимые для работы инструменты.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="31.0">@Coel, @D3f4ult - представьтесь, когда у вас будет минутка.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="36.0">А тем временем, @#PLAYERNAME#, проверь пожалуйста проекты и глянь на последнее задание.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="42.0">Добро пожаловать в команду.</AddIRCMessage>
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="65.0">@#PLAYERNAME# Привет, рад знакомству.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="72.0">@#PLAYERNAME# Добро пожаловать в команду!</AddIRCMessage>
+
+    <!-- Add dynamic response set for when the player reconnects to the server after doing the mission -->
+    <AddConditionalActions Filepath="DLC/ActionScripts/Set1ResponseActions.xml" />
+  </Action>
+
+  <Action ValueRequired="2">
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Set/2/DSet2Mission1.xml" TargetComp="dhs" AssignmentTag="D3f4ult" StartsComplete="true"/>
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Set/2/DSet2Mission2.xml" TargetComp="dhs" AssignmentTag="Coel" StartsComplete="false"/>
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Set/2/DSet2Mission3.xml" TargetComp="dhs"/>
+    
+    
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="9.0">Ладно, я пока что гляну на этот взломщик SSL, расшифрую его и упакую в более удобном виде.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="17.0">Похоже что большую часть работы здесь уже сделали до меня - мне знаком этот стиль трояна...</AddIRCMessage>
+    <AddAsset FileName="SSLTrojan.exe" FileContents="#SSL_EXE#" TargetComp="dhsDrop" TargetFolderpath="bin" />
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="22.0">Хоть версия и недотестирована, использовать ее уже можно если есть желание. Я загрузил ее на дроп-сервер (/bin).</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="27.0">!ATTACHMENT:link#%#ДропСервер Bibliotheque#%#69.58.186.118</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="32.0">!ATTACHMENT:account#%#ДропСервер Bibliotheque#%#69.58.186.118#%#admin#%#ka2gs69</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="36.0">Эта программа использует уже открытый порт, чтобы взломать порт, использующий SSL.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="40.0">Поэтому тебе придется указать не только номер порта, использующего SSL, но еще и выбрать порт, через который ты хочешь подключиться.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="43.0">На данный момент используются следующие флаги: -s, -w и -f для ssh, http и ftp соответственно.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="45.0">Используется это следующим образом:</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="50.0">SSLTrojan [ПОРТ SSL] [ФЛАГ] [ПОРТ ДЛЯ ТУННЕЛЯ]</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="52.0">Краткое руководство:</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="62.0">!ATTACHMENT:note#%#Применение SSL-трояна#%#SSLTrojan [1] [2] [3]
+1 = № SSL порта
+2 =
+"-s" для SSH-туннеля
+"-f" для FTP-туннеля
+"-w" для HTTP-туннеля
+3 = № порта другого сервиса, через который подключиться.
+Например: SSLTrojan 443 -w 80</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="66.0">Помни - SSLTrojan работает *ЧЕРЕЗ* другой порт, так что его сначала нужно открыть.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="70.0">@channel - Новые игрушки! Читай выше.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="90.0">Отличный ликбез, @D3f4ult, спасибо.</AddIRCMessage>
+  </Action>
+
+  <Action ValueRequired="3">
+    <!-- Hermetic Alchemists stage -->
+    <!-- End the demo if we're in demo mode! -->
+    <RunFunction FunctionName="demoFinalMissionEndDLC" FunctionValue="0" />
+
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Alchemists/Missions/HAMission_1.xml" TargetComp="dhs" AssignmentTag="Coel" StartsComplete="false"/>
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Alchemists/Missions/HAMission_Player.xml" TargetComp="dhs" />
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Alchemists/Missions/HAMission_2.xml" TargetComp="dhs" AssignmentTag="D3f4ult" StartsComplete="false"/>
+    
+    <AddConditionalActions Filepath="DLC/ActionScripts/HermeticAlchemistsActions.xml" />
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="5.0">@channel ---- ОБНОВЛЕНИЕ --- </AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="7.0">Вы отлично справляетесь со своими заданиями. А теперь пришло время поработать в команде.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="16.0">Вы у меня все будете смотреть за одной сетью. Это не состязание, а комплексная работа, которая должна выиграть от ваших совместных усилий.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="21.0">Задания для всех подготовлены. Удачи!</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="35.0">Выглядит заманчиво.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="42.0">Обожаю их логотип с деревом.</AddIRCMessage>
+    <!-- Organization typo is deliberate -->
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="48.0">Да уж, для такой суперсекретной организации, они слишком много времени тратят на то, чтобы их серверы модно выглядели.</AddIRCMessage>
+    
+  </Action>
+
+  <Action ValueRequired="4">
+    <!-- Memory Forensics -->
+    <RunFunction FunctionName="changeSongDLC" FunctionValue="5" />
+
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/MemForensics/1_MemForensics1.xml" TargetComp="dhs"/>
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/MemForensics/1_MemForensics2.xml" TargetComp="dhs"/>
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/MemForensics/1_MemForensics3.xml" TargetComp="dhs" AssignmentTag="D3f4ult" StartsComplete="false"/>
+
+    <CopyAsset DestFilePath="home/MemoryDumps" DestComp="dhsDrop" SourceComp="dHidden" SourceFileName="Kaguya_Dump_1.md" SourceFilePath="home" />
+    <CopyAsset DestFilePath="home/MemoryDumps" DestComp="dhsDrop" SourceComp="dHidden" SourceFileName="Kaguya_Dump_2.md" SourceFilePath="home" />
+    <CopyAsset DestFilePath="home/MemoryDumps" DestComp="dhsDrop" SourceComp="dHidden" SourceFileName="Kaguya_Dump_3.md" SourceFilePath="home" />
+    <CopyAsset DestFilePath="home/MemoryDumps" DestComp="dhsDrop" SourceComp="dHidden" SourceFileName="Kaguya_Dump_4.md" SourceFilePath="home" />
+    <CopyAsset DestFilePath="home/MemoryDumps" DestComp="dhsDrop" SourceComp="dHidden" SourceFileName="Kaguya_Dump_5.md" SourceFilePath="home" />
+    <CopyAsset DestFilePath="home/MemoryDumps" DestComp="dhsDrop" SourceComp="dHidden" SourceFileName="Kaguya_Dump_6.md" SourceFilePath="home" />
+
+    <CopyAsset DestFilePath="home/Themes" DestComp="dhsDrop" SourceComp="dHidden" SourceFileName="Floatvoid_x-server.sys" SourceFilePath="home" />
+    <CopyAsset DestFilePath="home/Themes" DestComp="dhsDrop" SourceComp="dHidden" SourceFileName="FloatvoidStandard_x-server.sys" SourceFilePath="home" />
+
+    <CopyAsset DestFilePath="bin" DestComp="dhsDrop" SourceComp="dHidden" SourceFileName="Memory_Forensics_Readme.txt" SourceFilePath="home" />
+    <AddAsset FileName="MemForensics.exe" FileContents="#MEM_FORENSICS_EXE#" TargetComp="dhsDrop" TargetFolderpath="bin" />
+    
+    <!-- Chatter about the player winning alchemists-->
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="3.0">!</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="6.0">@#PLAYERNAME# Круто, не ожидала что ты утрешь мне нос.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="12.0">Честно говоря, я требую награду за свои успехи в дешифровке.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="17.0">@D3f4ult Даже не сомневаюсь, что все именно так и считают.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="21.0">Все отлично справились, поздравляю!</AddIRCMessage>
+    
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="27.0">@D3f4ult Даже не будешь пытаться добить нас?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="31.0">Не, это не соответствует моему кредо.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="34.0">Целься низко, и мимо.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="38.5">ЛОЛ</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="42.0">К тому же, *кто-то* оставил кое-какие логи на Coagula, и *кому-то другому* пришлось подчищать за ним следы :P</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="46.0">._.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="50">Я как яхта, плывущая в океане стыда.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="55.0">Ну хоть шустрая яхта :P</AddIRCMessage>
+
+  </Action>
+
+  <Action ValueRequired="5">
+    <!-- Attack Sequence -->
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Attack/AttackMission_NPC1.xml" TargetComp="dhs" AssignmentTag="Coel" StartsComplete="false"/>
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Attack/AttackMission.xml" TargetComp="dhs"/>
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Attack/AttackMission_NPC2.xml" TargetComp="dhs" AssignmentTag="D3f4ult" StartsComplete="true"/>
+
+    
+    <RunFunction FunctionName="changeSongDLC" FunctionValue="1" />
+    
+    <!-- This could probably use some Ally Chatter...
+    Done! This is meant to keep the player distracted for 30 seconds after the mission with ally talk-->
+    <AddConditionalActions Filepath="DLC/ActionScripts/AttackPrimerResponseActions.xml" />
+  </Action>
+
+  <Action ValueRequired="6">
+    <!-- Side mission buffer Sequence -->
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Set/3/ItFollows/PlayerMission.xml" TargetComp="dhs" />
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Set/3/D3fAFKMission.xml" TargetComp="dhs" AssignmentTag="D3f4ult" StartsComplete="true"/>
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Set/3/Cleanup/PlayerMission.xml" TargetComp="dhs"/>
+    
+  </Action>
+  
+  
+  <Action ValueRequired="7">
+    <!-- Neopals Sequence -->
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Neopals/PetsMission1.xml" TargetComp="dhs"/>
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Neopals/PetsMissionAlly1.xml" TargetComp="dhs" AssignmentTag="Coel" StartsComplete="false"/>
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Neopals/PetsMissionAlly2.xml" TargetComp="dhs" AssignmentTag="D3f4ult" StartsComplete="false"/>
+
+    <RunFunction FunctionName="changeSongDLC" FunctionValue="1" />
+
+  </Action>
+
+  <Action ValueRequired="8">
+    <!-- Copy over files for ExpoGrave -->
+    <CopyAsset DestFilePath="home" DestComp="dhsDrop" SourceComp="dHidden" SourceFileName="p_SQL_399.gz" SourceFilePath="home" />
+    <CopyAsset DestFilePath="home" DestComp="dhsDrop" SourceComp="dHidden" SourceFileName="patch_checksum.chk" SourceFilePath="home" />
+    
+    <!-- Side mission buffer Sequence -->
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Set/4/Beanstalk/PlayerMission.xml" TargetComp="dhs" />
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Set/4/Expo/PlayerMission.xml" TargetComp="dhs"/>
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Set/4/Keebs/KeebsMission.xml" TargetComp="dhs"/>
+
+    <!-- ally chatter about Neopals -->
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="3.0">Нихуясе, отличная работа @#PLAYERNAME#. Я слишком долго возился с сервером авторизации.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="12.0">@Coel - как твое дело двигается? Все еще тайна?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="18.0">Ага. Почти закончила - на этот раз перепроверяю тщательно логи и все такое. Здесь ошибки непростительны.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="25.0">Дай знать, если понадобится помощь. А то мы тут в неведении.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="30.0">Хорошо.</AddIRCMessage>
+    
+  </Action>
+
+  <Action ValueRequired="9">
+    <!-- Airline Sequence -->
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Airline/Missions/AirlineMission_1.xml" TargetComp="dhs" AssignmentTag="Coel" StartsComplete="false"/>
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Airline/Missions/AirlineMission_2.xml" TargetComp="dhs" AssignmentTag="D3f4ult" StartsComplete="false"/>
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Airline/Missions/AirlineMission_Player.xml" TargetComp="dhs"/>
+
+    <RunFunction FunctionName="changeSongDLC" FunctionValue="9" />
+    
+    <CopyAsset DestFilePath="bin" DestComp="dhsDrop" SourceComp="dHidden" SourceFileName="NetmapOrganizer.exe" SourceFilePath="bin" />
+    <!-- Chatter briefing team on airline mission -->
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="6.0">@channel Спасибо всем за отлично проделанную работу. Все завершили свои задания, так что пора двигаться дальше. </AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="12">С этой сетью мороки будет много. Тут все будут работать сообща. Будьте внимательны, терпеливы, смотрите по сторонам и записывайте.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="16.0">И помните: вы здесь, потому что вы лучшие.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="19.0">Удачи всем.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="26.0">@Kaguya Эмм, а по какой причине ты выбрал именно эту цель?</AddIRCMessage>
+    
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="31.0">В след раз пиши в личку Coel - это касается отслеживания Nisei MK III.</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="56.0">@channel А, и пока я не забыл - я залил на дроп-сервер новую прогу для вас.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="65.0">Отлично! Я давно искал органайзер типа этого. @Kaguya Спасибо :D</AddIRCMessage>
+
+    <AddConditionalActions Filepath="DLC/ActionScripts/AirlineActions.xml" />
+
+  </Action>
+
+  <Action ValueRequired="10">
+    <!-- Airline 2 Sequence -->
+    <CopyAsset DestFilePath="home" DestComp="dhsDrop" SourceComp="dHidden" SourceFileName="sysinfo.bat" SourceFilePath="home" />
+    
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Airline2/Missions/AirlineMission2_1.xml" TargetComp="dhs" AssignmentTag="Coel" StartsComplete="false"/>
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Airline2/Missions/AirlineMission2_Player.xml" TargetComp="dhs"/>
+    <AddMissionToHubServer MissionFilepath="DLC/Missions/Airline2/Missions/AirlineMission2_2.xml" TargetComp="dhs" AssignmentTag="D3f4ult" StartsComplete="false"/>
+    
+    <!--Chatter regarding Previous airline mission -->
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="1.0">Круто! Сейчас протестирую.</AddIRCMessage>
+    
+    <!-- Chatter describing upcoming mission -->
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="6.0">Спасибо Coel. Мой скрипт авторизации одобрил это, так что с моей стороны нареканий нет.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="10.0">Тут есть несколько деликатных вещей, которые нужно доделать.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="16.0">@Coel - необходимая тебе информация поступила и выглядит многообещающе. Еще одного удара с твой стороны должно хватить. Ты справишься.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="19.0">Хорошо. Кстати, учетная запись отлично работает #PLAYERNAME#, поздравляю.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="24.0">@#PLAYERNAME# - Так как ты первым добрался до сервера pacific, я позволю тебе продолжить. Ты будешь нашим планом Б.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="29.0">@D3f4ult - Ты со мной, будем разбираться с протоколами подключения, ты в этом спец.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="35.0">Удачи всем.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="42.0">За дело. @Coel, @#PLAYERNAME# Утрите им нос</AddIRCMessage>
+
+  </Action>
+
+  
+  <Action ValueRequired="11">
+    <!-- Gathering phase - makes sure the player is on the server -->
+    
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-1.0">Мы готовы... Пора за дело.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="1.0">!ANNOUNCEMENT! - @channel</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="6.0">Coel, #PLAYERNAME#, D3f4ult - минуточку внимания, это важно.</AddIRCMessage>
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="7.0">Я тут.</AddIRCMessage>
+
+    <AddConditionalActions Filepath="DLC/ActionScripts/AddRankOnIRCConnect.xml" Delay="7.0" DelayHost="dhs"/>
+    
+  </Action>
+  
+  <Action ValueRequired="12">
+    <!-- Aircraft Takedown Sequence -->
+
+    <!-- Narrative sequencing: Explain How -> Show Tools -> Explain Why -> Interrupted -> Split -->
+    
+    
+    <!-- Play Def's message a second late so it looks like the arrival order was Coel - > Player -> Def -->
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="1.0">И я.</AddIRCMessage>
+
+    <!-- So at this point, the player is guaranteed to be looking at IRC, and just got announcement from Kaguya. -->
+    <!-- 0 - 10s : Kaguya introduces the problem -->
+    <!--Change to drone sound -->
+    <RunFunction FunctionName="changeSongDLC" FunctionValue="7" Delay="5" DelayHost="dhs"/>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="6.0">Спасибо.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="10.0">Следующая задача потребует некоторых разъяснений.</AddIRCMessage>
+    
+    <!-- 10 - 20s : Kaguya talks about Coel's involvement so far. State of things. -->
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="16.0">Уже некоторое время мы с Coel занимаемся саботажем исследований химического оружия, о которых меня осведомили до того как я собрал вас.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="20.0">#PLAYERNAME# и D3f4ult, ваша работа помогла нам хорошо продвинуться вперед.</AddIRCMessage>
+    
+    <!-- 20 - 30s :  leaves us with one copy left. It's disconnected, but we know where it is. On Flight.-->
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="26.0">Недавно Coel отследила и удалила то, что мы считали последней цифровой копией, но все оказалось не так просто.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="30.0">Существует печатная копия данных, и на данный момент она находится в пути. Последняя копия.</AddIRCMessage>
+
+
+    <!-- 30 - 40s: Specifically this flight. I've developed trackers for it. Here are the links. -->
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="34.0">Она на борту самолета. А отчеты о результатах - на борту другого самолета.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="38.0">Конкретно речь идет об этих:</AddIRCMessage>
+
+    <!-- ~40 seconds in - plane trackers appear -->
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="39.5">!ATTACHMENT:link#%#PA_747_0022 Бортовой компьютер#%#209.15.13.134</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="40.0">!ATTACHMENT:link#%#PA_747_0018 Бортовой компьютер#%#208.73.211.70</AddIRCMessage>
+    <RunFunction DelayHost="dhs" Delay="40.0" FunctionName="activateAircraftStatusOverlay" />
+    <RunFunction DelayHost="dhs" Delay="40.0" FunctionName="activateAircraftStatusOverlayLabyrinthsMonitoring" />
+
+    <!-- 40 - 60s : Coel expresses dismay. Kaguya explains the location of the file to delete, to press the reload firmware button. -->
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="45.0">ахуеть...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="44.0">Kaguya...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="47.0">во что ты нас ввязываешь...</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="50.0">@channel Бэкдор для skylink, который ты установил, позволяет нам открыть SSH порты на этом борту.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="53.0">Самолеты находятся под управлением файла ядра "747FlightOps.dll". Если ПО самолетов перезапустить без этого файла, ручное управление перестанет работать.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="56.0">@Coel , @#PLAYERNAME#, @D3f4ult : Информация, летящая этим самолетом, слишком опасна.</AddIRCMessage>
+
+    <!-- 60 seconds: Music Starts. Kaguya says the plan is to crash the planes. -->
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="60.0">Я хочу, чтобы вы устроили крушение рейса Pacific Air PA_0022.</AddIRCMessage>
+    <RunFunction DelayHost="dhs" Delay="60.0" FunctionName="playAirlineCrashSongSequence" />
+    
+    <!-- 60 - 80s : D3f4ult hints that he's going to do it. Kaguya starts reasoning.
+    60 - 80s : Points raised:
+    Last chance to destroy this data for good
+    Coel, you know that the information on that plane could be *genocidal* if it got out of hand
+    and it's being weaponized. -->
+
+    <!-- 80 - 100 : Coel says no. Kaguya says 
+    "Just hear me out. I honestly thing this is the right thing to do. We need to do this"
+    Coel: "I'm not killing a plane full of people for the *chance* that the research goes where we think it will.
+    sabotaging their servers is one thing, but this..."-->
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="67.0">Я не поняла, ЧТО? Это не вариант, на борту люди!</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="68.0">Понял.</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="74.0">Coel, услышь меня!</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="82.0">Это наш последний шанс избавиться от этого *навсегда* - ты прекрасно знаешь, какую опасность представляют эти данные.</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="90.0">С их помощью будет производиться оружие. Если мы упустим этот шанс, *мы будем виноваты* в будущих разрушениях.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="93.0">Существуют решения, которые не предполагают *убивать полные самолеты людей*, Kaguya.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="98.0">Мы отследили все остальные копии. Наверняка существуют способы, как избавиться от этих файлов, не предполагающие убийства людей! </AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="101.0">Все не так просто. Я...</AddIRCMessage>
+        
+    <!-- 43.6 seconds after music starts (103.6s), plane starts to crash-->
+    <!-- it takes 6 seconds for the crash alerts to come up after the attack starts-->
+    <RunFunction DelayHost="dhs" Delay="96.60" FunctionName="defAttackAircraft" />
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="102.4">Что за...</AddIRCMessage>
+    <!-- 103.5 - warnings appear -->
+    
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="103.20">НЕТ!</AddIRCMessage>
+
+    <!-- 58.5 into the song (118.5s), Coel says "GO!" to the player -->
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="105.70">------------------------------------------------</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="105.75">!ANNOUNCEMENT! - @channel</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="106.0">*** Инициализирована функция CHANNEL: ## COEL_TRAIN_ROLLOUT.bat ##</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="106.2">*** Установлен режим CHANNEL: +b (бан) пользователю @Kaguya</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="106.4">*** CHANNEL выгнал пользователя @Kaguya</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="106.6">*** CHANNEL выгнал пользователя @D3f4ult</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="106.8">------------------------------------------------</AddIRCMessage>
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="107.50">Я не позволю этого.</AddIRCMessage>
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="111.0">@#PLAYERNAME#, у нас еще есть шансы. Если сможешь добыть файл 747FlightOps.dll с другого самолета и загрузить его обратно до того, как он упадет, то мы сможем его спасти.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="114.0">!ATTACHMENT:link#%#PA_747_0022 Бортовой компьютер#%#209.15.13.134</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="114.3">!ATTACHMENT:link#%#PA_747_0018 Бортовой компьютер#%#208.73.211.70</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="117.5">Я займусь D3f4ult и Kaguya, А ТЫ ЭТОЙ ШТУКЕ УПАСТЬ</AddIRCMessage>
+    
+
+    <AddIRCMessage Author="Channel" TargetComp="dhs" Delay="118.0">-- PA_0022 Предупреждение о потере высоты: Столкновение с поверхностью через 124,223 секунды --</AddIRCMessage>
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="121.0">ДЕЙСТВУЙ!</AddIRCMessage>
+    <RunFunction DelayHost="dhs" Delay="121.0" FunctionName="flashUI" />
+    
+  </Action>
+
+  <!-- End -->
+
+</CustomFaction>

@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="encrypt_source.dec" path="home" destTarget="hubPubDrop" destPath="Drop/Uploads" decrypt="true"/>
+  </goals>
+  <missionEnd val="1">addFlags:decypher</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Locate or Create Decryption Software">
+Una nueva empresa ha sacado un software de cifrado de archivos y ha bloqueado mucho código que antes era campo abierto para nosotros. 
+El algoritmo no parece tan difícil como otros anteriores, pero aún no lo hemos resuelto. Con este contrato, resolverás el problema como tú quieras, pero necesitamos que descifres un archivo.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Fantasmas en la cripta</subject>
+    <body>
+Hace poco DEC Solutions ha terminado su nuevo conjunto de cifrado DEC; básicamente, es un paquete de cifrado de archivos. Tenemos un archivo que queremos que examines y que se ha bloqueado con este cifrado. 
+He dejado una copia en nuestro servidor de intercambio (un vertedero sin seguridad para todos los usuarios de CSEC) llamada encrypt_source.dec. &quot;.dec&quot; es la extensión de archivo que genera este nuevo cifrado. 
+
+Por cierto, quizá quieras echar un vistazo al propio archivo antes. En el sitio web de la empresa no hay casi nada útil, pero si escarbas un poco, quizá encuentres algo que te ayude. Cuando entres, explora a ver si la red es más profunda.
+
+ Cuando lo tengas descifrado, cárgalo en el servidor de entrega de CSEC.
+    </body>
+    <attachments>
+      <link comp="hubCrossroads"/> 
+      <link comp="hubPubDrop"/>
+      <link comp="decSoftWeb"/>
+      <note title="Datos del contrato">Investiga la red corporativa de DEC Solutions. 
+Encuentra un método para descifrar los archivos DEC.
+ Descifra el archivo del servidor de intercambio de CSEC. 
+Carga el archivo descifrado en el servidor de entrega de CSEC.</note>
+    </attachments>
+  </email>
+</mission>

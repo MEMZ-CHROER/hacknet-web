@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dKeebs" name="ClickLab Productions" security="1" type="4" icon="DLCPC1">
+
+  <proxy time="1" />
+  <portsForCrack val="3" />
+  <ports>21, 6881, 443</ports>
+  <trace time="85" />
+
+  <file path="home/keebs" name="Switches.txt">Guide d'achat de switches
+----------------------
+Les switches sont toujours une affaire de goût personnel, donc je recommande vivement d'aller en essayer quelques types différents dans un magasin, avant de vous décider, par exemple. Mais si ça vous est impossible, en voici un aperçu.
+Je vais commencer par les différents types, puis parler des différences entre les marques.
+
+Bruns :
+Ce sont les switches mécaniques « de base » - tactiles (c'est-à-dire qu'il y a une espèce de petit à-coup quand vous appuyez dessus pour que vous sachiez exactement quand le switch est activé), assez légers, sans clic supplémentaire.
+Ce sont ceux que je recommanderais plus ou moins pour quelqu'un qui achète ses premiers switches mécaniques sans pouvoir les essayer avant. Ils offrent une bonne sensation et constituent un bon moyen de voir ce qui vous plaît dans un clavier, sans vous retrouver d'emblée avec quelque chose de décevant sur les bras.
+En gros, tout le monde aime les bruns, et ils sont un bon moyen de déterminer ce que vous adorerez par la suite.
+
+Rouges :
+Ceux-ci sont conçus comme des bruns linéaires. « Linéaires » signifie qu'il n'y a pas d'à-coup lors de leur activation, et la résistance est la même tout au long de la pression sur la touche. Ils sont souvent décrits comme étant « plus performants pour les gamers », mais franchement je trouve ça assez idiot.
+Beaucoup de gens (moi compris) trouvent la sensation des rouges un peu « confuse » - l'à-coup lors de l'activation me manque vraiment, mais certaines personnes ne jurent que par eux.
+
+Bleus :
+Ce sont comme des bruns mais avec un mécanisme additionnel à l'intérieur du switch, qui produit un son de clic en plus lorsqu'ils sont activés. Ils sont très bruyants (trop bruyants pour moi), mais ce degré de feedback en plus offre une excellente sensation lorsqu'on tape dessus.
+Si vous vivez ou travaillez avec d'autres personnes, il vaut sans doute mieux commencer par des bruns. Gardez à l'esprit que vous entendrez le bruit qu'ils font, même avec un casque sur les oreilles.
+
+Et maintenant, les variantes « plus lourdes » : elles ont la même conception que les switches évoqués ci-dessus, mais le ressort à l'intérieur est plus lourd, donc chaque touche requiert un peu plus de pression.
+Cette résistance procure une sensation de solidité et de qualité aux claviers, ce qui est bien, mais ça peut aussi faire mal aux doigts quand vous passez un long moment sur le clavier, et il faut s'y habituer.
+
+Les verts sont des bleus plus lourds
+Les noirs sont des rouges plus lourds
+Les transparents sont des bruns plus lourds
+
+Les fabricants les plus répandus sont Gateron et Cherry.
+Les switches tactiles Gateron (bleus, bruns et verts) sont des versions plus lisses et moins chères des switches Cherry, donc prenez plutôt ceux-là.
+Mais les transparents Gateron ne sont PAS des bruns plus lourds - pour une raison que j'ignore, ce sont des rouges plus légers (?!??!?!?!?!!). J'ai découvert cela à mes dépens(es).
+Les switches linéaires Gateron ont un ressenti un peu tremblant - prenez plutôt Cherry pour le coup. En fait, Cherry est toujours un bon choix, ils font du beau boulot. Mais les bruns Gateron sont vraiment très bien.
+
+  </file>
+
+  <file path="home/keebs" name="Advanced_Switches.txt">Switches avancés ou peu communs
+------------------------
+
+Parlons un peu de Topre.
+Topre, c'est de la bombe. Je suis en train d'écrire sur mon Topre RF87U, en ce moment. 55 g uniformes, c'est le top. Sérieux.
+
+Bref, Topre est une compagnie japonaise qui fabrique un switch spécial à capacité électrostatique. La sensation est légèrement différente des switches mécaniques classiques, et l'aimer est une question de goût personnel.
+Certains disent que la sensation est comme celle des claviers onéreux à coupelles en caoutchouc, d'autres disent que la sensation est géniale. Ce n'est pas pour tout le monde, mais je ne suis pas d'accord avec le premier avis. Ils sont bizarres et géniaux, et ce sont mes préférés.
+
+Le seul désavantage étant qu'on ne peut pas mettre de capots de touches personnalisés dessus, parce qu'ils ne sont pas dotés de tiges Cherry MX. Sauf qu'ils viennent de régler le problème et font maintenant des claviers avec de nouvelles tiges qui prennent ça en charge. Pour ceux-là, faites-moi confiance, mettez des silencing rings Hypersphere dessus - ce sera comme avoir un Realforce rétro-éclairé sur lequel vous pouvez changer les capots (le rêve quoi).
+
+Zealios.
+Et les switches MOD-X. Il s'agit de switches personnalisés par la communauté, qui répondent à des poids et des processus de fabrication particuliers. Les Zealios sont souvent décrits comme les « Gateron violets ».
+Ils sont à cheval entre les bruns et les transparents Cherry, avec la fluidité des Gateron, soit la perfection en termes de switch pour beaucoup de gens. Cela dit, il vous faudra bâtir votre propre clavier pour pouvoir les installer, ce qui est quelque chose d'assez avancé.
+  </file>
+  
+  <file path="home/keebs" name="Keycaps.txt">Guide de capots de touches
+------------------------
+Inscrivez-vous à Massdrop, allez sur le forum sub-reddit  /r/MechanicalKeyboards et tenez-vous au courant des nouveautés dans le monde des capots de touches. Vous pouvez vous attendre à payer dans les 200 USD$ et attendre genre 9 mois pour vos petits morceaux de plastique, mais bordel, qu'ils sont beaux.
+
+Signature Plastics aux USA, TaiHao à Taïwan et GMK en Allemagne sont les gros poissons en ce moment dans le domaine. TaiHao sont bien et pas chers, GMK sont chers et *très bien*, et SP sont chers, mais aussi le seul moyen d'obtenir des capots de profil SA ou DSA.
+
+Ah oui, les profils. Les mecs-aniques normaux utilisent le profil OEM, qui est extrêmement similaire (souvent le même, d'ailleurs) au profil « Cherry ». TaiHao et GMK utilisent le profil Cherry.
+
+SP fabriquent des capots de profil SA et DSA. Les capots SA sont élevés, brillants et en dôme, les capots DSA sont uniformes, bas et plats - plus comme un clavier de laptop. Ça vaut la peine d'aller consulter des images !
+Le problème, c'est que ces magasins n'ont généralement pas grand-chose en stock, donc il faut être attentif aux promos et aux achats groupés de nouveaux lots. Il y a dans la communauté des concepteurs qui proposent des lots, et une fois commandés, vous pouvez vous inscrire pour les obtenir.
+C'est vraiment sympa ! Quelques bons exemples :
+
+GMK Carbon
+DSA Dolch
+TaiHao Sunset
+SA CalmDepths
+  </file>
+  
+  
+  <file path="home/keebs" name="BoardLayout_Design_Notes.txt">
+Le TenKeyless (il a pas de pavé num) est sympa, mais surtout parce qu'avoir le pavé num entre sa main et la souris, c'est naze, et les claviers de cette taille ont l'air encombrants.
+Pour moi, le pavé num à gauche (comme pour le clavier Monarch), c'est l'avenir.
+Mais je n'abandonne pas les touches de navigation.
+
+Je trouve que la conception custom plutot cool - tout le monde utilise son clavier de façon différente, donc j'enlève juste les touches que je n'utilise pas.
+Après avoir utilisé un WhiteFox pendant un moment, j'admets que les claviers plus petits sont déments - quand on se remet à utiliser une taille standard, le clavier semble énorme et mal qualibré.
+
+La touche Verr. maj. est vraiment mal fichue, bizarre et occupe trop d'espace. Échangez-la avec la touche ctrl.
+Encore mieux - remplacez-la par ctrl et utilisez l'emplacement précédant de ctrl pour autre chose, mettez maj quelque part dans une couche de fonctions.
+
+Touches de navigation : En testant, j'ai déterminé que je trouve généralement les touches fléchées à l'aveugle grâce à l'espace vide au-dessus de la touche droite - tant qu'il y a un espace d'1U au-dessus de cette touche, ce sera facile à trouver.
+L'espace d'1U sur la gauche des touches fléchées sur le whitefox, c'est joli, mais au bout du compte ça ne sert à rien. En même temps, mes concepts montrent que ça ne sert pas à grand-chose d'ajouter une autre touche à cet endroit, donc je garderai probablement les deux espaces.
+  </file>
+  
+  <file path="home/keebs" name="the_dream.txt">
+Disposition personnalisée -> Pavé num. à gauche, grappe de touches de navigation compacte.
+Switches Topre uniformes 55 g avec glissières novatouch
+silencing rings Hypersphere
+changement de capots fréquent (commencer par DSA Dolch ?) 
+Plaque frontale en aluminium double épaisseur et corps de clavier rétro-éclairé en résine - style Monarch.
+Intégralement reprogrammable avec input.club
+
+Repose-poignets en noyer.
+</file>
+  
+  <file path="home/keebs" name="purchase_blacklist.txt">
+ChucklingKumquat
+</file>
+
+  <file path="home/projects" name="Adonis87U_PCB_Spec.gbr">#BINARY#</file>
+  <file path="home/projects" name="Adonis68ISO_PCB_Spec.gbr">#BINARY#</file>
+  <file path="home/projects" name="layout_wip.txt">http://www.keyboard-layout-editor.com/#/gists/0ffdf87af5ba50af1a1018052012832b</file>
+  
+  <file path="home/records" name="purchase_blacklist.txt">
+ChucklingKumquat
+</file>
+  
+  <Memory>
+    <Data>
+      <Block>http://imgur.com/a/B1Iox</Block>
+    </Data>
+  </Memory>
+
+</Computer>

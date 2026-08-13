@@ -1,0 +1,10 @@
+Agent,
+Een nieuw programma is toegevoegd aan de asset server voor jouw gebruik.
+Het is een x-server veranderings programma genaamd "ThemeChanger.exe" - je kan het vinden onder:
+
+/bin/ThemeChanger/
+
+Voel je vrij om een kopie te downloaden en te gebruiken hoe het voor jouw nuttig kan zijn.
+
+Bedankt,
+{0}

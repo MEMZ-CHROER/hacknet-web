@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="1299"/>
+  </goals>
+  <nextMission>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply.xml</nextMission>
+  <branchMissions>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply2.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply3.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply4_Penetrator.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply5.xml</branch>
+  </branchMissions>
+  <posting title="X-C Project">
+Een beetje vreemd verzoek - een exceptioneel gefinanceerd iemand heeft ons voor wat help gevraagt bij het onderzoeken van een collega's tablet om te kijken of het voor persoonlijke dingen wordt gebruikt.
+
+Een vluchtige kijk op hun systeem maakt e het lijken dat ze bezeten zijn van aliens - misschien een erg toegewijde rollenspel groep, of een groep van samenzweringstheoristen?
+ </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>Intern onderzoek</subject>
+    <body>
+Hallo Burger,
+Het X-C project heeft jouw hulp nodig. Hoewel een strict stille en interne zaak, het is iets wat ik persoonlijk onderzocht wil hebben, omdat ik al een tijd vermoedens heb. Ik geloof dat een van onze prominente onderzoekersleiders op ons wetenschapsteam hier wat.. minder productief is dan ze kan zijn.
+Ik wil graag dat een buiterstaander haar tablet onderzoek en kijkt of er iets niet klopt of niet werk-gerelateerd is.
+
+Onze servers gebruiken een gecentralizeerd data oplagsysteem dat bestanden herkent aan een ID code. Ik wil dat je mij beantwoord met een code van een bestand dat jij denkt misschien onderzocht moet worden.
+De bestanden die we zoeken zouden met een ID moeten zijn gemarkeerd, zoals dit: X-C_PROJECT:ID#11111111, waar "11111111" het ID is wat we zoeken.
+
+Toegevoegd is een directe link naar het tablet in kwestie.
+
+Veel geluk,
+-C.O Bradford
+    </body>
+    <attachments>
+      <link comp="xcTablet" />
+    </attachments>
+  </email>
+</mission>

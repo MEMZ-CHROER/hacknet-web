@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="CSEC_DLC_Connector">
+  <goals>
+    <!-- Impossible goal here - this mission isn't completable in the normal sense
+    It leads the player to KaguyaTrials, which replaces this. We don't want the player
+    to skip past this mission by quick replying or anything, so put a debug only goal here-->
+    <goal type="getstring" target="kaguyatrialscompletedebug" />
+  </goals>
+  <missionStart val="1" suppress="true">addFlags:dlc_start_csec</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#ALERT# - Kaguya Trials"> ### ALERT ###
+注意： このタスクから始まる一連の仕事は所要時間が非常に長くなると予想されます。CSECから重要な仕事を請け負っている場合は、それを完遂してからこのタスクに取りかかることを推奨します。
+ ### ALERT ###
+ 
+Kaguyaというエージェントから、何らかのチームの風変わりな採用試験に導くリンクが届きました。試験に合格したエージェントは、チームの仕事に参加することで高額な報酬が与えられるそうです。
+これはCSECにとって何ら重要ではなく、興味があるメンバーが参加できるオプトイン方式のタスクです。
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Kaguya Trials</subject>
+    <body>エージェント各位
+    
+Kaguyaと名乗る人物が、CSECを含む複数の有力グループに入団試験の情報を送信しました。実に洗練された、極めて計画的な試験のようです。従って、試験の先に待っている事案が相当な時間を要することは想像に難くありません。おそらく合格者は一定期間CSECの活動から離れざるを得なくなることになるでしょう。
+とはいえ、当然CSECメンバーは自由意思に基づく調査を許されています。また、新しいツールを求めているメンバーには大きなチャンスと言えるでしょう。
+
+試験のガイドにIPアドレス（下記参照）と「トライアル開始」手順の記載がありました。
+
+検討を祈ります。
+-CSECチーム
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,7 @@
+Agent,
+
+Administratoren haben Ihren Account mit Berechtigungen zur Annahmen eines kritischen Auftrags versehen.
+Dieser ist als {0} im Auftragsverzeichnis hinterlegt.
+Beachten Sie, dass das Akzeptieren dieses Auftrags möglicherweise einen hohen Zeitaufwand und besondere Diskretion mit sich zieht und/oder Sie für eine Zeit von anderen Aufträgen ausschließt. Ein solcher Auftrag sollte daher nur mit der Erwartung angenommen werden, dass andere Aufträge und {0} Dienste für währenddessen nicht verfügbar sein könnten. 
+Vielen Dank,
+{0}

@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="entropyAdvFail01" name="KyonBox" security="3" ip="176.194.38.111">
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <account username="admin" password="haruhi" />
+  <proxy time="2" />
+  <trace time="70" />
+  <file path="home/loot" name="Macrosoft_dox.txt">Macrosoft ストレージサーバー:
+  168.61.82.246
+  </file>
+  <file path="home/docs" name="jessie.txt">
+[lilsebastian] それで、外出許可はもらえそう？
+[kkswatch] わかんない、ママは外出に厳しいの。
+[lilsebastian] マクドナルドで何か買ってくるよ。
+[kkswatch] いいの？
+[lilsebastian] 好きなやつ買ってあげるよ。
+[kkswatch] その後はどうするの？
+[lilsebastian] うーん、展望台に行こうかなって考えてた。
+[lilsebastian] 星を見るのはどうかな。
+[kkswatch] ほんとに？なんかデートみたい。
+[lilsebastian] じゃあ、それでいい？
+[kkswatch] 25分くらいで裏の路地に行くね。そこで会いましょ。
+[lilsebastian] :D
+  </file>
+  
+  <file path="home/docs" name="lantime.txt">
+[jlord93] 週末の準備は出来てるか？
+[xn00bslayerx] もち！
+[xn00bslayerx] 酒とつまみの準備はバッチリだぜ
+[jlord93] 俺は雑魚をヘッドショットしまくってるぜ :p
+[xn00bslayerx] JessieもLANの集まりに来るかな
+[jlord93] お、アツアツだねえ
+[xn00bslayerx] うるせえ！
+[jlord93] お前の1337のテクで楽しませてやれよ
+[jlord93] ま、俺は寝るよ。明日また学校で。
+  </file>
+  
+  <file path="home/docs" name="update.txt">
+[slaggedfire] 今回のはどうしようもない糞アプデだな。信じられるか？
+[slaggedfire] 雑草のアニメーションなんて誰が気にすんだよ？
+[slaggedfire] 欲しいのは内容のあるアプデだっつの！
+[zuggj1] あいつら、このアプデの料金に俺らの手と足でも請求するんじゃねーの
+[slaggedfire] ログインして狩りでもするか？
+[zuggj1] いいぜ。
+  </file>
+  
+</Computer>

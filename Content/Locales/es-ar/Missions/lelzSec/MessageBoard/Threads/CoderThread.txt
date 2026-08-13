@@ -1,0 +1,44 @@
+﻿﻿junkCoder
+------------------------------------------
+#Academic
+Hilo de programación diario
+¿En qué estás trabajando, /el/?
+------------------------------------------
+Estoy intentando resolver el programa de nuevo.
+Me trae tantos recuerdos de mi ex. ;_;
+------------------------------------------
+¿Es seguro programar los eventos así? ¿Simplemente creando un nuevo hilo? 
+
+boost::thread( [] { boost::this_thread::sleep (boost:: posix_time :: seconds(5)); running = false;});
+>inb4 >C++ >boost
+------------------------------------------
+>>37334564
+Solo ten cuidado con esos marcadores. Utiliza bloqueos o atómicos en su lugar.
+------------------------------------------
+>>37334598
+¿A qué te refieres con marcadores? ¿Y qué son los atómicos?
+------------------------------------------
+>>37334626
+>ejecutando = falso
+
+El problema con las raíces de bajo nivel de C++ es que al nivel de ASM pueden hacer cosas muy locas.  
+Los atómicos se aseguran de que todas las operaciones que haces en esa variable actúan realmente como una sola operación.
+------------------------------------------
+¿Alguien quiere evaluar mi solucionador de sudokus?
+http://pastebin.com/Q6Qhm66E
+------------------------------------------
+En la función de comprobación, int tx y ty están asignados a x/3 e y/3 respectivamente, pero luego están multiplicados por 3. ¿Por qué no asignar x e y directamente?
+------------------------------------------
+Respondo tarde, pero 
+estoy buscando el bloque concreto donde están. 
+Digamos, x = 5, y = 5.
+El bloque concreto empieza en 3,3. Y esa es la única forma que se me ocurre de hacerlo.
+------------------------------------------
+>>37334068 (OP)
+Estoy trabajando en ser más feliz y aprender tal vez la API de Windows y el kerkel FreeBSD
+------------------------------------------
+>>37343926
+>más feliz
+>Windows API
+hhehehe
+------------------------------------------

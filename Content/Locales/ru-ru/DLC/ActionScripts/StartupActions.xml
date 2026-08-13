@@ -1,0 +1,17 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-8.0">Бля, время отключения TorrentStreamInjector меня просто выбешивает.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-70.0">Порт без проблем открывается уже через несколько секунд, но потом все зависает на целую вечность. Хочется декомпилировтаь эту штуку, но боюсь что там в коде сплошная каша.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-60.0">Но это же не проблема?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-50.0">???</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-40.5">Вообще-то это меня тормозит, и бесит, разве это не проблема?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-30">ps -> прибей процесс когда он все закончит, в чем проблема?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-25">...</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-20">Мне это и в голову не приходило. Проехали.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-10">Лол</AddIRCMessage>
+    
+  </OnConnect>
+  
+</ConditionalActions>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dKagGate" name="Kaguya_Gateway" security="4" type="empty" ip="54.183.231.31">
+
+  <portsForCrack val="5" />
+  <ports>21, 22, 192, 443, 6881</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="-1" />
+
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+  <file path="bin" name="trnt.exe">#TORRENT_EXE#</file>
+  <file path="bin" name="SignalScramble.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+
+  <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+
+  <file path="home/projects" name="KaguyaTrial.exe">#KAGUYA_EXE#</file>
+
+  <file path="home/projects" name="trialSources.txt">
+    //F1
+    TítulodelaFase = "74.125.23.121";
+    SubtítulodelaFase = "Descargar herramientas" + "\n" + "Borrar archivos del sistema";
+
+    //F2
+    TítulodelaFase = "216.239.32.181":
+    SubtítulodelaFase = "Investigar" + "\n" + "Avance";
+  </file>
+  
+  <file path="home/projects" name="LabyrinthsTodo.txt">
+Borrar puerta trasera de Skylink y comprobar si hay rastreadores en la lista de permisos
+Volver a confirmar que se ha realizado el borrado
+Castigar al director ejecutivo
+Monitorizar servidores con SSH
+Borrar servidores del equipo Labyrinths
+Borrar el personaje de Kaguya
+  </file>
+  
+  <file path="home/projects" name="KTH.txt">
+Proyecto de puerta trasera Nortron KTH
+---------------------------
+
+Las investigaciones en sus sistemas integrados y la configuración empresarial muestran que usan un IDE personalizado desarrollado internamente y que forma parte de una política de código abierto que quieren usar en todos sus productos. Su servidor integrado también lo usa, en una versión sin periféricos.
+Este IDE usa una versión personalizada del compilador de C++. O sea, que tienen su propia versión con modificaciones personalizadas. Dicha versión también está escrita en C++ y las versiones nuevas están compiladas con la versión anterior de C++ que tenía su sistema. Es un desarrollo cerrado.
+
+Fase 1: Conseguir acceso y descargar el código fuente de esa versión particular del compilador.
+Offline, añadir los siguientes sistemas al propio compilador:
+
+1: Todos los programas compilados reciben unas líneas de código adicionales que sirven para preprocesar todos los paquetes entrantes en una red. Si dicho paquete tiene un título específico, lo ejecuta con el nivel de permisos más alto que permita la sesión actual en el sistema objetivo.
+
+2: Añadir una comprobación al compilador que detecte si el programa que compila es *el propio compilador* para que así añada los sistemas 1 y 2 en el compilador resultante.
+
+Compilar la nueva versión del compilador con el nuevo sistema de acceso de paquetes y el hack de propagación.
+
+Fase 2: Volver a conseguir acceso a sus sistemas. Reemplazar la *versión actual* del compilador con la versión pirateada, pero no actualizar su código fuente.
+Realizar un ataque a su servidor de producción e introducir una debilidad muy obvia en el código fuente de todos sus productos de seguridad.
+Limpiar bien los archivos de registro.
+
+Fase 3: Realizar un ataque público a un sistema protegido con su software. Obligar a realizar una actualización que incluya el error. Lo encontrarán, arreglaran y eliminaran, pero al hacerlo tendrán que volver a compilar sus sistemas con el compilador manipulado. Eso lo forzaremos gracias al ataque falso y también conseguiremos hacerles creer que lo han resuelto.
+
+Todas las versiones futuras del software permitirán acceder a las máquinas objetivo sin dejar rastro. No hay código fuente que arreglar ni error en el programa, todo lo que tienes que hacer es meter ese código cuando se vaya a compilar.
+Y además, aunque lo comprueben y vuelvan a recompilar, su *compilador* no lo arreglará, puesto que el hackeo se propagará a la nueva versión de manera automática e invisible.
+
+  </file>
+  
+  
+  
+</Computer>

@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase3" activeCheck="true">
+  <goals>
+    <goal type="getAdmin" target="EnTechPrometheus"/>
+  </goals>
+  <missionStart val="11" suppress="true">changeSong</missionStart>
+  <nextMission>BitPath/BitAdv_Intro04.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 調査</subject>
+    <body>うーん。
+
+こっちでもいろいろ調べてたんだが、こんなの見たことないよ。侵入不可能って決め付けるには早すぎるけど・・・でも、こんなやつは初めてだ。他とは違う。うーん。
+EnTechだっけ？作ってるのは、えーと、超平凡なセキュリティソフト？か？何であれ、こんなもんを売ってるんならこの会社はがっぽり大儲けしてるはずだ。
+    
+どうも、ここの末端のスタッフはこんな上物使ってないみたいだ。このセキュリティがどのへんから始まってるのか、こっちはウェブサーバーから調べてみるよ。なんだか、
+ずいぶん念入りに隠しておきたいものがあるっぽいな。
+
+なにを隠したいのかはさっぱりわからないけど――それにしても、こいつは今までにないくらい手ごわそうだ。まあ、会社ってこういうの好きだよな。新しくてハデなやつ。
+
+こいつはめちゃくちゃ怪しい。
+何か見つからないか、調べられるだけ調べてみてくれ。僕だけじゃここまで来れなかったかも。とにかく、ここまでの収穫は期待以上だ。
+
+これ以上はムリだってくらいまで調べ倒したら連絡してくれ。徹底的に頼む。
+
+-V    
+    </body>
+    <attachments>
+      <link comp="EnTechWeb" />
+    </attachments>
+  </email>
+</mission>

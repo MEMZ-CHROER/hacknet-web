@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ds2m1">
+  <goals>
+    <goal type="clearfolder" target="dDdoserComp" path="LOIC"/>
+    <goal type="clearfolder" target="dDdoserHomeComp" path="LOIC"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Attaques DDoS sur des serveurs critiques">
+Coel a découvert l'origine de certaines pannes de serveur sur Grindcraft - nous voulons qu'elles cessent.
+    </posting>
+  <email>
+    <sender>1</sender>
+    <subject>1</subject>
+    <body>
+Coel a découvert l'origine de certaines pannes de serveur sur Grindcraft - nous voulons qu'elles cessent.
+----
+Quelqu'un trouve apparemment cela amusant de lancer des attaques DDoS sur les serveurs de Secrets of Grindcraft - comme s'ils n'étaient pas suffisamment surchargés de requêtes, vu que le monde entier les matraque pour obtenir la dernière mise à jour. Bref, une des conditions posées par Coel pour sa participation au groupe est d'assurer le fonctionnement de ces serveurs, donc nous voulons que ces perturbations cessent.
+Le ou les responsables utilisent probablement le code LOIC (Low Orbit Ion Cannon), donc si tu effaces ce dossier et que tu mets fin aux attaques, je m'en contenterai, mais si tu veux leur causer des dégâts dans /sys, personne ne t'en voudra.
+
+N'oublie pas de jeter un œil en scannant leur réseau pour voir si tu trouves quoi que ce soit d'autre, et assure-toi de ne rien laisser.
+    </body>
+    <attachments>
+      <link comp="dDdoserComp" />
+    </attachments>
+  </email>
+</mission>

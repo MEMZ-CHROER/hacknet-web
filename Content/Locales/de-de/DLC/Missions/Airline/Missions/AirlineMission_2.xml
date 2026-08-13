@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="airline_player">
+  <goals>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="Abflug - D3f4ult">
+Beschaffe dir Zugang zum Buchungs-Mainframe einer internationalen Fluggesellschaft.
+  </posting>
+  <email>
+    <sender>leer</sender>
+    <subject>leer</subject>
+    <body>
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

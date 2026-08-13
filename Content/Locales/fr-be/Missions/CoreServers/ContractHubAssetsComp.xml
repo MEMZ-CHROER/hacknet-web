@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="mainHubAssets" name="Serveur d&apos;actifs CSEC" security="4">
+  <adminPass pass="csec-5xg3D11"/>
+  <admin type="fast" resetPassword="false"/>
+  <positionNear target="mainHub" position="5" total="6"/>
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="template.txt">[FIRST_NAME]#[LAST_NAME]#[RECORD_NUM]#32#Rural#N/A#N/A#N/A#[LAST_WORDS]</file>
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="FileNamingScheme.txt">
+Convention de nommage de la base de données des Couloirs de la mort :
+
+ LastName_FirstName[RecordNumber] 
+
+Nous vous conseillons de télécharger une copie de template.txt, de l'éditer localement, puis de la renommer avant de l'intégrer à la base de données. 
+Exemple : Doe_John[12345]
+
+ Vous voudrez sûrement remplacer tous les jokers du fichier modèle, utilisez le raccourci de remplacement rapide pour cela : 
+1) Marquez le fichier comme « actif » dans votre système d'exploitation (la façon la plus simple est d'utiliser la commande cat : « cat template.txt ») 
+2) Utilisez replace sans ajouter le nom du fichier (replace &quot;[FIRST_NAME]&quot; &quot;JOHN&quot;) 
+3) Répétez l'étape 2 jusqu'à ce que le fichier ressemble à ce que vous voulez. 
+4) Renommez le fichier (mv template.txt Doe_John[12345]) 
+5) Uploadez le fichier dans la base de données (connectez-vous à la base de données à distance, « upload /home/Doe_John[12345] ». Faites bien attention de l'uploader dans le bon répertoire !
+</file>
+  
+  <file path="bin/SQL_Mem_Corrupter" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+  <file path="bin/SQL_Mem_Corrupter" name="info.txt">
+--Lisezmoi du SQL Memory Corruption Injector--
+    
+Le SQL Memory Corruption Injector (SQL_MemCorrupt.exe) est un exploit ciblé pour les ports SQL côté public (numéro par défaut : 1433). 
+Il injecte une entrée de table qui provoque une erreur de corruption de mémoire dans la base de données quand elle est lue, puis lance une requête immédiatement, ce qui fait planter la base de données SQL et le vidage système. 
+Cela permet un trafic non-authentifié sur le serveur SQL avant que le système d'exploitation cible nettoie la connexion SQL mourante et redémarre le service. 
+
+Le programme, quand il est en mode affichage, donne son statut opérationnel au sommet, et la sortie du serveur SQL (un vidage mémoire de l'entrée injectée, idéalement) en dessous.
+</file>
+
+  <file path="bin/WebServerWorm" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin/WebServerWorm" name="info.txt">
+--Lisezmoi du Web Server Worm-- 
+
+Ce ver à accès rapide de serveur Web est un exécutable ciblé qui peut attaquer les serveurs Web HTTP (généralement sur le port 80 ou le 8080). 
+Ce programme utilise un défaut des versions actuellement actives des logiciels de serveur Web en exploitant une surcharge de la mémoire tampon pour injecter du code arbitraire (le ver). 
+Ce ver, une fois qu'il est lancé sur le serveur, transmet tout le trafic extérieur qui passe par le port Web du système en contournant la sécurité par port. 
+Cela permet d'ouvrir le port pour un usage libre. 
+
+Le ver n'empêche *pas* les actions normales sur le serveur pour deux raisons : cela permet généralement de détecter plus facilement le ver, et parce que cela permet aux utilisateurs étrangers de se rendre compte que quelque chose ne va pas.
+
+</file>
+
+  <file path="bin/Sequencer" name="Sequencer.exe">#SEQUENCER_EXE#</file>
+
+  <file path="Themes" name="CSEC_x-server.sys">#WHITE_THEME#</file>
+  <file path="Themes" name="Mint_x-server.sys">#MINT_THEME#</file>
+  <file path="Themes" name="Teal_x-server.sys">#TEAL_THEME#</file>
+  <file path="Themes" name="Blue_x-server.sys">#BASE_THEME#</file>
+  
+  
+</Computer>

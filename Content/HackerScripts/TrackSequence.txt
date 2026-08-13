@@ -1,0 +1,22 @@
+config playerComp [SOURCE_COMP] 0.2 $#%#$
+connect $#%#$
+delay 2 $#%#$
+openPort 21 $#%#$
+delay 0.9 $#%#$
+openPort 22 $#%#$
+delay 1.1 $#%#$
+openPort 25 $#%#$
+delay 0.8 $#%#$
+openPort 80 $#%#$
+flash $#%#$
+delay 0.1 $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+trackseq $#%#$
+forkbomb $#%#$
+delay 0.5 $#%#$
+disconnect $#%#$

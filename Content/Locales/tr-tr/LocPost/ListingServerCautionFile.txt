@@ -1,0 +1,6 @@
+  ----- UYARI -----  
+
+Bu klasörde bulunan config.sys önemli bir sistem dosyasıdır.
+SİLMEYİN VEYA ADINI DEĞİŞTİRMEYİN
+Aksi takdirde haber panosunda hata oluşur ve sunucu programı çöker
+Bu sorundan kaçınmak için sadece ayarlı kesinti sürecinde config dosyasında değişiklik yapılmalıdır

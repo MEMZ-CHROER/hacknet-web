@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education07">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="*Nixノートシステム">
+*Nixカーネルをベースに作られたOSが使用されている端末には、非常に便利なノートプログラム（"notes"で起動可能）がデフォルトで搭載されています。
+このプログラムは非常に便利ですが、あまり使われていません。比較的メモリの消費効率がいいほか、多くのメールクライアントや他のプログラムとも高相性です（しかも便利なことに、自動補完も使えます）。
+    
+コマンド"notes"、もしくは"addNote [ノート]"を入力することで、ノートがUI上に表示されます。
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+このメールは、予期しないエラーが発生した場合に送信されます。
+どうぞ慌てふためいてください。
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

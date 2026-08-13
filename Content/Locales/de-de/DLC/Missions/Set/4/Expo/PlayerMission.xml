@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dFollowsMission">
+  <goals>
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="ds4_expo" destPath="home/talks/files"/>
+
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="dHGrave_Phone" destPath="eos/STORAGE"/>
+    <goal type="fileupload" target="dhsDrop" file="patch_checksum.chk" path="home/grave" destTarget="dHGrave_Phone" destPath="eos/STORAGE"/>
+    
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="ds4_grave" destPath="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Expo Grave">Ein Sicherheitsexperte hält eine Rede zu Schwachstellen von SQL-Datenbanken. Die Weitergabe dieser Informationen würde sich nachteilig auf unsere aktuellen Bemühungen auswirken. Halte sie auf.</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>Expo Grave</subject>
+    <body>
+Ein Sicherheitsexperte hält eine Rede zu Schwachstellen von SQL-Datenbanken. Die Weitergabe dieser Informationen würde sich nachteilig auf unsere aktuellen Hacker-Bemühungen auswirken. Halte sie auf.
+----
+Obwohl wir ganz und gar nicht gegen Fortschritte im Bereich der Cybersicherheit sind, haben wir doch ein begründetes Interesse daran, gerade diesen Fortschritt etwas zurückzuhalten.
+
+Howard Grave hat eine Rede zu den Schwachstellen von SQL vorbereitet, deren Schwerpunkt auf einem Patch liegt, den er als Gegenmaßnahme entwickelt hat. Wir möchten diesen Patch durch unsere eigene, geringfügig weniger effektive Version ersetzen.
+
+Hacke dich in die Server der Messe und ersetze seine Proof-Of-Concept Dateien durch unsere frisierten Fake-Archive. Das bedeutet, dass du sowohl die Archive als auch die daneben stehende Prüfsumme, falls eine vorhanden sein sollte, ersetzen musst. Unsere Dateien befinden sich auf dem Drop-Server.
+
+Achte darauf, dass du sie alle erwischt – es wird Kopien auf seinen persönlichen Geräten geben, sowie auf dem Hauptserver der Messe.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="dhsDrop" />
+      <link comp="ds4_grave" />
+      <link comp="ds4_expo" />
+      <note title="Mission Guidelines">Lade p_SQL_399.gz und dessen Prüfsummen-Datei vom Drop-Server herunter
+Verschaffe dir Zugriff auf den Messeserver und auf Graves persönliche Geräte und ersetze alle Ausführungen des Patches und der Prüfsummendateien durch die vom Drop-Server.</note>
+    </attachments>
+  </email>
+</mission>

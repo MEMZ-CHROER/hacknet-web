@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entRep01" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+UNKNOWN POSTING ERROR
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Re: Setzen, Sechs!</subject>
+    <body>
+Echt?
+
+*******.... Wow. Ich bin nicht ganz sicher, ob der Typ ein Trottel oder ein Genie ist. Vermutlich ein bisschen von beidem?
+Mensch, ich hab's selbst ausprobiert, nur um zu sehen, ob das wirklich stimmt.
+
+Huh. Das wird schwierig... das dem Schulsekreteriat zu erklären. Urgh.
+
+Gute Arbeit; ich geb's weiter.
+-Admins
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

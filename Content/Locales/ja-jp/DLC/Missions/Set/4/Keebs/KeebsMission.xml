@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dKeebsMission">
+  <goals>
+    <goal type="filedeletion" target="dKeebs" file="purchase_blacklist.txt" path="home/records"/>
+
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="キーボードライフ">メカニカルキーボードのコミュニティーに、ブラックリストから名前を消してほしいという人物がいます。</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>キーボードライフ</subject>
+    <body>
+メカニカルキーボードのコミュニティーに、ブラックリストから名前を消してほしいという人物がいます。
+----
+
+ユーザー名ChucklingKumquatは、コミュニティーでの「全然不適切ではない」発言を理由にブラックリストに追加されてしまったそうです。あるキーボード部品デザイナーのサーバーに入っているブラックリストから名前を削除してあげてください。
+彼は自分があまりにも簡単に出入禁止にされてしまったので、ブラックリストには膨大な数のユーザー名が載っているはずだと主張しています。そのため、コミュニティーに荒らしが戻ってこないよう、自分だけを削除するのが望ましいそうです。
+
+交換条件により、成功時には私が追っている難プロジェクトの手がかりとなる情報を提供してもらえます。
+
+健闘を祈ります。
+
+-Kaguya</body>
+    <attachments>
+      <link comp="dKeebs" />
+      <note title="Mission Guidelines">ClickLabサーバーの購入ブラックリストからユーザー名ChucklingKumquatを削除する。</note>
+    </attachments>
+  </email>
+</mission>

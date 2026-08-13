@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="ds3_mail" name="MagmaMailbox" security="1" type="4" icon="DLCSERVER" ip="26.26.62.62">
+
+  <proxy time="-1" />
+  <portsForCrack val="7" />
+  <ports>22, 21, 6881, 443, 80, 25, 104</ports>
+  <trace time="250" />
+
+  <customthemefile path="home" name="caution_standard_x-server.sys" themePath="DLC/Themes/CautionThemeStandard.xml"/>
+
+  <account username="cornch1p" password="SaltyChippies22" type="2" />
+  
+  <mailServer name="MagmaMailbox" color="224,52,0">
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(no subject)">Die IP-Adresse deines Homeservers lautet 177.3.200.6, richtig? Bitte setze meinen VPS auf die Whitelist; die IP-Adresse lautet 7.201.4.178.
+Du musst vorsichtiger sein. Ich habe gehört, dass du zu laut bist; das wird sicher Aufmerksamkeit erregen.</email>
+    
+    <email recipient="cornch1p" sender="temp_ACCC0" subject="(no subject)">Du musst anfangen, für mich mit Hackern aus der westlichen Community zu sprechen, um herauszufinden, ob Kaguya sich dort einen Namen macht.
+Bleib ruhig. Bleib vorsichtig.</email>
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(no subject)">Kaguya ist diesmal zu weit gegangen. Ich rate dir zu Geduld.</email>
+    
+    <email recipient="cornch1p" sender="do-not-reply@magmamailbox.com" subject="Automatic Notification: Subscription Renewed">Lieber cornch1p,
+Dies ist eine automatische Nachricht, um Sie darüber zu informieren, dass Ihr MagmaMailbox-Abonnement erneuert wurde.
+Danke, dass Sie ein treuer Abonnent des weltweit sichersten Maildienstes sind.
+Mit freundlichen Grüßen,
+Das MagmaMailbox Admin Team
+---
+BITTE NICHT AUF DIESE E-MAIL ANTWORTEN – DIESE MAILBOX WIRD NICHT ÜBERWACHT.
+---</email>
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(no subject)">Danke für die Kontaktaufnahme. Ich habe dieses Kommuniqué letzten Monat erhalten. Du weißt, von wem es ist:
+---
+Dreadnought nennt sich jetzt ""Kaguya"".
+Er (?) hat die Festplatten seiner Landsleute verbrannt und ist in den Westen gezogen.
+Wir haben versucht, ihm zu folgen, aber seine Spuren sind verwischt. 
+Es lebt.
+---</email>
+    
+    <email recipient="cornch1p" sender="do-not-reply@magmamailbox.com" subject="Automatische Benachrichtigung: Mailbox gelöscht">Lieber cornch1p,
+Dies ist eine automatische Nachricht, um Sie darüber zu informieren, dass Ihre Mailbox im Zuge von MagmaMails wöchentlicher Bereinigung gelöscht wurde. Dies ist lediglich eine Benachrichtigung: Es sind keine weiteren Aktionen erforderlich.
+Mit freundlichen Grüßen,
+Das MagmaMailbox Admin Team
+---
+BITTE NICHT AUF DIESE E-MAIL ANTWORTEN – DIESE MAILBOX WIRD NICHT ÜBERWACHT.
+---</email>
+    
+  </mailServer>
+  
+</Computer>

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="csec_med_01" handle="Sal" firstName="Elanor" lastName="Helleran" isMale="false">
+  <Birthplace name="London" />
+  <Degrees>
+    <Degree uni="Manchester University" gpa="3.1">Masters in Computer Wetenschap</Degree>
+  </Degrees>
+  <DOB>06/08/1991 14:22:00</DOB>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>167</Height>
+    <Allergies>NONE</Allergies>
+    <Perscription>Amiodarone (Cordarone) x70 tweewekelijks</Perscription>
+    <Notes>Patient gediagnostiseerd met aritmes. Een milde vorm tot gang gebracht vanwege overgebruik van caffeine en andere stimulanten. Patient is meerdere malen geadviseerd tegen de hoeveelheid koffie en energy die ze erkent te consumeren, maar herhalingen zijn doen zich voor.
+Advies om een bloedonderzoek te doen voor stimulanten voor het maken van een volledige diagnose.</Notes>
+  </Medical>
+  <Notes>Press build medical case</Notes>
+</Person>

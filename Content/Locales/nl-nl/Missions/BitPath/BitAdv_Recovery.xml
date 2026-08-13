@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit_recovery">
+  <goals>
+    <goal type="getString" target="156.151.59.35"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro03.xml</nextMission>
+  <branchMissions>
+    <branch>BitPath/BitAdv_Intro07.xml</branch>
+    <branch>BitPath/BitAdv_Intro05.xml</branch>
+    <branch>BitPath/BitAdv_Intro03.xml</branch>
+  </branchMissions>
+  <posting title="[ V ] - Vervolg Onderzoek">
+Deze post is slechts voor #PLAYERNAME#,
+Je bent een ander contract gestart? Accepteer deze als je klaar bent om weer verder te werken.
+
+-V
+  </posting>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Reünie</subject>
+    <body>
+Klaar om verder te gaan?
+
+Ga van waar we waren gestop, Ik ben nog aan het onderzoeken.
+
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

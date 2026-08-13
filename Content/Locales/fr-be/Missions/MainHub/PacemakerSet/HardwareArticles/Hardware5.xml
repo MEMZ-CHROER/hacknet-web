@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pacemakerHWArticle05">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0015 - Pacemaker v2.44 Firmware and Patching">
+Ce message détaille les fonctionnalités de sécurité du stimulateur cardiaque v2.44. Pour le fonctionnement général, veuillez consulter la documentation imprimée, ou demandez une copie supplémentaire à support@kellisBio.com
+---------------------------------------------
+
+Le microprogramme de la puce v2.44 a été écrit par Eidolon Soft. Le contrôle des versions, les requêtes et les mises à jour sont gérés par leur serveur central, emplacé à : 
+
+111.105.22.1
+
+Comme seules les versions signées par leurs services internes, en utilisant notre clef il s'exécutera sur les puces, aucune autre entreprise ne peut produire un code fonctionnel pour les puces sans avoir à le compiler.
+Les problème liés au logiciel de surveillance à distance et à l'interface d'accès externe aux puces doivent leur être adressés. Leur email pour de telles requêtes et demandes est support@eidolonsoft.com
+
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERREUR</subject>
+    <body>
+Recevoir cet email indique qu'une erreur inattendue est survenue.
+Veuillez paniquer.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

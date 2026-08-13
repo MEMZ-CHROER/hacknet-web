@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa_psylance" name="Psylance Cyber Security_Employee IRC" security="5" ip="50.31.225.93" type="4" icon="Psylance">
+  
+  <!-- This will have the IRC of the Psylance guys on it - player will need to log in to view it. -->
+
+  <firewall level="-1"/>
+  <proxy time="4" />
+  <trace time="90" />
+  <portsForCrack val="9" />
+  <ports>22, 21, 443</ports>
+  <portRemap>22=340</portRemap>
+
+  <account username="faithless" password="catsarebestpet" type="2" />
+  
+  <IRCDaemon themeColor="67,204,148" name="Административный IRC-канал Psylance" needsLogin="true">
+    <user name="faithless" color="0,209,232"/>
+    <user name="dardypants" color="202,98,0"/>
+    <user name="da_vito" color="0,196,82"/>
+
+    <post user="faithless">СМИ говорят что видеоигры делают людей жестокими, но сотни лет назад мы сжигали людей живьем за то, что считали их ведьмами. Я ставлю на то, что люди - это лишь куча засранцев.</post>
+    <post user="da_vito">лол</post>
+    <post user="dardypants">Не могу в это поверить, Ясу, честное слово</post>
+    <post user="faithless">Кто это?</post>
+    <post user="dardypants">Ясу Араи, ИТ-администратор в Pacific Air.</post>
+    <post user="dardypants">Он открыто сообщает свой пароль от мыла, не стесняясь! Он АДМИН ради всего святого.</post>
+    <post user="faithless">Что он сказал?</post>
+    <post user="dardypants">Точная цитата:</post>
+    <post user="dardypants"> Ты можешь подключиться к моему ноутбуку и сделать это за меня? Пароль 1185JACK</post>
+    <post user="faithless">Ахуеть, лол.</post>
+    <post user="faithless">Не могу поверить, что кто ты додумался написать это ЗДЕСЬ.</post>
+    <post user="dardypants">Я заставил его сменить его немедленно, так что все в порядке.</post>
+    <post user="dardypants">Пароль от его е-мэйла тоже изменен... Но все же.</post>
+    <post user="dardypants">Мы призваны защищать эту сеть! Тут они просто саботируют нас.</post>
+  </IRCDaemon>
+
+  <file path="bin" name="PacificPortcrusher.exe">#PACIFIC_EXE#</file>
+
+</Computer>

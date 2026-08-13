@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="themeHackEndMission" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="naixGateway" file="x-server.sys" path="sys" />
+  </goals>
+  <nextMission>lelzSec/IntroTestMission.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>警告</subject>
+    <body>
+      Connect-Responder.exeが、あなたのIPアドレスから173.194.35.163.に対する外部アクセスを感知しました。
+      このデバイスに対する接続は禁じられています。エラーが接続の原因である場合は、システム管理者に連絡してください。
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,57 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nortronInternalServices" name="Nortron Internal Services Server" security="2">
+  <ports>22,21</ports>
+  <trace time="60" />
+  <firewall level="1" />
+  <link target="nortronMail" />
+  <link target="nortronMainframe" />
+  <positionNear target="nortronMainframe" position="1" total="3" />
+  <!-- J. Abrams -->
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat" >#BINARY#</file>
+  <file path="staff_folders/J.Abrams" name="REMINDER.txt" >
+    ノート:
+    新メールアカウントの詳細
+    ユーザーネーム = j.abrams
+    パスワード = bootyking420
+
+    何で毎年変えなきゃいけないの？
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy).doc" >
+TODO: レポートを書く
+https://ja.wikipedia.org/wiki/ルートキット
+  </file>
+  <file path="staff_folders/J.Abrams" name="Rootkit_analysis_report_2(Copy)(Copy).doc" >
+・ルートキット（rootkitあるいはroot kit）はコンピュータシステムへのアクセスを確保したあとで第三者（通常は侵入者）によって使用されるソフトウェアツールのセットである。こうしたツールには作動中のプロセスやファイルやシステムデータを隠蔽する狙いがあり、ユーザに察知させることなく侵入者がシステムへのアクセスを維持することを支援する。
+・動いていないルートキットはその存在を隠すことができず、ほとんどの確立したアンチウイルスプログラムは（おそらくルートキットによって修正されているはずの）標準的なOSコールと低レベルのクエリーに頼るルートキットを検出可能である。
+
+出典 - https://ja.wikipedia.org/wiki/ルートキット
+
+メモ
+・ルートキットの除去は困難。OSの完全再インストールが必要になる場合も。
+  </file>
+  <file path="staff_folders/J.Abrams" name="SecuDoc.bat" >#BINARY#</file>
+
+  <!-- P. Evans -->
+  <file path="staff_folders/P.Evans" name="SecuDoc.bat" >#BINARY#</file>
+
+  <!-- L.L. Coolay -->
+  <file path="staff_folders/L.L.Cooljay" name="SecuDoc.bat" >#BINARY#</file>
+
+  <!-- T.Stark -->
+  <file path="staff_folders/T.Stark" name="SecuDoc.bat" >#BINARY#</file>
+  <file path="staff_folders/T.Stark" name="Harrasment_Evidence.txt" >
+    
+以下、同僚から受け取ったメールのコピー。
+    
+| なあTボーン、Tony - 調子はどうだい？
+| ランチ食べに行かない？今日は鶏肉がいいなあ
+| あ、スイカもいいかも。
+| 連絡ください
+| 
+| -Cool JJJJJJJJJJJJ
+
+俺の名前はTONYじゃないって何度言えばわかるんだ。
+THOMAS STARKだって立派な名前だろうが。
+    
+  </file>
+</Computer>

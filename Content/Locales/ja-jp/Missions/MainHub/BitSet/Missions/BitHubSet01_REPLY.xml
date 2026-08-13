@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitHubSet01" activeCheck="true">
+  <goals>
+  </goals>
+  <missionEnd val="1">hubBitSetComplete01</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="CSECメンバーの失踪に関する調査">
+CSECの誇るメンバーの一員であり、みんなにとって親しき友人であったBitが、2週間以上前に消息を絶ちました。彼と連絡が取れたものはいまだいません。
+個人的な調査はすでに広く行われていることと思いますが、今回、この事件を公式にCSECの案件とし、調査に協力したい者を募集します。
+探すのは、彼の失踪に関わる情報全て。理想としては、彼の現在の状況を突き止めたいと考えています。
+  </posting>
+  <email>
+    <sender>Vap0r</sender>
+    <subject>Re: Bitの失踪に関する調査</subject>
+    <body>そっか・・・
+
+見つけてくれてありがとう。あまり手間とらせてないといいんだけど。
+これはちょっと心配だな。僕はもうちょっと調べてみる。何か見つけたら君にも教えるよ。
+
+ありがとう。
+-Vapor 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

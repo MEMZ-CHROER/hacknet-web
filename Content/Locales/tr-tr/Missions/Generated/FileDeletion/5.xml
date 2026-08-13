@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Toplayıcıların Sonu">
+Müşterilerimizden birisi, rakip bir şirketin yasadışı olarak müşteri verilerini topladığını ve reklam firmalarına sattığını fark etmiş.
+Bu işe bir dur de.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - Yasadışı Toplama</subject>
+    <body>
+Sayın temsilci,
+
+Şirketimiz, kısa süre önce rakip şirketlerimizden birinin müşteri verilerini (e-posta, isim, tercihler vs.) topladığını ve bu verileri kar etmek için reklam firmalarına sattığını, bunun sonucunda da pazar da haksız ve YASADIŞI avantaj elde ettiğini fark etmiş bulunuyor.
+Bu durum, gizlilik, dürüstlük ve adil kullanım şartları göze alındığında kabul edilemez. Ayrıca, 1998 Veri Korunumu Yasası'da bu yapılanları yasadışı saymaktadır.
+
+Sunucularına girmenizi ve sattıkları veri arşivini ortadan kaldırmanızı istiyoruz. Ayrıyeten, yasal işlemde de bulunacağız (Kanıt gösterilmesi gerekmemekte).
+
+Teşekkürler,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

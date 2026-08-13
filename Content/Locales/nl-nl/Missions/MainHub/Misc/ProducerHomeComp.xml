@@ -1,0 +1,65 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="producerComp"
+          ip="37.187.27.55"
+          name="Jason's LackBook Pro"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="laptop"
+          type="2" > <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <adminPass pass="DANGER" />
+  <!-- Security Stuff -->
+  <trace time="-1" /> <!-- Adds a trace timer - set to -1 to remove -->
+  <firewall level="6" solution="DANGER"/>
+
+  <file path="sys" name="x-server.sys">#WHITE_THEME#</file>
+
+  <file path="home/scripts" name="DANGER.txt">
+    Waarom is het woord gevaar zo goed? Niet gewoon gevaar, GEVAAR. Alles groot. Het is objectief het beste woord.
+    Beste zone? De GEVAAR zone. beste tweede naam? GEVAAR.
+    Ik wou dat ik dat woord voor alles kon gebruiken.
+  </file>
+
+  <encryptedFile path="home/scripts" name="T2_Screenplay.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" >
+    Titanic 2: Ijsberg's Revenge
+    -Een Film-
+
+JACK DAWSON: "Niemand heeft er ooit over gedacht - maar de ijsberg heeft ons nooit geraakt... WIJ RAAKTE HET!"
+ROSE DEWITT BUKATER: "Wat?! Heeft de gekke wetenschap operatie die je weer tot leven bracht met je hoofd gerotzooit? Ik bracht je terug omdat ik van je *HOUD*!"
+JACK DAWSON: "Weet ik, maar we lopen gevaar hier. Die ijsberg had familie en ze willen revenge. Ze vertelde het me toen ik bijna dood ging... ze hadden nooit verwacht..."
+-JACK DAWSON pakt zijn COOLE ZONNEBRIL en zet hem op
+JACK DAWSON: "Ik kom terug."
+
+Cut naar Kust California
+
+Een ijsberg verschijnt in het water, nadert de stad met gigantische snelheid.
+Evacutatie sirenes beginnen te ringen, mensen op het strand schreeuwen, wijzen ernaar en rennen voor hun levens.
+Meer ijsbergen verschijnen in het water ernaast en gaan ook voor de kust.
+
+ROSE DEWITT BUKATER: "Help!"
+JACK DAWSON: "Rose! Ik ben er voor je! Ik laat je nooit achter!"
+
+The leidende ijsberg is nu op de kust en glijdt naar de twee hoofdpersonen. Hij trekt een geweer.
+
+ROSE DEWITT BUKATER: "JAAAAACCCKKKKKKK!"
+
+  </encryptedFile>
+
+  <encryptedFile path="home/scripts" name="GHL_ChapterList.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" >
+    Galactische Helds Legende
+    -Inhoud-
+
+    HOOFDSTUK EEN: De strasosfeer penetreren
+    HOOFDSTUK 2: Diepe impact
+    HOOFDSTUK 3: Stuwkracht Achteruit
+    HOOFDSTUK 4: Helemaal naar het hart
+    HOOFDSTUK 5: Hevige bevingen
+    HOOFDSTUK 6: Aanval op de Schout-bij-nacht
+    HOOFDSTUK 7: De vier oorlogsbuiten
+    HOOFDSTUK 8: De diepte van zijn dankbaarheid
+    HOOFDSTUK 9: Spijt, angst, verlangen
+    HOOFDSTUK 10: Explosies in het diepe
+    HOOFDSTUK 11: Volg het strakke ritme
+    Hoofdstuk 12: Eerst rustig, maar dan met furie
+  </encryptedFile>
+
+</Computer>

@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="getString" target="AAX1BB7"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Compromise an eOS Device">
+Нам поступил заказ: нужно добыть кое-какую информацию с устройства, предположительно работающего на системе eOS.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Взлом системы</subject>
+    <body> Буду краток. 
+Один наш клиент попросил, чтобы мы поискали на компьютере и сопутствующих устройствах одного индивида некий Регистрационный номер. По их мнению, он должен храниться на eOS устройстве, синхронизированном с его компьютером (ссылка прилагается). 
+
+Как только добудете этот номер, отправьте его обратно письмом, и мы позаботимся об остальном. 
+
+Удачи! 
+-CSEC
+    </body>
+    <attachments>
+      <link comp="hubEosMisison"/>
+      <note title="Детали задания">
+Просканировать компьютер на наличие привязанных eOS устройств; 
+Исследовать устройства на предмет наличия &quot;Регистрационного номера&quot;; 
+Ответить CSEC, приложив номер.</note>
+    </attachments>
+  </email>
+</mission>

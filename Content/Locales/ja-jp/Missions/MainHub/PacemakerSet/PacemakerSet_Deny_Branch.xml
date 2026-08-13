@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerSetReplyBranch">
+  <goals>
+    <goal type="getString" target="deny"/>
+  </goals>
+  <missionEnd val="1">addFlags:csecPacemakerDeny</missionEnd>
+  <nextMission>MainHub/PacemakerSet/PacemakerSet_Deny_Reply.xml</nextMission>
+  <posting title="Error">
+
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Re: ジューンバグプロジェクト</subject>
+    <body>
+      承知しました。
+
+      ご検討に感謝します。
+      あなたの慎重で勇気ある決断に敬意を表します。
+
+      -CSEC 運営
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

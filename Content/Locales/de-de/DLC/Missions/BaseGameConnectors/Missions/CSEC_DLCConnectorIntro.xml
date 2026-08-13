@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="CSEC_DLC_Connector">
+  <goals>
+    <!-- Impossible goal here - this mission isn't completable in the normal sense
+    It leads the player to KaguyaTrials, which replaces this. We don't want the player
+    to skip past this mission by quick replying or anything, so put a debug only goal here-->
+    <goal type="getstring" target="kaguyatrialscompletedebug" />
+  </goals>
+  <missionStart val="1" suppress="true">addFlags:dlc_start_csec</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#ALERT# - Die Kaguya-Trials"> ### ACHTUNG ###
+Hinweis: Diese Aufgabe bildet den Anfang einer Sequenz, von der die CSEC Admins glauben, dass sie ungewöhnlich lange sein könnte. Wenn du andere wichtige CSEC-Aufgaben zu erledigen hast, empfehlen wir, diese abzuschließen, bevor du diese Aufgabe übernimmst.
+ ### ACHTUNG ###
+ 
+Ein Agent namens „Kaguya“ hat einen Link zu ungewöhnlichen Tests gepostet, um eine Art Team anzuheuern. Die Nachricht lässt anklingen, dass jene Agenten, die die Prüfung bestehen, gut belohnt werden, wenn sie bei der Arbeit für dieses Team aushelfen - falls sie die Prüfung bestehen.
+Diese Aufgabe ist für CSEC nicht kritisch und wird als optionale Aufgabe für alle Interessierten präsentiert.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Die Kaguya-Trials</subject>
+    <body>Agent,
+    
+Jemand mit dem Namen „Kaguya“ hat eine Rekrutierungsherausforderung an mehrere prominente Gruppen ausgesendet, darunter auch an CSEC. Sieht ziemlich ausgefeilt und ausgesprochen gut organisiert aus. Wir vermuten, dass, was auch immer dahintersteckt, eine signifikante Zeitinvestition erfordert - und Agenten, die sich dieser Tests annehmen, eine Zeit lang von CSEC fernhält. Sei dir also bewusst, worauf du dich einlasst.
+Trotzdem steht es dir natürlich frei, dir die Sache näher anzusehen. Es scheint sich um eine vielversprechende Spur zu handeln, wenn du auf der Suche nach neuen Werkzeugen bist.
+
+In den Anweisungen der Herausforderung findet ihr eine IP-Adresse (unten angehängt) und Anweisungen, die „Prüfung zu starten“.
+
+Viel Glück.
+- Das CSEC Team
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

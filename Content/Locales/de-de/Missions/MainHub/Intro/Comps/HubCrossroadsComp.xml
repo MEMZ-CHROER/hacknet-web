@@ -1,0 +1,137 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hubCrossroads" name="CSEC Crossroads Server" security="0">
+
+  <positionNear target="mainHub" position="1" total="6" />
+
+  <file path="home" name="REQUEST.zip">#BINARY##BINARY#</file>
+  <file path="home" name="CT2.zip">#BINARY##BINARY#</file>
+
+  <encryptedFile path="home" name="encrypt_source.dec" ip="101.0.89.154" header="Secured Source Code" extension=".cs">
+    
+        private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data[i] * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + " ");
+            }
+            return ret.ToString().Trim();
+        }
+        
+        ///summary
+        /// Returns an array containing
+        /// [0] Header Message
+        /// [1] IP Link
+        /// [2] Message Data
+        /// [3] File extension if provided, else null
+        /// [4] "1" is password is valid, "0" if not
+        ///summary
+        public static string[] DecryptString(string data, string pass = "")
+        {
+            string[] ret = new string[5];
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string[] split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+            string[] headersSplit = split[0].Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+
+            string headerMsg = Decrypt(headersSplit[1], passcode);
+            string ipLink = Decrypt(headersSplit[2], passcode);
+            string check = Decrypt(headersSplit[3], passcode);
+            string fileExtension = null;
+            if (headersSplit.Length > 4) fileExtension = Decrypt(headersSplit[4], passcode);
+            string message;
+            string passValid = "1";
+            if (check == "ENCODED") {
+                //Password was correct!
+                message = Decrypt(split[1], passcode);
+            }
+            else {
+                //invalid password
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+                passValid = "0";
+            }
+            ret[0] = headerMsg;
+            ret[1] = ipLink;
+            ret[2] = message;
+            ret[3] = fileExtension;
+            ret[4] = passValid;
+            return ret;
+        }
+  </encryptedFile>
+
+  <encryptedFile path="home" name="CSEC_encode_1.dec" ip="168.61.82.245" header="WinC Firmware Specifications" extension=".pdf" pass="beepbeep">
+    WinCE Firmware Driver Development Guide
+    ------------------------------------------------------
+    For the development of drivers and firmware for use in embedded systems running the WinCE operating systems. Thousands of devices use this OS, from cars to media players. Keep in mind the variety of devices your code may be deployed to when developing your drivers and/or firmware.
+    ------------------------------------------------------
+
+    Many WinCE device drivers implement the stream interface. The core stream interface entry points are XXX_Open (Device Manager), XXX_Close (Device Manager), XXX_Read (Device Manager), and XXX_Write (Device Manager). For more information, see Stream Interface Drivers.
+    Network adapters, display adapters, mouse devices, keyboards, and other special-purpose devices do not use the stream interface. These devices use an interface that suits the device's functionality.
+    Regardless of the interface that your device driver exposes, you might have to implement an interrupt service routine (ISR). For more information about interrupts and ISRs, see Interrupts.
+    Different processes load different drivers. The following table shows the processes that load drivers and what drivers each process loads.
+
+    You should use the following paths to inject code for your driver:
+
+    %_WINCEROOT%\Platform\%_TGTPLAT%
+    Contains hardware platform dependent code. This directory primarily contains the OAL, configuration files, and BSP drivers. You should not have to modify the hardware platform dependent drivers in %_WINCEROOT%\Platform\%_TGTPLAT%\Drivers.
+    %_WINCEROOT%\Platform\Common\Src\SOC
+    Contains SOC drivers for high-integration microprocessors or microprocessor companions with many native peripherals integrated onto the microprocessor. SOC drivers include microprocessor-specific OAL drivers for real-time clocks, timers, debug Ethernet cards, and so on. Standard development boards (SDBs) with the same microprocessors can use the same set of SOC drivers.
+    %_WINCEROOT%\Public\Common\OAK\Drivers
+    Contains common drivers for non-native peripherals, which are devices that exist on a plug-in card or are wired directly to a circuit board. Common drivers contain platform-independent code that links to the platform-dependent code to create a hardware driver. Common drivers are not specific to a hardware platform or microprocessor. Any SDB can use common drivers.
+  </encryptedFile>
+
+  <file path="home" name="FOF_Screenplay.doc">
+    FRESH OUT OF FUCKS - Der Absturz
+    -Ein Drehbuch-
+
+    Anfang/Szene: Ein seichtes Klavierstück im Hintergrund. Wir sehen die Uhr auf dem Armaturenbrett eines Golf-Buggy - 07:22 Uhr morgens.
+    Ein arm aussehender Mann nimmt einen tiefen Schluck aus einer offensichtlich gestohlenen Kiste Wein. Verurteilt ihn nicht - es ist praktisch, und köstlich. Mit arm aussehend meine ich
+    natürlich, dass er nichts außer einer eng anliegenden Unterhose trägt. Die "Konturen" sind deutlich sichtbar.
+
+    Mit der Maximalgeschwindigkeit des Buggys (40kmH/ Er hat einen Turbolader installiert) rauscht er an einem Cafe vorbei, und schlägt dabei einem Geschäftsmann lässig den Kaffee aus der Hand.
+
+    Er haut unter Reifenquietschen die Bremse rein, um quer über 2 Behindertenparkplätzen zum Stehen zu kommen. Er stollpert aus dem Wagen, leert den Rest der Weinkiste und schmeißt sie anschließend auf den Boden. Als wäre ihm das alles egal. scheißegal.
+    Die Orchestermusik baut sich zu einem großen Höhepunkt (mit Trompeten und so) auf. Unser Held läuft galant auf eine Mülltonne zu, steigt auf, um, ohne zu zögern, seine Beinbekleidung zu entfernen und einen großen, rechtschaffenden Haufen abzuseilen.
+
+    Reaction Shot: das entsetzte Gesicht einer alten Dame. Titel einblenden.
+  </file>
+
+  <encryptedFile path="home" name="T2_Screenplay.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" pass="DANGER">
+    Titanic 2: Iceberg's Revenge - Die Rache der Enteisten
+    -Ein Drehbuch-
+
+JACK DAWSON: "Es ist einfach niemanden in den Sinn gekommen - Der Eisberg hat nicht uns getroffen... WIR HABEN IHN GETROFFEN!"
+ROSE DEWITT BUKATER: "Bitte was?! Hat die unsagbar kostspielige, auf nicht geprüften wissenschaftlichen Thesen basierte, hoch experimentelle, unglaublich gefährliche und nicht zu vergessen extrem teure Operation mit der ich dich wiederbelebt habe dich verrückt werden lassen? Ich habe dich aus dem Reich der Toten zurückgebracht, weil ich dich *LIEBE*!"
+JACK DAWSON: "Ich weiß, *Seufzer* aber wir sind alle in Gefahr. Der Eisberg war Teil einer Gang, und jetzt sind sie hinter uns her. Sie haben gesagt, ich würde dort sterben... sie haben wohl nicht gedacht..."
+-JACK DAWSON greift nach einer COOLEN SONNENBRILLE und setzt diese auf
+JACK DAWSON: "dass ich wiederkomme."
+
+Szenenwechsel: Kaliforniens Küste
+
+Ein Eisberg erhebt sich aus dem Meer. Er nähert sich rasend schnell der Küste.
+Notsirenen ertönen, die Menschen am Strand schreien, starren und laufen um ihr Leben.
+Weitere Eisberge erscheinen in V-Formation; sie ziehen gemeinsam auf die Küste zu.
+
+ROSE DEWITT BUKATER: "Hilf mir!"
+JACK DAWSON: "Rose! Ich bin für dich da! Ich lass dich nicht allein!"
+
+Der Eisberg hat den Strand erreicht, er gleitet auf die Protagonisten zu. Er zieht eine Pistole.
+
+ROSE DEWITT BUKATER: "JAAAAACCCKKKKKKK!"
+
+  </encryptedFile>
+  
+  <encryptedFile path="home" name="C_EXE_contact.dec" ip="74.125.237.119" header="Encrypted Messaging Systems inc" extension=".txt" pass="quinnoq">
+
+    Der Kontakt benutzt den JMail login "dlocke".
+    
+    Ich weiß, wie lange wir schon dahinter her sind, aber verbock es nicht mit Panik, nur, weil es endlich 'ne heiße Spur gibt - lass es langsam angehen.
+    Ich schreib, wenn mir ein Plan eingefallen ist.
+
+  </encryptedFile>
+</Computer>

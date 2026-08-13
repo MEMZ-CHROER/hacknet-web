@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <generationKeys File="GameFile_Source_Pak.zip" Path="home/code"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Illegale Raubkopie eines #CLIENT# Produkt">
+Eine direkte und unveränderte Kopie unserer Software ist auf dem Markt erschienen. Die Softwarepiraten verdienen an unserem Eigentum.
+Wir würden ihre Pläne gerne vereiteln.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - Zwei sind einer zu viel</subject>
+    <body>
+Agent,
+
+wir haben bei #CLIENT# kürzlich eine App veröffentlicht. Auch wenn die ersten Tage gute Verkaufszahlen brachten, sind diese vor ein paar Tagen komplett eingebrochen. Als Grund dafür stellte sich heraus, dass jemand unsere App gestohlen hat und nun zu einem niedrigerem Preis verkauft. 
+Konkurrenz ist ja ok, aber das ist reine Piraterie! Sie nehmen uns einfach das Lob und Geld für *unsere* Arbeit! Das muss ein Ende haben.
+
+Wir wären dir sehr dankbar, wenn du die Sache "klären" könntest.
+Und damit meinen wir, dass wir nicht traurig wären, wenn ihr komplettes System lahmgelegt würde. Beseitige aber in jedem Fall #FILE#. Der Link ist angefügt.
+
+Danke,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="AddDegree" owner="John Stalvern" degree="Masters in Digital Security" uni="Manchester University" gpa="3.0"/>
+  </goals>
+  <missionEnd val="1">changeSong</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Yetenek Öğretimi [Akademik]">
+Bir müşterimiz arkadaşının geçmişine bölüm lisansı eklenmesini istiyor.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>İkili Üniversite</subject>
+    <body>Dijital güvenlik şirketlerinden yüksek pozisyonlara sahip dostlarının olması iyi bir şey. *Özellikle* de bilgisayar güvenliği hakkında hiçbir şey bilmeyen dostlarının olması...
+Böyle bir arkadaşım bir süre önce temsilcinin biriyle iletişime geçmiş. Onu ikna ederek kendi tarafıma çekmek için de ufak bir güç gösterisine ihtiyacım var.
+
+Ona gittiği Manchester üniversitesinden lisans ayarlamanı istiyorum.
+
+İsim: John Stalvern
+Lisans: "Masters in Digital Security"
+Üniversite: "Manchester University"
+Not Ortalaması: 3.0 veya daha yüksek
+
+ÖNEMLİ: İzlerini temizlemeyi unutma. Uluslararası enstitüler saygıdeğer kalmak için itibara ihtiyaç duyar. Sende bunu mahvedebilirsin. Eğer yaptıkların keşfedilirse acımayacaklardır.
+
+Kolay gelsin.
+-CSEC
+    </body>
+    <attachments>
+      <link comp="academic" />
+      <note title="Lisans Bilgileri">İsim: John Stalvern
+Lisans: "Masters in Digital Security"
+Üniversite: "Manchester University"
+Not Ortalaması: 3.0 veya daha yüksek</note>
+    </attachments>
+  </email>
+</mission>

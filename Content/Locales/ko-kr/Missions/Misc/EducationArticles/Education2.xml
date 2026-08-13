@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title=".exe Files and Remote Execution">
+요즘 터미널창의 exe 명령은 실행하는 사용자의 로컬 컴퓨터에 상주하는 파일을 실행하며, 로컬 사용자가 연결된 컴퓨터의 해당 프로그램을 표적으로 삼습니다.
+
+실질적으로 이 명령어는 의미론상의 지름길 역할을 하며, 연결된 컴퓨터의 IP 주소가 실행 명령을 위해 인수로 추가되야 할 필요를 없앱니다. 이는 여러 프로그램이 같은 소켓을 통해 트래픽을 전송할 수 있게 하며, OS 수준에서 네트워크 효율을 높입니다.
+물론, 많은 exe 파일은 네트워크상에서 아무 기능도 하지 못하도록 작성되며, 이런 경우에 프로그램은 자신이 이용가능한 교차 네트워크 소켓을 무시하며, 그저 로컬로 자신의 기능을 수행합니다.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>오류</subject>
+    <body>
+본 이메일을 받았다는 건 예기치 못한 오류가 발생했음을 의미한다.
+제발 당황해라.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

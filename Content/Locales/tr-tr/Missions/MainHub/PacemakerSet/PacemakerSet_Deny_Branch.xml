@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerSetReplyBranch">
+  <goals>
+    <goal type="getString" target="deny"/>
+  </goals>
+  <missionEnd val="1">addFlags:csecPacemakerDeny</missionEnd>
+  <nextMission>MainHub/PacemakerSet/PacemakerSet_Deny_Reply.xml</nextMission>
+  <posting title="Error">
+
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Yanıt: Haziranböceği Projesi</subject>
+    <body>
+      Anlıyoruz.
+
+      Düşündüğün için teşekkür ederiz.
+      Söylenecek bir şey yok. Bu konudaki son kararına saygı duyuyoruz.
+
+      -CSEC Yöneticileri
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

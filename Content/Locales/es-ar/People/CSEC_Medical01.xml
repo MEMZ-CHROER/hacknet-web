@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Person id="csec_med_01" handle="Blanqueo" firstName="Jonas" lastName="Sandburg" isMale="true">
+  <Birthplace name="Londres"/>
+  <Degrees>
+    <Degree uni="Universidad de Manchester" gpa="2.9">Máster en Informática</Degree>
+  </Degrees>
+  <DOB>3/05/93 14:00:00</DOB>
+  <Medical>
+    <Blood>BO</Blood>
+    <Height>166</Height>
+    <Allergies>NINGUNO</Allergies>
+    <Perscription>Albendazol x70 cada dos meses :: Leer observaciones</Perscription>
+    <Perscription>Ivermectina x35 al mes :: Leer observaciones</Perscription>
+    <Notes>El paciente tiene un caso agudo de elefantiasis testicular, observado por primera vez a los 8 años, y desde entonces ha sido tratado regularmente con buenos resultados. A pesar de que la inflamación de de las zonas afectadas es ASOMBROSAMENTE apreciable, unos hábitos higiénicos excelentes y un tratamiento continuado han hecho que sea manejable.
+    </Notes>
+  </Medical>
+  <Notes>Caso médico CSEC para M_09  </Notes>
+</Person>

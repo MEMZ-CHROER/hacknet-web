@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pacemakerHWArticle03">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0014 - Pacemaker v2.44 Remote tools">
+Este post explica la función de supervisión y actualización remotas del marcapasos v2.44. Para operaciones generales, consulte la documentación impresa o solicite otra copia a support@kellisBio.com
+---------------------------------------------
+
+El marcapasos v2.44 de Kellis Biotech (a partir de ahora, «marcapasos») se ha diseñado para pacientes considerados de alto riesgo o que necesiten supervisión constante pero no puedan permanecer en un hospital. 
+Gracias a la conexión remota con el marcapasos, el observador puede obtener datos de ECG en tiempo real y algunas herramientas de actualización de datos. Dada su naturaleza sensible (necesita un tiempo de funcionamiento del 100 %,), el sistema cuenta con una seguridad estricta que solo acepta paquetes de actualización binarios firmados por el servidor de compilación del diseñador del software asignado del chip. 
+
+Las actualizaciones suelen ser específicas, como cuando hay que modificar los ajustes de un paciente por un cambio en su ritmo cardíaco (por la edad o por una operación). 
+El sistema de actualización de Kellis permite efectuar estos cambios sin necesidad de operación intrusiva alguna. Aunque en versiones anteriores del chip se incluían herramientas para la actualización manual de los estaos ajustes, estas se han eliminado por motivos de seguridad. En la versión actual solo se pueden realizar cambios mediante parches del firmware (que pueden aplicarse de forma inalámbrica para que no sea necesaria cirugía de ningún tipo). 
+
+Si su caso necesita una actualización así, póngase en contacto con el representante de Kellis Biotech para obtener ayuda y recibir un presupuesto.
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Si recibe este correo electrónico, es que se ha producido un error inesperado. 
+Échese a temblar.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

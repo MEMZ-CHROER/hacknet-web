@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dKeebsMission">
+  <goals>
+    <goal type="filedeletion" target="dKeebs" file="purchase_blacklist.txt" path="home/records"/>
+
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Vida entre teclas">Un miembro de la comunidad de teclados mecánicos quiere que lo eliminen de una lista negra de ventas.</posting>
+  <email>
+    <sender>Biblioteca</sender>
+    <subject>Vida entre teclas</subject>
+    <body>
+Un miembro de la comunidad de teclados mecánicos quiere que lo eliminen de una lista negra de ventas.
+----
+
+Parece que lo añadieron a la lista negra por unos comentarios "muy razonables" que hizo en su comunidad. El usuario "ChucklingKumquat" quiere que se le elimine de la lista negra del servidor de un diseñador de componentes de teclados en particular.
+Afirma que la lista es enorme y que le costará que le quiten el baneo y solo pide que quitemos su nombre de la lista para que la comunidad siga sin ser tóxica.
+
+A cambio, he conseguido que nos aporte pistas sobre un proyecto complicado de seguir para nosotros.
+
+Buena suerte,
+
+-Kaguya</body>
+    <attachments>
+      <link comp="dKeebs" />
+      <note title="Objetivos de la misión">Borrar al usuario "ChucklingKumquat" de la lista negra de compras del servidor de ClickLab.</note>
+    </attachments>
+  </email>
+</mission>

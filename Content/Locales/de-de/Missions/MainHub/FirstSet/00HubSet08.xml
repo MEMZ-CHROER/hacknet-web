@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet08">
+  <goals>
+    <sendemail recipient="gila" subject="MedicalRecord - Sandburg_Jonas" />
+  </goals>
+  <nextMission>MainHub/Continuations/FirstSet08_Reply.xml</nextMission>
+  <posting title="Untersuche eine Krankenakte">
+Besorge eine Krankenakte, um einen Streit zu beenden.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Äskulapstab</subject>
+    <body>
+Hey,
+
+also, ich bin vielleicht in einen kleinen Streit geraten. Da ist dieser Kerl, der OFFENSICHTLICH manipulierte Bilder seiner...
+Weißt du was? - Ist nicht so wichtig. Hör zu, ich brauche seine ofizielle Krankenakte, damit ich einen dramatischen Abgang hinlegen kann. Ich würd's ja selbst machen, aber ich, ähh, hab meine Motive ziemlich deutlich gemacht, und du weißt ja, wie CSEC auf sowas reagiert.
+Kannst du mir helfen? Der Typ heißt "Jonas Sandburg" - Die 'Medizinische Universaldatenbank' bietet die Möglichkeit, die Akten per Mail zu verschicken. Könntest du sie also an "gila@jmail.com" schicken?
+
+Dankeschön!
+-G
+    </body>
+    <attachments>
+      <link comp="medical" />
+      <note title="Notizen und so">Die Krankenakte, die ich brauche:
+"Jonas Sandburg"
+Per Mail senden an:
+"gila@jmail.com"
+</note>
+    </attachments>
+  </email>
+</mission>

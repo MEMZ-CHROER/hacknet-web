@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa2_whitelist" name="Pacific_ATC_WhitelistAuthenticator" security="5" type="4" icon="Psylance">
+  
+  <!-- This whitelist server is 'unhackably secure', but the player can dig up the password to it on an earlier comp. 
+  The player is here to sabotage the server to allow themselves access. I'm leaving this up to you and your narrative expertise,
+  but I'm thinking we could include a file on here somewhere that's kind of a whitelist setup guide with instructions on how to add to the list via terminal.
+  Also it should say you can only use this server via terminal.
+  The command to add a line to the whitelist (this works in game) is:
+  "append filename ip"
+  so like this:
+  "append list.txt 192.168.1.1"
+  You need to be in the folder where the file exists for it to work of course.
+  This mission is completable if the player adds their own IP to the whitelist or just crashes it's critical files, but I think it'll feel
+  cooler if we hint at the player that they are supposed to add themselves onto it via files here.-->
+  
+  <portsForCrack val="5" />
+  <ports>192, 9418</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="80" />
+  <portRemap>192=199</portRemap>
+  <adminPass pass="CKYX258" />
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  
+  <positionNear target="dpa_bookings" position="180" total="360" extraDistance="0.15"/>
+
+  <dlink target="dpa2_target" />
+
+  <file path="home" name="whitelist_add.txt">Um der Server-Whitelist eine verifizierte IP-Adresse hinzuzufügen, stecken Sie den Dongle mit der Schiss-Co-Lizenz in Ihre Maschine und stellen Sie sicher, dass Autorun aktiviert ist. Der Lizenz-Dongle enthält ein vollständiges Software-Set zum Whitelist-Management, läuft aber nur auf einer lizenzierten Maschine.
+
+Für Systeme mit Firewall, Airgap oder andere, nicht öffentlich verfügbare Netzwerke, siehe list_add_manual.txt für Anweisungen, wie IP-Adressen manuell der Whitelist hinzugefügt werden können.</file>
+
+
+  <file path="home" name="list_add.sys">#BINARY#</file>
+
+  <file path="home" name="list_add_manual.txt">Um eine verifizierte IP-Adresse zur Server-Whitelist hinzuzufügen, lesen Sie die folgenden Anweisungen gründlich durch und prüfen Sie jeden Befehl noch einmal nach, um sicherzustellen, dass in Ihr Netzwerk nach wie vor sicher ist.
+
+Hinweise: Diese Methode wird standardmäßig nicht unterstützt und muss über einen Terminal erfolgen. Schiss-Co übernimmt keine Haftung für Schäden, die aus dem Ge- oder Missbrauch dieser Befehle entstehen. Für weitere Informationen siehe den Einrichtungs-Hefter, den Sie von Ihrem Schiss-Co-Vertreter erhalten haben.
+
+Beim manuellen Hinzufügen einer IP-Adresse zur Whitelist müssen Sie ein Terminal öffnen, den Ordner mit der Whitelist aufrufen, und Ihre ausgewählte IP-Adresse zur Whitelist-Datei hinzufügen.
+
+Schritt für Schritt sieht das so aus:
+
+1. Terminal öffnen. Schiss-Co empfiehlt: bash, xsh
+2. Den Ordner mit der Whitelist aufrufen. Standardmäßig ist das /home/whitelist.
+3. Die IP-Adresse, die zur Whitelist hinzugefügt werden soll, gründlich prüfen.
+4. Ausgewählte IP-Adresse hinzufügen. Verwenden Sie dazu den Befehl „append“, gefolgt von einem Leerzeichen, dem Dateinamen der Whitelist (in dem meisten Fällen „list.txt“), ein zweites Leerzeichen und schließlich der IP-Adresse. 
+
+Wenn Sie beispielsweise die IP-Adresse "192.168.1.1" hinzufügen möchten, würde die Terminal-Ausgabe so aussehen:
+
+whitelist-server:/ admin$ cd Whitelist
+whitelist-server:whitelist admin$ append list.txt 192.168.1.1</file>
+
+
+</Computer>

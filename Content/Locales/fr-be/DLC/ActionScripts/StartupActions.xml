@@ -1,0 +1,17 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-8.0">Bon sang, la durée du fin de vie du processus de TorrentStreamInjector est vraiment gonflante.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-70.0">Le port est bien saturé au bout de quelques secondes, mais le programme met une éternité à s'arrêter. Ça me donne envie de le décompiler pour voir, mais je parie que c'est le bordel là-dedans.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-60.0">Mais c'est pas vraiment un problème, si ?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-50.0">???</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-40.5">Ça me ralentit et c'est énervant, donc si, c'est un problème.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-30">ps -> kill le processus quand il a terminé ce que tu voulais, où est le problème ?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-25">...</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-20">Je n'y avais même pas pensé. Fais pas attention à moi.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-10">Haha</AddIRCMessage>
+    
+  </OnConnect>
+  
+</ConditionalActions>

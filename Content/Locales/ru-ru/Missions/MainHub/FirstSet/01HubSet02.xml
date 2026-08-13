@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="AddDegree" owner="John Stalvern" degree="Masters in Digital Security" uni="Manchester University" gpa="3.0"/>
+  </goals>
+  <missionEnd val="1">changeSong</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Teach an old dog new tricks [Int.Academic]">
+Надо добавить высшее образование в резюме потенциальному другу нашей группы.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Виртуальный диплом</subject>
+    <body>Хорошо, когда есть друзья на высоких постах в компаниях по ИТ-безопасности, *особенно* если эти друзья ничего не смыслят в компьютерной безопасности. 
+Недавно одному из таких друзей поступил заказ от агента, и нам необходимо устроить небольшое шоу, чтобы заполучить его. 
+
+Мы хотим, чтобы вы нарисовали ему диплом о высшем образовании из его местного манчестерского университета.
+
+Имя: John Stalvern 
+Специальность: Masters in Digital Security 
+Университет: Manchester University. 
+Средний балл: 3.0 или выше. 
+
+ВАЖНО: Не забудьте затереть следы - международные университеты дорожат своей репутацией, а вы ее подрываете. Если они это обнаружат, нам этого не простят. 
+
+Удачи! 
+-CSEC
+    </body>
+    <attachments>
+      <link comp="academic"/>
+      <note title="Информация об образовании">Имя: John Stalvern 
+Специальность: Masters in Digital Security 
+Университет: Manchester University  
+Средний балл: 3.0 или выше.</note>
+    </attachments>
+  </email>
+</mission>

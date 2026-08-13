@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dFollowsMission">
+  <goals>
+    <goal type="clearfolder" target="ds3_dest" path="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="It Follows">Jemand behauptet, etwas gegen Kaguya in der Hand zu haben. Spüre diese Preson auf und überprüfe ihre Behauptungen – und, falls nötig, bring sie zum Schweigen. Dieses Schiff muss weitersegeln.</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>It Follows</subject>
+    <body>
+Jemand behauptet, etwas gegen Kaguya in der Hand zu haben. Spüre diese Preson auf und überprüfe ihre Behauptungen – und, falls nötig, bring sie zum Schweigen. Dieses Schiff muss weitersegeln.
+----
+Ein anonymer User hat angefangen, in einigen Hacker-Foren Lärm zu machen und behauptet, etwas gegen mich in der Hand zu haben. Ich bin nicht berüchtigt genug, als dass sich die Hacker-Community tatsächlich darum kümmern würde und der besagte Poster wurde im besagten IRC-Channel dafür belächelt - aber einige seiner Vorwürfe waren spezifisch genug, um mir leichte Sorgen zu bereiten.
+
+Einer meiner Kontakte hat mir die IP des Posters geschickt. Ich bin zurzeit mit anderer Arbeit beschäftigt, also brauche ich deine Hilfe hierfür.
+
+Überprüfe die Behauptungen. Wenn er oder sie Beweismaterial zu haben scheint, lösche es und alle ihre Dateien. Sie sollen wissen, dass sie sich nicht mit uns anlegen können: Unsere Organisation muss undurchdringlich erscheinen. Und, falls du Encryption-Keys siehst, poste sie im IRC. Ich schaue mir das dann später an.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="ds3_entry" />
+      <note title="Mission Guidelines">Prüfe die Behauptungen. Wenn die Beweise „echt“ zu sein scheinen oder eine Person namens „Dreadnought“ erwähnen, zerstöre alle ihre Dateien.</note>
+    </attachments>
+  </email>
+</mission>

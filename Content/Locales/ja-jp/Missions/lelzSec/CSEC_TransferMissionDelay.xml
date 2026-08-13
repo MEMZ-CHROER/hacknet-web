@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="lelzSec4" activeCheck="true">
+  <goals>
+    <goal type="delay" time="3.50"/>
+  </goals>
+  <missionEnd>lelzSecVictory</missionEnd>
+  <nextMission IsSilent="true">lelzSec/CSEC_TransferMission.xml</nextMission>
+  
+  <email>
+    <sender>Polar Star</sender>
+    <subject>勝利 - ターニングポイント</subject>
+    <body>
+君のことは聞いている。その技術と功績は、凡夫のそれとは比べ物にならないようだ。
+君にはもっとふさわしい居場所がある。すぐに連絡が行くはずだ。
+
+次のステージに進むといい。
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

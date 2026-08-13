@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission00">
+  <goals>
+    <goal type="getAdmin" target="bitMission00"/>
+  </goals>
+  <missionStart val="7">changeSong</missionStart>
+  <nextMission>BitMission1.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>İlk Uçuş</subject>
+    <body>Tebrikler!
+Dürüst olmak gerekirse, bu posta sistemi aracılığı ile başarılı olup olmadığını bilmem imkansız. Fakat bunu görebiliyorsan, bu en azından BİR ŞEY keşfettiğini gösterir. Bunun gerçekten faydalı bir şey olduğunu varsayacağım.
+
+En eski deneme sunucularımdan birine girmeye çalışmalısın. Eğer Viper'da onu bilindik yapan şeyler gerçekten varsa şu anda başka bir şeye ihtiyacın olmayacak.
+Unutma, çalıştırmak için port numarasına ihtiyacın olan bir program bulursan, mesela:
+
+>SSHCrack 22
+ ^dosyaadı ^portnumarası
+     
+Girmek istediğin portu bul ve çalıştır.
+
+Bu arada, unuttuysan diye söylüyorum, komutları otomatik olarak tamamlamak için Tab'a basabilirsin. Mesela "ssh" yazıp Tab'a basarsan SSHCrack olarak tamamlanır. Bu yöntem her dosyada işe yarar.
+
+Bol Şans!
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <note title="Temel Güvenlik">Temel Güvenlik
+      
+Hangi portların açık olduğunu öğrenmek için irdele.
+Programlı olanı seç ve doğru portu gir.
+Örnek: "SSHCrack 22"
+      ^dosyaadı ^portnumarası
+Portları geçtiğin zaman "PortHack" komutunu kullanıp güvenliği rahatça aşabilirsin.
+      </note>
+      <link comp="bitMission00" />
+    </attachments>
+  </email>
+</mission>

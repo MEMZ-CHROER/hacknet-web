@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitHubSet01" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Error">
+    
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Yanıt: Haziranböceği Projesi</subject>
+    <body>
+Anlıyoruz.
+
+Düşündüğün için teşekkür ederiz.
+Söylenecek bir şey yok. Bu konudaki son kararına saygı duyuyoruz.
+
+-CSEC Yöneticileri
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

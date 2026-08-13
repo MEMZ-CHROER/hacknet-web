@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="lelzSec1">
+  <goals>
+    <goal type="getAdmin" target="nortronMainframe"/>
+  </goals>
+  <nextMission>lelzSec/MessageBoardIntro.xml</nextMission>
+  <email>
+    <sender>Naix</sender>
+    <subject>유쾌함</subject>
+    <body>
+아하하, 좋아, 좋아. 진짜 예술이야.
+
+ 좋아, 멋져. 바로 이거야. 진짜 도전을 해보는 건 어때?
+자네는 Norton 메인프레임을 상대할 수 있다고 보나? 보안 회사에 대해 난 솔직히 더 많은 걸 예상하긴 했지만, 거기에는 꽤 두터운 방화벽이 작동하고 있어.
+재래식으로 공격하려 드는 건 꽤나 성가신 일이야, 자네도 알다시피, 그러니 잘 해보게.
+
+뚫을 수 있겠나? 자네가 침투하기만 한다면 뭘 하든 상관안해 - 자네가 그걸 장악할 수 있다면 나는 감탄하게 될 거야.
+
+자네가 해낸다면, 아마도 자네를 위해 뭔가를 마련할 수 있을 거야.
+
+-Naix
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

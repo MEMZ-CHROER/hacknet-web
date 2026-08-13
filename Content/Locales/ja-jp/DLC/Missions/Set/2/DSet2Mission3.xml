@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ds2m1">
+  <goals>
+    <goal type="clearfolder" target="dDdoserComp" path="LOIC"/>
+    <goal type="clearfolder" target="dDdoserHomeComp" path="LOIC"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="DDOSer on some critical servers">
+CoelがGrindcraftのサーバーダウンの原因を掘り当てました。 この企みは阻止せねばなりません。
+    </posting>
+  <email>
+    <sender>1</sender>
+    <subject>1</subject>
+    <body>
+CoelがGrindcraftのサーバーダウンの原因を掘り当てました。 この企みは阻止せねばなりません。
+----
+何者かがSerets of GrindcraftのサーバーにDDOS攻撃を仕掛けて遊んでいるようです。まるで全世界がのしかかってアップデートを邪魔しているかのように、サーバーが重くなっていいます。ともかく、Coelがチームに参加する条件の1つとしてこの案件を挙げているので、チームとしてこの障害を解決しなければなりません。
+攻撃にはLOIC (Low Orbit Ion Cannon)コードが使用されているようなので、そのフォルダ内を一掃して攻撃を止めれば十分です。しかし、システムファイルに少々いたずらをしても誰も咎めないでしょう。
+
+標的のコンピューターを探索、スキャンして、他に何か問題がないか注視するよう心がけてください。
+    </body>
+    <attachments>
+      <link comp="dDdoserComp" />
+    </attachments>
+  </email>
+</mission>

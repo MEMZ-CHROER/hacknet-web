@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit02_Phase2">
+  <goals>
+    <goal type="getString" target="156.151.59.35"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro03.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Justification</subject>
+    <body>Excellent, 
+   
+TraceKill - comme son nom l'indique, permet de détourner les traçages actifs contre toi tant qu'il est en exécution. Ça devrait beaucoup faciliter ton travail. 
+
+C'est parti. 
+
+J'ai fait quelques recherches, après la dernière fois - tu as vu le message toi aussi - il savait ce qui était en train de se passer. Bref, la simple idée que ce qui est arrivé était lié à son travail suffisait pour commencer. J'ai commencé à faire du pistage, et je suis tombé sur une liste de ses serveurs ou relais. Je sais pas combien sont juste des boîtes virtuelles qui sont sur la même machine, mais c'est un bon début. 
+Le plus prometteur est en lien à la fin de ce message - c'est un serveur de travail personnel, il s'en servait pour stocker en privé les dépôts de contrôle de version, apparemment. 
+Ça pourrait bien être un indice en soi. Qui a besoin des sauvegardes d'une solution de contrôle de version corporative ? Je ne vois que deux cas de figure : soit t'es responsable s'ils se plantent, tu es entouré d'incompétents et tu veux avoir les logs et les sauvegardes en cas de problème juridique, soit un truc t'inquiète, et tu veux des archives si ça se passe mal. 
+
+Bref, c'est le bon endroit pour commencer à creuser. Tu veux y jeter un coup d'œil ? J'ai commencé à regarder, mais je n'ai rien trouvé d'intéressant. J'arrive pas à décrypter les dumps des dépôts. 
+
+Préviens-moi si tu trouves quelque chose. Envoie l'adresse IP en cas de trucs bizarre si tu trouves un lien. 
+
+-V   
+    </body>
+    <attachments>
+      <link comp="BitWorkServer"/>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ds1m1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Autopsia de datos (3/3)">
+    Analiza los volcados de memoria (5-6) para encontrar enlaces a un servidor seguro.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

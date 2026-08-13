@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="avconMission">
+  <goals>
+    <goal type="getAdmin" target="avconComp"/>
+  </goals>
+  <nextMission>Demo/AvconDemoEnd.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Maiden Flight</subject>
+    <body>Gefeliciteerd!
+
+Dat soort software vind je niet overal.
+
+Je zou iets interesanters moeten proberen - als Viper hetgene waar hij bekend voor is had rondslingeren, dan zou je alles moeten hebben om in iets veilergs te komen.
+Wat dacht je van de computer naast je, die de Glove Slap Demo runt? Kijk of daar in kan komen en de CD lade kan openen.
+
+Onthoud, alle niet-basis programma's hebben een poort nummer nodig - zoals:
+
+>SSHCrack 21
+ ^bestand ^poortnummer
+
+Vind een poort die je wil kraken en run het daarop.
+
+Zorg ervoor dat je kijkt of het werkt.
+
+Veel geluk!
+
+--Bit
+0
+
+    </body>
+    <attachments>
+      <link comp="avconComp" />
+    </attachments>
+  </email>
+</mission>

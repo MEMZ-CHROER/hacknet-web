@@ -1,0 +1,75 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission01" name="P. Anderson's Bedroom PC" security="1" type="4">
+  <file path="log" name="@18907 Connection From XXX.XXX.XXX.XXX" >Connection from [IP MASKED] established.</file>
+  <file path="log" name="@18922 XXX.XXX.XXX.XXX Given Administrator Access">Connection from [IP MASKED] given administrator privileges.</file>
+  <file path="log" name="@18928 XXX.XXX.XXX.XXX Acessed File [Valence_Dossier.pdf]">File [Valence_Dossier.pdf] was read by [IP MASKED] -- System Administrator</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Deleted File [Valence_Dossier.pdf]">File [Valence_Dossier.pdf] was deleted by [IP MASKED] -- System Administrator</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Disconnected">[IP MASKED] Disconnected from system</file>
+
+  <file path="home/Documents" name="Laptop_PoliceReport.txt">
+num de policia
+14 L 510 66
+
+
+num de reclamo
+AAH 886</file>
+  
+  <file path="home/Documents/personal" name="letter_draft.txt">
+[DRAFT]
+
+05/08
+
+Papa.
+
+Sé que no entiendes las decisiones que he hecho, y no pretendo que lo hagas. Lo que si pretendo, es la decencia común de respetar estas decisiones, y continuar tratandome como un hijo.
+
+Hasta que estes de acuerdo con esto, lo siento pero necesito salir de Boston. No puedo soportar estar en la misma ciudad sabiendo que mi héroe, mi modelo a seguir, esta viviendo en el mismo lugar, ignorando mi existencia.
+
+He intentado con todas mis fuerzas ser complaciente, comprensivo, y tratar de explicar esta transición, pero no aguanto más.
+
+Me voy a LA con James. Si quieres hablarme, tienes mi número.
+
+Por favor entiende que no he hecho esta decision levemente. Esto es algo que debo que hacer, y espero que con el tiempo, aprendas a aceptarme por quien en realidad soy.
+
+Te amo.
+
+Paul
+  </file>
+
+  <file path="home/Documents" name="chatlog.txt">
+[HotRice] Estan todos listos para empezar?
+[Kiah] Eso depende.....
+[Kiah] Estas listo para morir?
+[M4cr0b4t] LOL
+[HotRice] Cierra la boca Johnson! 
+[HotRice] No me obligues a buscar la manteca de mani y los microchips :P
+[M4cr0b4t] ESO FUE UNA MALDITA VEZ
+[HotRice] Una vez es todo lo que se necesita
+[HotRice] Donde esta Hellerphant? Alguno hablo con el?
+[Kiah] Nadie sabe donde esta.
+[Kiah] Una bestia mystica y magica que aparece cuando menos te lo esperas.
+[HotRice] De veras, tenemos que empezar pronto.
+[HotRice] Siempre que me conecto nunca es lo que esperaba, este horario es un desastre de conjeturas y sueños rotos.
+  </file>
+  
+  <file path="home/Documents" name="Laptop.txt">
+    El convenio del seguro no cubre (reclamos, derechos etc? ??)
+    Seguro personal
+    "No declarado previo al incidente"
+    (necesito declarar objetos de valor antes que los roben???)
+    
+    Policia:
+	"Puedo investigar, no puedo cubrir"
+	poco probable que algo salga de esto...
+  </file>
+  
+  <file path="home/Documents" name="TaxReturn002.TAX">#BINARY#</file>
+
+  <file path="home/Work" name="ReportEmailDraft.txt">
+    -Introducción
+	-Nada definitivo, tengo pistas
+	-la laptop fue robada en la convencion, contenia infomres de expedientes
+	-he copiado los más probables aquí --- ????? Estaba seguro de esto?
+	-Presentaré los detalles de lo encontrado pronto
+  </file>
+</Computer>

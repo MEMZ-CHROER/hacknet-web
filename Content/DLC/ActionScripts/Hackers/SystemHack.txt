@@ -1,0 +1,52 @@
+config playerComp dAttackHome 0.2 $#%#$
+connect $#%#$
+delay 2 $#%#$
+openPort 21 $#%#$
+delay 2.3 $#%#$
+openPort 22 $#%#$
+delay 0.3 $#%#$
+openPort 25 $#%#$
+delay 0.83 $#%#$
+openPort 80 $#%#$
+delay 1.3 $#%#$
+stopMusic $#%#$
+clearTerminal $#%#$
+delay 1.3 $#%#$
+write WHO $#%#$
+write DO $#%#$
+write YOU $#%#$
+write THINK $#%#$
+write YOU $#%#$
+write ARE $#%#$
+write ? $#%#$
+writel $#%#$
+writel $#%#$
+delay 3.1 $#%#$
+writel DO $#%#$
+delay 0.24 $#%#$
+writel YOU $#%#$
+delay 0.24 $#%#$
+writel KNOW $#%#$
+delay 0.24 $#%#$
+writel WHO $#%#$
+delay 0.24 $#%#$
+writel YOU'RE $#%#$
+delay 0.24 $#%#$
+writel MESSING $#%#$
+delay 0.24 $#%#$
+writel WITH? $#%#$
+delay 2.3 $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+delay 2.3 $#%#$
+writel $#%#$
+writel $#%#$
+write YOU $#%#$
+delay 0.12 $#%#$
+write ARE $#%#$
+delay 0.42 $#%#$
+write NOTHING $#%#$
+delay 0.32 $#%#$
+systakeover $#%#$
+disconnect $#%#$

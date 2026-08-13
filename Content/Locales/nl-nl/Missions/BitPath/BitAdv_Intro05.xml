@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase5" >
+  <goals>
+    <goal type="getString" target="ax889msjA"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro06.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Verspreiding</subject>
+    <body>Zie je dit netwerk?
+Die nieuwe beveiliging is bijna overal te vinden, maar ik kom er langzaam door heen - er zijn nog wat gaten, maar vooruitgang is langzaam.
+
+Ik heb het IP van wat ik nu bekijk bijgevoegd. Van de kant die ik bkijk zie ik nog geen barsten - heb jij nog geluk?
+Als je het admin wachtwoord vind, beantwoord dat dan op deze mail - Ik heb het gevoel dat die server de sleutel is tot waar Bit hierin past.
+
+Het gedoe over dit "Hacknet project" overal is ook zorgwekkend... Heb jij er ooit van gehoord? Een volledige OS herschrijving...
+We kunnen daar later na kijken. Voor nu, kijk of je toegang kan krijgen tot deze relay - we kijken naar onze volgende stap daarna.
+
+Ik zou kijken naar hun productie en winkel servers - "Prometheus" en "Romulus" etc. Hoewel een ingang natuurlijk overal kan zijn.
+
+Veel geluk,
+-V
+    </body>
+    <attachments>
+      <link comp="EnTechOutsiderRepo" />
+    </attachments>
+  </email>
+</mission>

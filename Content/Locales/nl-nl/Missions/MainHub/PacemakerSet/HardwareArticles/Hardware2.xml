@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Deze server gebruiken">
+Deze referentie server gebruikt Kellis' gepatenteerd referentie-context technologie en zal alleen content dat aan u geralteerd is laten zien.
+Het adres dat u gebruikt om toegang te krijgen tot deze server is belangrijk, omdat het uw account details naar ons systeem stuurt - raak het niet kwijt!
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+      Het ontvangen van deze email betekent dat er een onverwachte fout is opgetreden.
+      Raak in paniek.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

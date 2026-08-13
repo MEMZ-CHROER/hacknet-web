@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="FOF_Screenplay.doc" path="home" destTarget="producerComp" destPath="home/scripts" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="野心家の手助け" reqs="dechead,decypher">
+野心に燃える作家が、プロデューサーに自分の原稿を届けてほしいそうです。
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>出願申請</subject>
+    <body>
+ある作家が、プロデューサーに原稿の草稿を届けてほしいと依頼してきました。秘書を通して渡そうとしたのですが、トラブルが起きてできなかったとのことです。
+原稿を見せるため、プロデューサーのマシンに侵入し、依頼者の原稿ファイルをレビューフォルダ内にアップロードするのが今回の仕事となります。
+
+彼の原稿「FOF_Screenply.doc」はすでにクロスロードサーバーにアップロードしておきました。
+目的のフォルダを見つけられるように、依頼人には暗号化された競争相手の原稿も提供してもらいました。
+これもクロスロードサーバーにあります。ファイル名は「T2_Screenply.dec」です。
+      
+目標のマシンにあるScriptsフォルダに彼の原稿をアップロードしてください。
+アップロードにはコマンド"upload bin/"を使ってください。
+Tabキーを押すことで、ファイルの一覧の表示や自動補完ができます。
+
+健闘を祈ります。
+-CSEC
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <note title="依頼内容詳細">FOF_Screenply.docをダウンロード
+      
+T2_Screenplay.dec`から追跡
+
+FOF_Screenply.docを原稿用フォルダにアップロード</note>
+    </attachments>
+  </email>
+</mission>

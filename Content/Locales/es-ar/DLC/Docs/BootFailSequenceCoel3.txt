@@ -1,0 +1,5 @@
+> Vale. Cuando estés listo, esto bloqueará tu VM y lo enviará de vuelta a tu escritorio.
+> Tengo un archivo script esperando para ejecutar un terminal donde estás y darte algunas instrucciones para que puedas avanzar.
+> Buena suerte, te veré en el chat cuando lo hayas solucionado. Voy a empezar a rastrear al que haya hecho esto.
+> Pulsa el botón cuando estés listo.
+> -Coel

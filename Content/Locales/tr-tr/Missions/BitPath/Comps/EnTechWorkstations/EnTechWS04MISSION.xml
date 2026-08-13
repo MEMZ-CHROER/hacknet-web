@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnWS04" name="EnTech Workstation _008" security="5" type="3" ip="156.151.0.42">
+
+  <ports>80, 22, 104</ports>
+
+  <portsForCrack val="3" />
+
+  <trace time="78" />
+
+  <admin type="fast" resetPassword="true" isSuper="true"/>
+  
+  <file path="WORKSTATION/store" name="comp.bin">#BINARY#</file>
+  <file path="WORKSTATION/store" name="MedStreamRef.txt">Konuşmamız uyarınca monitördeki akışın açık kalması için gereken yazılı izni yolladım. Konuştuğumuz gibi, bunun kopyasını al ve bu konuda belge isteyenlere göster. Eğer sana inanmazlarsa, bana yönlendir.
+Bilginize, 008 numaralı masada çalışan Bay Jorioni'nin ciddi bir kalp rahatsızlığı bulunuyor. Acil durumlarda kalbinin durumunu takip edebilmesi için kendisine yardım etmek amacıyla masasındaki yazılım monitöründe akış verileri yer alacaktır.
+Yeni "İşyeri Ayrımı" planı neticesinde Bay Jorioni'ye yer vermek için olağanüstü gayret göstermiş bulunuyoruz.
+Kendisiyle ilgili ileriye yönelik sıkıntılar direkt olarak bana bildirilebilir.
+
+-D. Tagg,
+İnsan Kaynakları Müdürü
+  </file>
+  <file path="WORKSTATION/store" name="StoreServIPs.txt">--DEPOLAMA SUNUCULARI'NIN ADRESLERİ--
+Prometheus (Geliştirilen Proje Deposu)
+156.151.1.1
+
+Romulus (Atama / Derleme Sunucusu (Aynı zamanda Yükleme Sunucusu))
+156.151.1.12
+  </file>
+  <file path="WORKSTATION/store" name="AssetPack_012.zip">#BINARY##BINARY#</file>
+  <file path="WORKSTATION/store" name="AssetPack_013.zip">#BINARY##BINARY#</file>
+  <file path="WORKSTATION/store" name="Prometheus.txt">
+    d88vAnnX
+  </file>
+  <file path="WORKSTATION/hn_os" name="Hacknet_NetCore.dll">#BINARY##BINARY#</file>
+  
+
+  <positionNear target="EnTechWSCore" position="8" total="12" />
+
+</Computer>

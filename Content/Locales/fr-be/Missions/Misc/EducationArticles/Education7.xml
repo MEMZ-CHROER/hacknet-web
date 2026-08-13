@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="education07">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="*Nix Notes System">
+Tous les systèmes d'exploitation pilotés par terminal basés sur le kernel *Nix ont un programme bloc-notes intégré (en utilisant « notes ») qui peut être très utile.
+Il est généralement sous-utilisé, la mémoire vive est relativement rapide et il est bien intégré à de nombreux clients de messagerie et autres programmes (afin de pouvoir remplir automatiquement et aisément des notes pour vous).
+    
+L'exécuter est aussi simple que d'utiliser la commande « notes », les notes peuvent être manuellement ajoutées via l'interface utilisateur (UI), ou en utilisant la commande « addNote [NOTE] ».
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERREUR</subject>
+    <body>
+Recevoir cet email indique qu'une erreur inattendue est survenue.
+Veuillez paniquer.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

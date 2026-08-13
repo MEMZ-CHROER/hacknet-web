@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="avconMission">
+  <goals>
+    <goal type="getAdmin" target="avconComp"/>
+  </goals>
+  <nextMission>Demo/AvconDemoEnd.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Jungfernflug</subject>
+    <body>Glückwunsch!
+
+Diese Art von Software sieht man nicht alle Tage.
+    
+Du solltest etwas kniffeligeres Ausprobieren - wenn Viper die Art von Code herumliegen hatte, für die er bekannt ist, sollte das vollkommen ausreichen, um dich an einem etwas sichererem Ziel zu versuchen.
+Wie wäre es mit dem Computer da neben dir? Der, auf dem die Glove Slap Demo läuft. Schau mal, ob du darein kommst und das CD Laufwerk öffnen kannst.
+
+Denk dran, für die meisten komplizierteren Programme muss ein Zielport angegeben werden - etwa so:
+
+>SSHCrack 21
+ ^Datei   ^Portnummer
+     
+Finde einfach einen Port, den du knacken möchtest und führe das Programm aus.
+
+Schau mal nach drüben und sieh nach, ob das geklappt hat.
+
+Viel Glück!
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <link comp="avconComp" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitMission00">
+  <goals>
+    <goal type="getAdmin" target="bitMission00"/>
+  </goals>
+  <missionStart val="7">changeSong</missionStart>
+  <nextMission>BitMission1.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>Первый полет</subject>
+    <body>Поздравляю! 
+Не знаю преуспел ли ты в этом, но если ты это видишь, то уже ЧТО-ТО нашел. Сдаётся мне, что это что-то реально полезное.
+
+ Ты должен попробовать сломать один из моих старых серверов — если бы Viper имел у тебя должно быть всё что нужно, чтобы войти.
+ Помни, что все дополнительным программам при запуске нужен номер порта — вот так:
+
+ &gt;SSHCrack 22 
+^filename ^portnumber
+ 
+Найди порт, который тебе нужен и запускай. 
+
+А, если ты ещё не знаешь — есть автодополнение команд по клавише Tab — набираешь ssh, давишь Tab — дополнит её до полного имени и т.п. Работает со всеми командами.
+
+ Удачи!
+
+ --Bit
+0
+
+    </body>
+    <attachments>
+      <note title="Руководство по основам безопасности">Основы безопасности 
+     
+Чтобы узнать открытые порты есть Probe. 
+Нацеливай программы на них, выбирай правильный порт. 
+Например: SSHCrack 22 
+^filename ^portnumber 
+Взлом достаточного числа портов делает цель уязвимой и создаёт дыру в защите.
+      </note>
+      <link comp="bitMission00"/>
+    </attachments>
+  </email>
+</mission>

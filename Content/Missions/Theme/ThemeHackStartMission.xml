@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="themeHackStartMission">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Warning</subject>
+    <body>
+      Connect-Responder.exe has noticed a foreign connection from your IP address to 173.194.35.163.
+      External connections are prohibited on this device. If you have connected in error, please seek sysadmin assistance.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

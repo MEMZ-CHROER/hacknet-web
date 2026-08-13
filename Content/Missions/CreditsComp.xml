@@ -1,0 +1,279 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="creditsComp" name="Credits Server" ip="226.187.99.3" security="0" icon="chip"
+          allowsDefaultBootModule="false" type="4">
+
+  <dlink target="academic" />
+  <dlink target="deathRow" />
+  <dlink target="ispComp" />
+  <dlink target="medical" />
+  <dlink target="jmail" />
+  
+  <SongChangerDaemon />
+  <ports>21, 22, 25, 80, 1433, 104, 3724</ports>
+  
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+  <file path="bin" name="KBTPortTest.exe">#MEDICAL_PROGRAM#</file>
+  <file path="bin" name="SecurityTracer.exe">#SECURITYTRACER_PROGRAM#</file>
+
+  <file path="sys" name="x-server.sys">#MINT_THEME#</file>
+  <file path="home" name="Credits.txt" >-- Hacknet --
+^A Game By
+%MATT TROBBIANI
+
+^Logos, Assistant Writing, Testing
+Sarah Riggall
+
+
+^Appearance Mockup
+Jeremy Mitchell
+
+^Additional Writing
+Stephen "Hellerphant" Heller
+
+^-Music-
+
+^The Otherworld Agency
+Fabian Malabello 
+$Founder Managing Director
+
+Thanks Rumblefish Inc.
+- Cinematrik
+"The Quickening" by Cinematrik (RFID15710)
+"Revolve (R Mix)" by Cinematrik (RFID15810)
+
+- Rico Puestel
+Roja Drifts By (Timo Jahns Strings Remix)
+PSTL001
+(C) 2014 Ponsactrilau
+
+- Tonspender
+"Broken Boy" - examples EP
+"Irritations" - examples EP
+
+- Chris Larkin
+Ending speech recording and backing
+Hacknet Credits track
+
+ROLLER MOBSTER
+(Franck Hueso)
+Performed by
+- Carpenter Brut
+(p) No Quarter
+Under permission by Warner Chappell Music France
+
+- Ryan Burge
+Recursion
+Phase of the moon
+
+- Remi Gallego (AKA The Algorithm)
+Panic Track
+Malware Injection
+
+- Matt Mclean
+Feeding Ear | Out run the wolves
+
+- Sean Gillespie
+TETRAMETH
+
+Special thanks to Inspiration from
+www.ccmixter.org
+
+
+^-Backgrounds-
+"Been Away Too Long" - White Theme
+"Journey" - Green Theme
+Both by Angelus-Hellion
+angelus-hellion.deviantart.com
+
+
+^-SFX-
+Dark Drone 008
+mckinneysound - http://www.freesfx.co.uk
+Hospital ECG
+https://www.sounddogs.com/sound-effects-library/2175.htm
+https://www.sounddogs.com
+Doom Shock + TraceKill
+Inspiration From
+http://www.kyutwo.com
+Audiojungle.com
+Drones and Transitions
+
+Thanks to Wertstahl for extra SFX
+
+^-Porting and FNA-
+Ethan "flibitijibibo" Lee
+
+^-Testing and Thanks-
+Elle Dunbar
+Chris Johnson
+Tristan "tijit" Trabilsie
+Jamie Williamson
+Alex Mackay
+Noblekale
+Sam Crisp
+Dylan Sale
+Richard Taylor
+Ben Kislby
+Matt LeKrupa
+Brad Wesson
+Jamie Pillianaros
+Giselle Rosman
+Bec Pelvay
+Ben Carter
+Stephen Trobbiani
+Gib Trobbiani
+Laura Trobbiani
+Ben Trobbiani
+Aidan "Aidy" Coxon
+
+^-International Testers-
+Quinton Porter
+Radek Golan
+Player Fero
+Jacob Johnson
+Daniel Lieberwirth
+BirdCute
+Andreas Lenhardt
+Rain Shatter
+Colamaeleon
+
+^-Port Testers-
+Ladislav Vydra  -  Richard Middel  -  Willem-Jan Zijderveld
+Lukasz Klatka  -  Lucia Fabiola Martinez Fajardo  -  Michael Tanzer
+Ambidotus Insignis  -  Barrett Eckhart  -  Heide Queen
+Willem-Jan Zijderveld  -  Daniel Sapelli  -  Kacper Tonia
+Sean Mackedie  -  TECHNO vids  -  Derek Power
+Alexander Ford - Matthieu Rose
+
+^-Translators-
+ - Game Scribes - 
+Team lead by William Farrell
+Special thanks to Colamaeleon for coordination and testing
+
+^German
+ - Hanna Siek - 
+Sebastian Raake
+Thomas Jager
+jonasschloemer
+
+^Dutch
+Master Grid
+
+^French
+- Pierre Cholet -
+The Corsaire
+jdbarte
+Wk Slicex
+Aokami
+
+^Spanish
+Nahuel Peruzzo
+Victor Sanchez Collado
+Wazbat
+Adam
+delaguila fernando
+
+^Chinese
+Venique
+ShiveryMoon
+Tenderness-Miao
+
+^Turkish
+Serhat Cavunt
+
+
+^- Published by : Fellow Traveller -
+
+Chris Wright
+$Managing Director, Fellow Traveller
+
+Stephen Heller
+$Product Manager And Community Manager, Fellow Traveller
+
+Lex Suurland
+$Business Development Manager, Fellow Traveller
+
+Fiona Murray
+$Finance Manager, Fellow Traveller
+
+James Kozanecki
+$PR, Fellow Traveller
+
+Travis Plane
+$Director, Fellow Traveller
+
+Aaron Bertinetti
+$Director, Fellow Traveller
+</file>
+
+<file path="home" name="Congratulations.txt" >
+Congratulations!
+
+I created the prototype of this game in 48 hours for a game jam with friends. You can find a timelapse of me making the prototype on my youtube channel ("TheOrann").
+I got a great response to the prototype that I expanded it into what you just completed over the course of about 3 years. I hope you liked it!
+
+If you liked the game (or didn't), let me know! I'd love to hear what you think of it. My email address is "matt@hacknet-os.com", and my twitter is @Orann.
+
+Thanks, and congratulations!
+-Matt Trobbiani
+
+  </file>
+  
+  
+  <file path="home" name="Hidden_Stuff.txt" >
+There are a few not so well hidden tricks in the game that are essentially leftovers or extra features from development that aren't directly part of the main game. Here's a few of them:
+
+--Open the CD Tray--
+The command "openCDTray" will open the CD tray of the computer you are connected to. If you are connected to yourself, it'll open your own physical CD Drive. This works if you connect to an opponent's computer in multiplayer mode and do it then too!
+The command "closeCDTray" closes it again.
+
+--Fork Bomb--
+There's a "Virus" I wrote into the game mostly for use in multiplayer mode called ForkBomb that you can run on the connected node using "exe forkbomb". When run, it'll disable that node for 30 seconds!
+If you run it on yourself or an opponent in multiplayer mode, it'll start filling up your ram quickly. If it fills all of it, it'll restart your computer (in-game). If you're quick, you can identify the PID of the virus and use the kill command to disable it before you get busted with it!
+
+--SecurityTracker.exe--
+The file that you deleted in the first mission, SecurityTracker.exe is a working exe file, which begins tracking you if you if you execute it! This computer has a copy of it in the /bin folder if you want to download it and try it out. Make sure to kill the process quickly!
+
+--Name Generation--
+The names of computers and companies in Hacknet are procedurally generated from a list of possible main names and postfixes. Every time you play it'll be different!
+The missions on the Entropy Server are procedurally altered to to be unique every time.
+
+--Internal Consistency--
+The servers in the game (like the email server) are internally consistent servers with procedurally generated accounts and emails!
+Try hacking the email server you connect to all the time (Jmail.com) and check it out! See if you can decipher the storage format of emails and how my parser works. (Hint: "@*[AMPERSAND]^#%@)_!_)*#^@![AMPERSAND]*)(#^[AMPERSAND]").
+
+--And More!--
+Computers have filesystems which, while not incredibly rich, do usually have a few gems on them. Explore a little and see what you can find!
+  </file>
+  
+  <file path="home" name="SecretPath.txt" >
+There's a big secret path in Hacknet that's essentially a third faction. If you're looking for more, try playing again and being more agressive. Look more closely for secrets - especially at how things happened, how things got where they did, and where they came from.
+All people and hackers can be traced and investigated, if you look hard enough.
+  </file>
+  
+  <file path="home" name="Thanks_Again.txt" >
+
+    Thanks Again!
+    Again, if you liked (or didn't) like the game, send me an email at: "matt@hacknet-os.com".
+    I promise I'll read it!
+
+    A quick present if you decide to play again - there's a server you can access from the start of the game with all the port exploits on it that you can access at "1337.1337.1337.1337".
+
+    Thanks again!
+    -Matt Trobbiani
+  </file>
+  
+  <file path="home" name="Wallpapers.txt" >
+Background wallpapers for the Green and White themes were provided by the very talented Angelus-Hellion.
+
+Both full resolution wallpapers can be found at his DeviantArt page, here:
+
+http://angelus-hellion.deviantart.com
+
+  </file>
+  
+</Computer>

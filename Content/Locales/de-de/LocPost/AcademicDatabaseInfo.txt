@@ -1,0 +1,4 @@
+Willkommen bei der Internationalen Akademischen Datenbank
+Dieser öffentlich zugängliche Server bietet zentralen Zugang zu den akademischen Akten jeder international anerkannten Universität der Welt.
+Unsere Datenbank wird von den Administratoren dieses sicheren Terminals verwaltet und gewartet, mit zusätzlichen Arbeitskräften von erlesenen und führenden Universitäten, die zu dieser Datenbank beitragen.
+Sollten Sie der Kanzler einer Universität oder Hochschule sein und den Wunsch haben, zu dieser Datenbank beizutragen und international anerkannt zu werden, so senden Sie eine E-Mail an unsere Administratoren: admin@mail.academic.org

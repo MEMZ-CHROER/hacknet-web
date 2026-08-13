@@ -1,0 +1,3 @@
+Do not translate! Guide for Localizers:
+
+Please dont change {0} and {1} etc here - they represent bits of information that will be replaced by code. Where they are placed should make their content clear - fell freee to move them about the text, but remember what they represent!

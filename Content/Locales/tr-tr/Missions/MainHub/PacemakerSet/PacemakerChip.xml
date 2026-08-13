@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pacemaker01"
+          ip="202.6.141.219"
+          name="KBT-PM 2.44 REG#10811" 
+          security="1"
+          icon="chip"
+          type="4" > <!-- 1=  corporate, 2 = Home, 3 = server, 4= empty -->
+  <!-- Security Stuff -->
+  <trace time="-1" />
+  <ports>104</ports>
+
+  <HeartMonitor patient="E_Whit"/>
+  
+  <file path="KBT_Pacemaker" name="readme.txt"> Bu klasördeki tüm dosyalar kalp hızı ayarlama yazılımınca algılanacak ve eğer dosyaların doğruca imzalandığı algılanırsa arayüzde yazılım güncellemesi olarak değerlendirilebilinecek.
+Bu çipi uzaktan güncellemek isterseniz, "upload [YEREL DOSYA ADRESİ]" koduyla dosyayı klasöre yükleyin.
+  </file>
+  
+</Computer>

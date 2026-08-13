@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Person id="csec_med_01" handle="Ehwitt" firstName="Elliot" lastName="Whit" isMale="true">
+  <Birthplace name="Londres"/>
+  <Degrees>
+    <Degree uni="Université de Manchester" gpa="3.3">Master de droit</Degree>
+    <Degree uni="Université de Manchester" gpa="3.1">Licence en science politique</Degree>
+  </Degrees>
+  <DOB>09/09/61 22:00:00</DOB>
+  <Medical>
+    <Blood>BO</Blood>
+    <Height>166</Height>
+    <Allergies>AUCUN</Allergies>
+    <Perscription>Ivermectin x35 mensuellement :: Régulation du rythme cardiaque</Perscription>
+    <Notes>À cause de problèmes arithmétiques critiques et récurrents au niveau du cœur, le patient a été équipé d'un pacemaker qui peut permettre de calculer des variables inconnues sans avoir recours à une chirurgie intrusive.
+    Références :. 
+. 
+ID de connexion du Pacemaker : 202.6.141.219 Documentation et notes : 66.96.147.84. 
+.Détails supplémentaires : avant d'entreprendre toute action susceptible d'éteindre le pacemaker, ou d'effectuer une chirurgie intrusive, contacter le fabricant pour confirmer la stabilité du produit.
+    </Notes>
+  </Medical>
+  <Notes>Affaire Mission pacemaker</Notes>
+</Person>

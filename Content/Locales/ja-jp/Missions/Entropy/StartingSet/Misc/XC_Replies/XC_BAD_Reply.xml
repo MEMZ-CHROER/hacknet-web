@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="xcRepBAD" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="エラー">
+不明な投稿エラー
+  </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>Re: 内部調査</subject>
+    <body>
+素晴らしい働きだ。正直、ここまで完璧な仕事をしてもらえるとは思ってなかった。
+
+取調べはうまく行っているようだね・・・想像してたよりちょっと規模が大きいようだが、まあ、博士号を持つような人間じゃなきゃわからないこともあるしね。
+
+なんにせよ司令官の命令なのだから、疑う必要はなかったようだ。
+
+では、失礼するよ。
+-C.O Bradford
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

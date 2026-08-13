@@ -1,0 +1,9 @@
+1: eOS senkronizsayonu olduğunu düşündüğünüz aygıtın yönetici erişimini sağlayın.
+2: eşleştirilmiş cihazları bulmak
+ve portları otomatik olarak açmak için eosdevicescanner.exe dosyasını çalıştırın.
+3: ortaya çıkan cihaza bağlanın
+4: giriş yapın
+kullanıcı adı: "admin"
+şifre: "alpine"
+
+Şifre tüm eOS aygıtlarında aynı!

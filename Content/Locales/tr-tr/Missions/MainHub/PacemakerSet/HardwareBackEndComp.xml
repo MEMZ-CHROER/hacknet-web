@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kellisHW_BE"
+          ip="66.96.148.1"
+          name="Kellis Biotech Production Asset Server" 
+          security="4"
+          icon="kellis"
+          type="1" > <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <!-- Security Stuff -->
+  <dlink target="kellisHW" />
+  <ports>80, 22, 1443, 25, 21, 104</ports>
+  <trace time="260" /> 
+  <firewall level="6" solution="BIOGEL"/>
+
+  <file path="home/Production/Output" name="Catalyst_Driver.dll">#BINARY#</file>
+  <file path="home/Production/Output" name="KBT_PortTest.exe">#MEDICAL_PROGRAM#</file>
+  <file path="home/Production/Output" name="README_Port_Tester.txt">
+Kellis BioTech Port Deneyicisi (KBTPT)
+--  --  --  --  --  --  --  -- --  --
+
+KBPT, Kellis'in standart medikal portunu (#104) denemek ve portun üzerinde durmak için yapılmış yardımcı programdır. Aygıtın incelenmesi amacıyla talep edildiğinde donanım paketiyle birlikte dağıtımı yapılabilir. Tasarlanma amacı porta trafik sağlamaktır. Bu sağlama işlemi dış kaynakları da içerir (bunların bir kısmını program kendi sağlar). Yani, Kellis tarafından yerel anlamda denendikleri ve üzerinde durulan gereksiz bileşen ve kodları onayladıkları için (bu programda tam olarak bunun için tasarlandı) gündelik hayatta kullanılan cihazlarda kullanılmamalıdır. Bu cihazlarda kullanılması durumda sorumluluk kabul edilmemektedir.
+Programın dağıtımda dikkatli olun. Gönderilen yerel kopyalar sürümlere ayrılmıştır ve dağıtıldıkları andan itibaren belge kayıtlarıyla birlikte izlenilmektedirler.
+  </file>
+
+  <file path="home/Production" name="KellisMediaPack_v2RevisedFinal3LAST_v2">#BINARY##BINARY#</file>
+  
+  
+</Computer>

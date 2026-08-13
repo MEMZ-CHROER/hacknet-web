@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit02_Phase8_WIN" activeCheck="true">
+  <goals>
+    <goal type="delay" time="15"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_ZFinale01.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Finalización</subject>
+    <body>Y se acabó. 
+Como venganza, para mí es banal. Simplemente atacando su trabajo, y todo demasiado tarde para ayudarle. Pero así está bien. 
+Supongo que debería estar más acostumbrado. Eh, nadie se dará cuenta. Nadie excepto aquellos que se enfurecerán con la pérdida. Nadie nos va a dar las gracias, por mucho daño que pudiera haber causado. 
+Así es como son las cosas, supongo. 
+Me has ayudado mucho y te estoy muy agradecido.  
+No hay mucho más que pueda hacer con este velo de anonimato (y después de todo parece un momento terrible para quitarlo), así que te veré de vuelta en CSEC. 
+
+Aquello siempre es un caos, ya encontraré la forma de recompensarte pronto. 
+
+Gracias. De verdad. 
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

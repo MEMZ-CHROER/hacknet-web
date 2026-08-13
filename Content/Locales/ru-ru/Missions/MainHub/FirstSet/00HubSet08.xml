@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet08">
+  <goals>
+    <sendemail recipient="gila" subject="MedicalRecord - Sandburg_Jonas"/>
+  </goals>
+  <nextMission>MainHub/Continuations/FirstSet08_Reply.xml</nextMission>
+  <posting title="Investigate a medical record">
+Получить копию чьей-то истории болезни, чтобы уладить спор.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Посох Асклепия</subject>
+    <body>
+Итак, 
+
+я могу встревать или не встревать в интернет-спор с кем-то, кто ЯВНО постит отфотошопленные фотки... 
+В общем, не важно чьи, мне нужна легальная история болезни этого парня, чтобы добавить драматизма. Я бы и сам это сделал, но, эм-м, я слишком открыто обозначил свои намерения и, ты же знаешь, как CSEC  относится к таким вещам. 
+В общем, сможешь мне помочь? Звать его Jonas Sandburg - в медицинской базе данных есть форма, позволяющая отправить копию людям. Вышли мне ее, пожалуйста, на gila@jmail.com. 
+
+Спасибо! 
+-G
+    </body>
+    <attachments>
+      <link comp="medical"/>
+      <note title="Заметки">Чувак, мне нужно отправить копию медкарты некого 
+&quot;Jonas Sandburg&quot; 
+на почту 
+gila@jmail.com.
+</note>
+    </attachments>
+  </email>
+</mission>

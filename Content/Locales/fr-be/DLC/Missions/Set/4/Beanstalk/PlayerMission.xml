@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dBeanstalkMission">
+  <goals>
+    <goal type="fileupload" target="ds4_laptop" file="038457_doc.pdf" path="home/dagrunsdottir_leak" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Traque corsée">Pirate un bar à café pour subtiliser un projet de loi sur l'ordinateur d'un visiteur fréquent. Nous n'avons évidemment aucune affiliation politique - c'est juste qu'une belle prime est offerte pour ces informations.</posting>
+  <email>
+    <sender>Bibliothèque</sender>
+    <subject>Traque corsée</subject>
+    <body>
+Pirate un bar à café pour subtiliser un projet de loi sur l'ordinateur d'un visiteur fréquent. Nous n'avons évidemment aucune affiliation politique - c'est juste qu'une belle prime est offerte pour ces informations.
+----
+D'après certaines informations, Asdis Dagrunsdottir, une politicienne européenne, œuvre en secret au sein de son parti pour rédiger un projet de loi qui pourrait influencer le fonctionnement de notre industrie. Les hackers sont curieux de nature, c'est pourquoi une prime importante est offerte.
+
+Nous avons découvert des informations qui indiquent qu'elle se rend souvent à un café près de son domicile. Heureusement, l'adresse IP du routeur du café n'a pas été très difficile à trouver.
+
+Trouve les fichiers. Télécharge-les vers le serveur de stockage de données. Je m'occuperai du reste.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="ds4_cafe" />
+      <note title="Objectifs de mission">Trouver Asdis Dagrunsdottir dans la liste du routeur du café
+Chercher les documents relatifs au projet de loi
+Télécharge tout ce que tu trouves vers le serveur de stockage de données</note>
+    </attachments>
+  </email>
+</mission>

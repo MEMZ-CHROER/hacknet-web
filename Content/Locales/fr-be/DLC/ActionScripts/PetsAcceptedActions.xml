@@ -1,0 +1,29 @@
+<ConditionalActions>
+  
+  <OnConnect target="dPets_Home" needsMissionComplete="false">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="2.0">On va bosser ensemble sur ce coup-ci, #PLAYERNAME# !</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="6.0">On fait la course ? :P</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="9.2">Votre tâche a l'air bien plus sympa que la mienne ._.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="14.0">Ouais, bonne chance pour ta mystérieuse mission secrète, Coel -_-</AddIRCMessage>
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="84.0">Argh, à chaque fois que je complète avec Tab la commande pour mon casseur FTP, ça me propose mon ancien casseur</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="87.0">C'est vraiment frustrant.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="94.0">Tu sais, tu pourrais juste...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="98.0">supprimer l'ancien...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="103.0">non ?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="107.0">ou alors le renommer avec mv, même ?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="112.0">euh</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="119.0">tu te souviens tout à l'heure ? ça concernait un rafiot, non ?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="123.0">Avec un océan de honte ?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="127.0">Ouais ?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="129.0">ben là je me sens pareil</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="133.0">hahaha</AddIRCMessage>
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="170.0">J'ai de nouvelles infos à consulter une fois que vous serez dans l'ordinateur central @channel</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="176.0">On dirait que leur base de données est un peu moins élaborée que je ne le pensais - ils stockent les dossiers d'utilisateurs en structure un-par-fichier, ce qui nous rend nos affaires bien plus faciles.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="180.0">Une fois que vous avez le bon fichier utilisateur, vous devriez pouvoir utiliser la commande "replace" basique pour remplacer les valeurs par celles qu'il nous faut.</AddIRCMessage>
+
+  </OnConnect>
+  
+</ConditionalActions>

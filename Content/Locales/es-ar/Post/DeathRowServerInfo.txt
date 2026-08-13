@@ -1,0 +1,19 @@
+﻿﻿Esta base de datos existe para preservar y conservar la información de los delincuentes ejecutados del corredor de la muerte, incluidos, entre otros datos, sus últimas palabras y la información sobre sus crímenes.
+
+Estadísticas raciales y de género de los criminales en el corredor de la muerte
+
+Raza     Mujer   Hombre    Total
+--------------------------------------
+Blanco      5         76       81
+            55.6%    28.7%    29.6%
+
+Negro      3         107      110
+            33.3%    40.4%    40.1%
+
+Hispano   1         78       79
+            11.1%     29.4%    28.8%
+
+Otros      0         4        4
+            0.0%     1.5%       1.5%
+
+TOTAL      9         265      274

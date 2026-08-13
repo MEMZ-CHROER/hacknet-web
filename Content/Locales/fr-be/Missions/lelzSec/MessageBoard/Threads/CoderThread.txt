@@ -1,0 +1,44 @@
+﻿﻿junkCoder
+------------------------------------------
+#Academic
+Topic de Programmation Quotidien
+Sur quoi travaillez-vous, /el/ ?
+------------------------------------------
+J'essaie à nouveau de trouver le resolve du programme.
+Ça me rappelle tant de souvenirs de mon ex. ;_;
+------------------------------------------
+C'est prudent de programmer ce genre de truc comme ça ? Juste créer un nouveau topic ? 
+
+boost::thread( [] { boost::this_thread::sleep (boost:: posix_time :: seconds(5)); running = false;});
+>inb4 >C++ >boost
+------------------------------------------
+>>37334564
+Fais attention aux drapeaux. Utilise des verrous ou des atomiques plutôt.
+------------------------------------------
+>>37334598
+Qu'est-ce que tu veux dire par drapeaux ? Et que sont des atomiques ?
+------------------------------------------
+>>37334626
+>running = false
+
+Le problème des racines de bas niveau de C++, c'est qu'au niveau du langage d'assemblage ça peut vraiment donner des trucs de fou. 
+Les atomiques garantissent que toutes tes opérations sur une variable agissent en fait comme une seule opération.
+------------------------------------------
+Quelqu'un peut évaluer mon solutionneur de Sudoku ?
+http://pastebin.com/Q6Qhm66E
+------------------------------------------
+Dans la fonction de contrôle, on assigne x/3 et y/3 à int tx et ty, mais ils sont multipliés par 3 juste après. Pourquoi ne pas directement assigner x et y ?
+------------------------------------------
+Bon, la réponse arrive trop tard mais, 
+Je cherche le bloc spécifique où ils se trouvent. 
+Disons : x = 5, y = 5.
+Le bloc spécifique commence à 3,3. Et c'est le seul moyen de le faire que j'ai trouvé.
+------------------------------------------
+>>37334068 (OP)
+Je planche sur mon bien-être et j'essaie d'apprendre l'1PI Windows et peut-être le noyau FreeBSD
+------------------------------------------
+>>37343926
+>bien-être
+>Windows API
+hhehehe
+------------------------------------------

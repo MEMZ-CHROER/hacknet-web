@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Entropy_DLC_Connector">
+  <goals>
+    <!-- Impossible goal here - this mission isn't completable in the normal sense
+    It leads the player to KaguyaTrials, which replaces this. We don't want the player
+    to skip past this mission by quick replying or anything, so put a debug only goal here-->
+    <goal type="getstring" target="kaguyatrialscompletedebug" />
+  </goals>
+  <missionStart val="1" suppress="true">addFlags:dlc_start_entropy</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#DİKKAT# - Kaguya Denemeleri"> ### DİKKAT ###
+Entropy Yöneticileri bu görev dizisini alışılmadık derecede uzun, tehlikeli ve zor olarak işaretledi.
+Yeteneklerinize güvenmiyorsanız, bu meseleyle daha sonra ilgilenmeniz 
+önerilmektedir.
+ ### DİKKAT ###
+ 
+Bu zamana kadar tanıma şerefine nail olamadığımız bir temsilci bazı grupların yöneticilerine üye alım mücadelesine benzer bir gönderi yolladı. Bu konuda serbestçe inceleme yapılabilir.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Kaguya Denemeleri</subject>
+    <body>Sayın temsilci,
+    
+"Kaguya" isimli bir şahıs bildiğimiz kadarıyla çeşitli grupların yöneticilerine ve önde gelen DigiSec topluluk liderlerine bir çeşit meydan okuma iletisi gönderdi.
+Bunun bir nevi ekibine üye alım mücadelesi olduğunu düşünüyoruz. Entropy'nin açıklık poliçesinde geçtiği üzere bu iletiyi ilgilenen tüm kullanıcılara gönderiyoruz.
+
+Unutmayın ki, bu mücadelenin Entropy ile ilgisi bulunmuyor. Yani, yoğunluk sebebiyle bir süre topluluğumuzdaki anlaşmaları yerine getiremeyebilirsiniz.
+Eğer Entropy'de hala daha devam etmekte olan anlaşmalarınız varsa veya Entropy anlaşmalarını gerçekleştirmeye devam etmek istiyorsanız şunu belirtmeliyiz ki bu fırsat bir süre daha mevcut olabilir. Eğer düşünceniz sonraya bırakmak yönündeyse, bu anlaşmayı iptal edin ve değerlendirmek istediğiniz zaman tekrardan kabul edin.
+
+Düşünceniz aksi yöndeyse size bir IP adresi (ekte) ve "Denemelere Başlama" talimatları verilecek.
+
+Kolay gelsin.
+-Entropy Yöneticileri
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

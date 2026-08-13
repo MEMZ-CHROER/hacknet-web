@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="entechboss" handle="Jojo" firstName="Joseph" lastName="Jorioni" isMale="true">
+  <Birthplace name="カリフォルニア" />
+  <Degrees>
+    <Degree uni="カリフォルニア大学" gpa="2.9">ソフトウェア工学学士</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>178</Height>
+    <Allergies>なし</Allergies>
+    <Perscription> スピロノラクトン x70 隔月 :: 心拍調整剤としてのアルドステロン阻害</Perscription>
+    <Notes>患者は生まれつき血管系に異常を抱えているため、心臓に流れ込む酸素が非常に少なく、酸素欠乏によって引き起こされる深刻な狭心症に苦しんでいる。
+患者は常に高い心不全のリスクを抱えており、もしもの際は早急な対応が求められるため、動脈血酸素飽和度の減少時に警告を行う監視装置が取り付けられている。
+ただしこれはペースメーカーではなく、あくまで早期警告装置である。
+</Notes>
+  </Medical>
+  <Notes>
+  </Notes>
+</Person>

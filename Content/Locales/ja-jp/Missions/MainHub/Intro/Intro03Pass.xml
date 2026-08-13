@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubIntro3" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>CSECへの招待状 - 歓迎</subject>
+    <body>
+#PLAYERNAME#へ。
+
+よくやったな！実は僕も自分であそこのメインフレームを調べたことがあるんだけど、そのときは見つけられなかった――ありかを突き止められなかったんだ。
+まあ、入団の第一歩としては上々だ。
+
+ここに、君をCSECのメンバーとして正式に認めよう。ここにいる者はみんな、自分のスキルやハッカーってものについてよく理解してるんだ。まあ、少なくとも一般人よりはね。
+さっきの課題が簡単だと思ったんなら、ここはきっと君にとって居心地がいいはずだ。
+
+ハブサーバーのログインに必要な情報を添付しておいた。このサーバーでは依頼を引き受けたり、新しいコードをダウンロードしたりすることができる。要するに本部みたいなもんだ。
+君には今後も連絡するよ。そうだ、試験合格のお祝いとして、サーバーから新しいプログラムでもダウンロードするといい。
+
+-Vap0r 
+CSEC 運営
+    </body>
+    <attachments>
+      <link comp="mainHub" />
+      <account comp="mainHub" user="#PLAYERNAME#" pass="reptile" />
+      <link comp="mainHubAssets" />
+      <account comp="mainHubAssets" user="admin" pass="csec-5xg3D11" />
+    </attachments>
+  </email>
+</mission>

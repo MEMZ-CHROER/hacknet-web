@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase3" activeCheck="true">
+  <goals>
+    <goal type="getAdmin" target="EnTechPrometheus"/>
+  </goals>
+  <missionStart val="11" suppress="true">changeSong</missionStart>
+  <nextMission>BitPath/BitAdv_Intro04.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Onderzoek</subject>
+    <body>Hmmm.
+
+Ik ben al een tijd bezig, maar ik heb nog nooit zoiets gezien. Het is te vroeg om het onbreekbaar te noemen maar... het is nieuw. Anders. Hmm.
+EnTech hè? Ze maken, wat, een redelijk gemiddelde antivirus? Als ze verkopen wat dan ook dit is, dan zouden ze een fortuin verdienen.
+
+Hé, kijk, hun voorkant dingen hebben niet zoiets speciaals. Ik ga graven vanaf het web server einde - kijken vanaf waar dit nieuwe begint. Het lijkt diep genoeg dat ze het proberen te verstoppen voor een reden.
+Geen idee waarom - het lijkt veel gedoe om er langs te komen - bedrijven houden daar van. Dit is ook nog nieuw en glimmend.
+
+Dit is super verdacht.
+Kijk zelf is en kijk hoe ver je binnen kan komen - ik weet niet of ik het ben, maar dit voelt als een veel betere hint dan ik zelfs op hoopte.
+
+Stuur wat terug als je alles hebt gezien. Wees Grondig.
+
+-V
+    </body>
+    <attachments>
+      <link comp="EnTechWeb" />
+    </attachments>
+  </email>
+</mission>

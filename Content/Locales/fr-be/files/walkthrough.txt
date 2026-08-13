@@ -1,0 +1,45 @@
+﻿﻿ GGG  RRRR   OOO    CCC  EEEE RRRR   22   11   11  
+G     R   R O   O  C     E    R   R 2  2 111  111  
+G  GG RRRR  O   O C      EEE  RRRR    2   11   11  
+G   G R  R  O   O  C     E    R R    2    11   11  
+ GGG  R  RR  OOO    CCC  EEEE R  RR 2222 11l1 11l1 
+                                                 
+Grocery Simulator 2010 FULL WALKTHROUGH
+COPYRIGHT 2011 GROCER211
+YOUR bRO in GROCERY-BASED INFOZ
+email grocer211@grocermail.groc!
+
+========================================
+==========CONTENU=====================
+
+INTRO
+
+MISSION 1
+
+MISSION 2
+
+MISSION 3
+
+MISSION 4
+
+BOSS FINAL
+
+HAX + CHEATS
+
+NOTES FINALES
+========================================
+
+INTRO
+
+Du Wiki :
+« Grocery Simulator 2010 est un jeu de simulation dans lequel le joueur endosse le rôle de John Citizen, un épicier qui doit servir des clients, entretenir ses rayons et parfois laver le sol. Il est sorti en octobre 2011 et a reçu des avis allant de »
+
+Bien mon frère, aujourd'hui je vais te faire découvrir la toute dernière sensation mondiale en matière de simulation d'épicerie, Grocery Simulator 2010.
+
+Dans ce jeu, tu es John Citizen : un épicier, dont la vie est complètement chamboulée (lol!). Alors il doit vendre tout un tas de conneries pour se faire des $$$$$.
+
+Alors la première chose : le HUD. Le HUD, c'est l'endroit où tu peux voir ce qui doit être rempli, lorsqu'un nettoyage est nécessaire & combien de clients tu as. Si t'es bloqué, tu peux passer en mode vision d'épicier. Ça te permet de voir automatiquement les tâches les plus importantes à effectuer. Pour te déplacer, utilise e (avant), s (gauche), d (arrière), et f (déplacement latéral gauche), et z pour te retourner et utiliser un objet (à utiliser pour activer le truc le plus près, comme pour laver ou stocker). ASTUCE : Il peut sembler que ton personnage ne marche pas, mais en y regardant de plus près tu peux le voir bouger, c'est juste ses pieds qui bougent pas.
+
+========================================
+
+MISSION 1

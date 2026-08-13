@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="WipeDegrees" owner="Jacob Stevens"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="学業成績を消去せよ">
+匿名希望のとあるCSECのメンバーからちょっとした依頼がありました。身元が割れるのを防ぐため、他の者に頼みたいとのことです。
+
+メンバーの以前の雇い主は、給料の支給を滞らせる、社員に節約を強要するなどして、社員全員に対して労働基準を無視するような行動を行っていました。
+この雇い主の間違いを正す企ての一環として、このメンバーは彼の学業成績の削除を望んでいます。
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>記録を消去せよ</subject>
+    <body>この仕事は匿名を希望するCSECメンバーによって依頼されました。この依頼内容から依頼人の身元を割り出すことは用意ですが、あくまでCSECの仕事として、このメンバーのプライバシーや
+    匿名性を通例通り尊重し、身元の特定はしないでください。
+
+仕事依頼:
+前の職場の雇い主の学業成績を削除してほしい。彼の学歴、学位、全部きれいに消してもらいたい。
+
+名前: Jacob Stevens
+    
+注意: 侵入の痕跡を消すことを忘れないでください。国際的な機関はその評判が命――あなたはその評判を汚すようなことをするのです。彼らが痕跡を見つければ、いかなる手を使ってでもあなたを
+罰するでしょう。
+      
+-CSEC
+    </body>
+    <attachments>
+      <link comp="academic" />
+      <note title="ターゲットの名前">記録を削除せよ
+名前: Jacob Stevens</note>
+    </attachments>
+  </email>
+</mission>

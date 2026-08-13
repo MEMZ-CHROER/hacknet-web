@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews01">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Entropy Grubu Hack Olayına Mı Karıştı?">
+Son zamanlarda yayınlanan haberlerde internet üzerinde çalışan "Entropy" grubunun kötü niyetli bir hackerı koruduğu ve işe aldığı öne sürülmüştü.
+Bu bilgi henüz doğrulanamıyor, ancak bu haberler doğruysa yakın gelecekte bu grup kesinlikle yasal işlemlerle karşı karşıya kalacak.
+Bu durum muhabiriniz olarak benim gözümde üretken grupların gelişmesini sağlayan internet ağımıza açıkça ihanet etmektir ve buna sebep olanlar şiddetli bir şekilde cezalandırılmalıdır.
+
+Muhabir: Tom Wilkins
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Durdurulmalı</subject>
+    <body>
+Entropy veritabanını yok et.
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

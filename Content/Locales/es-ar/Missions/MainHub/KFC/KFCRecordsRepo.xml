@@ -1,0 +1,81 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="kfcRecordsRepo" ip="202.7.177.65" name="Almacén de registros de CFC" security="2" type="4">
+  <ports>80,25</ports>
+  <trace time="125"/>
+  <proxy time="0"/>
+  <firewall level="2" solution="CHICKEN"/>
+  <positionNear target="kfcMainframe" position="1" total="3"/>
+  <link target="kfcMainframe"/>
+
+  <file path="home/Ordering" name="Seasoning_Order_Guidelines.docx">
+DIRECTRICES DE SEPARACIÓN DE PEDIDOS 
+   
+Los pedidos de la mezcla de aderezos deben enviarse a dos compañías distintas, cada una de las cuales suministra la mita de la mezcla (en las instalaciones de Nuevo México se combinan las especias del 1 al 6, y en las instalaciones nacionales de Kentucky se mezclan las 5 especias restantes, en la actualidad). 
+Las dos entregas distintas deben mezclarse en la sede central de Distribución de CFC y colocarse en bolsas blancas sin marcar para su distribución a las franquicias. 
+
+Las bolsas con el aderezo preparado se envían a las franquicias, donde en la propia tienda se combina con una mezcla de rebozado de harina, huevo en polvo, leche en polvo y sal para crear el producto final. 
+Esto garantiza que nunca pueda distribuirse una copia digital de la receta secreta en su totalidad.
+  </file>
+
+  <file path="home/Ordering" name="Seasoning_Order_Placement_Template_Pt1.docx">
+    PLANTILLA DE PEDIDO PARA ENTREGA DE PRODUCTOS SECOS DE CFC
+
+ Instalaciones: 228 Esperenza Rd. Nuevo México
+ Producto: Mezcla de hierbas y especias 
+Volumen unitario: 1 kg
+ Unidades totales: [UNIT_VOLUME_NEEDED] 
+
+Guía de producción del producto: 
+
+   Fórmula -- 
+   16 % | Paprika.
+    09 % | Salvia troceada.
+    24 % | Ajo en polvo.
+    28 % | Allspice.
+    07 % | Orégano.
+    16 % | Mejorana.  
+
+  </file>
+  
+    <file path="home/Ordering" name="Seasoning_Order_Placement_Template_Pt2.docx">
+    PLANTILLA DE PEDIDO PARA ENTREGA DE PRODUCTOS SECOS DE CFC
+
+ Instalaciones: 11 Mt Eden Rd. Shelbyville, Kentucky 
+Producto: Mezcla de especias 
+Volumen unitario: 1 kg 
+Unidades totales: [UNIT_VOLUME_NEEDED] 
+
+Guía de producción del producto:
+
+    Fórmula --
+    14 % | Albahaca.
+    04 % | Chili en polvo.
+    42 % | Glutamato monosódico.
+    24 % | Sal de cebolla.
+    16% | Pimienta roja (kampot).
+
+  </file>
+
+  <file path="home/Ordering" name="Order_Requirement_Certs.docx">
+Certificación para encargados de alimentos - PDF en inglés/PDF en español, formulario 
+
+DBPR HR 5030-080, hoja precortada utilizada por los inspectores de la División de Hoteles y Restaurantes para recordar a los licenciatarios el requisito del encargado de alimentos. (7 de mayo de 2010)
+ Guía de recursos para la recuperación de alimentos - PDF
+
+ Guía del Departamento de Agricultura y Servicios al Consumidor de Florida para las organizaciones que han indicado su interés en participar en el Programa de Recuperación de Alimentos para el suministro de los alimentos enlatados o perecederos sobrantes para los necesitados o para la recogida y el transporte de alimentos a esas organizaciones - 
+PDF Formulario
+
+ DBPR HR 5022-015, formulario de ejemplo utilizado por la División de Hoteles y Restaurantes para registrar las inspecciones en establecimientos públicos de servicios alimentarios. (Revisado el 1 de octubre de 2009)
+  </file>
+  
+  <file path="home/Media" name="Logo.png">#BINARY#</file>
+  <file path="home/Media" name="Logo_Small.png">#BINARY#</file>
+  <file path="home/Media" name="MediaKit_2011.zip">#BINARY##BINARY#</file>
+  <file path="home/Media" name="Guide.txt">
+    En Kernel's Food Corner tenemos una única misión: servir el pollo más sabroso del mundo.  
+    Por eso solo usamos los mejores ingredientes, pollos enteros entregados frescos.  
+    Luego se prepara al momento, se reboza a mano con nuestras recetas secretas y nuestros cocineros certificados por CFC lo cocinan en ese instante en todos nuestros restaurantes.  
+    ¿Fácil? No. Pero solo hace falta un bocado para recordar por qué ese esfuerzo extra merece la pena.  
+    Porque recién hecho, sabe mejor. Párate en tu CFC local y pruébalo.
+  </file>
+</Computer>

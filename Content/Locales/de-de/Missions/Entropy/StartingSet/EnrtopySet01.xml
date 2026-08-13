@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDeletion" target="pointclicker" file="Mengsk.pcsav" path="PointClicker/Saves" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Point Clicker">
+Ein Client möchte seinen Spielstand von einem Server löschen, um endlich wieder "arbeiten" zu können.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Point Clicker</subject>
+    <body>Grüße Zivilist,
+    
+man hat mich in eine schwere Zwickmühle versetzt und leider scheint keiner meiner inkompetenten Kollegen das Problem lösen zu können. Und so fühle ich mich, so sehr es mich auch schmerzt, gezwungen, um Hilfe von außen zu bitten.
+Mir wurde versichert, dass diese Leitung sicher ist. Ich fass mich also kurz; Ich bin Weltranglistenführer in "PointClicker" und möchte meine Fähigkeiten erneut beweisen; leider gibt es aber keine Möglichkeit, das Spiel zurückzusetzen. 
+Da kommst du ins Spiel. Ich bitte dich, in den Server einzudringen und meinen Spielstand zu löschen. Mein Nutzername ist "Mengsk". Du kannst dich auch gerne vorher im Glanze meines Triumphs sonnen.
+
+Weitermachen,
+-M
+    </body>
+    <attachments>
+      <link comp="pointclicker" />
+      <note title="Kontaktinfos">Kontakt:
+"Mengsk"</note>
+    </attachments>
+  </email>
+</mission>

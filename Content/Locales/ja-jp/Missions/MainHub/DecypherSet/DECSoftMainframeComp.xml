@@ -1,0 +1,265 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="decSoftMainframe" name="DEC Solutions Mainframe" ip="101.0.89.154" security="5">
+  <ports>21, 25, 22, 80, 1433</ports>
+  <portsForCrack val="5" />
+  <firewall level="-1"/>
+  <trace time="-1" />
+  <proxy time="0" />
+
+  <encryptedFile path="home" name="encrypt.dec" ip="101.0.89.154" header="Secured Source Code" extension=".cs" double="true">
+        private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data[i] * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + " ");
+            }
+            return ret.ToString().Trim();
+        }
+  </encryptedFile>
+
+  <encryptedFile path="Staff/D.Leatrou" name="Personal_Notes.dec" ip="101.0.89.154" header="DOUBLE ENCRYPTION" extension=".txt" double="true" pass="dleatrou">
+どうも気になるんだが、Kathyは私に対して気があるかもしれない。まあ、彼女に非はない。私も時々、自分の整った顔に見とれてしまうくらいだ（実際問題、魅力的なんだ。もっと鏡を置いたほうがいいかもしれない）。
+この件に関しては、冷静さを保ち続けることがなによりも重要だ。彼女が私に対する性的な嫉妬心から攻撃してきたことをここに記しておく。私が無実であることは、既に報告されている。
+
+-David Leatrou - CEO
+28/12/2013
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/D.Leatrou" name="Lawsuit_Response.dec" ip="101.0.89.154" header="DOUBLE ENCRYPTION" extension=".txt" double="true" pass="dleatrou">
+Leatrou様。
+
+先日頂きましたご連絡に関しまして、弊社の法務顧問団と議論を交わしました。その結果、あなたが行った「二重使用」（これは、通常1個での使用が推奨されているコンドームを、1度に2個使用することを指しています）は私たちが推奨する用法から明らかにかけ離れております。よって、弊社商品が高い確立で破損していると主張されましても、あなたの取られた行動に対して私たちは一切の法的責任を負わないこととなります。
+今後は、推奨される用法・用量を守ってご使用されることをお勧めします。
+
+あなたと12人のお子さんに、どうかご多幸がありますように。
+
+-Jennifer Stem,
+Durex - カスタマーサービス部
+  </encryptedFile>
+  
+  <file path="Staff/D.Leatrou" name="Staff_Memo.txt">
+ごきげんよう、みんな。
+
+まずはじめに、新型暗号化ツールのローンチ成功、本当におめでとう。このプロジェクトは現在のところ大きな成功を収めている。君たちも私と同じように、この新たなマーケティング素材に期待してくれていれば幸いだ。
+DEC Solutionsは、世界規模のソフトウェア開発においていっそう勢力を拡大した。これを機に、わが社はより積極性を増し、より高い目標を掲げていく必要があると思う。この目標達成のため、社内ポリシーにいくつか新しい項目を付け加えるつもりだ。施行されたポリシーが、社員全員の作業効率を改善することを願う。君たちも気に入ってくれるはずだ。
+
+新ポリシーは最終決定が下されてから数日のうちに発表される見込みだ。それまでは今まで通りに頑張ってくれたまえ！
+
+実りある一日にしていこう。
+-David Leatrou - CEO
+</file>
+
+  <file path="Staff/D.Leatrou" name="New_Policies.txt">
+ごきげんよう、みんな。
+これが数日前に話していた新しいポリシーだ。よく読むように！
+   
+1) 企業の機密データ（ソースコード、機密事項メモなど）は、作業中以外常に暗号化すること。
+もちろんわが社のソフトウェアを使っていこう！君たちもウェブサイトを見たなら、暗号化がビジネスの安全性と信頼性を高めることは理解してくれるだろう。
+私自身も、自身のファイルの暗号化を既に開始している。重要なファイルは二重に暗号化しているくらいだ！例えるなら、コンドームを二重に使うようなものだ。1つが壊れたとしても、安全は守られる。
+
+2) ファイルを暗号化する際、たいていの場合はパスワードを設定しなくても大丈夫だ。しかし、重要なファイルを暗号化するときなど、安全性を確実にしたい時は、各自の社内IDをパスワードとして使うといい。
+例えば、私のIDは「dleatrou」だから、これをパスワードとして使うのだ。
+
+3) 暗号化ツールのビルドはオフラインにしておき、外部に出さないこと。このデジタルセキュリティの時代において、対策しすぎるなんてことはない！
+
+暗号化されていない社内メモも、これで最後だ！
+-David Leatrou - CEO
+  </file>
+  
+  <file path="Staff/D.Leatrou/Locked" name="RE:Decypher_Memo.txt">
+    了解した、教えてくれてありがとう。
+    何かの役に立つかもしれないから、プログラムをコピーして何人かに送らせてもらった。
+    ありがとう、素晴らしい仕事だ。
+
+    -David Leatrou - CEO
+
+    -----------------------------------------REPLY TO : -----------
+    
+    David、
+
+    契約社員から受け取った、暗号化ツールに使われるコードに目を通したんだが・・・このコードには脆弱性がある。簡単に解読が可能だ。本当に、危険なぐらい簡単だ。
+    君にもわかってもらえるよう、解読できるプログラムを作って送っておいた。脆弱性を確認できたら、このプログラムとこのメモはすぐに削除したほうがいいだろう。
+
+    起動するには、コマンドラインに下のように打ち込んでくれ。
+    "Decypher [ここにファイル名]"
+
+    パスワードを使いたかったら、ファイル名の後に追加すればいい。
+    "Decypher [ファイル名] [パスワード]"
+
+    ・・・君に直接見せたほうがいいかと思ってね。
+    -J
+  </file>
+  
+
+  <encryptedFile path="Staff/J.Scott" name="Decypher.dec" ip="101.0.89.154" header="DECYPHER - DO NOT SHARE" extension=".exe">#DECYPHER_PROGRAM#</encryptedFile>
+  
+  <encryptedFile path="Staff/J.Scott" name="Decypher_Memo.dec" ip="101.0.89.154" header="Corporate Memo" extension=".txt">
+  David、
+
+    契約社員から受け取った、暗号化ツールに使われるコードに目を通したんだが・・・このコードには脆弱性がある。簡単に解読が可能だ。本当に、危険なぐらい簡単だ。
+    君にもわかってもらえるよう、解読できるプログラムを作って送っておいた。脆弱性を確認できたら、このプログラムとこのメモはすぐに削除したほうがいいだろう。
+
+    起動するには、コマンドラインに下のように打ち込んでくれ。
+    "Decypher [ここにファイル名]"
+
+    パスワードを使いたかったら、ファイル名の後に追加すればいい。
+    "Decypher [ファイル名] [パスワード]"
+
+    ・・・君に直接見せたほうがいいかと思ってね。
+    -J
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/J.Scott" name="RE:RE:Decypher_Memo.dec" ip="101.0.89.154" header="Corporate Memo" extension=".txt">
+    当然だよ。
+    
+    ところで、メールの最後にいつも「CEO」って付けてるけど、これは本当に必要なのかい？僕に対しても？
+    
+    -----------------------------------------REPLY TO :
+    了解した、教えてくれてありがとう。
+    何かの役に立つかもしれないから、プログラムをコピーして何人かに送らせてもらった。
+    ありがとう、素晴らしい仕事だ。
+
+    -David Leatrou - CEO
+
+    -----------------------------------------REPLY TO :
+    David、
+
+    契約社員から受け取った、暗号化ツールに使われるコードに目を通したんだが・・・このコードには脆弱性がある。簡単に解読が可能だ。本当に、危険なぐらい簡単だ。
+    君にもわかってもらえるよう、解読できるプログラムを作って送っておいた。脆弱性を確認できたら、このプログラムとこのメモはすぐに削除したほうがいいだろう。
+
+    起動するには、コマンドラインに下のように打ち込んでくれ。
+    "Decypher [ここにファイル名]"
+
+    パスワードを使いたかったら、ファイル名の後に追加すればいい。
+    "Decypher [ファイル名] [パスワード]"
+
+    ・・・君に直接見せたほうがいいかと思ってね。
+    -J
+  </encryptedFile>
+
+  <encryptedFile path="Staff/J.Scott" name="Encryption_Base2.dec" ip="101.0.89.154" header="Source Code" extension=".cs">
+    
+        /// summary
+        /// Returns an array containing
+        /// [0] Header Message
+        /// [1] IP Link
+        /// [2] Message Data
+        /// [3] File extension if provided, else null
+        /// summary
+        public static string[] DecryptString(string data, string pass = "")
+        {
+            string[] ret = new string[4];
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string[] split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+            string[] headersSplit = split[0].Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+
+            string headerMsg = Decrypt(headersSplit[1], passcode);
+            string ipLink = Decrypt(headersSplit[2], passcode);
+            string check = Decrypt(headersSplit[3], passcode);
+            string fileExtension = null;
+            if (headersSplit.Length > 4) fileExtension = Decrypt(headersSplit[4], passcode);
+            string message;
+            if (check == "ENCODED") {
+                //Password was correct!
+                message = Decrypt(split[1], passcode);
+            }
+            else {
+                //invalid password
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+            }
+            ret[0] = headerMsg;
+            ret[1] = ipLink;
+            ret[2] = message;
+            ret[3] = fileExtension;
+            return ret;
+        }
+  </encryptedFile>
+
+  <encryptedFile path="Staff/J.Scott" name="Decypher_Test.dec" ip="101.0.89.154" header="Source Code" extension=".cs">
+    
+    private static string Decrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            string[] input = data.Split(Utils.spaceDelim, StringSplitOptions.RemoveEmptyEntries);
+            for (int i = 0; i LESS_THAN input.Length; i++) {
+                int currentChar = Convert.ToInt32(input[i]);
+                int halfmax = ushort.MaxValue / 2;
+                int newVal = currentChar - halfmax - passcode;
+                newVal = newVal / 1822;
+                ret.Append((char)newVal);
+            }
+            return ret.ToString().Trim();
+        }
+  </encryptedFile>
+
+  <file path="Staff/A.Carey" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="Staff/A.Carey" name="Staff_Memo.txt">
+ごきげんよう、みんな。
+
+まずはじめに、新型暗号化ツールのローンチ成功、本当におめでとう。このプロジェクトは現在のところ大きな成功を収めている。君たちも私と同じように、この新たなマーケティング素材に期待してくれていれば幸いだ。
+DEC Solutionsは、世界規模のソフトウェア開発においていっそう勢力を拡大した。これを機に、わが社はより積極的を増し、より高い目標を掲げていく必要があると思う。この目標達成のため、社内ポリシーにいくつか新しい項目を付け加えるつもりだ。施行されたポリシーが、社員全員の作業効率を改善することを願う。君たちも気に入ってくれるはずだ。
+
+新ポリシーは最終決定が下されてから数日のうちに発表される見込みだ。それまでは今まで通りに頑張ってくれたまえ！
+
+実りある一日にしていこう。
+-David Leatrou - CEO
+</file>
+
+  <file path="Staff/A.Carey" name="New_Policies.txt">
+ごきげんよう、みんな。
+これが数日前に話していた新しいポリシーだ。よく読むように！
+   
+1) 企業の機密データ（ソースコード、機密事項メモなど）は、作業中以外常に暗号化すること。
+もちろんわが社のソフトウェアを使っていこう！君たちもウェブサイトを見たなら、暗号化がビジネスの安全性と信頼性を高めることは理解してくれるだろう。
+私自身も、自身のファイルの暗号化を既に開始している。重要なファイルは二重に暗号化しているくらいだ！例えるなら、コンドームを二重に使うようなものだ。1つが壊れたとしても、安全は守られる。
+
+2) ファイルを暗号化する際、たいていの場合はパスワードを設定しなくても大丈夫だ。しかし、重要なファイルを暗号化するときなど、安全性を確実にしたい時は、君の社内IDをパスワードとして使うといい。
+例えば、私のIDは「dleatrou」だから、これをパスワードとして使うのだ。
+
+3) 暗号化ツールのビルドはオフラインにしておき、外部に出さないこと。このデジタルセキュリティの時代において、対策しすぎるなんてことはない！
+
+暗号されていない社内メモも、これで最後だ！
+-David Leatrou - CEO
+  </file>
+
+  <encryptedFile path="Staff/A.Carey" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+  <encryptedFile path="Staff/A.Carey" name="DECE_TestBuild.dec" ip="101.0.89.154" header="Source Code" extension=".bin">#BINARY#</encryptedFile>
+
+  <encryptedFile path="Staff/K.Abrams" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+  <encryptedFile path="Staff/K.Abrams" name="IMPORTANT_MEMO.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+  やあ、Kathy。
+  
+  今日、一緒にちょっとコーヒーを飲みに行かないかい？3時にはオフィスに戻るよ。
+  
+  よろしく！暗号化を忘れずにね！
+  -David Leatrou - CEO
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/K.Abrams" name="Notes.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+    ストックが切れそうなもの:
+    
+    方眼紙
+    会社のTシャツ（S、L、とXL）
+    コーヒー（重要、大至急）
+    コーヒーマグ（何回も割ってるのは誰？！）
+    鏡（Davidはなんでこんなに注文したの？）
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/K.Abrams" name="Needed_In_Office.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+    やあKathy、
+
+    モラル向上のために、新しく鏡を何個か置くことにしたんだ。そうだな、6個ぶんくらい置く場所を作ってもらえないかい？
+    これで職場も明るくなると思うんだ。
+
+    よろしく頼むよ！
+    -David Leatrou - CEO
+  </encryptedFile>
+  
+</Computer>

@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Shells">
+Shell zijn compacte, weinig geheugen remote processen die op een aparte machine actief zijn zodat die gebruikt kunnen worden vanaf elke verbinding.
+Deze ongeloofelijk handige processen zijn bruikbaar voor veel taken, hoewel hun capaciteiten afhangen van het type shell dat wordt gebruikt.
+
+Gemeenschappelijke functies over netwerken zijn:
+
+Overload:
+Ontworpen om netwerken en proxy servers te testen, deze functionaliteit vloed het doelwit met afval netwerk verkeer van de node waar de shell actief is, die het geheugen van de proxy opvult en de cpu tijd verhoogt.
+
+Trap:
+Een shell in deze modus zal de gebruiker op de hoogte stellen als een vreemde gebruiker verbind aan de machine met de shell en staat een nood-forkbomb vloed toe naar alle andere gebruikers die verbonden zijn.
+Dit kan ontzettend handig zijn voor het onderhouden van beveiliging van een een computer terwijl er ander werk gedaan wordt.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Ontvangen van deze email betekent dat er een onverwachte fout is opgetreden.
+Raak in paniek.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

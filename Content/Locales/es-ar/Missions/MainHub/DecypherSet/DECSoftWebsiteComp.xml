@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="decSoftWeb" name="Servidor web de DEC Solutions" security="2">
+  <ports>80, 1433</ports>
+  <portsForCrack val="2"/>
+  <firewall solution="ENCRYPT"/>
+  <addWebServer name="www.DEC-Solutions.com" url="Content/Web/Presets/DEC/DECMainPage.html"/>
+  <proxy time="0"/>
+
+  <positionNear target="decSoftMainframe" position="1" total="3"/>
+  <dlink target="decSoftMainframe"/>
+
+  <file path="home" name="README.txt">
+    Ja, ja, ¡has mirado!
+  </file>
+  
+  <encryptedFile path="home" name="Staff_Memo.dec" ip="101.0.89.154" header="Staff memo" extension=".txt">
+Saludos a todos:
+
+ En primer lugar, enhorabuena por el exitoso lanzamiento de nuestro conjunto de cifrado. Ha sido un gran éxito, y espero que a todos os guste tanto el nuevo material de marketing como a mí. 
+A medida que la importancia de DEC Solutions aumenta en el desarrollo de software en todo el mundo, creo que, como empresa, tenemos que dar un paso adelante y marcarnos
+ estándares más altos. Para eso, voy a imponer algunas nuevas políticas en la compañía que espero que a todos os gusten y que veáis como las mejoras en el proceso de trabajo que yo creo que son. 
+
+Estas nuevas políticas se pondrán en marcha en unos pocos días, en cuanto las haya terminado. Hasta entonces, ¡ya sois unos hombres hechos y derechos (y mujeres, que no soy machista)! 
+
+Tened un día de lo más productivo,
+ -David Leatrou, director general
+  </encryptedFile>
+  
+  <encryptedFile path="home" name="New_Policies.dec" ip="101.0.89.154" header="Staff memo" extension=".txt">
+Saludos a todos: 
+Estas son las nuevas políticas que os prometí hace unos días, ¡leedlas atentamente!
+   
+1) Los datos confidenciales de la empresa (código fuente, memorandos secretos, etc.) deberán estar cifrados en todo momento en que no se esté trabajando en ellos.
+ ¡Y qué mejor software que el nuestro para hacerlo! Habéis visto el sitio web, y estoy seguro de que comprendéis que esto hará de nuestra empresa un sitio más seguro y fiable. 
+Yo ya he empezado el proceso en mis propios archivos, y algunos muy importantes incluso los he cifrado DOBLEMENTE. Es como utilizar 2 condones: incluso si se rompe uno, sigues estando protegido. 
+
+2) Al cifrar archivos, la mayoría de las veces da igual si no tienen contraseña, pero si creéis que algo es de vital importancia, usad vuestro Id. de la empresa como contraseña. 
+Por ejemplo, mis archivos de cifrado seguro deberían usar mi Id. «dleatrou». 
+
+3) Las compilaciones del paquete de cifrado deben mantenerse fuera de línea en todo momento. En esta época de seguridad digital, toda precaución es poca.
+
+ ¡Disfrutad vuestro último memorándum de la empresa sin cifrar!
+-David Leatrou, director general
+  </encryptedFile>
+  <encryptedFile path="home" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+</Computer>

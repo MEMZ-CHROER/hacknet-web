@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="getString" target="AAX1BB7"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="In ein eOS-System eindringen">
+Beschaffe Informationen über eine Zielperson. Der Klient glaubt, dass diese auf einem eOS-System gespeichert werden.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Jailbreak</subject>
+    <body>Kurzgesagt:
+Es wurde in Auftrag gegeben, eine sogenannte "Registration ID" zu beschaffen - diese wird auf dem eOS-Gerät gespeichert, das mit dem Laptop der Zielperson synchronisiert ist.
+
+Wenn du die ID hast, schreib sie in die Antwort. Wir kümmern uns dann um den Rest.
+
+Viel Glück,
+-CSEC
+    </body>
+    <attachments>
+      <link comp="hubEosMisison" />
+      <note title="Auftragsdetails">
+Scanne auf dem Zielcomputer nach eOS Geräten
+Untersuche alle Geräte im Bezug auf eine "Registration ID"
+Antworte CSEC mit besagter ID</note>
+    </attachments>
+  </email>
+</mission>

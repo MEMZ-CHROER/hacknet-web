@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="alphaCredits">
+  <goals>
+  </goals>
+  <missionStart val="5">changeSong</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>The End</subject>
+    <body>
+おめでとう！
+
+Hacknetのクリア、お疲れさま！
+これは元々、友達同士でやってた48時間のゲームジャムで作ったゲームだった。みんながすごく気に入ってくれたものだから、
+そのまま作り続けて2012年にプロトタイプが完成した。反響はすごかったよ。みんなにはメールで「他のゲームの開発があるから
+もうこのゲームは作らない」って言って、作るのをやめようとしたんだけど、どうしてもやめられなかったんだ。
+みんなに隠れてこっそりと作り続けて、ようやく（2年と半年かかったよ！）今の形になったんだ。
+
+遊んでくれてありがとう！もしこのゲームを気に入ってくれたら（くれなくても）matt@hacknet-os.comにメールしてね！
+君の感想が聞きたいんだ。ご意見も歓迎だよ！
+
+僕が作るものが好きな人、興味がある人、作ってる様子をのぞき見したい人がいたら、
+僕のツイッターアカウント（@Orann）をフォローしてね。
+
+ありがとう、
+-Matt
+
+追伸: 添付リンク先のコンピュータに、このゲームの隠し要素を置いてある――見てみてくれ！
+    </body>
+    <attachments>
+      <link comp="creditsComp" />
+    </attachments>
+  </email>
+</mission>

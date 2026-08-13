@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dRicerMission">
+  <goals>
+    <goal type="fileupload" target="dRicer" file="SSLTrojan.dec" path="home/projects" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="El mortero">
+He recibido información sobre la ubicación de alguien que ha encontrado la manera de atravesar los puertos SSL. Por desgracia, su configuración de seguridad es algo inusual.
+  </posting>
+  <email>
+    <sender>El mortero</sender>
+    <subject>El mortero</subject>
+    <body>
+He recibido información sobre la ubicación de alguien que ha encontrado la manera de atravesar los puertos SSL. Por desgracia, su configuración de seguridad es algo inusual.
+----
+El objetivo (el Mortero) está obsesionado con la personalización y tiene seguridad. Hay configuraciones, puertos y distribuciones de servicios nada habituales por todas partes.
+Cuando consigas entrar, queremos una copia de la última versión de ese rompe ssl. Puede que esté encriptado o protegido de alguna manera, pero no pasa nada. Súbelo al servidor compartido (enlazado) cuando tengas algo, y ya nos encargaremos de hacerlo funcionar.
+    </body>
+    <attachments>
+      <link comp="dhsDrop" />
+      <link comp="dRicer" />
+      <note title="Objetivos de la misión">Conéctate al servidor del mortero y burla la seguridad.
+Busca la última versión de un programa que burla los puertos SSL.
+Nota: Puede que esté encriptado u oculto.
+Sube el archivo al servidor compartido del equipo cuando creas que has encontrado algo.</note>
+    </attachments>
+  </email>
+</mission>

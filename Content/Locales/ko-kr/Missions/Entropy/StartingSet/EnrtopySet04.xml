@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="1299"/>
+  </goals>
+  <nextMission>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply.xml</nextMission>
+  <branchMissions>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply2.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply3.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply4_Penetrator.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply5.xml</branch>
+  </branchMissions>
+  <posting title="X-C Project">
+약간 이상한 요청이 들어왔다. 돈이 상당히 많은 누군가가 직장 동료의 태블릿이 근무 중에 개인적인 용도로 사용되었는지 조사해달라고 도움을 요청했다. 저들의 시스템을 잠깥 훑어보니 외계인에 집착하는 사람들인 것 같다.
+
+ 몰입도가 높은 롤플레잉 그룹이거나 음모론자들의 단체일 수도?
+ </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>내부 조사</subject>
+    <body>
+안녕하신가, 
+민간인. X-C 프로젝트에서 당신의 도움이 필요하네. 비록 외부와 상관 없는 내부의 일이긴 하지만, 내가 개인적으로 한동안 의심 가는 구석이 있어서 조사를 해야겠네. 우리 과학 팀에서 촉망 받는 수석 연구원 한 명이... 아무래도 연구에 최선을 다하지 않는 것 같네. 
+외부에서 해당 연구원의 태블릿을 조사하여 혹시 뭔가 이상한 것이나 근무와 관련 없는 내용이 있는지 살펴봤으면 좋겠네.
+
+ 우리 서버는 파일을 ID 코드로 미러링하는 중앙 데이터 저장 시스템을 사용한다네. 당신이 시스템을 조사하여 살펴볼만하다고 생각되는 파일의 코드를 나에게 답신으로 보내주었으면 좋겠네. 
+우리가 원하는 파일은 상단에 다음과 같이 ID가 표시되어 있을 것이네: X-C_PROJECT:ID#11111111, 여기서 &quot;11111111&quot;이 우리가 원하는 ID이네. 
+
+문제의 태블릿에 대한 링크를 첨부하였네.
+
+ 그럼, 행운을 비네,
+ -C.O Bradford
+    </body>
+    <attachments>
+      <link comp="xcTablet"/>
+    </attachments>
+  </email>
+</mission>

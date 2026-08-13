@@ -1,0 +1,150 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="advExamplePC" 
+          name="Adventure Example PC" 
+          ip="167.194.132.7"
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="chip" 
+          type="1" > <!-- 1=  corporativo, 2 = Principal, 3 = servidor 4 = vacío -->
+  <!-- icon:  si no incluyes este valor se implementará el que viene por defecto con el nivel de seguridad, los valores pueden ser "chip" o "laptop" -->
+  
+  <!-- 
+  "Security" es un número del 0 al 5 que representa lo difícil que es el ordenador de hackear
+  Del 1 al 4 se necesitará ese número de puertos abiertos para acceder a él, mientras que del 4 en adelante se añadirá automáticamente más seguridad.
+  
+  "AllowsDefaultBootModule" está activada ("true") por defecto, y hace que cuando te conectes a un nodo este inicie automáticamente el programa por defecto (el último proceso escrito en este archivo) y se muestre en la pantalla.
+  Ya que este ordenador de ejemplo muestra un montón de datos, está desactivado ("false").
+  -->
+
+  <!-- Cuentas -->
+  <adminPass pass="password" />
+  <account username="Matt" password="testpass" type="1" />
+  <!-- Añade una cuenta a este ordenador.
+  "Type" representa los privilegios de la cuenta :
+  ADMINISTRADOR = 0;
+  TODOS = 1;
+  CORREO = 2;
+  LISTA DE MISIONES = 3;
+  -->
+  <account username="mailGuy" password="mailPass" type="2" /> <!-- Make accounts for the mail server like this -->
+  
+  <!-- Seguridad -->
+  <ports>80, 22</ports>
+  <proxy time="2" /> <!-- Servidor Proxy. Poner valor -1 para que no aparezca -->
+  <portsForCrack val="2" /> <!-- Número de puertos necesarios para poder acceder al ordenador -->
+  <firewall level="6" solution="Scypio" additionalTime="1.0"/>
+  <!-- Añade un Firewall - poner "level" a -1 para quitarlo.
+      "Solution" es la palabra que el jugador necesitará para atravesarlo, 
+      el nivel debería ser igual a la longitud de la palabra, pero puede ser mayor
+      (Nunca menor) - "AdditionalTime"" es el tiempo extra que el jugador necesitará para resolver 
+      el firewall (por escaneo)-->
+  <trace time="300" /> <!-- Hace aparecer un rastreador temporizado - asignar valor -1 para quitar -->
+  <admin type="fast" resetPassword="false" isSuper="false"/> 
+  <!-- Añade un "Auto-Administrador" - esto resetea la seguridad y cierra todos los puertos cuando
+  el jugador se deconecta. Los tipos disponibles son "basic" y "fast" - "basic" se activa tras 15 segundos de desconexión.
+  El Auto-Administrador resetea instantáneamente la seguridad si está en el valor "fast"
+  -->
+  
+  <!-- Redes -->
+  <dlink target="advExamplePC2" /> <!-- Esto conecta a este ordenador con otro (en sentido único) - si se hace un escaneo desde este, se revelará el ordenador "target" -->
+  
+  <positionNear target="advExamplePC2" position="1" total="3" />
+  <!-- Esto posiciona a "target" cerca del ordenador actual en el mapa
+       "Position" es el lugar que "target" ocupará en el mapa alrededor del ordenador actual,
+       y "total" es el número total de nodos que hay a su alredeor - de esta manera puedes crear redes de apariencia vistosa-->
+  
+  
+  
+  <!-- Archivos -->
+  <file path="home" name="Test_File">This is a test file in the home directory</file>
+  <file path="bin" name="Binary_File">#BINARY#</file>
+  <file path="home/NewDirectory" name="Test_File">
+This is a longer file that also creates a new directory by adding something to path
+
+    #BINARY#
+    This generates some binary (2000 chars of it)
+
+    #PLAYER_IP#
+    Becomes the IP of the player's computer
+
+    #PLAYERNAME#
+    the above string converts itself into the player's name
+
+    test test
+  </file>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <!-- port 1433 -->
+
+  <file path="sys" name="White-Theme.sys">#WHITE_THEME#</file>
+  <file path="sys" name="Green-Theme.sys">#GREEN_THEME#</file>
+  <file path="sys" name="Yellow-Theme.sys">#YELLOW_THEME#</file>
+  <file path="sys" name="Teal-Theme.sys">#TEAL_THEME#</file>
+
+  <encryptedFile path="home" name="encrypted_File.dec" extension=".txt" ip="192.168.1.1" header="This is the header" pass="decryptionPassword">
+    This generates an encrypted file that can be decrypted using the password above
+  </encryptedFile>
+
+  <encryptedFile path="home" name="easy_encrypted_File.dec" ip="192.168.1.1" header="This is the header">
+    By simply not providing a password like this one, it can be decrypted without a password
+  </encryptedFile>
+  
+  <!-- Daemons (programas en segundo plano) -->
+  <!-- Estos son los programas que hay en los nodos interactivos
+  Es poco probable que puedas usar la mayoría de ellos ya que no puedes modificar su código,
+  pero aquí hay varios de ellos que deberían de funcionar-->
+
+  <mailServer name="Example Mail Server" color="50,237,212">
+    <email recipient="mailGuy" sender="Sender Guy" subject="Adding an email!">
+This is how you add emails to the mail server - logging in with someone's account
+will show these just like the way the player gets emails.
+    </email>
+    <email recipient="mailGuy" sender="Spam" subject="amazing features">
+You can have as many of these as you want
+    </email>
+    <email recipient="Matt" sender="Spam" subject="amazing features">
+Different users too
+    </email>
+  </mailServer>
+
+  <!-- Añadir esta sección hará que se cree un nuevo nodo enlazado a este,
+  el cual es un terminal eOS (móvil/tablet), con todos estos archivos en él.
+  También crea algunas apps en el terminal para darle contenido-->
+  <eosDevice name="Deliliah's ePhone 4S" id="eosIntroPhone" icon="ePhone2">
+    <note>TestNote
+More text</note>
+    <note>Note filenames
+Note filenames are generated automatically by taking the first line of the file
+(in this case "Note Filenames") and replacing spaces with underscores.</note>
+    <mail username="test@jmail.com" pass="thisIstheaccountpass" />
+    <mail username="test2@jmail.com" pass="YouCanHaveLotsOfThese" />
+  </eosDevice>
+
+  <!--
+  <addOnlineWebServer name="Reddit" url="http://www.reddit.com" />
+  -->
+  <!-- Esto añade un enlace a un sitio web real. Solo puede haber uno por nodo.-->
+
+  <uploadServerDaemon name="Upload Dropbox" folder="Drop" 
+                      needsAuth="false" color="204,116,212"/>
+  <!-- Esto es un tipo de servidor especial que te deja subir archivos sin permisos de administrador -->
+  <addWebServer name="Website Server"
+                url="Content/Web/Presets/Nortron/NortronPublicPage.html" />
+  <!-- Los servidores web se añaden asi - puedes añadir tus propias páginas web (offline)
+  a esta carpeta y que se muestren en el juego.  Acepta código HTML, excepto el tag "input" -->
+  
+  
+  <!-- Extras -->
+  <!--
+  <ExternalCounterpart id="testEP" name="External Counterpart Demo" />
+  -->
+  <!-- Esto añade una conexión externa desde una web real al terminal virtual.  Si tienes
+   una sesión de hacknet abierta como servidor, añade su id e IP a Content/Network/NetworkIPList.txt,
+	su dirección externa aquí, y funcionará como un servidor real al modificar archivos en-
+	este terminal virtual - un claro ejemplo es al abrir la bandeja lectora de CD.
+  -->
+  
+</Computer>

@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Intimidatie Tactiek">
+Collega's van een gewaardeerde klant zijn direspectvol geweest en moeten een boodschap worden gestuurd.
+Vernietig hun nieuwe server backup.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Intimidatie Tactiek</subject>
+    <body>
+Gegroet Agent,
+
+Een collega van ons heeft onlangs zijn grens overtreden, op een disrespectvolle manier. We willen hem een boodschap sturen.
+
+Uit onze informatie blijkt dat ze recentelijk een bedrijfs-brede backup hebben voltooid en opgeslagen op een aparte server. Zonder de huidige versie te beschadigen, geloven wij dat het verwijderen van dit archief een voldoende signaal is voor hun.
+Je kan de informatie bijgevoegd zien.
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

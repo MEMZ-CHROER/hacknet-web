@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="Entropy_DLC_End" activeCheck="true">
+  <goals>
+    <!-- No goals and autocomplete here - this exists to clear player missions and also send them back to their faction -->
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="">
+  </posting>
+  <email>
+    <sender>Tex</sender>
+    <subject>Tout va bien ?</subject>
+    <body>#PLAYERNAME#,
+    
+Tu ne t'es pas connecté sur Entropy depuis les épreuves de Kaguya, est-ce que ça va de ton côté ?
+Je m'attendais bien sûr à ce que cette faction ait beaucoup de taff, mais ça commence à faire un bout de temps que tu es partie.
+
+Si tu marques une pause avec Entropy, sache que tu pourras revenir quand tu voudras.
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy00" />
+    </attachments>
+  </email>
+</mission>

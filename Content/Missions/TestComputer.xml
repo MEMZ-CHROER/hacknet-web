@@ -1,0 +1,164 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="test01" name="Test" ip="test" security="0" icon="DLCServer" type="5">
+  <file path="home" name="Binary_File">#BINARY#</file>
+  <file path="home" name="Text_File">This is a dest of data file content</file>
+
+  <ports>21, 22, 25, 80, 1433, 104, 3724, 192</ports>
+
+  <!--
+  <eosDevice name="Test Phone" id="eosTest1">
+    <note>This is the first test note</note>
+    <note>Second test note</note>
+    <mail username="matt" pass="test" />
+  </eosDevice>
+  -->
+  <eosDevice name="Test Phone 2" id="eosTest2">
+    <note>22This is the first test note</note>
+    <note>22Second test note</note>
+    <mail username="matt2" pass="test" />
+  </eosDevice>
+
+  <encryptedFile path="home" name="encrypted_File.dec" ip="192.168.1.1" header="This is the header" extension=".doc">This is a dest of data file content
+  
+  #BINARY#
+  
+  more data
+  
+  intense test
+  
+  many line 
+  
+  wow
+  
+  </encryptedFile>
+
+  <encryptedFile path="home" name="double_end.dec" ip="192.168.1.1" header="DOUBLE ENCRYPTION" extension=".txt" double="true">
+    You broke my double encryption?! That's impossible!!!!!!!
+  </encryptedFile>
+
+  <encryptedFile path="home" name="passEnc.dec" ip="192.168.1.1" header="DOUBLE ENCRYPTION" extension=".txt" pass="test">
+    You broke my double encryption?! That's impossible!!!!!!!
+  </encryptedFile>
+
+
+  <file path="KBT_Pacemaker" name="readme.txt"> All files in this folder will be detected by the pacemaker software and can be nominated in the ui as a firmware patch, if it detects that the file is correctly signed.
+If you with to remotely patch this chip, upload a file to this folder using the "upload [LOCAL FILE PATH]".
+  </file>
+
+  <file path="KBT_Pacemaker" name="error.dll">#PACEMAKER_FW_DANGER#</file>
+
+  <file path="home" name="CreditsData.txt">
+%---  Labyrinths Project  ---
+
+^Design and Development
+Matt Trobbiani
+
+^Writing
+Damon Reece (@dreadofmondays)
+Matt Trobbiani (@Orann)
+
+^Logos and Diagrams
+W O V A Studio
+www.wova.pl
+
+^Neopals Artis
+Poppy de Raad (@pixecology)
+
+^Backgrounds
+Angelus-Hellion
+angelus-hellion.deviantart.com
+
+^Community Managers
+Colamaeleon
+RainShatter
+Aidy
+
+^Special Thanks
+Jamie Williamson
+Bec Pelvay
+Chris Johnson
+Chelsea Easton
+Alex Mackay
+Lauren Clinnik
+Morgan Jaffit
+Izzy Gramp
+Ben Trobbiani
+Stephen Trobbiani
+Laura Trobbiani
+Gabriele Trobbiani
+Pam Carroll
+
+</file>
+  
+  <!--
+  
+  <messageBoard name="/el/ - Digital Security">
+    <thread>Content/Missions/lelzSec/MessageBoard/Threads/PolarSnake.txt</thread>
+    <thread>Content/Missions/lelzSec/MessageBoard/Threads/TestThread.txt</thread>
+    <thread>Content/Missions/lelzSec/MessageBoard/Threads/CoderThread.txt</thread>
+    <thread>Content/Missions/lelzSec/MessageBoard/Threads/TimestampsThread.txt</thread>
+  </messageBoard>
+  -->
+
+  <memoryDumpFile name="testDump.md" path="home">
+    <Memory>
+      <Data>
+        <Block>test string one</Block>
+        <Block>test string two</Block>
+      </Data>
+      <Commands>
+        <Command>connect 123.123.123.123</Command>
+      </Commands>
+      <Data>
+        <Block>Hi,
+ 
+We have got the final version of the Chinese Translation, you can see it in the attachment.
+ 
+The core contributor list is listed just below:
+ 
+Venique
+ShiveryMoon
+Tenderness-Miao
+ 
+As for the steam page. When is the deadline of translation? We are happy to translate it.
+ 
+If there are any bugs in the Chinese Translation, Please contact me asap</Block>
+        
+        <Block>Hi,
+ 
+We have got the final version of the Chinese Translation, you can see it in the attachment.
+ 
+The core contributor list is listed just below:
+ 
+Venique
+ShiveryMoon
+Tenderness-Miao
+ 
+As for the steam page. When is the deadline of translation? We are happy to translate it.
+ 
+If there are any bugs in the Chinese Translation, Please contact me asap</Block>
+        
+        <Block>Hi,
+ 
+We have got the final version of the Chinese Translation, you can see it in the attachment.
+ 
+The core contributor list is listed just below:
+ 
+Venique
+ShiveryMoon
+Tenderness-Miao
+ 
+As for the steam page. When is the deadline of translation? We are happy to translate it.
+ 
+If there are any bugs in the Chinese Translation, Please contact me asap</Block>
+      </Data>
+      <Images>
+        <Image>BoatmailLogo</Image>
+        <Image>DLC/Sprites/Airplane</Image>
+        <Image>DLC/Sprites/Neopals/Pageri</Image>
+      </Images>
+    </Memory>
+  </memoryDumpFile>
+  
+</Computer>
+

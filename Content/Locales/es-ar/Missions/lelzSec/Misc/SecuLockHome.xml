@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="SecuLockHome" name="Stormrider" ip="199.89.130.68" security="2" icon="laptop">
+
+  <portsForCrack val="2"/>
+  <proxy time="1.2"/>
+  <trace time="-1"/>
+  <adminPass pass="ithoughtyouweremakingtea"/>
+
+  <positionNear target="secuLockDrive" position="4" total="5"/>
+
+  <dlink target="secuLockDrive"/>
+  
+  <file path="home" name="DriveSync.txt">Sincronización de dispositivos activa:
+  
+Unidad de almacenamiento segura SecuLock  (@69.172.201.208) 
+
+Dispositivo eOS (&quot;ePhone 4S de Mica&quot;) 
+
+Dispositivo de almacenamiento USBe (&quot;razrblade&quot;): NO ENCONTRADO
+
+ RX994 Dron Hopscotch (&quot;Dragonfly&quot;)
+
+  </file>
+
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  
+  <eosDevice name="Mica's ePhone 4S" icon="ePhone2">
+    <note>servidor prueba secu lock
+creíqueestabashaciendoté
+</note>
+    <note>Regalos
+Tetera de cristal
+Ramo de jazmines cosas de té
+Algunos tés diferentes, algo negro/blanco/verde?
+
+    --
+  
+Una de esas teteras con ajuste de temperatura variable
+Miel/terrones de azúcar caros?
+</note>
+    <mail username="micasa@jmail.com" pass="ithoughtyouweremakingtea"/>
+  </eosDevice>
+  
+</Computer>

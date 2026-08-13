@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="generatedWebVandal00">
+  <goals>
+    <goal type="FileChange" target="#COMP#" file="#FILE#" path="#PATH#" keyword="liars"/>
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# : Expose the Truth">
+Un cliente ha solicitado que la imagen pública de un rival quede expuesta para que se sepa la verdad.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Expón la verdad</subject>
+    <body>
+Hola, agente:
+
+ Queremos exponer la verdad sobre #TARGET#. Han estado engañando maliciosamente al público con una campaña de publicidad que miente con el fin de obtener una ventaja sobre nuestra compañía.
+
+ Nos gustaría que la verdad se revelase en su página web; consideraremos este contrato completado cuando su propia página web les llame MENTIROSOS. 
+
+Gracias,
+ -#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

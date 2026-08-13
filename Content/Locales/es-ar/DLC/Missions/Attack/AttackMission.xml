@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dAttackMission_P">
+  <goals>
+    <goal type="fileupload" target="dAttackTarget" file="MemDumpGenerator.exe" path="bin" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="1">scanAndStartDLCVenganceHack</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Archivos de Striker">
+Un hacker prácticamente desconocido llamado "Striker" ha construido un generador de memoria muy bonito. Queremos una copia.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Lugar secreto de Striker</subject>
+    <body>
+Un hacker prácticamente desconocido llamado "Striker" ha construido un generador de memoria muy bonito. Queremos una copia.
+----
+El objetivo del sistema está relativamente bien defendido, pero creo que podrás arreglártelas. Espero que este trabajo sea lo más limpio posible, sin destrucciones innecesarias ni problemas que no puedas manejar.
+Guarda una copia del generador de memoria y cárgala en el servidor de descargas.
+
+Buena suerte,
+-Kaguya</body>
+    <attachments>
+      <note title="Objetivos de la misión">
+Investiga el servidor de Striker.
+Busca un programa generador de memorias y descarga una copia.
+Súbela al servidor de descargas.
+      </note>
+      
+      <link comp="dAttackTarget" />
+      
+    </attachments>
+  </email>
+</mission>

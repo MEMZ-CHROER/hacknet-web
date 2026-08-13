@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="modifyDeathRowRecord" name="John Boorman">I'm ready, Warden</goal>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Add a Death Row record for a family member">
+Un miembro de la familia de un preso ejecutado ha acudido a nosotros para que su registro del corredor de la muerte se añada a los listados oficiales. 
+Parece que algo huele mal en la sentencia (están convencidos de que fue condenado injustamente) y parece que los esfuerzos por encubrirlo 
+han hecho que el registro quede fuera de los listados oficiales. Según han dicho: «Al menos nos gustaría que se conservasen sus últimas palabras».
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Ausencia injusta</subject>
+    <body>
+Nos gustaría crear un registro del corredor de la muerte. La familia del preso ejecutado ha solicitado que se añada su presencia a la base de datos con los detalles siguientes:
+
+------------------------------------
+Nombre: John 
+
+Apellido: Boorman 
+
+Últimas palabras: «Estoy listo, guardia».
+------------------------------------
+
+Los demás detalles no deberían importar, pero sería mejor que se parecieran a otros registros lo más posible. Para ayudar, se ha cargado una plantilla de registro en el servidor de activos de CSEC (en /home/Templates). 
+Te recomendamos que lo copies, lo edites localmente y luego lo subas cuando hayas entrado. Recuerda cambiar bien el nombre del archivo (comando «mv») para que refleje el nombre y el número de registro que uses. 
+
+Un mensaje del solicitante:
+ «Muchísimas gracias por su ayuda. Todo lo relacionado con el juicio huele mal desde el principio. Aún creemos firmemente que era inocente y hacemos todo lo posible porque se reconozca, incluso ahora.
+ Que no esté en la base de datos es un insulto a su memoria. Al menos nos gustaría que se conservasen sus últimas palabras. De nuevo, gracias».
+    </body>
+    <attachments>
+      <link comp="mainHubAssets"/>
+      <link comp="deathRow"/>
+      <note title="Datos del registro">Nombre: John 
+Apellido: Boorman 
+Últimas palabras: «Estoy listo, guardia».</note>
+    </attachments>
+  </email>
+</mission>

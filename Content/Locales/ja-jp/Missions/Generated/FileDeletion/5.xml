@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - 収穫を止めろ">
+あるクライアントが、ライバル会社が不正に「収穫」した顧客データを広告会社に売ることで利益を得ていることに気が付きました。
+この不正行為を止めてください。
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - 収穫を台無しに</subject>
+    <body>
+エージェントへ
+
+わが社は、とあるライバル会社が不正な方法で利益を得ていることを発見した。彼らは顧客情報（メール、名前、嗜好など）を不正に入手し、それを広告会社に売ることで大きな利益を得ているのだ。
+このような行為は明らかに、プライバシー保護にも誠実さにもフェアユースにも反しており、なによりも1998年に制定された、個人情報保護法にも違反している。
+
+君にはサーバーに進入し、彼らが売っているユーザーの個人情報アーカイブを破壊してほしい。我々も、そちらの動きとは別に法的措置を取るつもりだ。（証拠などもはや問題ではない）。
+
+よろしくお願い申し上げる。
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

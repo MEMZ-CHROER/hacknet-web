@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="sshcrack01">
+  <goals>
+    <goal type="FileDownload" target="portcrack01" file="SSHcrack.exe" path="bin"/>
+  </goals>
+  <missionEnd val="0">transitionToBitMissions</missionEnd>
+  <nextMission>NONE</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>Rassemblement des outils</subject>
+    <body>
+Bien - ça devrait te protéger pour le moment ! Au moins contre ton propre ordinateur...
+Avant de commencer, tu vas avoir besoin de plusieurs choses - porthack seul ne fera certainement pas l'affaire sur la plupart des ordinateurs modernes que tu vas trouver... Spécialement ceux qui en vaillent la peine.
+      
+Tu devrais commencer par surveiller un ami à moi - il se fait appeler « Viper » - Affreux, je sais. Il est...c'est un imbécile pour être honnête mais il semble toujours mettre la main sur des codes utiles.
+Tu ne devrais pas avoir de soucis à t'introduire dans ses fichiers - mais trouver quelque chose d'utile peut être plus compliqué.
+
+Tu peux, dans l'ensemble, ignorer les fichiers « génériques » - les trucs enregistrés ou sauvegardés par un programme ; les logs IRC et autres. Ce que tu cherches, ce sont les choses sur mesure comme les fichiers .exe. 
+Télécharge tous les fichiers que tu peux utiliser en utilisant la commande « scp ».
+
+Bonne chance - réponds quand tu as fini !
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <link comp="portcrack01"/>
+      <note title="Feuillet de référence Hacknet ">Guide pratique de référence
+      
+Analysez les systèmes de sécurité en utilisant « probe ».
+Utilisez « porthack » pour passer la sécurité active.
+
+Détectez les nœuds adjacents en utilisant « scan »
+Effacez les logs dans le dossier ~/log en utilisant « rm [FILENAME or *] »
+
+Téléchargez les fichiers avec la commande « scp [FILENAME] »
+      </note>
+    </attachments>
+  </email>
+</mission>

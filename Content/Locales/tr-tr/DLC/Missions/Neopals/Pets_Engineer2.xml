@@ -1,0 +1,72 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPets_Engineer2" name="Ash-ALIENGEAR13" security="2" ip="54.192.234.65" icon="DLCPC2">
+
+  <!-- Neopals artist - contains eos device hint for other comp  -->
+  
+  
+  <dlink target="dPets_VC" />
+
+  <positionNear target="dPets_MF" position="220" total="360" extraDistance="0.05"/>
+
+  <file name="IMPORTANT_SusanLog.txt" path="home">
+
+[S.Bonesau] Kimse sana tarzını değiştirmek ZORUNDA olduğunu falan söylemiyor. Sadece...
+[S.Bonesau] Gönderilerden sonra bir sürü değişiklik isteği alıyorsun
+[S.Bonesau] Bence bu isteklerden bazılarını benimsersen daha verimli çalışmalar ortaya koyabilirsin
+[S.Bonesau] Gelecekteki çalışmalarını planlarken dönütlerden yararlanmayı da unutma.
+[Ash] Tamam, anladık da ben bu tasarıma güveniyorum
+[S.Bonesau] Biliyorum. Anlayabiliyorum, yalnızca...
+[S.Bonesau] Perili ev kıyafeti tasarlaman gerekiyordu. Sen ise tank tasarımları yaptın.
+[S.Bonesau] Yine.
+[Ash] Tankları seviyorum. Tanklar korkutucudur
+[S.Bonesau] Tankları sevdiğini biliyorum.
+[Ash] Sence Rumenler Alman tanklarını korkutucu bulmamış mıdır?
+[S.Bonesau] Hayır. Yani, elbette bulmuşlardır. Bunun konuyla alakası yok. Bir saniye beklesene...
+[Ash] 25 tonluk Alman mühendisliğinin ölüm harikasının üzerine geldiğini düşün. Bu seni ürkütmeye yetmez miydi?
+[S.Bonesau] Bekle bi!
+[S.Bonesau] Bence oyuncularımız seninle aynı görüşte değil, olmayacak da.
+[S.Bonesau] Ayrıca peri etkinliği için de tanklar çizdiğini hatırlatmalı mıyım?
+[Ash] Tanklar da periler gibidir
+[S.Bonesau] ...
+[Ash] Sevimli şeyleri ve 2. dünya savaşını seviyorum. Benden ne istiyorsun?
+[S.Bonesau] Neopals'i Drakula ve benzeri kostümler içinde çizmeni istiyorum.
+[Ash] İleride tank etkinliği yapacaksak çizerim.
+[S.Bonesau] Pazarlık edebilecek durumda değilsin.
+[Ash] Bahse varım Drakula'nın bir sürü tankı vardı.
+[S.Bonesau] Tanrım... tamam be. Anlaştık. Şu perileri çiz artık.
+[Ash] Girdiyi kaydediyorum. Ne olur ne olmaz.
+[S.Bonesau] Telefonumda kayıtlı zaten. Merak etme yani.
+  </file>
+
+  <file name="DRACULATANK.psd" path="home">#BINARY##BINARY#</file>
+  <file name="asdf.psd" path="home">#BINARY#</file>
+  <file name="asdf2.psd" path="home">#BINARY##BINARY#</file>
+  <file name="asdfasdf.psd" path="home">#BINARY#</file>
+
+  <!-- Memory dump with viewable sketches of Dracula tank -->
+  <Memory>
+    <Data>
+      <Block>
+STEAM_CHAT:activewindow
+4e0f622c-c5f1-4959-902d-bd2c1009a4cb
+Girdi:
+KONSOL: Şifrenizi kimseye söylemeyin.
+2:46 ÖS - Jigxor: bu otomat videoları bir harika
+2:47 ÖS - Jigxor: dostum, 'yazıcı' adlı 240 yıllık otomatla ilgili videoyu izliyorum. Bu aslında bir elinde kalem diğerinde kağıt olan bir iki cümle yazabilen mekanik bir çocuk. Her şey mekanik anlamda işliyor. Bu inanılmaz.
+2:48 ÖS - Jigxor: ayrıca göz kırpıyor, kafasını falan oynatıyor
+2:48 ÖS - [P]Ash: tanrım... neden beni buraya çağırdın. bugün halletmem gereken işler vardı ;_;
+2:48 ÖS - Jigxor: bu harika
+KONSOL: Jigxor'un bağlantısı koptu.
+KONSOL: Jigxor yeniden bağlandı.
+3:18 ÖS - Jigxor: Çok akıllıyım
+3:18 ÖS - Jigxor: Az önce StackOverflow'a birkaç regex eklemiş olsam bile çok akıllıyım
+3:18 ÖS - [P]Ash: >my_life.txt
+      </Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Misc/DraculaTank</Image>
+    </Images>
+  </Memory>
+  
+  
+</Computer>

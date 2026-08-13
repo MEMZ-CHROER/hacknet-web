@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission1.1">
+  <goals>
+    <goal type="FileDeletion" target="entropy01.1" file="config.sys" path="MsgBoard" />
+  </goals>
+  <missionEnd val="6">assignPlayerToEntropyFaction</missionEnd>
+  <nextMission>Entropy/EntropyMission1.2.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Onaylama Görevi</subject>
+    <body>
+Merhaba #PLAYERNAME#,
+
+Entropy grubuna alım testini bulduğun ve hatta geçmeyi başardığın için seni ilk ben tebrik etmek istedim. Bu, deneyimli hackerlara göre önemsiz bir şey de olsa, şaşırtıcı bir şekilde neredeyse kimse bu testi geçmeyi başaramıyor.
+
+Seni resmi anlamda grubumuza almadan önce yeteneklerini teyit etmemiz gerekiyor.
+Tabloid haber sunucularından biri son zamanlardan Entropy'e karşı olumsuz bir tutum takınmakta. İşletmelerini bir süreliğine etkisiz hale getirmek istiyoruz. Senden de ikinci yetenek testin olarak sunucularının İleti Panosu'nu çökertmeni istiyoruz. Mümkünse, Entropy ile ilgisi olmayan yazılara ve sunucunun kalanına dokunma. Durduk yere yıkıcı eylemler sergilemek istemeyiz.
+Senden istediğimiz şey sunucudaki yazıların tamamını silmen değil. Sadece programı çökertmeni talep ediyoruz.
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy01.1" />
+    </attachments>
+  </email>
+</mission>

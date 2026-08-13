@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="CSEC_DLC_Connector">
+  <goals>
+    <!-- Impossible goal here - this mission isn't completable in the normal sense
+    It leads the player to KaguyaTrials, which replaces this. We don't want the player
+    to skip past this mission by quick replying or anything, so put a debug only goal here-->
+    <goal type="getstring" target="kaguyatrialscompletedebug" />
+  </goals>
+  <missionStart val="1" suppress="true">addFlags:dlc_start_csec</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#DİKKAT# - Kaguya Denemeleri"> ### DİKKAT ###
+Not: Bu görev, CSEC yöneticilerinin alışılmadık derecede uzun bir dizi olmasını öngördükleri şeyin başlangıcını temsil etmektedir. Eğer CSEC grubunda önemli görevleriniz bulunuyorsa, bu diziye adım atmadan önce o görevleri tamamlamanız önerilmektedir.
+ ### DİKKAT ###
+ 
+"Kaguya" isimli temsilcimiz yeni kurduğu ekibine üye alma konusunda kendisine fikir vermesi için pek bilinmeyen bir dizi denemenin linkini paylaştı. İletiye göre, denemelerde başarılı olup ekibe yardımcı olan temsilciler ödüllendirilecek.
+Bu görevin CSEC için önemi bulunmamaktadır. İlgilenen herkes dahil olabilir.
+  </posting>
+  <email>
+    <sender>CSEC Hub Hizmeti</sender>
+    <subject>Kaguya Denemeleri</subject>
+    <body>Sayın temsilci,
+    
+Bir zamanlar CSEC üyesi olan "Kaguya" isimli arkadaş belli başlı bazı gruplara kendi ekibine üye alımı yapmak amacıyla çaba gerektiren bir davet linki bıraktı. Akıllıcı ve organize hazırlanmış bir içeriğe sahip. Bu denemelerin arkasında her ne varsa, bunun çözümlenmesi bize zaman anlamında yardımcı olabilir. Muhtemelen katılım durumunda bir süre CSEC ile ilgilenemeyeceksiniz. Adımınızı buna dikkat ederek atın.
+Elbette istediğinizi incelemekte serbestsiniz. Ayrıca yeni araçlar arıyorsanız, bu maceranın umut vaat ettiğini söylenebilir.
+
+Bu meydan okumada size bir IP adresi (aşağıda) ve "Denemelere Başlama" talimatları verilecek.
+
+Kolay gelsin.
+-CSEC Ekibi
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission1.1">
+  <goals>
+    <goal type="FileDeletion" target="entropy01.1" file="config.sys" path="MsgBoard" />
+  </goals>
+  <missionEnd val="6">assignPlayerToEntropyFaction</missionEnd>
+  <nextMission>Entropy/EntropyMission1.2.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>実力確認ミッション</subject>
+    <body>
+ごきげんよう、#PLAYERNAME#。
+
+Entropyの入団試験を見つけ出し、それを見事終えた君に、まずは賞賛の言葉を贈らせてほしい。経験あるハッカーにとっては比較的簡単で
+つまらない試験だと思うのだが、合格するものは驚くほど少なくてね。
+
+君を仲間として正式に迎える前に、我々はもう1度君の実力を確かめる必要がある。
+あるタブロイドニュースのサーバーが、近ごろEntropyに対して否定的な立場を取っている。
+彼らの業務を一時的に妨害したい。実力を確かめるための二次試験として、君にはサーバーの掲示板をダウンさせてほしい。ただしできれば、
+Entropyに関連のない記事やその他の部分には手を付けないでくれ。無用な破壊行為は避けたいのだ。
+いいか、依頼内容は、「サーバーの記事を一掃する」ではない。「プログラムをダウンさせるだけ」だ。
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy01.1" />
+    </attachments>
+  </email>
+</mission>

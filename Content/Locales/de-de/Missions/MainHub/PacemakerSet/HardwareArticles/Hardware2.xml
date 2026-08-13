@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Serverbedienung">
+Diese Auskunfts-Datenbank nutzt Kellis' firmeneigene "R-Kontext" Technologie und wird nur Informationen anzeigen, die für Ihr Gerät und Ihre Gesundheit relevant sind.
+Die Adresse bzw. der Account, mit der Sie diesen Server aufrufen ist für die Bestimmung der für relevanten Inhalte wichtig und sollte daher sicher aufbewahrt werden!
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Wenn du diese E-Mail erhältst, ist ein unerwarteter Fehler aufgetreten.
+Bitte in Panik geraten.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="airline_player">
+  <goals>
+    <goal type="getadminpasswordstring" target="dpa_bookings"/>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="Décollage - #PLAYERNAME#">
+Accéder au système des réservations d'une compagnie aérienne internationale.
+  </posting>
+  <email>
+    <sender>Décollage - #PLAYERNAME#</sender>
+    <subject>Décollage</subject>
+    <body>
+Accéder au système des réservations d'une compagnie aérienne internationale.
+----
+Allons droit au but, pour permettre la réalisation de nos futurs projets, j'ai besoin d'accéder au système de réservation interne d'une compagnie aérienne internationale : « Pacific Air ».
+
+J'ai déjà fait quelques repérages, et j'ai des pistes solides. Nous connaissons l'adresse IP du système de réservation, mais y pénétrer ne sera pas aussi simple.
+Ils sont non seulement exceptionnellement bien sécurisés, mais ils ont également un serveur dédié pour gérer une liste blanche. Toutes les connexions extérieures seront refusées, y compris la nôtre. Nous allons devoir trouver un autre point d'entrée au réseau pour contourner le problème, et accéder au serveur.
+
+Le réseau est défendu par le groupe de cyber sécurité Psylance, ce sera un sacré défi, alors effacez vos traces et ne laissez aucun indice.
+
+Une fois à l'intérieur, ajoutez le mot de passe administrateur du système de réservation à l'annexe de fin de mission.
+Bonne chance.
+</body>
+    <attachments>
+      <note title="Objectifs de mission">
+Examiner le serveur en liste blanche du système de réservation
+Explorer le réseau à travers le point d'entrée à LAX
+Obtenir les droits d'administrateur pour le système de réservation
+Ajouter le mot de passe système aux infos de fin de mission.
+      </note>
+      
+      <link comp="dal_lax" />
+      <link comp="dpa_bookings" />
+      
+    </attachments>
+  </email>
+</mission>

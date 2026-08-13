@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="academic" name="Base de données universitaire internationale" ip="129.67.0.11" security="5" type="4">
+  <adminPass pass="techtonic"/>
+  <admin type="fast" resetPassword="false"/>
+
+  <portsForCrack val="4"/>
+  <ports>80, 25, 21, 1433</ports>
+  <firewall level="8" solution="ACADEMIC"/>
+  <proxy time="-1"/>
+  <trace time="195"/>
+
+  <file path="academic_data" name="admin.txt">Avertissement : Si vous êtes déconnecté pour des raisons de maintenance, le mot de passe de ce serveur est « techtonic » pour le cycle actuel de sécurité.</file>
+  
+</Computer>

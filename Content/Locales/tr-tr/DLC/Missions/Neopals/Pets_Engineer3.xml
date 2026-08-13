@@ -1,0 +1,160 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPets_Engineer3" name="Tiff Doehan_PersonalPowerbook" security="2" ip="98.129.229.204" icon="laptop" type="empty">
+
+  <ports>21, 80, 6881, 9418</ports>
+
+  <positionNear target="dPets_MF" position="5" total="360" extraDistance="0.05"/>
+
+  <file path="home" name="EventsTodo.txt">
+Ürkütücü Hayaletler
+Periler v2
+Müzikal Kasaba (Tanrım, hayır...)
+Dark Souls Uyumu (!!)
+Tanklar (...)
+</file>
+  
+  <file path="home/productivity" name="Trello.txt">
+Trello'yu denedim. Aslında bunu kişisel düzenlemelerin vs. nasıl işlediğini görmek için işte kullanmıştım.
+-----
+
+Sistem bir harika. Büyük etkinlikler için durum oluşturma yöntemi ve asıl hedefin altına ilerlemeyi izlemek için çoklu listeler ekleme olayı süper olmuş.
+Eksileri: uygulaması çok kötü. Çalışıyor ama listeye bir şeyler ekleme veya listelere bakma çok yavaş, yorucu ve kullanışsız olmuş.
+Aslında yapılacak işler yöneticisi işlevinde kullanma olayı olmamış. Daha önce yazdıklarıma göz atmak ve bundan sonra yapılacakları ayarlamak tam bir işkence.
+
+Özetlemek gerekirse, yapmam gereken işlerden bunaldım. Sorunu eleştirel olarak düşündüğümde ise düzenimde bir sıkıntı olduğunu görebiliyorum.
+Yapılacak çok iş olduğunu biliyorum. Düşününce de bitiş tarihi yaklaştıkça yapılacak çok iş olduğunu görünce bunalmam gayet normal. Yine de o zamana kadar neyin tamamlanacağını bilemiyorum. İyi bir düzenim yok. Bu düşüncelerim ve bunalmam da muhtemelen bundan kaynaklanıyor.
+Kısacası bu karmaşık sistemden ve projeden yapılacak işlerin listesini adam akıllı bir şekilde çıkartamamak beni katil edecek. Trello işime yaramıyor.
+
+Diğer şeyler:  durumları iyi anlamda "tamamlandı" olarak işaretleyemiyorsunuz. Evet, "tamamlandı" sütunu var ancak bu tam olarak aradığım şey değil. Sistem tamamen durumları sütunlar arasında sürüklemekten ibaret; listeler kontrol edilemiyor.
+Diğer sistemleri de incelemeliyim.
+</file>
+  
+  <file path="home/productivity" name="AnyDo.txt">
+AnyDo - bir hafta kullanıldı
+---
+İhtiyaçlarım için fazla basit kaçtı. Uygulama çok hafif.
+Senkronizasyon güzel. E-posta eklentisi düşüncesi (çalıntı) harika (!), ancak tekrar söylüyorum, uygulaması hafif kalıyor.
+Neden e-posta içerikleri için daha fazla ayrıştırıcı eklenmemiş? Neden konuyu ve içeriği yapılacaklar notlarına falan aktaramıyoruz?
+Sanırım bunların sebebi notların ayrı bir girdi olarak bulunmaması.
+
+*Gerçekten* "gününüzü planlayın" ekranının bildirim olayına bayılıyorum ancak bildirimleri ayarlayacak tuş yok!
+
+Ücretli yükseltme hatırlatmaları iğrenç olmuş. Fikir güzel ama birkaç hata veya karar programı sinir bozucu hale getirmeye yetiyor. Sınavı geçti valla.
+
+Yapılmak istenen şeyi anladım. Çok hafif, yardımcı ve kişisel olacak şekilde düşünülmüş. Büyük projelere bu uygulamada yer yok. Buna tamamım ama aradığım da bu değil yani.
+İçindeki güzel düşünülen şeylerden çoğu daha ağır sistemlerde uygulanabilir. Bunları denemek için zaman ayırmaya değer.
+</file>
+  
+  <file path="home/productivity" name="ePhoneAppsGeneral.txt">
+Çeşitli eOS Üretim Uygulamaları
+---
+Bunlarla ilgili daha fazla ayrıntı vermeyi düşünüyordum ancak hepsinin benim gözümde sorunu aynı: büyük projelerde birçok şeyi aynı anda takip edebilmek için daha ağır bir sisteme ihtiyacım var. Ayrıca zamanımın çoğunu da bilgisayarda geçiriyorum. Bu uygulamaların neredeyse hepsi çok hafif olacak şekilde tasarlanmış ve mobile odaklanmış.
+Bana bilgisayar arayüzü lazım. Sadece kendimin kullanacağı bir şey tasarlama isteğim gittikçe artmaya başladı.
+</file>
+  
+  <file path="home/productivity" name="Asana.txt">
+Asana
+---
+Bunu önceden görmeliydim. İstediğim şeyi Google'a yazmak için bu kadar beklememem gerekirdi. Her neyse, 2 umut verici sonuca ulaştım: Asana ve Taskworld. Taskworld'ü kullanmadan önce bile iğrenç miktarda ücret ödemeniz gerekiyor. Giriş sistemi de tırt. O yüzden öncelikle Asana'ya göz atacağım.
+Buraya not ediyorum: Tanrım... listeleri bilgisayarlar arasında aktarabileceğimiz, aynı zamanda tüm bu uygulamalardaki özelliklere sahip daha iyi uygulamalar neden yok? Trello'nun, Asana'ya dahil edilip aktarma işleminin de bulunduğu bir sürümün yayınlanması ve ücretsiz sunulması ne harika olurdu, gel gör ki yoooook. 
+
+Asana aradığım şeye çok yakın. Mükemmel değil. Ayrıca aradığım şeyden bir tık *daha* ağır. Sanki girişimcilik amacıyla geliştirilmiş (Taskworld bundan çok daha beter).
+Artıları: Trello'nun iyi özelliklerinin çoğu var. Ancak daha çok liste ve yapılacak iş odaklılar. Durumlar tamamen kontrol edilebilir. Durumlar kişiye atanır ve yapılacak iş olarak liste ögesi konumunda incelenebilir. Mükemmel.
+Durumlarda sadece bir tane liste (buradaki adıyla yan-görev) bulunuyor ki bu çok sinir bozucu. Anlaşılan sistemi düzenleyerek listeleri durumlara göre tekrardan ayarlamışlar. Kendi yöntemlerine göre yapmış olsalar da hala harika bence.
+
+Yapılacakları sınıflandırma olayı pek olmamış ama idare eder. Çabucak büyük listeye geçebilir ve "bugün" yapılacakları işaretleyebilirsiniz. Bu çok iyi olmuş.
+
+EKLEME GİBİ İŞLEMLERDE VARSAYILAN AYARI YOK! Aaaahhhhhh!
+Ne zaman bir şey yapsanız bunu kendinize eklemeniz gerekiyor. Bunun içinde orayı burayı işaretlemelisiniz. Bu gerçekten *sinir bozucu* - hem her şeyi en hafif olacak şekilde hem de en detaylı olacak şekilde ayarlamak istiyoruz. Dolayısıyla otomatik olarak eklenen şeylerin nereye kaydedileceğini varsayılan olarak ayarlayamamamız çok kötü be.
+
+Şu anda büyük projeleri ayarlayacağım sütunların olduğu bir program üzerinde çalışıyorum. Kilometre taşları için durumlar hazırladım. Yan-görev niteliğindeki eylemleri oraya atacağım (ki bunları bir de kendime atamam gerekecek, iğrenç). Bu demek oluyor ki büyük projelerin bitiş tarihlerini belirleyebilir ve bu projeleri güzelce sınıflandırabilir. Bu harika.
+Aradığım şeye "çok yaklaştığımı" hissediyorum. Ayrıca sorunlarımın da çözümleri ve çözüm yöntemleri bulundu... sadece... kesinlikle barındırılması gerekilen özelliklerin eklenmemiş olması, özellikle de varsayılan ayarlama olayı sinirimi bozuyor.
+
+Bu arada sütunları resimler ve değerlerle doldurduğumuzda başlıklar aşırı büyüyebiliyor. Başlıklar için boyut ayarları olsa sütunlar çok daha düzenli olabilirmiş. Hmm.
+</file>
+  
+  <file path="home/productivity" name="My_System_Planning.txt">
+Kendi üretkenlik programımın notları.
+Beğendiğim sistemlerden aldığım fikirler, eksik olduğunu düşündüğüm şeyler vs.
+---
+Trello tarzı tasarım baz alınacak. Durumlar "tamamlandı" olarak işaretlenebilecek. İşaretlenenler gizli (görüntülenebilir) tamamlananlar sekmesine taşınacak.
+Opsiyonel bir (varsayılanda etkinleştirilecek) sol panel olacak. İsmi de "odaklananlar" olacak. Buraya mevcut durumda ilgilendiğimiz ve ilgileneceğimiz durumları sürükleyebileceğiz.
+Durumların çoklu yan listeleri olabilecek. Durumlar ana ekranda yan listelerindeki nesnelerle (açılıp kapanabilir - program giriş ve platforma göre son hali gösterecek) beraber görüntülenecek. Durum görünümü kullanılarak (kontrol kutucukları aracılığıyla - etkiketler görünümü açar) durumların içindeki şeyler incelenilebilecek.
+Değerlin ana ekranda nasıl görüneceğine dair birkaç seçenek barındıran öğre sistemi eklenebilir.
+
+Kilometre taşı odağı - başarmak istediğiniz kilometre taşlarını oluşturabilirsiniz (ürün geliştirmek gibi). Ayrıca bitiş tarihi, başlama tarihi gibi ayrıntılar da ekleyebilirsiniz.
+Durum oluşturarak kilometre taşını ve opsiyonel olarak verebileceğiniz öncelik seçeneği ile otomatik bitiş tarihi tanımlayabilirsiniz.
+
+Mevcut güne odaklanmış olarak ayarlananları ve bunlarla ilgili seçenekleri gösteren bir bakış ekranı.
+</file>
+  
+  <file path="home/productivity" name="My_System_PlanningView.txt">
+"Günümü Planla" tarzında bir tuş. O gün yapılacak işleri daraltmak için birkaç kolay soru sorar ve kişiyi o işleri yapması için cesaretlendirir. Analiz ve planlamalar için verilen yanıtları bilgi olarak depolar (kişi sürekli olarak belirlenen seviyenin altında veya üstünde mi diye; ayrıca proje bitiş tarihleri için de tahminde bulunmak için).
+Sorular:
+
+"Şu anda plan yapmak için ne kadar zamana ihtiyacınız var?" - Yok, 30 saniye, birkaç dakika
+"Bugün çalışmak için ne kadar zamanınız ve enerjiniz var?" basitçe yok, pek yok, normal derecede var, çok var!
+sonraki soruların ayrıntılarını tanımlar - hiçbir zaman dünden kalan ve unutulan işleri veya mevcut kilometre taşına bağlı işleri rastgele olacak şekilde otomatik olarak atamaz. (?)
+"Dünden kalan işlere devam etmek sizin için önemli mi?" Evet/Hayır
+"Bugün aşağıdakilerden hangisini yapmak istersiniz?" (görevlerden/önemli durumlardan/yan listelerden seçenekler sunar, gün için önemli olanı önceliklendirir). Bu 20 saat süren öncelik artırma işlevini etkinleştirir.
+
+Eğer kişi birkaç dakikayı seçerse, mevcut kilometre taşı ile ilgili ayrıntılar (tüm proje değil - sadece kilometre taşı - mevcut işe odaklanılır) gösterilir
+Bu bilgi, kişinin ne kadar enerjisi olduğu sorusunun yanıtı baz alınarak mevcut gün için yapılacak listesi oluşturmakta kullanılır.
+
+Kişi soruları yanıtlamayı tamamladığında cesaretlendirici bir ileti gösterilir! Hakla onları kaplan!
+
+Günlük yapılacaklar listesi oluşturulduğunda liste gösterilir. Eğer kişi o güne dair her şeyi tamamlarsa "daha fazla iş ver!" tuşu görünür. Eğer kişi yapılacakları tamamlamazsa bu ek işler yapılmayan işlere eklenmez.
+Ayrıca bu ileti de ekrana gelir, "İstersen bugün erken de çıkabilirsin! Harikaydın!".
+</file>
+  
+  <file path="home/productivity" name="My_System_Dailies.txt">
+Yinelenen görevler - günlük veya haftada bir defa ortaya çıkacak - oluşturmak için özenli ve ulaşılabilir bir program
+İsteklerinizle ilgili sorular soran program aslında birçok şeyi de hallediyor. Örnek olarak:
+
+"Doğum günlerinin size hatırlatılmasını ister misiniz? Birini seçin! (Facebook?) Bu şablon nasıl?
+"Hediye almak zorunda değilim, doğum günü gelince bana bildir yeter" gibi seçenekler olacak.
+
+Eklenecekler:
+Doğum gününden önce hediye alma
+Yılbaşı alış verişi
+Sevgililer Günü (RİSKLİ)
+Yıldönümleri
+
+
+"Spor salonuna git" gibi tekrar eden görevler de bildirildikten 2 gün sonra tekrar kişinin karşısına çıkacak ve eğer 2 gün istenmiyorsa; kaç gün sonra tekrar bildirilmesi istendiği sorulacak.
+
+Bu tarz şeylerin eklenmesi programı eğiticilikten çıkartıyor ki insanlar da programı kurduklarında bunları öğrenmek zorunda kalacak. Eğitim için seçeneğe gerek duyuluyor...
+</file>
+  
+  <file path="home/productivity" name="My_System_Tutorial.txt">
+İlk açılış inanılmaz derecede önemli.
+"Programa dahil olmak ister misiniz?" diye sor -> Bana etrafı göster! + Şimdi olmaz
+Sonrasında program bir görev ekler (elbette görevi sorar). Bu görevin özel bir seçeneği vardır. Seçenekte "Programı ayarla" yazar. İnsanlar ne zaman isterse o zaman seçebilir.
+
+Program kişiye daha fazla şey gösterebilmek için başka görev eklenip eklenmemesini sorar. Her şeyi aynı anda öğrenmeye çalışmamalarından emin olmak gerek. Ayrıca "yarın görüşürüz!" gibi bir şey de eklenmeli.
+Eğer isterseler o anda devam edebilmelerini sağlayan bir seçenek eklenmeli.
+2. gündeki görevler yinelenen görevleri vs. gösterecek.
+
+Ayrıca eğitim aşaması için "Şu anda vaktim yok, çabuk ol" seçeneği de eklenmeli.
+
+DİĞER PLATFORMLARDAN AKTARMA SEÇENEĞİNİ EKLE! Kullanıcılara bunu nasıl yapacakları göster.
+</file>
+  
+  <adminPass pass="ixidixie" />
+  <dlink target="dPets_VC" />
+
+  <eosDevice name="Tiff's ePhone 7" id="dPets_Engineer3_Phone" icon="ePhone2">
+    <note>Placeholder todo
+Tanks Event
+</note>
+    <note>Work Logins
+Auth (admin): mlk3fsdie321
+VC (admin): undc321b9y
+</note>
+    <mail username="tdoehan@boatmail.com" pass="ixidixie" />
+  </eosDevice>
+  
+  
+  
+
+</Computer>

@@ -1,0 +1,90 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hubEosMisison" 
+          name="Sal_Home_Workstation" 
+          security="4"
+          type="2" >
+
+  <file path="home/docs" name="Anastasia.txt">
+[swinters77] Na, was hast du dieses Wochenende gemacht?
+[jlogan74] Nicht viel, Jerry war wieder außer Haus.
+[swinters77] Du bist also zu hause geblieben.
+[jlogan74] Nun....Ich bin bei Rhys gewesen.
+[swinters77] Jane, das gerät langsam außer Kontrolle.
+[swinters77] Wie lang kannst du das noch verheimlichen?
+[jlogan74] Ich weiß ja, ich weiß. Es ist einfach... schwierig.
+[jlogan74] Jerry ist immer unterwegs arbeiten, und wenn er mal nach hause kommt, ist er immer hundemüde vom Reisen.
+[jlogan74] Ich weiß schon gar nicht mehr, wann wir das letzte mal ausgegangen sind.
+[jlogan74] Rhys war einfach für mich da. Es war erst ein Ausrutscher, aber ich glaube, es könnte etwas daraus werden.
+[jlogan74] Und jetzt stecke ich in dieser Zwickmühle.
+[swinters77] Ich glaub, ich nenne dich ab sofort Anastasia :P
+  </file>
+  
+  <file path="home/docs" name="lab_nightmare.txt">
+[137847] Sind die Ergebnisse schon raus?
+[137849] Ja, nichts beweiskräftiges.
+[137847] Echt? Ich hatte echt gedacht, wir hätten es diesmal gehabt.
+[137849] Die Anzahl der Zellen ist diesmal erheblich größer.
+[137849] Aber sie greifen den Wirt nicht an, sondern schlummern einfach.
+[137847] Ich weiß nicht, wie lange wir dieses Projekt noch in die Länge ziehen können.
+[137849] Hey, Rom ist auch nicht an einem Tag gebaut worden. Götter müssen sich ihre Kräfte auch verdienen.
+[137847] Ich weiß aber schon gar nicht mehr, wann ich das letzte mal in meinem eigenen Bett geschlafen hab.
+[137849] Ich weiß. Dein Schnarchen hallt hier durch alle Räume.
+[137847] Wirklich? Oh... Sorry.
+[137849] Ist aber irgendwie niedlich.
+[137849] Naja, wie geht's jetzt weiter?
+[137847] Schätze, wir nehmen die letzte Probe als Basis und ändern das Genom.
+[137849] Oki doki. Sollen wir uns gleich was zum Mittag holen?
+[137847] Kommt drauf an.
+[137849] Auf was?
+[137847] Kommt darauf an, ob sie wieder versuchen, uns diesen erbärmlichen Versuch von Salsbury Steak anzudrehen.
+  </file>
+  
+  <eosDevice name="Elanor Helleran's ePhone 4S" id="salEosPhone">
+    <note>
+ids
+Registration :
+AAX1BB7
+      
+Steam :
+TW9VF-RMVRT-CTTRM
+WQYZC-ATI4Q-8AJPM
+VA63J-B63TH-G089R
+93K9P-6XDMY-8WNPH
+BAQW5-87ELW-XGBF0
+67AMX-FXQ7N-XEDW6
+BLCV6-0AVQY-AEBDD
+9WXA5-4QE6M-PGNHM
+359XW-VIBZC-F9GQ2
+F9MH0-P5PLK-374I5
+FML2Q-83CET-CIKPT
+8PLXZ-I4PQ4-502XP
+QFNIM-ZGKGR-Z0FJ0
+QM4KE-ZKP5W-RA5II
+5D6G4-0TPXC-26564
+5G4BR-LDVVD-NWDZZ
+ZTG4B-K9M5B-92HCR
+DVD0P-0IQ2J-98YJT
+9RDIZ-NDMFD-4YF37
+MGQCL-PPN4E-5WWB4
+ARD4Q-CI2WC-6VJT2
+    </note>
+    <note>
+Shopping
+      
+Kaffee
+Monster
+Rockstar
+NOS
+Amp
+Full Throttle
+Xyience
+Arizona Energy
+Rip It
+Venom
+Food x lots
+Schlaftabletten
+    </note>
+    <mail username="sal@jmail.com" pass="22foxhound" />
+  </eosDevice>
+
+</Computer>

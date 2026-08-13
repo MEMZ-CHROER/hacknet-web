@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews02">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Entropy unter Vedacht">
+Die Internetgruppierung Entropy ist seit einiger Zeit als zuverlässige Quelle für Informationen zu neuen Entwicklungen in der digitalen Welt bekannt. Doch jüngste Aktivitäten, wie beispielsweise die Deaktivierung ihres öffentlichen Servers, mit denen diese Informationen an die Öffentlichkeit weitergegeben wurden, sind höchst verdächtig - Sowohl in den Augen von Reportern, als auch denen von Firmen.
+Auch wenn sich die Gruppe für die Freiheit von Informationen einsetzt, sollte dieses Ziel jedoch durch kriminelles Handeln verfolgt werden, kann dies nicht toleriert werden.
+Das Geschehen wird weiter verfolgt.
+
+Reporter : Tom Wilkins
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Muss Aufgehalten Werden</subject>
+    <body>
+Zerstöre die Entropy-Database
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

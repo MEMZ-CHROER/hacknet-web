@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dlcDemoIntro1">
+  <goals>
+    <goal type="filedownload" target="dDemointro1" file="FTPSprint.exe" path="bin"/>
+  </goals>
+  <nextMission>../DLC/Missions/Demo/DLCDemoIntroMission2.xml</nextMission>
+  <email>
+    <sender>Matt</sender>
+    <subject>Recapitulación</subject>
+    <body>Hola:
+    
+Bienvenido de nuevo. Ha surgido algo nuevo en lo que están interesados varios grupos. Entropy y CSEC tienen agentes investigando pero supuse que te gustaría echarle un vistazo.
+
+Antes de nada, vamos a ponerte al día. Esta máquina virtual debería tener SSHCrack y FTPBounce ya precargados, entra en el servidor vinculado y descarga el archivo en ~/bin y después continuaremos. Creo que te gustará.
+
+Una vez que hayas terminado, tengo algo para ti de parte de Tex.
+Espero que aún tengas algo de ingenio, lo necesitarás.
+-Matt
+    </body>
+    <attachments>
+      <link comp="dDemointro1" />
+      <note title="Recapitulación">Los programas se ejecutan con:
+Nombre del programa [PortNumber]
+Utiliza "Porthack" para romper la seguridad activa una vez que se abran los puertos.
+
+Descarga bin/XXXX en el ordenador objetivo y responde al e-mail.
+- scp [filename]
+
+Borra los registros en /log
+-rm [* or filename]
+</note>
+    </attachments>
+  </email>
+</mission>

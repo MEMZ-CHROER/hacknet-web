@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyServer01">
+  <generationKeys File="#LC_CLIENT#_Internal_Archive.zip" Path="home"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# : Cleanup Operation">
+A valuable client of our group has requested the deletion of a file on a previous employee's private computer.
+The files are not unique, and the company merely wishes to remove this individual's copy.
+The target is unlikely to mount a passive trace against you.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Cleaning Operation</subject>
+    <body>
+Greetings Agent,
+
+An employee in our company recently left us to work for a competitor. In doing so, he took a large volume of internal data from our company with him, and it would be unfortunate for us if he was allowed to keep it.
+
+We would like you to access this individual's computer and delete this information. It is likely to be stored in a single archive file without backup copies.
+The file is labeled as #FILE#.
+
+Thank you,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

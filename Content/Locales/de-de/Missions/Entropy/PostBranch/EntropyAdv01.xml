@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission03">
+  <goals>
+  </goals>
+  <missionStart>entropySendCSECInvite</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Glückwunsch</subject>
+    <body>
+Es scheint, als hättest du deinen Auftrag erfüllt - Ich hoffe, es wahrt das Ansehen unserer Community ein wenig länger.
+
+Auch wenn wir deine Dienste wirklich zu schätzen wissen, ist uns klargeworden, dass du dich hier langweilen wirst. 
+Ehrlich gesagt sollte Entropy auch nie in der höchsten Liga der Hackerwelt mitspielen - Ich habe die Gruppe gegründet, um das schlechte Image der Hackerkultur etwas aufzupolieren.
+
+Ich hoffe zwar, dass du Entropy auch weiterhin zur Seite stehst, aber du hast dir dieses Angebot mehr als verdient;
+
+Ich bin Mitglied in einer relativ bekannten Invite-Only Gruppierung namens CSEC - Eine Gruppe, die nur außergewöhnliche Hacker und IT-Sicherheitsexperten einlädt - und ich denke, du würdest da gut reinpassen.
+Ich habe eine Einladung für dich angefordert - sie sollten sich bald bei dir mit einer neuen Aufnahmeprüfung melden.
+
+Und nimm das nicht auf die leichte Schulter - Eine CSEC-Einladung ist ist manchen Kreisen sehr begehrt.
+
+Viel Glück,
+-Tex
+    
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

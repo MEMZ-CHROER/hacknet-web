@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubIntro3" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>CSEC Daveti - Tebrik</subject>
+    <body>
+#PLAYERNAME#,
+
+Güzel! Bir ara bunları bende araştırmıştım. Ancak bulamamıştım. İzlemek için de desteğim yoktu tabi.
+Çok şekilli bir giriş yaptın valla.
+
+Resmen CSEC'e hoşgeldin demek istiyorum. Burada herkes ne yaptığını bilir, en azından bir yere kadar. Eğer sana verdiğim iş kolay geldiyse, kendini evinde hissedebilirsin.
+
+Giriş bilgilerini Hub Server'a ekledim. An itibariyle iş alabilir, yeni kodlar indirebilir ve burayı üssün olarak kullanabilirsin.
+Seninle iletişimde olacağım. Tebrik hediyesi olarak buradaki programlardan indirmeni tavsiye ederim.
+
+-Vap0r 
+CSEC Yöneticisi
+    </body>
+    <attachments>
+      <link comp="mainHub" />
+      <account comp="mainHub" user="#PLAYERNAME#" pass="reptile" />
+      <link comp="mainHubAssets" />
+      <account comp="mainHubAssets" user="admin" pass="csec-5xg3D11" />
+    </attachments>
+  </email>
+</mission>

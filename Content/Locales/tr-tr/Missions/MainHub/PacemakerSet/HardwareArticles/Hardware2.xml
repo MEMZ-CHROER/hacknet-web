@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Sunucu Kullanımı">
+Bu referans sunucusu Kellis'in patentli referans-bağlam teknolojisini kullanır. Bu sunucuda sadece kayıtlı ve etkin ürünlerinizle ilgili içerikler görüntülenir.
+Bu sunucuya erişmek için kullandığınız adres büyük öneme sahiptir. Hesap bilgileriniz bu adres üzerinden sistemimize yansıtılmaktadır. Lütfen adresi kaybetmeyin!
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>HATA</subject>
+    <body>
+Beklenmedik bir hata oluştuğu için bu hatayı aldınız.
+Lütfen panikleyin.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

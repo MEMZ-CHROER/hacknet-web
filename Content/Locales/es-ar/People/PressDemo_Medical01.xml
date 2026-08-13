@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Person id="csec_med_01" handle="Sal" firstName="Elanor" lastName="Helleran" isMale="false">
+  <Birthplace name="Londres"/>
+  <Degrees>
+    <Degree uni="Universidad de Manchester" gpa="3.1">Máster en Informática</Degree>
+  </Degrees>
+  <DOB>8/06/91 14:22:00</DOB>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>167</Height>
+    <Allergies>NINGUNO</Allergies>
+    <Perscription>Amiodarona (Cordarone) x70 cada dos meses</Perscription>
+    <Notes>Paciente diagnosticado con arritmia. Un caso leve al principio que se ha visto agravado por un consumo excesivo de cafeína y otros estimulantes. La paciente ha sido advertida repetidas veces del riesgo de la cantidad de bebidas energéticas y café que ha admitido consumir, pero las recaídas son habituales. Se recomienda realizar un análisis de estimulantes (legales y no) en sangre antes de emitir un diagnóstico completo.</Notes>
+  </Medical>
+  <Notes>Presiona abrir caso médico</Notes>
+</Person>

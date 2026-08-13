@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pacemakerHWArticle03">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0014 - Pacemaker v2.44 Remote tools">
+Ce message détaille les fonctionnalités de surveillance et de mise à jour à distance du stimulateur cardiaque v2.44. Pour le fonctionnement général, veuillez consulter la documentation imprimée, ou demandez une copie supplémentaire à support@kellisBio.com
+---------------------------------------------
+
+Le stimulateur cardiaque Kellis Biotech v2.44 (ici : « stimulateur cardiaque ») est conçu pour les patients considérés comme étant à haut risque ou nécessitant un suivi constant, mais sont dans l'incapacité de rester à l'hôpital.
+Le stimulateur cardiaque peut être raccordé à distance, fournissant à l'observateur des données ECG en temps réel et de menus outils de mise à jour administrative. En raison de la nature sensible du système (nécessitant une disponibilité à 100 %), le système est verrouillé pour ne seulement accepter les paquetages de mises à jour binaires signés par le concepteur de logiciel assigné à la création du serveur de la puce.
+
+Les mises à jour ne sont fournies seulement qu'au cas par cas (lorsqu'un patient nécessite peut-être des réglages légèrement différents pour tenir compte de changements naturels du rythme cardiaque après une opération ou avec l'âge).
+Le système de mise à jour de Kellis rend ces changements possibles sans l'aide d'une opération intrusive supplémentaire. Bien que les versions précédentes de la puce comprenaient des outils pour manuellement mettre à jour les réglages, ceux-ci ont été supprimés en raison de problèmes de sécurité, et cette version actuelle permet uniquement d'effectuer des changements de comportement du stimulateur cardiaque via une correction de microprogramme (pouvant être effectuée sans fil pour éliminer le besoin d'opération). 
+
+Si votre cas nécessite une telle mise à jour, veuillez contacter votre représentant Kellis Biotech attitré pour obtenir de l'aide et une budgétisation.
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERREUR</subject>
+    <body>
+Recevoir cet email indique qu'une erreur inattendue est survenue.
+Veuillez paniquer.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

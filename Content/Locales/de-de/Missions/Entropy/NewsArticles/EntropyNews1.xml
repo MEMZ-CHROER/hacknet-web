@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews01">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Entropy an Cybercrime beteiligt?">
+Neue Berichte lassen vermuten, dass die Gruppierung "Entropy" mit kriminellen Hackern zusammenarbeitet. 
+Auch wenn dies bisher nicht offiziell bestätigt werden konnte - Sollte dies der Fall sein, wird die Gruppierung in näherer Zukunft mit Gerichtsverfahren rechnen müssen.
+In den Augen dieses Reporters ist dies ein Verrat an der Community, die durchaus auch produktive Arbeit betreibt, und sollte unbedingt bestraft werden.
+
+Reporter : Tom Wilkins
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Muss Aufgehalten Werden</subject>
+    <body>
+Zerstöre die Entropy-Database
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

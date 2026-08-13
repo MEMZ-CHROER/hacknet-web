@@ -1,0 +1,63 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpae_airline_home" name="Yasu Arai's eBook Touch" security="4" ip="141.88.107.140" icon="laptop" type="4">
+
+  <!-- Laptop of the administrator of the airline network.
+  
+  Contains an eOS device that has the admin's email account details on it.
+  Should also contain:
+  File describing how Psylence had insisted on installing specialized security on his home computer (the fast trace).
+  Very small mention of a tablet - it's mentioned elsewhere, and it shouldn't be too hand-hold-ey 
+  
+  eOS device needs some notes on it too
+  -->
+
+  <proxy time="-1" />
+  <firewall level="-1"/>
+  <trace time="40" />
+  <portsForCrack val="4" />
+  <ports>443, 6881, 192</ports>
+  <adminPass pass="1185JACK1" />
+
+  <positionNear target="dpa_whitelist" position="110" total="360" extraDistance="0"/>
+
+  <file path="home" name="ryosan_letter.txt">Ryosan,
+
+İyi olduğunu öğrendiğime sevindim. Geçen ayki mektubuna bayıldım; yeni şiirlerin çok daha akıcı, aynı bir nehir gibi. Üzgünüm. Övme konusunda pek iyi değilim. Bana her şiir gönderişinle seninle tekrardan gurur duyuyorum.
+
+Yeni hayatıma gelince...
+sorunsuz gidiyor aslında. Yeni işim gergin ama bu bir yandan da işime yarıyor. Her gün kendimi yeni bir mücadelede gibi görüyorum. Hiçbir engel ise aşılamaz değil.
+
+Aslına bakarsan... Los Angeles trafiği aşılamaz, az çok tahmin ediyorsundur. Biliyor musun, Obasan'ın Tokyo'da ki evine gitsen ne demek istediğimi anlarsın. Los Angeles trafiği ondan da kötü. Güven bana.
+
+İşte karşıma çıkan en büyük sorunlar güvenlik şirketleri. Öyle bir kafadalar ki sana danışmadan bilgisayarına istedikleri programları kurabileceğini sanıyorlar. İnanabiliyor musun? Geçen hafta bunu yaşadım. Aşağılık herif öylece içeri girdi ve sunucularımıza, hatta benim özel bilgisayarıma erişmek istediğini belirtti. Tabletime bile erişmek istedi yav! Tam bir rezalet.
+
+Neyse, bilgisayarımda tuş kaydedici olup olmadığından emin değilim ama... sanırım endişelenecek bir şey yok. Güvenlikleri bayağı sağlam. Bilgisayarım biraz yavaşladı ama ben hala güvende olduğumu düşünüyorum.
+
+Ryo... seni özlüyorum. Burada yalnızım. Lütfen anneme onu da özlediğimi söyle. Yeni dairemin resimlerini zarfın içine koyacağım. Bana dekorasyon konusunda yardım etmenizi istiyorum.
+
+Bu arada, tablet için teşekkür ederim. Beni mutlu ettin. Psylance köpekleri bir sürü şey yüklese bile...
+
+Seni seviyorum.
+Yasu
+  </file>
+  
+  <file path="sys" name="eOS_SyncLog.dcs">#BINARY#</file>
+  
+  <eosDevice name="Yasu's ePad Plus" id="dpae_airline_tablet" icon="tablet">
+    <!-- note to Translators: "rx" means "prescription" -->
+    <note>YAPILACAKLAR: T rx doldurulacak</note>
+    
+    <note>bridget cuma günü dışarı çıkmak istiyor
+    iyi bir bar bul
+    belki masa oyunları olan bir yer.</note>
+    <note>yapılacaklar
+    psylance'a şikayet raporu gönder
+    ePad++ alarmını kur
+    ryo'nun mektubunu yazdır ve gönder
+    alış veriş: cin, elma suyu, limon, tonik, jack'in 27. yaş günü için kart, bulaşık deterjanı, çamaşır deterjanı, kıytırık gözlük
+    endokrinolog denetimini organize et</note>
+    
+    <mail username="YasuArai@pacificair.com" pass="9NINETWO2" />
+  </eosDevice>
+  
+</Computer>

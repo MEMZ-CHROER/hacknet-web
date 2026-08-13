@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="themeHackEndMissionRude" activeCheck="true" shouldIgnoreSenderVerification="true">
+  <goals>
+    <!-- Consider translating "fuck" here to the most common, English glyph only curse word in the local language, if one exists.
+    This is for an achievement, where the player should reply angrily to this email. Leaving it as-is is fine if there's no good localized
+    answer to this, as canonically Naix is an English speaker.-->
+    <goal type="getString" target="fuck"/>
+  </goals>
+  <missionEnd val="0">rudeNaixResponse</missionEnd>
+  <nextMission>Theme/ThemeHackEndMissionNaixResponseDuplicate.xml</nextMission>
+  
+  <email>
+    <sender>Entropy</sender>
+    <subject>Warning</subject>
+    <body>
+      Connect-Responder.exe has noticed a forigen connection from your IP adress to 173.194.35.163.
+      External connections are prohibited on this device. If you have connected in error, please seek sysadmin assitance.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

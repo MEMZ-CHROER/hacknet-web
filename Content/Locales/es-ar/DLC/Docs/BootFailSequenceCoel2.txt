@@ -1,0 +1,5 @@
+> Maldita sea. Parece un ataque a nivel VM.
+> Ya he lidiado con esto antes. Sé que podrías hacerlo tú solo.
+> pero te necesitamos antes de eso. Te daré una guía rápida actualizada.
+> Tendrás que reparar esto desde cualquier sistema que estés ejecutando en tu VM.
+> Aguanta...

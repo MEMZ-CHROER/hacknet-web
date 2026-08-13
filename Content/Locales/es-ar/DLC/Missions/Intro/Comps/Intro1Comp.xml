@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dIntro1" name="test PC 1" security="1">
+
+  <proxy time="0.5" />
+  <portsForCrack val="2" />
+  <ports>22, 21</ports>
+
+  <trace time="150" />
+  
+<file path="home" name="readme.txt">Aquí habrá un programa que permita cambiar mucho la interfaz
+destruya tu mapa de red, icono de correo, cambie el  tema y postee algunos mensajes sobre probar más y eso
+
+por ahora, limítate a ir al destino y haz como si no tuvieras ningún shell, el programa también los eliminará.
+216.239.32.21
+ </file>
+  
+  
+</Computer>

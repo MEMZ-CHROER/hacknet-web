@@ -1,0 +1,31 @@
+-- Reparaturanleitung: VM Bootloader Trap --
+
+1: Wenn du nicht schon eine hast, dann öffne eine cmd Befehlseingabe dort, wo die blockierende Datei sein wird.
+(Ich habe einen Shortcut-Script namens „OpenCMD.bat“ rüberkopiert das dir das abnimmt - einfach ausführen und es sollte gehen). 
+Der Ordner selbst ist von System zu System unterschiedlich, sollte aber in der Nähe des Orts sein, wo deine VM ihre Daten speichert.
+
+2: Durchsuche die Ordner, um die betreffende Datei zu finden. Du suchst nach einer "VMBootloaderTrap.dll".
+Hinweis zu Windows:
+
+linux/osx | windows
+cd  ------->  cd
+ls  ------->  dir
+rm  ------->  del
+
+Ich rate dir, „dir“ jetzt zu verwenden sowie jedes Mal, wenn du das Verzeichnis wechselst, damit du nicht den Überblick darüber verlierst, wo du gerade bist.
+Vergiss nicht, dass du mit ".." zurückkommst. Tab vervollständigt Datei- und Ordnernamen automatisch, jedoch keine Befehle!
+Die Datei, nach der du suchst, sollte in einem der Unterordner in der Nähe dieses Guides liegen.
+
+
+3: Sobald du die VMBootloaderTrap.dll gefunden hast, musst du die Zugangsberechtigungssperre abschalten, bevor du die Datei löschen kannst.
+
+Führe das hier aus (vergiss nicht, dass :d am Ende zu setzen):
+icacls VMBootloaderTrap.dll /grant USERS:d
+
+
+4: Jetzt lösche die Datei!
+
+
+5: Starte deine VM neu und weiter geht's.
+
+-Coel

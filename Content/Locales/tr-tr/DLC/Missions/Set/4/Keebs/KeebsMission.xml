@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dKeebsMission">
+  <goals>
+    <goal type="filedeletion" target="missionTestNode" file="purchase_blacklist.txt" path="home/records"/>
+
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Klavyeli Yaşam">Mekanik klavye topluluğu üyelerinden biri isminin kara listeden kaldırılmasını istiyor.</posting>
+  <email>
+    <sender>Biblioteqhue</sender>
+    <subject>Klavyeli Yaşam</subject>
+    <body>
+Mekanik klavye topluluğu üyelerinden biri isminin kara listeden kaldırılmasını istiyor.
+----
+
+Belirli bir toplulukta yapmış olduğu "tamamen mantıklı" olarak nitelendirdiği yorumları nedeniyle kara listeye eklenen "ChucklingKumquat" isimli şahıs, isminin klavye bileşeni tasarımcısının sitesindeki kara listeden çıkartılmasını istiyor.
+Kendisi çok hafif sebeplerden ötürü engellendiği için listenin kabarık olmasını beklediğini ve topluluğun temiz tutulması için sadece kendisinin isminin çıkartılması gerektiğini belirtiyor.
+
+Bu işi karşılığında önemli projelerimizden birinde bize bilgi sağlayacağını garantileyen bir anlaşma imzaladım.
+
+Bol şans.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="dKeebs" />
+      <note title="Görev Kılavuzu">ChickLab sunucusundaki kara listeden (blacklist) "ChucklingKumquat" isimli kullanıcıyı çıkart.</note>
+    </attachments>
+  </email>
+</mission>

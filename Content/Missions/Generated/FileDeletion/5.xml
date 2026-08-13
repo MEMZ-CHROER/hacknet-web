@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Stop the Harvesters">
+A Client has noticed a rival company getting ahead by illegally harvesting client data and selling their information to advertising firms.
+Put a stop to it.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - Ruined Harvest</subject>
+    <body>
+Agent,
+
+Our company recently noticed a rival company that has been gaining unfair and ILLEGAL advantage in the market by harvesting client data (emails, names, preferences etc) and selling it to advertising firms for a profit.
+This is obviously unacceptable, both for privacy, honesty and fair-use reasons, but also because of the Data Protection Act of 1998.
+
+We would like to you access their servers and destroy their user detail archive they are selling. We will pursue legal action separately (Evidence is no longer an issue).
+
+Thanks,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

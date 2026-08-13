@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission03">
+  <goals>
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS.rar" path="bin" />
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Data.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Content.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS.rar" path="bin" />
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Data.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Content.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS.rar_backup" path="bin" />
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Data.xnb_backup" path="bin" />
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Content.xnb_backup" path="bin" />
+  </goals>
+  <missionStart val="0">entropyEndMissionSetup</missionStart>
+  <nextMission>AlphaCreditsMission.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Son Görev</subject>
+    <body>
+#PLAYERNAME#, 
+
+Entropy grubu olarak senden son bir şey istiyoruz. Başarsan da başaramasan da, seninle temasta bulunmamız çok... tehlikeli bir hal olacak.
+
+Bu görevinde yok etmen gereken bir şey var. Bir süredir takip ettiğimiz bir şirket "HacknetOS" isimli işletim sistemini geliştiriyordu. Bu işletim sistemi, kısa süre önce ölen "Bit" isimli hackerin araştırmalarını temel alarak geliştirildi.
+Bu sistemin dijital dünyanın güvenliği için büyük bir tehdit oluşturduğunun bilincindeyiz. İşletim sisteminin barındırdığı araçlarla, temel bilgisayar eğitimi almış şahıslar bile her yere girebilecek.
+
+Bu tehditin sonsuza dek ortadan kaldırılması gerekiyor.
+Entropy seni *her anlamda* destekliyor. Ayrıca bu görevinde kullanmam için iki büyük (ve pahalı) aracı Asset Server'a yükledik. Muhtemelen onlara ihtiyacın olacak. Sana onları derhal indirmeni öneririm.
+
+Ekte bu işin arkasındaki şirketin iç hizmet bilgisayarının linki yer alıyor. Elbette başka bilgisayarlara yedeklemişlerdir. Bu yüzden bu tehditin tamamen ortadan kalktığından emin olmak için ağı taramalı ve bulduğun tüm yedekleri yok etmelisin.
+
+Sana başarılar dilerim. Bizi yüzüstü bırakma.
+-Tex
+    </body>
+    <attachments>
+      <link comp="corp0#IS" />
+    </attachments>
+  </email>
+</mission>

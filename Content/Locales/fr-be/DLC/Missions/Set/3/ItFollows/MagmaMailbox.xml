@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="ds3_mail" name="MagmaMailbox" security="1" type="4" icon="DLCSERVER" ip="26.26.62.62">
+
+  <proxy time="-1" />
+  <portsForCrack val="7" />
+  <ports>22, 21, 6881, 443, 80, 25, 104</ports>
+  <trace time="250" />
+
+  <customthemefile path="home" name="caution_standard_x-server.sys" themePath="DLC/Themes/CautionThemeStandard.xml"/>
+
+  <account username="cornch1p" password="SaltyChippies22" type="2" />
+  
+  <mailServer name="MagmaMailbox" color="224,52,0">
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(pas d'objet)">L'adresse IP de votre serveur personnel est 177.3.200.6, c'est ça ? Mettez mon VPS en liste blanche, s'il vous plaît ; l'adresse IP est 7.201.4.178.
+Vous devriez être plus prudent. J'ai entendu dire que vous faites du bruit ; cela attirera certainement l'attention.</email>
+    
+    <email recipient="cornch1p" sender="temp_ACCC0" subject="(pas d'objet)">J'ai besoin que vous parliez à des hackers dans la communauté Occidentale et que vous découvriez si Kaguya est en train de se faire un nom.
+Soyez discret. Soyez prudent.</email>
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(pas d'objet)">Kaguya est allé trop loin, cette fois. Je vous recommande d'être patient.</email>
+    
+    <email recipient="cornch1p" sender="do-not-reply@magmamailbox.com" subject="Notification automatique : Abonnement renouvelé">Cher cornch1p,
+Ceci est un message automatique pour vous informer que votre abonnement à MagmaMailbox a été renouvelé.
+Merci d'être un abonné fidèle du numéro un du service de courrier sécurisé sur Internet.
+Sincères salutations,
+L'équipe des administrateurs de MagmaMailbox
+---
+NE RÉPONDEZ PAS À CET E-MAIL - CETTE BOÎTE MAIL EST AUTOMATIQUE.
+---</email>
+    
+    <email recipient="cornch1p" sender="temp_05ECE" subject="(pas d'objet)">Merci de m'avoir contacté. J'ai reçu ce communiqué le mois dernier. Vous savez de qui il est :
+---
+Dreadnought se fait maintenant appeler « Kaguya ».
+Il (?) a cramé les disques durs de ses acolytes, et il est parti à l'Ouest.
+Nous avons tenté de le suivre, mais il a dissimulé ses traces. 
+La Chose Est en Vie.
+---</email>
+    
+    <email recipient="cornch1p" sender="do-not-reply@magmamailbox.com" subject="Notification automatique : Boîte mail purgée">Cher cornch1p,
+Ceci est un message automatique pour vous informer que votre boîte mail a été purgée dans le cadre de la purge hebdomadaire de MagmaMailbox. Ceci n'est qu'une notification : aucune action n'est requise de votre part.
+Sincères salutations,
+L'équipe des administrateurs de MagmaMailbox
+---
+NE RÉPONDEZ PAS À CET E-MAIL - CETTE BOÎTE MAIL EST AUTOMATIQUE.
+---</email>
+    
+  </mailServer>
+  
+</Computer>

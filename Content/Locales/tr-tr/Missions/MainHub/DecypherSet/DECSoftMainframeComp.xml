@@ -1,0 +1,268 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="decSoftMainframe" name="DEC Solutions Mainframe" ip="101.0.89.154" security="5">
+  <ports>21, 25, 22, 80, 1433</ports>
+  <portsForCrack val="5" />
+  <firewall level="-1"/>
+  <trace time="-1" />
+  <proxy time="0" />
+
+  <encryptedFile path="home" name="encrypt.dec" ip="101.0.89.154" header="Secured Source Code" extension=".cs" double="true">
+        private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data[i] * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + " ");
+            }
+            return ret.ToString().Trim();
+        }
+  </encryptedFile>
+
+  <encryptedFile path="Staff/D.Leatrou" name="Personal_Notes.dec" ip="101.0.89.154" header="DOUBLE ENCRYPTION" extension=".txt" double="true" pass="dleatrou">
+Kathy'nin benim için bir şeyler yapmış olabileceğinden endişeleniyorum. Onu suçlamıyorum. Zaman zaman biçimli yüzümü bende görüyorum (Çok çekici. Daha fazla ayna almalıyım).
+Bu konuda profesyonel kalmam büyük önem taşıyor. Buraya not bırakacağım; eğer bana cinsel saldırıda bulunursa 
+suçsuz olarak kayıtlara geçmek istiyorum.
+
+-David Leatrou, İdari Başkan
+28/12/2013
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/D.Leatrou" name="Lawsuit_Response.dec" ip="101.0.89.154" header="DOUBLE ENCRYPTION" extension=".txt" double="true" pass="dleatrou">
+Bay Leatrou,
+
+Son mektubunuzla ilgili olarak, konuyu avukatlarınızla görüştüm ve bana "İkili Şişim (bir tane tavsiye edilse de iki prezervatif kullanmanız) anlayışınızın sizlere bildirilen kullanım kısıtlamalarını ciddi anlamda aştığını ve ne kadar çok kaçamak yapsanız da, böyle bir eylem için yasal anlamda işlem yapamayacağınızı söylediler.
+Bundan sonra bildirilen prosedüre uymanızı tavsiye ederim.
+
+Size ve 12 evladınıza en iyi dileklerimi iletmek isterim.
+
+-Jennifer Stem,
+Durex Müşteri ve Şikayet Hizmetleri
+  </encryptedFile>
+  
+  <file path="Staff/D.Leatrou" name="Staff_Memo.txt">
+Merhaba millet,
+
+Öncelikle yeni şifreleme paketimizi başarıyla piyasaya sürebildiğimiz için hepinizi tebrik etmek istiyorum. Büyük başarı elde ettik. Yeni pazarlama aracımızdan ötürü sizlerinde benim kadar heyecanlı olduğunuzu umuyorum.
+DEC Solutions dünya çapında geliştirilen yazılımlar arasında belirgin bir güç haline geldikçe bizlerde geliştiren şirket olarak basamakları adım adım çıkacak ve daha yüksek standartlara ulaşacağız.
+Bu yüzden şirketimiz içerisinde uygulanacak yeni kurallar koyacağım. Umarım bu iş akışı geliştirmelerinden memnun kalırsınız. 
+
+Yeni kurallar ben tamamlar tamamlamaz geçerli olacak. Bu da birkaç gün sürer. O zamana kadar eski düzeninizde takılın!
+
+Verimli günler dilerim.
+-David Leatrou, İdari Başkan
+</file>
+
+  <file path="Staff/D.Leatrou" name="New_Policies.txt">
+Merhaba millet,
+İşte birkaç gün önce bahsettiğim yeni kurallar. Dikkatlice okumanızı tavsiye ederim!
+   
+1) Hassas şirket verileri (kaynak kodları, gizli notlar vs.) üzerinde çalışılmadıkları zamanlarda şifrelenecek.
+Bunun içinde kendi yazılımımızdan iyisini düşünemiyorum! Sitemizi sizde gördünüz. Bunun yaptığımız işi ne kadar güvenli hale getireceğini anladığınızdan eminim.
+Şifrelemeye kendi dosyalarımdan başladım bile. Hatta çok önemli olan dosyaları İKİ DEFA şifreledim. Bu resmen 2 prezervatif kullanmak gibi bir şey. Birisi yırtılırsa, bir tane daha olacak.
+
+2) Dosyaları şifrelerken genellikle şifre girmemelisiniz. Ancak eğer önemli bir dosya ise, şirket kullanıcı adınızı şifre olarak girin.
+Mesela dosyaları ben şifreleyecek olsam şifreleri "dleatrou" olurdu!
+
+3) Şifreleme paketinin sürümleri sürekli olarak çevrimdışı tutulacaktır. Dijital güvenlik çağında dikkatinizin dağıldığı anlar olabilir sonuçta!
+
+Şifrelenmemiş son şirket notunuzun tadını çıkarın!
+-David Leatrou, İdari Başkan
+  </file>
+  
+  <file path="Staff/D.Leatrou/Locked" name="RE:Decypher_Memo.txt">
+    Hallettim. Erkenden gösterdiğin için teşekkür ederim.
+    Birkaç kişiye kopya gönderdim. Bakalım bundan bir şey elde edebilecekler mi...
+    Harika iş başarmışsın.
+
+    -David Leatrou, İdari Başkan
+
+    -----------------------------------------YANIT : -----------
+    
+    David,
+
+    Şifreleme yükleyicilerinden aldığımız kodlara bakıyordum da... bunlar kırılabilir. Gerçekten kırılabilirler. Tehlikeli derecede kırılabilirler.
+    Sana gösterebilmem için ufak bir program yazdım ve de yolladım. Muhtemelen işin biter bitmez programı ve bu iletiyi silmek isteyeceksin.
+
+    Çalıştırmak için komut satırına aşağıdakini yaz:
+    "Decypher [DOSYA ADI]"
+
+    Eğer şifre de varsa, dosya adından sonra girmelisin:
+    "Decypher [DOSYA ADI] [ŞİFRE]"
+
+    ... Bilirsin işte, sana yüz yüze de anlatabilirdim.
+    -J
+  </file>
+  
+
+  <encryptedFile path="Staff/J.Scott" name="Decypher.dec" ip="101.0.89.154" header="DECYPHER - DO NOT SHARE" extension=".exe">#DECYPHER_PROGRAM#</encryptedFile>
+  
+  <encryptedFile path="Staff/J.Scott" name="Decypher_Memo.dec" ip="101.0.89.154" header="Corporate Memo" extension=".txt">
+  David,
+  
+  Şifreleme yükleyicilerinden aldığımız kodlara bakıyordum da... bunlar kırılabilir. Gerçekten kırılabilirler. Tehlikeli derecede kırılabilirler.
+    Sana gösterebilmem için ufak bir program yazdım ve de yolladım. Muhtemelen işin biter bitmez programı ve bu iletiyi silmek isteyeceksin.
+
+    Çalıştırmak için komut satırına aşağıdakini yaz:
+    "Decypher [DOSYA ADI]"
+
+    Eğer şifre de varsa, dosya adından sonra girmelisin:
+    "Decypher [DOSYA ADI] [ŞİFRE]"
+
+    ... Bilirsin işte, sana yüz yüze de anlatabilirdim.
+  -J
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/J.Scott" name="RE:RE:Decypher_Memo.dec" ip="101.0.89.154" header="Corporate Memo" extension=".txt">
+    Tamamdır.
+    
+    Gerçekten bana yolladığın her iletiye "İdari Başkan" ibaresini eklemek zorunda mısın?
+    
+    -----------------------------------------YANIT :
+    Hallettim. Erkenden gösterdiğin için teşekkür ederim.
+    Birkaç kişiye kopya gönderdim. Bakalım bundan bir şey elde edebilecekler mi...
+    Harika iş başarmışsın.
+
+    -David Leatrou, İdari Başkan
+
+    -----------------------------------------YANIT :
+    David,
+
+    Şifreleme yükleyicilerinden aldığımız kodlara bakıyordum da... bunlar kırılabilir. Gerçekten kırılabilirler. Tehlikeli derecede kırılabilirler.
+    Sana gösterebilmem için ufak bir program yazdım ve de yolladım. Muhtemelen işin biter bitmez programı ve bu iletiyi silmek isteyeceksin.
+
+    Çalıştırmak için komut satırına aşağıdakini yaz:
+    "Decypher [DOSYA ADI]"
+
+    Eğer şifre de varsa, dosya adından sonra girmelisin:
+    "Decypher [DOSYA ADI] [ŞİFRE]"
+
+    ... Bilirsin işte, sana yüz yüze de anlatabilirdim.
+    -J
+  </encryptedFile>
+
+  <encryptedFile path="Staff/J.Scott" name="Encryption_Base2.dec" ip="101.0.89.154" header="Source Code" extension=".cs">
+    
+        /// özet
+        /// Sıralam İçeriği Dönütü
+        /// [0] Başlık İletisi
+        /// [1] IP Linki
+        /// [2] İleti Verisi
+        /// [3] Varsa, dosya uzantısı, yoksa boşluk
+        /// özet
+        public static string[] DecryptString(string data, string pass = "")
+        {
+            string[] ret = new string[4];
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string[] split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+            string[] headersSplit = split[0].Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+
+            string headerMsg = Decrypt(headersSplit[1], passcode);
+            string ipLink = Decrypt(headersSplit[2], passcode);
+            string check = Decrypt(headersSplit[3], passcode);
+            string fileExtension = null;
+            if (headersSplit.Length > 4) fileExtension = Decrypt(headersSplit[4], passcode);
+            string message;
+            if (check == "ENCODED") {
+                //Password was correct!
+                message = Decrypt(split[1], passcode);
+            }
+            else {
+                //invalid password
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+            }
+            ret[0] = headerMsg;
+            ret[1] = ipLink;
+            ret[2] = message;
+            ret[3] = fileExtension;
+            return ret;
+        }
+  </encryptedFile>
+
+  <encryptedFile path="Staff/J.Scott" name="Decypher_Test.dec" ip="101.0.89.154" header="Source Code" extension=".cs">
+    
+    private static string Decrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            string[] input = data.Split(Utils.spaceDelim, StringSplitOptions.RemoveEmptyEntries);
+            for (int i = 0; i LESS_THAN input.Length; i++) {
+                int currentChar = Convert.ToInt32(input[i]);
+                int halfmax = ushort.MaxValue / 2;
+                int newVal = currentChar - halfmax - passcode;
+                newVal = newVal / 1822;
+                ret.Append((char)newVal);
+            }
+            return ret.ToString().Trim();
+        }
+  </encryptedFile>
+
+  <file path="Staff/A.Carey" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="Staff/A.Carey" name="Staff_Memo.txt">
+Merhaba millet,
+
+Öncelikle yeni şifreleme paketimizi başarıyla piyasaya sürebildiğimiz için hepinizi tebrik etmek istiyorum. Büyük başarı elde ettik. Yeni pazarlama aracımızdan ötürü sizlerinde benim kadar heyecanlı olduğunuzu umuyorum.
+DEC Solutions dünya çapında geliştirilen yazılımlar arasında belirgin bir güç haline geldikçe bizlerde geliştiren şirket olarak basamakları adım adım çıkacak ve daha yüksek standartlara ulaşacağız.
+Bu yüzden şirketimiz içerisinde uygulanacak yeni kurallar koyacağım. Umarım bu iş akışı geliştirmelerinden memnun kalırsınız. 
+
+Yeni kurallar ben tamamlar tamamlamaz geçerli olacak. Bu da birkaç gün sürer. O zamana kadar eski düzeninizde takılın!
+
+Verimli günler dilerim.
+-David Leatrou, İdari Başkan
+</file>
+
+  <file path="Staff/A.Carey" name="New_Policies.txt">
+Merhaba millet,
+İşte birkaç gün önce bahsettiğim yeni kurallar. Dikkatlice okumanızı tavsiye ederim!
+   
+1) Hassas şirket verileri (kaynak kodları, gizli notlar vs.) üzerinde çalışılmadıkları zamanlarda şifrelenecek.
+Bunun içinde kendi yazılımımızdan iyisini düşünemiyorum! Sitemizi sizde gördünüz. Bunun yaptığımız işi ne kadar güvenli hale getireceğini anladığınızdan eminim.
+Şifrelemeye kendi dosyalarımdan başladım bile. Hatta çok önemli olan dosyaları İKİ DEFA şifreledim. Bu resmen 2 prezervatif kullanmak gibi bir şey. Birisi yırtılırsa, bir tane daha olacak.
+
+2) Dosyaları şifrelerken genellikle şifre girmemelisiniz. Ancak eğer önemli bir dosya ise, şirket kullanıcı adınızı şifre olarak girin.
+Mesela dosyaları ben şifreleyecek olsam şifreleri "dleatrou" olurdu!
+
+3) Şifreleme paketinin sürümleri sürekli olarak çevrimdışı tutulacaktır. Dijital güvenlik çağında dikkatinizin dağıldığı anlar olabilir sonuçta!
+
+Şifrelenmemiş son şirket notunuzun tadını çıkarın!
+-David Leatrou, İdari Başkan
+  </file>
+
+  <encryptedFile path="Staff/A.Carey" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+  <encryptedFile path="Staff/A.Carey" name="DECE_TestBuild.dec" ip="101.0.89.154" header="Source Code" extension=".bin">#BINARY#</encryptedFile>
+
+  <encryptedFile path="Staff/K.Abrams" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+  <encryptedFile path="Staff/K.Abrams" name="IMPORTANT_MEMO.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+  Kathy,
+  
+  Bana kahve getir, bende okşama işini halledeyim, ne dersin? 3'te ofiste olacağım.
+  
+  Şifrelemeyi unutma!
+  -David Leatrou, İdari Başkan
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/K.Abrams" name="Notes.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+    Azalanlar:
+    
+    Milimetrik Kağıt
+    Şirket Tişörtleri (S, L ve XL)
+    Kahve (ÖNEMLİ, DERHAL ÇÖZÜLECEK)
+    Kahve Kupaları (Birisi sürekli kırıyor!)
+    Aynalar (Neden David bu kadar çok ayna satın alıyor?)
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/K.Abrams" name="Needed_In_Office.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+    Kathy,
+
+    Ayna alsam moralim yerine gelir diye düşündüm. Ayarlamaları yapabilir misin? 6 tane olsun. Odaya getirsinler.
+    Bence bu aynalar odaya renk katacak!
+
+    Teşekkürler!
+    -David Leatrou, İdari Başkan
+  </encryptedFile>
+  
+</Computer>

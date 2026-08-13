@@ -1,0 +1,85 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hubEosMisison" 
+          name="Sal_Home_Workstation" 
+          security="4"
+          type="2" >
+
+  <file path="home/docs" name="Anastasia.txt">
+[swinters77] で、この週末は何かあったの？
+[jlogan74] 特には。Jerryがまた町の外に出かけたけど。
+[swinters77] ってことは、家には帰らなかったんだ。
+[jlogan74] まあ・・・、Rhysの家には泊まったんじゃない。
+[swinters77] Jane、ちょっと僕たちの手に負えなくなってきてないかな。
+[swinters77] こんなのいつまで続けるつもりなんだ？
+[jlogan74] わかってる、わかってるってば。そっちにはわからないだろうけど。
+[jlogan74] Jerryはいつも仕事でどっか行ってるし、家に帰ってきたとしても、出張の疲れで死んだみたいにしてる。
+[jlogan74] 最後に一緒に出かけたのがいつかすら覚えてない。カフェにすら行かないのよ。
+[jlogan74] Rhysはそこに居ただけなの。最初は、ただ単に間違いだったって思ってたけど、それ以上の何かに変わってきてるの。
+[jlogan74] 出口のない迷宮に閉じ込められた感じだわ。
+[swinters77] 君の事はアナスタシアって呼ぶことにするよ :P
+  </file>
+  
+  <file path="home/docs" name="lab_nightmare.txt">
+[137847] 結果は戻ってきたか？
+[137849] ああ、でも結論は出なかった。
+[137847] 本当か？今回こそやったと思ったんだけどな。
+[137849] 前回に比べて細胞数が多いんだ。
+[137849] だが、宿主を攻撃してる様子はない、ただ居るだけなんだ。
+[137847] どれだけ時間をかければプロジェクトの結果が出るんだか・・・
+[137849] ローマは一日にしてならず。神も力がなければただの人間さ。
+[137847] 最後に自宅のベッドで寝たのがいつかすら、覚えてないよ。
+[137849] わかるよ。君のいびきはラボ中に響いてるからね。
+[137847] うそ、本当かい？ごめんよ。
+[137849] かわいいから許すよ。
+[137849] それで、今度はどうするんだい？
+[137847] 新しいサンプルを使って、遺伝子を回転させてみよう。何か違う反応が得られるかもしれない。
+[137849] 了解。一緒にランチ食べないか？
+[137847] 場合による。
+[137849] 場合って？
+[137847] 向こうがまた、こっちにあのハンバーグを食わせようとするかどうかさ。
+  </file>
+  
+  <eosDevice name="Elanor Helleran's ePhone 4S" id="salEosPhone">
+    <note>
+IDリスト
+Registration :
+AAX1BB7
+      
+Steam :
+RWINC-HQQAP-WY4VZ
+D04J0-NJZKB-NIAK2
+LQ5TN-687II-PEM99
+LYWYG-H864Y-BVN3M
+47AQ8-8FLQ8-37PKR
+3PIPG-ETMTR-JMXX9
+8PVRG-W9WW5-070VB
+CG0TB-TNBFQ-HNDLV
+JAALV-CDHAD-HJNZB
+NJ38F-PQ388-LEV6N
+LXIIR-XLVYB-V3R66
+VDG22-APHH3-VQCDW
+2RB4T-XW6PF-MX06B
+TJ0KB-CPX0Q-ZT2PM
+0NCV5-NGVV3-59E76
+00Y38-PQ2ZE-FH32Y
+HGWBV-M7N7T-W5K0Q
+    </note>
+    <note>
+買い物
+      
+コーヒー
+Monster
+Rockstar
+NOS
+アンプ
+Full Throttle
+Xyience
+Arizona Energy
+Rip It
+Venom
+Food x lots
+    </note>
+    <mail username="sal@jmail.com" pass="22foxhound" />
+  </eosDevice>
+
+</Computer>

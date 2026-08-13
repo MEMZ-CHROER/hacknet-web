@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pressdemoMission01">
+  <goals>
+    <sendemail recipient="gila" subject="MedicalRecord - Helleran_Elanor"/>
+  </goals>
+  <nextMission>Demo/PressBuild/DemoMission03.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Fantasmas en la cripta</subject>
+    <body>Buen trabajo, ya estás listo. 
+Aquí es donde llegamos a por qué te estoy pidiendo esto desde tan pronto. Todavía sigo pretendiendo meter todo esto en la red, necesito todas las oportunidades que pueda, y por mucho que seas el primero de esa lista, no puedo confiar simplemente en &quot;mis mejores suposiciones&quot; para esto. 
+Hay deudas que pagar para personas que me han ayudado con esto (incluso aunque no supieran que lo estuvieran haciendo).
+
+ Uno en particular, Gila, un hacker amigo mío de CSEC, me ofreció algo de ayuda con este proyecto a cambio de un trabajo, uno que ya no puedo seguir haciendo. He borrado mis discos duros por completo por miedo a dejar algún rastro de esto a última hora, así que estoy siendo otra vez poco razonable. 
+
+Quiere que obtenga un registro médico y que se lo envíe. He hecho lo que he podido para sabotear la seguridad de Int.Medical, así que deberías ser capaz de entrar con lo que tienes ahora. He adjuntado los detalles de lo que quiere abajo. Este servidor es un servidor serio, así que tendrás que borrar tus registros, no seas torpe.
+
+ Este será tu primer trabajo de verdad. Buena suerte. 
+
+--Bit
+0
+    </body>
+    <attachments>
+      <note title="Descripción de la misión">
+Conéctate a la base de datos de International Medical 
+Atraviesa la seguridad activa 
+(Probe/Programs/Porthack) 
+
+Busca el registro de 
+&quot;Elanor Helleran&quot; 
+Envía por email el registro médico a
+ &quot;gila@jmail.com&quot; 
+
+Borra todos los registros en la carpeta /logs (rm *)
+      </note>
+      <link comp="medicalDemo"/>
+    </attachments>
+  </email>
+</mission>

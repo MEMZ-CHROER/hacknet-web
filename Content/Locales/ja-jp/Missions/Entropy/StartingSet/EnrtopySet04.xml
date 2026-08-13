@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="1299"/>
+  </goals>
+  <nextMission>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply.xml</nextMission>
+  <branchMissions>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply2.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply3.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply4_Penetrator.xml</branch>
+    <branch>Entropy/StartingSet/Misc/XC_Replies/XC_OK_Reply5.xml</branch>
+  </branchMissions>
+  <posting title="X-Cプロジェクト">
+少し風変わりな依頼です。とある非常に裕福な人物が、同僚のタブレットを調査してほしいと依頼をしてきました。そのタブレットが仕事以外の目的で使われていないか知りたいそうです。
+
+彼らのシステムを軽く調べてみたところ、どうやらエイリアンに熱狂しているようです。ロールプレイングゲームのグループや、熱心な陰謀論者の集まりなんでしょうか？
+ </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>内部調査</subject>
+    <body>
+こんにちは。
+X-Cプロジェクトに君の助けが必要だ。これは内部の問題で、本来外部の人間を関与させてはいけないんだが、個人的に調査を頼みたい。わが社において最先端の研究プロジェクトを率いる
+科学チームの1人が・・・どうも仕事をおろそかにしているようなんだ。しばらく前からどうも様子がおかしい。そこで、彼女のタブレットPCの調査を外部に依頼することにした。仕事に関係ないことを
+していないか調べてもらいたい。
+
+僕たちのサーバーでは、リアルタイムでファイルをミラーリングし、IDコードをつけて管理する集約型データストレージシステムを採用している。このシステムを調査し、あやしいと思われるファイル
+すべてのIDを添付してこのメールに返信してほしい。
+ファイルには、IDがこんな感じで記入されているはずだ。
+例） X-C_PROJECT:ID#11111111 この場合、IDは「11111111」になる。
+
+問題のタブレットへのリンクは添付しておいた。
+
+よろしく頼んだよ。
+-C.O Bradford
+    </body>
+    <attachments>
+      <link comp="xcTablet" />
+    </attachments>
+  </email>
+</mission>

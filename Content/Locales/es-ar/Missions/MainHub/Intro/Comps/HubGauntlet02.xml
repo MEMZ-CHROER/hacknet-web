@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="hubTestComp02" name="Guantelete de CSEC 02" security="2">
+  <link target="hubTestComp03"/>
+  <file path="home/Test" name="CONTINUE.txt">
+Sigue al servidor enlazado para pasar a la siguiente fase de esta prueba.
+  </file>
+  <proxy time="2"/>
+  <account username="admin" password="medium"/>
+</Computer>

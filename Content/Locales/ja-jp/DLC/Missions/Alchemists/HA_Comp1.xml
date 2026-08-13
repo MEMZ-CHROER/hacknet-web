@@ -1,0 +1,90 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dhaComp1" name="HA_Coagula" security="4" icon="Alchemist" type="empty">
+  
+  <proxy time="-1" />
+  <trace time="200" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dhaComp2" position="320" total="360"/>
+
+  <file path="home" name="alchemy.txt">かつての錬金術師は金属に命があると信じていた――迷信とも言われたが――最初は土星が象徴する鉛として誕生し、異なる元素へと進化し、最後は太陽が象徴する金となる。
+
+やがて、それはメタファーとして捉えられるようになった。生命と物質――マテリアは循環する。上のものは下のもののごとし、とエメラルド碑文にある。 
+
+"友よ、君は進化し、新たな円環に進む。なんと輝かしいことか。"</file>
+
+  <!-- Translators note: Do not translate this file! It's meant to stay in Latin -->
+  <file path="home" name="tablet_latin.txt">Tabula Smaragdina
+
+Verum, sine Mendacio, certum et verissimum:
+
+Quod est Inferius est sicut quod est Superius, et quod est Superius est sicut quod est Inferius, ad perpetranda Miracula Rei Unius. Et sicut res omnes fuerunt ab Uno, meditatione inius, sic Omnes Res natae ab hac una Re, adaptatione.
+
+Pater eius est Sol. Mater eius est Luna. Portavit illud Ventus in Ventre suo. Nutrix eius Terra est. Pater omnis Telesmi totius Mundi est hic. Virtus eius integra est si versa fuerit in Terram. Separabis Terram ab Igne, subtile ab spisso, suaviter, magno cum ingenio.
+
+Ascendit a Terra in Coelum, iterumque descendit in Terram, et recipit Vim superiorum et inferiorum. Sic habebis Gloriam totius Mundi. Idio fugiet a te omnis Obscuritas. Haec est totius Fortitudinis Fortitudo fortis, quia vincet Omnem rem subtilem, Omnemque Solidam penetrabit.
+
+Sic Mundus creatus est. Hic erunt Adaptationes Mirabiles, quarum Modus est hic. Itaque vocatus sum Hermis Trismegistus, habens tres partes Philosophiae totius Mundi.
+
+Completum est quod dixi de Operatione Solis.</file>
+
+  
+  <file path="home" name="tablet_newton.txt">エメラルド碑文
+
+これはまごう事無き真実。
+
+下のものは上のもののごとく、上のものは下のもののごとし。それは唯一なるものの奇跡を生む。
+
+万物は一の瞑想により一から浮上した。すなわち、万物はこの一から、その適応により誕生した。
+
+その父は太陽。月は母。風はそれを己の腹に運び、大地が育む。
+
+万物の父はここに。
+
+その力は大地に向かうとき完全となるだろう。
+
+大地を炎から引き離せ。小なるものを大なるものから引き離せ。愛と勤勉によって。
+
+それは大地から天へ昇り、再び大地へ降りる。そして、優と劣の力を受け取る。
+
+さすれば君は全世界の光を手にし、
+影は跡形もなく君から飛び去る。
+
+それはいかなる力をも上回り、小なるものを一つ残らず征服し、あらゆる硬きものを貫く。
+
+かくして世界は創造された。
+
+驚くべき適応はかくして起こる。全世界の哲学の3つの部分を持つ我はヘルメス・トリスメギストスと呼ばれている。
+
+太陽の働きについて我が述べるべきはこれが全てだ。</file>
+
+  <file path="home" name="nameofgod.txt">yod
+HE
+vau
+he
+</file>
+
+  <!-- This should be more cryptic than this, and require, ideally, a player to have read 
+  something on the entry comp to understand it properly. It does need to be an explicit hint 
+  for gameplay purposes though. -->
+  <file path="home" name="Rebis.txt">幻と変化のパターンは循環して現れる。世代、場、主題を越えて、それら自体を繰り返し反映し続ける。
+  
+これは明らかだ、この科学の時代においても。錬金術の文章をその本質的言語でたどってみるといい。
+
+「ファイアウォール」は再度出現する。ただし、宗教の象徴や軍事上の防御としてではなく、社会におけるツールとして――たとえ同じ言葉で同じように発せられたとしても。
+大地、第一質量、クン。
+
+Rebisに関しては、動作、接続、流動性の知識を探索することだ。
+</file>
+
+  <LogoDaemon Name="COAGULA" ShowsTitle="true" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/Alchemists1">
+Taoから1が現れる。
+1から2が現れる。
+2から3が現れる。
+3から全てが現れる。
+  </LogoDaemon>
+  
+</Computer>

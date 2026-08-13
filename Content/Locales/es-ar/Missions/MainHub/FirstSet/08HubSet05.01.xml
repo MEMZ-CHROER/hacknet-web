@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="FOF_Screenplay.doc" path="home" destTarget="producerComp" destPath="home/scripts"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Help an aspiring writer" reqs="dechead,decypher">
+Un aspirante a guionista quiere que le hagamos llegar uno de sus guiones a un productor.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Una solicitud convincente</subject>
+    <body>
+Un guionista quiere que un borrador de su última obra le llegue a un productor y tiene problemas para superar a las secretarias y demás. 
+Quiere que nosotros nos colemos y dejemos su trabajo en la carpeta de guiones para revisar del objetivo, para que lo mire. 
+
+Su guion, FOF_Screenply.doc, se ha cargado en el servidor de intercambio. 
+También nos ha dado un guion que compite con el suyo y que podemos usar para el rastreo. 
+También está en el servidor de intercambio, T2_Screenply.dec.
+      
+Carga su guion en la carpeta de guiones («scripts») del equipo del objetivo. 
+Como siempre, recuerda tabular comandos de carga completos, «upload bin/», y luego pulsa la tecla del tabulador para conseguir una lista de los archivos locales para cargar y autocompletar. 
+
+Buena suerte, 
+- CSEC
+    </body>
+    <attachments>
+      <link comp="hubCrossroads"/>
+      <note title="Datos del contrato">Descarga FOF_Screenply.doc
+.----
+Rastrea T2_Screenplay.dec. 
+
+Carga FOF_Screenply.doc en la carpeta de scripts del objetivo.</note>
+    </attachments>
+  </email>
+</mission>

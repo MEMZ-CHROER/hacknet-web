@@ -1,0 +1,14 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhsDrop" needsMissionComplete="false">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="105.0">Oh bon sang</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="110.0">@channel , vous avez déjà essayé d'utiliser SignalScramble ? Le truc qu'on a récupéré sur les serveurs des Alchimistes ?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="114.0">C'est dingue ce truc</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="130.0">Oui, c'est très impressionant. Où t'en a entendu parler @Kaguya ?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="140.5">secret de commerce.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="147.5">En tout cas, je suis heureux que ça vous plaise. J'ai l'impression que ça va nous servir pour la suite.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="160.0">c'est cooooool</AddIRCMessage>
+  </OnConnect>
+  
+</ConditionalActions>

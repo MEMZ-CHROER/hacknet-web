@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission03">
+  <goals>
+  </goals>
+  <missionStart>entropySendCSECInvite</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Congratulations</subject>
+    <body>
+It appears as though you have completed the requested task - hopefully this community's profile will remain a little civilized for some time longer.
+
+While your current service to Entropy is greatly appreciated, it's become clear that this organization will not satisfy you. 
+To be honest, Entropy was never going to be a big player in the Hacker world - I created it to be a sort of good-will front to what's a very quickly deteriorating public image of the Hacker subculture.
+
+While I hope that you'll continue to help out if Entropy needs you, you've more than deserved this offer;
+
+I'm a member of a rather powerful Invite-Only hacker group known as CSEC - a group which contains only exceptional hackers and computer security experts, where I think you'd fit right in.
+I've set a request for you to receive an invite, and you should receive an email from them shortly with an acceptance test.
+
+Know that I do not do this lightly - an invite to this group is highly sought after in some circles.
+
+Good luck,
+-Tex
+    
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

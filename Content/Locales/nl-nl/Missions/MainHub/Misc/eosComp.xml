@@ -1,0 +1,90 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hubEosMisison"
+          name="Sal_Home_Workstation"
+          security="4"
+          type="2" >
+
+  <file path="home/docs" name="Anastasia.txt">
+[swinters77] Dus wat heb je gedaan dit weekend?
+[jlogan74] Niet veel, Jerry was weer het huis uit.
+[swinters77] Ik neem aan dat dat betekent dat je niet thuis was.
+[jlogan74] Nou.... Ik ben misschien bij Rhys' huis beland.
+[swinters77] Jane, dit loopt een beetje uit de hand.
+[swinters77] Hoe lang ga je dit volhouden?
+[jlogan74] Weet ik, weet ik. Het is gewoon, het is moeilijk weet je.
+[jlogan74] Jerry is altijd weg voor zijn werk en als hij thuis komt is hij doodmoe van al het reizen.
+[jlogan74] Ik kan me niet eens de laatste keer herinneren dat we ergens heen zijn gegaan, zelfs niet voor koffie.
+[jlogan74] Rhys was er gewoon. Het was eerst een foutje, maar nu begint het ergens op te lijken.
+[jlogan74] Nu zit ik in dit conundrum.
+[swinters77] Ik ga je Anastasia noemen :P
+  </file>
+
+  <file path="home/docs" name="lab_nightmare.txt">
+[137847] Zijn de resultaten binnen?
+[137849] Ja, niet overtuigend.
+[137847] Echt? Ik wist zeker dat het dit keer zou lukken.
+[137849] Het cellen aantal is veel groter dan de laatste keer.
+[137849] Maar ze vallen niet de host aan, die daar gewoon zit.
+[137847] Ik weet niet hoeveel maanden ik nog kan besteden aan dit project.
+[137849] Rome was niet in een dag gebouwd. Goden moeten hun krachten verdienen.
+[137847] Ik kan me de laatste keer dat ik in mijn eigen bed sliep niet eens herinneren.
+[137849] Ja weet ik. Je gesnurk galmt door het hele lab.
+[137847] Echt? Poep. Sorry.
+[137849] Het is schattig.
+[137849] Dus wat is het plan nu?
+[137847] Laten we het laaste monster nemen en de genetische opbouw op een nieuw pad proberen te zetten.
+[137849] Alrighty. Wil je vanmiddag samen lunchen?
+[137847] Ligt eraan.
+[137849] Waaraan?
+[137847] Of ze ons weer dat trieste excuus voor een Salsbury Steak proberen te verkopen.
+  </file>
+
+  <eosDevice name="Elanor Helleran's ePhone 4S" id="salEosPhone">
+    <note>
+ids
+Registratie :
+AAX1BB7
+
+Steam :
+VZX3H-GMZMX-2MM9W
+7Q3VA-RY90R-8YZMH
+QL3JM-TJ79V-DJCYZ
+HI4RC-I6TGZ-MR3K8
+XIWW9-TDXF7-HN5EA
+2FNDM-Q5X2F-XRBFV
+8HDZ2-3EA3D-DYYB2
+T6CM3-FAD07-VNJC2
+LKBW3-FX4PZ-FTVPP
+WMX5W-3F8KA-I2BE4
+A7R03-64W9W-490P6
+XMDG0-EGZWY-IJL2Z
+HN73E-K6YZB-HBM3A
+AN4M3-I9ZM9-IEBFG
+BFJXK-Q7XRF-EZH2M
+47LEZ-58FMA-6RW24
+QVQ2Z-NFWD4-T9BZI
+7M27N-HAQQA-CFWZW
+3N0DR-XWXD3-ZC2RE
+4ZV5T-8IK4X-0V547
+I77DL-CAJAR-XPHN0
+N3Z8C-5TIHW-MJZRK
+    </note>
+    <note>
+Boodscahppen
+
+Koffie
+Monster
+Rockster
+NOS
+Amp
+Full Throttle
+Xyience
+Arizona Energy
+Rip It
+Venom
+Food x lots
+    </note>
+    <mail username="sal@jmail.com" pass="22foxhound" />
+  </eosDevice>
+
+</Computer>

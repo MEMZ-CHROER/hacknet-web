@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="C_EXE_contact.dec" path="home" destTarget="hubPubDrop" destPath="Drop/Uploads" decrypt="true" decryptPass="quinnoq"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Güvenli Bağlantının Çözümü" reqs="decypher">
+CSEC üyelerinden birine şifrelenmiş bir dosya gönderildi. Bu üye ise çözümlemeyi bilmiyor fakat gerekli şifreye sahip.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Gecede İki Gemi</subject>
+    <body>
+Merhaba,
+
+Bir dostum üstünde çalıştığımız işle ilgili ayrıntıların bulunduğu dosyayı gönderdi. Sıkıntı ise dosyanın şifrelenmiş olması ve benim nasıl açacağımı bilmemem.
+Dosya Crossroads'da. İsmi "C_EXE_contact.dec", dosyayı çözümleyip Drop Server'a yükleyebilir misin?
+
+Şifresi "quinnoq" olmalı.
+
+Teşekkür ederim!
+
+-CSEC Dan
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <link comp="hubPubDrop" />
+      <note title="Ayrıntılar">C_EXE_contact.dec dosyasını indir.
+      
+Çözümle
+
+Çözümlenen dosyayı CSEC Drop Server'a yükle.</note>
+    </attachments>
+  </email>
+</mission>

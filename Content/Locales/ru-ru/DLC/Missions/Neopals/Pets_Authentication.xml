@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dPets_Auth" name="Neopals_Authentication" security="8" type="4" icon="DLCServer">
+
+  <adminPass pass="mlk3fsdie321" />
+
+  <positionNear target="dPets_MF" position="220" total="360" extraDistance="0.01"/>
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/Neopals/Chisha" title="DLC/Sprites/NeopalsLogo" overdrawLogo="false" buttonAlignment="right" />
+
+  
+  
+  <Memory>
+    <Commands>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+      <Command>cd /log</Command>
+      <Command>rm *.log</Command>
+    </Commands>
+    <Data>
+      <Block>v=atY2Z0J6zX8</Block>
+      <Block>
+~/home/reminder.txt
+
+Вход на мэйнфрейм:
+Логин: admin
+Пароль: n8u5v432kj</Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Neopals/Kachici</Image>
+    </Images>
+  </Memory>
+
+  <dlink target="dPets_MF" />
+  <dlink target="dPets_Home" />
+
+  <file path="AUTHSERV" name="EncryptedVerificationCluster.blk">#BINARY##BINARY#</file>
+  <file path="AUTHSERV" name="AuthServ.dll">#BINARY#</file>
+  <file path="home" name="NO_REBOOT.txt">НЕ ПЕРЕЗАГРУЖАТЬ ЭТОТ КОМПЬЮТЕР!
+API использует этот сервер для авторизации. Не перезагружать его и не менять настройки без разрешения! И вообще никогда!
+-T</file>
+  <file path="home" name="Ash_READTHIS.txt">
+Черт тебя побери Эш, ты переходишь все границы. Каким бы защищенным этот сервер не был, "сервер авторизации" не значит что здесь можно сохранять все свои пароли.
+Файл удален, не заставляй меня сообщить об этом Тиффу.
+-T</file>
+  
+  <admin type="progress" isSuper="true"/>
+  
+</Computer>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="airline2_player">
+  <goals>
+    <goal type="fileupload" target="dHidden" file="sysinfo.bat" path="home" destTarget="dpa2_target" destPath="sys"/>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="#PLAYERNAME# - A volar Cont.">
+Instala una puerta trasera en un servidor vinculado seguro de Pacific Air
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>A volar cont.</subject>
+    <!-- Translators notes - don't translate the folder name "sys"-->
+    <body>
+Instala una puerta trasera en un servidor vinculado seguro de Pacific Air
+----
+#PLAYERNAME#, tu misión es crear un plan alternativo por si mis sospechas sobre Coel son ciertas. Si todo va bien, no lo necesitaremos.
+He creado un programa que debería permitirnos apropiarnos del hardware de transmisión de PacificAir. Todo su hardware lo lleva un ordenador que llaman servidor "Skylink". Si instalas esta puerta trasera en la carpeta ~/sys/ del servidor, yo me encargaré del resto.
+
+He subido la puerta trasera que necesitas instalar al directorio raíz del servidor compartido. Se llama "sysinfo.bat". Descárgala, encuentra la manera de entrar en Skylink, súbela a la carpeta sys y yo me encargo del resto. No es necesario activarla.
+Ten cuidado con tu rastro, no es momento de cometer errores.
+
+Buena suerte.
+</body>
+    <attachments>
+      <note title="Objetivos de la misión">Descarga el archivo "sysinfo.bat" del directorio raíz del servidor compartido y súbelo a ~/sys/  en el servidor "Skylink" de Pacific Air.</note>
+      
+      <link comp="dhsDrop" />
+      <link comp="dpa2_start" />
+      <link comp="dpa2_target" />
+      
+    </attachments>
+  </email>
+</mission>

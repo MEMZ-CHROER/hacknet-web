@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews04">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Ihre Daten in Gefahr?">
+Das beliebte soziale Netzwerk Friendface ist vor Kurzem einer Gruppe von Hackern zum Opfer gefallen, die es sich offenbar zur Aufgabe gemacht hat, in alle sozialen Netzwerke einzudringen. Die Identität der Hacker ist der Polizei weiterhin ein Rätsel, aber ihre Nachricht scheint deutlich: "Niemand ist sicher". 
+FaceSpaces CEO versuchte noch einmal, FaceSpace-Nutzer zu beruhigen. Er erklärte, dass FaceSpaces Sicherheitssysteme "absolut wasserdicht" seien; und die Einzigen, die Zugriff auf FaceSpace-Nutzerdaten haben, FaceSpace - und ihre 12,000 zertifizierten Werbepartner - sind.
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Muss Aufgehalten Werden</subject>
+    <body>
+Zerstöre die Entropy-Database
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission> 

@@ -1,0 +1,44 @@
+junkCoder
+------------------------------------------
+#Academic
+Günlük Programlama Konusu
+Ne yapıyorsun /el/?
+------------------------------------------
+Tekrar programlama yapabilmek için sorunu çözmeye çalışıyorum.
+Eski sevgilimle ilgili anılarım gözümde canlandı. ;_;
+------------------------------------------
+Olayları bu şekilde planlamak güvenli mi? Yeni bir konu açsak?
+
+boost::thread( [] { boost::this_thread::sleep (boost:: posix_time :: seconds(5)); running = false;});
+>inb4 >C++ >boost
+------------------------------------------
+>>37334564
+O flag'leri kullanırken dikkat et. lock veya atomic'leri kullan.
+------------------------------------------
+>>37334598
+Nasıl yani, flag derken ne demek istiyorsun? Ayrıca atomic de nedir?
+------------------------------------------
+>>37334626
+>running = false
+
+C++'ın alt kademe kökenindeki sorun ASM seviyesinin her türlü boku yiyebilmesi.
+Ayrıca atomic'ler girdiğin tüm işlemleri tek bir işlem gibi hareket etmesini sağlar.
+------------------------------------------
+Biri beni Sudoku çözücümü mü mü oyladı?
+http://pastebin.com/uTyyud5q
+------------------------------------------
+Check fonksiyonunda, int tx ve ty x/3 ve y/3 sırasıyla atanmış, fakat sonrasında 3 ile çarpılmış. Neden direk x ve y olarak atamıyoruz?
+------------------------------------------
+Cevap vermekte geciktim de,
+yer aldıkları belirli kısmı arıyorum.
+Diyelim ki x = 5, y = 5 olsun.
+Belirli kısım da 3,3'den başlar. Bunun nasıl yapıldığını anlamamın tek yolu da bu.
+------------------------------------------
+>>37334068 (OP)
+Belki de daha mutlu olmaya ve Windows API ve FreeBSD kernel öğrenmeye çalışmalısın
+------------------------------------------
+>>37343926
+>daha mutlu
+>Windows API
+hhehehe
+------------------------------------------

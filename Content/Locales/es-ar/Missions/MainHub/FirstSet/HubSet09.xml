@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="HasFlag" target="E_Whit:DEAD"/>
+  </goals>
+  <missionStart val="9" suppress="true">changeSong</missionStart>
+  <missionEnd val="1">junebugComplete</missionEnd>
+  <nextMission>BitPath/BitAdv_Intro.xml</nextMission>
+  <branchMissions>
+    <branch>MainHub/PacemakerSet/PacemakerSet_Deny_Branch.xml</branch>
+  </branchMissions>
+  <posting title="Project Junebug" reqs="dechead, decypher,csecRankingS2Pass">
+Se ha producido una situación increíblemente delicada que requiere la implicación de un agente externo, habilidoso y anónimo, que desee realizar algunas acciones cuestionables para ayudar muchísimo a una persona en apuros.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>El proyecto Junebug</subject>
+    <body>
+Hacker:
+     
+Esta no es una petición normal y no la vamos a tratar como tal. Nos han pedido que realicemos una eutanasia. 
+Evidentemente, mandamos a otros a recopilar datos (algunos de grupos externos, para no levantar sospechas) hace algún tiempo y, en términos generales, todo está limpio. El hombre en cuestión, un tal Elliot Whit, está hospitalizado con grandes dolores y, en contra de sus deseos, le han denegado la opción de morir. 
+Su familia lo intentó, pero falló y no han vuelto a atreverse a hacerlo, hasta que uno de sus miembros propuso esta opción. Al parecer, el marcapasos que lleva permite el acceso remoto, con la debida autorización, y creen que podría ser el modo de satisfacer su petición. 
+
+Naturalmente, dada la naturaleza de esta petición, aceptaremos que no quieras implicarte. Responde con «denegar» en la respuesta y te sacaremos del proyecto. 
+
+Si decides ayudarnos, debes saber que probablemente haya que investigar bastante y hacer muchas pruebas porque, por lo que sabemos, esto no se ha intentado antes. 
+Recomendamos empezar con el historial médico del objetivo, identificar el chip, buscar el fabricante y seguir a partir de ahí
+      
+- Los administradores de CSEC
+    </body>
+    <attachments>
+      <link comp="medical"/>
+      <note title="Detalles del proyecto">
+Objetivo: Elliot Whit 
+Acción: Eutanasia
+</note>
+    </attachments>
+  </email>
+</mission>

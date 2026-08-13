@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubIntro1">
+  <goals>
+    <goal type="getString" target="ABX07cc9"/>
+    
+  </goals>
+  <nextMission>MainHub/Intro/Intro02.xml</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>CSEC Einladung</subject>
+    <body>
+Sei gegrüßt, #PLAYERNAME#,
+
+CSEC ist eine hoch geachtete Gruppe von talentierten Hackern und IT-Experten. Wir bieten unseren Mitgliedern eine weitläufige Sammlung von Informationen und Resourcen, um eine Umgebung des gemeinsamen Lernens, Wissens und Fortschritts zu schaffen.
+Ein Mitglied unserer Gruppe hat eine Einladung für dich beantragt.
+
+Aus formellen Gründen benötigen wir jedoch zunächst eine kleine Demonstration deiner Fähigkeiten, bevor wir dich in unseren Reihen aufnehmen können.
+
+Um diesen "Aufnahmetest" zu bestehen, antworte bitte mit dem mit deinem Namen verbundenen Passwort auf diese E-Mail. Das Passwort befindet sich auf einem unserer Testserver.
+Solltest du Schwierigkeiten haben, empfehlen wir einen Besuch des Network-Education-Archives.
+
+Glückwunsch, und viel Glück.
+-CSEC Administration
+
+    </body>
+    <attachments>
+      <link comp="hubTestComp01" />
+      <link comp="netEduComp" />
+    </attachments>
+  </email>
+</mission>

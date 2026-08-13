@@ -1,0 +1,132 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="portcrack01" name="Viper-Battlestation" security="0" type="4">
+
+  <dlink target="viperScanEarlyGame" />
+  
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="home" name="Youtubers.txt" >
+後でチェックするユーチューバー: 
+
+captainspinifex
+rockleesmile
+northernlion
+officialcalemgames
+jonathancrowgamer
+
+  </file>
+  <file path="home" name="Notes.txt" >
+ ついに新しいハ/ッ/キ/ン/グのプログラム、ゴーラムが教えてくれたサーバーからトレントでゲットしたぜ、こいつはヤベえ！
+
+ 使うのが待ちきれないや、まずはどう使うのか練習しないとだな
+  </file>
+  <file path="home" name="asdf.txt" >
+    入団試験？
+    199.59.149.230
+    プロキシサーバー
+    
+    ..
+    
+    オーバーロードするのに何か必要なのか？
+ まだまだ調べる必要があるな。何かプログラムとかあるのか？もっと金が必要だな・・・。
+  </file>
+  <file path="home" name="EmailDraft.txt" >
+ 父さんへ
+ しばらくメールしなくてごめん。勉強で忙しかったんだ。高校は大変だけど、俺なら大丈夫だよ。
+ 実は、ちょっとお願いしたいことがあってメールしたんだ。学校のプロジェクトで新しいソフトが必要なんだ。「FTPBounce.exe」っていうんだけど、すごく便利なんだ。でもものすごく高くて、前回の仕送りも使い切っちゃったんだ。ITで使うソフトはみんな高価なやつばっかりだ。
+ ねえ、よかったら2000ドルを俺の銀行口座に振り込んでくれない？そうしてくれると本当に助かるよ。
+
+ お願い！
+ 愛してるよ、
+ Tim
+  </file>
+  
+  <file path="home/work" name="jasperlog.txt" >
+[viper] この前話した鍵は手に入れた？
+[jasper] 報酬のほうは？
+[viper] 振込みの準備はできてる
+[jasper] ドロップサーバーに半分だけアップロードしといた。振込みが終われば残りの半分もアップロードするよ
+[viper] 了解、今確認してる
+[viper] いいね、ちゃんと機能してる
+[jasper] 報酬もらってもいい？
+[viper] 送った
+[jasper] 受け取った。Call of Soldierが突然人気になるなんて、誰も予想してなかっただろうね
+[viper] 今年一番の流行りだぜ
+[jasper] ゲーマーってやつは
+  </file>
+  
+  <file path="home/work" name="TARGET.txt" >
+[viper] 返品したいんだが
+[cs#1575] 申し訳ありませんが、お客様のご都合によるご返品はお断りしております。
+[cs#1575] J-Bay等でお売りになってはいかがでしょうか？
+[viper] あんたらが経営するオークションなんて使いたくねえよ
+[viper] 見ると買うを間違えて押しちゃっただけだ、って言っただろ
+[cs#1575] 申し訳ありませんが、押し間違いによるご返品は弊社ポリシーにより、お断りしております。
+[cs#1575] ですので、Penetrator 9000をお受け取り頂くか、弊社のオークションサイトをご利用頂くこととなります。
+[viper] あんたらは間違いを犯した。俺を怒らせたことを後悔させてやる。
+[cs#1575] ご利用ありがとうございました。またのご利用お待ちしております。
+  </file>
+  
+    <file path="home/work" name="ripped_prerelease.log" >
+[glaylor] お前やりやがったな
+[glaylor] 開発期間18ヶ月と
+[glaylor] 300万ドルかけて
+[glaylor] 携帯の画面を見るだけのゲームなんて作りやがって
+[glaylor] ..................
+[glaylor] クソがあああああああああああああああああああああああああ
+[hoops] おいおい、落ち着けよ、こいつは大ヒットするって
+[hoops] 何て言うかな、あれだよ、言葉のあやだよ。
+[hoops] そうだな、最近、外で散歩してみたことあるか？
+[hoops] どいつもこいつもみーんな携帯にのめりこんで、それに気付きもしない。
+[hoops] だから俺たちは、常に携帯を見ながら運転、散歩、銃撃戦、そしてハッキングができるゲームを作ったんだ。
+[hoops] 天才だろ？
+[glaylor] 掲示板は大騒ぎになるだろうな
+[glaylor] いいタイトルが必要だ
+[glaylor] パッケージの絵もかっこよくなきゃな
+[glaylor] キラキラしてたほうがいいよな。ガキどもが好きだからな。
+  </file>
+  
+  <file path="home/work" name="seb.txt" EduSafe="false">
+[viper] どうだった？
+[lilsebastian] 悪夢だった。
+[viper] どうしてだ？
+[lilsebastian] 俺ら2人、展望台で一晩明かしたんだ。めちゃくちゃロマンチックだったよ。
+[lilsebastian] 雰囲気もいい感じになってきて。
+[lilsebastian] だから前戯を始めたんだけど。
+[lilsebastian] それから、あー
+[viper] なんだよ？
+[viper] 早く言えよ
+[lilsebastian] で、あー、思ったよりも早かったんだ。その。服もまだ脱いでなかった。
+[viper]・・・
+[viper]・・・
+[viper] ハハハハハハハハハハハハハハハ
+[lilsebastian] 黙れ
+[viper] なあ、それもう誰にも言わないほうがいいぞ
+[viper] 俺とお前が友達でよかったな、友達じゃなかったら言いふらしてたよ
+[viper] あー、もう落ちなきゃ。書かなきゃいけないプログラムがあるんだ
+[lisebastian] わかった、また明日学校で。
+[viper] そうだな。早くイキ過ぎるなよ。 
+  </file>
+  
+  <eosDevice name="Tim's ePhone 4S">
+    <note>ポート番号
+ウェブブラウザとウェブサービス: 80 （8080の時もある？）
+SSH: 22 （####プログラムはこれに使う）
+FTP: 21
+SQL: 1433
+    </note>
+    <note>entropy
+ハッカー集団か何か？
+そんなに大きくないし、関連するニュースも少ない？
+slashbot以外がやつらを嫌ってるのには理由が？
+「俺らの試験サーバーを見つけてハッキングしろ」どうやって？
+掲示板に他の情報はないか？
+
+どこかにまとめられてないか？ネットレジストリを探してentropyについて検索した方がいいか？
+    </note>
+    <note>daves
+H22 Westfield駅へ（22番線）
+4:25 - 5:12
+4:55 e.30m
+    </note>
+  </eosDevice>
+</Computer>

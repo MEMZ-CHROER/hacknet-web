@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpae_airline_home" name="Yasu Arai's eBook Touch" security="4" ip="141.88.107.140" icon="laptop" type="4">
+
+  <!-- Laptop of the administrator of the airline network.
+  
+  Contains an eOS device that has the admin's email account details on it.
+  Should also contain:
+  File describing how Psylance had insisted on installing specialized security on his home computer (the fast trace).
+  Very small mention of a tablet - it's mentioned elsewhere, and it shouldn't be too hand-hold-ey 
+  
+  eOS device needs some notes on it too
+  -->
+
+  <proxy time="-1" />
+  <firewall level="-1"/>
+  <trace time="40" />
+  <portsForCrack val="4" />
+  <ports>443, 6881, 192</ports>
+  <adminPass pass="1185JACK1" />
+
+  <positionNear target="dpa_whitelist" position="110" total="360" extraDistance="0"/>
+
+  <file path="home" name="ryosan_letter.txt">Ryosan,
+
+Schön, dass es dir gut geht. Deinen Brief vom letzten Monat fand ich toll. Deine Poesie klingt jetzt viel flüssiger. Wie ein Fluss. Sorry. Ich kann das nicht so gut. Jedes Mal, wenn du mir ein Gedicht schickst, werde ich stolzer auf dich.
+
+Mein neues Leben ... Es läuft
+glatt.  Mein neuer Job ist stressig, aber auf gute Art - ich werde jeden Tag herausgefordert, aber es lässt sich alles bewältigen. 
+
+Na ja, bis auf den Verkehr in Los Angeles, aber na ja. Kennst du das? Wenn du jemals zu Obasans Apartment in Tokio gefahren bist, kannst du dir das vielleicht vorstellen. Der Verkehr in Los Angeles ist furchtbar. Glaub mir.
+
+Eines der größeren Probleme in diesem Job ist der Umgang mit den Sicherheitsunternehmen. Sie meinen, sie können dich einfach ignorieren und ihre Programme auf deinem Computer installieren, ohne vorher zu fragen. Kannst du dir das vorstellen? Ist mir letzte Woche passiert. So ein aufgeblasener Berater spazierte einfach rein und forderte Zugang zu unseren Servern, auch zu meinen persönlichen Maschinen. Sogar zu meinem Tablet. Das ist doch total lächerlich.
+
+Egal, jetzt weiß ich also nicht, ob auf meinem Computer ein Keylogger ist, aber ... Vermutlich gibt es keinen Grund zur Besorgnis. Ihre Sicherheitsysteme sind ziemlich stark. Mein Computer läuft jetzt zwar etwas langsamer, aber ich fühle mich sicher.
+
+Ryo, du fehlst mir. Ich bin etwas einsam. Sag bitte Mama, dass ich sie auch vermisse. Ich werde ein paar Fotos von meinem neuen Apartment in den Umschlag stecken, damit ihr mir sagen könnt, wie ich es dekorieren soll.
+
+Übrigens vielen Dank für das Tablet. Ich habe mich total gefreut. Auch wenn diese Idioten von Psylance da Sachen drauf installieren, ha ha.
+
+Alles Liebe
+Yasu
+  </file>
+  
+  <file path="sys" name="eOS_SyncLog.dcs">#BINARY#</file>
+  
+  <eosDevice name="Yasu's ePad Plus" id="dpae_airline_tablet" icon="tablet">
+    <!-- note to Translators: "rx" means "prescription" -->
+    <note>TODO: T rx nachfüllen</note>
+    
+    <note>Bridget will am Freitag ausgehen
+    Finde eine nette Bar 
+    Vielleicht das neue Lokal mit den Brettspielen.</note>
+    <note>todo
+    Beschwerde an Psylance schicken
+    Alarm für ePad++ Keynote einstellen
+    Brief an Ryo ausdrucken und schicken
+    Einkaufsliste: Gin, Cider, Zitronen, Tonicwater, Karte zu Jacks 27. Geburtstag, Spülmittel, Waschmittel, kitschige Schnapsgläser
+    Termin beim Endokrinologen ausmachen</note>
+    
+    <mail username="YasuArai@pacificair.com" pass="9NINETWO2" />
+  </eosDevice>
+  
+</Computer>

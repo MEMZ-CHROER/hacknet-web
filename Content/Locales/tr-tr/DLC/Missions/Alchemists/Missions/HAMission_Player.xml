@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ham_player">
+  <goals>
+    <goal type="fileupload" target="dhaAdminHome" file="SignalScrambler.exe" path="bin" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionStart val="3" suppress="true">changeSongDLC</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="Hermetik Simyagerler - #PLAYERNAME#">
+Tuhaf, felsefik bir grubun yöneticisi gelecekteki projelerimizde kullanacağımız bir yazılım geliştirdi.
+  </posting>
+  <email>
+    <sender>Hermetik Simyagerler - #PLAYERNAME#</sender>
+    <subject>Hermetik Simyagerler</subject>
+    <body>
+Tuhaf, felsefik bir grubun yöneticisi gelecekteki projelerimizde kullanacağımız bir yazılım geliştirdi.
+----
+Aradığımız şey, kurum içinde geliştirilmiş olan ve ileri teknoloji kullanılan bir izlence saptırma yazılımı. Ne yazık ki tek bildiğimiz geliştiren kişinin birbiriyle bağlantılı sunucu ağları kullandığı.
+Bu yazılımı araştırman, yazılımın örneğini bulman ve gelecekte kullanabilmemiz için bir kopyasını alman gerekiyor.
+Yaptığımız taramalara göre hedef sunucu oldukça geniş. İçerisinde "Hermetik Simyagerler" olarak adlandırılan felsefi grubun dosyaları ve hizmet programları yer alıyor.
+
+Sunucunun yöneticisi işinin ehli biri. Herkes bu adamı araştırıyor. Karşılık vermek için fazla zamanımız yok. Eğer ekibin işine yarayacak bir şey bulursan sohbete yazmayı unutma.
+    
+Bol şans.</body>
+    <attachments>
+      <note title="Görev Kılavuzu">
+Sunucuyu araştır. Yöneticinin izini sür. Konuyla alakalı her şeyi indir.
+Ekibin işine yarayabilecek şeyleri sohbet aracılığıyla bildirebilirsin. (Opsiyonel)
+İlgili dosyaları Drop Server'a yükle.
+      </note>
+      
+      <link comp="dhaEntry" />
+      
+    </attachments>
+  </email>
+</mission>

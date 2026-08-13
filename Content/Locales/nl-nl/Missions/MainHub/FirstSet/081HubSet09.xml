@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="getString" target="AAX1BB7"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Breek in een eOS Apperaat">
+Een verzoek is binnengekomen om wat informatie te verkrijgen over het doelwit waarvan de klant geloofd dat het op een eOS apperaat staat.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Jailbreak</subject>
+    <body> Dit zal kort gehouden worden.
+Een klant heeft gevraagd om een computer en apperaten te onderzoeken naar een doelwit dat ze "Registration ID" noemen - ze geloven dat het opgeslagen wordt op een eOS apperaat verbonden aan het doelwits thuiscomputer (link toegevoegd).
+
+Als je het ID hebt, antwoord er hier dan mee, en wij regelen de rest.
+
+Veel geluk,
+-CSEC
+    </body>
+    <attachments>
+      <link comp="hubEosMisison" />
+      <note title="Contract Details">
+Scan naar EOS apperaten op de computer
+Onderzoek apperaten voor naar een "Registration ID"
+Beantwoord CSEC met het ID bijgevoegd</note>
+    </attachments>
+  </email>
+</mission>

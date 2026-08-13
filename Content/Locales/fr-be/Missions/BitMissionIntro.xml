@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitMissionIntro">
+  <goals>
+    <goal type="FileDeletion" target="playerComp" file="SecurityTracer.exe" path="bin"/>
+  </goals>
+  <nextMission>SSHCrackMission.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>Premier contact</subject>
+    <body>Salut.
+
+ Je ne te connais pas, et je ne connaîtrais jamais, mais si tu lis ça, tu dois être la seule personne qui peut arranger les choses.
+
+ Je suis coincé. Je n'ai aucune issue, pas assez de temps, et j'ai besoin de ton aide. 
+
+Tu dois t'occuper de quelque chose d'abord, et aussi vite que possible. 
+HacknetOS n'était pas censé sortir maintenant. Un traqueur automatique s'active tout seul après quelque temps, et on peut pas laisser ça arriver.
+ Connecte-toi à ton node (il devrait être vert, sur ta netMap), puis supprime le fichier « SecurityTracer.exe ». 
+
+Réponds à cet email quand c'est fait. 
+
+Vite ! 
+- Bit
+0
+    </body>
+    <attachments>
+      <note title="Guide de navigation Hacknet">Guide de navigation Hacknet
+      
+Utilise le module visuel ou les commandes « cd [Nomdudossier] » et « cat [Nomdufichier] » pour parcourir et lire des fichiers.
+
+ Supprime des fichiers avec « rm [Nomdufichier] ».
+
+ La touche Tab permet de terminer automatiquement les commandes et noms de fichier.
+      </note>
+    </attachments>
+  </email>
+</mission>

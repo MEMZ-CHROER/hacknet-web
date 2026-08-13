@@ -1,0 +1,74 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="xcTablet" name="X-C Project Tablet#001//RESEARCH" security="2" icon="tablet" type="4">
+
+  <proxy time="1.0" />
+  <portsForCrack val="1" />
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1" />
+
+  <adminPass pass="cyberdisk" />
+
+  <file path="X" name="LaserRifle_mk2.spec">
+X-C_PROJECT:ID#1299
+
+ONDERZOEKSVERSLAG W. ONTWERP
+Codenaam: Zonnestraal
+
+Ons recentelijk onderzoek naar de uitgebreide optiek gevonden in de vreemde apperaten was extreem succesvol en onze eerste stappen om de technologie toetepassen op onze eigen wapens zijn veelbelovend.
+Het MK2 laser geweer heeft onze eerste idee voor oneidig doorlopend vuren genegeerd, vanwege oververhittingsproblemen. Het MK2 geweer moet hitte uitstoten na langdurig vuren, wat lijkt op het herladen van traditionele wapens.
+Hoewel niet ideaal, dit heeft een veel nauwkeuriger en dodelijk wapen gecreëert dan onze eerdere pogingen en het zou een nieuwe basis moeten vormen voor alle onze geweren van nu af aan.
+
+Hoewel de materialen nodig om de geweren te fabriceren niet extreem duur zijn (wellicht legeringen hergebruikend), onze huidige fabricerings technieken zullen veel moeten proberen om een focuslens de maken met de correcte helderheid en stabiliteit, iets wat we nog niet hebben geperfecteerd.
+Hierom zijn zal er voor één geweer ongeveer 100 lensssystemen gemaakt moeten worden, om met geluk één te maken met voldoende kwaliteit (een probleem ook in huidig fotografielens fabricage). Met de toevoeging van extra ingenieurs hebben we misschien extra mensen die zich hierin kunnen specializeren, dit probleem kunnen verbeteren, wat de kosten reduceert.
+
+Ontwerpen voor fabricage zijn beschikbaar op de centrale ingenieursserver als ID#1300
+  </file>
+
+    <file path="X" name="FlightComputers.rep">
+X-C_PROJECT:ID#1938
+
+ONDERZOEKSVERSLAG
+Codenaam: Vuurtoren
+
+De alien vluchtcomputer was een extreem interesant onderzoeksonderwerp - zonder het gespecializeerde onderzoeksteam dat een manier vond om de alien datasystemen te decoderen zouden we extreem weinig vooruitgang hebben geboekt. Hoewel we nog steeds niets weten over vele programma's en functies van de computer, hebben we veel data ontcijferd en is het ons gelukt om wat afbeelding te verkrijgen van het apperaat, vanwege de talen gebruikt erin vermoeden we dat tekstachtige bestanden nog te hoog gegrepen zijn.
+Veel van de data lijkt erop dat de computer gespecializeerd is in extreem verre navigatie, functioneel zowel op planetaire schaal als galactische schaal. Het heeft ook wat verwarrende informatie over extreem hogesnelheid collisie ontwijking. Terwijl het voortuig het niets kan schelen met kleine deeltjes zoals astroids, is dit bedoel om planeten te ontwijken tijdens het rijzen. Het geeft ons veel clues over de aard van hun sneller dan licht stuwkracht technologie die we nodig zullen hebben.
+
+Hierbij komt ook dat we verassende afbeeldingen hebben gevonden op het apperaat. Wat eerst leek op anatomische en medische informatie van de bemanning was later ge herevalueerd als een vorm van alien pornografie. Howel er geen zichtbare reproductieorganen zijn, lijkt het alsof de soorten een fascinatie hebben met de nek, de onderkant van de kaak voor redenen die we nog niet begrijpen.
+Hoewel geen concrete informatie, onze troepen kunnen dit zien als een zwak punt - howel het misschien moeilijk is te raken in een gevecht.
+
+  </file>
+
+ <file path="X" name="WIP_Xenogenetics.txt">
+X-C_PROJECT:ID#2133
+
+De vergkregen soorten zijn extreem gelijk, niet alleen in uiterlijk maar in genetischee opbouw. Mijn eerste interpetatie was dat ze clones waren - terwijl het DNA tussen de twee excact hetzelfde is, misschien is dit een eigenschap normaal voor hun soort - individuele verschillen zijn puur mentaal.
+
+Zenuwstelsels tussen de twee zijn extreem vergelijkbaar met die van aardse zoogdieren (inclusief mensen) - wat zegt dit over hun oorsprong? Is dit een universele constante? Waarom?
+
+Geen gedetecteerde soorten hebben een reukvermogen - howel hun visuele zintuigen erg vergelijkbaar lijken op die van insecten, hoewel verder ontwikkeld. Gezichtsopeningen in het neusgebied lijken gebruikt te worden voor een soort smaak, hoewel het praktisch de zelfde functie heeft.
+  </file>
+
+  <file path="X/Personal" name="Penetrator_mk1.spec">
+X-C_PROJECT:ID#4991
+
+RESEARCH REPORT W. SCHEMATIC
+Codenaam: Gapende DraakGaping Dragon
+
+Benodigheden:
+22x  Alloys
+2x   UFO Power Bronnen
+10x  Elerium
+185x Credits
+
+Dit elerium apperaat kan uit- en inschuiven van een extreem duurzame stok tot 61 centimeter lang met een snelheid van 200 oscillaties per seconde voor virtueel oneindige tijd zonder dat er een additionele krachtbron nodig is.
+Deze cutting-edge krachtbron zal ons voor eerder onbereikbare snelheden en intensiteiten stellen. Vooorzichtheid bij het produceren zal er moeten zijn bij het uiterste stuk van de arm, die de verbinding van meerdere verschillende "hoofden" toelaat en moet een veilig zijn.
+
+Let op dat ook de stok afneembaar moet zijn, beschreven in notitie A-12.
+Dit apperaat zal ons de... onderzoeksefficentie groots helpen en dit moet een topprioriteit zijn. De vereiste plannen zijn gestuurd naar Dr. Shen voor onmiddelijke fabricage.
+
+SCHEMATICS REF DATA:
+#BINARY#
+
+  </file>
+
+</Computer>

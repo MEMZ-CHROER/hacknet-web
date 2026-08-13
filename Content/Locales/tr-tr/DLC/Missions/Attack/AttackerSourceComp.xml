@@ -1,0 +1,178 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dAttackSource" name="Striker Proxy" security="6" ip="72.52.4.119" type="4" icon="DLCPC2">
+  
+  <trace time="80" />
+  <portsForCrack val="3" />
+  <ports>21, 22, 6881</ports>
+  <proxy time="0.4" />
+  <firewall level="-1"/>
+  
+
+  <dlink target="dAttackHome" />
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+
+  <file path="home" name="irc_autolog_286.log">fdsfjga: kabalaşma
+StrikeR: peki ya
+StrikeR: sen
+StrikeR: beslemeyi kesmeye
+StrikeR: ve lanet temanı bana
+StrikeR: göndermeye ne dersin
+fdsfjga: hıh
+fdsfjga: şimdi mi?
+StrikeR: evet
+fdsfjga: oyun bitene kadar beklese olmaz mı
+StrikeR: .
+fdsfjga: ciddi misi
+fdsfjga: ormancı oynuyoruz şurada
+StrikeR: afk olduğunu sanmıştım
+fdsfjga: he amk siktir git
+StrikeR: xd
+fdsfjga: hop
+StrikeR: ne
+StrikeR: ne istiyorsun
+fdsfjga: oyun bitti
+StrikeR: ne
+fdsfjga: oynadığımız oyun yok mu
+StrikeR: hee bana hatırlatman gerekiyordu
+fdsfjga: hay amk
+fdsfjga: çok komikmiş krdş
+StrikeR: afk'yım döncem
+fdsfjga: hayır değilsin
+StrikeR: beni yakaladın
+fdsfjga: tema dosyalarını istiyor musun istemiyor musun?
+StrikeR: aaaaaHHHHHHHHH
+StrikeR: iyi be
+StrikeR: irc'ye geçek
+fdsfjga: irc sohbetindeyiz zaten
+StrikeR: valla mı
+StrikeR: iyiymiş aq
+</file>
+  
+  <file path="home" name="irc_autolog_289.log">StrikeR: teman çalışmıyor
+fdsfjga: ?
+StrikeR: ?
+fdsfjga: ???
+StrikeR: çalışmıyor
+StrikeR: ne amk
+fdsfjga: ne/?
+StrikeR: ne desem bilemedim
+StrikeR: yüklemiyo işte
+fdsfjga: bi bakıyım
+fdsfjga: bende gayette yüklüyor
+fdsfjga: saçmasalak bir şey yapmadığına emin misin
+StrikeR: ha oldu
+StrikeR: gerçekçi olalım
+StrikeR: her ne kadar imkansız olsa da
+fdsfjga: dosya uzantısına mı dokundun
+StrikeR: hayır
+fdsfjga: kontrol ettin mi
+StrikeR: evet
+fdsfjga: gerçekten ettin mi
+StrikeR: evet
+fdsfjga: tekrar kontrol et
+StrikeR: siktir git
+fdsfjga: dosya uzantısı nasılmış peki anlatsana biraz
+StrikeR: şanslı piç seni temaların güzel valla
+fdsfjga: ?
+fdsfjga: kendi karakterini bu şekilde değerlendirebilmen ne kadar da hoş
+fdsfjga: :3
+StrikeR: seni şikayet ettim
+</file>
+  
+  <file path="home" name="irc_autolog_290.log">fdsfjga: hey
+fdsfjga: bilmen gerektiğini düşündüm
+fdsfjga: jammy sen çıktıktan sonra hakkında ileri geri konuştu
+fdsfjga: kızların dota da iyi olamamasından falan bahsetti
+fdsfjga: aptal herif amk
+StrikeR: tmm
+StrikeR: sonraki oyunda mid gideceğim
+fdsfjga: evet millete söyledim
+StrikeR: oyunu kazanmak umrumda değil
+fdsfjga: hayır
+StrikeR: evet
+fdsfjga: lütfen
+StrikeR: yavşamayı kes
+StrikeR: şu çıtır çerez build'i bilirsin sen
+fdsfjga: hayır
+StrikeR: dagon mek
+StrikeR: ragequit atacağına adım gibi eminim
+</file>
+
+  <file path="home" name="irc_autolog_291.log">
+fdsfjga: cidden
+fdsfjga: jammy'i
+fdsfjga: mi hack'ledin
+StrikeR: ?
+fdsfjga: tanrım
+fdsfjga: seni
+StrikeR: proxy kullanmıyormuş
+StrikeR: bildiğin yalvardı ya
+fdsfjga: cidden
+fdsfjga: #dota konusunda mızmızlandığından
+fdsfjga: bekle bir dakika
+StrikeR: olmuş mu?
+fdsfjga: evet ekran kartını mahvetmişsin
+fdsfjga: döşemişsin resmen
+StrikeR: ehueheueheueheu kullandığı modeli sorduğumda şüphelenmesi gerekirdi
+fdsfjga: inanılmaz
+fdsfjga: tüm maaşını o karta harcamıştı
+StrikeR: bunun yerine vps'e 5$ verseymiş
+fdsfjga: biliyorum dalyarrağın tekiydi ama
+fdsfjga: sence bu biraz fazla olmadı mı
+StrikeR: hayır
+StrikeR: lol
+fdsfjga: tamam o zaman
+StrikeR: konuşmadan önce
+StrikeR: iki
+StrikeR: defa
+StrikeR: düşünmesi gerektiğini
+StrikeR: öğrenmeli
+StrikeR: ehueheueheueheu
+StrikeR: gpu bios'a çaktığım sırada bil bakalım başka ne buldum
+fdsfjga: ne buldun
+StrikeR: bayağı ZOR bi kıza sürekli yavşağı sohbet geçmişi
+fdsfjga: hadi lan oradan
+StrikeR: valla. tüm sohbet geçmişlerini silmiyormuş LOL
+fdsfjga: bu harika amk
+</file>
+  
+  <file path="home" name="strikeout.txt">j4mmy: merhaba :)
+- - -
+j4mmy: merhaba!
+* j4mmy seni dürttü! *
+- - -
+j4mmy: nasılsın?
+- - -
+j4mmy: *sana omuz masajı yaptı*
+* j4mmy sana çıkartma gönderdi! *
+- - -
+j4mmy: *waves*
+* j4mmy seni dürttü! *
+- - -
+* j4mmy seni dürttü! *
+j4mmy: beni görmezden gelmeyi kes
+[A]LEX[A]: ne istiyorsun
+j4mmy: naber? :)
+[A]LEX[A]: dinle
+[A]LEX[A]: seninle ilgilenmiyorum
+[A]LEX[A]: rahatsız etmeyi kes
+j4mmy: ne??
+j4mmy: çok kabasın ama
+[A]LEX[A]: aslında kaba olan ne biliyor musun?
+[A]LEX[A]: bana sürekli olarak azgın azgın mesajlar atman
+[A]LEX[A]: ve bunu bana çakabilme amacıyla yapıyor olman
+[A]LEX[A]: benimle hiç ama hiç şansın yok. rastgele mesajların ve dürtüklemelerin bu şansı eskilere indirdi bile diyebilirim
+j4mmy: benim için kendini kaybetmene gerek yok be canım
+[A]LEX[A]: yemezler! bunlar bana sökmez. kendimi suçlu hissettirmeye falan çalışma
+[A]LEX[A]: kısacası: siktir git ezik. mısır gevreğini yerken fazla göz yaşı akıtma sakın. tadı iğrenç oluyor.
+[A]LEX[A]: hoşçaklmaaaa :)
+* [A]LEX[A] çevrimdışı. Mesajlarınız iletilmeyecek. *
+* [A]LEX[A] çevrimdışı. Mesajlarınız iletilmeyecek. *
+* [A]LEX[A] çevrimdışı. Mesajlarınız iletilmeyecek. *
+</file>
+  
+  
+  
+  
+</Computer>

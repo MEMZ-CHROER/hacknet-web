@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dlcDemoIntro1">
+  <goals>
+    <goal type="filedeletion" target="dDemointro1" file="x-server.sys" path="sys"/>
+  </goals>
+  <missionStart val="0" suppress="true">loadConditionalActions:DLC/ActionScripts/AlquimistasHerméticosAcciones.xml</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="Alquimistas herméticos">
+  Una rama desconocida de la filosofía, los "alquimistas herméticos" han creado una red bastante significativa. Hemos investigado y descubierto que su admin ha desarrollado una herramienta que queremos desde hace tiempo.  
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Alquimistas herméticos</subject>
+    <body>
+Parece que el admin es un prodigio de la informática, pero está obsesionado con esto de la alquimia. La red es una especie de fortaleza insólita, pero tenemos que llegar hasta el ordenador personal del admin y conseguir el software.
+
+Se trata de un proyecto de equipo. Si encuentras algo que sea útil para el equipo, avisa por el chat.
+Buena suerte.
+    </body>
+    <attachments>
+      <link comp="dhaEntry" />
+      <note title="Contrato de los alquimistas herméticos">Investiga la red y descubre dónde se encuentra el ordenador personal del administrador.
+Una vez allí, descarga el nuevo programa de rastreo y seguimiento o prevención y súbelo al servidor compartido.
+</note>
+    </attachments>
+  </email>
+</mission>

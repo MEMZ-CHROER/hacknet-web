@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jscottHome" name="Joseph Scott's Battlestation" security="3" icon="laptop">
+
+  <encryptedFile path="home/work" name="Decypher.dec" ip="101.0.89.154" header="DECYPHER - DO NOT SHARE" extension=".exe">#DECYPHER_PROGRAM#</encryptedFile>
+  <file path="home/work" name="DEC_Header_Analysasdsadsafds.txt">
+  Also so langsam wird's echt lächerlich. Erst kann man die Verschlüsselung ohne das eigentliche Tool aufheben und nun das?
+  Die Header sind *immernoch* ein großes Problem - Die Ursprungs-IP der Verschlüsselung steht immernoch drin und ist immernoch eine riesige Sicherheitslücke; und das ist mir scheissegal,
+  weil es das Debugging und den Kundendienst so viel einfacher macht.
+  
+  Tja, hier ist das nächste klaffende Loch. Ich werde vermutlich erstmal warten, bis sich der Staub gelegt hat, bevor ich hiermit rausrücke. 
+  Wenn ich jetzt mit noch so 'nem Ei ankomme, werd ich vermutlich rausgeschmissen. Also erstmal schön den Ball flach halten.
+  
+  Oh DECHead.exe, warum vertragen wir uns nicht?
+  Ich schätze, es ist eher das Outsourcing allgemein...
+  
+  Jetzt vertraue ich sogar schon einer Textdatei meine Probleme an...
+  Ughhh Schmerzmittel.
+  </file>
+  <file path="home/work" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  
+</Computer>

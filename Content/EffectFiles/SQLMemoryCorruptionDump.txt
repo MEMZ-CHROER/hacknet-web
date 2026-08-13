@@ -1,0 +1,109 @@
+---------------------------------------------------------------
+2007-10-05-03.30.22.470072+480 E15728419A1022     LEVEL: Severe
+PID     : 271080               TID  : 1           PROC :
+db2agentg
+(BCUP01  ) 0
+INSTANCE: bcu01pu1             NODE : 000
+APPHDL  : 0-67                 APPID:
+130.20.128.130.39884.0710041611
+FUNCTION: DB2 UDB, SQO Memory Management,
+sqloDiagnoseFreeBlockFailure,
+probe:999
+MESSAGE : Memory validation failure, diagnostic file dumped.
+DATA #1 : String, 28 bytes
+Corrupt pool free tree node.
+DATA #2 : File name, 25 bytes
+p271080t0_diagnostics.mem
+CALLSTCK:
+  [0] 0x09000000022A518C
+diagnoseMemoryCorruptionAndCrash__8SMemPoolFUlCPCc + 0x21C
+  [1] 0x09000000022A4E9C
+diagnoseMemoryCorruptionAndCrash__8SMemPoolFUlCPCc@glue216 +
+0x74
+  [2] 0x0900000002BA7140 sqlogmblkEx + 0x18C
+  [3] 0x0000000000000000 ?unknown + 0x0
+  [4] 0x0000000000000000 ?unknown + 0x0
+  [5] 0x0000000000000000 ?unknown + 0x0
+  [6] 0x0000000000000000 ?unknown + 0x0
+  [7] 0x0000000000000000 ?unknown + 0x0
+  [8] 0x0000000000000000 ?unknown + 0x0
+  [9] 0x0000000000000000 ?unknown + 0x0
+
+Looking into p271080t0_diagnostics.mem  :
+
+Corrupt pool free tree node.
+================================================================
+========
+      Pool dump time: 2007-10-05-03:30:22.43
+             Pool ID: 11 (Database Monitor Heap - monh)
+             Address: 0x0780000000000D78
+            Set type: 0 (DBM_DBMS)
+               Stack: diagnoseMemoryCorruptionAndCrash__8SMem
+        Logical size: 3503117 bytes
+ Logical upper bound: 30720000 bytes
+       Physical size: 4325376 bytes
+Physical upper bound: 30736384 bytes
+  Largest free block: 63016 bytes
+    Allocated blocks: 13533
+      Free tree root: 0x0780000000c309a8
+           First CSG: 0x0780000000c30000
+Corrupt node address: 0x0780000000c309a8
+-- UNKNOWN NODE TYPE --
+0780000000c309a8 : 00 b0 78 00 00 00 0c 30 07 80 00 00 00 c2 b6
+48
+..x....0.......H
+0780000000c309b8 : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 f6
+130.20.128.130.39884.0710041611
+FUNCTION: DB2 UDB, SQO Memory Management,
+sqloDiagnoseFreeBlockFailure,
+probe:999
+MESSAGE : Memory validation failure, diagnostic file dumped.
+DATA #1 : String, 28 bytes
+Corrupt pool free tree node.
+DATA #2 : File name, 25 bytes
+p271080t0_diagnostics.mem
+CALLSTCK:
+  [0] 0x09000000022A518C
+diagnoseMemoryCorruptionAndCrash__8SMemPoolFUlCPCc + 0x21C
+  [1] 0x09000000022A4E9C
+diagnoseMemoryCorruptionAndCrash__8SMemPoolFUlCPCc@glue216 +
+0x74
+  [2] 0x0900000002BA7140 sqlogmblkEx + 0x18C
+  [3] 0x0000000000000000 ?unknown + 0x0
+  [4] 0x0000000000000000 ?unknown + 0x0
+  [5] 0x0000000000000000 ?unknown + 0x0
+  [6] 0x0000000000000000 ?unknown + 0x0
+  [7] 0x0000000000000000 ?unknown + 0x0
+  [8] 0x0000000000000000 ?unknown + 0x0
+  [9] 0x0000000000000000 ?unknown + 0x0
+
+Looking into p271080t0_diagnostics.mem  :
+      Pool dump time: 2007-10-05-03:30:22.43
+             Pool ID: 11 (Database Monitor Heap - monh)
+             Address: 0x0780000000000D78
+            Set type: 0 (DBM_DBMS)
+               Stack: diagnoseMemoryCorruptionAndCrash__8SMem
+        Logical size: 3503117 bytes
+ Logical upper bound: 30720000 bytes
+       Physical size: 4325376 bytes
+Physical upper bound: 30736384 bytes
+  Largest free block: 63016 bytes
+    Allocated blocks: 13533
+      Free tree root: 0x0780000000c309a8
+           First CSG: 0x0780000000c30000
+Corrupt node address: 0x0780000000c309a8
+-- UNKNOWN NODE TYPE --
+0780000000c309a8 : 00 b0 78 00 00 00 0c 30 07 80 00 00 00 c2 b6
+48
+..x....0.......H
+0780000000c309b8 : 00 00 00 00 00 00 00 00 00 00 00 00 00 00 f6
+40
+...............@
+
+_______________________________________________________________
+
+
+                    MEMORY DUMP END
+
+_______________________________________________________________
+

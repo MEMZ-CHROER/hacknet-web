@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="generatedWebVandal00">
+  <goals>
+    <goal type="FileChange" target="#COMP#" file="#FILE#" path="#PATH#" keyword="liars" />
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# : Belicht de waarheid">
+Een donerende klant heeft verzocht dat een concurrenents imago wordt blootgesteld om dichter bij de waarheid te liggen.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Belicht te waarheid</subject>
+    <body>
+Hallo Agent,
+
+Wij willen de waarheid achter #TARGET# verhelderen - ze hebben het publiek misleid met een liegende reclamecampagne om een voorsprong te krijgen op de markt.
+
+We zouden deze waarheid graag terugzien op hun website - we zullen dit contract als voltooid zien als hun eigen website ze LIARS (leugenaars) noemt.
+
+Bedankt,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

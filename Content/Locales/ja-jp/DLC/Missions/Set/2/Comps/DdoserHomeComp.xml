@@ -1,0 +1,87 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dDdoserHomeComp" name="L. Shaffer's NetBook" security="2" type="4" icon="laptop">
+
+  <!-- Home laptop of Luke Shaffer, who runs the r00t_tek DDOS server. Player needs to wipe this one too.
+  Should contain a bunch of files that you'd see on the laptop of somenoe who cheats in CS:GO by DDOsing his
+  opponents.-->
+  
+  <trace time="-1" />
+  <proxy time="-1" />
+  <portsForCrack val="2" />
+  <ports>21, 443</ports>
+  <portRemap>ftp=22</portRemap>
+
+  <positionNear target="dDdoserComp" position="160" total="360"/>
+
+  <file path="LOIC" name="runtime.dll">#BINARY#</file>
+  <file path="LOIC" name="config.cfg">#BINARY#</file>
+  <file path="LOIC" name="sources.txt">
+    
+    ## No Servers Present, add more here in LOIC configuration and host setup
+    
+  </file>
+  <file path="LOIC" name="TARGETS.txt">
+101.79.150.88, Snowstorm SoG Cluster 0-6
+101.79.150.89, Snowstorm SoG Cluster 6-9
+101.79.150.101, Snowstorm SoG Cluster 9-16 - ログインサーバー
+101.79.150.200, Snowstorm SoG Cluster 16-18
+101.79.150.207, Snowstorm SoG Cluster 18-20
+101.88.150.89, Snowstorm SoG Cluster 20-26 - ロードバランサー
+101.88.150.101, Snowstorm SoG Cluster 26-31
+101.88.150.200, Snowstorm SoG Cluster 31-36
+101.88.152.207, Snowstorm SoG Cluster 36-40
+  </file>
+
+  <!--Translators Note - for this joke, it uses the English meaning of "vanilla" as "plain or basic". Feel free to re-word it. -->
+  <file path="home" name="smug_shop.txt"> 
+[H_EvansVerres] その男は…
+[H_EvansVerres] 自分を優秀だと信じて疑わない、よくいるクソ野郎だ
+[H_EvansVerres] そいつはまるで
+[H_EvansVerres] うぬぼれ屋でプレーンを頼んだら出てきそうなうぬぼれで
+[H_EvansVerres] カウンターの店員たちに「トッピングなしでよろしかったですか？他の味もございますよ？」と確認されそうなやつだ
+[H_EvansVerres] そりゃもう完全に「いえあの、ふつうのプレ2009カニエをお願いします」だ
+[H_EvansVerres] そんで「そんな腐れ金受け取りたくもない、そんなクソ商品注文しないで」って顔をされる
+[LONGCHAMP] あはははは
+[H_EvansVerres] 実はこれ、俺のことなんだ
+[H_EvansVerres] うぬぼれ屋を経営してるんだ
+[LONGCHAMP] ははははは</file>
+
+  <file path="home" name="asdfkjhj.txt">
+vacブロック済み:
+hybrid cs hack
+smartBoy Hack
+CombinationCheat
+Smackie's Hack
+Subtlety
+
+ブロックされていない:
+???
+
+今週叩くIP:
+thorn - 109.111.232.1
+Master[]Disaster - 28.2.85.6
+Snarklesaurus - 230.67.176.1
+smigin - 127.0.0.1 (アホってチャットで言った)
+  </file>
+
+  <file path="home" name="bedtime restrictions.txt">
+LUKEの睡眠時間制約
+
+私、Luke Shafferは、下記の時間に就寝することを誓います。違反した場合は、罰としてママとパパが寛大にも設置許可をくれた自室パソコンの夕食後の使用権を失います。
+
+月～木 （学校に備えて）:
+8:30 PM
+金:
+9:30 PM
+土日:
+10:00 PM
+  </file>
+
+  <file path="home" name="homework list.txt">
+10年生 保健体育
+数学（チューターと相談）
+スペイン語
+社会と環境（たまってる）
+  </file>
+
+</Computer>

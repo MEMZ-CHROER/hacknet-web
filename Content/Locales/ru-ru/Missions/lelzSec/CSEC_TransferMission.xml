@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="lelzSec5" activeCheck="true">
+  <goals>
+    <goal type="delay" time="8.50"/>
+  </goals>
+  <missionEnd val="1">changeSong</missionEnd>
+  <nextMission>MainHub/Intro/Intro02Alt.xml</nextMission>
+  
+  <email>
+    <sender>Polar Star</sender>
+    <subject>Победа  - Возможно переломный момент</subject>
+    <body>
+Вас заметили Здесь важны ваши навыки и достижения.
+ Вы заслуживаете компании более высокого класса. С вами свяжутся в ближайшее время.
+
+Продолжить
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

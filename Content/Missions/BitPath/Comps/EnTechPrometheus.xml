@@ -1,0 +1,93 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechPrometheus" name="En_Prometheus" security="5" ip="156.151.1.1">
+
+  <adminPass pass="d88vAnnX" />
+
+  <dlink target="enMail" />
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+
+  <positionNear target="EnTechMainframe" position="3" total="6" />
+
+  <file path="STORE/Hacknet_Project" name="Hacknet_NetCore.dll">#BINARY##BINARY#</file>
+  <file path="STORE/Hacknet_Project" name="HN_Connect_doc.txt">Hacknet project
+--EnTech Confidential--
+
+COMMAND: "connect"
+For use as a wrapper over remote connection channels (usually SSH) to combine connection methods to external services.
+The command should scan available ports and supported services to find a valid connection method, then use it, wrapping output
+to emulate a standardized connection.
+In effect, Hacknet's connection methods should appear to be universal and standardized, when beneath it is capable of using all
+common (and some uncommon) connection methods to user services on almost anything.
+  </file>
+    <file path="STORE/Hacknet_Project" name="HN_Connect_TESTGUIDE.txt">Hacknet project
+--EnTech Confidential--
+
+COMMAND: "connect"
+TEST GUIDE:
+
+Aside from connecting between workstations and the company host servers, we also need to support connecting to wireless and restricted OS devices.
+Our test plan includes connection services to several mobile devices (some cracked, others factory-default). These devices are synced to the prometheus server
+by support staff, and if you need one, for testing (reviewing physical output, you should be able to connect from anywhere), contact server team.
+  </file>
+  
+  <file path="STORE/Hacknet_Project" name="SyncedDevices.txt">Hacknet project
+--EnTech Confidential--
+
+The mobile and wireless devices used in testing Hacknet's connection module are to be synced to this server (Including all eOS devices).
+We'll occasionally wipe them all (just in case) and it's best to do it right from here - do not pair them with other machines!
+The devices scatter around desks a lot as people work with them, but if they run out of power, need a wipe or a sync again, always do it to prometheus.
+  </file>
+  
+  <file path="STORE/Hacknet_Project" name="Hacknet_Project_Contacts.txt">Hacknet project
+--EnTech Confidential--
+
+Contacts and sources
+
+Given the sensitive nature of the Hacknet project (and the strictness of the NDA everyone involved is under), inquiries, feature change requests and other management discussions should go through the Hacknet Management mail relay:
+hnManager@entech.com
+This will send out to all valid personnel, some of whom can contact you personally back if it's relevant to their field.
+
+  </file>
+
+  <file path="STORE/EnSec_Project" name="EnSec_Invioability_Project.txt">
+The EnSec Invioability project is an OS level security layer through which all authentication attempts and admin commands pass, that provides a uniquely protective level of security for systems against all conventional (and many unconventional) penetration and security breaching methods.
+It aims to be completely transparent to end users (except in the case of emergency updates, which are maintained by EnTech inc. on a subscription basis), and provide absolute security to sensitive and confidential systems.
+
+Paired with the Hacknet project, which seeks to demonstrate the flaws in current security systems, EnSec shows clearly why it should, and will, be the new accepted minimum standard of true digital security and confidence.
+
+ - EnSec - 
+ The freedom you want, the security you deserve.
+  </file>
+
+  <file path="STORE/EnSec_Project" name="EnSec_Core_11-05.dll">#BINARY#</file>
+  
+  
+  
+  <eosDevice id="enPrometheus_eos1" name="ENTECH_TEST_01's ePhone 4S">
+    <note>passes
+1
+1
+3</note>
+    <note>HN
+This device is geared as Standard Uncracked ePhone 4S
+Connection should FAIL as without outside influence there are no open
+terminal connection methods.</note>
+    <mail username="nstanford@entech.com" pass="murloc33" />
+  </eosDevice>
+  
+  <eosDevice id="enPrometheus_eos2" name="ENTECH_TEST_02's ePhone 4S">
+    <note>HN
+This device is geared as Custom Cracked ePhone 4S
+Connection should SUCCEED as this device has been altered to allow SSH connections.</note>
+    <note>USAGE - Caution
+NOTE: This device is *deliberately insecure* for testing purposes. It should NOT connect
+to any internal services or mail systems, and it should NOT store any sensitive testing or development data.</note>
+    <note>Remote Creation test
+asdf asdf writing note remotely</note>
+    <note>Remote test 2
+12345678</note>
+  </eosDevice>
+  
+</Computer>

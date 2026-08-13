@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="ds4_journalist" name="Manananggal_workbook" ip="244.188.232.231" security="1" type="empty" icon="DLCLaptop">
+
+  <proxy time="-1" />
+  <portsForCrack val="1" />
+  <ports>80, 6881</ports>
+  <portRemap>443=43</portRemap>
+  <trace time="80" />
+
+  <file path="home/dagrunsdottir_leak" name="038457_doc.pdf">#BINARY#</file>
+
+  <file path="home/Articles" name="MentalEnergy.txt">
+Je commence à penser que je devrais établir une liste des différentes réserves d'énergie dans ma tête.
+Vous savez, celle qui s'épuise parfois si vous parlez à trop de nouvelles personnes dans une même journée, celle qui s'épuise quand une réunion de travail dure des heures, celle qui s'épuise quand un ami parle pendant des heures de la chose qui lui tient le plus à cœur au monde mais ne vous dit rien du tout et dont vous n'arrivez pas à vous éclipser. Celle où ça fait quelques heures que vous écrivez au-delà des limites de votre élan créatif et qu'il n'en reste plus rien.
+Ce genre de trucs, vous voyez ?
+Je pense que, de manière générale, elles sont toutes liées à une réserve d'énergie principale - que la plupart des gens appellent « patience ».
+Ne vous focalisez pas trop sur le terme, et essayez de ne pas le laisser influencer votre réflexion par ses définitions traditionnelles, mais c'est ce que je vais utiliser ici. Donc, quelles autres réserves d'énergie avons-nous ?
+Je sais que je peux quitter une situation d'interaction sociale, rentrer chez moi et écrire pour le travail, donc je ne pense pas qu'on puisse en épuiser une et que celle-ci disparaît à tout jamais - mais quand j'écris dans cet état, la qualité n'est jamais aussi bonne et ça ne dure jamais aussi longtemps que si j'ai commencé les batteries pleines.
+En partant de là, s'il ne s'agit ici que d'un exercice d'introspection, je suppose que je dois avoir une réserve centrale d'énergie de patience, et quelques autres réserves avec lesquelles elle se combine pour former des énergies spécifiques - une pour les interactions sociales, une pour la patience « pure » (écouter des choses qui ne nous intéressent pas), une pour la créativité et sans doute quelques autres que je ne comprends pas complètement.
+Je ne suis pas certain de parler littéralement de réserves chimiques dans le cerveau, ou simplement des voies neurales qui s'épuisent (est-ce même possible ?) ou d'autre chose du même type, mais c'est le « sentiment » que j'ai.
+Mon énergie pour écrire du code est différente de mon énergie pour écrire de façon créative, mais si l'une de ces énergies est épuisée, il m'est très difficile de faire l'autre. Cela veut probablement dire que soit j'ai tort de penser qu'elles sont distinctes (intéressant !), soit ma réserve chimique d'écriture de code et d'écriture créative (unique) dure plus longtemps que ma réserve centrale de patience (également intéressant !)
+Cela peut-il être testé ? Cela ferait l'objet d'un autre article, donc je ne le tenterai pas ici - mais pour le faire au mieux, il est utile de décrire les schémas dans lesquels on tombe lorsqu'on perd en productivité - identifier comment fonctionnent l'énergie et la créativité, et comment elles sont épuisées, serait un excellent premier pas.
+  </file>
+  
+  <file path="home/Articles" name="TestingMentalEnergyPools.txt">
+Hypothèse : L'énergie mentale utilisée pour l'écriture créative et l'écriture de code est puisée dans la même source mentale - lorsque l'une s'épuise, la deuxième est tarie aussi.
+Réflexions : Ceci est très difficile à mesurer de manière objective. Le mieux serait sans doute de mener un test de saturation sur quelques mois et mesurer les différences en productivité par rapport à différents régimes de travail, mais ce serait un test épuisant et irritant. Peut-être en comparant avec un mois de travail moins stressant.
+Mais s'agit-il seulement de l'élément correct à tester ? Voyons voir, qu'ai-je à gagner si l'hypothèse est prouvée ou réfutée ?
+En cas de réfutation : J'obtiens un meilleur point de départ pour optimiser ma productivité, en identifiant plus précisément les différentes énergies et d'où elles proviennent - et ensuite, lorsque je mène des tests pour voir si je peux recharger les réserves plus rapidement, je peux en cibler une. Ces informations constituent une condition préalable à cela.
+En cas de confirmation : Semblable à ci-dessus, mais je saurai alors que cette réserve spécifique est celle sur laquelle je dois me focaliser pour améliorer ma productivité (et je peux ensuite effectuer des recherches sur ce qui l'épuise, afin de restreindre ces influences - j'ai besoin de cette réserve pour mon travail).
+Ok ! Ce sont des informations utiles, on dirait. Réfléchissons à des tests rapides pour obtenir des éléments de preuve pour l'une et l'autre conclusion.
+Tests :
+1 : .... et merde, comment tester cela ?
+Ok, j'ai éteint la musique, réfléchissons un peu.
+Si l'hypothèse EST vraie, je devrais pouvoir écrire du code jusqu'à me sentir épuisé, puis m'essayer à l'écriture créative et m'en trouvait être incapable. J'ai déjà remarqué que cela arrivait régulièrement, donc pas vraiment besoin de tester cela.
+Seulement, il existe des éléments de preuve fragiles pour cette hypothèse, et c'est ce qui m'y a mené en premier lieu. Je me doute que je n'arriverai pas à trouver d'éléments de preuve solides pour...
+UN INSTANT - mes éléments de preuve fragiles m'ont mené à formuler une hypothèse qui concorde entre eux ! Ce n'est pas du tout scientifique, la question est à l'envers !
+Il est temps de formuler une deuxième version.
+Màj : Sauf que, la méthode n'est-elle pas tout de même scientifique ? J'ai formulé une prédiction de comportement universel sur la base d'éléments de preuve fragiles, puis tenté de trouver le moyen de la réfuter, ne s'agit-il pas en fait d'une méthode scientifique correcte ? Merde.
+</file>
+  
+  <file path="home/Articles" name="TestingMentalEnergyPoolsV2.txt">
+Hypothèse : L'énergie mentale permettant d'écrire de manière créative et d'écrire du code est puisée dans des sources mentales distinctes.
+Ok, si nous pouvons prouver ou réfuter cette proposition, cela constituera un élément de preuve solide pour la première version, par translation. Essayons.
+Test : Alterner pendant une semaine d'une journée à l'autre la tâche principale entre l'écriture créative et l'écriture de code, et mesurer la productivité sur une semaine où les journées sont partagées entre les deux types d'écriture.
+Théorie : Étant donné le temps de recharge et les propriétés de l'avantage de la recharge par bloc (l'énergie ne se mettant à se recharger correctement qu'après un bloc de 6 heures), cela optimisera l'énergie pour les deux types, avec un délai d'un jour entre chaque type d'activité.
+Si l'hypothèse est correcte, cette méthode offrira une productivité bien supérieure à celle consistant à partager ses journées entre les deux types.
+Résultats : En attente.
+</file>
+  
+  <file path="home/Articles" name="Marrige.txt">
+Bon, parlons de mariage. De gens qui se marient. Pour préciser, le sujet sera simplement le mariage entre blancs hétérosexuels... bon, ça s'applique plus ou moins à tous les types. Mais surtout à celui-là.
+Il y a une norme bizarre acceptée au sein de la société selons laquelle se marier est le « but » (ou l'idéal, peu importe), mais *en même temps* il y a une « blague » très répandue, qui n'en est pas vraiment une, selon laquelle ça vous rendra malheureux et ça représente la fin de tout amusement.
+C'est quoi ton problème, la société ? Ça n'a aucun sens, pourquoi toute cette pression ? Je comprends que l'idéal traditionnel et le fait que, pendant des centaines (milliers ?) d'années, il s'agissait vraiment de la solution optimale dans ce monde pourri, mais ce genre de choses n'est pas héréditaire, et je pense vraiment que ça fait quelques générations que ça ne marche plus vraiment.
+Soyons rationnels : qu'est-ce qui nous retient, dans notre cas précis ?
+Avant toute chose, les gens sont presque entièrement le produit de leur environnement, et cet environnement, collectivement parlant, change lentement. Le même effet est visible pour des choses comme le mariage homosexuel, pour lequel, en gros, toutes les personnes au-delà d'un certain niveau d'éducation comprennent que ça ne pose pas de problème, mais c'est juste que ça met longtemps à se décanter dans les mentalités. Je pourrais faire un parallèle avec le fait que la religion existe toujours, mais ce sera pour un autre article (haha, ça va être le bordel dans la section commentaires).
+Donc l'environnement avait cette norme à un temps T, qui est lentement remplacée par une vision plus moderne des relations de couple, mais l'impact durable de nombreuses années de cette vision des choses antérieure est toujours présent, et nous ressentons cette « pression ».
+C'est un argument acceptable, mais je pense qu'on peut faire mieux.
+Tentons le coup - il s'agit d'une conclusion réalisable et épisodique liée à un but réel dans la vie. Même s'il s'agit d'un but dans la vie un peu pourri. Cette dernière phrase va sans doute fâcher beaucoup de gens, mais en y regardant de plus près, qu'est-ce que le mariage a réellement à voir là-dedans ? Le but ne devrait-il pas être « d'être dans une relation de couple épanouissante et heureuse au sein de laquelle vous êtes à l'aise » ? Mais bon, même cette formulation n'est pas adaptée dans le cas des relations polyamoureuses, donc il y a sans doute moyen de faire mieux encore. Bref.
+Les « bons » buts (du moins, ceux qui me semblent bons) sont vraiment difficiles et complexes. Et ils ne seront sans doute jamais atteints. Cela peut vous pousser de manière un peu plus efficace en direction de l'excellence et du véritable bonheur, mais au prix d'un malheur durable et d'une angoisse existentielle tant que vous n'y serez pas arrivé - ce qui sera toujours le cas et sans doute pour toujours, parce que les buts sont *censés* être des idéaux impossibles à réaliser.
+Alors pour éviter ce problème, les gens trouvent un compromis réalisable vers l'un de ces buts, qu'ils visent cette fois comme point ultime, car cela leur permet d'apercevoir la fin du trajet. Je suppose ?
+Se marier résout ainsi l'aspect relationnel du problème de notre but dans la vie - pas besoin de se demander à quel point on est heureux, ce n'est pas ce que l'on vise, on veut juste cocher la case.
+Les buts réalisables (et réalistes) sont de bonnes choses pour les gens, et je ne suis pas foncièrement contre - mais celui-ci me gêne. Il semble encourager les gens à abandonner la recherche du bonheur et de la stabilité en retirant plusieurs éléments de l'équation, parce qu'ils sont « trop difficiles », * et puis les incite à s'ancrer à cette réalité à jamais* !
+Ouais. Bizarre. Je ne me permettrai pas d'apporter des réponses à votre place, mais je pense que, dans de nombreux cas, cela vaut la peine de prendre le temps de bien réfléchir aux *raisons pour lesquelles* on se tend vers un but et on ajuste le cap afin de garantir que ce dernier ne nous rende pas malheureux.
+  </file>
+  
+</Computer>

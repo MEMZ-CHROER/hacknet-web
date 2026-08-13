@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <generationKeys File="#LC_CLIENT#_delivery.zip" Path="home"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT#の困ったお客様">
+ある「お客様」が価値あるソフトウェアを購入したのですが、支払いを拒否しています。「お客様」が不正に所持しているものを削除してください。
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - 返品制度</subject>
+    <body>
+こんにちは、エージェントさん。
+
+取引先のとある会社が、わが社#CLIENT#に対し、ある非常に高額なソフトウェアのセットを購入したいと持ちかけて来ました。しかしあちらには、代金を払うつもりが一切無いようです。あちらの法務部には優秀な人員がおり、まっとうなやり方では支払いを請求できない可能性が高いのです。
+そこであなたの出番です。あちらのシステムにお邪魔して頂き、私たちから不正に買い取ったソフトウェアを削除してほしいのです。私たちは通常、ソフトウェアを「#FILE#」というファイル名をつけたアーカイブ形式で送信しております。
+
+このようなデリケートかつご面倒のかかる案件ではありますが、どうかお力添えをよろしくお願いいたします。
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

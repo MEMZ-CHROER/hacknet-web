@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet08">
+  <goals>
+    <sendemail recipient="gila" subject="MedicalRecord - Sandburg_Jonas"/>
+  </goals>
+  <nextMission>MainHub/Continuations/FirstSet08_Reply.xml</nextMission>
+  <posting title="Investigate a medical record">
+Procurez-vous une copie du dossier médical d'une personne en cas de problème.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Bâton d'Asclépios</subject>
+    <body>
+Salut,Alors,
+
+ je suis peut-être impliqué ou pas dans une discussion animée avec quelqu'un qui poste CLAIREMENT des photos photoshoppées de...
+Vous savez, ça n'a pas vraiment d'importance, j'ai besoin du dossier médical authentique de ce gars pour régler tout ça de façon spectaculaire. Je le récupérerai bien moi-même mais, euh, j'ai clairement fait part de ces intentions et, vous savez comment est CSEC avec ce genre de choses. 
+Bref, pouvez-vous m'aider ? Son nom est « Jonas Sandburg » - la base de données médicales a un outil pour envoyer les dossiers aux gens, pouvez-vous transférer une copie à « gila@jmail.com »
+
+Merci !
+-G
+    </body>
+    <attachments>
+      <link comp="medical"/>
+      <note title="Notes et commentaires">Mec, j'ai besoin du dossier de 
+« Jonas Sandburg » 
+Adresse à envoyer par email à : 
+« gila@jmail.com »
+</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit02_Phase5">
+  <goals>
+    <goal type="getString" target="ax889msjA"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro06.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Propagation</subject>
+    <body>Tu vois ce réseau ? 
+Il y a cette nouvelle sécurité sur à peu près tout, mais j'arrive à passer outre. Il reste quelques trous, mais je vais lentement. 
+
+J'ai attaché l'IP de ce que je recherche en ce moment. Je vois aucune faille de mon côté, et toi ? 
+Si tu trouves le mot de passe admin, réponds à cet email avec lui. J'ai l'impression que ce serveur est la clé de toute l'histoire de Bit. 
+
+Et ces histoires du « Projet Hacknet », c'est inquiétant, aussi... T'en as déjà entendu parler ? Une réécriture totale de système d'exploitation... 
+On y reviendra. Pour l'instant, essaie de trouver un moyen de pénétrer dans ce relais, on trouvera la prochaine étape ensuite. 
+
+J'irais bien voir leurs serveurs de production et de stockage, « Prometheus » et « Romulus », etc. Après, l'entrée pourrait se trouver n'importe où. 
+
+Bonne chance, 
+-V
+    </body>
+    <attachments>
+      <link comp="EnTechOutsiderRepo"/>
+    </attachments>
+  </email>
+</mission>

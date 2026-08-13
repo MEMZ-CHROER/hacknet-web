@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyNews03">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="New Macrosoft Phone: About as bad as you expected">
+요즘 Macrosoft는 연일 악재가 겹치는 모양이다. 본지에서 운 좋게 익명의 기부자에게서 획득한 신제품 &quot;Waterfall&quot; 폰에서 심각한 보안 취약점이 발견되었다. 
+
+폰의 사용자들은 이 대형 기업의 과거 세대에서도 있었던 버그투성이의 최신 OS 외에도 엄청난 보안 구멍까지 떠안게 될 것으로 보인다. 폰에 설치된 앱은 폰에 대한 무제한의 통제권을 가질 수 있으며, 
+네트워크 버그를 통해 암호화되지 않은 개인 정보가 인터넷상으로 퍼질 수 있다. 
+
+Macrosoft의 4세대 폰인 &quot;Waterfall&quot;은 출시일이 이제 2주 앞으로 다가왔으나, 이러한 문제점이 발견된 시점에서 전문가들은 출시가 한 달까지도 미뤄질 수 있을 것이라고 전망한다. 향후 소식도 이 곳에 업데이트될 예정이다.
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy를 막아야 한다</subject>
+    <body>
+Entropy 데이터베이스를 파괴하라
+    </body>
+    <attachments>
+      <link comp="entropy01"/>
+    </attachments>
+  </email>
+</mission>

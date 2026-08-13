@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="lelzSec4" activeCheck="true">
+  <goals>
+    <goal type="delay" time="3.50"/>
+  </goals>
+  <missionEnd>lelzSecVictory</missionEnd>
+  <nextMission IsSilent="true">lelzSec/CSEC_TransferMission.xml</nextMission>
+  
+  <email>
+    <sender>Polar Star</sender>
+    <subject>Победа  - Возможно переломный момент</subject>
+    <body>
+Вас заметили Здесь важны ваши навыки и достижения.
+ Вы заслуживаете компании более высокого класса. С вами свяжутся в ближайшее время.
+
+Продолжить
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

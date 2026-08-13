@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet08">
+  <goals>
+    <sendemail recipient="gila" subject="MedicalRecord - Sandburg_Jonas" />
+  </goals>
+  <nextMission>MainHub/Continuations/FirstSet08_Reply.xml</nextMission>
+  <posting title="医療記録の調査">
+    論争を止めるため、とある人物の医療記録のコピーを入手してください。
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>アスクレピオスの杖</subject>
+    <body>
+やあ。
+
+助けてほしい。インターネット上の口論に巻き込まれちゃったんだ。発端はとある人物が、明らかにフォトショ加工されてる写真を・・・
+いや、そんなことはどうだっていいんだ。この大騒ぎを止めるために、俺はこいつの本物の医療記録がほしいんだ。いい方法だろ？俺が自分で取りに行ってもいいんだが、あー、俺がやっちまうと
+バレバレだし、こういう仕事はCSECの専売特許だろ。とにかく、俺に協力してくれないか？ターゲットの名前は「Jonas Sandburg」。医療記録のデータベースには記録を任意の人物に送れる
+機能があるから、このアドレスにコピーを送っといてくれ。gila@jmail.com
+
+よろしく！
+-G
+    </body>
+    <attachments>
+      <link comp="medical" />
+      <note title="ノート">ターゲット:
+"Jonas Sandburg"
+記録の送信先:
+"gila@jmail.com"
+</note>
+    </attachments>
+  </email>
+</mission>

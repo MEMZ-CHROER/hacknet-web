@@ -1,0 +1,173 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jmail" name="JMail.com" ip="74.125.237.119" security="5">
+  <admin type="basic" />
+
+  <account username="dlocke" password="sandalphon" type="2" />
+  <account username="gila" password="420PraiseIt" type="2" />
+  <account username="vapor" password="d771njk38A" type="2" />
+  <account username="exxuaanne" password="182736189" type="2" />
+  <account username="naix" password="roxxane" type="2" />
+  <account username="jjstacks" password="tintin7" type="2" />
+  <account username="sal" password="22foxhound" type="2" />
+  <account username="micasa" password="ithoughtyouweremakingtea" type="2" />
+
+  <!-- Localizer note!
+  Never translate the "sender" or "recipient" fields. In cases where something mentions a password
+  (like below) make extra sure to leave the password in English, both where it's mentioned and where it's used.
+  -->
+  
+  <mailServer name="JMail">
+    <email recipient="dlocke" sender="YunaFan420@jmail.com" subject="Tick Tock">
+
+24.43.69.78
+      
+password's the name of objectively the best Final Fantasy 10 character, lower case.
+      
+You earned it.
+
+    </email>
+    <email recipient="dlocke" sender="Avangar Corporate" subject="Amazing buisness oppourtunity">
+Dear recipient,
+Avangar Technologies announces the beginning of a new unprecedented global employment campaign. 
+reviser yeller winers butchery twenties
+Due to company's exploding growth Avangar is expanding business to the European region.
+During last employment campaign over 1500 people worldwide took part in Avangar's business
+and more than half of them are currently employed by the company. And now we are offering you
+one more opportunity to earn extra money working with Avangar Technologies.
+druggists blame classy gentry Aladdin
+
+We are looking for honest, responsible, hard-working people that can dedicate 2-4 hours of their
+time per day and earn extra $$300-500 weekly. All offered positions are currently part-time
+and give you a chance to work mainly from home.
+lovelies hockey Malton meager reordered
+
+Please visit Avangar's corporate web site (http://www.avangar.com/sta/home/0077.htm) for more details regarding these vacancies.
+    </email>
+    <email recipient="dlocke" sender="wumi1000abdul@yahoo.com" subject="Dear Respected One">
+Dear Respected One, 
+
+GREETINGS,
+
+Permit me to inform you of my desire of going into business relationship with you. I got your contact from the International web site directory. I prayed over it and selected your name among other names due to it's esteeming nature and the recommendations given to me as a reputable and trust worthy person I can do business with and by the recommendations I must not hesitate to confide in you for this simple and sincere business. 
+
+I am Wumi Abdul; the only Daughter of late Mr and Mrs George Abdul. My father was a very wealthy cocoa merchant in Abidjan,the economic capital of Ivory Coast before he was poisoned to death by his business associates on one of their outing to discus on a business deal. When my mother died on the 21st October 1984, my father took me and my younger brother HASSAN special because we are motherless. Before the death of my father on 30th June 2002 in a private hospital here in Abidjan. He secretly called me on his bedside and told me that he has a sum of $12.500.000 (Twelve Million, five hundred thousand dollars) left in a suspense account in a local Bank here in Abidjan, that he used my name as his first Daughter for the next of kin in deposit of the fund. 
+
+He also explained to me that it was because of this wealth and some huge amount of money his business associates supposed to balance his from the deal they had that he was poisoned by his business associates, that I should seek for a God fearing foreign partner in a country of my choice where I will transfer this money and use it for investment purpose, (such as real estate management). Sir, we are honourably seeking your assistance in the following ways.
+
+1) To provide a Bank account where this money would be transferred to.
+
+2) To serve as the guardian of this since I am a girl of 26 years.
+
+Moreover Sir, we are willing to offer you 15% of the sum as compensation for effort input after the successful transfer of this fund to your designate account overseas. please feel free to contact ,me via this email address 
+wumi1000abdul@yahoo.com
+
+Anticipating to hear from you soon. 
+Thanks and God Bless. 
+Best regards. 
+Miss Wumi Abdul 
+
+PLEASE FOR PRIVATE AND SECURITY REASONS,REPLY ME VIA EMAIL: 
+wumi1000abdul@yahoo.com
+    </email>
+    
+    
+    <!-- Gila -->
+    <email recipient="gila" sender="exxuaanne@jmail.com" subject="Delivery's late">
+Gila, 
+
+I shouldn't need to remind you of this, but this contract is IMPORTANT to us. Now we're.. very aware that threatening you isn't in our interests, so I'll ask as nicely as I can - can you get it to us asap?
+Neither of us want to look unprofessional here.
+      
+-E
+    </email>
+
+    <email recipient="exxuaanne" sender="redacted@jmail.com" subject="xxxxxxxxxxxxxx">
+      He, hunger-strung, hard to slake,
+      So fitted is for my black luck
+      (With heat such as no man could have
+      And yet keep kind)
+      That all merit's in being meat
+      Seasoned how he'd most approve;
+      Blood's broth
+      Filched by his hand,
+      Choice wassail makes, cooked hot,
+      Cupped quick to mouth;
+      Though prime parts cram each rich meal,
+      He'll not spare
+      Nor scant his want until
+      Sacked larder's gone bone-bare.
+    </email>
+
+    <email recipient="jjstacks" sender="jinix@secumail.com" subject="Re: Re: Re: Recipies">
+      No need to be a dick about it - i' be fine not knowing, to be honest, but you've done it now.
+      
+      ---------------------------------------------------------
+      >lol u think im just giv u them?
+      >no way m8.
+      
+    </email>
+
+    <email recipient="sal" sender="Avangar Corporate" subject="Amazing buisness oppourtunity">
+Dear recipient,
+Avangar Technologies announces the beginning of a new unprecedented global employment campaign.
+reviser yeller winers butchery twenties
+Due to company's exploding growth Avangar is expanding business to the European region.
+During last employment campaign over 1500 people worldwide took part in Avangar's business
+and more than half of them are currently employed by the company. And now we are offering you
+one more opportunity to earn extra money working with Avangar Technologies.
+druggists blame classy gentry Aladdin
+
+We are looking for honest, responsible, hard-working people that can dedicate 2-4 hours of their
+time per day and earn extra $$300-500 weekly. All offered positions are currently part-time
+and give you a chance to work mainly from home.
+lovelies hockey Malton meager reordered
+
+Please visit Avangar's corporate web site (http://www.avangar.com/sta/home/0077.htm) for more details regarding these vacancies.
+    </email>
+    
+    <email recipient="sal" sender="Legitimate Buisnessman" subject="AND/OR SPEAK TO/WITH YOU">
+{I have|I've} been {surfing|browsing} online more than {three|3|2|4} hours today, yet I 
+never found any interesting article like yours.
+{It's|It is} pretty worth enough for me.
+{In my opinion|Personally|In my view}, if all {webmasters|site owners|website owners|web owners} and bloggers made good content as you did, the {internet|net|web} will be {much more|a 
+lot more} useful than ever before.|
+I {couldn't|could not} {resist|refrain from} commenting. {Very well|Perfectly|Well|Exceptionally well} written!|
+{I will|I'll} {right away|immediately} {take hold of|grab|clutch|grasp|seize|snatch} your {rss|rss feed} as I {can not|can't} {in finding|find|to 
+find} your {email|e-mail} subscription {link|hyperlink} or {newsletter|e-newsletter} service.
+Do {you have|you've} any? {Please|Kindly} {allow|permit|let} 
+me {realize|recognize|understand|recognise|know} {so that|in order that} I {may just|may|could} subscribe.
+Thanks.|
+</email>
+    
+    <email recipient="sal" sender="Legitimate Buisnessman" subject="appropriate/perfect/the best">
+{It is|It's} {appropriate|perfect|the best} time to 
+make some plans for the future and {it is|it's} time to 
+be happy. {I have|I've} read this post and if I could 
+I {want to|wish to|desire to} suggest you {few|some} interesting things or {advice|suggestions|tips}.
+{Perhaps|Maybe} you {could|can} write next articles referring to this article.
+I {want to|wish to|desire to} read {more|even more} things about it!|
+{It is|It's} {appropriate|perfect|the best} time to make {a 
+few|some} plans for {the future|the longer term|the long run} and {it is|it's} time to be 
+happy.
+</email>
+    
+    <email recipient="sal" sender="Benefactor" subject="Delivery">
+
+CBT4Q-VNPZY-FJID0
+FQM2L-98HAQ-RHQI5
+YT956-5N3HC-QEVJ0
+DV4I5-TB8NZ-D0HWP
+MIX8V-MV829-24V87
+4F48J-DTT7X-9ZQ8Q
+5MGAZ-TLQVF-EXR87
+PKDB2-395RL-F5R7H
+4IQ8L-JYJGJ-JMR2E
+ZAZ9B-HHF3D-ND9D3
+IJJ0C-M886Y-VM7Z5
+HXDYM-J3XDV-4MYR3
+</email>
+
+  </mailServer>
+  
+
+</Computer>

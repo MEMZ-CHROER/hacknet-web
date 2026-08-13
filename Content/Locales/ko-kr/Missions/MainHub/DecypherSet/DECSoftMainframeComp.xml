@@ -1,0 +1,268 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="decSoftMainframe" name="DEC Solutions 메인프레임" ip="101.0.89.154" security="5">
+  <ports>21, 25, 22, 80, 1433</ports>
+  <portsForCrack val="5"/>
+  <firewall level="-1"/>
+  <trace time="-1"/>
+  <proxy time="0"/>
+
+  <encryptedFile path="home" name="encrypt.dec" ip="101.0.89.154" header="Secured Source Code" extension=".cs" double="true">
+        private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data[i] * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + &quot; &quot;);
+            }
+            return ret.ToString().Trim();
+        }
+  </encryptedFile>
+
+  <encryptedFile path="Staff/D.Leatrou" name="Personal_Notes.dec" ip="101.0.89.154" header="DOUBLE ENCRYPTION" extension=".txt" double="true" pass="dleatrou">
+여기 Kathy가 나에게 관심이 있을까봐 걱정이네. 그녀를 탓하진 않아, 나 역시 조각같은 내 얼굴을 가끔 보거든(핵존잘이지).  거울을 더 설치해야겠어).
+이것에 대한 전문가가 되는 것이 최고로 중요해. 그녀가 성적 질투로 홧김에 나를 공격한다면, 내가 결백한 당사자로 기록되도록 
+메모를 작성하고 있어.
+
+-David Leatrou, CEO
+2013/12/28
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/D.Leatrou" name="Lawsuit_Response.dec" ip="101.0.89.154" header="DOUBLE ENCRYPTION" extension=".txt" double="true" pass="dleatrou">
+Mr. Leatrou 씨,
+
+ 귀하의 최근 편지에 관해서 저희 법률 팀하고 의논했는데 귀하의 &quot;이중 자루에 넣기&quot;(귀하가 콘돔을 2개 사용하는 것, 1개가 권장됨)는 권장 용법 지시사항을 명백히 위반한 것을 나타내므로, 당신 콘돔의 엄청나게 잦은 파손 횟수랑 상관 없이 귀하에겐 집단 소송을 걸 법적 근거가 없다고 확신했습니다.
+우리는 귀하가 권장 절차를 따를 것을 권고하는 바입니다.
+
+귀하와 12명 자녀의 행운을 빕니다.
+
+-Jennifer Stem,
+Durex 고객 서비스 및 불만접수 센터
+  </encryptedFile>
+  
+  <file path="Staff/D.Leatrou" name="Staff_Memo.txt">
+모두들 안녕하세요,
+
+우선, 우리의 새 암호화 제품군의 성공적인 출시를 축하하는 바입니다, 대단한 성공작이었으며,여러분 모두가 새로운 마케팅 자료에 저만큼 흥분되어 있기를 바랍니다.
+DEC Solutions가 전세계 소프트웨어 개발에 있어 더 확고한 위상을 세워감에 따라, 우리는 한 기업으로서 순발력 있는 대응으로 더 높은 수준으로 나아갈 준비를 시작해야 한다고 
+생각합니다.   이를 위해,저는 워크플로우 개선책으로서(정말 그렇다고 생각합니다) 여러분 모두가 좋아하고 훌륭하다고 여기게 되길 바라는 몇몇 새로운 사내 정책을 시행하려고 합니다.
+
+새 정책은 제가 마무리 작업을 마치는 대로 며칠 내에 발표할 것입니다. 그때까지는 이전과 동일합니다 남성분들!
+
+생산적인 하루를 보내세요,
+-David Leatrou, CEO
+</file>
+
+  <file path="Staff/D.Leatrou" name="New_Policies.txt">
+모두들 안녕하세요,
+여기 며칠 전 약속한 새 정책이 나왔으니, 잘 읽어보세요!
+   
+1) 민감한 기업 데이터(소스 코드, 기밀 메모, 등)는 작업하지 않을 때는 항상 암호화되어야 합니다.
+이를 위해 저희 제품보다 더 좋은 소프트웨어가 어디 있을까요! 웹사이트를 보신 여러분들은 이것이 어떻게 우리 비즈니스를 더 안전하고 믿을 수 있는 곳으로 만들어 주는지 이해할 수 있을 거라고 확신합니다.
+나는 이미 내 파일들로 이것을 시작했으며, 어떤 건 이중 암호화를 했을 정도로 중요한 것들이에요! 콘돔 2개를 쓰는 것과 마찬가지죠, 하나가 어찌해서 뚫린다 해도, 여전히 안전하죠.
+
+2) 파일을 암호화할 때, 대체로는 암호 없이 진행해도 괜찮겠지만,어떤 건 정말 중대하다고 생각한다면, 회사 ID를 암호로 사용하세요.
+예를 들어, 안전하게 암호된 내 파일은 내 ID &quot;dleatrou&quot;를 사용할 겁니다!
+
+3) 암호화 제품군 빌드는 항상 오프라인으로 유지되어야 합니다. 이러한 디지털 보안 시대에는 아무리 조심해도 지나치지 않습니다!
+
+암호화되지 않은 마지막 회사 메모를 즐기세요
+-David Leatrou, CEO
+  </file>
+  
+  <file path="Staff/D.Leatrou/Locked" name="RE:Decypher_Memo.txt">
+    알았다, 내게 일찍 보여줘서 고마워.
+    그것에서 뭔가 유용한 걸 얻을 수 있는지 알아보려고 다른 사람 몇몇한테도 사본을 보냈다.
+   고맙다, 정말 잘했어.
+
+    -David Leatrou, CEO
+
+    -----------------------------------------답장 수신인 : -----------
+      
+  David,
+
+   도급업자로부터 회수한 암호화를 위한 코드를 살펴봤는데 이게…음, 뚫릴 수 있다는데. 정말 뚫릴 수 있고, 위험하게 말이야.
+   내가 그렇게 하는 프로그램을 작성했기에 자네한테 보여줄 수 있는데, 일단 보냈다. 그것이 무엇을 할 수 있는지 자네가 일단 알게 되면, 이 메모와 함께 그것을 삭제하는 게 좋을 거야
+
+   그걸 실행하려면, 명령 라인에서 자네한테 보여줬던 식으로 다음과 같이 입력하면 된다:
+    &quot;Decypher [FILENAME HERE]&quot;
+
+    암호도 사용하려면 암호를 파일명 뒤에 추가한다:
+    &quot;Decypher [FILENAME] [PASSWORD]&quot;
+
+    … 알다시피, 자네한테 직접 보여줄 수도 있다. 
+    -J
+  </file>
+  
+
+  <encryptedFile path="Staff/J.Scott" name="Decypher.dec" ip="101.0.89.154" header="DECYPHER - DO NOT SHARE" extension=".exe">#DECYPHER_PROGRAM#</encryptedFile>
+  
+  <encryptedFile path="Staff/J.Scott" name="Decypher_Memo.dec" ip="101.0.89.154" header="Corporate Memo" extension=".txt">
+   David,
+  
+ 도급업자로부터 회수한 암호화를 위한 코드를 살펴봤는데 이게…음, 뚫릴 수 있다는데. 정말 뚫릴 수 있고, 위험하게 말이야.
+   내가 그렇게 하는 프로그램을 작성했기에 자네한테 보여줄 수 있는데, 일단 보냈다. 그것이 무엇을 할 수 있는지 자네가 일단 알게 되면, 이 메모와 함께 그것을 삭제하는 게 좋을 거야
+   
+그걸 실행하려면, 명령 라인에서 자네한테 보여줬던 식으로 다음과 같이 입력하면 된다:
+    &quot;Decypher [FILENAME HERE]&quot; 
+   
+암호도 사용하려면 암호를 파일명 뒤에 추가한다:
+    &quot;Decypher [FILENAME] [PASSWORD]&quot;
+   
+ … 알다시피, 자네한테 직접 보여줄 수도 있다.    
+  -J
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/J.Scott" name="RE:RE:Decypher_Memo.dec" ip="101.0.89.154" header="Corporate Memo" extension=".txt">
+    물론이지.
+       
+자네 아직도 매번 나한테 보내는 것마다 끝에 &quot;CEO&quot;자를 붙여야 겠나?
+        
+-----------------------------------------답장 수신인 :
+    내게 일찍 보여줘서 고마워.
+    그것에서 뭔가 유용한 걸 얻을 수 있는지 알아보려고 다른 사람 몇몇한테도 사본을 보냈다.
+   고맙다, 정말 잘했어.
+
+    -David Leatrou, CEO
+
+    -----------------------------------------답장 수신인 :
+    David,
+
+     도급업자로부터 회수한 암호화를 위한 코드를 살펴봤는데 이게…음, 뚫릴 수 있다는데. 정말 뚫릴 수 있고, 위험하게 말이야.
+   내가 그렇게 하는 프로그램을 작성했기에 자네한테 보여줄 수 있는데, 일단 보냈다. 그것이 무엇을 할 수 있는지 자네가 일단 알게 되면, 이 메모와 함께 그것을 삭제하는 게 좋을 거야
+
+   그걸 실행하려면, 명령 라인에서 자네한테 보여줬던 식으로 다음과 같이 입력하면 된다:
+    &quot;Decypher [FILENAME HERE]&quot;
+
+    암호도 사용하려면 암호를 파일명 뒤에 추가한다:
+    &quot;Decypher [FILENAME] [PASSWORD]&quot;
+
+    … 알다시피, 자네한테 직접 보여줄 수도 있다. 
+    -J
+  </encryptedFile>
+
+  <encryptedFile path="Staff/J.Scott" name="Encryption_Base2.dec" ip="101.0.89.154" header="Source Code" extension=".cs">
+    
+        /// 요약
+       /// 다음사항이 포함된 배열을 반환
+        /// [0] 헤더 메시지
+       /// [1] IP 링크 
+       /// [2] 메시지 데이터
+       /// [3] 파일 확장자(제공되는 경우), 그 외에는 널(null)
+        /// 요약
+      public static string[] DecryptString(string data, string pass = &quot;&quot;)
+        {
+            string[] ret = new string[4];
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string[] split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException(&quot;Tried to decrypt an invalid valid DEC ENC file&quot;);
+            string[] headersSplit = split[0].Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException(&quot;Tried to decrypt an invalid valid DEC ENC file&quot;);
+
+            string headerMsg = Decrypt(headersSplit[1], passcode);
+            string ipLink = Decrypt(headersSplit[2], passcode);
+            string check = Decrypt(headersSplit[3], passcode);
+            string fileExtension = null;
+            if (headersSplit.Length &gt; 4) fileExtension = Decrypt(headersSplit[4], passcode);
+            string message;
+            if (check == &quot;ENCODED&quot;) {
+                 //암호가 정확하였습니다!
+                message = Decrypt(split[1], passcode);
+            }
+            else {
+                //invalid password
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+            }
+            ret[0] = headerMsg;
+            ret[1] = ipLink;
+            ret[2] = message;
+            ret[3] = fileExtension;
+            return ret;
+        }
+  </encryptedFile>
+
+  <encryptedFile path="Staff/J.Scott" name="Decypher_Test.dec" ip="101.0.89.154" header="Source Code" extension=".cs">
+    
+    private static string Decrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            string[] input = data.Split(Utils.spaceDelim, StringSplitOptions.RemoveEmptyEntries);
+            for (int i = 0; i LESS_THAN input.Length; i++) {
+                int currentChar = Convert.ToInt32(input[i]);
+                int halfmax = ushort.MaxValue / 2;
+                int newVal = currentChar - halfmax - passcode;
+                newVal = newVal / 1822;
+                ret.Append((char)newVal);
+            }
+            return ret.ToString().Trim();
+        }
+  </encryptedFile>
+
+  <file path="Staff/A.Carey" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="Staff/A.Carey" name="Staff_Memo.txt">
+모두들 안녕하세요,
+
+우선, 우리의 새 암호화 제품군의 성공적인 출시를 축하하는 바입니다, 대단한 성공작이었으며,여러분 모두가 새로운 마케팅 자료에 저만큼 흥분되어 있기를 바랍니다.
+DEC Solutions가 전세계 소프트웨어 개발에 있어 더 확고한 위상을 세워감에 따라, 우리는 한 기업으로서 순발력 있는 대응으로 더 높은 수준으로 나아갈 준비를 시작해야 한다고 
+생각합니다.   이를 위해,저는 워크플로우 개선책으로서(정말 그렇다고 생각합니다) 여러분 모두가 좋아하고 훌륭하다고 여기게 되길 바라는 몇몇 새로운 사내 정책을 시행하려고 합니다.
+
+새 정책은 제가 마무리 작업을 마치는 대로 며칠 내에 발표할 것입니다. 그때까지는 이전과 동일합니다 남성분들!
+
+생산적인 하루를 보내세요,
+-David Leatrou, CEO
+</file>
+
+  <file path="Staff/A.Carey" name="New_Policies.txt">
+모두들 안녕하세요,
+여기 며칠 전 약속한 새 정책이 나왔으니, 잘 읽어보세요!
+   
+1) 민감한 기업 데이터(소스 코드, 기밀 메모, 등)는 작업하지 않을 때는 항상 암호화되어야 합니다.
+이를 위해 저희 제품보다 더 좋은 소프트웨어가 어디 있을까요! 웹사이트를 보신 여러분들은 이것이 어떻게 우리 비즈니스를 더 안전하고 믿을 수 있는 곳으로 만들어 주는지 이해할 수 있을 거라고 확신합니다.
+나는 이미 내 파일들로 이것을 시작했으며, 어떤 건 이중 암호화를 했을 정도로 중요한 것들이에요! 콘돔 2개를 쓰는 것과 마찬가지죠, 하나가 어찌해서 뚫린다 해도, 여전히 안전하죠.
+
+2) 파일을 암호화할 때, 대체로는 암호 없이 진행해도 괜찮겠지만,어떤 건 정말 중대하다고 생각한다면, 회사 ID를 암호로 사용하세요.
+예를 들어, 안전하게 암호된 내 파일은 내 ID &quot;dleatrou&quot;를 사용할 겁니다!
+
+3) 암호화 제품군 빌드는 항상 오프라인으로 유지되어야 합니다. 이러한 디지털 보안 시대에는 아무리 조심해도 지나치지 않습니다!
+
+암호화되지 않은 마지막 회사 메모를 즐기세요
+-David Leatrou, CEO
+  </file>
+
+  <encryptedFile path="Staff/A.Carey" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+  <encryptedFile path="Staff/A.Carey" name="DECE_TestBuild.dec" ip="101.0.89.154" header="Source Code" extension=".bin">#BINARY#</encryptedFile>
+
+  <encryptedFile path="Staff/K.Abrams" name="DECE_TestBuild_pdb.dec" ip="101.0.89.154" header="Source Code" extension=".pdb">#BINARY#</encryptedFile>
+  <encryptedFile path="Staff/K.Abrams" name="IMPORTANT_MEMO.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+  Kathy 씨, 
+   
+오늘 또 한번 커피 사러 갈 수 있나요? 사무실에 3시에 돌아올 겁니다.
+   
+고마워요! 당신의 암호화를 기억하세요!
+  -David Leatrou, CEO
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/K.Abrams" name="Notes.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+    재고 부족: 
+    
+그래프 종이 
+  회사 셔츠 (소, 대, 특대)  
+  커피(긴급, 신속한 조치 요망) 
+   커피 머그잔(누가 자꾸 깨먹나?!) 
+    거울(David가 이렇게 많이 주문하는 이유는?)
+  </encryptedFile>
+  
+  <encryptedFile path="Staff/K.Abrams" name="Needed_In_Office.dec" ip="101.0.89.154" header="Confidential Memo" extension=".txt">
+    Kathy 씨, 
+
+   개개인의 사기를 높여줄 거울을 몇 개 더 설치하기로 했어요, 장소에 맞는 걸로 6개 정도 추가로 마련해 줄 수 있어요?
+   확실히 거울이 직장에 활기를 불어넣을 거라고 생각해요.
+
+   고마워요!
+    -David Leatrou, CEO
+  </encryptedFile>
+  
+</Computer>

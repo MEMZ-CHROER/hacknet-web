@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Proxy Sunucusu Özet Rehberi">
+Proxy sunucuları, tekrarlı sorgulardan ötürü internet performansını optimize etmek ve bazı saldırıları önlemek için gelen trafiğin filtrelendiği, izlendiği ve önbelleğe alındığı bağlantı sağlayan bilgisayar ve hedef bilgisayar arasında arabelleğe alım katmanı olarak çalışır.
+
+Proxy sunucularının en zayıf noktası üst bellek sınırıdır. Bellek sınırına ulaşıldığında, proxy sunucuları trafiğin kontrol edilmeden geçişine izin vermek zorunda kalır.
+
+
+Bundan faydalanmak için hackerlar ve test görevlileri saldırganın erişimi olan başka bir bilgisayara Kabuk programlaması (genellikle "shell" olarak geçer) uygular. Sonra, yan bilgisayarlarda bulunan kabukları da kullanarak hedef bilgisayara bağlanır ve kabuk programlamanın "aşırı yükleme" işlevini kullanarak hedefin proxy sunucusunu gereksiz veriyle doldurur ve zarar verebilecek trafiğin akışını sağlar.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>HATA</subject>
+    <body>
+Bu postayı almanız beklenmedik bir hatanın oluştuğunu göstermektedir.
+Lütfen panikleyiniz.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

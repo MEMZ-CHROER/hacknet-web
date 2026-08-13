@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubIntro2">
+  <goals>
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt1.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads"/>
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt2.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads"/>
+  </goals>
+  
+  <missionEnd val="0">assignPlayerToHubServerFaction</missionEnd>
+  <nextMission>MainHub/Intro/Intro03Pass.xml</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>Invitation CSEC - Confirmation</subject>
+    <body>
+#PLAYERNAME#,
+
+Bravo pour avoir passé le test automatique, tous ne le réussissent pas (ce qui vous fait réfléchir sur la raison de leur invitation en premier lieu).Vous avez atteint le round 2, ce qui signifie que je dois inventer quelque chose, donc quelque chose d'amusant.
+
+J'ai une bonne idée pour vous - ça ne devrait pas être trop simple non plus !
+
+Je voudrais que vous vous introduisiez dans les serveurs de CFC et trouviez les 11 herbes et épices secrètes.
+
+Si vous pouviez récupérer une liste et la télécharger sur le serveur de stockage de données publique CSEC, je vous accueillerai dans le groupe avec plaisir.
+
+Bonne chance !
+
+-Vap0r Administration 
+CSEC
+
+    </body>
+    <attachments>
+      <link comp="kfcWebServer"/>
+      <link comp="hubPubDrop"/>
+    </attachments>
+  </email>
+</mission>

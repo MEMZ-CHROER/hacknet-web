@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <generationKeys File="#LC_CLIENT#_delivery.zip" Path="home"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Sale for #CLIENT# Gone Awry">
+A "client" of ours recently purchased a valuable piece of software, and is refusing to pay. Delete what they now unjustly hold.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - Return Policy</subject>
+    <body>
+Hello Agent,
+
+A client company recently asked to purchase an extremely expensive software package from #CLIENT#, our company, but it seems they never had any intention of paying. Due to some talented legal handling on their part, we are unable to pursue this via traditional means.
+This is where you come in. We would like to request that you pay a visit to their system, and remove the software that they illegitimately have from us. We transfer our software in archive formats, usually labeled as "#FILE#".
+
+Thank you for your assistance in this delicate and frustrating matter.
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

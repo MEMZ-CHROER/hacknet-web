@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="eosAdded1">
+  <goals>
+    <goal type="getString" target="warsix22"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="錠前破り">
+とあるクライアントが、同僚の携帯電話に保存されている情報を欲しがっています。
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>錠前破り</subject>
+    <body>
+エージェントへ。
+
+この仕事には、eOSデバイスとそのセキュリティに関する深い知識が必要となります。クライアントは、同僚の電話に保存されているある情報、厳密に言うとパスワードの入手を望んでおり、その抜き取りを依頼してきました。私たちの要求通り、クライアントには対象のeOSデバイスが同期されているコンピュータのIPアドレスを提供して頂きました。
+
+そのIPはメールに添付してあります。対象が使っているパスワードを探し出してください。複数発見した場合は認証botに試させるため、できれば全部送っていただけるようお願いします。
+
+健闘を祈ります。
+-Entropy管理部
+    </body>
+    <attachments>
+      <link comp="eosAdded1Comp" />
+    </attachments>
+  </email>
+</mission>

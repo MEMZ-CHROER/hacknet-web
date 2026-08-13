@@ -1,0 +1,9 @@
+﻿1: Erhalte Administratorzugriff zu einem Computer, von dem du vermutest, dass er mit einem eOS-Gerät synchronisiert wird.
+2: Starte eosdevicescanner.exe,
+um nach gekoppelten Geräten zu scannen und automatisch deren Zugangsports zu öffnen
+3: Verbinde dich mit dem gefundenen Gerät
+4: Login:
+Benutzername: "admin"
+Passwort: "alpine"
+
+Dieses Passwort ist auf allen eOS-Geräten identisch!

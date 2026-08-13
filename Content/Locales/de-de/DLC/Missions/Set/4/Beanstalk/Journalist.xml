@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="ds4_journalist" name="Manananggal_workbook" ip="244.188.232.231" security="1" type="empty" icon="DLCLaptop">
+
+  <proxy time="-1" />
+  <portsForCrack val="1" />
+  <ports>80, 6881</ports>
+  <portRemap>443=43</portRemap>
+  <trace time="80" />
+
+  <file path="home/dagrunsdottir_leak" name="038457_doc.pdf">#BINARY#</file>
+
+  <file path="home/Articles" name="MentalEnergy.txt">
+Ich glaube so langsam, dass ich eine Liste meines mentalen Energiereservoirs machen sollte.
+Du weißt schon, das, das sich manchmal erschöpft ist, wenn man mit zu vielen Leuten an einem Tag redet; das, das schwindet, wenn ein Arbeitsmeeting Stunden dauert; das, das am Ende ist, wenn der eine Freund stundenlang über die eine Sache, die er mehr als alles andere in der Welt liebt, die für dich aber ohne Bedeutung ist, redet und es kein Entkommen gibt. Das, das absolut leer ist, wenn du einige Stunden über die Grenzen der kreativen Phase hinaus geschrieben hast und einfach überhaupt nichts mehr übrig ist.
+Solche Sachen.
+Ich glaube, sie greifen im Allgemeinen auf ein Grundenergiereservoir zurück – die meisten Leute nennen es „Geduld“.
+Häng dich nicht zu sehr am Namen auf und versuche, dich nicht von traditionellen Definitionen des Wortes ablenken zu lassen, aber ich werde es hier so nennen. Also, was für Energiereservoirs haben wir noch?
+Ich weiß, dass ich eine ermüdende soziale Situation hinter mir lassen, nach Hause gehen und für die Arbeit schreiben kann. Ich glaube also nicht, dass sich eines leert und dann für immer weg ist – aber wenn ich in diesem Zustand schreibe, wird es nie so gut sein oder so lange anhalten, als wenn ich mit freiem Kopf arbeiten.
+Darauf aufbauend, wenn dies nur eine Übung in Selbstreflexion ist, schätze ich, dass ich ein zentrales Reservoir an Geduldenergie habe und dazu ein paar Weitere, die sich mit diesem verbinden, um spezielle Energien zu bilden – eine für soziales Zeug, eine für „reine“ Geduld (sich Dinge anhören, die einem egal sind), eine für Kreativität und wahrscheinlich ein paar andere, die ich nicht ganz begreife.
+Ich bin mir nicht sicher, ob ich über buchstäbliche chemische Reservoirs im Gehirn spreche oder einfach über neurale Verbindungen, die erschöpft werden (geht sowas?) oder so, aber so „fühlt“ es sich jedenfalls an.
+Meine Energie, Code zu schreiben, unterscheidet sich von meiner Energie, kreativ zu schreiben, aber wenn eine der beiden Energien erschöpft ist, ist es für mich sehr schwer, das Andere zu machen. Das bedeutet wahrscheinlich, dass ich entweder falsch damit liege, dass es sich bei ihnen um unterschiedliche Dinge handelt (interessant!), oder dass mein Vorrat an Code- und Schreib-Konvertierungschemikalien mein Grundenergiereservoir überdauern (auch interessant!).
+Lässt sich das testen? Das ist ein anderer Artikel, also werden wir es nicht jetzt prüfen – aber wenn ich dahingehend optimiere, ist es nützlich, die Muster zu beschreiben, in die man fällt, wenn man die Produktivität verliert – es ist ein großartiger erster Schritt für die künftige Optimierung, zu erkennen, wie die eigene Energie und Kreativität funktionieren und wie sie aufbraucht.
+  </file>
+  
+  <file path="home/Articles" name="TestingMentalEnergyPools.txt">
+Hypothese: Die mentale Energie, um kreativ zu schreiben und jene, um Code zu schreiben, werden aus der gleichen mentalen Quelle gezogen – ist eine der beiden Resourcen erschöpft, gilt dies auch für die andere.
+Gedanken: Es ist sehr schwer, das objektiv zu messen. Es wäre wahrscheinlich am besten, über ein paar Monate einen Sättigungstest zu machen und Änderungen der Produktivität bei unterschiedlicher Lebensweise zu messen, aber das ist ein anstrengender und nerviger Test. Vielleicht etwas für einen weniger stressigen Monat.
+Ist das überhaupt der richtige Test? Mal sehen... Was habe ich davon, wenn ich diese These beweise oder widerlege?
+Fall 1 - widerlegt: Ich habe einen besseren Ausgangspunkt, um meine Produktivität zu optimieren, indem ich die Unterschiede in Energie genauer identifiziere, und wo sie herkommen – wenn ich dann Tests durchführe, um zu sehen, ob ich die Reservoirs schneller auffüllen kann, kann ich mich dabei auf eines konzentrieren. Diese Information ist eine Voraussetzung dafür.
+Fall 2 - bewiesen: Ähnlich wie oben, mit dem Unterschied, dass ich weiß, dass dieses Reservoir genau das ist, auf das ich mich konzentrieren muss, um meine Produktivität zu steigern (danach kann ich anfangen, herauszufinden, was es erschöpft, um jene Einflüsse zu beseitigen – ich brauche dieses Reservoir für die Arbeit).
+Okay! Sieht nach nützlichen Informationen aus. Denken wir uns ein paar schnelle Tests aus, um für beide Seiten Indizien zu finden.
+Tests:
+1: … Mist, wie testet man das?
+Okay, Musik ist aus, denken wir mal nach.
+Wenn das wahr IST, sollte ich in der Lage sein, solange Code zu schreiben, bis ich mich ausgebrannt fühle, und dann versuchen, kreativ zu schreiben und dabei feststellen, dass ich es nicht kann. Ich habe bereits bemerkt, dass dieser Fall zuverlässig eintritt, also müssen wir das nicht wirklich testen.
+Das ist schon ein schwacher Hinweis, der für diese Hypothese spricht, und dazu das, was mich überhaupt erst zu ihr gebracht hatte. Ich habe den Verdacht, dass ich keine starken Beweise dafür f...
+MOMENT – mein schwacher Hinweis hat mich dazu gebracht, eine Hypothese aufzustellen, die damit übereinstimmt! Das ist schreckliche Wissenschaft, genau verkehrt herum!
+Zeit für einen Versuch Nr. 2.
+Edit: Moment, ist das unwissenschaftlich? Ich habe eine Vorhersage für ein allgemeines Verhalten getroffen, basierend auf schwachen Beweisen, und versucht, einen Weg zu finden, um sie zu entkräften. Ist das im Grunde nicht gute, exakt wissenschaftliche Vorgehensweise? Verdammt.
+</file>
+  
+  <file path="home/Articles" name="TestingMentalEnergyPoolsV2.txt">
+Hypothese: Mentale Energie für das kreative Schreiben und das Schreiben von Code wird aus verschiedenen mentalen Quellen gezogen.
+Okay, wenn wir das beweisen oder entkräften können, ist das ein starker Beweis durch Implikation für V1. Versuchen wir's.
+Test: Die Hauptaufgabe des Tages eine Woche lang täglich zwischen kreativem Schreiben und Coden wechseln. Produktivität mit einer Woche vergleichen, in der beide Aktivitäten gemischt werden.
+Theorie: Angesichts der Verzögerung beim Widerauffüllen und der besseren Effektivität in Blöcken (Energie lädt sich erst nach einem 6-Stunden-Block ordentlich auf) wird dieses Vorgehen beide Energien optimal ausnutzen, mit jeweils einem Tag Verzögerung dazwischen.
+Wenn die Hypothese stimmt, wird die Produktivität mit dieser Methode viel größer sein, als wenn beide Aktionen miteinander vermischt werden.
+Ergebnisse: Ausstehend.
+</file>
+  
+  <file path="home/Articles" name="Marriage.txt">
+Also, reden wir über das Heiraten. Also, Leute, die heiraten. Zum Kontext: Hier soll es nur um die Heirat von weißen Heterosexuellen gehen, aber, wie auch immer, es trifft irgendwie auf alle zu. Wenn aber auch überwiegend auf sie.
+Es gibt da einen merkwürdigen, von der Gesellschaft akzeptierten Standard, dass die Ehe das „Ziel“ – oder das Ideal oder was auch immer, sei. Doch *gleichzeitig* ist es ein ziemlich gängiger ‚Witz‘, der irgendwie nicht wirklich ein Witz ist, dass sie einen unglücklich macht und jederlei Spaß ein Ende bereitet.
+WTF, Gesellschaft? Das macht doch keinen Sinn, warum also der ganze Druck? Ich versteh das ganze traditionelle Ideal und so, und die Hunderte (Tausende?) von Jahren, in denen das tatsächlich die optimale Lösung in einer beschissenen Welt war. Aber das ist doch nicht genetisch und ich bin mir ziemlich sicher, dass diese Falle seit einigen Generationen Geschichte ist.
+Rational gesprochen: Was hält uns hier eigentlich zurück?
+Zunächst einmal werden Menschen fast vollständig von ihrer Umwelt geformt, und diese Umwelt ist, wenn zusammengenommen, sehr langsam in Sachen Veränderungen. Das Selbe lässt sich auch bei Dingen wie der Schwulenehe beobachten, wo die meisten über einem bestimmten Bildungsniveau begreifen, dass das in Ordnung ist, es aber einfach lange braucht, bis es sich diese Ansicht verbreitet. Ich könnte jetzt das Gleiche auch über Religion sagen und dass die noch immer existiert. Aber das ist ein anderer Artikel (haha, R.I.P. Commentssection).
+Also, die Umwelt hatte diesen Standard und jetzt verbreitet sich langsam eine moderne Sichtweise zu Beziehungen. Der andauernde Effekt aus dieser traditionellen Denkweise schwebt jedoch noch immer umher, also spüren wir diesen „Druck“.
+Der Punkt ist in Ordnung, aber ich glaube, das geht noch besser.
+Ich würde sagen – es ist ein netter, erreichbarer, auf einem einzelnen Ereignis besierten Endpunkt für ein tatsächliches Lebensziel. Auch wenn es ein ziemliches bescheuertes Lebensziel ist. Dieser letzte Teil wird wahrscheinlich einer Menge Leute an den Karren fahren, aber wenn man es im einzelnen betrachtet, was hat die Ehe überhaupt damit tun? Sollte das Ziel nicht lauten, „sich in einer erfüllenden und glücklichen Beziehung zu befinden, in der man sich wohlfühlt“? Ich meine, selbst mit dieser Definition passt das nicht für Polyamorie, also geht das wahrscheinlich noch besser. Naja, egal.
+‚Gute‘ Ziele (zumindest in meinen Augen gute) sind wirklich schwer zu erreichen. Und werden vermutlich auch niemals erreicht. Das könnte einen zu Höchstleistungen und wahrhafter Glückseligkeit anspornen, geht jedoch mit einer andauernden Unglückseligkeit und existenziellen Angst einher, solange man die Ziele noch nicht erreicht hat – was immer und vermutlich auch ewig sein anhält, da die Ziele so *konzipiert* sind, dass sie unerreichbare Ideale sind.
+Um also dieses Problem zu vermeiden, finden die Menschen einen erreichbaren Punkt auf dem Weg zu einem dieser Ziele und setzen sich diesen als ultimatives Ziel, da sie so ein Ende in Sicht haben. Vielleicht?
+In der Hinsicht löst zum Beispiel eine Heirat die beziehungstechnische Seite des Problems mit den Lebenszielen – man muss nicht darüber nachdenken, wie glücklich man ist, denn das ist auch nicht das Ziel. es geht nur darum, diesen Punkt von der Checkliste abzuhaken.
+Erreichbare Ziele sind gut für die Menschen und ich habe auch gar nicht so viel dagegen einzuwenden – dieses hier stört mich aber schon. Es scheint Menschen dazu zu verleiten, das Streben nach Glückseligkeit und Stabilität aufzugeben, indem jene Elemente aus der Gleichung genommen werden, weil sie ‚zu schwierig‘ sind – *um sich dann auf ewig daran festzubinden*!
+Ja. Seltsam. Ich werde dir keine Antworten vorgeben, doch ich denke, dass es viele Beispiele gibt, bei denen es sich lohnen würde, sich mal die Zeit zu nehmen, um gründlich darüber nachzudenken, *warum* man sich etwas als Ziel setzt und es dann so anzupassen, dass man sicher sein kann, dass es einen nicht in eine Realität führt, die einen unglücklich macht.
+  </file>
+  
+</Computer>

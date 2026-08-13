@@ -1,0 +1,30 @@
+notlar
+------------------------------------------
+#Speech
+Not programının olayı nedir? Neden bu kadar çöp bir şey yav bu?
+Neden "test notu" dizesi 100 mb ram istiyor? Bu hakikaten nasıl mümkün?
+------------------------------------------
+>Neden bu kadar çöp bir şey yav bu?
+Off. Ciddi misin sen? Gerçekten anlamadın mı?
+------------------------------------------
+>Notlar
+>Çöp
+Yine başlıyoruz, birisi aramıza duck'ı eklemiş
+------------------------------------------
+#Duck
+>birisi şu duck'ı alsın
+ 
+>zaten burada olmadığını ima ediyorsun
+------------------------------------------
+#Academic
+Pekala, yanımdaki adam gibi bende birilerine destek olmayı sevmiyorum fakat bu mallığa bir dur demeli. Notlar oldukça iyi tasarlanmış bir yazılımdır. Sende muhtemelen bu yazılımın amacını yanlış anladın.
+
+Tek bir satır için bu kadar RAM istemediği açıkça görülebilir. Sadece RAM ekranını kullanarak notu sürekli ekranda tutuyor. Bunu da çöp veriler ne kadar alana ihtiyaç duyuyorsa, o kadar alanı doldurarak gerçekleştiriyor.
+Bunun hack olduğu belli zaten. Fakat asıl olay RAM denetleyicisine sahip her işletim sisteminde bu genel not programının faaliyet göstermesi. Bu da not programının özel UI kodlaması gerektirmediği anlamına geliyor.
+Yani ne zaman bir şey yazmanız gerekirse ve elinize kalem almaya üşenirseniz bunu kullanabileceksiniz.
+
+
+
+
+
+------------------------------------------

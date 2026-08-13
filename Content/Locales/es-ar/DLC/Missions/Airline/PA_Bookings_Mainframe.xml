@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa_bookings" name="PacificAir_BookingsMainframe" security="5" type="4" icon="PacificAir">
+  
+  <!-- This is the endpoint server that is the ultimate goal of the mission.
+  Is has security that's too advanced for the player to break into by force,
+  but also has an option on it to reset the password, which emails the new
+  password to the administrator. This is how the player breaks in.
+  It isn't built to be investigated much, so doesn't need many files.-->
+
+  <firewall level="-1"/>
+  <proxy time="4" />
+  <trace time="75" />
+  <portsForCrack val="6" />
+  <ports>22, 25, 443, 1433, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <DatabaseDaemon Name="Servidor de reservas de PacificAir" Permissions="adminonly" DataType="NONE" AdminEmailAccount="YasuArai@PacificAir.com" AdminEmailHostID="dpa_mail" />
+  
+  <positionNear target="dpa_nethub" position="0" total="360" extraDistance="0.06"/>
+
+  <WhitelistAuthenticatorDaemon Remote="dpa_whitelist" />
+  
+<file path="home" name="version_info.txt">ORDENADOR SCHISS-CO MODELO 96CDCD
+VER. SOFTWARE 3.0.7.2_b91110
+LÍDERES EN SEGURIDAD DE REDES Y DISPOSITIVOS DE ALMACENAMIENTO</file>
+  
+<file path="home" name="settings_default.cfg">
+?cfg version = "1.0" encoding = "UTF-8" ?
+//Deje aquí su configuración personalizada o rellene el archivo ejecutando
+//la aplicación web para la configuración del router de Schiss-Co, disponible en nuestro portal online.</file>
+
+<file path="home" name="readme.txt">Este servidor no cuenta con un sistema estándar de configuración. Contacte con Schiss-Co en el 555-0167 extensión 2 para recibir asistencia las 24 horas. Cuando se le pida contraseña, diga "shibboleet".</file>
+
+</Computer>

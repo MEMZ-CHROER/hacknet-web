@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase3" activeCheck="true">
+  <goals>
+    <goal type="getAdmin" target="EnTechPrometheus"/>
+  </goals>
+  <missionStart val="11" suppress="true">changeSong</missionStart>
+  <nextMission>BitPath/BitAdv_Intro04.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Untersuchung</subject>
+    <body>Hmmm.
+    
+Ich spiel dieses Spiel schon ne ganze Weile, aber sowas ist mir noch nie untergekommen. Es ist zwar noch etwas zu früh, um es als 'unknackbar' zu bezeichnen, aber... das ist neu. Anders. Hmm.
+EnTech huh? Die machen, was - ein mittelmäßiges Virenschutzprogramm? Wenn sie das hier verkaufen würden, wären sie sehr schnell sehr reich.
+
+Schau mal: Das Front-End ist nichts Besonderes. Ich klopf das mal seitens des Webservers ab - mal sehen, wann ich auf das neue Zeug stoße. Es ist auf jeden Fall so tief drin, dass man davon ausgehen kann, dass sie's verstecken wollen.
+Keine Ahnung warum - sieht ziemlich schwer zu knacken aus - und wirkt auch neu und protzig - Unternehmen lieben solchen Kram.
+
+Und das macht es super verdächtig.
+Schau mal, wie weit du auf deiner Seite kommst - Vielleicht liegt's an mir, aber das scheint eine noch heißere Spur zu sein, als ich es mir je erträumt hätte.
+
+Stubs mich an, wenn du meinst, du bist soweit gekommen, wie es dir möglich war. Sei gründlich.
+
+-V    
+    </body>
+    <attachments>
+      <link comp="EnTechWeb" />
+    </attachments>
+  </email>
+</mission>

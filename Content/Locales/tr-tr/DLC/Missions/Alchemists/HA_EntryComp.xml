@@ -1,0 +1,58 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dhaEntry" name="School of the Hermetic Alchemists" security="4" type="empty" icon="Alchemist">
+  
+  <!-- This will be the entry point of the whole network. It's the "public facing" side of it.
+  Each computer on the network will also have an image and line or two of text that comes up as the
+  "opener" for that server - please select the image from the book to be vectorized and sent to me
+  for each one, and prepate the line that's on each server. The network has been pre-assembled to have all
+  of these clearly outward facing things from the start, even though the internal ones are meant to be hidden.
+  It's like the sysadmin wanted it broken into and seen, as a kind of indoctrination thing for "other hackers
+  like him". -->
+  
+  <!-- Each server should have a bunch of files describing various parts of the philosophy, and in seperate
+  folders, a few bits and peices about the job of the server in the network. This one is a greetings/front facing server,
+  designed to be an announcement thing, more saying who they are and what they're about. It's not written like
+  it was put here just to be broken into, but the sysadmin *does* expect it to be attacked at some point, and is
+  clearly making an effort to indoctrinate whoever is trying to break in.-->
+
+  <file path="home" name="welcome_to_heaven.txt">Her şey bağlantılıdır: din, toplum ve bilim. Hem gerçek, hem de yanılsamalar - hem açık hem de karmakarışıklar.
+
+Doğduğumuz topraktan ve büyüdüğümüz ateş çilesinden her şeyin bağlantılı olduğunu anlıyoruz. Ana öğretilerde gerçek diye bir şey yok. Tablet'in sözleri ise var olmak gibi gerçek.
+
+Her şey bağlantılı: din, toplum ve bilim. Hem gerçek, hem de yanılsamalar - hem açık hem de karmakarışıklar.
+
+Her şeyde güzellik ve bağlılık vardır. Yolculuk gezgini Yang'dan Yin'e, belirliliğe götürür. Gezgin tek bir boyutta var iken dört boyutta var olur; dünyanın doğası ortaya çıkar.
+
+Her şey bağlantılıdır. Eski Yin; IV. Sır Belirlilik The Old Yin bir gün her şey gibi dünyaya dönecektir.
+
+Ayrılma ve birleşme. Yukarıdaki aşağıdaki gibi, aşağıdaki de yukarıdaki gibi.
+</file>
+  
+  <file path="home" name="nameofgod.txt">YOD
+he
+vau
+he
+
+</file>
+
+  <proxy time="-1" />
+  <trace time="200" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <dlink target="dhaComp1"/>
+  <dlink target="dhaComp2"/>
+  <dlink target="dhaComp3"/>
+
+  <positionNear target="dhaComp2" position="2" total="360"/>
+
+  <LogoDaemon Name="School of the Hermetic Alchemists" ShowsTitle="false" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/MainLogo" >
+------------------------------------
+Yukarıdaki aşağıdaki gibi
+Aşağıdaki yukarıdaki gibi
+------------------------------------
+  </LogoDaemon>
+
+</Computer>

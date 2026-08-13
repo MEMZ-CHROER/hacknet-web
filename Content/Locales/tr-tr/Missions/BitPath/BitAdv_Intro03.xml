@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase3" activeCheck="true">
+  <goals>
+    <goal type="getAdmin" target="EnTechPrometheus"/>
+  </goals>
+  <missionStart val="11" suppress="true">changeSong</missionStart>
+  <nextMission>BitPath/BitAdv_Intro04.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Araştırma</subject>
+    <body>Hmmm.
+    
+Bir süredir bu ortamdayım, fakat daha önce hiç böyle bir şey görmemiştim. Buna bozulamaz demek için biraz erken ama... bu yeni, farklı. Hmm.
+Entech demek... ne yapıyorlar, vasat antivirüs programı mı? Bu ne olduğu belli olmayan şeyi satıyor olsalardı bir servet kazanırlardı.
+
+Bak, en başta böyle süslü şeyleri yoktu. Araştırmaya sunucularından başlayacağım, bakalım bu yeni şey hangi noktada devreye giriyormuş. Bir sebeple bunu saklamaya çalıştıklarından yeterince derin bir meseleymiş gibi görünüyor.
+Nedeni konusunda en ufak fikrim yok. Bunu aşmamız için bayağı uğraşmamız gerekecek gibi. Şirketler böyle şeyleri sever. Ayrıca bu yeni ve gösterişli de.
+
+Oldukça da şüpheli.
+Bir göz atıver. Bak bakalım ne kadar ileri gidebileceksin. Seni bilmem ama bu umduğumdan daha iyi bir ipucuymuş gibi hissediyorum.
+
+Mümkün olduğunca çok şey gördüğünü düşündüğünde bana haber et. Dikkatli ol.
+
+-V    
+    </body>
+    <attachments>
+      <link comp="EnTechWeb" />
+    </attachments>
+  </email>
+</mission>

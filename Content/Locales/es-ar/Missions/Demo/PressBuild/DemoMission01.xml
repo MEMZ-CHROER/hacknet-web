@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pressdemoMission01">
+  <goals>
+    <goal type="FileDeletion" target="pointclickerDemo" file="Bit.pcsav" path="PointClicker/Saves"/>
+  </goals>
+  <nextMission>Demo/PressBuild/DemoMission02.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Maiden Flight</subject>
+    <body>¡Enhorabuena! 
+Lo cierto es que no tengo forma de saber si lo has conseguido, pero si estás leyendo esto significa que al menos has encontrado ALGO, así que voy a asumir que es realmente útil. 
+
+Tengo una buena prueba para ti, algo para que pruebes este nuevo programa que he encontrado. Hay un juego con el que he pasado una cantidad embarazosa de tiempo, y si he llegado hasta aquí... bueno, supongo que preferiría que no estuviese en mi legado. 
+La seguridad en el servidor no debería ser tan estricta, quiero que accedas y borres mi cuenta. 
+
+Puede que necesites usar tu nueva herramienta. Si es así, puedes ejecutarla escribiendo su nombre y un número de puerto que atacar, por ejemplo:
+
+&gt;SSHCrack 22
+ ^filename ^portnumber
+     
+Solo encuentra un puerto que quieras crackear y ejecútalo ahí. 
+
+Ah, y por si todavía no lo sabes, puedes usar el tabulador para completar comandos automáticamente, si pulsas &quot;ssh&quot; y luego tabulador debería completarse automáticamente al nombre completo, etc. ¡Funciona para todo!
+
+ ¡Buena suerte!
+
+ --Bit
+0
+      
+    </body>
+    <attachments>
+      <note title="Descripción de la misión">Conéctate al servidor de Point Clicker. 
+Usa Probe para ver qué puertos están abiertos. 
+Dirígete a uno con un programa y dirígete al puerto correcto. 
+Por ejemplo, &quot;SSHCrack 22&quot;
+    ^filename ^portnumber
+    
+Si rompes suficientes puertos dejarás al objetivo vulnerable a una brecha de seguridad usando &quot;Porthack&quot;.
+ Usa el comando &quot;ls&quot; para hacer una lista de los archivos y carpetas. 
+Borra el archivo guardado del usuario &quot;Bit&quot;.
+      </note>
+      <link comp="pointclickerDemo"/>
+    </attachments>
+  </email>
+</mission>

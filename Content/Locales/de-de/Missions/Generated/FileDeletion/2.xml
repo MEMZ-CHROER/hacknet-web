@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Offene Rechnung">
+Hacker haben einer Firma wichtige Daten entwendet. Sie wurden zwar schon zur Rechenschaft gezogen, jedoch muss ihre Beute noch gelöscht werden.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - Offene Rechnung</subject>
+    <body>
+Guten Tag,
+
+unsere Firma #CLIENT# wurde kürzlich von Hackern attackiert. Die Verantwortlichen wurden bereits zur Verantwortung gezogen, doch wir konnten das Archiv, das sie gestohlen hatten, nicht sicherstellen.
+Allerdings haben wir die IP ihres Servers - und wir wären sehr dankbar, wenn Sie sich diesem Problem annehmen würden.
+
+Wir würden diskretes Vorgehen begrüßen.
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

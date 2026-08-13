@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="getString" target="AAX1BB7"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Compromise an eOS Device">
+표적에 관한 정보를 입수하라는 요청이 들어왔으며, 의뢰인은 그것이  eOS 장치에 저장되어 있다고 믿는다.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>탈옥</subject>
+    <body> 간략하게 계속하겠다.
+의뢰인은 우리가 표적의 컴퓨터와 장치를 검색해 그들이 &quot;등록 ID&quot;라고 부르는 것을 찾을 것을 요청했으며 - 그들은 이것이 표적의 가정용 컴퓨터(링크 첨부)와 동기화된 eOS 장치에 저장된다고 믿는다.
+
+이 ID를 입수하는 대로, 답장해서 여기로 보내면 뒷담당은 우리가 할 것이다.
+
+행운을 빈다,
+-CSEC
+    </body>
+    <attachments>
+      <link comp="hubEosMisison"/>
+      <note title="계약 세부사항">
+표적 컴퓨터의 EOS 장치를 검사.
+&quot;등록 ID&quot;와 관련하여 장치들을 조사.상기
+ ID를 첨부해 CSEC로 답장</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitHubSet01" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Error">
+    
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>답장: 프로젝트 왕풍뎅이</subject>
+    <body>
+우린 완전히 이해합니다,
+
+ 배려에 감사합니다. 
+이 사안에 대해 최대한 신중을 기해주기를 정말 바라 마지 않습니다.
+
+-CSEC 경영진
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

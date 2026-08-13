@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle04">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0015 - Schrittmacher v2.44: Sicherheit und Zugangsrechte">
+Hier werden die Sicherheitsmechanismen des v2.44 Herzschrittmachers näher beschrieben. Für generelle Informationen, konsultieren Sie bitte das mitgelieferte Handbuch. Sollten Sie dieses nicht erhalten oder verloren haben, fordern Sie bitte eine neue Kopie an: support@kellisBio.com
+---------------------------------------------
+
+Um nach dem Erhalt Ihres signierten Binary-Paket ein Firmware Update auszuführen, sind einige Schritte nötig. 
+Als Erstes müssen Sie sich über die dem Chip zugewiesene IP mit dem Schrittmacher verbinden.
+
+Danach müssen Sie sich als Administrator anmelden. Die Zugangsdaten werden auf Anfrage zugewiesen. Die Anmeldung erfolgt über Kellis firmeneigene Micro-Port-Protection-System (port 6652).
+
+Nach der Anmeldung erhalten sie Zugriff auf den Herzmonitor, welcher das Einsehen des EKGs erlaubt.
+
+Für ein Firmware-Update wird ein zweiter Login benötigt, dessen Zuagangsdaten nur unseren zertifizierten Software-Entwicklern bekannt ist.
+
+Waren beide Logins erfolgreich, kann ein Update auf den Chip hochgeladen und aktiviert werden, was automatisch (und ohne Gefahr für den Patienten) einen Soft-Reset auslöst und die neue Firmware startet.
+
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Wenn du diese E-Mail erhältst, ist ein unerwarteter Fehler aufgetreten.
+Bitte in Panik geraten.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

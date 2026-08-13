@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase2">
+  <goals>
+    <goal type="getString" target="156.151.59.35"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro03.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Bewijs</subject>
+    <body>Excellent,
+
+TraceKill - zoals de naam zegt, wend traces tegen jou af terwijl het runt. Het zal je werk een stuk makkelijker maken.
+
+Laten we beginnen.
+
+Ik heb wat gegraven na de laaste keer - jij zag dat bericht ook - hij wist waar hij aan werkte. In ieder geval, het idee dat wat er is gebeurd was verbonden aan het werk is genoeg om mee te starten - ik heb wat gespeurt en kwam uit bij een stuk van een lijst van zijn servers - geen idee hoevel virtuele boxen zijn die runnen vanaf de zelfde machine, maar het is een goed begin.
+De meest belovende is gelinkd hieronder - het is een persoonlijke werk server, iets dat hij privé gebruikte om kopieën te hosten van controle-versies van projecten waaraan hij werkte, blijkbaar.
+Het zelf is misschien een clue - wie houdt backups vam eem bedrijfs VC plan? Ik kan slechts drie scenarios bededenken - of hij is ontzettend verantwoordelijk als ze een fout maken en hij is omringt door idioten en je wil zeker zijn, je hebt je backup en logs nodig voor juridische redenen of je bent bezorgd over iets en wil archieven in het geval dat er iets gebeurt.
+
+Wat het ook is, het lijkt een plaats om het graven te starten - wil jij gaan kijken? Ik heb wat rond gekeken, maar kon niet iets subsentieels vinden - kan de repo dumps niet ontcijferen.
+
+Laat me weten als je iets vind - stuur het IP adress van vreemde dingen als je een link weet te vinden.
+
+-V    
+    </body>
+    <attachments>
+      <link comp="BitWorkServer" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="themeHackEndMission">
+  <goals>
+    <goal type="FileDeletion" target="naixGateway" file="Macrosoft_Internal_Raid_Archive.rar" path="home" />
+  </goals>
+  <nextMission IsSilent="true">Entropy/PostBranch/EntropyAdv01.xml</nextMission>
+  <branchMissions>
+  </branchMissions>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Warning</subject>
+    <body>
+      Connect-Responder.exe has noticed a forigen connection from your IP adress to 173.194.35.163.
+      External connections are prohibited on this device. If you have connected in error, please seek sysadmin assitance.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

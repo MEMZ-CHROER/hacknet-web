@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Intro">
+  <goals>
+  </goals>
+  <missionStart>csecAddTraceKill</missionStart>
+  <nextMission>BitPath/BitAdv_Intro02.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Fundament</subject>
+    <body>Hey,
+Dus, dit is een beetje onorthodox, maar ik heb wat invloed uitgeoefend. Jij bent diegene die het eerder Bit contract deed - kijkend voor wat daar gebeurt is.
+Ik ben achter wat informatie aan het gaan, en ik wilde dezelfde persoon erbij. Als je dit krijgt betekent dat dat je klaar bent met je toegewezen contract, en dat we klaar zijn om te gaan.
+
+Om eerlijk te zijn, de term "invloed uitoefenen" wordt bij CSEC niet licht gebruikt en zeker niet in dit geval. Je kreeg snel resultaten en ik wil jou daarom ook op deze zaak.
+Meer samen dit keer. Als ik zeker klink dat je wil meedoen heb ik daar een goede reden voor - er is een erg significante aansporing voor je op de CSEC asset server:
+
+Kijk naar ~/bin/TK/TraceKill.dec
+Decrypt het met wachtwoord "dx122DX"
+
+Haal een kopie en beantwoord me. Zoals altijd, zijn de administrators paranoïde over hun beveiliging, dus het zal anoniem door worden gestuurd naar mij - whatever. Beantwoord gewoon hier als je klaar bent en ik laat weten wat er volgt.
+
+
+    </body>
+    <attachments>
+      <link comp="mainHubAssets" />
+    </attachments>
+  </email>
+</mission>

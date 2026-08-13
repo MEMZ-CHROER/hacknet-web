@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission1.1">
+  <goals>
+    <goal type="FileDeletion" target="entropy01.1" file="config.sys" path="MsgBoard" />
+  </goals>
+  <missionEnd val="6">assignPlayerToEntropyFaction</missionEnd>
+  <nextMission>Entropy/EntropyMission1.2.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Bevestigingsmissie</subject>
+    <body>
+Gegroet #PLAYERNAME#,
+
+Laat mij de eerste zijn om je te feliciteren op het vinden en slagen van het Entropy toegansexamen - hoewel voor een getrainde hacker het een makkelijke taak is, bar weinig lijkt het weliswaar te lukken.
+
+Voordat we je officieel toestaan de groep toe te treden, moeten we je capaciteiten verder testen.
+Aen tabloid nieuwsserver heeft laats een negatieve houding aangenomen tegenover Entropy en we willen ze tijdelijk uitschakelen. Als een tweede test van je vaardigheden vragen we jou de servers Berichtenbord neer te halen. Als het lukt, laat de ongerelateerde artikelen en de rest van de server intact - we willen niet onnodig destructief zijn.
+Dit is geen verzoek op simpelweg de server leeg te vegen van artikelen - we willen slechts dat programma neer.
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy01.1" />
+    </attachments>
+  </email>
+</mission>

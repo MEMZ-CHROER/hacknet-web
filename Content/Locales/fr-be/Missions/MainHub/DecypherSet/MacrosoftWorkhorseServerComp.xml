@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="macrosoftWorkhorse04" name="Serveur performant Macrosoft 04" ip="168.61.82.245" security="3" type="3">
+  <ports>21, 80, 1433</ports>
+  <portsForCrack val="3"/>
+  <firewall level="-1"/>
+  <trace time="240"/>
+  <proxy time="0"/>
+
+  <file path="WORKLOGS" name="0118917.log">
+    TRAVAIL : ENCODER FICHIER
+    ARGUMENTS :
+    Fichier : LemonStealingWhore.avi 
+   Sortie : SeriousBuisnessDocuments.dec
+    -------------------------------------- 
+   TRAVAIL ACHEVÉ - 0 ERREUR DÉTECTÉE
+  </file>
+
+  <file path="WORKLOGS" name="8978163.log">
+    TRAVAIL : COMPILER SOURCE (C#)
+    ARGUMENTS : 
+   Fichier : Main.cs
+    Sortie : WinC_DEBUG_NONRELEASE.exe
+    --------------------------------------
+    TRAVAIL NON ACHEVÉ- 1 ERREUR DÉTECTÉE
+    FICHIER Main.cs INTROUVABLE
+  </file>
+
+  <file path="WORKLOGS" name="3345633.log">
+    TRAVAIL : ENCODER FICHIER
+    ARGUMENTS :
+    Fichier : WinCE_FirmwareSpecs.pdf 
+   Sortie : WinCE_FirmwareSpecs.dec 
+   Mot de passe : beepbeep
+    -------------------------------------- 
+   TRAVAIL ACHEVÉ - 0 ERREUR DÉTECTÉE
+  </file>
+
+  <file path="WORKLOGS" name="489820.log">
+    TRAVAIL : COMPILER SOURCE (C#) 
+   ARGUMENTS :
+    Fichier : Main.cs
+    Sortie : WinC_DEBUG_NONRELEASE.exe
+    --------------------------------------
+    TRAVAIL ACHEVÉ - 0 ERREUR DÉTECTÉE
+    1 AVERTISSEMENT(S) DÉTECTÉ(S) :
+    Main.cs Ligne 12 Position 8 : Code inaccessible détecté
+  </file>
+
+  <file path="WORKLOGS" name="9982711.log">
+    TRAVAIL : ENCODER FICHIER
+    ARGUMENTS :
+    Fichier : Naruto_Xrated_Collection.zip
+    Sortie : printer_Drivers.dec
+    Mot de passe : BELIEVEIT
+    -------------------------------------- 
+   TRAVAIL ACHEVÉ - 0 ERREUR DÉTECTÉE
+  </file>
+  
+  
+</Computer>

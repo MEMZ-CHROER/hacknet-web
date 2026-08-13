@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyMission01.2">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>Entropy/EntropyMission2.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Bienvenido</subject>
+    <body>
+Saludos, #PLAYERNAME#:
+
+ Enhorabuena, 
+con la ejecución oportuna de tu primer contrato has demostrado tus habilidades y es un placer para mí poder darte la bienvenida a Entropy. 
+
+Como pequeño regalo de bienvenida, encontrarás adjuntos los datos de usuario de la cuenta de administrador a nuestro servidor de materiales. No dudes en echar un vistazo a cualquier programa que pudieras necesitar y consulta nuestro mantra. Una vez que estés preparado, responde a esta dirección y me encargaré de de que hagas una verdadera prueba de tus capacidades. 
+
+Una vez más, felicidades. 
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy01"/>
+      <account comp="entropy01" user="admin" pass="rosebud"/>
+    </attachments>
+  </email>
+</mission>

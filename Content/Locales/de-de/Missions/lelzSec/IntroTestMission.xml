@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="lelzSec0">
+  <goals>
+    <goal type="FileChange" target="nortronWebServer" file="index.html" path="web" keyword="dicks"/>
+  </goals>
+  <missionStart val="10">changeSong</missionStart>
+  <nextMission>lelzSec/NortronBreakIn.xml</nextMission>
+  <branchMissions>
+    <branch>Theme/ThemeHackEndMission.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Naix</sender>
+    <subject>GG, Kumpel</subject>
+    <body>
+Ok, ok, habs kapiert. Meintwegen. Hör auf, mein Zeug zu zerlegen.
+
+Ein bisschen schlampig von mir, diese Logs auf deinem System liegen zu lassen - aber im Ernst; es hat so ausgesehen, als hättest du keine Ahnung was du tust.
+Aber hey, das könnte Schicksal sein. Es passiert nicht jeden Tag, dass du im Internet jemandem über den Weg läufst, der kein kompletter Vollidiot ist.
+
+Habe einen kleinen Test für dich - sollte spaßig werden. Es gibt da eine Sicherheitsfirma, die im Grunde ein verdammter Witz ist, Nortron. Kennst du die?
+Ja, um ehrlich zu sein bevorzuge ich es eher, einen Virus auf meinem Computer zu haben, als deren "Sicherheitsschrott". Totaler Müll. Die machen den meisten Umsatz mit den DAUs; Die, die absolut keine Ahnung haben, was sie tun.
+
+Mir schwebt seit einiger Zeit vor, ihre Website umzugestalten - im Grunde soll überall das Wort "DICKS" stehen. Dicks im Titel, im Seitenkopf, ist mir auch egal ob du die ganze Website änderst, sodass da nur noch "DICKS" steht.
+Wenn du für ein wenig heiteren Hacktivismus bist, dann lass mal sehen, was du kannst. Du wirst feststellen, dass das mehr Spaß macht, als alles, wofür du ursprünglich hierher gekommen bist.
+
+-Naix
+
+P.S: Du hast wahrscheinlich immer noch keine Ahnung, was Sicherheit bedeutet, deshalb habe ich dir einen Link zu einem Hacking-Guide für Babys angefügt. Viel Spaß!
+    </body>
+    <attachments>
+      <link comp="nortronWebServer" />
+      <link comp="netEduComp" />
+      <note title="Auftrag">Ersetze im Titel irgendwas mit "DICKS". Ich dulde auch andere Änderungen, solange sie lustig sind.</note>
+    </attachments>
+  </email>
+</mission>

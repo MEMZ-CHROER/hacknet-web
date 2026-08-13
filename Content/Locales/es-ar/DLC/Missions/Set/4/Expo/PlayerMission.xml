@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dFollowsMission">
+  <goals>
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="ds4_expo" destPath="home/talks/files"/>
+
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="dHGrave_Phone" destPath="eos/STORAGE"/>
+    <goal type="fileupload" target="dhsDrop" file="patch_checksum.chk" path="home/grave" destTarget="dHGrave_Phone" destPath="eos/STORAGE"/>
+    
+    <goal type="fileupload" target="dhsDrop" file="p_SQL_399.gz" path="home/grave" destTarget="ds4_grave" destPath="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Expo Grave">Un investigador de seguridad da una charla sobre vulnerabilidades de SQL Database. Que comparta esa información podría ser perjudicial para nuestro trabajo actual. Retrásala.</posting>
+  <email>
+    <sender>Biblioteca</sender>
+    <subject>Expo Grave</subject>
+    <body>
+Un investigador de seguridad da una charla sobre vulnerabilidades de SQL Database. Que comparta esa información podría ser perjudicial para nuestros hackeos actuales. Retrásala.
+----
+No estamos en contra del avance de la seguridad informática, pero nos interesa retrasar un poco esta investigación en particular.
+
+Howard Grave ha preparado una charla sobre vulnerabilidades en SQL que se centra en un parche que ha desarrollado para contrarrestarlas. Queremos reemplazar ese parche por uno nuestro, una versión ligeramente menos efectiva.
+
+Entra en los servidores de la Expo y reemplaza los archivos de su demostración de prueba de concepto por nuestros archivos modificados. Eso quiere decir que tienes que reemplazar ambos archivos y la checksum que tengan cerca, si la hay. Nuestras versiones están en el servidor compartido.
+
+Asegúrate de que lo haces con todas: habrá copias en sus dispositivos personales y el servidor principal de la Expo.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="dhsDrop" />
+      <link comp="ds4_grave" />
+      <link comp="ds4_expo" />
+      <note title="Objetivos de la misión">Descarga el archivo p_SQL_399.gz y su checksum del servidor compartido.
+Consigue acceder al servidor de la Expo y a los dispositivos personales de Grave y reemplaza todas las copias del parche y la checksum por las del servidor compartido.</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,112 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ppMarketing" name="PP Marketing Inc." security="2" type="4">
+
+  <proxy time="1.1" />
+  <portsForCrack val="2" />
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1" />
+  <trace time="400" />
+
+  <account username="admin" password="willsmith" />
+
+  <encryptedFile path="home/WORKSPACE" name="SECURE_MAILLIST.dec" ip="74.125.237.119" header="Marketing encryption lv.2">Helaas, Hacker, verkeerde lijst. Alsof we onze data gewoon rond laten slingeren - zeker als we weten dat er iemand achter aan zit!
+  Hier, wat extra rotzooi binaire data om de bestandsgrootte te laten kloppen.
+
+  #BINARY#
+
+  Kusjes,
+  - Een Echte Beveiligingsexpert
+  XOXO
+  </encryptedFile>
+
+  <file path="home/WORKSPACE/INDUCTION" name="welcome.docx">
+Hallo werknemer. Welkom op je eerst dag bij P.P Marketing. Laat ons imago je niet in de maling nemen - dit is oorlog, en je vecht een goed gevecht. Hier werken voor Amerika's nummer een bedrijfsmarketing bureau is geen makkelijke taak - elke klant is een burcht. Elk product is een wapen. Elke campagne is een gevecht dat we moeten vechten om er voor te zorgen dat onze klanten overwinnen.
+
+Het is altijd belangrijk dat onze interne aanwezigheid overeenkomt met onze externe communicatie om synergie tussen merken te verbeteren. Als je vragen hebt over hou je blootstelling moet maximalizeren via je eigen online aanwezigheid, organizeer dan een Gedeelde Leer Sessie met jouw lijn manager.
+
+Als hoofd van Personeel en Organizatie, wens ik je het beste tijdens deze spannede periode in je carriere.
+
+Jane Halliday - Personeel en Organizatie Manager, P.P Marketing</file>
+
+  <file path="home/WORKSPACE/INDUCTION" name="dresscode.docx">
+Alle werknemers, behalve de ICT afdeling en Uitrusting, moeten zich via het volgende kledingsvoorschrift kleden om het externe imago van P.P Marketing te verbeteren:
+
+- Zakenpakken in zwart, houtskool, obsidiaan of marineblauw moeten altijd gedragen worden.
+- Wit, lichtblauw, ivoor en grijze knopen op shirts, lange mouwen om overeen te komen met het pak dat je draagt.
+- Zwart, rood, blauw, paars of groene stropdassen voor al het mannelijk personeel. Alleen effen kleuren - geen patronen omdat volgens onderzoek dit klanten intimideert.
+- Dames moeten een open kraag shirt dragen, of zijn toegestaan een effen sjaal te dragen tijdens de wintermaanden.
+- Zwart of bruin gepoetste schoenen
+
+De ICT en Uitrustings staf worden effen marineblauwe overals gegeven, die regelmatig moeten worden gewassen en gestreken om ons gezonde imago te behouden.
+
+We appriciëren jullie begrip voor onze strenge kledingsvoorschriften. P.P Marketing is een bedrijf dat trots heeft in zijn imago.
+
+Jane Halliday - Personeel en Organisatie Manager, P.P Marketing</file>
+
+  <file path="home/WORKSPACE" name="Maillist_info.txt">Deze maillijst die we kregen van de hacker (die ons een fortuin heeft gekost, btw). Het bleek dat het gecodeerd is? Waar hebben we hem überhaupt voor betaald?
+PP zegt dat ze iemand ANDERS halen om het te decoderen, of wat dan ook om het bruikbaar te maken, maar volgens de eerste gast is het het goede voormaat, dus zou het de juiste data moeten zijn.
+Wat een ramp. Ach, we hebben er tenmiste iets uitgehaalt, zelfs als we het nog niet kunnen gebruiken...</file>
+
+  <file path="home/WORKSPACE/INDUCTION" name="complaint_procedure.docx">
+Alle werknemers die een klacht over een collega of de aanpak van het bedrijf willen indienen, moeten een 106B formulier inleveren bij hun lijn manager of afdelingshoofd. De klacht moet volledig zijn inclusief bewijs, binnen dertig (30) dagen sinds het incident om onderzocht te worden. Alle klachten zullen uitgebreid door PP worden onderzocht, die zal verzekeren dat een voldoende oplossing binnen 12 maanden sinds het onderzoek klaar zal zijn.
+</file>
+
+  <file path="home/WORKSPACE/INVESTIGATIONS" name="winters_kevin.txt">
+Het is verzocht dat alle emails gestuurt door werknemer Kevin Winters aan alle externe adressen gescant worden op kwaadaardige informatie omtrent de interne acties van P.P Marketing. Dit verzoek is goedgekeurd door het hoofd van operaties, James Wilson. We zijn specifiek op zoek naar bewijs dat Winters beroepsgeheimen heeft gelekt naar concurrenten.
+</file>
+
+  <file path="home/WORKSPACE/INVESTIGATIONS" name="kw_evidenceA01.txt">
+[winters] Terry, ik zeg het je er is hier sireus wat verdachts aan de gang.
+[craigmore] Iedereen weet dat ze eigenaardig zijn.
+[winters] Ze hebben letterlijk hun lijsten gekocht van anderen bedrijven. Normaal wordt dat gekocht van de j-mail databank.
+[craigmore] Hoe helpt dat ze?
+[winters] Ze hebben hun eigen ontwikkelingsteam dat werkt aan algoritmes, werkend op email gedrag, welke producten ze waaarschijnlijk opvallen.
+[craigmore] Echt? Dat is best wel donkere shit.
+[winters] Geruchten zijn er dat ze aan een AI chat bot werken dat gebruikers nadoet op forums en stiekem marketing materiaal in zijn berichten stopt.
+[winters] Een vorm van onderbewuste AI reclame
+[craigmore] Shit.
+[winters] Luister. Ik dump zoveel als ik kan op harddrives en vertrek als je me een plek geeft.
+[winters] Ik moet hier weg.
+</file>
+
+
+
+  <file path="home/documents" name="IncidentLog1.txt">
+[nem] Logte jij in op de S3 dit weekend?
+[felix] nee, waarom?
+[nem] Er missen bestanden en ons internetgebruik is abnormaal, maar er zijn geen logs.
+[felix] dat is raar.
+[felix] heb je nagekeken of de firewall aan is?
+[nem] nog niet.
+[nem] shit.
+[felix] wat?
+[nem] RDP naar de mailserver is uit.
+[nem] ik ga naar de serverkamer om het natekijken.
+[nem] zjz.
+</file>
+
+<file path="home/documents" name="IncidentLog2.txt">
+[nem] Oké, Ik pak alles in en stuur het door
+[felix] Ik sla het off-site op zodat we het later terug kunnen halen
+[felix] dit is totale BS trouwens.
+[nem] Kan niet geloven dat ze door onze beveiliging heen zijn.
+[nem] Maanden aan emails weg.
+[nem] Ik denk dat Letterman woedend zal zijn hierover.
+[felix] Weinstein gaat waarschijnlijk uit z'n dak.
+[nem] zorg er nou maar voor dat je niet ontslagen wordt.
+[nem] Ik spreek je later.
+</file>
+
+  <file path="home/documents" name="logs.txt">
+[gscott] Heb je het memo gelezen van vanmorgen?
+[cgershwin] Ha, kun je geloven dat ze verwachten dat we overwerken tegen geen betaling?
+[gscott] Verast me niks. Serieus, dit is een opstartend bedrijf, maar ze moeten ons beter gaan behandelen.
+[gscott] Ik ben er flink op achteruit gegaan om slechts hier te zijn.
+[cgershwin] Ze hebben drie maanden om het te verbeteren.
+[cgershwin] Of ik ben hier weg.
+[gscott] Ga misschien mee.
+[gscott] Biertje na het werk?
+[cgershwin] Als jij betaalt!
+</file>
+
+</Computer>

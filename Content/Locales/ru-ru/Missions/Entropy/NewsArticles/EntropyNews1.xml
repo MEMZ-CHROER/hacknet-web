@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyNews01">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Entropy Group engaged in malicious Hacking?">
+Последние сообщения свидетельствуют, о том что интернет- группа Entropy недавно принялась скрывать и охранять работы печально известного хакера. 
+Пока что информация не может быть подтверждена, если будет, то группа определенно столкнется с серьезными юридическими действиями в ближайшем будущем. 
+По мнению репортера, это показывает чистый акт предательства по отношению к сети, которая  позволяет продуктивным группам процветать, и должна быть наказана. 
+
+Репортер:  Том Вилкинс 
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Должна Быть Остановлена</subject>
+    <body>
+Уничтожьте entropy Базу Данных 
+    </body>
+    <attachments>
+      <link comp="entropy01"/>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Traces - Passive">
+Como respuesta a un mundo cada vez más hostil y activo en la seguridad informática y el pirateo, los nuevos conjuntos de seguridad digital normalmente incluyen métodos para rastrear la ubicación de cualquier actividad hostil contra dicho servidor.
+    
+Esto, claro, es una ciencia inexacta, por lo que los rastreos generalmente pueden tomar 2 formas: activos y pasivos.
+    
+Este artículo describe los rastreos pasivos.
+    
+1: Rastreos pasivos
+-----------------
+Un rastreo pasivo es un programa informático que se ejecuta en un equipo que intenta detectar una acción hostil y montar una acción de rastreo contra ella. El método para hacerlo varía de un programa a otro (y, por tanto, generalmente también el tiempo necesario para realizarlo). 
+En teoría, se puede evitar que un rastreo pasivo se complete mediante un bloqueo autoinducido en el momento exacto en el que el ping llega del servidor hostil, sin devolverlo, de forma que este asuma que el paquete nunca ha llegado. 
+Sin embargo, esto requeriría su integración en el propio sistema operativo, y esta no es una función de ningún sistema operativo ampliamente reconocido, por lo que queda como un método de rastreo efectivo de posibles atacantes.
+    
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Si recibe este correo electrónico, es que se ha producido un error inesperado. 
+Échese a temblar.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dlctest1" name="dlctest1" security="1">
+
+  <proxy time="-1" />
+  <portsForCrack val="2" />
+  <ports>22, 21, 80, 1433</ports>
+  <portRemap>ssh=1234,ftp=99, 80=3, 1433=1432</portRemap>
+
+</Computer>

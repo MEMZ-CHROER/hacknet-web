@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="airline2_player">
+  <goals>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="D3f4ult - Descifrar los protocolos de Pacific Air">
+Tenemos el PortSmacker, pero necesitamos entrar en los sistemas de mayor seguridad de Pacific Air. Analiza los protocolos y descubre la manera de colarnos sin que nos pillen.
+  </posting>
+  <email>
+    <sender>vacío</sender>
+    <subject>vacío</subject>
+    <body>
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

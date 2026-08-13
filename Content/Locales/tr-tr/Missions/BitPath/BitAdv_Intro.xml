@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Intro">
+  <goals>
+  </goals>
+  <missionStart>csecAddTraceKill</missionStart>
+  <nextMission>BitPath/BitAdv_Intro02.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Temel</subject>
+    <body>Merhaba,
+Bu biraz alışılmışın dışında gelecek fakat araya birisini soktum. Daha önce Bitle görüşen kişi senmişsin gibi ayarlama yapacağız ve sende neler olduğunu araştıracaksın.
+Birazcık daha bilgi edinmeliyim. Bu işi de aynı kişinin halletmesini istiyorum. Eğer bu postayı alıyorsan bu sana atanan işi bitirdiğin anlamına gelir. Yani başlamaya hazırız.
+
+Açık konuşmak gerekirse, CSEC için "araya birini sokmak" hafife alınacak bir şey değil ki şu anki durumda bu çok daha önemli. Hızlı sonuç elde ediyorsun, bende bu yüzden seni bu işte istiyorum.
+Bu sefer daha fazla işbirliği yapmalısın. Buna dahil olmak isteyeceğinden derken kendimden emin konuşmamın bir sebebi var. CSEC asset sunucusunda seni bekleyen önemli bir mükafat var:
+
+Aradığın şey: ~/bin/TK/TraceKill.dec
+Açmak için kullanacağın şifre: "dx122DX"
+
+Kopyasını al ve bana cevap yaz. Her zamanki gibi yöneticiler güvenlik konusunda paranoyak olacaktır. Bu yüzden anonim olarak bilgisayarları üzerinden bana dönecek, her neyse. Hazır olduğun zaman bana yaz yeter. Sonrasını o zaman konuşuruz.
+
+
+    </body>
+    <attachments>
+      <link comp="mainHubAssets" />
+    </attachments>
+  </email>
+</mission>

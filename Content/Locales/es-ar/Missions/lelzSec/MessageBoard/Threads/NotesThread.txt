@@ -1,0 +1,30 @@
+﻿﻿notas
+------------------------------------------
+#Speech
+¿Qué pasa con el programa Notas? ¿Por qué es una puta basura?
+¿Por qué solo la cadena nota de prueba ya ocupa 100 mb de ram? ¿Cómo es eso posible?
+------------------------------------------
+>¿Por qué es una puta basura?
+Uf. ¿En serio? ¿No lo pillas?
+------------------------------------------
+>Notas
+>Basura
+Ah, joder, que alguien llame a duck
+------------------------------------------
+#Duck
+>que alguien llame a duck
+ 
+>eso implica que todavía no estaba aquí
+------------------------------------------
+#Academic
+Ok, odio tener que darlo todo mascado, pero esta estupidez tiene que parar. El programa Notas es una pieza de software increíblemente bien diseñada y está claro que no estás entiendo su finalidad.
+
+OBVIAMENTE almacenar una cadena no ocupa tanta ram, solo está explotando la visualización de la RAM para mantener la nota en pantalla todo el tiempo llenando exactamente el espacio que necesita con datos basura.
+Es un hack, claro, pero quiere decir que es un programa de notas genérico que tendrá una salida en cualquier SO con un monitor ram, lo que quiere decir que es un programa de notas que no necesita una IU especial programada para él.
+Lo que quiere decir que siempre es bueno que esté disponible, en caso de que necesites anotar algo y seas demasiado vago para ir a pillar un puto bolígrafo.
+
+
+
+
+
+------------------------------------------

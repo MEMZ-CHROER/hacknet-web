@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission01">
+  <goals>
+    <goal type="FileDeletion" target="bitMission01" file="@18907_Connection_From_XXX.XXX.XXX.XXX" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@18922_XXX.XXX.XXX.XXX_Given_Administrator_Access" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@18928_XXX.XXX.XXX.XXX_Acessed_File_[Valence_Dossier.pdf]" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@19002_XXX.XXX.XXX.XXX_Deleted_File_[Valence_Dossier.pdf]" path="log" />
+    <goal type="FileDeletion" target="bitMission01" file="@19002_XXX.XXX.XXX.XXX_Disconnected" path="log" />
+  </goals>
+  <nextMission>BitMission2.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>見返り</subject>
+    <body>上出来だ！さあ、ここからちょっと難易度があがるぞ。
+
+実は折り入って頼みがあるんだ。
+ここ最近、仕事のやり方がちょっとずさんになっててね。思うに、こんな面倒に巻き込まれたのも、こんな文章を書かなくちゃいけなくなった
+のもそのせいだ。まあともかく要点を言うと、いくつかのコンピュータに、私にとって不都合なログが残ってるんだ。いいかい、他のことは
+忘れてしまっても、これだけは覚えておいてくれ。いい加減な仕事はするな。ログを残すな。もしどこかに残してるんなら、すぐに削除
+するんだ。最近のOSは、ログを~/logフォルダに全て記録している。コマンド「rm *」を使って、ログを全て削除しろ。絶対に忘れるなよ。
+
+それじゃ、頑張れ。
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <note title="依頼詳細">目標のコンピュータの~/logフォルダに存在するファイルを全て削除せよ
+コマンド「rm *」は、現在のフォルダに存在するファイルを全て削除する。使うときは気を付けろ！
+      </note>
+      <link comp="bitMission01" />
+    </attachments>
+  </email>
+</mission>

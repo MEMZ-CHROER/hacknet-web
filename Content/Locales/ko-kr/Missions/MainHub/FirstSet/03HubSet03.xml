@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="removeDeathRowRecord" name="Joseph Felman"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Remove a Fabricated Death Row Record">
+이것은 해커가 사형수 데이터베이스에 심어놓은 허위 정보를 제거하는 청소 작업이다.
+알려지지 않은 이유로, 허위 중복 레코드가 사형수 감방 레코드에 추가되었다 - 모종의 신원 도용 또는 훼방 계획일 것이다.
+우리는 이 허위 레코드를 제거하길 원한다.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>사형수의 사기꾼</subject>
+    <body>이 계약은 익명의 CSEC 멤버에 의해 추가되었습니다. 이 계약을 통해 스폰서의 신원을 포착하는 것이 가능할지는 모르지만, CSEC는 당신이 항상 멤버들의 프라이버시 및 익명성을 존중할 것을 요청한다.
+
+계약:
+ &quot;Joseph Felman&quot;의 사형수 감방 레코드는 명백히 원본인 Alva Curry에 대한 (#999080) 레코드의 중복 레코드이다.
+Joseph Felman 레코드를 데이터베이스에서 삭제하라 - 그곳에 존재함으로써 모든 실제 Joseph Felman에게 위험이 될 뿐 아니라 Curry 씨의 원래 진술에 대한 모욕이 되는 것이다. 이를 정정하시오.
+
+-CSEC
+    </body>
+    <attachments>
+      <link comp="deathRow"/>
+      <note title="레코드 세부사항">레코드명: 
+"Joseph Felman"을 삭제</note>
+    </attachments>
+  </email>
+</mission>

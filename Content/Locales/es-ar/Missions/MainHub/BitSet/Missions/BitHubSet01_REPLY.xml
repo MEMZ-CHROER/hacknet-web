@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitHubSet01" activeCheck="true">
+  <goals>
+  </goals>
+  <missionEnd val="1">hubBitSetComplete01</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Investigate a CSEC member's disappearance">
+Bit, miembro de CSEC con buena reputación y amigo personal de muchos aquí, desapareció del mapa hace más de 2 semanas y no ha contactado con nadie. 
+Aunque seguro que se están realizando muchas investigaciones privadas, me gustaría convertirlo en una misión oficial de CSEC para el que quiera ayudar. 
+Buscamos cualquier información que haya sobre su desaparición o, aún mejor, sobre su estado actual.
+  </posting>
+  <email>
+    <sender>Vap0r</sender>
+    <subject>Re: Investigación sobre la desaparición de Bit</subject>
+    <body>Ah,
+
+ enhorabuena por lo que has descubierto. Espero que no te diera muchos problemas.
+ Esto me preocupa un poco. Voy a investigar más a fondo y te contaré si descubro algo. 
+
+Gracias, 
+- Vapor 
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

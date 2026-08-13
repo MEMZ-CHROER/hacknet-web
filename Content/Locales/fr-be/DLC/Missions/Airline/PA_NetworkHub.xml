@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa_nethub" name="PacificAir_Network_Hub" security="5" type="4" icon="PacificAir">
+  
+  <!-- Network hub for the airline. This is an "internal Services" node for the airline,
+  it runs misc services and hosts data for them. This sort of catch-all, "don't know
+  where to put it so just put it there" server exists *a lot* in corporate networks.
+  Because of it's generic nature, it's the easy answer to where things go, so it naturally
+  becomes the center of things over time.
+  
+  Mechanically, it mostly exists to provide a central point from which players can reference things,
+  and for players to feel like the network is big and expansive, when not everything has a specialized role.
+  
+  In terms of the files it'll have on it, probably a few memos from people to one another (and another one
+  complaining that they should just use the company email for that sort of thing), bits and pieces that
+  employees want to send each other, or be able to access at work, both personal and work-related.
+  We don't want players to spend too long here (there isn't anything too useful to the mission to find) so keep
+  it light.-->
+
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="61" />
+  <portsForCrack val="4" />
+  <ports>22, 21, 443, 6881, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <dlink target="dpa_mail" />
+  <dlink target="dpa_bookings" />
+  <dlink target="dpa_whitelist" />
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/PacificAir_Big" title="DLC/Sprites/PacificAirTitle" overdrawLogo="true" buttonAlignment="right" />
+  
+  
+  <file path="home/memos" name="0504_nkudo_contractors.txt">
+ceci est un mémo public dans le but de pourrir nat pour ne pas m'avoir donné la liste des contractuels
+bouge-toi le derrière !!!!!! -g</file>
+
+  <file path="home/memos" name="0505_gfinbow_clarification.txt">Griffin, ce mémo est pour toi
+récemment, J'ai...
+instinctivement appris plusiEurs choses
+crois-moi, ce fuT un bien long chemin à parcourir
+finalement, je suis désolée de t'avoir causé du tort !
+c'est certainEment frustrant pour toi
+finbow-senpai, et si tu Me pardonnais ?
+je te dis, un très long cheMin.
+sans parlEr des heures sup ! Ha ha !
+tu voudrais pas passeR l'éponge ? :)
+moi si.
+nous partirions Du même principe.
+bientôt, on ira boire un café, toi et moi, Et tout ira bien.
+c'est juste une étape à passer.
+crie-moi encore dessus, je sais que tu auras raison.
+en tout cas, j'ai dit ce que j'avais à dire.
+dès que le mémo sera terminé, je me remettrai au travail.
+Ah, et si tu essayais de mettre côte à côte les lettres en majuscule de ce message?-nat</file>
+
+  <file path="home/memos" name="0506_hfadden_contractors.txt">
+Du calme, tous les deux. Si vous n'êtes pas fichus de vous comporter comme des adultes, je vous retire les droits d'accès au nœud. 
+-Harry</file>
+
+  <file path="home/memos" name="0507_hg.txt">
+    d'acc
+  </file>
+
+  <file path="home/memos" name="0508_nkudo.txt">on dirait qu'on va opter pour psylance, au fait. merci pour m'avoir remis la liste.
+-g</file>
+
+  <file path="home/memos" name="0509_g.txt">imagine un peu si t'avais pas fait ton passif agressif pour avoir la liste plus vite, ha ha -n</file>
+
+  <file path="home/memos" name="0510_everyone_STOP_THIS.txt">CECI EST UN SERVEUR RESERVE A LA PRODUCTION. CESSEZ DE L'ENCOMBRER DE MÉMOS. 
+UTILISEZ PLUTÔT LE FORUM INTRANET OU LA MESSAGERIE QUI M'A PRIS UNE SEMAINE À PRÉPARER POUR VOUS, BANDE DE CLOWNS A ROULETTES.
+
+SAPRISTI !
+
+-ADMIN</file>
+
+  <file path="home/memos" name="0510_to_admin.txt">
+    ça rage l'admin ?
+  </file>
+
+  <file path="home/memos" name="0511_everyone.txt">griffin vient de perdre ses privilèges, que ceci serve d'avertissement pour les autres.
+-admin
+  </file>
+
+  <file path="home/share" name="underwater.txt">"Hé, le vieux ; pourquoi t'essaierais pas de devenir réserviste ?" demanda Ross. "Dans des circonstances ordinaires, je serais prêt à intégrer Sandhurst, mais on en est loin. La guerre sera terminée avant même qu'on y arrive".
+
+"Je préfèrerais faire quelque chose de plus amusant", acquiesça Vernon.
+
+"Comme si on ce n'était déjà pas le cas", dit son compagnon. "Cependant, je vois bien ce que tu veux dire. Au lieu d'être cloîtré dans un vieil U-bot et être pourchassé par nos petits amis, on aurait bien préféré s'impliquer dans le rassemblement des forces sous-marines allemandes. Je vote pour qu'on écrive une lettre à nos gouverneurs respectifs à ce sujet."</file>
+
+
+  <file path="home/share" name="bonzibuddy.msi">#BINARY#</file>
+
+  <file path="home/share" name="bonzibuddy_v2.msi">#BINARY#</file>
+
+  <file path="home/share" name="the_tingler.msi">#BINARY#</file>
+
+  <file path="home/share" name="frog_fractions_3_beta.txt">#BINARY#</file>
+
+</Computer>

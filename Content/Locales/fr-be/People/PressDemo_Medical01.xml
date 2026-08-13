@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Person id="csec_med_01" handle="Sal" firstName="Elanor" lastName="Helleran" isMale="false">
+  <Birthplace name="Londres"/>
+  <Degrees>
+    <Degree uni="Université de Manchester" gpa="3.1">Master en informatique</Degree>
+  </Degrees>
+  <DOB>08/06/91 14:22:00</DOB>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>167</Height>
+    <Allergies>AUCUN</Allergies>
+    <Perscription>Amiodarone (Cordarone) x70 bi-mensuellement</Perscription>
+    <Notes>Patient diagnostiqué avec de l'arythmie. Cas bénin au départ qui s'est accentué par un usage trop intensif de caféine et d'autres stimulants. Il a été régulièrement déconseillé au patient l'usage de boissons énergisantes et de café qu'elle admet ouvertement consommer, mais les récurrences sont fréquentes. Une prise de sang à la recherche de stimulants (légaux ou autres) est conseillée avant d'effectuer un diagnostique complet.</Notes>
+  </Medical>
+  <Notes>Appuyer sur fabriquer une affaire médicale</Notes>
+</Person>

@@ -1,0 +1,61 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="avconCreditsComp" name="Servidor de créditos de Avcon" security="0">
+  <addAvconDemoEndDaemon name="Demo End"/>
+  <file path="home" name="Entropy_Contact.txt">
+    Al parecer, el grupo de hackers &quot;Entropy&quot; está buscando miembros, tienen un servidor de reclutamiento y todo.
+
+    Puedes conectarte al servidor en &quot;199.59.149.230&quot;
+      
+  -M
+  </file>
+  <file path="home" name="ProxyOverloadGuide.txt">
+    Para sobrecargar un proxy, primero configura algunos nodos shell a nodos en los que tengas acceso como administrador.
+    Para hacerlo, simplemente ejecuta el programa &quot;shell&quot; (es decir: &quot;exe shell&quot;).
+       
+ Una vez que tengas varios shells ejecutándose, si utilizas su función de sobrecarga mientras estás conectado a una máquina de destino, 
+esta comenzará a inundarse con peticiones y la sobrecargarás hasta que el proxy se cierre temporalmente para actualizarse.
+        
+Esto creará una ventana considerable en la que los programas que un proxy evitaría de otro modo se pueden ejecutar libremente.
+    -M
+  </file>
+  <file path="home" name="Credits.txt">
+    -----HackNet-----
+
+    Un juego de:
+    --Matt Trobbiani--
+    Twitter: @Orann
+    Email: mtrobbia@gmail.com
+
+    Textos y logotipos:
+    --Sarah Riggall--
+
+    Concepto de diseño
+    Jeryth
+    http://www.reddit.com/user/jeryth
+
+    -Música-
+    Revolve - Hisboyelroy
+    Leviathan - Kirkoid 
+   Ana - Hisboyelroy
+    www.ccmixter.org  
+
+  -Pruebas y agradecimientos-  
+  Tristan &quot;tijit&quot; Trabilsie 
+   Jamie Williamson 
+   Alex Mackay   
+ Noblekale  
+  Chris Johnson 
+   Sam Crisp
+    Dylan Sale 
+   Richard Taylor
+    Ben Kislby 
+   Matt LeKrupa
+    Brad Wesson  
+  Jamie Pillianaros
+  </file>
+  <file path="sys" name="DefaultBootModule.txt">[Bloqueado]</file>
+  <!--
+  <addEmailDaemon />
+  -->
+</Computer>
+

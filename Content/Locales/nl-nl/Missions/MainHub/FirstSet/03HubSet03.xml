@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="removeDeathRowRecord" name="Joseph Felman"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Verwijder een nep Death Row dossier">
+Dit is een opruimklus om neppe informatie geplant bij een hacker te verwijderen van de Death Row databank.
+Voor onbekende redenen is er, een nep, gedupliceerd dossier toegevoegd aan Death Row - waarschijnlijk als iets van identetijdsdiefstal of zo.
+We willen dit dossier verwijderd hebben.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Bedriegers op Death Row</subject>
+    <body>Dit contract is toegevoegd door een anoniem CSEC lid. Als je de sponsors identiteit uitvogelt in dit contract, eist CSEC dat, je de privacy en anonimiteit van zijn leden prive en anoniem houd.
+
+Contract:
+Het death row dossier voor een "Joseph Felman" (#119080) is een kopie van die van Alva Curry (#999080), die duildelijk het origineel is.
+Verwijder het Joseph Felman dossier van de database - de aanwezigheid daar is niet alleen een risico voor alle echte Joseph Felmans maar het is ook een beledeging naar het origineel door Mr. Curry. Fix dit.
+
+-CSEC
+    </body>
+    <attachments>
+      <link comp="deathRow" />
+      <note title="Record Details">Verwijder Dossier
+Naam: "Joseph Felman"</note>
+    </attachments>
+  </email>
+</mission>

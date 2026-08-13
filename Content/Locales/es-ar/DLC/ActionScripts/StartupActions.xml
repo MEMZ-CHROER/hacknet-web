@@ -1,0 +1,17 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs">
+
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-8.0">Tío, el tiempo de procesamiento del TorrentStreamInjector es insufrible.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-70.0">El puerto se satura después de unos segundos, pero se queda colgado para siempre. Me dan ganas de descompilar el archivo, pero apuesto a que todo ahí dentro es un lío.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-60.0">¿Pero eso no es un problema, no?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-50.0">???</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-40.5">Me retrasa bastante, y es latoso, claro que es un problema.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-30">pd. -> elimina el proceso cuando hayas hecho lo que querías. ¿Cuál es el problema?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-25">...</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-20">En realidad ni siquiera lo había pensado. No importa.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-10">Ja, ja</AddIRCMessage>
+    
+  </OnConnect>
+  
+</ConditionalActions>

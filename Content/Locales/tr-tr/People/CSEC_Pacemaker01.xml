@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="csec_med_01" handle="Ehwitt" firstName="Elliot" lastName="Whit" isMale="true">
+  <Birthplace name="London" />
+  <Degrees>
+    <Degree uni="Manchester University" gpa="3.3">Masters of Law</Degree>
+    <Degree uni="Manchester University" gpa="3.1">Bachelor of Political Sciences</Degree>
+  </Degrees>
+  <DOB>09/09/1961 22:00:00</DOB>
+  <Medical>
+    <Blood>BO</Blood>
+    <Height>166</Height>
+    <Allergies>YOK</Allergies>
+    <Perscription>Ivermectin x35 ayda bir :: Kalp Atış Hızı Düzenlemesi</Perscription>
+    <Notes>Hastanın kalbindeki düzeltilemeyen ve kritik aritmetrik problemler sebebiyle invazif cerrahi olmaksızın bilinmeyen değişiklikleri hesaba katabilen ve ince ayarlamalar yapabilen kalp hızı ölçüm aygıtı takılmıştır.
+    
+Referanslar:
+. 
+. 
+Kalp Hızı Ölçüm Aygıtı Bağlantı Adresi: 202.6.141.219
+Belge ve Notlar: 66.96.147.84
+. 
+.
+Ayrıntılar:
+Kalp hızı ölçüm aygıtını bozabilecek herhangi bir işlem yapmadan veya invaziv operasyon gerçekleştirmeden önce tutarlılığını onaylamak için üreticisi ile iletişime geçin.
+    </Notes>
+  </Medical>
+  <Notes>Pacemaker mission case</Notes>
+</Person>

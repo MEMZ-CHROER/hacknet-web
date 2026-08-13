@@ -1,0 +1,28 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dBeanstalkMission">
+  <goals>
+    <goal type="fileupload" target="ds4_laptop" file="038457_doc.pdf" path="home/dagrunsdottir_leak" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="ビーンストーク">コーヒーショップをハッキングして常連客のコンピューターから法案を盗んでください。当然ですが、私たちは政治グループと協力関係にありません。その情報に高額の賞金がかかっているだけです。</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>ビーンストーク</subject>
+    <body>
+コーヒーショップをハッキングして常連客のコンピューターから法案を盗んでください。当然ですが、私たちは政治グループと協力関係にありません。その情報に高額の賞金がかかっているだけです。
+----
+標的は、Asdis Dagrunsdottirというヨーロッパの政治家が所属する政党内で秘密裏に温めている法案です。私たちの業界に影響を及ぼしかねない法案だと報告されています。ハッカーは好奇心の強い生き物ですからね。賞金も高額です。
+
+私たちが掴んだ情報によれば、彼女は自宅近くにあるカフェによく通っています。幸運にも、カフェのルーターのIPアドレスを特定するのは、難しくありませんでした。
+
+ファイルを入手してドロップサーバーにアップロードしてください。その後は私が処理します。
+
+-Kaguya</body>
+    <attachments>
+      <link comp="ds4_cafe" />
+      <note title="Mission Guidelines">カフェのルーターのリストからAsdis Dagrunsdottirを特定
+法案を入手
+発見したものをドロップサーバーへ</note>
+    </attachments>
+  </email>
+</mission>

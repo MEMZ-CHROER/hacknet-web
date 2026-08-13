@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa_nethub" name="PacificAir_Network_Hub" security="5" type="4" icon="PacificAir">
+  
+  <!-- Network hub for the airline. This is an "internal Services" node for the airline,
+  it runs misc services and hosts data for them. This sort of catch-all, "don't know
+  where to put it so just put it there" server exists *a lot* in corporate networks.
+  Because of it's generic nature, it's the easy answer to where things go, so it naturally
+  becomes the center of things over time.
+  
+  Mechanically, it mostly exists to provide a central point from which players can reference things,
+  and for players to feel like the network is big and expansive, when not everything has a specialized role.
+  
+  In terms of the files it'll have on it, probably a few memos from people to one another (and another one
+  complaining that they should just use the company email for that sort of thing), bits and pieces that
+  employees want to send each other, or be able to access at work, both personal and work-related.
+  We don't want players to spend too long here (there isn't anything too useful to the mission to find) so keep
+  it light.-->
+
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="61" />
+  <portsForCrack val="4" />
+  <ports>22, 21, 443, 6881, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <dlink target="dpa_mail" />
+  <dlink target="dpa_bookings" />
+  <dlink target="dpa_whitelist" />
+
+  <LogoCustomConnectDisplayDaemon logo="DLC/Sprites/PacificAir_Big" title="DLC/Sprites/PacificAirTitle" overdrawLogo="true" buttonAlignment="right" />
+  
+  
+  <file path="home/memos" name="0504_nkudo_contractors.txt">
+Это объявление должно пристыдить Нэта за то, что не подготовил мне список подрядчиков.
+Сделай его уже!!! -Г.</file>
+
+  <file path="home/memos" name="0505_gfinbow_clarification.txt">Для Гриффина объявление
+Лично хотел уведомить тебя, что...
+Я созрел, и понял некоторые вещи
+Гладким и быстрым этот процесс не назовешь
+Ради всего святого, прости, если я доставил тебе неудобств!
+И наверняка это тебя раздражает
+Финбоу-Сенпай, прости меня!
+И, конечно, это долгий процесс, как я уже говорил.
+Но все отработанные мной сверхурочно часы никого не интересуют, ха-ха!
+И ты готов начать с чистого листа? :)
+Даже я бы не отказался!
+И правила не изменились.
+Ну вот мы сходим за кофе, и все будет пучком.
+Аккуратнее, ступенька!
+Хоть покричи на меня, что ли, ну же.
+Разве что пора уже заканчивать с этим.
+Еще минутку, допишу эту записку, и примусь за работу.
+Ну вот скажи, почему ты не читаешь первые буквы предложений? -Нэт</file>
+
+  <file path="home/memos" name="0506_hfadden_contractors.txt">
+Эй, вы двое, ведите себя прилично. Если вы не можете вести себя как взрослые, я отменю ваш доступ к этому узлу. 
+-Гарри</file>
+
+  <file path="home/memos" name="0507_hg.txt">
+    к
+  </file>
+
+  <file path="home/memos" name="0508_nkudo.txt">кстати, по ходу стоит выбрать psylance. спасибо, что составил для меня список.
+-Г.</file>
+
+  <file path="home/memos" name="0509_g.txt">Только представь, если бы ты меня не заставил в таком пассивно-агрессивном тоне сделать его побыстрее, лол! -Н.</file>
+
+  <file path="home/memos" name="0510_everyone_STOP_THIS.txt">ЭТО РАБОЧИЙ СЕРВЕР. ХВАТИТ ЗАБИВАТЬ ФАЙЛОВУЮ СИСТЕМУ ЗАПИСКАМИ. 
+ИСПОЛЬЗУЙТЕ ДОСКУ ОБЪЯВЛЕНИЙ ИНТРАНЕТА ИЛИ ПОЧТОВИК, КОТОРЫЙ Я ЦЕЛУЮ НЕДЕЛЮ НАСТРАИВАЛ ДЛЯ ВАС, ИДИОТОВ.
+
+МАТЬ ВАШУ ЗА НОГУ.
+
+-АДМИНИСТРАТОР</file>
+
+  <file path="home/memos" name="0510_to_admin.txt">
+    проблема?
+  </file>
+
+  <file path="home/memos" name="0511_everyone.txt">Гриффин остался без доступа. Пусть это будет предупреждением для всех остальных.
+-администратор
+  </file>
+
+  <file path="home/share" name="underwater.txt">Слушай сюда, дружище; как думаешь, может, стоит попытаться вступить в резерв ВМФ? - спросил Росс. В обычных обстоятельствах я бы сначала прошел военное училище, но у нас иные обстоятельства. Пока мы закончим учебу, война, наверно, кончится.
+
+Я бы предпочел увидеть что-нибудь веселое, согласился Вернон.
+
+Как будто мы не увидели, добавил его друг. Но я понимаю, о чем ты. Вместо того, чтобы бегать от наших друзей по подводной лодке, мы сами хотим принять участие в облаве на немецкие подлодки. </file>
+
+
+  <file path="home/share" name="bonzibuddy.msi">#BINARY#</file>
+
+  <file path="home/share" name="bonzibuddy_v2.msi">#BINARY#</file>
+
+  <file path="home/share" name="the_tingler.msi">#BINARY#</file>
+
+  <file path="home/share" name="frog_fractions_3_beta.txt">#BINARY#</file>
+
+</Computer>

@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubIntro2">
+  <goals>
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt1.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads"/>
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt2.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads"/>
+  </goals>
+  
+  <missionEnd val="0">assignPlayerToHubServerFaction</missionEnd>
+  <nextMission>MainHub/Intro/Intro03Pass.xml</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>Приглашение от CSEC - подтверждение</subject>
+    <body>
+Вы отлично справились с автоматическим тестом, #PLAYERNAME#, 
+
+не каждому это удается (собственно, не зря вы получили приглашение). Впереди раунд 2, и на этот раз вас ждет нечто особенное - и увлекательное. 
+
+У меня есть для вас отличное - но отнюдь не простое - задание!
+
+ Взломайте сервера CFC и найдите состав из 11 секретных трав и специй. 
+
+Если получите список и загрузите его на открытый дроп-сервер CSEC, я буду счастлив видеть вас в наших рядах. 
+
+Удачи!
+
+-Vap0r, 
+администратор CSEC
+
+    </body>
+    <attachments>
+      <link comp="kfcWebServer"/>
+      <link comp="hubPubDrop"/>
+    </attachments>
+  </email>
+</mission>

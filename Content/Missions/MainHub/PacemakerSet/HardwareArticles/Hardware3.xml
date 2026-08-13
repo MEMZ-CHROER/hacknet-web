@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle03">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0014 - Pacemaker v2.44 Remote tools">
+This post details the remote monitoring and update functionality of the v2.44 pacemaker. For general operations consult the hardcopy documentation, or request another copy from support@kellisBio.com
+---------------------------------------------
+
+The Kellis Biotech v2.44 Pacemaker (here out: "pacemaker") is designed for patients that are considered a high risk or need consistent monitoring, but are unable to remain in a hospital.
+The pacemaker can be connected to remotely, providing the observer with real-time ECG data and some small clerical update tools. Given the sensitive nature of the system (requiring 100% uptime), the system is hard-locked to only accept binary update packages signed by the build server of the chip's assigned software designer.
+
+Updates are generally only provided on a case-specific basis (in which a patient may need slightly different settings to account for natural changes in cardiac rhythm in response to age or operation).
+Kellis's updating system makes these changes possible without the need for further intrusive operation. Although prior versions of the chip included tools for manually updating settings, these have been removed for security concerns, and this current version only allows pacemaker behaviors changes to be made via firmware patch (which can be done wirelessly to remove the need for surgery).
+
+If your case requires such an update, contact your assigned Kellis Biotech representative for assistance and budgeting.
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="Entropy_DLC_Connector">
+  <goals>
+    <!-- Impossible goal here - this mission isn't completable in the normal sense
+    It leads the player to KaguyaTrials, which replaces this. We don't want the player
+    to skip past this mission by quick replying or anything, so put a debug only goal here-->
+    <goal type="getstring" target="kaguyatrialscompletedebug" />
+  </goals>
+  <missionStart val="1" suppress="true">addFlags:dlc_start_entropy</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#ALERT# - Las pruebas Kaguya"> ### CAUTION ###
+Los Admins de Entropy han descrito este contrato como inusualmente largo, peligroso o difícil.
+A no ser que tengas mucha confianza en tus habilidades, los Admins sugieren investigar en esta materia
+más adelante.
+ ### CAUTION ###
+ 
+Un agente hasta ahora desconocido ha publicado un desafío de reclutamiento a los líderes de algunos grupos. Esto es una invitación clara para comenzar una investigación.
+  </posting>
+  <email>
+    <sender>Mailbot de Entropy</sender>
+    <subject>Las pruebas Kaguya</subject>
+    <body>Agente:
+    
+Un individuo llamado "Kaguya" ha enviado un desafío a los líderes y administradores más destacados de la comunidad DigiSec de varias facciones.
+Parece un desafío de reclutamiento para formar parte de un equipo. Como parte de la política de apertura de Entropy, estamos extendiendo esta invitación a todas las partes interesadas.
+
+Tenga en cuenta que este es un grupo ajeno a Entropy, y unirse a otra facción probablemente implicará dejar esta comunidad por algún tiempo.
+Si usted tiene asuntos pendientes con Entropy, o desea continuar con su trayectoria actual, es muy probable que esta oportunidad siga disponible más adelante. En ese caso, considere abandonar el contrato y retomar este hilo más tarde.
+
+De lo contrario, las instrucciones dadas simplemente incluyen una dirección IP (adjunta) e instrucciones para "Comenzar las pruebas".
+
+Buena suerte,
+-Administradores de Entropy
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

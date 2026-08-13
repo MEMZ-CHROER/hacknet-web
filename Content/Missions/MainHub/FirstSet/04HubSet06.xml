@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDownload" target="jscottHome" file="DECHead.exe" path="home/work" />
+  </goals>
+  <nextMission>MainHub/DecypherSet/DECHeadMission02.xml</nextMission>
+  <posting title="Track an Encrypted File">
+We think we've located a way to track down where DEC encrypted files were encoded - we have a password locked file and want it opened. There should be enough leads for you to go on.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Through the Spyglass</subject>
+    <body>
+Apparently DEC encrypted files store the IP they were encoded at (with some misc messages) in the encoded headers - presumably for debug purposes or something, but to us it looks like a wide open security vulnerability - which is great, because we have something we need decoded, and we have no idea what the password for it is.
+
+So, first step - find a way to read these headers. We had a bit of a dig around and found out that one of DEC Solution's employees might have a way to decode headers without knowing the password of a file.
+Go take a look around on his end and reply if you find anything useful. We'll have more for you after that.
+
+-CT Team
+    </body>
+    <attachments>
+      <link comp="jscottHome" />
+    </attachments>
+  </email>
+</mission>

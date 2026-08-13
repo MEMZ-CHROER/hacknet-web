@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dAttackSource" name="Striker Proxy" security="6" ip="72.52.4.119" type="4" icon="DLCPC2">
+  
+  <trace time="80" />
+  <portsForCrack val="3" />
+  <ports>21, 22, 6881</ports>
+  <proxy time="0.4" />
+  <firewall level="-1"/>
+  
+
+  <dlink target="dAttackHome" />
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/HoraTheme.xml"/>
+
+  <file path="home" name="irc_autolog_286.log">fdsfjga: hör auf, so giftig zu sein
+StrikeR: Wie wärs
+StrikeR: wenn du
+StrikeR: mit den Essen aufhörst
+StrikeR: und mir endlich
+StrikeR: deinen Theme schickst
+fdsfjga: seufz
+fdsfjga: jetzt sofort?
+StrikeR: ja
+fdsfjga: kann das nicht warten, bis das Spiel vorbei ist
+StrikeR: .
+fdsfjga: im Ernst
+fdsfjga: ich bin am Junglen
+StrikeR: oh, ich dachte du wärst afk
+fdsfjga: hahaha, fuck u
+StrikeR: xd
+fdsfjga: he
+StrikeR: was
+StrikeR: was willst du jetzt
+fdsfjga: das Spiel ist vorbei
+StrikeR: was
+fdsfjga: das Spiel, das wir gespielt haben?
+StrikeR: sorry, du musst meinem Gedächtnis auf die Sprünge helfen
+fdsfjga: holy shit
+fdsfjga: warum bist du so salty
+StrikeR: brb, afk
+fdsfjga: nein, bist du nicht
+StrikeR: Scheiße, du hast mich erwischt
+fdsfjga: Willst du jetzt die Theme-Dateien oder nicht
+StrikeR: aarrrHHHHHHH
+StrikeR: na gut
+StrikeR: Stell sie in den irc
+fdsfjga: das hier ist irc
+StrikeR: woah
+StrikeR: bringt einen zum nachdenken, oder
+</file>
+  
+  <file path="home" name="irc_autolog_289.log">StrikeR: dein Theme geht nicht
+fdsfjga: ?
+StrikeR: ?
+fdsfjga: ???
+StrikeR: es geht nicht
+StrikeR: was
+fdsfjga: was?
+StrikeR: Ich weiß nicht, was ich sagen soll
+StrikeR: es lädt nicht
+fdsfjga: lass mich mal schauen
+fdsfjga: hier bei mir lädt es problemlos
+fdsfjga: bist du sicher, dass du nicht einfach zu blöd bist
+StrikeR: das ist
+StrikeR: jetzt mal im Ernst
+StrikeR: extrem unwahrscheinlich
+fdsfjga: Hast du die Dateierweiterung vermurkst
+StrikeR: nein
+fdsfjga: Hast du nachgesehen
+StrikeR: ja
+fdsfjga: Hast du wirklich nachgesehen
+StrikeR: ja
+fdsfjga: schau nochmal
+StrikeR: fick dich
+fdsfjga: wie sieht es jetzt mit der Dateierweiterung aus?
+StrikeR: du hast echt Glück, dass deine Themes gut sind
+fdsfjga: ?
+fdsfjga: Schön zu wissen, wie hoch du dich selbst einschätzt
+fdsfjga: :3
+StrikeR: reported
+</file>
+  
+  <file path="home" name="irc_autolog_290.log">fdsfjga: ach ja
+fdsfjga: dachte mir, du solltest das wissen
+fdsfjga: jammy hat dich schlecht gemacht, als du weg warst
+fdsfjga: irgendwas, dass Mädchen nicht gut DOTA spielen können
+fdsfjga: er ist SO salty lmao
+StrikeR: ok cool
+StrikeR: ich gehe nächstes Spiel Mid
+fdsfjga: ja, ich habe bereits allen Bescheid gegeben
+StrikeR: Mir ist es sogar egal, ob ich das Spiel gewinne
+fdsfjga: oh nein
+StrikeR: oh doch
+fdsfjga: bitte
+StrikeR: mid sf
+StrikeR: kennst du diesen einen cheese build?
+fdsfjga: nein
+StrikeR: dagon mek
+StrikeR: der geht garantiert an die Decke
+</file>
+
+  <file path="home" name="irc_autolog_291.log">
+fdsfjga: hast du
+fdsfjga: im Ernst
+fdsfjga: jammy gehackt
+StrikeR: ?
+fdsfjga: oh mein Gott
+fdsfjga: du
+StrikeR: er hat kein Proxy verwendet
+StrikeR: er hat praktisch darum gebettelt
+fdsfjga: ich fasse es nicht
+fdsfjga: er hat in #dota  gejammert, dass
+fdsfjga: wait for it
+StrikeR: oh hat es funktioniert?
+fdsfjga: ja, du hast seine Grafikkarte gefrittet
+fdsfjga: total hinüber
+StrikeR: Er hätte vorsichtiger sein sollen, als ich mich nach seinem Modell erkundigt habe
+fdsfjga: unglaublich
+fdsfjga: er hat sein ganzes Gehalt dafür hingeblättert
+StrikeR: dann hätte er noch 5$ für einen VPS dazulegen sollen
+fdsfjga: ich weiß, dass er dich mies behandelt hat, aber
+fdsfjga: meinst du nicht, dass das etwas übertrieben war
+StrikeR: nein
+StrikeR: lol
+fdsfjga: na gut, wenn du meinst
+StrikeR: er muss lernen
+StrikeR: dass
+StrikeR: seine Worte
+StrikeR: Folgen
+StrikeR: haben
+StrikeR: LMAO
+StrikeR: rate mal, was ich beim Flashen des GPU Bios noch gefunden habe
+fdsfjga: ooh was denn
+StrikeR: ein vollständiges Chatprotokoll, wie er sich UNGLAUBLICH an ein Mädel rangeschmissen hat
+fdsfjga: ehrlich
+StrikeR: ja, er hat alle seine msn messenger Chatprotokolle behalten LOL
+fdsfjga: das gibt‘s ja gar nicht
+</file>
+  
+  <file path="home" name="strikeout.txt">j4mmy: hi :)
+- - -
+j4mmy: hallo!
+* j4mmy hat dich angestupst! *
+- - -
+j4mmy: wie geht es dir?
+- - -
+j4mmy: *massiert deine Schultern*
+* j4mmy hat dir einen Sticker gesendet! *
+- - -
+j4mmy: *winkt*
+* j4mmy hat dich angestupst! *
+- - -
+* j4mmy hat dich angestupst! *
+j4mmy: omg hör auf, mich zu ignorieren
+[A]LEX[A]: was willst du
+j4mmy: was läuft? :)
+[A]LEX[A]: hör mal
+[A]LEX[A]: ich steh nicht auf dich
+[A]LEX[A]: hör auf, mich zu nerven
+j4mmy: was??
+j4mmy: das ist ganz schön unhöflich
+[A]LEX[A]: nein, weißt du, was unhöflich ist?
+[A]LEX[A]: mir ständig irgendwelche fadenscheinigen Nachrichten zu schicken.
+[A]LEX[A]: in der Hoffnung, mir an die Wäsche gehen zu können.
+[A]LEX[A]: du hast buchstäblich 0 Chancen bei mir, und deine aufdringlichen Nachrichten und Nudges haben das jetzt in den Minusbereich getrieben
+j4mmy: jetzt werd doch nicht gleich hysterisch
+[A]LEX[A]: Nö, keine Chance! Ich lass mir kein schlechtes Gewissen einreden
+[A]LEX[A]: Kurz gesagt, verzieh dich, Loser. Heul nicht zu sehr in dein Müsli, das schmeckt sonst nicht mehr.
+[A]LEX[A]: Und tschüss:)
+* [A]LEX[A] ist offline. Deine Nachricht kommt möglicherweise nicht durch. *
+* [A]LEX[A] ist offline. Deine Nachricht kommt möglicherweise nicht durch. *
+* [A]LEX[A] ist offline. Deine Nachricht kommt möglicherweise nicht durch. *
+</file>
+  
+  
+  
+  
+</Computer>

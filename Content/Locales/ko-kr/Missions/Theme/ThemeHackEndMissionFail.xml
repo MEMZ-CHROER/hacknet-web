@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="themeHackEndMissionFail">
+  <goals>
+    <goal type="FileDeletion" target="themeHackTransComp" file="Macrosoft_Internal_Raid_Archive.rar" path="home"/>
+    <!-- Player also needs to have an x-server to respond, just innatley -->
+  </goals>
+  <nextMission IsSilent="true">Entropy/PostBranch/EntropyAdvFailPath01.xml</nextMission>
+  <branchMissions>
+    <branch>Theme/ThemeHackNaixBranch.xml</branch>
+    <branch>Theme/ThemeHackEndMissionFailResolved.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Entropy</sender>
+    <subject>경고</subject>
+    <body>
+      Connect-Responder.exe가 귀하의 IP 주소에서 173.194.35.163으로의 외부 연결을 발견했습니다.
+      이 장치에서 외부 연결은 금지됩니다. 연결에 오류가 있다면, sysadmin의 지원팀을 찾으십시오.
+    </body> 
+    <attachments>
+    </attachments>
+  </email>
+</mission>

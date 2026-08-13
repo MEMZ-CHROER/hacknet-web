@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa2_whitelist" name="Pacific_ATC_WhitelistAuthenticator" security="5" type="4" icon="Psylance">
+  
+  <!-- This whitelist server is 'unhackably secure', but the player can dig up the password to it on an earlier comp. 
+  The player is here to sabotage the server to allow themselves access. I'm leaving this up to you and your narrative expertise,
+  but I'm thinking we could include a file on here somewhere that's kind of a whitelist setup guide with instructions on how to add to the list via terminal.
+  Also it should say you can only use this server via terminal.
+  The command to add a line to the whitelist (this works in game) is:
+  "append filename ip"
+  so like this:
+  "append list.txt 192.168.1.1"
+  You need to be in the folder where the file exists for it to work of course.
+  This mission is completable if the player adds their own IP to the whitelist or just crashes it's critical files, but I think it'll feel
+  cooler if we hint at the player that they are supposed to add themselves onto it via files here.-->
+  
+  <portsForCrack val="5" />
+  <ports>192, 9418</ports>
+  <firewall level="-1"/>
+  <proxy time="-1" />
+  <trace time="80" />
+  <portRemap>192=199</portRemap>
+  <adminPass pass="CKYX258" />
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+  
+  <positionNear target="dpa_bookings" position="180" total="360" extraDistance="0.15"/>
+
+  <dlink target="dpa2_target" />
+
+  <file path="home" name="whitelist_add.txt">Para añadir una IP verificada a la lista de permisos, inserte la llave electrónica de licencia de Schiss-Co en su máquina y asegúrese de que está activada la ejecución automática. EL SDL contiene una suite completa de software de gestión de lista de permisos, pero solo funcionará en una máquina con licencia.
+
+Para los sistemas que cuentan con firewall, están aislados o no pueden acceder a redes públicas, consulte list_add_manual.txt para recibir instrucciones sobre cómo añadir direcciones IP manualmente a la lista de permisos.</file>
+
+
+  <file path="home" name="list_add.sys">#BINARY#</file>
+
+  <file path="home" name="list_add_manual.txt">Para añadir manualmente una IP verificada a la lista de permisos del servidor, lea bien estas instrucciones y asegúrese de introducir bien cada comando para que no haya problemas en su red.
+
+Nota: Este método no está contemplado aquí y se debe realizar en el terminal. Schiss-Co no se hace cargo de los daños causados por un uso irresponsable de estos comandos. Para más información, consulte la carpeta de configuración que le ha dado el representante de Schiss-Co.
+
+Añadir la IP a la lista de permisos manualmente requiere entrar en el terminal, navegar hasta la carpeta donde se encuentra y agregar al archivo la IP que se desee.
+
+Paso a paso, el proceso sería:
+
+1. Abrir el terminal. Recomendaciones de Schiss-Co: bash, xsh
+2. Navegar hasta la carpeta que contiene la lista de permisos. Por defecto, es /home/whitelist.
+3. Comprobar bien la IP que se quiere añadir a la lista de permisos.
+4. Adjuntar la IP que haya seleccionado usando el comando "append" seguido de un espacio, el nombre del archivo de la lista ("list.txt" en muchos casos), otro espacio y la dirección IP. 
+
+Por ejemplo, si quiere añadir la IP "192.168.1.1" a la lista, la línea de comando debería ser:
+
+whitelist-server:/ admin$ cd Whitelist
+whitelist-server:whitelist admin$ append list.txt 192.168.1.1</file>
+
+
+</Computer>

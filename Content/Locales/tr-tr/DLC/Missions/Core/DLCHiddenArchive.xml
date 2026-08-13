@@ -1,0 +1,348 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dHidden" name="Bibliotheque Ghost Storage" security="10">
+
+  <!-- Programs and rewards -->
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+
+  <!-- Custom Theme Files -->
+  <customthemefile path="home" name="Floatvoid_x-server.sys" themePath="DLC/Themes/FloatVoidTheme.xml"/>
+  <customthemefile path="home" name="FloatvoidStandard_x-server.sys" themePath="DLC/Themes/FloatVoidThemeStandard.xml"/>
+  
+  <!-- Expo Mission -->
+  <file path="home" name="p_SQL_399.gz">#BINARY#</file>
+  <file path="home" name="patch_checksum.chk">16060154-F6FD-4876-82FD-8544E6BD6C21</file>
+
+  <!-- Memory Forensics Files -->
+  <file path="home" name="Memory_Forensics_Readme.txt">
+Analiz etmek istediğiniz bellek dökümünü barındıran dizine gidin.
+Komutu girin:
+MemForensics [DOSYAADI]
+Dosya adlarını ve dizinlerini otomatik olarak tamamlamak için TAB tuşunu kullanabilirsiniz.
+Dökümün işlenmesi (indeksleme) biraz zaman alacaktır. Bittikten sonra tarama aracını alabileceksiniz.
+Her bir seçenek belleği işleyecek ve ilgili veriyi seçmeye çalışacaktır.
+Araçlar bellekleri yürütmeyeceği için karşılığı, tehlikesi, izlenmesi ve benzeri ihtimaller bulunmamaktadır. Okumanız ve yazdırmanız yeterlidir.
+  </file>
+
+  <file path="home" name="sysinfo.bat">
+::Remote Backdoor batch script
+::Ref: The Batchography book by Elias Bachaalany
+certutil -decode "%~1.tmp" "%~1" ]nul 2]A1
+-----BEGIN CERTIFICATE-----
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAsAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5v
+dCBiZSBydW4gaW4gRE9TIG1vZGUuDQ0KJAAAAAAAAABdXG3BGT0Dkhk9A5IZPQOS
+lyIQkh49A5LlHRGSGD0DklJpY2gZPQOSAAAAAAAAAABQRQAATAEBALL6QFcAAAAA
+AAAAAOAADwELAQUMAAIAAAAAAAAAAAAAEBAAAAAQAAAAIAAAAABAAAAQAAAAAgAA
+BAAAAAAAAAAEAAAAAAAAAAAgAAAAAgAAAAAAAAIAAAAAABAAABAAAAAAEAAAEAAA
+AAAAABAAAAAAAAAAAAAAAGwQAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC50ZXh0AAAA
+7gAAAAAQAAAAAgAAAAIAAAAAAAAAAAAAAAAAACAAAGAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADSEAAAAAAAALgQAAAAAAAA
+6zJEcm9wcGVkIGV4ZWN1dGFibGUATGV0J3MgZG8gbW9yZSBldmlsIHN0dWZmLCBu
+b3QhAGoAaBIQQABoJRBAAGoA6AcAAABqAOgGAAAA/yUIEEAA/yUAEEAAzMywEAAA
+AAAAAAAAAADGEAAACBAAAKgQAAAAAAAAAAAAAOAQAAAAEAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAADSEAAAAAAAALgQAAAAAAAAsQFNZXNzYWdlQm94QQB1c2VyMzIuZGxs
+AACbAEV4aXRQcm9jZXNzAGtlcm5lbDMyLmRsbAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAA==
+-----END CERTIFICATE-----
+  </file>
+
+  <!-- These are memory dump files! The player will be assigned 2 of these to investigate (either 1 + 2 or 3+4)
+        5+6 are visible to the player, but are auto-assigned to one of the NPC hackers. You can add
+        as many <Block> or <Command> items as you like.
+        These represent memory dumps from RAM, so it makes sense for some files etc to be scrambled or have chunks missing here.
+        If you want me to write any file scrambling code (I can add in "safe regions" that wont get scrambled too) let me know.-->
+  
+  <memoryDumpFile name="Kaguya_Dump_1.md" path="home">
+    <Memory>
+      <Data>
+      </Data>
+      <Commands>
+        <Command>^C
+iodependency-atlas:Tools iodependency$ fdsfdsfds
+-bash: fdsfsdfs: komut bulunamadı
+iodependency-atlas:~ iodependency$ curl ipecho.net/plain ; echo
+88.29.144.6
+iodependency-atlas:Tools iodependency$ cd ..
+iodependency-atlas:Applications iodependency$ cd ~
+iodependency-atlas:~ iodepedency$ cat memory_dumper_dcryptd.app/Contents/MacOS/listen.ini</Command>
+      <Command>$ip=167.72.73.56
+$log_win=C:/Windows/SysWOW64/filelist.txt
+$log_lnx=
+$log_osx=/Library/Application\ Support/Apple/filelist.plist
+#remove for prod build
+#k.adı: listen
+#şifre: 4TL4S</Command>
+        <Command>iodependency-atlas:~ iodependency$ ls
+Applications
+baking puns.txt
+decrypted_dump_analyzer.app
+Desktop
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+Risk assessment.pdf
+SSHCrack.exe
+Tools</Command>
+        <Command>
+iodependency-atlas:~ iodepedency$ ls
+Applications
+baking puns.txt
+decrypted_dump_analyzer.app
+Desktop
+Downloads
+hello.txt
+Library
+Movies
+Music
+Pictures
+Public
+Risk assessment.pdf
+SSHCrack.exe
+Tools</Command>
+        <Command>iodependency-atlas:~ iodepedency$ cat hello.txt
+Merhaba! -SN
+iodependency-atlas:~ iodependency$ hlat -lq
+-bash: hlat: komut bulunamadı
+iodependency-atlas:~ iodependency$ sudo rm *; sudo halt -lq
+Şifre:
+Yayınlanan ileti: iodependency@iodependency-atlas 
+    (/dev/pts/1) - 11:28 ...
+    Sistem ŞU ANDA çöküyor!</Command>
+      </Commands>
+    
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_2.md" path="home">
+    <Memory>
+      <Data>
+        <Block>SNACKINTOSH Notları, @alidaxavier22 TemplarSecurityNet Araştırması
+        
+Gerçek isim(ler?):
+Vita Prendergast - e-postasıyla bağlantılı olan IP'de bulundu
+Maia Burgess - aynı isimde olup Vita ile bağlantısı olan başkası yok
+Hikari Krizan - yukarıdakiyle aynı (kullan at kimlikler olabilir?)
+Rose Ishikawa - darknet arkadaşıma göre "şahsın arkadaşlarından birisi"
+
+Meslek:
+Hackerlık sahnesinde büyük bir konumu var ama popüler değil...? Çok güçlü.
+Çoğu yerde parmak izi var. Fark ettiğinden çok daha fazla. Çoğu birkaç sene öncesine dayanıyor. Unutuyor mu? Kasıtlı yapıyor olabilir mi? Belki de bulunması için ekmek kırıkları bırakıyordur (Tanrım, Hacker Hansel mi oldum şimdi?).
+Anladığım kadarıyla bir şeyler peşinde. Belki araçlarla uğraşıyordur. Bulduğum açık tartışmalardan *birinde* bu arkadaş yazılım uygulamaları ve kodlamadan bahsedince millet susmuş kalmış. Takip etmeye değer.
+
+Bilinen IP Adresleri:
+143.78.36.213 - ARTIK KULLANILMIYOR - dosya saklama uygulamasına bununla bağlanmıştı
+219.242.177.14 - ARTIK KULLANILMIYOR - sohbetimize bununla bağlanmıştı
+39.46.123.206 - ARTIK KULLANILMIYOR - Proxy'si olabilir?
+185.160.171.69 - muhtemelen ölü - ilk proxy'nin arkasındaki proxy olabilir. Bunu aşması için birine para verdim. Bunu nasıl aşacağımızı bilemiyorum. HackerForums'dan yeni araçlar almamız lazım.
+
+İletişim Ayrıntıları:
+Hiçbir fikrim yok. Onunla karşılıklı konuşma fırsatım oldu ancak tekrar iletişim kurmakla ilgilenmedi. Bence tekrar konuşmak istediğinde beni bulacak.
+
+Mevcut Planlar: 
+-işlere aynen devam
+-tanımadığımız birini daha takip edeceğim
+-öleceğim
+</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_3.md" path="home">
+    <Memory>
+      <Data>
+        <Block>[@sbeezy] yarıldım. işte sonumuz kesip biçme oldu n'aparsın
+[@sbeezy] ... en iyi kararım olmadığı kesin xD
+[@sbeezy] takas ekonomisi operasyonunda son durum nedir
+[@addili] Ne
+[@annili] ????
+[@addili] Ha
+[@addili] Alıcıları mı diyorsun?
+[@sbeezy] aynen
+[@annili] Yakında kanal şifrelerini vereceğim.
+[@annili] Müsait olduğunda bana haber ver.
+[@addili] Bunu yapmamız gerektiğinden emin misin?
+[@annili] Evet.
+[@annili] Geri adım atmak için çok geç.
+[@sbeezy] izleri temizledik değil mi?
+[@sbeezy] bizi uyardığında korkunç görünüyordu
+[@sbeezy] özellikle de
+[@sbeezy] yaptığımız şeyi yapmamamızı söylerken
+[@addili] He ya
+[@addili] Belki de konuşma işini ben ve Annie'ye bırakmalısın
+[@sbeezy] ne fark eder
+[@sbeezy] telaşlanmadım yani hahaha
+[@sbeezy] muhtemelen benim göt sağlam
+[@sbeezy] ne zaman istersen gömnder işte
+[@annili] Erişim şifrelerini gönderiyorum.
+[@sbeezy] tamam
+* blanner katıldı: #atohil, mod(lar): +v
+[+blanner] günaydın
+[@sbeezy] merhaba
+[@addili] Seni gördüğüme sevindim
+* dramm katıldı: #atohil, mod(lar): +v
+[+dramm] yo yo yo
+[+dramm] merhaba?
+[@addili] Merhaba dramm, bize bir saniye ver. Başka bir şeyle ilgileniyoruz :)
+[@annili] 2/3. Üçüncüyle ilgili gelişme var mı?
+[@sbeezy] ne yalan söyliyim muhtemelen sikik bi bitki
+[+dramm] tanrım... umarım değildir
+[+blanner] Eğer durum buysa hayal kırıklığı kaçınılmaz olacak
+* intehan katıldı: #atohil, mod(lar) +v
+[+intehan] merhaba
+[@annili] Geç kaldın.
+[+intehan] sakin ol dostum
+[+intehan] işim uzadı
+[+intehan] siktimin KAVŞAAYLA.. yarıldık
+[@addili] ...tabi.
+[@addili] Her neyse, bunu sizinle önceden de konuşmuştum.
+[@addili] İşlem numaralarınızı yazabilir misiniz?
+[+intehan] tabiki
+[+blanner] benimki to7meuX64Q
+[+dramm] benimki de a7hxZsULur
+[+intehan] zSp01aALFr
+[@annili] İşlemleri doğrulamamız için bize biraz zaman tanıyım lütfen.
+* blanner ayrıldı: #atohil
+[@sbeezy] noluyo aq
+* blanner katıldı: #atohil, mod(lar): +v
+[+blanner] afedersiniz
+[+blanner] internet taşak geçiyo resmen
+[@addili] Hıh
+[+intehan] bütün gün bekleyemem..
+[@annili] Kayıtzincirini inceledik. İşlemler onaylandı.
+[@annili] Harici bir Drop Server açtık.
+[@annili] addili, ayrıntıları paylaşabilir misin acaba?
+[@addili] Bir saniye...
+[@addili] IP Adresi: 40.73.228.137
+[@addili] Kullanıcı: atohil
+[@addili] Şifre: JHhTSDtxYv
+[@addili] Kullanıcı hesabı 24 saat sonra geçersiz kılınacak. O zamana kadar ödemenizi aldığınızdan emin olun.
+[+intehan] harika
+[+intehan] harika
+[+intehan] harika!
+[+dramm] teşekkürler!
+[+blanner] ben aldım
+[@addili] Mükemmel
+[@annili] Alış verişimiz burada son buluyor. Sizinle tekrar çalışmak için can atıyoruz.
+* annili ayrıldı: #atohil
+* addili ayrıldı: #atohil
+[+intehan] temiz iş
+* intehan ayrıldı: #atohil
+* blanner ayrıldı: #atohil
+* blanner katıldı: #atohil, mod(lar): +v
+* dramm ayrıldı: #atohil
+* blanner ayrıldı: #atohil
+[@sbeezy] Engellendi. Engellendi. Hiçbiriniz günahsız değilsiniz.
+[@sbeezy] Hoayda. Yanlış sohbet.
+* sbeezy ayrıldı: #atohil</Block>
+      </Data>
+      <Commands>
+      </Commands>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_4.md" path="home">
+    <Memory>
+      <Commands>
+        <Command>
+> profiledump.exe -gp alihotatohila
+Profile ulaşılıyor...
+İsim: Lihota, Addi
+Yaş: 22
+Meslek: Yazılım Mühendisi, Netsec (Schiss-Co Innovations Lab)
+Profil Tanımı: (boş)
+Beğenilen Sayfalar: Perturbator, Emancipator, Arı filmi memeleri gerçeği, CFC: Colonel's Fried Chicken, ePad Çekiliş Sayfası (daha fazla)
+Katılım Tarihi: 07/11/2010
+Son Giriş: 3 Saat Önce (03:22 GMT+1)
+Kaydedilen Son IP: 17.5.3.9
+Bağlantılı Profil: 363
+Son Bakılan Profiller: Ani Lihota (Kardeş), Devi Muhammad, Jaswinder Esan (Eş), Sharma Lihota (Anne), Simon Bestman (Arkadaş Değil) (daha fazla)
+Son Konuşulanlar: Ani Lihota (Kardeş), Sharma Lihota (Anne)
+> disconnect
+</Command>
+      </Commands>
+    </Memory>
+  </memoryDumpFile>
+
+  <memoryDumpFile name="Kaguya_Dump_5.md" path="home">
+    <!-- Should be a secret here... -->
+    <Memory>
+      <Commands>
+        <Command>ping 208.73.49.146</Command>
+      </Commands>
+      <Data>
+        <Block>Parola: Açıl Susam Açıl.
+-: Dönüt: Sana aynı şeyi doksan dokuz defa söyledim.
+Onaylandı.
+Takas Ekonomisi Operasyonu.
+-: Gerçekten mi?
+Hedefimiz yazılımı kapmak, kimsenin sattığımızı anlayamaması için düzenlemek ve yazılımdan kar etmek. Tersine tasarım işine Addi bakıyor, Ani alıcılarla iletişime geçiyor, Simon da parayı temize alıyor.
+-: ?
+Saçmalama Simon.
+-: Bende alıcılarla iletişime geçmede iyiyim.
+Evet ama Ani senden daha iyi. Bunu ona bırak.
+-: İyi be. Peki sen *işini* halledebileceğinden emin misin?
+Yüzde yüz eminim. Her şeyim hazır.
+Simon. Kazanç durumumuz nedir?
+-: İşleniyor. Gelişmeleri sana bildireceğim.
+Teşekkür ederim. Endişelenmemiz gereken bir şey var mı peki?
+-: Hayır. Endişelenecek bir şey olmadığına eminim.
+Ne kadar eminsin?
+-: Yeterince eminim.
+Güzel. Sonra görüşürüz.
+-: Ani'nin bu işi sikip atmasına izin verme.
+Vermeyeceğim.</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+  208.73.49.146
+  <memoryDumpFile name="Kaguya_Dump_6.md" path="home">
+    <Memory>
+      <Data>
+        <Block>İki kişi uçağa el ele tutuşarak biniyor.
+Birisi kötü kalpli bir toptancı.
+Diğeri ise özgür ruhlu bir çiçekçi.
+Uçak iniş yaptıktan sonra ikisinden biri elinde bir evrak çantası ile iniyor.
+Hangisi iner?
+
+Ağaçta asılı durun pişman bir koalaya yanardağ fırlatırsanız ne olur?
+Buzdolabı.
+
+*kesinlikle Jerry Seinfeld sesi* Bunu Malezya Ringgit'i için alırdım bak!
+
+Üç köpekle ilgili bir hikaye duymuştum. Köpeklerden biri etrafında dönüyor, diğeri sakince bekliyor, üçüncüsü ise hiçbir şekilde dönemiyormuş. Bir bara girmişler. Tezgahın arkasında sigara bağımlısı olan genç bir kadın varmış. Barın köşesinde ise kasklı bir şövalye ile ilgilenen eski bir profesyonel güreşçi varmış. Sonra ne olmuş?
+
+Birinin başında ayakkabı var. Eskimsi hikayeler yazıyor. Kabukta yaşayan huysuz bir canavarı var. Kimdir bu?
+
+Soğuk bir yerde birçok yerin harikalarını dokuyan bir kadın yaşıyormuş. Bu kadın aynı zamanda iftiracının tekiymiş. Elinde de bir kılıç varmış. Asla ama asla yalan söylemiyormuş. 
+Bu kadın kimdir?
+
+- "Markov Chain'in Anlattığı Şakalar ve Fıkralar, III. Cilt: Ermeye Başladık" isimli eserden alınmıştır.</Block>
+      </Data>
+    </Memory>
+  </memoryDumpFile>
+  
+  <!-- False report for Psylance CSEC Injected mission -->
+  <encryptedFile path="home" name="PA_0022_Incident.dec" ip="54.183.231.31" header="Psylance Incident Report v2">
+Psylance  - İç Soruşturmalar Bölümü
+---------------------------------------
+
+Pacific Air Flight PA_0022'de meydana gelen ani ekipman arızalanması soruşturması sürüyor. Ön raporlar arızanın kaynağının uçağın yazılımında meydana gelen bir aksaklık olduğunu belirtiyor. 
+Psylance sunucuları güvende. Olay sırasında ise beklenilen rutinden sapılmamış (aslında bu olay Skylink ve bağlantılı sunucuların harici izleme özelliklerinin umut vericiliğini ön plana çıkarıyor - beklenilenden daha az gecikme süresi de bulunuyor!)
+
+Yazılımdaki aksaklık 747FlightOps.dll dosyasındankaynaklanmış gibi görünüyor. Mevcut nadir şartlar altında yazılım pilotun hareketlerine yanıt vermeyi kesecek ve yazılımın yeniden başlatılması gerekecek (bu vakada başarıyla gerçekleştiğini gördük).
+Psylance bu modülü geliştiren yazılımcıların da soruşturulmasını ve tüm pilotlara güvenlik yazılım yeniden başlatma prosedürünün gösterilmesini (bunun gibi olayların nadir de olsa gerçekleşme ihtimaline karşın) tavsiye eder.
+
+Her zaman olduğu gibi Psylance Cyber Security verilerinizin, kayıtlarınızın en güvenli şekilde saklanmasını sağlar. Bu hassas günlerde ağ ve sunucularınızın güvende olduğundan emin olmak için izlemeye devam edeceğiz.
+  </encryptedFile>
+  
+</Computer>

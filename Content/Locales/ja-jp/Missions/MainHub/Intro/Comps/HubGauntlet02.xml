@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hubTestComp02" name="CSEC Gauntlet 02" security="2">
+  <link target="hubTestComp03" />
+  <file path="home/Test" name="CONTINUE.txt">
+接続されたサーバーに向かい、次の段階に進んでください。
+  </file>
+  <proxy time="2" />
+  <account username="admin" password="medium" />
+</Computer>

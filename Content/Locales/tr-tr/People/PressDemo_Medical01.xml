@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="csec_med_01" handle="Sal" firstName="Elanor" lastName="Helleran" isMale="false">
+  <Birthplace name="London" />
+  <Degrees>
+    <Degree uni="Manchester University" gpa="3.1">Masters in Computer Science</Degree>
+  </Degrees>
+  <DOB>06/08/1991 14:22:00</DOB>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>167</Height>
+    <Allergies>YOK</Allergies>
+    <Perscription>Amiodarone (Cordarone) x70 iki ayda bir</Perscription>
+    <Notes>Hastaya Aritmi teşhisi kondu. Kafein ve diğer uyarıcıların aşırı kullanılmasından ötürü ilerleyen hafif bir vaka. Hasta sürekli olarak enerji içecekleri ve kahve tüketimine karşı uyarılıyor ancak zararlı hareketlerini sık sık tekrar ediyor.
+Tam olarak teşhis konulmadan önce kanda uyarıcı (yasal ve diğer) kontrolü yapılması önerilir.</Notes>
+  </Medical>
+  <Notes>Press build medical case</Notes>
+</Person>

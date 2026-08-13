@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="sshcrack01">
+  <goals>
+    <goal type="FileDownload" target="portcrack01" file="SSHcrack.exe" path="bin" />
+  </goals>
+  <missionEnd val="0">transitionToBitMissions</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Wat gereedschap halen</subject>
+    <body>
+Goed -dat zou je veilig moeten houden voor nu! Ten miste van je eigen computer...
+Voordat we beginnen, moet je wat dingen hebben - alleen porthack is niet genoeg om moderne computers zul je merken... Niet voor diegene die de moeite waard zijn in ieder geval.
+
+Je moet starten bij het kijken van een vriend van mij - hij heet "Viper" - Vreselijk, weet ik. Hij is... niet het slimste krijtje in de doos, maar hij weet altijd handige code te krijgen.
+Je zal geen probleem hebben met in zijn bestanden komen - iets nuttigs vinden is misschien een kleine uitdaging.
+
+Je kan voor gewone bestanden negeren over het algemeen - dingen die gelogd worden of opgelsagen; IRC logs en dat soort dingen. Dingen genaamd als .exe bestanden moet je zoeken.
+Download bestaden die je vind met het commando "scp".
+
+Veel geluk - beantwoord als je klaar bent!
+
+--Bit
+0
+
+    </body>
+    <attachments>
+      <link comp="portcrack01" />
+      <note title="Hacknet Quick Reference Sheet">Snelle referntie Gids
+
+Analyzeer beveilingssytemen met "probe".
+Gebruik "porthack" om de beveiling te breken.
+
+Scan voor verbonden nodes met "scan"
+Leeg de ~/log map met "rm [BESTANDSNAAM of *]"
+
+Download bestanden met "scp [BESTANDSNAAM]"
+      </note>
+    </attachments>
+  </email>
+</mission>

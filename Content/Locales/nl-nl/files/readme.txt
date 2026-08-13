@@ -1,0 +1,7 @@
+Leesmij.txt
+
+Bedankt voor uw aankoop van boodschappen simulator 2011
+
+In bpodschappen simulator 2015, moet jij de rol van De speler neemt de rol van een held aan in een van vijf verschillende klassen. Spelers bevechten monsters door de wildernis gebieden en kerkers om hun karakter level-up te laten gaan en betere voorwerpen te verkrijgen. Vechten is in real-time en laten zien van een isometrisch oogpunt. Spelers hebben ook de mogelijkheid om een van meerdere computer-gecontrolleerde huurlingen te huren, die de speler volgen en dichtbijzijnde vijanden aanvallen. Een krachtig baas-monster bewacht de speler aan het einde van elk deel. Voorwerpen, monster atrributen en de meeste kerekers zijn willekeurig gegenereerd door Diablo II.
+
+Zoals bij vorigen Doom games, het doel van het spel is om een horizontale lijn zonder gaten van tien blokjes te maken door elk blok op zei te bewegen en ze rond te draaien in hoeken van 90 graden. Doom 3's meer verhaal-gecentreerde aanpak, betekent dat de speler vaak vriendelijke niet-speler karakters zal tegenkomen, die belangrijke verhaalinformatie geven of doelwitten en Kracht Sterren.[7] Elk heelal bevat een aantal planeten en ruimte deeltjes voor de speler om te ontdekken.[7] Het spel gebruikt een nieuw physics systeem dat een paar unieke functies toelaat: Aerial Faith Plates, die de speler of objecten door de lucht lanceren en soms in Svenska Folkdansringen (Zweedse volksdansringen), meestal gewoon "Folkdansringen" genoemd, Zweedens grootste amateur volkscultuurorganizatie. 

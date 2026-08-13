@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyMission02" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>회신: 환영 인사</subject>
+    <body>
+#PLAYERNAME#, 
+
+훌륭하군. 앞으로 정식으로 Entropy 계약을 수락하고 수행할 자격이 부여되었어. 첨부된 것은 그룹의 안전한 계약 데이터베이스의 위치와 접근에 필요한 로그인 정보야. 
+시간 날 때 원하는 대로 계약을 수락하고 수행하도록 해. 
+
+조만간 안부 연락 다시 하도록 하지.
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy00"/>
+      <account comp="entropy00" user="#PLAYERNAME#" pass="rosebud" type="3"/>
+    </attachments>
+  </email>
+</mission>

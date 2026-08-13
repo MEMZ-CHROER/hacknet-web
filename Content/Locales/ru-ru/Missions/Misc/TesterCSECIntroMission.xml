@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitMission00">
+  <goals>
+    <goal type="getAdmin" target="practiceServer"/>
+  </goals>
+  <missionStart val="0">CSECTesterGameWorldSetup</missionStart>
+  <missionEnd val="0">assignPlayerToHubServerFaction</missionEnd>
+  <nextMission>MainHub/Intro/Intro01.xml</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>Суперспециальное секретное задание для тестировщиков</subject>
+    <body>
+    Йо,
+ 
+спасибо за помощь с тестированием! Это разминочное задание поможет тебе вспомнить основы механики взлома.
+    Тебе выдали ряд админских узлов, а также базовый набор из 4 программ (SSHCrack, WebServerWorm, SMTPOVerflow, FTPBounce).
+     
+   Чтобы продолжить, стань админом на присоединенном компьютере и ответь на это письмо.
+    Выполнив это, ты окажешься на уровне CSEC и сможешь принимать новые задания.
+    Не забудь первым делом заглянуть на сервер ресурсов CSEC!
+      
+    -Мэтт
+. 
+    
+   
+
+
+    </body>
+    <attachments>
+      <link comp="practiceServer"/>
+    </attachments>
+  </email>
+</mission>

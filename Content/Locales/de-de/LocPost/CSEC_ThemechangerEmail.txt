@@ -1,0 +1,10 @@
+Agent,
+Ein neues Tool wurde dem Asset-Server hinzugefügt.
+Es handelt sich um eine Anwendung zum Auswechseln des x-server.sys und heißt "ThemeChanger.exe" - zu finden unter:
+
+/bin/ThemeChanger/
+
+Lade die Datei ruhig herunter und mach damit, was immer du willst.
+
+Danke,
+{0}

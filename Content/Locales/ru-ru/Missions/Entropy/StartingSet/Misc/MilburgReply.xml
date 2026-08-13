@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entRep01" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+НЕИЗВЕСТНАЯ ОШИБКА СООБЩЕНИЯ
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Re: Обратно в школу</subject>
+    <body>
+Че, правда?
+
+*******…. Вау Не пойму, этот парень гений или идиот? Может немного и  то, и другое?
+ Черт, я только проверил это сам, т.к. скрипт проверки сказал, что это работает, и я захотел проверить *это*! 
+
+Да. Это будет… запутанный ответ школьному администратору. Тьфу. 
+
+Хорошая работа, заканчивай с ним прямо сейчас.
+-Админы
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

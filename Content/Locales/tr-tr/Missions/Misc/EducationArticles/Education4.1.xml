@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Proxy Sunucu - Gelişmiş">
+Proxy sunucuları aslında hedef bilgisayara bağlandığınız ikinci bir bilgisayar niteliğindedir. Proxy sunucuları yüksek talep gören bilgilerin korunumunu sağlanmak ve bu bilgilere erişim hızını artırmak için trafiği filtreler ve önbelleğe alır.
+
+Proxy sunucuları ağ tehdidi (FTP akışı gibi) oluşturabilecek. trafiği engellemek üzere yapılandırılmıştır. Bu durum gerçekleştiğinde ise proxy sunucuları talep edilen (YouTube video akışı gibi) trafiği beyaz listeye alır.
+Bu, doğru yapılandırıldıklarında bazı kullanıcılara sıkıntı çıkartabilirken, port veya güvenlik hizmeti sağlayan programların da yürütülmesini tamamen engelleyebilirler demek oluyor.
+
+Proxy sunucularının en zayıf noktası üst bellek sınırıdır. Proxy sunucuları bellek sınırına ulaşıldığında ya bağlandıkları ağı tamamen kapatmaya zorlanırlar (çok nadir kullanılır) ya da trafiğin kontrol edilmeden geçişine izin vermek zorunda kalırlar.
+Bu nedenle, artan ağ güvenliği bütçeleri daha dayanıklı ve daha fazla belleğe sahip proxy sunucularının oluşturulmasına, bu da, tek bir bilgisayarla gerçekleştirilen aşırı yükleme işleminin imkansız hale gelmesine yol açtı.
+
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>HATA</subject>
+    <body>
+Bu postayı almanız beklenmedik bir hatanın oluştuğunu göstermektedir.
+Lütfen panikleyiniz.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

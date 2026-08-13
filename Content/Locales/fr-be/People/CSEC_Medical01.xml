@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Person id="csec_med_01" handle="Whitewash" firstName="Jonas" lastName="Sandburg" isMale="true">
+  <Birthplace name="London"/>
+  <Degrees>
+    <Degree uni="University of Manchester" gpa="2.9">Master en informatique</Degree>
+  </Degrees>
+  <DOB>03/05/93 14:00:00</DOB>
+  <Medical>
+    <Blood>BO</Blood>
+    <Height>166</Height>
+    <Allergies>AUCUN</Allergies>
+    <Perscription>Albendazole x70 bi-mensuellement :: Voir notes</Perscription>
+    <Perscription>Ivermectin x35 mensuellement :: Voir notes</Perscription>
+    <Notes>Le patient a un cas grave d'Éléphantiasis testiculaire. La maladie a été remarquée à l'âge de 8 ans, le traitement a été appliqué depuis lors avec succès. Bien que le gonflement des régions affectées soit PARTICULIÈREMENT remarquable, une excellente hygiène et un traitement continu ont rendu la maladie supportable.
+    </Notes>
+  </Medical>
+  <Notes>CSEC Med case for M_09  </Notes>
+</Person>

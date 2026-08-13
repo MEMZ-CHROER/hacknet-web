@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Person id="entechboss" handle="Jojo" firstName="Joseph" lastName="Jorioni" isMale="true">
+  <Birthplace name="California"/>
+  <Degrees>
+    <Degree uni="Universidad de California" gpa="2.9">Licenciatura en Ingeniería informática</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>178</Height>
+    <Allergies>NINGUNO</Allergies>
+    <Perscription> EspironolactonA x70 cada dos meses :: Inhibidor de aldosterona como regulador cardiaco</Perscription>
+    <Notes>El paciente sufre un caso agudo de angina de pecho: el flujo sanguíneo que lleva oxígeno al corazón es considerablemente más bajo que el usual debido a malformaciones vasculares evidentes desde su nacimiento. El paciente está dotado con un monitor regulador que puede avisarle cuando la saturación parcial de oxígeno es baja, pues tiene un riesgo mucho mayor de insuficiencia cardiaca y debe reaccionar con rapidez. No es un marcapasos, sino simplemente un sistema de alerta rápida.</Notes>
+  </Medical>
+  <Notes>
+  </Notes>
+</Person>

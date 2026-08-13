@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase5" >
+  <goals>
+    <goal type="getString" target="ax889msjA"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro06.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 伝播</subject>
+    <body>このネットワークを見たか？
+このネットワーク、ほとんどがあの新しいセキュリティで守られてたが、なんとか忍び込んだ。他にもいくつか穴を見つけたけど、ハッキングの
+進み具合は微々たるもんだ。
+
+いま調べてるIPアドレスを添付しておいた。こっちの方は、まだ弱点を見つけられてないんだ――君のほうがツイてるかもしれないしな。
+もしここの管理者パスワードを見つけたら、メールに添付して返信してくれ。こいつはカンなんだけど、このサーバーがBitの件の真相に
+つながる鍵になる気がする。
+
+この「Hacknetプロジェクト」ってのもなんだか気になるな・・・こんなプロジェクト聞いたことあるか？OSを書き換える
+プロジェクト・・・まあ、この話は後でもいいや。まずはこのリレーサーバーに入る方法を探してくれ。それからの事は後で考えよう。
+
+僕だったら、製品情報やデータ保管用のサーバーから始める。「Prometheus」や「Romulus」あたりだな。
+入り込む方法はどこかにあるはずだ。
+
+幸運を祈ってる。
+-V
+    </body>
+    <attachments>
+      <link comp="EnTechOutsiderRepo" />
+    </attachments>
+  </email>
+</mission>

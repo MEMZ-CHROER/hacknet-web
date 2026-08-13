@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pressdemoMission01">
+  <goals>
+    <goal type="FileDeletion" target="pointclickerDemo" file="Bit.pcsav" path="PointClicker/Saves" />
+  </goals>
+  <nextMission>Demo/PressBuild/DemoMission02.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Jungfernflug</subject>
+    <body>Gratuliere!
+Ich habe ehrlich gesagt zwar keine Ahnung, ob du Erfolg hattest, aber wenn du das hier liest, hast du wohl IRGENDETWAS gefunden. Ich nehme mal an, etwas sehr nützliches.
+
+Das hier sollte ein guter Test für dich und das neue Programm sein. Es gibt da dieses Spiel mit dem ich mehr Zeit verbracht habe, als ich zugeben will und wenn es jetzt schon so weit gekommen ist - nun - ich glaube nicht, dass ich so in Erinnerung bleiben will.
+Die Sicherheitsysteme sollten nicht zu schwer zu knacken sein - Verschaff dir Zugriff und lösche meinen Spielstand.
+
+Warscheinlich wirst du dafür dein neues Tool brauchen. Wenn ja, kannst du es über den Programmnamen plus Portnummer auführen, etwa so:
+
+>SSHCrack 22
+ ^Name    ^Portnummer
+     
+Du musst nur den entsprechenden Port finden und dann das Programm starten.
+
+Ah, und falls du es noch nicht wusstest, du kannst Befehle mithilfe von Tab automatisch vervollständigen - Tippe "ssh" ein und drücke danach "Tab" - funktioniert auch bei Dateinamen!
+
+Viel Glück!
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <note title="Missionsübersicht">Verbinde dich mit dem PointClicker-Server.
+Benutze 'probe', um offene Ports zu erkennen 
+Benutze ein Programm mit der dazugehörigen Portnummer
+Z.B: "SSHCrack 22"
+      ^Name    ^Portnummer
+    
+Sind genügend Ports geöffnet worden, ist das Ziel vor einen Angriff mit "Porthack" ungeschützt.
+Benutze "ls", um Dateien und Ordner anzuzeigen
+Lösche den Spielstand von "Bit"
+      </note>
+      <link comp="pointclickerDemo" />
+    </attachments>
+  </email>
+</mission>

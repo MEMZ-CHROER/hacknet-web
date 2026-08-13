@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dCleanupMission">
+  <goals>
+    <goal type="clearfolder" target="ds3_fn" path="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Putzkolonne">D3f4ult musste aus persönlichen Gründen den PC mitten in einem Hack verlassen. Brich ins Zielsystem ein, erledige den Job und räum seine Arbeit auf.</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>Putzkolonne</subject>
+    <body>
+D3f4ult musste aus persönlichen Gründen den PC mitten in einem Hack verlassen. Brich ins Zielsystem ein, erledige den Job und räum seine Arbeit auf.
+----
+Persönliche Probleme haben D3f4ult mitten in einem Job eine Weile AFK gesetzt. Du musst nochmal darein, alle Spuren seiner Arbeit beseitigen und den Job zu Ende bringen.
+
+Ich suche nach den unveröffentlichten Projekten von „Funkenstein“ – der Homeserver ist bei den Anhängen. Lade alle, die du finden kannst, herunter und lade sie auf den Hub-Server hoch.
+Protokoll von D3f4ult, ehe er gehen musste:
+
+Kaguya: Ist schon okay.
+D3f4ult: Es tut mir wirklich super leid.
+Kaguya: Mach dich nicht verrückt deswegen
+D3f4ult: Hier sind die Details:
+D3f4ult: IP: 21.32.43.54
+D3f4ult: login: admin
+D3f4ult: pw: redwood
+D3f4ult: Ich habe schon davor die Arbeit an seinem System und ein paar anderen erledigt
+D3f4ult: also alles, was du machen musst, ist die verschlüsselten Dateien suchen, sie dir schnappen und in der Dropbox ablegen
+D3f4ult: Der Kunde sagte, da ginge es um unveröffentlichte Musik?
+D3f4ult: Ich bin außerdem nicht dazu gekommen, meine Arbeitsdateien zu beseitigen, also erledigt das bitte für mich
+
+Viel Glück!
+-Kaguya
+    </body>
+    <attachments>
+      <link comp="ds3_fn" />
+      <note title="Mission Guidelines">Lösche alle Dateien auf dem Base-Server, die mit D3F4ult zu tun haben.
+Suche weiter nach unveröffentlichten Projekten.
+Lade diese auf dem Drop-Server hoch.</note>
+    </attachments>
+  </email>
+</mission>

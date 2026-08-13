@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ham_player">
+  <goals>
+    <goal type="fileupload" target="dhaAdminHome" file="SignalScrambler.exe" path="bin" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionStart val="3" suppress="true">changeSongDLC</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="Les Alchimistes hermétiques - #PLAYERNAME#">
+L'administrateur système d'un étrange groupe philosophique a développé un logiciel dont nous auront besoin pour nos futurs projets.
+  </posting>
+  <email>
+    <sender>Les Alchimistes hermétiques - #PLAYERNAME#</sender>
+    <subject>Les Alchimistes hermétiques</subject>
+    <body>
+L'administrateur système d'un étrange groupe philosophique a développé un logiciel dont nous auront besoin pour nos futurs projets.
+----
+Le programme que l'on recherche est un logiciel avancé d'anti-tracking, un outil fait maison. Malheureusement, tout ce que l'on sait sur le développeur c'est qu'il gère un réseau de serveurs (voir le lien ci-dessous), rien de plus.
+Tu vas devoir le traquer, trouver son emplacement et obtenir une version de ce logiciel pour qu'on puisse l'utiliser plus tard.
+Des analyses préliminaires révèlent que le réseau est plutôt vaste, et héberge des fichiers et services variés pour un groupe philosophique appelé les « Alchimistes hermétiques ».
+
+Cet administrateur système a l'air compétent, j'ai donc mis tout le monde sur le coup, ce qui lui laissera moins de temps pour agir. Si tu trouves quelque chose qui pourrait nous être utile par la suite, écris-le sur le chat.
+    
+Bonne chance.</body>
+    <attachments>
+      <note title="Objectifs de mission">
+Examine le réseau, trouve l'administrateur et télécharge tout ce qui a un rapport avec le logiciel.
+Tu peux aussi rapporter tout ce qui peut présenter un intérêt via le chat.
+Upload les fichiers sur le serveur de stockage.
+      </note>
+      
+      <link comp="dhaEntry" />
+      
+    </attachments>
+  </email>
+</mission>

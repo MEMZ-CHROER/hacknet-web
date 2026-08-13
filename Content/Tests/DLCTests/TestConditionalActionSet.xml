@@ -1,0 +1,6 @@
+<OnAdminGained target="dhaComp2">
+    
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="4.0">@#PLAYERNAME# Looks like you got admin on dha2!</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="10.2">This message delayed 12 seconds from when that happened.</AddIRCMessage>
+    
+</OnAdminGained>

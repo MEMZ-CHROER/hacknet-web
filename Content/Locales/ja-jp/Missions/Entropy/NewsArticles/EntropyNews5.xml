@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews05">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Opbolによる新特許にファンは大興奮">
+Opbolの熱狂的なファンは身の回りを片づけ、財布の中身をいっぱいにしておいたほうがいいだろう。ゲーム界の寵児Opbol Computing社が今日、新しい特許を申請した。今回の申請は、Opbol社が家庭用ゲーム機に参入する可能性を示唆している。特許が申請されたのは拡張性のドングル、つまり小型の接続機器だ。このドングルは新しいゲームシステムの付属品になることが予想される。
+専門家によれば、おそらくコントローラーやモーションセンサーではないかとのこと。先が丸くなった望遠鏡のような形のシリンダーのデザイン以外は、未だ特許が降りていない。だが私たちの情報によれば、このデバイスの機能も数日のうちに判明するだろうとのことだ。続報を待て！
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropyは止めなければいけない</subject>
+    <body>
+Entropyのデータベースを破壊しろ
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

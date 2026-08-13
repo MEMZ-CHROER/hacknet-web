@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dal_lax" name="LAX_Pacific_Server" security="5" type="4">
+
+  <!-- This is a server for Pacific Air located in LAX Airport - kaguya or someone else went there physically and scanned for it's signal.
+  I don't have many thoughts on what should be on here. It's also valid to keep it empty. Up to you!
+  -->
+  
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="49" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 443</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  
+  <dlink target="dpa_nethub" />
+
+  <file path="home" name="settings_default.cfg">?cfg version = "1.0" encoding = "UTF-8" ?
+//Este archivo no debe ser modificado por el usuario.
+//Se completará cuando la aplicación web de configuración del router de Schiss-Co
+//se ejecute en el cliente local.
+</file>
+  
+  <file path="home" name="settings_custom.cfg">
+?cfg version = "1.0" encoding = "UTF-8" ?
+//Deje aquí su configuración personalizada o rellene el archivo ejecutando
+//la aplicación web para la configuración del router de Schiss-Co, disponible en nuestro portal online.
+  </file>
+  
+  <file path="home" name="readme.txt">
+¡Felicidades por comprar un servidor inalámbrico de Schiss-Co! Ha comprado el hardware de redes más seguro del planeta. Con una configuración mínima, sus sistemas estarán protegidos al máximo.
+
+Por razones de seguridad, le recomendamos que cambie de inmediato la configuración de fábrica: cuando conecte el router por primera vez, estará abierto para que pueda configurarlo sin ningún problema.
+
+Luego tendrá que insertar la llave de autenticación patentada por Schiss-Co en un puerto USB en el cliente que esté usando para la configuración. Esta máquina puede ejecutar Windows, Mac o cualquier distribución y versión de Linux que aparezca en el manual o en la web. Este paso es necesario: necesitamos comprobar que usa una combinación de hardware y software compatible con Schiss-Co.
+
+Se iniciará el instalador.
+
+Para la configuración offline, puede llamar al 555-0167 en horario laboral de la Costa Oeste. Un representante experto estará encantado de ayudarle con el proceso.
+
+Tenga en cuenta que no consentimos el uso de software de terceros en el hardware de enrutamiento de Schiss-Co. 
+  </file>
+  
+  <positionNear target="dpa_nethub" position="90" total="360" extraDistance="0.12"/>
+  
+</Computer>

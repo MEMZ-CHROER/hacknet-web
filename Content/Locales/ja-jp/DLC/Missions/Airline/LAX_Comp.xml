@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dal_lax" name="LAX_Pacific_Server" security="5" type="4">
+
+  <!-- This is a server for Pacific Air located in LAX Airport - kaguya or someone else went there physically and scanned for it's signal.
+  I don't have many thoughts on what should be on here. It's also valid to keep it empty. Up to you!
+  -->
+  
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="49" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 443</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="fast" resetPassword="true" isSuper="false"/>
+
+  
+  <dlink target="dpa_nethub" />
+
+  <file path="home" name="settings_default.cfg">?cfg version = "1.0" encoding = "UTF-8" ?
+//このファイルはユーザーによる変更を想定していません;
+//Schiss-CoルーターセットアップWebアプリケーションがローカルクライアント上で
+//実行され次第、このファイルが組み込まれます。
+</file>
+  
+  <file path="home" name="settings_custom.cfg">
+?cfg version = "1.0" encoding = "UTF-8" ?
+//ここにカスタム設定を入力できます。もしくは当社のオンラインポータルにある 
+//Schiss-CoルーターセットアップWebアプリケーションを実行してこのファイルを組み込んでください。
+  </file>
+  
+  <file path="home" name="readme.txt">
+Schiss-Coワイヤレス・ルーティング・サーバーのご購入おめでとうございます！お客様は地球上で最も安全なネットワーキング・ハードウェアの1つを手に入れたのです。あとほんの少しの設定で、お客様のシステムは防弾ガラスのように強固になります。
+
+セキュリティーのため、デフォルト設定は即時変更することを推奨します。Schiss-Coルーターへの初回接続時に設定画面が開くので、簡単に変更できます。
+
+次に、設定に使用するクライアントのUSBポートに、Schiss-Co認証キーを挿入します。このマシンはWindows、Mac、Linux（マニュアルとウェブサイトのリストに記載のあるディストリビューションおよびバージョン）のいずれでも構いません。 これはSchiss-Coがサポートするハードウェアとソフトウェアの組み合わせをご使用になっているかどうか確認するために必要な作業です。
+
+その後、セットアップウィザードが起動します。
+
+オフライン設定に関しては、西海岸の営業時間中に555-0167までお気軽にお電話ください。専門のスタッフが責任を持って設定をサポートします。
+
+Schiss-Coブランド製ルーティング・ハードウェアでのサードパーティー製ソフトウェアの使用は禁じます。
+  </file>
+  
+  <positionNear target="dpa_nethub" position="90" total="360" extraDistance="0.12"/>
+  
+</Computer>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="eosAdded1">
+  <goals>
+    <goal type="getString" target="warsix22"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Smash N' Grab">
+Un cliente quiere que se le envíe información sobre el teléfono de un compañero
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Pillar y aplastar</subject>
+    <body>
+Agente:
+
+ Este contrato requerirá que estés familiarizado con los dispositivos eOS y su seguridad. Un cliente está buscando una información almacenada en el teléfono de un compañero, una contraseña, para ser precisos, y quiere extraerla. Nos han proporcionado la IP del ordenador a la que está sincronizado el dispositivo, tal como solicitamos. 
+
+Incluyo un enlace en este email. Deberás buscar una contraseña que usan; si encuentras múltiples, responde con todas si es posible, el bot de verificación las probará todas. 
+
+Buena suerte, 
+-Administradores de Entropy
+    </body>
+    <attachments>
+      <link comp="eosAdded1Comp"/>
+    </attachments>
+  </email>
+</mission>

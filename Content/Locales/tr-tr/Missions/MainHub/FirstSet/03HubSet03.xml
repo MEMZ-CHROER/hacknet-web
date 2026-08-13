@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="removeDeathRowRecord" name="Joseph Felman"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="İdam Cezası Kaydı Silinecek">
+Bu işte başka bir hacker'ın İdam Kaydı veritabanına girip değiştirdiği bilgileri sileceksin.
+Bilinmeyen sebeplerden ötürü (muhtemelen kimlik hırsızlığı veya bilgi kazanım tuzağı) sahte ve kopyalanmış bir İdam Kaydı veritabanına eklenmiş.
+Bu sahte kaydın silinmesini istiyoruz.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>İdam Mahkumu Sahtekarlığı</subject>
+    <body>Bu iş isimsiz bir CSEC üyesi tarafından eklenmişti. Bu iş doğrultusunda destekçinin kimliğini çözmek mümkün olsa da CSEC her zamanki gibi üyelerin gizliliğine saygı duymanı talep ediyor.
+
+Yapılacak İş:
+"Joseph Felman" (#119080)'ın idam kaydı apaçık Alva Curry'nin (#999080) kaydının birebir kopyası.
+Joseph Felman'ın kaydını veritabanından sil. Kaydın varlığı sadece Joseph Felman'a sıkıntı yaratmıyor, aynı zamanda Bay Curry'nin gerçek açıklamasına da hakaret niteliği taşıyor. Bunu düzelt.
+
+-CSEC
+    </body>
+    <attachments>
+      <link comp="deathRow" />
+      <note title="Kayıt Bilgisi">Kaydı sil
+İsim: "Joseph Felman"</note>
+    </attachments>
+  </email>
+</mission>

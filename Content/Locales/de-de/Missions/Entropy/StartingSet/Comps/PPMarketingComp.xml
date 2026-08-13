@@ -1,0 +1,108 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ppMarketing" name="PP Marketing Inc." security="2" type="4">
+  
+  <proxy time="1.1" />
+  <portsForCrack val="2" />
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1" />
+  <trace time="400" />
+  
+  <account username="admin" password="willsmith" />
+
+  <encryptedFile path="home/WORKSPACE" name="SECURE_MAILLIST.dec" ip="74.125.237.119" header="Marketing encryption lv.2">Haha Hacker, falsche Liste - verarscht. Als ob wir unsere Daten einfach so auf öffentlich zugänglichen Servern herumliegen lassen - insbesondere, wenn wir wissen, dass jemand hinter ihnen her ist!
+  Hier, noch ein bisschen binärer Datenmüll um die Dateigröße aufzufüllen. 
+  
+  #BINARY#
+  
+  Küsschen, 
+  - ein echter Sicherheitsexperte
+  XOXO
+  </encryptedFile>
+
+  <file path="home/WORKSPACE/INDUCTION" name="welcome.docx">
+Hallo Mitarbeiter. Willkommen zu deinem ersten Tag an der Front von P.P Marketing. Lass dich nicht von unserem Image täuschen - das ist ein Krieg; und du kämpfst für die Guten. Für Amerikas Marketing Unternehmen Nr.1 zu arbeiten ist keine leichte Aufgabe - jeder Kunde ist wichtig. Jedes Produkt ist eine Waffe. Jede Kampagne ist nur ein weiterer Kampf, den wir kämpfen müssen, um gewährleisten zu können, dass unsere Kunden immer an der Spitze bleiben.
+Es ist wichtig, dass unser Auftreten sowohl für interne als externe Kommunikation übereinstimmt; um die Synergie zwischen Marken zu steigern. Falls du Fragen dazu hast, wie du deinen Kampagnen mit deinem eigenen Online-Auftritt das größtmögliche Publikum verschaffst, organisiere eine Lernsitzung mit deinem Vorgesetzten.
+Als Chef der Personalabteilung wünsche ich dir nur das Beste für diesen Übergangszeitraum deiner Karriere.
+Jane Halliday - Leitung der Personalabteilung, P.P Marketing</file>
+  
+  <file path="home/WORKSPACE/INDUCTION" name="dresscode.docx">
+Alle Mitarbeiter - die IT-Abteilung und die Kantine ausgenommen - werden aufgefordert, dem folgenden Dresscode zu entsprechen, um das Image von P.P Marketing zu verbessern:
+
+- Alle Anzüge müssen schwarz, kohlefarben, obsidian oder navy-blau sein und jederzeit getragen werden.
+- Dazu weiße, hellblaue, elfenbeinfarbene oder graue Knopfhemden mit langen Ärmeln passend zu dem getragenen Anzug
+- Schwarze, rote, blaue, lilafarbende oder grüne Krawatten müssen von allen männlichen Mitarbeitern getragen werden. Nur einfärbig - keine Muster erlaubt; Da dies, laut einer Studie, unsere Kunden einschüchtert. 
+- Frauen sind nur offene Kragenhemden, oder, während der Wintermonate, einfärbige Schals gestattet. 
+- Schwarze oder braune, polierte Schuhe
+
+Dem IT- und Kantinenpersonal wurden navy-blaue Uniformen gegeben, die regelmäßig gereinigt und gebügelt werden müssen, um unser gesundes Firmenimage zu pflegen.
+
+Wir begrüßen ihr Verständnis unserem Dresscode gegenüber. P.P Marketing ist ein Unternehmen, dass sehr stolz auf sein äußeres Erscheinungsbild ist.
+Jane Halliday - Leitung der Personalabteilung, P.P Marketing</file>
+  
+  <file path="home/WORKSPACE" name="Maillist_info.txt">Das ist die Mailliste, die wir von dem engagierten Hacker erhalten haben. (der ganz nebenbei ein kleines Vermögen verlangt hat). Es stellte sich heraus, dass sie noch verschlüsselt ist? Wofür haben wir diesen Typen überhaupt bezahlt?
+Die Personalabteilung sagte, sie werden versuchen, jemand anderes für die Entschlüsselung zu finden. Laut dem ersten Typen hat die Datei die richtige Größe, es müssen also die richtigen Daten darin liegen, wenn wir die Verschlüsselung knacken können.
+Was für ein Schlamassel. Na gut, zumindest haben wir etwas davon, auch wenn wir es jetzt noch nicht benutzen können...</file>
+  
+  <file path="home/WORKSPACE/INDUCTION" name="complaint_procedure.docx">
+Mitarbeiter, die eine Beschwerde gegenüber einem ihrer Kollegen oder der Agentur einreichen möchten, müssen ein ausgefülltes Formular 106B ihrem Vorgesetzten zukommen lassen. Die vollständige Beschwerde muss innerhalb von dreißig (30) Tagen nach dem Vorfall eingereicht werden. Ansonsten wird sie nicht untersucht. Alle Beschwerden werden ausführlich von der Personalabteilung untersucht, um sicherzustellen, dass eine zufriedenstellende Lösung innerhalb von 12 Monaten nach der Untersuchung gefunden wird. 
+</file>
+  
+  <file path="home/WORKSPACE/INVESTIGATIONS" name="winters_kevin.txt">
+Es wurde beantragt, dass alle, an externe Adressen, gesendeten E-Mails von Mitarbeiter Kevin Winters auf Informationen zu internen Praktiken der P.P Marketing untersucht werden. Dieser Anfrage wurde vom Einsatzleiter James Wilson stattgegeben. Wir suchen nach Beweisen, dass Winters Geschäftsgeheimnisse mit konkurrierenden Unternehmen geteilt hat. 
+</file>
+  
+  <file path="home/WORKSPACE/INVESTIGATIONS" name="kw_evidenceA01.txt">
+[winters] Terry, ich sage dir, hier gehen einige unfassbar dubiose Dinge vonstatten.
+[craigmore] Jeder weiß, dass sie zwielichtig sind.
+[winters] Sie kaufen buchstäblich Listen von anderen Unternehmen. Hauptsächlich als effektive erwiesene Werbung von der J-Mail Datenbank.
+[craigmore] Wie soll denen das helfen?
+[winters] Sie haben ihr eigenes Entwicklungsteam, dass an einem Algorithmus arbeitet - der findet dann anhand des E-Mail-Verhaltens Produkte, auf die die Person dann anspringt 
+[craigmore] Wirklich? 
+[winters] Gerüchte gehen herum, dass sie an sowas wie einem Chatbot mit künstlicher Intelligenz arbeiten. Der soll Benutzer in Foren imitieren und Werbung in Konversationen einbringen.
+[winters] Sowas wie unterschwellige Werbung, durch künstliche Intelligenz verbreitet.
+[craigmore] Verdammt. 
+[winters] Hör zu. Ich werde so viel ich kann auf meine Festplatten speichern und kündigen, wenn Sie mir eine Stelle geben.
+[winters] Ich muss los.
+</file>
+  
+  
+  
+  <file path="home/documents" name="IncidentLog1.txt">
+[nem] Hast du dich dieses Wochenende dich auf Server 3 angemeldet?
+[felix] Nö, wieso?
+[nem] Es fehlen Dateien und der Datenverbrauch ist durch die Decke geschossen, es existieren aber keine Logs.
+[felix] Eigenartig.
+[felix] Hast du überprüft, ob die Firewall aus ist?
+[nem] Noch nicht.
+[nem] Scheiße.
+[felix] Was?
+[nem] RDP zum Mailserver ist inaktiv.
+[nem] Ich geh zum Serverraum und überprüf das mal.
+[nem] brb.
+</file>
+  
+<file path="home/documents" name="IncidentLog2.txt">
+[nem] Okay, ich fasse alles zusammen und schick es dir rüber.
+[felix] Werde es offline abspeichern damit wir es später abrufen können.
+[felix] Das ist übrigens totaler Bullshit. 
+[nem] Kanns nicht glauben, dass sie unsere Sicherheit knacken konnten.
+[nem] Emails von mehreren Monaten sind weg.
+[nem] Ich wette Letterman ist ziemlich angepisst.
+[felix] Weinstein wird wahrscheinlich der Kragen platzen.
+[nem] Geh bloß sicher, dass du nicht auch gefeuert wirst. 
+[nem] Melde mich später wieder.
+</file>
+  
+  <file path="home/documents" name="logs.txt">
+[gscott] Hast du das Memo von heute Morgen gelesen? 
+[cgershwin] Tja, kannst du glauben, dass sie von uns erwarten, dass wir unbezahlte Überstunden machen?
+[gscott] Überrascht mich nicht. Im Ernst, ich weiß es ist ein Start-Up Unternehmen, aber so langsam sollten sie anfangen, uns zu besser zu behandeln.
+[gscott] Ich habe ein besseres Angebot ausgeschlagen, nur um hier arbeiten zu können.
+[cgershwin] Ich gebe ihnen 3 Monate, um das zu klären.
+[cgershwin] Oder ich bin raus.
+[gscott] Schließ mich dir an.
+[gscott] Holen wir uns ein Bier nach der Arbeit?
+[cgershwin] Wenn du zahlst!
+</file>
+  
+</Computer>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="1_mf_2">
+  <goals>
+    <goal type="filedeletion" target="dMF_2_Lihotas" file="sn_memory_dump_decompiled.rar" path="share/secure/originals"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Analyse de mémoire (2/3)">
+Analyser les vidages de mémoire (3 - 4) pour trouver des liens menant à un serveur sécurisé.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Analyse de mémoire</subject>
+    <body>
+Pendant que tu étais occupé à obtenir de nouveaux outils de sécurité, j'ai dégoté de mon côté un nouveau logiciel pour nous aider dans nos enquêtes. Un analyseur de mémoire -  il extrait une copie de l'intégralité de l'état de la RAM d'une cible, et l'examine à l'aide d'outils pour trouver des données utiles : voici quelque chose dont nous aurons besoin à l'avenir.
+En contrepartie, la « vendeuse » m'a demandé de convier l'équipe à analyser quelques vidages de mémoire qui faisaient partie du logiciel à la base.
+Tu l'auras sans doute compris, mais au cas où - il s'agit manifestement d'un piège, ou d'une sorte de mise à l'épreuve. La vendeuse dispose des outils (disons surtout qu'elle a CRÉÉ des outils !) pour faire ça elle-même, et nous le faire faire est certainement une façon de se tenir au courant de qui utilise son programme.
+
+Surveiller la distribution de ses outils de cette manière n'est pas en soi une mauvaise chose, mais cela veut dire que, si tu souhaites que ton identité et ta participation restent anonymes, sois *très prudent* en ce qui concerne tes fichiers-journaux et ta présence quand tu te connectes à partir de cet outil.
+Voilà pourquoi j'ai divisé les fichiers des vidages en 3 groupes. 
+
+Les fichiers que tu dois vérifier sont les vidages 3 et 4.
+
+Traite-les avec l'outil d'analyse de mémoire que j'ai uploadé vers le serveur de stockage de données (j'ai mis le guide à côté dans le dossier bin), et trouve des connexions.
+
+Un message de la part de la vendeuse : "Punissez tous les tricheurs. Ceux qui ont l'audace de décompiler mon videur de mémoire devront en subir les conséquences."
+J'interprète cela comme signifiant « supprimez tout videur de mémoire décompilé que vous trouverez, et attaquez les systèmes sur lesquels ils sont trouvés ».
+
+Encore une fois, sois prudent.
+-Kaguya
+</body>
+    <attachments>
+      <note title="Objectifs de mission">Télécharger l'outil d'analyse de mémoire du serveur de stockage de données
+Analyser les vidages de mémoire 3 et 4.
+Chercher des connexions dans les vidages (la commande « scan [ip] » pingera le serveur sans devoir quitter l'affichage d'analyse)
+Supprimer tout vidage de mémoire décompilé et attaquer les systèmes les contenant.
+</note>
+      <link comp="dhsDrop" />
+    </attachments>
+  </email>
+</mission>

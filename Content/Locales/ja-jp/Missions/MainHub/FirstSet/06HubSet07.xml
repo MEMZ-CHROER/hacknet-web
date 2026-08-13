@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet07">
+  <goals>
+    
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="怪しいサーバーを調べろ">
+偶然ヘンなサーバーを見つけたんだけど、セキュリティが堅くて僕じゃ調べられなかった。他のメンバーなら調べられるかも。
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>レッドゾーン</subject>
+    <body>
+やあ。
+
+何か見つけてくれとかいう依頼じゃないんだけど、ちょっと調べてほしくて。スキャンソフトウェアを使ってたらたまたまこのサーバーを見つけたんだけど、トレースがついてたからあんまり手を
+出さなかったんだ。僕より経験豊富な誰かにこのサーバーを調べてほしい。何かわかったら教えて。それがなければ、こいつはとても堅固なセキュリティだってことだ！
+
+-Anon
+    </body>
+    <attachments>
+      <link comp="honeypot01" />
+    </attachments>
+  </email>
+</mission>

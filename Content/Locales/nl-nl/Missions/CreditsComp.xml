@@ -1,0 +1,244 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="creditsComp" name="Credits Server" ip="226.187.99.3" security="0" icon="chip"
+          allowsDefaultBootModule="false" type="4">
+
+  <dlink target="academic" />
+  <dlink target="deathRow" />
+  <dlink target="ispComp" />
+  <dlink target="medical" />
+  <dlink target="jmail" />
+
+  <SongChangerDaemon />
+  <ports>21, 22, 25, 80, 1433, 104, 3724</ports>
+
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+  <file path="bin" name="KBTPortTest.exe">#MEDICAL_PROGRAM#</file>
+  <file path="bin" name="SecurityTracer.exe">#SECURITYTRACER_PROGRAM#</file>
+
+  <file path="sys" name="x-server.sys">#MINT_THEME#</file>
+  <file path="home" name="Credits.txt" >
+  --HACKNET--
+
+
+^Een spel door
+%MATT TROBBIANI
+
+
+^Logos, Schrijfhulp, Tests
+Sarah Riggall
+
+
+^Uiterlijke Mockup
+Jeremy Mitchell
+
+^Extra Schrijven
+Stephen "Hellerphant" Heller
+
+^-Muziek-
+
+^The Otherworld Agency
+Fabian Malabello
+$Founder Managing Director
+
+Thanks Rumblefish Inc.
+- Cinematrik
+"The Quickening" by Cinematrik (RFID15710)
+"Revolve (R Mix)" by Cinematrik (RFID15810)
+
+- Rico Puestel
+Roja Drifts By (Timo Jahns Strings Remix)
+PSTL001
+(C) 2014 Ponsactrilau
+
+- Tonspender
+"Broken Boy" - examples EP
+"Irritations" - examples EP
+
+- Chris Larkin
+Ending speech recording and backing
+Hacknet Credits track
+
+ROLLER MOBSTER
+(Franck Hueso)
+Performed by
+- Carpenter Brut
+(p) No Quarter
+Under permission by Warner Chappell Music France
+
+- Ryan Burge
+Recursion
+Phase of the moon
+
+- Remi Gallego (AKA The Algorithm)
+Panic Track
+Malware Injection
+
+- Matt Mclean
+Feeding Ear | Out run the wolves
+
+- Sean Gillespie
+TETRAMETH
+
+Special thanks to Inspiration from
+www.ccmixter.org
+
+
+^-Achtergronden-
+"Been Away Too Long" - White Theme
+"Journey" - Green Theme
+Both by Angelus-Hellion
+angelus-hellion.deviantart.com
+
+
+^-SFX-
+Dark Drone 008
+mckinneysound - http://www.freesfx.co.uk
+Hospital ECG
+https://www.sounddogs.com/sound-effects-library/2175.htm
+https://www.sounddogs.com
+Doom Shock + TraceKill
+Inspiration From
+http://www.kyutwo.com
+Audiojungle.com
+Drones and Transitions
+
+^-Porting and FNA-
+Ethan "flibitijibibo" Lee
+
+^-Testen en Dank-
+Elle Dunbar
+Chris Johnson
+Tristan "tijit" Trabilsie
+Jamie Williamson
+Alex Mackay
+Noblekale
+Sam Crisp
+Dylan Sale
+Richard Taylor
+Ben Kislby
+Matt LeKrupa
+Brad Wesson
+Jamie Pillianaros
+Giselle Rosman
+Bec Pelvay
+Ben Carter
+Stephen Trobbiani
+Gib Trobbiani
+Laura Trobbiani
+Ben Trobbiani
+Aidan "Aidy" Coxon
+
+^-Internationale Testers-
+Quinton Porter
+Radek Golan
+Player Fero
+Jacob Johnson
+Daniel Lieberwirth
+BirdCute
+Andreas Lenhardt
+
+^-Port Testers-
+Ladislav Vydra  -  Richard Middel  -  Willem-Jan Zijderveld
+Lukasz Klatka  -  Lucia Fabiola Martinez Fajardo  -  Michael Tanzer
+Ambidotus Insignis  -  Barrett Eckhart  -  Heide Queen
+Willem-Jan Zijderveld  -  Daniel Sapelli  -  Kacper Tonia
+Sean Mackedie  -  TECHNO vids  -  Derek Power
+Alexander Ford
+
+
+^- Uitgegven door : Fellow Traveller -
+
+Chris Wright
+$Managing Director, Fellow Traveller
+
+Stephen Heller
+$Product Manager And Community Manager, Fellow Traveller
+
+Lex Suurland
+$Business Development Manager, Fellow Traveller
+
+Fiona Murray
+$Finance Manager, Fellow Traveller
+
+James Kozanecki
+$PR, Fellow Traveller
+
+Travis Plane
+$Director, Fellow Traveller
+
+Aaron Bertinetti
+$Director, Fellow Traveller
+</file>
+
+<file path="home" name="Congratulations.txt" >
+Gefeliciteerd!
+
+Ik maakte een prototype van dit spel in 48 uur voor een game jam met vrienden. Je kan een timelapse hiervan vinden op mijn youtube kanaal ("TheOrann").
+Ik kreeg fantastische kritiek op het protype en ik brijd het uit naar wat jij zonet hebt voltooid over ongeveer 3 jaar. Ik hoop dat je ervan hebt genoten!
+
+Als je het spel leuk vond (of niet), laat het me weten! Ik zou het fantastich vinden om te weten wat je ervan vond.
+Mijn email adress is "matt@hacknet-os.com" en mijn twitter is @Orann. (In het Engels, dit is vertaald.)
+
+Bedankt en gefeliciteerd!
+-Matt Trobbiani
+
+  </file>
+
+
+  <file path="home" name="Hidden_Stuff.txt" >
+Er zijn een paar niet goed verstopte trukjes in het spel die eigenlijk overblijfselen of extra's zijn van ontwikkeling die niet echt onderdeel uitmaken van het spel. Hier zijn een paar:
+
+--Open de CD Lade--
+Het commando "openCDTray" zal de CD lade van de computer openen waaraan je bent verbonden. Als je verbonden bent aan jezelf dan opent het je echte CD Drive. Het werkt ook op een tegenstanders computer in multiplayer.
+Het commando "closeCDTray" sluit het weer.
+
+--Fork Bomb--
+Er is een "Virus" dat ik schreef in het spel vooral voor multiplayer mode genaamd ForkBomb dat je kan runnen op de verbonden computer met "exe forkbomb". Als je dat doet, zal het de node uitschakelen voor 30 seconden!
+Als je het op jezelf gebruikt of een tegenstander in multiplayer, zla het je ram snel vullen. Als het volledig gevuld is, zal het je computer herstarten (in-game). Als je snel bent, kan je het PID van het virus identificeren en met kill het virus uitschakelen voordat je wordt opgeblazen!
+
+--SecurityTracker.exe--
+Dit bestand dat je verwijderd hebt in de eerste missie is een werkend exe bestand wat je begint te tracken als je het runt! Deze computer heeft een kopie ervan in de /bin map als je het wil downloaden en proberen. Vergeet niet het proces snel uitteschakelen!
+
+--Naam Generation--
+De namen van computers en bedrijven in Hacknet worden gekozen van een lijst met mogelijke namen en voorzetsels. Elke keer dat je het speelt zal het anders zijn!
+De missies op de Entropy server worden ook veranderd om elke keer uniek te zijn.
+
+--Internal Consistency--
+De server in de game (zoals de email server) zijn intern consistente servers met gegenereerde accounts en emails!
+Probeer de email server te hacken waaarmee je constant verbind (JMail.com) en kijk er na! Kijk of je het oplsagformaat van emails kan kraken en hoe mijn parser werkt. (Hint: "@*[AMPERSAND]^#%@)_!_)*#^@![AMPERSAND]*)(#^[AMPERSAND]").
+
+--En Meer!--
+Computers hebben bestandssytemen die, hoewel niet ontzettend rijk, meestal een paar gems hebben. Bekijk een beetje en zie wat je kan vinden!
+  </file>
+
+  <file path="home" name="SecretPath.txt" >
+Er is een groot geheim pad in Hacknet dat eigenlijk een derde groep is. Als je meer zoekt, probeer dan agressiever te spelen volgende keer. Let op voor geheimen - zeker als dingen gebeuren, hoe dingen zijn geworden, en waar ze vandaan kwamen.
+Alle mensen en hackers kunnnen achterhaald en onderzocht worden, als je je best doet.
+  </file>
+
+  <file path="home" name="Thanks_Again.txt" >
+
+    Nogmaals Bedankt!
+    Opnieuw, als je hebt genoten (of niet), stuur me een email via: "matt@hacknet-os.com" (in het Engels, dit is vertaald.)
+    Ik beloof dat ik het zal lezen!
+
+    Een klein kado als je besluit het nog een keer te spelen - er is een server waar je op kan vanaf het begi nmet alle poortuitbuitingen erop die je kan vinden op "1337.1337.1337.1337".
+
+    Nogmaals bedankt!
+    -Matt Trobbiani
+  </file>
+
+  <file path="home" name="Wallpapers.txt" >
+Achtergronden voor de groene en witte thema's zijn gegeven door de zeer getalenteerde Angelus-Hellion.
+
+Bijde volledige resolutie achtergronden kunnen gevonden worden op zijn DeviantArt pagina:
+
+http://angelus-hellion.deviantart.com
+
+  </file>
+
+</Computer>

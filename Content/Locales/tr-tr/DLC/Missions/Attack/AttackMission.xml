@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dAttackMission_P">
+  <goals>
+    <goal type="fileupload" target="dAttackTarget" file="MemDumpGenerator.exe" path="bin" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="1">scanAndStartDLCVenganceHack</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Striker'ın Arşivi">
+Diğer hackerlar'a oranla pek tanınmayan 'Striker' harika bir bellek dökümü oluşturucu geliştirdi. Üreticinin bir kopyasını elde etmek istiyoruz.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Striker'ın Zulası</subject>
+    <body>
+Diğer hackerlar'a oranla pek tanınmayan 'Striker' harika bir bellek dökümü oluşturucu geliştirdi. Üreticinin bir kopyasını elde etmek istiyoruz.
+----
+Hedefin bilgisayar çoğu bilgisayara nispeten iyi korunuypr. Yine de aşılamaz değil. Bu işi elinden geldiğince temiz bitirmeni istiyorum. Mümkünse, gereksiz yere başına sorun açma.
+Bellek dökümü oluşturucunun bir kopyasını al ve Hub Drop Server'a yükle.
+
+Bol şans.
+-Kaguya</body>
+    <attachments>
+      <note title="Görev Kılavuzu">
+Striker'ın sunucusunu incele.
+Bellek dökümü oluşturan programı bul ve bir kopyasını indir.
+Kopyayı Hub Drop Server'a yükle.
+      </note>
+      
+      <link comp="dAttackTarget" />
+      
+    </attachments>
+  </email>
+</mission>

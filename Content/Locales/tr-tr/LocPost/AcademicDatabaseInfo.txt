@@ -1,0 +1,4 @@
+Uluslararası Akademik Veritabanı'na hoşgeldiniz.
+Bu halka açık sunucu, uluslararası anlamda tanınan her üniversitenin akademik kayıtlarına merkezi bir şekilde erişilmesini sağlar.
+Veritabanımız, bu güvenli terminalin yöneticileri tarafından yönetilmekte ve korunmaktadır. Belli başlı üniversiteler de veritabanına katkıda bulunmaktadır.
+Eğer bu veritabanına katkıda bulunmak isteyen ve uluslararası anlamda tanınmak isteyen bir üniversitenin Rektör Yardımıcısı iseniz, admin@mail.academic.org adresinden yöneticilerimize ulaşabilirsiniz.

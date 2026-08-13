@@ -1,0 +1,94 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nortronMail" name="Nortron Mail Server" security="1">
+  <ports>25</ports>
+  <trace time="10.0" />
+  <firewall level="17" solution="123456789ABC" />
+  <link target="nortronMainframe" />
+  <positionNear target="nortronMainframe" position="2" total="3" />
+  
+  <!-- Mail Server Accounts -->
+  <account username="j.abrams" password="bootyking420" type="2" />
+  
+  <mailServer name="Nortron Mail" color="220,208,69">
+    <email recipient="j.abrams" sender="Peter Evans" subject="Wo bleibt der Bericht?">
+John,
+
+warte noch immer auf den Rootkit-Analyse Bericht - irgendwelche Neuigkeiten?
+Wir versuchen eine neue Werbekampagne rauszubringen und die hohen Tiere
+wollen eine Art Versicherung, damit die Marketing Leute wissen, wovon sie reden.
+
+Versuch es mir bis Montag zu schicken - Ich hasse es, dich zu hetzen, aber es
+hält andere von der Arbeit ab.
+
+Danke,
+-Peter
+    </email>
+    <email recipient="j.abrams" sender="hornberg@gmx.de" subject="Fw:Fw: Bestes Graffiti">
+      -------- Original Message -------- Subject:  Fw: Beste Graffitis
+      Date:     Wed, 31 Oct 2012 18:54:54 +1300
+      From:     TK Skull tkn.skull@xtra.co.nz
+        To:     skull1@ntlworld.com
+          , "JJ SK" e4@bigpond.com
+            , "G?nter Hornberg" ghornberg@gmx.de
+              , "Andrea Senior" senior@xtra.co.nz
+                , "Cols" C.D.Wilson@xtra.co.nz
+                  , "Flo Wilson" FloJoW@xtra.co.nz
+
+From: gandgrichards@xtra.co.nz 
+Sent: Wednesday, October 31, 2012 2:58 PM
+To: gandgrichards@xtra.co.nz 
+Subject: Fw: Beste Graffitis
+
+Subject: : Beste Graffitis
+
+ > 
+ > 
+ > Diese sind der absolute Wahnsinn... genießt es
+ >
+ 
+ --Manche Inhalte wurden möglicherweise nicht geladen--
+    </email>
+        <email recipient="j.abrams" sender="gandgrichrds@xtra.co.nz " subject="Fw: Flugzeugfotos!">
+From: gandgrichrds@xtra.co.nz 
+Sent: Friday, October 19, 2012 8:41 AM
+To: gandgrichrds@xtra.co.nz 
+Subject: Fw: Flugzeug Fotos
+
+Subject: .... Flugzeugfotos....
+ 
+Öffne die pps.Anhang: Datei...
+
+
+Gratis Emoticons für deine Emails - by IncrediMail
+
+--Anhänge wurden aufgrund verdächtiger Signaturen entfernt--
+    </email>
+    <email recipient="j.abrams" sender="Nortron IT Support" subject="RE:Kann mich nicht einloggen">
+Mr. Abrams,
+
+das ist das vierte Mal, dass wir sie nun daran erinnert haben. Sie haben sicher schon bemerkt, dass über ihrem Schreibtisch jetzt ein riesiges Schild hängt, das sie an die Firewall-Richtlinie hier bei Nortron erinnern soll. Wir nehmen Sicherheit sehr ernst und dies erfordert, dass sie sich einloggen, bevor sie das Internet verwenden; und die Firewall nutzen, um somit auch das Unternehmen sicher halten.
+
+Nach wie vor lautet das Firewall-Bypass Passwort für alle internen Server:
+
+123456789ABC
+
+Bitte notieren sie es sich an einem Ort, an dem Sie es nicht vergessen.
+
+-IT
+
+
+  | IT,
+  | es wurde NOCH IMMER NICHT BEHOBEN!
+  | Ich kann nicht auf das Internet zugreifen!
+  | Wie soll ich meine Arbeit ohne Internetzugriff erledigen!?!
+  | Ich werde ständig nach irgendeinem Firewall Passwort gefragt.
+  | Ist etwas kaputt? Warum kann das keiner von euch für mich in Ordnung bringen, es passiert immer wieder!
+  | 
+  | Wie komme ich ins Internet, es ist WIRKLICH WICHTIG!
+  |
+  | Mr. J. Abrams
+  | Nortron Marketing
+    </email>
+    
+  </mailServer>
+</Computer>

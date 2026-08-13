@@ -1,0 +1,9 @@
+1: Verkrijg administrator toegang op een computer waar vermoedelijk een eOS apperaat aan is verbonden
+2: Run eosdevicescanner.exe
+om te zoeken voor gekoppelde apperaten en open automatisch verbindings poorten
+3: verbind met het verschenen apperaat
+4: log in met
+gebruiker: "admin"
+wachtwoord: "alpine"
+
+Het wachtwoord is hetzelfde voor alle eOS apperaten!

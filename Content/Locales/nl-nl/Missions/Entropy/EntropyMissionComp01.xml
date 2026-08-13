@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="entropy01" name="Entropy Asset Server" security="4">
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="home/backups" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="home" name="Mantra.txt">
+Entropy Mantra
+
+Onze groep is gebaseerd op 3 pilaren, die we altijd streven te volgen:
+
+1) Streef naar gerechtigheid en goedheid in alles
+
+2) Creeer en deel meer dan je vernietigd
+
+3) Heb nooit een excuse om niet te verbeteren
+
+Entropy zal contracten tegen deze pilaren weigeren, en agenten verwijderen die dit onvertreden.
+</file>
+  <account username="admin" password="rosebud" />
+</Computer>

@@ -1,0 +1,178 @@
+﻿<#
+Im Moment bist du nicht sicher!
+#>
+Lerne so schnell du kannst. Um mit dem Tutorial fortzufahren, klicke auf den Button.
+
+%&%&%&%
+Du kannst dich mit einem Computer verbinden, indem du "connect [IP]" in das Terminal tippst oder auf einen Knotenpunkt in der Netzwerkübersicht ('NetMap') klickst.
+<#
+Verbinde dich mit deinem Computer,
+#>
+indem du auf den grünen Kreis in der Netzwerkübersicht klickst.
+
+%&%&%&%
+Gute Arbeit!
+ 
+Auf jedem System suchst du zu Beginn nach verbundenen Geräten im Netzwerk. Gefundene Computer werden der Netzwerkübersicht automatisch hinzugefügt.
+
+<#
+Durchsuche jetzt das Netzwerk,
+#>
+
+indem du Netzwerk-Scan auf deinem Display-Modul anklickst.
+
+%&%&%&%
+Das sollte fürs Erste reichen.
+<#
+Trenne die Verbindung zu deinem Computer.
+#>
+
+
+%&%&%&%
+Nun ist es an der Zeit, dich mit einem Computer außerhalb deines Netzwerkes zu verbinden.
+ 
+Es sollte dir jedoch bewusst sein, dass es laut U.S.C Act 1030-18 illegal ist, die Sicherheitssysteme eines fremden Computers zu umgehen.
+ 
+Fahre auf eigene Gefahr fort und
+<#
+verbinde dich mit einem fremden Computer,
+#>
+indem du auf den blauen Knotenpunkt in der Übersicht klickst.
+
+
+%&%&%&%
+Das VM Terminal wurde aktiviert. Dies wird in Zukunft dein primäres Interface sein, um Aktionen ausführen und Computer durchsuchen zu können.
+ 
+Du kannst Befehle ausführen, indem du diese in die Konsole eintippst und anschließend Enter drückst.
+ 
+Das Sicherheitssystem und die offenen Ports eines Computers können mithilfe des 
+<#
+'probe'
+#>
+(oder "nmap") Befehls analysiert werden. Analysiere jetzt den Computer, mit dem du verbunden bist.
+
+
+%&%&%&%
+Hier siehst du die aktiven Ports, Sicherheitssysteme und die Anzahl der erforderlichen Ports, um die Maschine zu cracken.
+Dieser Computer hat kein aktives Sicherheitssystem und erfordert keine offenen Ports für den Zugang. Wenn du bereit bist, kannst du den Computer cracken, indem du das Programm 'PortHack' ausführst.
+ 
+<#
+Starte jetzt 'PortHack' 
+#>
+|Um ein Programm auf einem verbundenen Computer zu starten, musst du den Namen des Programms in das Terminal eingeben.
+Für die Ausführung wird die Dateiendung ".exe" jedoch nicht benötigt.
+ 
+
+%&%&%&%
+Gratulation! Du hast nun Administratorrechte und somit die Kontrolle über diesen Computer erlangt. 
+Du kannst nun damit machen, was immer du willst. Zunächst solltest du jedoch das
+<#
+Netzwerk scannen,
+#>
+um weitere Computer zu lokalisieren. Dies machst du mithilfe des Befehls "Scan" .
+
+
+%&%&%&%
+Kein Fund? - kein Problem!
+
+Als nächstes solltest du das Dateisystem durchsuchen.
+<#
+Liste alle Dateien und Ordner im derzeitigen Verzeichnis auf.
+#>
+ 
+
+|Mithilfe des Befehls "ls"  können Dateien und Ordner aufgelistet werden.
+ 
+Das Display-Modul wurde wieder aktivert.
+
+
+%&%&%&%
+<#
+Navigiere zu dem Ordner mit dem Namen "bin"
+#>
+("Binaries"), um nach hilfreichen Programmen zu suchen, verwende den Befehl 
+ 
+"cd [ORDNERNAME]"
+
+(Leerzeichen beachten)
+
+
+%&%&%&%
+Verwende erneut den Befehl "ls", um den Inhalt des derzeitigen Verzeichnisses anzuzeigen.
+ 
+
+Hier befinden sich keine Programme, aber du solltest die
+<#
+config.txt öffnen
+#>
+- für den Fall, dass sich hilfreiche Informationen darin befinden.
+ 
+|Um den Inhalt einer Datei zu lesen, wird der "cat" Befehl verwendet. z.B.
+ 
+"cat config.txt"
+   
+Beachte: Informationen ohne Erlaubnis zu lesen ist laut internationalem Gesetz illegal und kann mit einer Gefängnisstrafe geahndet werden. 
+ 
+
+
+%&%&%&%
+Total nutzlos!
+  
+Bevor du jedoch die Verbindung zu diesem Computer trennst, solltest du deine Spuren verwischen.
+<#
+Um wieder zu einem übergeordneten Ordner zurückzugelangen,
+#>
+verwende "cd .."
+ 
+Beachte: ".." bedeutet 'zurück' oder 'auf'.
+ 
+
+
+%&%&%&%
+<#
+Öffne den log Ordner.
+#>
+"cd [ORDNERNAME]"
+
+
+%&%&%&%
+<#
+Lösche alle Dateien in diesem Ordner.
+#>
+ 
+Du kannst eine Datei mithilfe des Befehls
+<#
+rm [DATEINAME]
+#>
+löschen. ALLE Dateien können mit dem folgendem Befehl gelöscht werden:
+ 
+<#
+rm *
+#>
+
+Beachte: "*" bedeutet 'Alles'.
+
+
+%&%&%&%
+Ausgezeichnete Arbeit.
+ 
+<#
+Trenne dich nun von diesem Computer.
+#>
+ 
+Dies erfolgt durch die Befehle 'dc' oder 'disconnect'.
+
+
+%&%&%&%
+Gratulation! Du hast den ersten Teil des Tutorials erfolgreich absolviert.
+ 
+<#
+Um das Tutorial vollständig abzuschliessen, musst du die Prozess-ID (PID) dieses Tutorial-Programms lokalisieren und den Prozess beenden.
+#>
+ 
+Der Befehl "help" listet dir zu jeder Zeit alle Befehle auf.
+ 
+|Der Befehl "ps" zeigt dir die PID aller aktuell laufenden Prozesse.
+
+
+%&%&%&%

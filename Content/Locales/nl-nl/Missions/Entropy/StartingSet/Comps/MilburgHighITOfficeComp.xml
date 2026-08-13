@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="milburgHigh" name="Milburg High IT Office" security="2" type="4">
+
+  <proxy time="0.9" />
+  <portsForCrack val="1" />
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1" />
+
+  <adminPass pass="*******" />
+
+  <file path="home/misc" name="People_not_To_Trust.txt" EduSafe="false">
+[jinkle] hey dude, weet je waar ik wat wiet kan krijgen?
+[jinkle] een gast bij Lacy's gaf me je info.
+[marcy] ja man, wat zoek je?
+[jinkle] cool, hoeveel voor een ons?
+[marcy] $145
+[jinkI;tle] man, deal. Waar wil je ontmoeten?
+[marcy] dus we hebben een deal, $145 for een ons prime wiet?
+[jinkle] ja man, klaar.
+[marcy] Cool. Ik heb je IP adres. Dus ik kom langs.
+[jinkle] wacht, hoe doe je dat?
+[marcy] Politie agent zijn heeft zijn voordelen.....
+[jinkle] shit. mam gaat me vermoorden.
+  </file>
+
+  <file path="home/MH_STAFF" name="Student_TopSearchHistory.txt" EduSafe="false">
+1  Google
+2  Tieten
+3  Tiet
+4  Seks
+5  Sideboob
+6  Porno
+7  hoe shakel je pornfilter uit
+8  dingen die langs pornfilter komen
+9  burgeroorlog schilderijen
+10 GTA
+11 Twerken
+12 Wat is Twerken
+13 Twerk technieken
+14 die ene halfnaakte vrouw in die franse oorlogsschilderij
+15 Sport
+16 Sportsbal
+....
+  </file>
+
+  <file path="home/MH_STAFF" name="Announcements.txt">
+Over de aankondiging van de internet / proxy uitschakeling,
+
+Terwijl sommigen van onze staf niet weten wat "de proxy server gaat uit" betekent, blijkbaar onze studenten wel.
+Tijdens de aangekondigde stop ervan afgelopen nacht, vonden studenten uit dat terwijl het internet actief was, het zoekfilter niet en in de twintig minuten is er aan 22 terrabyte pornografie gedownload op school servers en PCs.
+Dit willen we natuurlijk voorkomen via extra beveiliging, maar ten minste, misschien volgende keer niet aankondigen?
+
+Bedankt,
+-Administratie
+  </file>
+
+  <file path="home/MH_STAFF" name="pw_memo.log">
+4:37 PM - MBIT: Ik heb gedacht aan beveiliging
+4:37 PM - JBrooks: ja?
+4:37 PM - MBIT: Ja, en ik denk dat deze upgrades gewoon veel werk worden en zo
+4:37 PM - MBIT: maar kijk hier naar
+4:38 PM - MBIT: makkelijk opgelost:
+4:38 PM - MBIT: we maken het IT wachtwoord
+4:38 PM - MBIT: *******
+4:38 PM - JBrooks: Ik snap het niet
+4:38 PM - MBIT: Inderdaad!
+4:38 PM - MBIT: Gewoon 7 *-etjes
+4:38 PM - MBIT: dat is letterlijk het wachtwoord, alleen sterretjes
+4:38 PM - MBIT: Wie gaat dat raden? Niemand. En als iemand het hackt? Lijkt nog veilig!
+4:38 PM - MBIT: Letterlijk onbreekbaar!
+  </file>
+
+  <file path="home/MH_STAFF/PRIVATE_STUDENT_EMAILS" name="mail.txt">Als een leerling mij ooit een waarderingsemail stuurt zal ik het hier opslaan.
+God ik ben zo alleen. Kladblok, je bent de enige die mij snapt :(</file>
+
+</Computer>

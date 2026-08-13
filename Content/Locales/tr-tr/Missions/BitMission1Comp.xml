@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission01" name="P. Anderson's Bedroom PC" security="1" type="4">
+  <file path="log" name="@18907 Connection From XXX.XXX.XXX.XXX" >[GİZLİ IP] bağlantı kurdu.</file>
+  <file path="log" name="@18922 XXX.XXX.XXX.XXX Given Administrator Access">[GİZLİ IP] yönetici yetkisi aldı.</file>
+  <file path="log" name="@18928 XXX.XXX.XXX.XXX Acessed File [Valence_Dossier.pdf]">[GİZLİ IP]  -- Bilgisayar Yöneticisi [Valence_Dossier.pdf] isimli dosyayı okudu.</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Deleted File [Valence_Dossier.pdf]">[GİZLİ IP]  -- Bilgisayar Yöneticisi [Valence_Dossier.pdf] isimli dosyayı sildi.</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Disconnected">[GİZLİ IP] bağlantıyı kopardı.</file>
+
+  <file path="home/Documents" name="Laptop_PoliceReport.txt">
+polis num.
+14 L 510 66
+
+
+iddia num.
+AAH 886</file>
+  
+  <file path="home/Documents/personal" name="letter_draft.txt">
+[TASLAK]
+
+05/08
+
+Baba.
+
+Yaptığım seçimleri anlamadığını biliyorum, senden anlamanı da beklemiyorum. Senden beklediğim dürüst bir şekilde seçimlerime saygı göstermen ve bana evladın olarak davranman. 
+
+Sen böyle olmadıkça her ne kadar üzgün olsam da Boston'ı terk etmem gerekiyor. Kahramanım ve rol modelimle aynı yerde yaşayıp beni görmezden geldiğini bilmeye dayanamam. 
+
+Bunu kabul etmek, anlayış göstermek ve kendime anlatmak için her şeyi denedim. Artık dayanamıyorum.
+
+James ile Los Angeles'a gidiyorum. Eğer konuşmak istersen numaramı biliyorsun.
+
+Bu kararı kolay vermediğimi bilmeni istiyorum. Bunu yapmam gerekiyor. Umarım zamanla kim olduğumu kabul etmeyi öğrenirsin.
+
+Seni seviyorum.
+
+Paul
+  </file>
+
+  <file path="home/Documents" name="chatlog.txt">
+[HotRice] Dalmaya hazır mısınız?
+[Kiah] Duruma göre değişir.....
+[Kiah] Peki ölmeye hazır mısınız?
+[M4cr0b4t] LOL
+[HotRice] Kapa çeneni Johnson! 
+[HotRice] Beni fıstık ezmesi ve mikroçip almak zorunda bırakma :P
+[M4cr0b4t] BİR SEFERLİKTİ LAN
+[HotRice] Her şey o bir seferde olur...
+[HotRice] Hellerphant nerede? Ondan haber alan var mı?
+[Kiah] Nerede olduğunu kimse bilmiyor.
+[Kiah] Sonuçta o ummadığımız zamanlarda ortaya çıkan mistik büyücünün teki.
+[HotRice] Cidden, dalış programımız bok oldu.
+[HotRice] Ne zaman düzgün bir şey umsam bu kodumun programı varsayımsal hal alıyor ve hayallerim yıkılıyor.
+  </file>
+  
+  <file path="home/Documents" name="Laptop.txt">
+    Sözleşme sigorta kapsamının dışında (iddialar, haklar vs? ??)
+    Kişisel sorumluluk sigortası
+    "Olaydan önce beyan edilmedi."
+    (malların değeri çalınmadan önce mi bildirilmeli???)
+    
+    Polis:
+    "Soruşturulabilir, fakat kapsama alınamaz."
+    bu işin çözüme kavuşması çok zor...
+  </file>
+  
+  <file path="home/Documents" name="TaxReturn002.TAX">#BINARY#</file>
+
+  <file path="home/Work" name="ReportEmailDraft.txt">
+    -Giriş
+    -Kesinlik yok, ipuçları var
+    -Raporların içinde olduğu laptop fuarda çalındı
+    -En olasıları buraya kopyalanmıştı --- ????? Kopyalanmış mıydı?
+    -Yakında ayrıntılarla elde olan şeyler gönderilecek.
+  </file>
+</Computer>

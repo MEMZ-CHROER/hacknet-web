@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="CSEC_DLC_Connector">
+  <goals>
+    <!-- Impossible goal here - this mission isn't completable in the normal sense
+    It leads the player to KaguyaTrials, which replaces this. We don't want the player
+    to skip past this mission by quick replying or anything, so put a debug only goal here-->
+    <goal type="getstring" target="kaguyatrialscompletedebug" />
+  </goals>
+  <missionStart val="1" suppress="true">addFlags:dlc_start_csec</missionStart>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#ALERT# - Испытания Kaguya"> ### ВНИМАНИЕ ###
+Примечание: Данная задача является первой в необычно длинной последовательности задач - так считают администраторы CSEC. Если у вас есть важные дела в CSEC, рекомендуем закончить их, прежде чем переходить к этой задаче.
+ ### ВНИМАНИЕ ###
+ 
+Агент с именем "Kaguya" опубликовал ссылку на необычный набор испытаний, которые служат отборочными тестами в какую-то команду. Агенты, которые успешно пройдут отбор, будут получать хорошее вознаграждение за работу в этой команде.
+Это задание не представляет важности для CSEC. Его выполнение является добровольным для заинтересованных агентов.
+  </posting>
+  <email>
+    <sender>Центральные сервисы CSEC</sender>
+    <subject>Испытания Kaguya</subject>
+    <body>Агент,
+    
+Некто с именем Kaguya разослал отборочные испытания нескольким известным группам, одной из которых является CSEC. Испытания весьма сложные и отлично организованы - это говорит о том, что их создатель не пожалел времени на подготовку. Вероятно, прошедшие отбор люди на какое-то время покинут CSEC - имейте это в виду.
+Тем не менее, никто не запрещает вам исследовать то, что вам интересно, а данные испытания могут помочь вам обзавестись новыми инструментами.
+
+Инструкции к испытанию содержат IP-адрес (прилаеается ниже) и руководство по началу испытаний.
+
+Удачи.
+-Команда CSEC
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

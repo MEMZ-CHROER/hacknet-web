@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dpa_bookings" name="PacificAir_BookingsMainframe" security="5" type="4" icon="PacificAir">
+  
+  <!-- This is the endpoint server that is the ultimate goal of the mission.
+  Is has security that's too advanced for the player to break into by force,
+  but also has an option on it to reset the password, which emails the new
+  password to the administrator. This is how the player breaks in.
+  It isn't built to be investigated much, so doesn't need many files.-->
+
+  <firewall level="-1"/>
+  <proxy time="4" />
+  <trace time="75" />
+  <portsForCrack val="6" />
+  <ports>22, 25, 443, 1433, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <tracker />
+
+  <DatabaseDaemon Name="PacificAir Buchungs-Mainframe" Permissions="adminonly" DataType="NONE" AdminEmailAccount="YasuArai@PacificAir.com" AdminEmailHostID="dpa_mail" />
+  
+  <positionNear target="dpa_nethub" position="0" total="360" extraDistance="0.06"/>
+
+  <WhitelistAuthenticatorDaemon Remote="dpa_whitelist" />
+  
+<file path="home" name="version_info.txt">SCHISS-CO MAINFRAME MODELL 96CDCD
+SOFTWARE VER. 3.0.7.2_b91110
+MARKTFÜHRER IN SICHERER NETZWERK- UND SPEICHERHARDWARE</file>
+  
+<file path="home" name="settings_default.cfg">
+?cfg version = "1.0" encoding = "UTF-8" ?
+//Hier eigene Einstellungen eingeben oder diese Datei mittels der
+//Webapplikation zur Routereinrichtung von Schiss-Co einrichten, die auf unserem Online-Portal erhältlich ist.</file>
+
+<file path="home" name="readme.txt">Für dieses Mainframe gibt es keinen standardisierten Einrichtungsprozess. Wenden Sie sich unter 555-0167 DW 2 an den Schiss-Co Support, der rund um die Uhr für Sie da ist. Wenn Sie nach dem Codewort gefragt werden, sagen Sie „shibboleet“.</file>
+
+</Computer>

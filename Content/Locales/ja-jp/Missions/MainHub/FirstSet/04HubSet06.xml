@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDownload" target="jscottHome" file="DECHead.exe" path="home/work" />
+  </goals>
+  <nextMission>MainHub/DecypherSet/DECHeadMission02.xml</nextMission>
+  <posting title="暗号化されたファイルを追え">
+CSECはDEC暗号化ファイルがエンコードされた場所を突き止める方法の確立に成功しました。私たちの手元にはパスワードでロックされたファイルがあるのですが、これだけ手がかりがそろっていれば、暗号化は十分突破できるはずです。
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>望遠鏡を通して</subject>
+    <body>
+DECのツールで暗号化されたファイルは、暗号化した場所のIP（とその他情報）をヘッダーに保存しているようだ。デバッグに使用された機能かなにかだろうが、俺たちにしてみればこいつは明らかな
+脆弱性、セキュリティに空いた大穴だ。こいつは具合がいい。解読したいのに、パスワードがさっぱりわからないファイルがあるからな。この脆弱性を使えば、パスワードを入手できるかもしれない。
+
+まず最初のステップとして、ヘッダーを読む方法を見つけてくれ。俺たちも独自に調べてみたんだが、DEC Solutionsの社員の一人が、パスワードなしでもヘッダーを読む方法を知っているかもしれない。
+彼が使用する端末に侵入し、何か使えるものがないか調べてくれ。終わったら返信を。そしたら次にやることを教える。
+
+-CTチーム
+    </body>
+    <attachments>
+      <link comp="jscottHome" />
+    </attachments>
+  </email>
+</mission>

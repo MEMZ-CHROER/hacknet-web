@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="getString" target="AAX1BB7"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Compromise an eOS Device">
+Une demande vient d'arriver pour obtenir des informations concernant une cible que le client pense être stockées sur un appareil eOS.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Évasion</subject>
+    <body> Pour faire court, 
+un client nous a demandé de fouiller l'ordinateur et les appareils d'une cible donnée à la recherche de ce qu'ils appellent un « ID d'enregistrement » - ils pensent qu'il serait stocké sur un appareil eOS synchronisé avec l'ordinateur personnel de la cible (lien ci joint). 
+
+Une fois que vous obtenez cet ID, répondez ici et nous nous occuperons du reste.
+
+Bonne chance,
+-CSEC
+    </body>
+    <attachments>
+      <link comp="hubEosMisison"/>
+      <note title="Détails du contrat">
+Explorez l'ordinateur cible à la recherche d'appareils EOS
+Examinez les appareils à la recherche de la référence « ID d'enregistrement »
+Répondez à CSEC avec l'ID mentionné en pièce jointe</note>
+    </attachments>
+  </email>
+</mission>

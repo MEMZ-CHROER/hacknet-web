@@ -1,0 +1,24 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dlcDemoIntro2">
+  <goals>
+    
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Tex</sender>
+    <subject>Fwd: Kaguya Trials</subject>
+    <body>
+各位
+
+リンク先のものを見てくれ。全員で共有すべき案件だと思ったのでメールを送る。何者かがチーム結成のため、入団試験をやっているようだ。 
+新しいプロジェクトを探している者は、見ておいて損はないだろう。こっちでも確認したが、今はこの手の話に関わっている暇はないんだ。
+誰か、この"Kaguya"という人物に心当たりはないか？初めて目にする名前だ。
+
+ともかく、リンクを貼っておく。健闘を祈る。
+-Tex
+    </body>
+    <attachments>
+      <link comp="dKaguyaTrialIntro" />
+    </attachments>
+  </email>
+</mission>

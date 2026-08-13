@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Intro">
+  <goals>
+  </goals>
+  <missionStart>csecAddTraceKill</missionStart>
+  <nextMission>BitPath/BitAdv_Intro02.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Foundation</subject>
+    <body>Hey,
+So, this is a bit unorthodox, but I pulled some strings. You'll be the one that did the Bit contract before - looking for what happened there.
+I'm after some more information, and I wanted the same person on it. If you're getting this, it means you've just finished your assigned contract, so we're good to go.
+
+To be frank, the term "pulling strings" with CSEC isn't something you really use lightly, and in this case it's even more so. You got results fast, and I want you on this case too. 
+More collaboratively this time. If I sound confident you'll want to join in here, I've good reason for it - there's a very substantial incentive waiting for you on the CSEC asset server:
+
+Look for ~/bin/TK/TraceKill.dec
+Decrypt it with password "dx122DX"
+
+Get a copy and reply me back. As always, the admins are paranoid about their security, so it'll be anonymously routed back through their system to me - whatever. Just reply here when you're ready and I'll let you know what's next.
+
+V
+    </body>
+    <attachments>
+      <link comp="mainHubAssets" />
+    </attachments>
+  </email>
+</mission>

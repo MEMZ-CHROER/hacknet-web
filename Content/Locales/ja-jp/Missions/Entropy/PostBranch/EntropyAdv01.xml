@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission03">
+  <goals>
+  </goals>
+  <missionStart>entropySendCSECInvite</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>おめでとう</subject>
+    <body>
+依頼した仕事を終えてくれたようだな。ハッカーコミュニティの評判も、これでいくらかの間は落ちずに留まってくれればいいのだがね。
+
+Entropyは君の仕事ぶりにとても感謝している。だが一方で、君にとってこの組織が小さすぎることもはっきりしてきたようだ。
+率直に言うと、Entropyがハッカーの世界で大役を務める日など永遠に来ないだろう。ハッカーに対する世間の目は冷たく厳しい。私は世間のイメージを変えるためにEntropyを創立したのだ。
+
+できることならEntropyに残ってほしいという気持ちもあるのだが、君はこの誘いを受けるにふさわしい。
+
+私はCSECという、招待限定のハッカーグループに所属している。CSECに所属しているのは、非凡な才能を持ったハッカーやコンピュータセキュリティに精通する専門家のような人間だけだ。
+君にぴったりの居場所だと思う。
+君を招待が送られるように手配しておいた。すぐに彼らから、入団試験についてのメールが届くはずだ。
+
+軽々しくこんなことは言わない。とても真剣な話だ――CSECへ招待されるということは、ハッカーの世界においては大変な名誉なのだから。
+
+幸運を祈る。
+-Tex
+    
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

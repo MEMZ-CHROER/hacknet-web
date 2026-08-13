@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="eosAdded1Comp" name="Домашний ПК Jdel" security="2">
+
+  <eosDevice name="Jacob's ePhone 4" id="eosAddedPhone">
+    <note>Работа 
+Перерыв 22 
+заканчивается 5</note>
+    <note>смена
+ пароля august
+
+warsix22
+</note>
+    <note>Музыка 
+Netsky - Щенок - 
+Пятая симфония 
+Бетховена???
+
+  -- 
+ 
+Chilltacular 2014 (плэйлист на youtube)</note>
+  </eosDevice>
+  
+  <account username="admin" password="warsix22"/>
+</Computer>

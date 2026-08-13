@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission02" name="Entropy test Server" ip="199.59.149.230" security="1" type="4">
+  <file path="home" name="Entropy_Induction_Test">
+Gefeliciteerd,
+
+Download dit bestand om je toelatingstest te voltooien.
+
+Entropy neemt binnenkort contact met je op.
+  </file>
+  <file path="bin" name="e_admins_are_lazy.txt">Niemand onthoud om de bin map te legen. Dit is een test server scrubs, het is ONTWORPEN om in gebroken te worden! Ruim het ten misten op!</file>
+
+  <file path="bin/zer0cool" name="hack_the_planet.txt">JULLIE IDIOTEN BUIG VOOR MIJ! IK HEB ZIEKE SKILLZ EN JULLIE WETEN HET.</file>
+  <file path="bin/zer0cool" name="retort.txt">Aannemend dat je weet wat retort betekent, laat me zeggen, je bent niks behalve een sukkel.
+Het kostte je waarschijnlijk een week om langs de proxy te komen. Ik raad dat je 12 bent, denkend dat je de planeet kan hacken van je moeders 386. Veel geluk jochie. Ga verder en laat de pros het doen</file>
+
+  <file path="bin/OP_Stormwind" name="need_help.txt">Als je hier bent weet je waarschijnlijk iets van inbreken. Die idioten bij Stormwind hebben de balans van Shaytan 3 verpest met de laaste veilingspatch. Ik was een superfan sinds de originele Shayton uitkwam in 96 en ik zeg dat we het ze laten weten en het veilingshuis neerhalen. Als je wil helpen, laat dan een tekstbestand achter en dan vind ik je.
+-slaggedfire</file>
+
+  <file path="bin/OP_Stormwind" name="Wo_lai_bang.txt">
+400 Jin Stormwind Online.
+</file>
+
+  <file path="bin/OP_Stormwind" name="lulz.txt">
+admins zijn best boost op je slaggedfire - die chinesen hebben de servers de hele avond gerampt voor goud.
+</file>
+
+  <file path="bin" name="SOgold.txt">
+Ben je vermoeit van queesten die je al je tijd kosten? Wil je een lang, prettig leven leiden zonder je zorgen te maken over het geld voor mounts? Kijk dan niet verder dan SOgold, de ultieme farmdienst voor Stormwind Online spelers. Voor een klein geldbedrag zullen we er voor zorgen dat je account al genoeg gold heeft om alle items te kopen die je ooit gewild hebt. Alles wat we nodig hebben is een betaling van $29.99 USD, je Stormwind account gegevens, en we zullen je meer gold regelen dan je kan voorstellen.
+</file>
+
+<file path="bin" name="BIT_PLZ_READ.txt">
+Bit, als je ronddwaald, kan je alsjeblieft uit de schaduwen komen. Ik wil met je praten.
+Vap0r wil me niet stoppen met lastigvallen met dat er iets mis is. Laat het me weten?
+-T
+</file>
+
+  <proxy time="0.3" />
+</Computer>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="eosAdded1Comp" name="JDel Home PC" security="2">
+
+  <eosDevice name="Jacob's ePhone 4" id="eosAddedPhone">
+    <note>仕事休暇
+22日から
+5日まで</note>
+    <note>パスワード
+8月に変更
+
+warsix22
+</note>
+    <note>音楽
+Netsky - Puppy
+She - Coloris
+5th of Beethoven - ???
+
+    --
+  
+Chilltacular 2014 (youtubeプレイリスト)</note>
+  </eosDevice>
+  
+  <account username="admin" password="warsix22" />
+</Computer>

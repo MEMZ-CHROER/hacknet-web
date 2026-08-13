@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="getString" target="AAX1BB7"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Compromise an eOS Device">
+A request has come in to obtain some information about a target that the client believes is being stored on an eOS device.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Jailbreak</subject>
+    <body> This will be kept curt.
+A client has requested that we search the computer and devices of a given target for what they are calling a "Registration ID" - they believe it will be stored on an eOS device sync'd to the target's home computer (link attached).
+
+Once you have this ID, respond here with it, and we'll handle the rest.
+
+Good luck,
+-CSEC
+    </body>
+    <attachments>
+      <link comp="hubEosMisison" />
+      <note title="Contract Details">
+Scan for EOS devices on target computer
+Investigate devices for reference to a "Registration ID"
+Reply to CSEC with said ID attached</note>
+    </attachments>
+  </email>
+</mission>

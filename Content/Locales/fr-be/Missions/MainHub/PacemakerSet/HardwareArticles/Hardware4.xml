@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pacemakerHWArticle04">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0015 - Pacemaker v2.44 Security and clearances">
+Ce message détaille les fonctionnalités de sécurité du stimulateur cardiaque v2.44. Pour le fonctionnement général, veuillez consulter la documentation imprimée, ou demandez une copie supplémentaire à support@kellisBio.com
+---------------------------------------------
+
+Passez la sécurité pour effectuer une mise à jour du microprogramme, une fois le fichier binaire récupéré auprès des développeurs du logiciel, exige plusieurs étapes.
+Connectez-vous d'abord à la puce du stimulateur cardiaque en utilisant l'adresse IP de référence du patient.
+
+Identifiez-vous en tant qu'administrateur, en utilisant les détails qui seront assignés au cas par cas par le client. Cette étape est protégée par l'utilisation du système de protection micro-port exclusif de Kellis (port 6652).
+
+À ce stade, la surveillance distante sera activée, permettant à l'utilisateur de visualiser les données ECG en direct.
+
+Pour effectuer la mise à jour du microprogramme, une seconde connexion au logiciel doit être effectuée en utilisant un code d'authentification autorisé du fabricant du logiciel.
+
+Une fois ces deux détails confirmés, une mise à jour peut être téléchargée et activée sur la puce, qui se réinitialisera automatiquement (sans danger pour le patient) et activera le nouveau code.
+
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERREUR</subject>
+    <body>
+Recevoir cet email indique qu'une erreur inattendue est survenue.
+Veuillez paniquer.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dBeanstalkMission">
+  <goals>
+    <goal type="fileupload" target="ds4_laptop" file="038457_doc.pdf" path="home/dagrunsdottir_leak" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Bean Stalk">Hackea la cafetería para robar el borrador de una ley de un cliente habitual. No tenemos opiniones políticas, no es más que un botín muy valioso.</posting>
+  <email>
+    <sender>Biblioteca</sender>
+    <subject>Bean Stalk</subject>
+    <body>
+Hackea la cafetería para robar el borrador de una ley de un cliente habitual. No tenemos opiniones políticas, no es más que un botín muy valioso.
+----
+Asdis Dagrunsdottir, una política europea, ha trabajado en secreto con su partido para escribir el borrador de una ley que afectará a nuestro trabajo. Los hackers son curiosos y han puesto una muy buena recompensa por el borrador.
+
+Hemos descubierto que es una cliente habitual de una cafetería que está cerca de su casa. Por suerte, no ha sido difícil encontrar la IP del router de la cafetería.
+
+Encuentra los archivos. Súbelos al servidor compartido. Yo me encargo del resto.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="ds4_cafe" />
+      <note title="Objetivos de la misión">Rastrea a Asdis Dagrunsdottir en la lista de conexiones del router de la cafetería
+Encuentra los documentos de la ley
+Sube lo que encuentres al servidor compartido</note>
+    </attachments>
+  </email>
+</mission>

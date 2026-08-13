@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="d_defAFK">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="D3f4ult - 離席">離席 - 一身上の都合</posting>
+  <email>
+    <sender>Bibliotheque</sender>
+    <subject>離席</subject>
+    <body></body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

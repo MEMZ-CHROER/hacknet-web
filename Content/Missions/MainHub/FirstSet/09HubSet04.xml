@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="modifyDeathRowRecord" name="John Boorman">I'm ready, Warden</goal>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Add a Death Row record for a family member">
+A family member of an executed individual has approached us looking to have their death row record added to the official listings.
+The sentence apparently had some shady dealing behind it (they strongly implied it was unjustly ruled) and it seems the efforts to mask it
+have left the record off the official listings. In their words "At the very least we'd like his last words preserved".
+
+Note: This assignment is flagged as being unusually complex, requiring manual database record manipulation. CSEC Admins recommend leaving this task for UNIX terminal veterans.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Unjust Absence</subject>
+    <body>
+We would like a death row record created. The family of the deceased has requested that his correct entry be added to the database with the following details:
+
+------------------------------------
+First Name: "John"
+
+Last Name : "Boorman"
+
+Final Statement: "I'm ready, Warden"
+------------------------------------
+
+The other details shouldn't matter, but preferably should emulate other records as closely as possible. To help with this, a template record has been uploaded to the CSEC asset server (In /home/Templates).
+We recommend you copy it, edit it locally and upload it once in. Remember to correctly rename the file ("mv" command) to reflect the name and whatever record number you use.
+
+A message from the requesting party:
+"Thankyou so much for your help. Everything to do with the trial has been shady from the start. We still firmly believe that he was innocent and are doing our best to fight for that recognition even now.
+Still, being absent from the database is an insult to his memory. At the very least we'd like his last words preserved. Again, thank you."
+    </body>
+    <attachments>
+      <link comp="mainHubAssets" />
+      <link comp="deathRow" />
+      <note title="Record Details">First Name: "John"
+Last Name : "Boorman"
+Final Statement: "I'm ready, Warden"</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dlcDemoIntro1">
+  <goals>
+    <goal type="filedeletion" target="dDemointro1" file="x-server.sys" path="sys"/>
+  </goals>
+  <missionStart val="0" suppress="true">loadConditionalActions:DLC/ActionScripts/HermeticAlchemistsActions.xml</missionStart>
+  <nextMission>NONE</nextMission>
+  <posting title="Hermetic Alchemists">
+  謎の哲学派Hermetic Alchemistsが、妙に大規模なネットワークを構築しています。少々掘ってみたところ、管理者は有用なツールを開発しているようで、将来のためにそのコピーを入手したいところです。  
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Hermetic Alchemists</subject>
+    <body>
+この管理者は追跡プログラムの天才と言っていいでしょう。しかし、妙な錬金術の組織に没頭しています。彼らのネットワークは変種の要塞みたいな構造ですが、どうにか管理者のホーム・コンピューターを特定して、このプログラムを入手しなければなりません。
+
+これはチームプロジェクトです。チームにとって有用なものを発見したらチャットで報告してください。
+健闘を祈ります。
+    </body>
+    <attachments>
+      <link comp="dhaEntry" />
+      <note title="Hermetic Alchemists Contract">ネットワークを調査、管理者のホーム・コンピューターを特定。
+追跡プログラムもしくは回避プログラムをダウンロードし、ドロップサーバーへ。
+</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,112 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="ppMarketing" name="PP Marketing Inc." security="2" type="4">
+  
+  <proxy time="1.1"/>
+  <portsForCrack val="2"/>
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1"/>
+  <trace time="400"/>
+  
+  <account username="admin" password="willsmith"/>
+
+  <encryptedFile path="home/WORKSPACE" name="SECURE_MAILLIST.dec" ip="74.125.237.119" header="Marketing encryption lv.2">Haha, Hacker, mauvaise liste. Comme si on allait laisser nos données sur un serveur ouvert au public comme ça... surtout si on sait que quelqu'un est après elles !
+  Tiens, prends des données binaires de merde pour que le fichier ait l'air d'avoir la bonne taille.
+    
+#BINARY#
+    
+Cordialement,   
+- Un véritable expert en sécurité  
+BISOUS
+  </encryptedFile>
+
+  <file path="home/WORKSPACE/INDUCTION" name="welcome.docx">
+Bonjour, employé. Bienvenue à votre première journée sur le front de P.P Marketing. Ne faites pas attention à notre image de marque. Nous sommes en guerre, et vous êtes du bon côté. Travailler ici, pour la première firme marketing d'entreprise d'Amérique, n'est pas facile. Chacun de nos clients est une forteresse. Chacun de nos produits est une arme. Chacune de nos campagnes est une autre bataille que l'on doit gagner pour s'assurer que nos clients réussissent. 
+
+Il est toujours primordial que notre présence interne corresponde à nos communications externes pour améliorer la synergie entre nos marques. Si vous avez des questions sur comment maximiser la présence de vos campagnes grâce à votre présence en ligne, veuillez organiser des Sessions d'apprentissage partagées avec votre manager. 
+
+En tant que chef des ressources humaines, je vous souhaite à tous le meilleur pour cette période de transition. 
+    
+Jane Halliday - Manager des ressources humaines, P.P Marketing</file>
+  
+  <file path="home/WORKSPACE/INDUCTION" name="dresscode.docx">
+Tous les employés, exceptés ceux des installations et du service informatique, doivent se conformer au code vestimentaire qui suit pour améliorer l'image publique de P.P Marketing : 
+    
+- Des costumes couleur noire, charbon, obsidienne ou bleu marine doivent être portés. 
+-Chemise blanche, bleu ciel, ivoire ou grises, manches longues 
+-Cravate noire, rouge, bleue, violette ou verte pour les hommes. Seulement des couleurs unies. Aucun motif n'est permis, les recherches montrent que cela est intimidant pour les clients. 
+- Les femmes doivent porter des tailleurs et peuvent porter un foulard de couleur ordinaire pendant l'hiver 
+- Chaussures polies de couleur noire ou marron
+    
+Le personnel des installations et du service informatique reçoivent un uniforme simple bleu marine qui doit être lavé et repassé régulièrement. 
+    
+Notre code vestimentaire est strict, et nous apprécions votre compréhension. P.P Marketing est une firme qui attache beaucoup d'importance à l'apparence extérieure. 
+    
+Jane Halliday - Manager des ressources humaines, P.P Marketing</file>
+  
+  <file path="home/WORKSPACE" name="Maillist_info.txt">C'est la liste d'emails que le hacker nous a fournie (il nous a fait payer cher, au fait). On dirait qu'il y a une sorte de chiffrement dessus ? On a payé ce gars pour quoi faire, déjà ?
+ Les ressources humaines disent qu'ils devront trouver quelqu'un d'autre pour le décrypter ou pour le rendre utilisable. Selon le premier, le fichier fait la bonne taille, du coup ça doit bien être les bonnes données. Faut juste qu'on arrive à l'ouvrir. 
+Quel désastre.  Enfin, au moins c'est le bon fichier, même si on peut pas encore l'utiliser...</file>
+  
+  <file path="home/WORKSPACE/INDUCTION" name="complaint_procedure.docx">
+Tous les employés qui souhaitent se plaindre d'un collègue ou de la pratique d'une agence doivent envoyer un formulaire 106B à leur manager ou au chef de leur département. Cette plainte doit être décrite en détail et des preuves doivent être fournies au maximum trente (30) jours après la date de l'incident. Toutes les plaintes sont étudiées avec soin par le département des ressources humaines, ce qui permettra de trouver une solution satisfaisante dans les 12 mois suivant l'enquête.
+</file>
+  
+  <file path="home/WORKSPACE/INVESTIGATIONS" name="winters_kevin.txt">
+Tous les emails envoyés par l'employé Kevin Winters à une adresse externe doivent être analysés pour trouver toute information malicieuse concernant les pratiques internes de P.P Marketing. Cette requête a été approuvée par le chef des opérations, James Wilson. Nous recherchons avant tout des preuves que Winters a partagé des secrets commerciaux avec des entreprises rivales.
+</file>
+  
+  <file path="home/WORKSPACE/INVESTIGATIONS" name="kw_evidenceA01.txt">
+[winter] Terry, crois-moi, il y a des trucs louches ici. 
+[craigmore] Tout le monde sait qu'ils sont louches.
+ [winters] Ils ne font qu'acheter leurs listes depuis d'autres entreprises. Généralement des achats de pubs qui fonctionnent depuis la base de données de j-mail. 
+[craigmore] Et à quoi ça leur sert ? 
+[winters] Ils ont leur propre équipe de dév qui bosse sur des algorithmes, sur les comportements des utilisateurs des emails et sur quels produits sont susceptibles de les intéresser. 
+[craigmore] Vraiment ? Ce que c'est sinistre. 
+[winters] Les rumeurs prétendent qu'ils bossent sur une IA de messagerie instantanée qui imiterait les utilisateurs sur les forums et qui feraient passer de la pub en douce. 
+[winters] Du marketing subliminal par IA 
+[craigmore] Merde. 
+[winters] Écoute. Je vais en fourrer autant que possible sur des disques durs et je vais partir si tu me donnes une position.
+ [winter] Je dois sortir d'ici.
+</file>
+  
+  
+  
+  <file path="home/documents" name="IncidentLog1.txt">
+[nem] Tu t'es loggué sur le S3, ce week-end ? 
+[felix] non, pourquoi ? 
+[nem] Il manque des fichiers et l'activité de la bande passante est énorme, mais il n'y a rien dans les logs. 
+[felix] c'est bizarre
+ [felix] t'as vérifié l'état du pare-feu ?
+ [nem] pas encore 
+[nem] merde
+ [felix] quoi ?
+ [nem] le RDP du serveur de messagerie est en panne
+ [nem] je vais dans la salle du serveur pour vérifier 
+[nem] je reviens
+</file>
+  
+<file path="home/documents" name="IncidentLog2.txt">
+[nem] Bon, j'emballe tout ça et je l'envoie 
+[felix] Je le stockerai hors site pour le récupérer plus tard 
+[felix] C'est vraiment la merde, au fait. 
+[nam] J'arrive pas à croire qu'ils aient infiltré notre sécurité. 
+[nem] Des mois d'emails envolés.
+ [nem] Je parie que Letterman va être en rogne. 
+[felix] Weinstein va péter les plombs.
+ [nem] Fais gaffe à pas te faire virer aussi. 
+[nem] Je te reparle plus tard.
+</file>
+  
+  <file path="home/documents" name="logs.txt">
+[gscott] Tu as lu le mémo de ce matin ? 
+[cgershwin] Ha, tu peux croire qu'ils veulent qu'on fasse des heures supplémentaires non payées ?
+ [gscott] Ça me surprend pas. Sérieux, je sais que c'est une start-up, mais ils doivent mieux nous traiter.
+ [gscott] Mon salaire a pris un coup pour venir ici.
+ [cgershwin] Ils ont trois mois pour arranger les choses. 
+[cgershwin] Sinon, j'me casse.
+ [gscott] Je ferais peut-être pareil.
+ [gscott] Tu veux une bière après le boulot ?
+ [cgershwin] Si tu invites ! 
+</file>
+  
+</Computer>

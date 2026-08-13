@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubIntro1">
+  <goals>
+    <goal type="getString" target="ABX07cc9"/>
+    
+  </goals>
+  <nextMission>MainHub/Intro/Intro02.xml</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>Invitación de CSEC</subject>
+    <body>
+Saludos, #PLAYERNAME#: 
+
+El grupo CSEC es un grupo por invitación exclusivamente de hackers talentosos y expertos en seguridad digital. Ofrecemos muchos conocimientos y recursos a personas excepcionales para crear una comunidad de aprendizaje, información y progreso compartidos. 
+Un miembro del grupo te ha enviado una invitación para que te unas a la organización. 
+
+Como detalle administrativo, necesitamos una pequeña demostración de tus capacidades y conocimientos para aceptarte.
+
+ Para continuar, responde al correo con la contraseña que encontrarás asociada a tu nombre en uno de nuestros servidores de pruebas.
+ Si tienes alguna dificultad, te recomendamos que consultes los Archivos de aprendizaje sobre redes.
+
+ Enhorabuena, y buena suerte, 
+- La administración de CSEC
+
+    </body>
+    <attachments>
+      <link comp="hubTestComp01"/>
+      <link comp="netEduComp"/>
+    </attachments>
+  </email>
+</mission>

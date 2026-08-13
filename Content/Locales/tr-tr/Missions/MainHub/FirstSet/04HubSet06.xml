@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDownload" target="jscottHome" file="DECHead.exe" path="home/work" />
+  </goals>
+  <nextMission>MainHub/DecypherSet/DECHeadMission02.xml</nextMission>
+  <posting title="Şifrelenmiş Dosya Takibi">
+DEC şifreli dosyaların nerede şifrelendirildiğini bulmanın yolunu bulduğumuzu düşünüyoruz. Elimizde şifrelenmiş bir dosya var. Bunun açılması gerek. Bu işi çözmen için yeterince ipucu var.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Dürbün</subject>
+    <body>
+Anlaşılan DEC şifreli dosyalarda dosyalandıkları yerin IP adresi (çeşitli iletilerle birlikte) yer alıyor. Muhtemelen hata ayıklama veya benzer sebeplerden ötürü böyle bir durum söz konusu fakat bu aslında büyük bir güvenlik açığı. Bu bizim için mükemmel oldu. Elimizde çözümlenmesi gereken bir dosya var ve şifrenin ne olduğuna dair en ufak fikrimiz yok.
+
+İlk olarak bu başlıkları okumanın yolunu bul. Birazcık araştırma yaptık ve DEC Solutions çalışanlarından birinin dosya şifresini bilmeden başlıkları çözümleyebilmesinin bir yolu olduğunu öğrendik.
+Bu elemanı araştır ve yararlı bir şey bulursan bize bildir. Sonrasında yapacaklarını konuşacağız.
+
+-CT Ekibi
+    </body>
+    <attachments>
+      <link comp="jscottHome" />
+    </attachments>
+  </email>
+</mission>

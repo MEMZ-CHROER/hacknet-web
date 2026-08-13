@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubIntro2Alt">
+  <goals>
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt1.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads" />
+    <goal type="FileUpload" target="kfcRecordsRepo" file="Seasoning_Order_Placement_Template_Pt2.docx" path="home/Ordering" destTarget="hubPubDrop" destPath="Drop/Uploads" />
+  </goals>
+  
+  <missionEnd val="0">assignPlayerToHubServerFaction</missionEnd>
+  <nextMission>MainHub/Intro/Intro03Pass.xml</nextMission>
+  <email>
+    <sender>CSEC Admin</sender>
+    <subject>CSECへの招待状 - ショートカット</subject>
+    <body>
+#PLAYERNAME#へ
+
+君をグループに招待しろ！って、もう半ば脅しみたいな推薦状が僕のところに叩き付けられてきてね。あんな友達をどうやって作ったんだか知らないけど（誰のこと言ってるか分かるよな？）、まあ、でもこれはかなりすごいことだ。
+僕はCSECのメンバーだ。推薦してくれた者の意思を尊重して、入団テストの自動セクションをスキップしてやることにした。でもこれで終わりじゃない。CSECに加わるには、僕のテストにも合格する必要がある。
+
+教えといてやるけど、そんなに簡単にはいかないぞ！
+
+それじゃCFCのサーバーに侵入して、11種類の秘伝のハーブとスパイスを見つけてきてくれ。
+
+事が終わったらハーブやスパイスのリストはCSECのドロップサーバーにアップロードしといてくれると、君が仲間に加わる嬉しさも増すってもんだ。
+
+健闘を祈る！
+
+-Vap0r 
+CSEC 運営
+
+    </body>
+    <attachments>
+      <link comp="kfcWebServer" />
+      <link comp="hubPubDrop" />
+    </attachments>
+  </email>
+</mission>

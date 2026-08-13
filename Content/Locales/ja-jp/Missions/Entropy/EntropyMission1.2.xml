@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission01.2">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>Entropy/EntropyMission2.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>ようこそ</subject>
+    <body>
+ごきげんよう、#PLAYERNAME#。
+
+おめでとう。
+初めての依頼だったと思うが、君は難なくやり遂げて実力を証明してくれた。Entropyへの入団を心から歓迎する。
+
+歓迎のプレゼントとして、我々のアセットサーバーの管理者アカウント情報をこのメールに添付しておいた。必要なプログラムがあれば自由に使うといい。我々の誓いの言葉も見ておくように。
+準備ができたらこのアドレスに返信してくれ。君の実力を確かめる、本当の試験を用意しよう。
+
+改めて、おめでとう。
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+      <account comp="entropy01" user="admin" pass="rosebud" />
+    </attachments>
+  </email>
+</mission>

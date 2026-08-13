@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet07">
+  <goals>
+
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Bekijk een verdachte server">
+Ik ben een rare server tegengekomen - beveiling lijkt wat strakker dan ik aan kan dus ik heb het niet getest, maar iemand wil dat misschien bekijken.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Rode Draad</subject>
+    <body>
+Hey,
+
+Weet niet of je iets zal vinden hier maar ik dacht dat je het misschien wilde bekijken - Ik vond deze server met wat scan software - er zit een tracer op dus ik heb niet echt iets geprobeerd, maar iemand met meer ervaring wil het misschien proberen.
+Laat me weten als je iets vind of als het super beveiligd is of zoiets!
+
+-Anon
+    </body>
+    <attachments>
+      <link comp="honeypot01" />
+    </attachments>
+  </email>
+</mission>

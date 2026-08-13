@@ -1,0 +1,4 @@
+Bienvenido a International Academic Database.
+Este servidor de acceso público ofrece un acceso centralizado de todos los expedientes académicos de todas las universidades reconocidas del mundo.
+Nuestra base de datos es manejada y mantenida por los administradores de este terminal seguro, y algunos elegidos de las universidades punteras que contribuyen en la base de datos.
+Si eres el vice rector de una universidad que quiera contribuir a esta base de datos y ser reconocida, mande un email a nuestros administradores en admin@mail.academic.org

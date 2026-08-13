@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Proxy Server Quick Guide">
+Los servidores proxy actúan como capa de amortiguación entre el equipo de destino y otro conectado que filtra, almacena en caché y supervisa el tráfico entrante tanto para optimizar el rendimiento web en consultas repetidas como para prevenir ciertos ataques.
+
+ El defecto más conocido de los servidores proxy es su límite de memoria superior: cuando se alcanza, obliga a dichos servidores a permitir el paso de tráfico sin comprobar. 
+
+Para aprovechar esto, los hackers y los testers a menudo ejecutan shells en otros equipos a los que un atacante tiene acceso (con frecuencia empleando el programa shell incorporado) y luego, mediante un conjunto de shells en los equipos servidores, se conectan al equipo de destino y usan la función «overload» (sobrecarga) de los shells para inundar el servidor proxy del objetivo con datos basura, lo que posibilita que pase tráfico potencialmente malicioso.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Si recibe este correo electrónico, es que se ha producido un error inesperado. 
+Échese a temblar.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

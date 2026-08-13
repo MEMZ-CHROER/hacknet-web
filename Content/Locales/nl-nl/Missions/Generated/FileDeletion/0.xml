@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyServer01">
+  <generationKeys File="#LC_CLIENT#_Internal_Archive.zip" Path="home"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# : Opschoon missie">
+Een hoogwaarde klant van onze groep heeft gevraagd een bestand van een exwerknemer te verwijderen.
+De bestanden zijn niet uniek en het bedrijf wil slechts deze kopie verwijderd.
+Het doelwit zal het je waarschijnlijk niet moeilijk maken.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Opschoon missie</subject>
+    <body>
+Gegroet Agent,
+
+Een werknemer in ons bedrijf heeft ons verlaten voor een concurrent. Daarmee, nam hij een grote hoeveelheid intrene data mee van ons bedrijf en het zou onhandig zijn voor ons als hij het mocht houden.
+
+We willen dat jij inbreekt in zijn computer en deze informatie verwijderd. Het is waarschijnlijk opgeslagen in een archiefbestand zonder backups.
+Het bestand is gelabelt als #FILE#.
+
+Bedankt,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

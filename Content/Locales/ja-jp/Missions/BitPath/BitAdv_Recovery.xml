@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit_recovery">
+  <goals>
+    <goal type="getString" target="156.151.59.35"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_Intro03.xml</nextMission>
+  <branchMissions>
+    <branch>BitPath/BitAdv_Intro07.xml</branch>
+    <branch>BitPath/BitAdv_Intro05.xml</branch>
+    <branch>BitPath/BitAdv_Intro03.xml</branch>
+  </branchMissions>
+  <posting title="[ V ] - 捜査の続き">
+#PLAYERNAME#に向けた連絡だ。
+新しい案件を受注したのか？捜査の続きをする準備ができたら、こっちの案件を受注してくれよ。
+
+-V
+  </posting>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 再会</subject>
+    <body>
+こっちの仕事に戻る準備はできたか？
+
+前回中断したところから始めてくれ。こっちは調べ物を続けてる。
+
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="generatedWebVandal02">
+  <generationKeys Data="Content/Web/BaseCorporateRecruiterPage.html"/>
+  <goals>
+    <goal type="FileChange" removal="true" target="#COMP#" file="#FILE#" path="#PATH#" keyword="@jmail.com" />
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="İşe Alım Sabotajı">
+#CLIENT# rakiplerinin işe alım yönteminden kurtulmamızı istiyor.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Alım Sabotajı</subject>
+    <body>
+Merhabalar,
+
+Şirketimiz yeni yetenekler işe almak için yeni bir personel projesi geliştiriyor. Fakat rakibimiz olan şirketler de aynı şeyi yapmayı planlıyor. Bizde zaten bunu onlardan bir adım önce olmak için yapıyoruz.
+Yapacağınız şey çok basit. İletişim bilgilerini sitelerinden sileceksiniz. Böylece başvuru yapacak vatandaşlar öncelikle bizlere gelmek zorunda kalacak.
+
+Değişikliğin yapımasını istediğimiz sitenin linkini aşağıda bulabilirsiniz.
+
+Teşekkürler,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

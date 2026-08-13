@@ -1,0 +1,74 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="xcTablet" name="X-C Project Tablet#001//RESEARCH" security="2" icon="tablet" type="4">
+  
+  <proxy time="1.0" />
+  <portsForCrack val="1" />
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1" />
+
+  <adminPass pass="cyberdisk" />
+  
+  <file path="X" name="LaserRifle_mk2.spec">
+X-C_PROJECT:ID#1299
+
+RESEARCH REPORT W. SCHEMATIC
+Codename: Sunray 
+
+Our recent research into the enhanced optics found in the alien devices was extremely successful, and our initial efforts to apply the technology in our own weapon systems is extremely promising.
+The MK2 laser rifle has disregarded our initial attempts to make a rifle capable of endless sustained fire while power lasts, due to overheating issues. The MK2 rifle requires a dissipation of heat after sustained firing, emulating the reloading of traditional ballistic weapons.
+While not ideal, conceding this has created a significantly more accurate and deadly weapon than our earlier efforts, and should be something of a flat upgrade in all respects from our current rifles.
+
+Though the materials required to fabricate the rifles are not extremely expensive (save the need for some recovered alloys), our current manufacturing techniques will require many attempts to produce a focusing lens of the appropriate clarity and stability, a system that we have not yet perfected.
+Because of this, the rifles will require the manufacture of approximate 100 lensing systems to luck into making one of sufficiently high quality (a problem seen in current photography lens manufacturing). With the addition of more engineers, we may be able to spare personnel to specialize in these areas, and reduce this problem, reducing the cost of fabrication.
+
+Schematics for fabrication are available on the central engineering server as ID#1300
+  </file>
+  
+    <file path="X" name="FlightComputers.rep">
+X-C_PROJECT:ID#1938
+
+RESEARCH REPORT
+Codename: Lighthouse 
+
+The alien flight computer was an extremely interesting research piece - without the specialized research team members that found a way to decipher the alien data systems, we would have made extremely little progress. While we are still in the dark about many of the executable and programmatic operations of the computer, we have deciphered much of the data, and managed to recover some images and audio from the device, though the languages used in what we presume to be textural files is still out of our reach.
+Much of the data implies that the computer specialized in extremely long range navigation, functional both in planetary ranges and galactic scales. It also includes some confusing information on extremely high speed collision avoidance. While the craft seems unconcerned with smaller particles such as asteroids, it is intent to avoid planetary masses while traveling. It gives us many clues towards the nature of their faster than light propulsion technology that will require further research.
+
+In addition to this, we found some surprising images on the device. What initially appeared to be anatomical and medical information about the crew of the craft, was re-evaluated to be a form of alien pornography. Though there are no visible reproductive organs, the sectoid species appears to have a fascination with the neck, and underside of the jaw, for reasons we cannot yet understand.
+Though not concrete information, our troops may wish to consider this a weak point - though it maybe difficult to target in the heat of battle.
+
+  </file>
+  
+ <file path="X" name="WIP_Xenogenetics.txt">
+X-C_PROJECT:ID#2133
+
+The recovered species are extremely similar, not just in appearance but in genetic makeup. My initial interpretation that they were clones may have been inaccurate - while the DNA between the entities is identical, perhaps this is a trait common to their species - individual differences are purely mental.
+
+Nervous systems between the species are extremely similar to those found in terrestrial mammals (including humans) - what does this say about our own origins? Is this a universal constant? Why?
+
+No detected species appear to have any form of smell - though their visual senses appear very similar to those found in some insects, though much more developed. Facial opening in the nose region appear to be used as close to a form of taste, though it serves practically the same function.
+  </file>
+
+  <file path="X/Personal" name="Penetrator_mk1.spec" EduSafe="false">
+X-C_PROJECT:ID#4991
+
+RESEARCH REPORT W. SCHEMATIC
+Codename: Gaping Dragon
+
+Requirements:
+22x  Alloys
+2x   UFO Power Source
+10x  Elerium
+185x Credits
+
+This elerium powered device is capable of extending and retracting an extremely durable alloy rod up to 2 feet at a rate of 200 oscillations per second for a virtually unlimited duration without the need for additional power sources.
+The cutting edge power source will allow for previously unobtainable operating times and intensities. Careful attention in processing should be paid to the outer bracket on the arm, which allow the attachment of a number of different "heads", and needs to provide a secure fit.
+
+Note also that the rod needs to be detachable, described in note A-12.
+This device should allow us to.. improve research efficiently greatly, and should be a top priority. The requisite schematics have been sent to Dr. Shen for fabrication immediately.
+
+SCHEMATICS REF DATA:
+#BINARY#
+
+  </file>
+  
+</Computer>

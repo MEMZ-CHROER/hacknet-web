@@ -1,0 +1,151 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="portcrack01" name="Viper-Battlestation" security="0" type="4">
+
+  <dlink target="viperScanEarlyGame" />
+  
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="home" name="Youtubers.txt" >
+youtubers to check out: 
+
+captainspinifex
+rockleesmile
+northernlion
+officialcalemgames
+jonathancrowgamer
+
+  </file>
+  <file path="home" name="Notes.txt" >
+    Finally managed to torrent that sweet new haxxor program from the server Gollum told me about - this is so sick!
+
+    Cant wait to try it out - just got to work out how to use it first
+  </file>
+  <file path="home" name="asdf.txt" >
+    Induction test?
+    199.59.149.230
+    Proxy server
+    
+    ..
+    
+    Need something about overloading it maybe?
+    Got to research it more. Maybe there's a program to help? Will ask for more money..
+  </file>
+  <file path="home" name="EmailDraft.txt" >
+    Dad,
+    Sorry I haven't emailed you in a while - I've been really busy with school - year 11 is hard, but I think I'm doing ok.
+    I actually wanted to ask for a little help - I need some new software for a school project. It's called 'FTPBounce.exe'. It's really useful! It'll cost a lot though, and I've run out of the money you sent me last time - all this IT project software is really expensive.
+    Is there any chance you could send another $2,000 to my account? It'd really help out.
+
+    Thanks!
+    Love you,
+    Tim
+  </file>
+  
+  <file path="home/work" name="jasperlog.txt" >
+[viper] you got those keys I asked for?
+[jasper] you got the cash?
+[viper] got it ready to be wired
+[jasper] I have uploaded the first half on the drop server. Once the transfer has been completed you will get the final keys.
+[viper] cool. checking it out now.
+[viper] awesome. they work.
+[jasper] can I have my money now?
+[viper] sent
+[jasper] recived. who would have thought call of soldier would be so popular this year.
+[viper] hottest thing this year.
+[jasper] gamers.
+  </file>
+  
+  <file path="home/work" name="TARGET.txt" EduSafe="false">
+[viper] I want a refund.
+[cs#1575] I'm sorry sir, but we cannot refund based on change of mind.
+[cs#1575] Might I suggest you that you re-list the item on J-Bay?
+[viper] I don't want to list the item on your damn auction site.
+[viper] I told you, I accidentally hit the bid button instead of the watch button
+[cs#1575] I am so sorry sir, but our policy doesn't cover accidental button presses.
+[cs#1575] So you will have to accept that the Penetrator 9000 is yours, or you can try to recouperate the costs via our acution listings.
+[viper] You have messed with the wrong customer. I will make you rue this day.
+[cs#1575] Thank you sir, and may I wish you have a pleasant evening. 
+  </file>
+  
+    <file path="home/work" name="ripped_prerelease.log" EduSafe="false">
+[glaylor] YOU FUCKED IT UP
+[glaylor] 18 MONTHS DEV TIME
+[glaylor] 3 MILLION DOLLARS
+[glaylor] FOR A GAME ABOUT WATCHING MOBILE PHONE SCREENS
+[glaylor] ..................
+[glaylor] FUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+[hoops] Whoa, calm down man, people are going to love this
+[hoops] It's like, a statement, on the state of the word.
+[hoops] Like, have you ever walked down the street lately?
+[hoops] People always have their heads buried in their phones, they don't even notice it.
+[hoops] So we made a game that has you driving, walking, shooting, and hacking, while constantly looking at their phones.
+[hoops] It's genius.
+[glaylor] The board is going to have my ass for this.
+[glaylor] We better give it a good name.
+[glaylor] And some hardcore box art.
+[glaylor] And add some bloom effects. That always gets the kids. 
+  </file>
+  
+  <file path="home/work" name="ripped_prerelease.log" EduSafeOnly="true">
+[glaylor] YOU MESSED IT UP
+[glaylor] 18 MONTHS DEV TIME
+[glaylor] 3 MILLION DOLLARS
+[glaylor] FOR A GAME ABOUT WATCHING MOBILE PHONE SCREENS
+[glaylor] ..................
+[glaylor] AHHHHHHHHHHHHHHHHHHHHHHHHHHH
+[hoops] Whoa, calm down man, people are going to love this
+[hoops] It's like, a statement, on the state of the word.
+[hoops] Like, have you ever walked down the street lately?
+[hoops] People always have their heads buried in their phones, they don't even notice it.
+[hoops] So we made a game that has you driving, walking, shooting, and hacking, while constantly looking at their phones.
+[hoops] It's genius.
+[glaylor] The board is going to have my ass for this.
+[glaylor] We better give it a good name.
+[glaylor] And some hardcore box art.
+[glaylor] And add some bloom effects. That always gets the kids. 
+  </file>
+  
+  <file path="home/work" name="seb.txt" EduSafe="false">
+[viper] How did it go?
+[lilsebastian] It was a nightmare.
+[viper] Why?
+[lilsebastian] We spent the night at the lookout. It was super romantic.
+[lilsebastian] Then we started making out.
+[lilsebastian] Then started fooling around, you know.
+[lilsebastian] And then, er.
+[viper] What?
+[viper] Spit it out.
+[lilsebastian] It err, ended sooner than expected. Like. Clothes still on sooner.
+[viper]......
+[viper]......
+[viper] HAHAHAHAHAHHAHAHAHAHAHHAA
+[lilsebastian] Shut up.
+[viper] Dude, god dude, never admit that to anyone again.
+[viper] You're lucky we're friends, otherwise I'd tell everyone that story.
+[viper] Anyway, gotta go. Got more coding to do. 
+[lisebastian] All good. See you at school tomorrow.
+[viper] Don't get there too early. 
+  </file>
+  
+  <eosDevice name="Tim's ePhone 4S">
+    <note>PORT NUMBERS
+Web Browsers and web services: 80 (8080 sometimes?)
+SSH: 22 (####program for this one)
+FTP: 21
+SQL: 1433
+    </note>
+    <note>entropy
+some kinda hacker group?
+seems kinda small, and not much news on them?
+Except slashbot hates them for some reason?
+"find and beat our test server" - how?
+Message board post no other details?
+
+Might be indexed somewhere? Find some net registry and search for entropy?
+    </note>
+    <note>daves
+H22 to Westfield st (stop 22)
+4:25 - 5:12
+4:55 e.30m
+    </note>
+  </eosDevice>
+</Computer>

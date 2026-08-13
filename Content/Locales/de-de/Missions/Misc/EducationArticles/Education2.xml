@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title=".exe Dateien ausführen">
+Der Befehl "exe" listet, wenn von einem modernen Terminal ausgeführt, alle ausführbaren Dateien im ~/bin/ Verzeichnis des Nutzers auf.
+
+Die aufgeführten Dateien können im Terminal wie Befehle verwendet werden und führen, auf die mit dem lokalen Rechner verbundene Maschine abzielend, die zugehörige Datei in ~/bin/ aus.
+
+Die ist im Grunde eine Abkürzung, um das manuelle Angeben einer IP in den Parametern überflüssig zu machen. Außerdem erlaubt es mehreren Programmen auf einmal Traffic zu senden, was die Netzwerkeffizienz auf OS-Ebene verbessert.
+Natürlich existieren auch viele .exe Anwendungen ohne Netzwerkfunktionalität. In diesem Fall wird der automatisch angegebene Netzwerkparameter ignoriert und das Programm regulär (lokal) ausgeführt.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Wenn du diese Mail erhalten hast, ist ein unerwarteter Fehler aufgetreten.
+Bitte gerate in Panik.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

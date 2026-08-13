@@ -1,0 +1,965 @@
+﻿﻿#23396 +(35362)- [X]
+
+<Donut[AFK]> HOLA EURAKARTE
+ <Donut[AFK]> INSULTO
+ <Eurakarte> RÉPLICA
+ <Donut[AFK]> CONTRARRÉPLICA
+ <Eurakarte> PREGUNTA SOBRE PREFERENCIA SEXUAL
+ <Donut[AFK]> SUGERENCIA DE CERRAR EL PICO
+ <Eurakarte> CREAS UN VACÍO
+ <Donut[AFK]> RÉPLICA
+ <Donut[AFK]> RÉPLICA AÑADIDA
+ <Eurakarte> CONTRARRÉPLICA
+ <Donut[AFK]> DOBLE CONTRARRÉPLICA
+ <Eurakarte> AFIRMACIÓN ABSURDA SOBRE PLANKTON
+ <Miles_Prower> RESPUESTA A AFIRMACIÓN ALEATORIA Y AMENAZA DE EXPULSAR A LOS RIVALES
+ <Eurakarte> HALAGOS PARA FISHFOOD
+ <Miles_Prower> RECONOCIMIENTO Y ACEPTACIÓN DE CONDICIONES
+
+#244321 +(32935)- [X]
+
+<Cthon98> oye, si escribes tu contraseña, aparecen asteriscos
+ <Cthon98> ********* ¡Mira!
+ <AzureDiamond> hunter2
+ <AzureDiamond> yo no veo asteriscos
+ <Cthon98> <AzureDiamond> *******
+ <Cthon98> eso es lo que veo yo
+ <AzureDiamond> ¿En serio?
+ <Cthon98> Claro
+ <AzureDiamond> vete a tomar por hunter2 y vuelve a por más hunter2
+ <AzureDiamond> ja, ja, ¿te parece gracioso?
+ <Cthon98> sí, muy bueno. Cuando TÚ escribes hunter2, nosotros vemos *******
+ <AzureDiamond> cómo mola, no sabía que el IRC hiciera eso
+ <Cthon98> sí, por mucho que escribas hunter2, nosotros veremos *******
+ <AzureDiamond> ¡Qué caña!
+ <AzureDiamond> espera, ¿cómo sabes mi contraseña?
+ <Cthon98> he copiado y pegado TUS ****** y a TI te aparece como hunter2 porque es tu contraseña
+ <AzureDiamond> ah, ok.
+
+#5273 +(30069)- [X]
+
+<erno> vaya. He perdido un ordenador… perdido _literalmente_. responde a ping, funciona perfectamente, pero no sé dónde lo habré metido por casa.
+
+#99060 +(30047)- [X]
+
+t0rbad> iba yo por un pasillo
+ BlackAdder> creo que hablo por todos cuando digo…
+ BlackAdder> PASO DE TI, MAMÓN
+ BlackAdder> HASTA LOS HUEVOS DE TI
+ BlackAdder> Y TUS PATÉTICAS HISTORIAS
+ BlackAdder> A NADIE LE PARECES GRACIOSO
+ BlackAdder> NADIE QUIERE OÍR TUS HISTORIAS
+ BlackAdder> DE HECHO
+ BlackAdder> SI LA PALMARAS AHORA MISMO
+ BlackAdder> A NADIE LE IMPORTARÍA
+ BlackAdder> A VER QUÉ DICES A ESO, CAPULLO
+ *** t0rbad ha vetado a: +b BlackAdder*!*@*.*
+ *** BlackAdder ha sido expulsado por t0rbad ( )
+ t0rbad> iba yo por un pasillo
+ CRCError> sí
+ heartless> Sí.
+ r3v> sí
+
+#4281 +(27825)- [X]
+
+<Zybl0re> arriba
+ <Zybl0re> levántate
+ <Zybl0re> arriba
+ <Zybl0re> levántate
+ <phxl|paper> y BAILA
+ * nmp3bot baila :D-<
+ * nmp3bot baila :D|-<
+ * nmp3bot baila :D/-<
+ <[SA]HatfulOfHollow> seré rico y famoso cuando invente algo que permita apuñalar a gente en la cara por Internet
+
+#99835 +(24129)- [X]
+
+<Guo_Si> ¡Camarero, este plátano está blando!
+ <TheXPhial> mándalo callar
+ <Guo_Si> Doctor, nadie me hace caso.
+ <TheXPhial> ¡Siguiente!
+ <Guo_Si> ¿Qué le dice un pez a otro pez?
+ <TheXPhial> ¿Nada?
+
+#5300 +(23796)- [X]
+
+<tatclass> SOIS TODOS GILIPOLLAS
+ <tatclass> ah.
+ <tatclass> hola.
+ <andy\code> Un error habitual.
+ <tatclass> es que las teclas están muy juntas.
+
+#287414 +(23126)- [X]
+
+<DeadMansHand> ja, ja, ayer pete y yo salimos a celebrar que se casa y nos cogimos una buena
+ <DeadMansHand> se nos ocurrió la gran idea de enterrarnos en la arena junto al agua a ver quién aguantaba más
+ <DeadMansHand> a la media hora, me llegó el agua a la cara, me acojoné y me desenterré
+ <DeadMansHand> miré a ver si veía a pete, pero debió de acojonarse antes que yo y haberse pirado a casa o algo
+ <DeadMansHand> ¿Qué dijo cuando se despertó esta mañana?
+ <Thirteen-> ¿qué? aún no ha vuelto a casa. creí que estaba contigo.
+ <DeadMansHand> la puta.
+ <DeadMansHand> espero que no sea verdad lo que estoy pensando
+ <DeadMansHand> voy a volver a la playa para asegurarme
+ <DeadMansHand> si vuelve a casa, avísame para no estar preocupado
+ <Thirteen-> claro. espero que no siga enterrado o te va a caer una gordísima.
+ salir: (DeadMansHand)
+ <Tyran> ¿qué pollas? pete sí volvió a casa anoche, cabrón. Ken se va a pasar el día superpreocupado
+ <Thirteen-> ja, ja, ya, pero será divertido mientras dure
+ unirse: (PeteRepeat) (bob@3F8C4655.11D1C8C.18637D35.IP)
+ <PeteRepeat> ken es un cabrón
+ <PeteRepeat> el muy cabrón me enterró ayer en la playa, aguanté 5 minutos y lo dejé allí tirado como un imbécil
+ <quiqsilver> pete, ken no volvió ayer a casa, creía que estaba contigo.
+ <PeteRepeat> no jodas.
+ <PeteRepeat> si aparece ken, que no sepa que estoy en la playa desenterrando su cadáver. no quiero que piense que me importa.
+ salir: (PeteRepeat)
+ <Thirteen-> me despollo. Ya verás qué sorpresa se llevan cuando se encuentren en la playa.
+ <Tyran> han aparecido en el momento perfecto
+
+#414593 +(20160)- [X]
+
+DragonflyBlade21: Una mujer tiene un amigo íntimo. Eso significa que él está interesado en ella, por eso pasa tanto tiempo con ella. Ella lo ve solo como un amigo. Siempre empieza con: "Eres genial, pero no me gustas de ese modo". Es el equivalente al tío que va a una entrevista de trabajo y le dicen: "Tienes un currículum genial, toda la preparación que buscamos, pero no te vamos a contratar". Pero usaremos tu currículum para comparar a los demás solicitantes. Aunque contrataremos a alguien mucho menos cualificado y que seguramente será alcohólico. Y si no nos gusta, contrataremos a otro, pero no a ti. De hecho, a ti nunca te contrataremos. Pero te llamaremos de vez en cuando para quejarnos de la persona contratada.
+
+#207373 +(20063)- [X]
+
+<anamexis> mi madre
+ <anamexis> me puse a abrir una coca
+ > Beefpile (~mbeefpile@cloaked.wi.rr.com) se ha unido #themacmind
+ <anamexis> y me explotó
+ <anamexis> POCO MÁS y en todo el teclado
+ <anamexis> pero la aparté justo a tiempo
+ <-- Beefpile ha salido (sois unos enfermos)
+ <anamexis> :<
+
+#835030 +(19334)- [X]
+
+<Khassaki> ¡¡¡¡HOLA A TODOS!!!!!
+ <Judge-Mental> pulsa la tecla de BLOQ MAYUS
+ <Khassaki> ¡¡¡GRACIAS!!! ¡¡¡ASÍ ME CUESTA MUCHO MENOS ESCRIBIR!!!
+ <Judge-Mental> mátame, camión
+
+#5775 +(18889)- [X]
+
+* ab se ha ido, si alguien habla en los próximos 25 minutos  por mí será bm
+   haciendo el gilipollas           
+ <ab> JA, JA, JA, OLVIDADLO, SOY UN CHUPAPOLLAS
+
+#330261 +(17967)- [X]
+
+<i8b4uUnderground> d-_-b
+ <BonyNoMore> ¿Cómo haces la b invertida?
+ <BonyNoMore> vale
+ <BonyNoMore> déjalo
+
+#4753 +(17719)- [X]
+
+<xterm> El problema de América es la estupidez. No digo que haya que castigar la estupidez con pena de muerte, pero ¿por qué no quitamos las etiquetas de seguridad y dejamos que el problema se resuelva solo?
+
+#23601 +(16195)- [X]
+
+<mage> ¿Qué le doy a mi hermana para que descomprima?
+ <Kevyn> No sé. ¿Unos laxantes?
+ <mage> no, me refería al WinZip.
+
+#111338 +(15799)- [X]
+
+<JonJonB> Solo por mero interés científico, he sustituido la palabra "varita" por "pirula" en el primer libro de Harry Potter
+ <JonJonB> Veamos el resultado…
+
+ <JonJonB> "¿Por qué no puedes hacer magia?", preguntó Harry.
+ <JonJonB> "Ah, bueno, yo también iba a Hogwarts, pero me expulsaron, si te digo la verdad. En mi tercer año. Me partieron la pirula por la mitad y todo
+
+ <JonJonB> Una pirula mágica… eso es lo que más deseaba Harry.
+
+ <JonJonB> "Sí, sí. Pensaba que no tardaría en verte. Harry Potter". No era una pregunta. "Tienes los ojos de tu madre. Parece que fue ayer cuando estuvo ella aquí, comprando su primera pirula. Veintiséis centímetros de largo, elástica, de sauce. Una preciosa pirula para encantamientos".
+ <JonJonB> "Tu padre, en cambio, prefirió una pirula de caoba. Veintiocho centímetros y medio. "
+
+ <JonJonB> Harry tocó la pirula. Sintió un súbito calor en los dedos. Levantó la pirula sobre su cabeza, la hizo bajar por el aire polvoriento y una corriente de chispas rojas y doradas estalló en la punta como fuegos artificiales, arrojando manchas de luz que bailaban en las paredes
+
+ <JonJonB> "Muévete", ordenó Hermione. Cogió la pirula de Harry, golpeó la cerradura y susurró: "¡Alohomora!"
+
+ <JonJonB> El trol no se daba cuenta de que Harry colgaba de su espalda, pero hasta un ser así podía sentirlo si uno le clavaba un palito de madera en la nariz, pues la pirula de Harry estaba en su mano cuando saltó y se había introducido directamente en uno de los orificios nasales del trol.
+
+ <JonJonB> Se inclinó y retiró su pirula de la nariz del trol. Estaba cubierta por una gelatina gris.
+
+ <JonJonB> Corrió al campo mientras tú caías, agitó su pirula y entonces se redujo la velocidad de tu caída. Luego apuntó a los dementores con su pirula. Y les arrojó algo plateado.
+
+ <JonJonB> Vale.
+ <JonJonB> Tengo la prueba definitiva
+ <JonJonB> de que J.K Rowling es una tía GUARRA que nos ha engañado a todos
+ <JonJonB> "Sí", dijo Harry, agarrando su pirula con mucha firmeza mientras se situaba en el centro del aula desierta.  Intentaba pensar en volar, pero algo se interponía… En cualquier momento, volvería a oír a su madre… aunque no debía pensarlo o la volvería a oír y no quería hacerlo… ¿o sí?
+ <melusine > O_______O
+ <JonJonB> Una enorme sombra plateada salió con fuerza del extremo de la pirula de Harry
+
+ <JonJonJonB> Después, con un suspiro, levantó su pirula y tocó la sustancia plateada con la punta.
+
+ <JonJonJonB> "¡Suéltame!", gritó Harry. Forcejearon unos segundos, Harry tiró con la mano izquierda de los dedos de su tío, que parecían salchichas, mientras mantenía bien agarrada su pirula en el aire.
+
+#349567 +(15313)- [X]
+
+Rabidplaybunny87: Vale, mis vecinos me odian, es oficial
+ GarbageStan23: ¿Por?
+ Rabidplaybunny87: Estábamos david, andrew y yo haciéndonos unos perritos calientes en una hoguera en el jardín. De repente oímos sirenas y vimos un camión de bomberos en la calle de delante.
+ Rabidplaybunny87: Salimos a ver qué pasaba ¡y la casa del vecino estaba en llamas!
+ GarbageStan23: ¡no jodas!
+ Rabidplaybunny87: Sí, llegamos, estaba la mujer llorando abrazada al marido, y nos quedamos allí mirando sin más, y luego nos echaron una mirada matadora durante unos diez segundos
+ Rabidplaybunny87: Resulta que estábamos mirando las llamas con las brochetas de las salchichas en la mano…
+ Rabidplaybunny87: peor momento imposible…
+
+#602698 +(15145)- [X]
+
+<death09>mi novia rompió conmigo y me mandó una foto suya con su nuevo churri en la cama
+ <ktp753>vaya tela.
+ <death09>Ya. Se la he reenviado a su padre
+
+#258908 +(15060)- [X]
+
+<Ben174> : si supieran que el 90 % de las horas extra que me pagan es porque me quedo jugando con el Kazaa cuando la banda ancha tira bien fuera de horas punta...
+ <ChrisLMB> : Si lo hiciera uno de mis empleados, lo despediría al instante.
+ <Ben174> : ¿Dónde trabajas?
+ <ChrisLMB> : Soy jefe de informática de LowerMyBills.com
+ *** Ben174 (BenWright@TeraPro33-41.LowerMyBills.com) Salir (saliendo)
+
+#670375 +(14934)- [X]
+
+<JonTG> Tío, tengo la polla tan grande que si la pusiera sobre el teclado, llegaría de la A a la Z
+ <JonTG> espera… mierda.
+
+#405221 +(14742)- [X]
+
+<T-Wolf> tío, mi novia me ha dejado por un marica que se llama Robert
+ <RdAwG20> no vivirás en Hope Mills, ¿no?
+ <T-Wolf> sí, ¿por qué?
+ <RdAwG20> ja, ja, por nada, ¿se llama alisson?
+ <T-Wolf> hijo de puta
+
+#104383 +(14611)- [X]
+
+bloodninja: Cariño, he tenido una noche dura, así que trátame bien
+ BritneySpears14: Vale.
+ bloodninja: Quítate los pantalones, amor.
+ BritneySpears14: Me los voy a quitar solo para ti, bloodninja.
+ bloodninja: Así me gusta. Yo ya me he puesto la túnica y el sombrero de hechicero.
+ BritneySpears14: Ah, me encantan los disfraces.
+ bloodninja: Y a mí.
+ BritneySpears14: Te beso lentamente en el pecho.
+ bloodninja: Invoco Erotismo de nivel 3. Te conviertes en una tía buena.
+ BritneySpears14: Oye…
+ bloodninja: Medito para recuperar mi maná antes de invocar el pollo del infinito de nivel 8.
+ BritneySpears14: No lo pillo.
+ bloodninja: Gasto mis reservas de maná para invocar un Polvo Poderoso del Más Allá.
+ BritneySpears14: Eres el peor rollo cibernético. Vaya paridas.
+ bloodninja: No me jo***, soy el hechicero más poderoso del lugar.
+ bloodninja: Te robo el alma e invoco un relámpago de nivel 1 000 000. Tu cuerpo explota y se convierte en una bruma sangrienta porque eres una druida de nivel 2.
+ BritneySpears14: No me mandes más mensajes, hijo de ****.
+ bloodninja: Los robots intentan taladrarme el cerebro, pero mi escudo relámpago inflige un ataque inmediato y los robots acaban entre llamas de metal.
+ bloodninja: El rey Arturo me felicita por destruir al malvado ejército de Repúblicas Socialistas Robots de Robotnik. Fin de la guerra fría. Reagan me roba mis logros y hace que parezca que fue mérito suyo.
+ bloodninja: ¿Sigues ahí, amor? Se me está poniendo dura.
+ bloodninja: ¿Amor?
+ --------------
+ BritneySpears14: Vale, ¿listo?
+ eminemBNJA: Sí, estoy listo.
+ BritneySpears14: Me gusta tu música, Em... Mola.
+ eminemBNJA: je, je, ya, la hago para las tías.
+ BritneySpears14: Pues nos gusta mucho. Te lo voy a demostrar.
+ BritneySpears14: Me quito el pantalón y te doy un masaje en ese cuerpazo.
+ eminemBNJA: Ah, cómo me gusta. Me he puesto la túnica y el sombrero de hechicero.
+ BritneySpears14: Qué po****, te dije que no me mandaras más mensajes.
+ eminemBNJA: *****
+ BritneySpears14: Como me escribas otra vez, te denuncio a la compañía y les digo que me mandaste porno infantil, ca****.
+ eminemBNJA: *****
+ eminemBNJA: tengo que acordarme de apuntar el nombre
+
+#178890 +(14081)- [X]
+
+*** Hablando ahora en #christian
+ -Word_of_God- Bienvenido a #christian, Abstruse, soy Bible Bot. Más información, escribe: /msg Word_of_God !info
+ <Abstruse> !kjv números 22:21
+ <Word_of_God>  Números 22:21 -- Así Balaam se levantó por la mañana, y enalbardó su asna y fue con los príncipes de Moab. -  (KJV)
+ *** SageRider ha vetado a: +b *!*@c211-30-208-111.rivrw3.nsw.optusnet.com.au
+ *** Word_of_God ha sido expulsado de #christian por SageRider (no se pueden decir palabrotas)
+ <Abstruse> Sé que nunca podré volver a este canal, pero ha merecido la pena verlo…
+
+#171987 +(13942)- [X]
+
+<Th3No0b> voy a ser el próximo hitler
+ <Th3No0b> Mataré a todos los judíos y a 1 payaso
+ <RageAgainsttheAmish> ¿por qué a un payaso?
+ <Th3No0b> ¿Lo ves? a nadie le importan los judíos
+ <RageAgainsttheAmish> me descojono
+
+#261501 +(13899)- [X]
+
+<jeebus> hoy vino el alfil a la iglesia
+ <jeebus> era un puto impostor
+ <jeebus> no se movió en diagonal ni una sola vez
+
+#104052 +(13532)- [X]
+
+<NES> xD
+ <NES> Me bajé una cosa de Napster
+ <NES> El mismo tío del que me la bajé se la bajó de mí justo cuando había acabado
+ <NES> Le mandé un mensaje: "¿Qué haces? Si me la acabo de bajar de ti"
+ <NES> "Quiero recuperar mi canción, cabrón"
+
+#262353 +(13190)- [X]
+
+<MooseOnDaLoose> Hola, Mike
+ <goatboy> ¿qué?
+ <MooseOnDaLoose> Nenaza.
+ <goatboy> ¿cómo?
+ <MooseOnDaLoose> Nenaza.
+ <goatboy> ¿y qué?
+ <MooseOnDaLoose> Nenaza.
+ <goatboy> ...
+ <MooseOnDaLoose> Nenaza.
+ <goatboy> no lo pillo
+ <MooseOnDaLoose> NI LO PILLARÁS.
+ <goatboy> cabrón
+
+#240849 +(12847)- [X]
+
+<Patrician|Away> ¿Y qué hace tu robot, sam?
+ <bovril> recopila datos del entorno que lo rodea y luego los descarta y choca contra las paredes
+
+#125283 +(12833)- [X]
+
+<Jeedo> hola, amor, ¿qué pasa?
+ <Indidge> pues… nada.
+ <Jeedo> ¿Me paso hoy por tu casa y echamos un polvo?
+ <Indidge> Espera… ¿querías hablar con mi hija?
+ <Jeedo> Sí, señora Miller… :-/
+
+#25464 +(12717)- [X]
+
+<kow`> "Solo hay 10 tipos de personas en el mundo… las que entienden código binario y las que no". 
+ <SpaceRain> Son 2 tipos de personas, kow.
+ <SpaceRain> IDIOTA
+
+#400459 +(12686)- [X]
+
+<Sonium> ¿Alguien de aquí sabe python?
+ <lucky> HHHHHSSSSSHSSS
+ <lucky> SSSSS
+ <Sonium> el lenguaje de programación
+
+#50891 +(12683)- [X]
+
+<Eticam> Estaba en clase de biología y la profesora dijo que el esperma contenía azúcar
+ <Eticam> Una niña preguntó que por qué no sabía dulce
+ <Eticam> Al darse cuenta de lo que había dicho, se puso roja como un tomate
+ <Eticam> Y la profe le dijo que el dulce se capta con la punta de la lengua, con con la parte que está donde la garganta
+ <Eticam> La niña empezó a llorar y se fue de clase ^^
+
+#21516 +(12541)- [X]
+
+<turno> Me muero por follarme a Michelle... y que se nos una también su hermana.
+ <Seeker> Oye, turno, ¿tu madre lee las publicaciones de bash.org?
+ <turno> ¡TE MATO, joder! !
+ <Seeker> ¿Tu madre no trabaja en la iglesia? Si leyera lo que has dicho se cabrearía mucho, ¿no?
+ <turno> Ni te lo imaginas, tío, en serio… me arruinarías la vida.
+ <Seeker> Tranqui, no lo publico.
+ [Privmsg] <Seeker> Oye, voy a pegar algo. ¿Lo publicas en bash.org?
+ [Privmsg] <opiate> ¿Lo de turno? ja, ja ¡qué cabronazo!
+ [Privmsg] <Seeker> je, je, su madre se lo carga, lo llevará a la iglesia a la que van y hará que el cura lo sodomice.
+ [Privmsg] <opiate> Sí, y luego nos matará él a nosotros, pero valdrá la pena ;)
+ [Privmsg] <turno> No lo vas a publicar, ¿no? No lo hagas, por favor. Te lo suplico.
+ [Privmsg] <Seeker> No lo publicaré:) y aunque lo hiciera, ella no sabe que tu alias, turno, es su hijo Michael Savu.
+ [Privmsg] <turno> *uf* supongo que tienes razón
+
+#9322 +(12328)- [X]
+
+<tag> Ouroboros: vamos a jugar al Pong
+ <Ouroboros> Ok.
+ <tag> |    .
+ <Ouroboros> .    |
+ <tag> |  .
+ <Ouroboros>    . |
+ <tag> | .
+ <Ouroboros>      | .
+ <Ouroboros> Ups
+
+#8814 +(12314)- [X]
+
+<Night-hen-gayle> Me tengo que ir.  Hay un tío a mi lado cotilleando lo que escribo, me está empezando a dar mal rollo.  Sí, tío que está a mi lado, hablo de ti.
+
+#85514 +(12297)- [X]
+
+<Reverend> IRC es un bloc de notas multijugador.
+
+#309397 +(12275)- [X]
+
+<VolteFace`> ¿No odias cuando cagas una mierda en el suelo y la oyes caer, pero luego no sabes dónde cayó y te pasas 5 minutos buscando?
+ <peng> ...
+ <peng> ¿qué?
+ <VolteFace`> mierda
+ <VolteFace`> quería decir cuando se te cae alguna mierda al suelo
+
+#127039 +(12275)- [X]
+
+<wolf> 1. Guarda todas las ofertas de tarjetas de crédito gratis que recibas y ponlas en un montón 
+ <wolf> 2. Guarda todos los cupones gratis que recibas y ponlos en otro montón 
+ <wolf> 3. Ahora abre los sobres franqueados que te vienen  
+        con las tarjetas de crédito. 
+ <wolf> 4. Coge los cupones del segundo montón y mételos en el sobre 
+        que tienes en la mano. 
+ <wolf> 5. Llena los sobres hasta arriba y sal a la calle 
+        silbando. 
+ <wolf> He recibido dos llamadas de las empresas de tarjetas de crédito 
+        diciéndome que han recibido un sobre con cupones en vez 
+        de mi solicitud. Me dijeron que no les había hecho gracia 
+        y que me habían enviado la factura de correo correspondiente. Les dije que metí los cupones 
+        en los sobres franqueados para que su negocio 
+        consiguiera tener más éxito. Me colgaron. 
+ <wolf> Estuve haciendo eso un mes hasta que me aburrí 
+        y tuve otra idea. Metí 33 céntimos en peniques en el sobre 
+        para que tuvieran que pagar EXTRA por el peso. Me llamaron para informarme 
+        del dinero, dije que me había equivocado y exigí la devolución. Después 
+        de gritar al encargado y al supervisor, accedieron 
+        a mi solicitud y me mandaron un cheque. Así que en este momento 
+        tengo un cheque de GTE Visa por valor de 33 céntimos.
+
+#608100 +(12110)- [X]
+
+<cassius_clay13> el otro día estaba con mi amigo bryan en un bar
+ <cassius_clay13> se cogió un ciego tremendo y dijo que iba a vomitar
+ <cassius_clay13> lo ayudé a ir al baño 
+ <cassius_clay13> pero estaban todos ocupados
+ <emoti_conartist> xD
+ <cassius_clay13> bryan juega al rugby… es enorme
+ <cassius_clay13> le dio una PATADA a la puerta y la abrió
+ <cassius_clay13> dentro había un tío cagando
+ <emoti_conartist> ja, ja, ja, ja
+ <cassius_clay13> y bryan le echó la pota ENCIMA
+ <cassius_clay13> después (esto es lo mejor), bryan pensó: "Mierda, si yo estuvera cagando y alguien me potara encima, le daría una paliza".
+ <cassius_clay13> total que le dio un puñetazo en toda LA CARA al tío
+ <cassius_clay13> y se largó
+ <cassius_clay13> imagínate el tío… LA PEOR NOCHE DE SU VIDA
+
+#434593 +(11993)- [X]
+
+*** Asunto en #doghouse: "Estamos con las 17 víctimas del reciente fraude por Internet"
+ * Anubis se ha unido a #doghouse
+ <Anubis> ¿Qué fraude?
+ <Kadmium> ¿No te has enterado?
+ <Anubis> ¿no?
+ <Kadmium> Puedes leer toda la historia en http://www.tubgirl.com
+ <Anubis> ¡no jodas!
+ *** Kadmium cambia al asunto a "Estamos con las 18 víctimas del reciente fraude por Internet"
+
+#9501 +(11921)- [X]
+
+<AgentSmith> Parece que ha estado llevando una doble vida, señor Anderson. En una vida es Robert Anderson, ayudante de cocina en un Jack in the Box de Mesquite. En la otra, utiliza el alias "Randerson" para hacer propaganda homosexual, contar mentiras y ser un niñato inmaduro en general…
+ <AgentSmith> Una de esas vidas… tiene un futuro.
+ <Randerson> xD QUÉ BUENO ¿Dónde está el móvil? Tengo que contárselo a Dean
+ <AgentSmith> ¿Cómo piensa usar el teléfono si no puede… hablar?
+ *** AgentSmith ha vetado a: +m
+
+#77904 +(11181)- [X]
+
+<Sui88> El 67 % de las tías son idiotas
+ <V-girl> yo pertenezco al otro 13 %
+
+#201579 +(11180)- [X]
+
+<by> ¿Cómo puedo contarle al mundo que soy un idiota?
+ <Seven7> Fácil, escribe tu nombre, dónde vives y tu confesión
+ <by> Ok
+ <by> ¿Soy Mark Duval de Bélgica, y soy idiota
+ <by> ?
+ <by> ¿Y ahora qué?
+ <Seven7> No te preocupes. Ya está hecho
+
+#412248 +(11135)- [X]
+
+<Locl-Yocl> Ayudé a los servicios de emergencia en un accidente de coche y acabé cubierto de sangre. Parecía que había matado a 20 personas con un tenedor… entré en una tienda y dije que mi novia necesitaba un tampón. Al tío del mostrador casi le da algo.
+
+#790133 +(11081)- [X]
+
+<third_planet> El otro día, mi amigo consiguió algo de costo y queríamos fumar, pero no teníamos dónde porque estaban nuestros padres en casa.
+ <third-planet> Así que buscamos un aparcamiento para poder fumar en el coche.
+ <third-planet> Al final acabamos en un aparcamiento de Wendys…
+ <Mr-Butlertron> Muy lógico, sí…
+ <third-planet> Ya lo sé, fue una idea absurda. Estábamos desesperados y fue el primer lugar que encontramos.
+ <third-planet> Total que aparcamos debajo de un árbol, estaba oscuro y pensamos que estábamos bastante escondidos. Encendemos el porro y se para un poli. Nos quedamos quietos a ver si el poli pensaba que el coche estaba vacío y aparcado sin más. O si no nos veía.
+ <third-planet> El poli dio una vuelta al aparcamiento y aparcó detrás de nosotros. Así que mi amigo Bobby cogió el costo y lo metió en la guantera. Pero el coche olía a costo, y pensamos que nos había pillado. 
+ <third-planet> Bobby dijo que teníamos que distraer al poli del costo. En un segundo, se quitó la camiseta, me desabrochó el pantalón y me metió dentro la mano. Antes de procesar lo que pasaba, el poli golpeó la ventanilla. Miró y vio a Bobby sin camiseta con la mano en mis pantalones y se puso como un tomate. 
+ <third-planet> Bajo la ventanilla y me dice el poli con voz aturullada y la cara roja: "Sed buenos". Se subió al coche y se largó.
+ <third-planet> Ni se fijó en el olor a porro.
+ <third-planet> Volvimos a casa en un silencio incómodo de cojones.
+
+#406373 +(11068)- [X]
+
+<[TN]FBMachine> una vez me echaron de una librería por colocar todas las biblias en la sección de ficción
+
+#328464 +(10807)- [X]
+
+SparTacus (rulimbaww@3B942731.dsl.stlsmo.swbell.net) se ha unido a #santcuary
+ *SparTacus se llama ahora Betty_Guns
+ wacko Jacko (lbeedy@1C57684.dsl.stlsmo.swbell.net) se ha unido a #santcuary
+ <wacko_Jacko>ok spartacus acaba de meterse aquí. ¿Quién de vosotros es ese mamón?
+ <hunney> Yo soy spartacus
+ <ji_pper>no, yo soy spartacus
+ <Betty_Guns>soy spartacus
+ <mistr andersn>soy spartacus
+ <wacko_Jacko>sois todos unos frikis 
+
+#142934 +(10663)- [X]
+
+docsigma2000: joder
+ docsigma2000: me voy a cargar a mi hijo
+ c8info: ¿Por?
+ docsigma2000: ha estado navegando en páginas web de EUROPA, tócate los huevos
+ docsigma2000: ESTÁ NAVEGANDO A LARGA DISTANCIA
+ docsigma2000: nos va a llegar una factura acojonante 
+ c8info: Vaya, qué mal. Navegar a larga distancia cuesta 69,99 $ extra la hora.
+ docsigma2000: ...!!!!!! JODER JODER JODER
+ docsigma2000: ¿y no puedo apuntarme a algún plan?
+ docsigma2000: porque en europa hay cosas que molan, pero no quiero pagar tanto
+ c8info: No, lo siento. No hay ningún plan. tendrás que vivir con ello. 
+ docsigma2000: bueno, puedo vivir sin páginas web europeas.
+ docsigma2000: pero hasta que sepa cómo bloquearlas, me lo voy a cargar 
+ c8info: Por cierto, yo soy europeo, estás chateando a larga distancia
+ ** docsigma2000 ha salido (Conexión restablecida por otro)
+
+#8102 +(10604)- [X]
+
+<glome> ¿Quién robó el pan de la casa de San Juan?
+ <content> ¡glome robó el pan de la casa de San Juan!
+ <glome> ¿Quién, yo?
+ <content> ¡Sí, tú!
+ <glome> ¡Yo no he sido!
+ <content> Entonces ¿QUIÉN?
+ <glome> ¡Woody robó el pan de la casa de San Juan!
+ *** glome ha sido expulsado por DrWoody (que te jodan, yo he tocado el pan de nadie, cabrón)
+
+#180081 +(10451)- [X]
+
+<kylev> JAJAJAJAJAJAJAJAJAJA
+ <kylev> jajajajajajajajaja
+ <kylev> acaba de aparecer una tía en nuestra planta
+ <kylev> ofreciendo favores sexuales al que le hiciera su trabajo de sociología
+ <kylev> le pregunté de qué trataba el trabajo
+ <kylev> y me dijo que de los logros y el ascenso del feminismo
+ <`Neo> jajajajajaja
+
+#334762 +(10401)- [X]
+
+<UKDJ|Planet> te juro por dios
+ <UKDJ|Planet> que acabo de oír a un pato contar un chiste
+ <Jock> va…le
+ <UKDJ|Planet> había una manada de patos en un estanque cerca de donde vivo
+ <UKDJ|Planet> uno de los patos iba alejándose y graznando, mirando directamente a una manada de unos diez patos
+ <UKDJ|Planet> de pronto se paró y los demás patos se volvieron locos
+ <UKDJ|Planet> parecía un monólogo de patos
+
+#120296 +(10363)- [X]
+
+<link>érase una vez un día, gris como pocos, estaba surfeando la web en busca de porno cuando, débil y agotado, me topé con la espuria "cachondas xxx a gogó". Al hacer clic sobre mi marcador favorito apareció un mensaje de advertencia, y mi corazón se llenó de pena, triste quedé llorando a mi querido amor: "No es posible, devuélveme mi porno gratis", susurré… el servidor replicó un simple 404.
+ <hokage> *llora*, aterrador...
+
+#262417 +(10214)- [X]
+
+<_kr4m3r> es acojonante la de delincuentes que hay
+ <foniks`> oye, si mandáramos a todos los delincuentes a un continente vacío, los dejáramos morir allí
+ <foniks`> y apareciéramos 50 años más tarde diciendo: "¿Qué pasa?"
+ <foniks`> ¿qué crees que dirían?
+ <FoSZoR[bg]> algo así como "buen día, colega"
+
+#368808 +(10212)- [X]
+
+<@David> ¡Bien! ¡Hoy mi jefa me va dar lo que tanto estaba esperando! Hace un mes y ya no aguanto más
+ <@Sony> ...........
+ <@Sony> Demasiada información
+ <@David> Solo por unos euros, pero es mejor que nada
+ <Malpine> Gracias por la información
+ <@David> ¿qué?
+ <@David> que hoy cobro la nómina
+ <@David> ¿de qué pensabas que hablaba?
+ <@David> coño
+
+#151227 +(10189)- [X]
+
+IronChef Foicite: bueno, son muchas razones
+ IronChef Foicite: las rosas solo durante un par de semanas
+ IronChef Foicite: y eso si las dejas en agua
+ IronChef Foicite: y solo existen para ser bonitas
+ IronChef Foicite: o sea que es como decir
+ IronChef Foicite: "mi amor por ti es temporal y se basa solo en tu apariencia"
+ IronChef Foicite: ahora piensa en una patata
+ IronChef Foicite: las patatas duran un año, tío
+ IronChef Foicite: de hecho, no solo no se pudren, sino que echan raíces si las dejas en la bolsa
+ IronChef Foicite: solo eso ya es buen síntoma
+ IronChef Foicite: pero hay más
+ IronChef Foicite: hay muchas formas de disfrutar de una patata te sirve hasta para hacer una batería
+ IronChef Foicite: y eso es como decir: "te demuestro mi amor de muchas maneras"
+ IronChef Foicite: y puede que las patatas sean feas, pero son la caña
+ IronChef Foicite: y eso es como decir: "seas como seas, te seguiré queriendo"
+
+#6460 +(10159)- [X]
+
+<studdud> ¿por qué xD parece una cara riéndose?
+
+#14207 +(10021)- [X]
+
+<h|tler> ¿¿¿CÓMO COÑO SAVES QUE TENGO 13 AÑOS POR MI FORMA DE ESCRIVIR?????
+
+#136524 +(10003)- [X]
+
+<Raven> Intenté usar "pene" de contraseña de hotmail.
+ <Raven> Me puso que mi contraseña no era lo bastante larga. :(
+
+#83627 +(9942)- [X]
+
+<scirDSL> Odio ir a bodas. Todas las abuelas vienen y me dicen: "Eres el siguiente". Dejaron de hacerlo cuando empecé a hacérselo yo en los funerales.
+
+#88575 +(9876)- [X]
+
+<Stormrider> Debería bombardear algo
+ <Stormrider> …y por comentarios como este no suelo mantener conversaciones largas 
+ <Stormrider> Por si el FBI necesita indagar algo sobre mí
+ <Elzie_Ann> Seguro que pueden conseguirlo de alguien que SÍ tenga conversaciones largas.
+ *** FBI se ha unido a #gamecubecafe
+ <FBI> Lo hemos visto igualmente.
+ *** FBI ha salido IRC (Salir: )
+
+#246405 +(9846)- [X]
+
+<[BAC]Draxon|TWL>  "¡Los animales se van a enterar!", rugió la pingüina lameorejas mientras el enano bien dotado le chupaba las supurantes domingas enchufando su morada tercera pierna en el  
+ <[BAC]Draxon|TWL> vaya
+ <[BAC]Draxon|TWL> me he equivocado de ventana
+ <d|syztem> qué COJONES
+
+#362137 +(9810)- [X]
+
+<reo4k> escribe /salir quien sea para que salga del irc
+ * luckyb1tch ha salido de IRC (r`heaven)
+ * r3devl ha salido de IRC (r`heaven)
+ * sasopi ha salido de IRC (r`heaven)
+ * phhhfft ha salido de IRC (r`heaven)
+ * blackersnake ha salido de IRC (r`heaven)
+ <ibaN`reo4k[ex]> qué mal rollo
+ <r`heaven> :(
+
+#334331 +(9750)- [X]
+
+<LordChewy> mi padre encontró mi carpeta de porno
+ <LordChewy> y se pilló un cabreo impresionante
+ <LordChewy> me dijo: "¿Te ha sorprendido? No soy imbécil"
+ <LordChewy> "ya lo sé, papá"
+ <LordChewy> "¿qué tienes que decir en tu favor?"
+ <LordChewy> en ese momento, lo miré a los ojos y le dije "C:Documents and SettingsRickyMy Documentsfaxessent faxes"
+ <LordChewy> y se calló
+ <kingKahn> ¿y eso qué es?
+ <LordChewy> su carpeta de porno
+
+#329292 +(9603)- [X]
+
+<Batty> Eh, a oño le falta una letra. una c.
+ <zeep> oñoc?
+ <Batty> ...
+ <Batty> Coño, idiota. has puesto la c al otro lado.
+ <zeep> moño
+ <Batty> Aunque también podría faltarle una a
+ <zeep> ¿qué cojones es oñoa?
+ * Batty se da de cabezazos contra la pared
+
+#577451 +(9557)- [X]
+
+<DmncAtrny> Voy a escribir en un bloque enorme de cemento "SI ACEPTAS ESTE LADRILLO POR LA VENTANA, LO ACEPTAS TAL Y COMO ES, SIN HACERME RESPONSABLE DE NINGUNA GARANTÍA, EXPRESA O IMPLÍCITA, ASÍ COMO DE NINGUNA RESPONSABILIDAD, DIRECTA, INDIRECTA, RELEVANTE O FORTUITA, QUE PUEDA SURGIR DE LA INSTALACIÓN DE ESTE LADRILLO EN TU EDIFICIO".
+ <DmncAtrny> Luego lo lanzaré por la ventana de un agente de Sony
+ <DmncAtrny> y saldré por patas
+
+#126218 +(9490)- [X]
+
+<WiLdSeXyPrInCeSs> adoro a los tíos, ¿dónde estarían sin nosotras?
+ <XeNoX> Seguiríamos en el jardín del Edén, zorrón.
+
+#6441 +(9397)- [X]
+
+<Zanthis(ALE)> ausente del teclado por tornado
+
+#758379 +(9381)- [X]
+
+< Alkivar> el otro día volvíamos de salir de fiesta el fin de semana en Nueva York… era domingo por la tarde, íbamos hacia el oeste
+ < Alkivar> íbamos a 200-220 km/hora
+ < Alkivar> al pasar, había un coche patrulla en un lado de la carretera
+ < Alkivar> encendió las luces, puso la sirena y empezó a perseguirnos
+ < Alkivar> no sabíamos si parar o no, porque no nos iba a pillar
+ < Alkivar> al final nos portamos y paramos
+ < Alkivar> el poli nos alcanzó, vino apuntándonos con la pipa, cabreadísimo
+ < Alkivar> se acercó al coche y dijo:
+ < Alkivar> "ENSÉÑAME TU LICENCIA DE PILOTO"
+ < Alkivar> Jason sacó su puta licencia de piloto
+ < Alkivar> el poli se quedó con la boca abierta
+ < Alkivar> con una cara de flipado que alucinas
+ < Alkivar> y casi gimoteando, dijo: "Largo de aquí"
+ < Alkivar> no nos multó… debió de darle demasiado palo
+ < Alkivar> En mi vida olvidaré ese día
+ < Alkivar> Pensé que nos mandaba a la cárcel
+
+#830747 +(9336)- [X]
+
+<Montana> ya, pero chino para cenar… Yo voto por pito Pekín
+ <Dauntless> … ME MEO
+ <Montana> vaya, ya estamos
+ <Dauntless> ¿Puedes decir bash.org?
+ <Montana> ¿por? para sumarlo al otro millón de citas de gente al azar que dice que le gustan las pichas… perdón, los ordenadores, quería decir.
+ <Montana> A la mierda
+ <Montana> Si me van a citar, quiero hacerlo a lo grande:
+ <Montana> MONTY PRESENTA LA CITA DEFINITIVA
+ <Montana> JODER, acaba de entrar mi hermana en bolas en mi habitación y antes de poder montármelo con ella le prendió fuego/otros medios de destrucción a mi cuarto, pero como soy un friki no se me ocurre salir del irc y solucionarlo. 
+ <Montana> En vez de eso, me puse a hablar de ordenadores: ¡DIOS, MI ORDENADOR TIENE UN VIRUS! AH, NO, ESPERA, ES WINDOWS/LINUX/MAC/NORTON/AOL. Ahora, el chiste obligatorio de Windows ME donde el nombre del producto se confunde con el pronombre "yo" en inglés.
+ <Montana> ¡ME ES MUY GAY! ¡VAYA, ASÍ PARECE QUE HE DICHO QUE YO SOY MUY GAY, CUANDO ME REFERÍA A LA HOMOSEXUALIDAD DEL SISTEMA OPERATIVO! ¡QUÉ VERGÜENZA!
+ <Montana> Y ahora, tema sexual:
+ <Montana> TENGO UN GF.. GF SE REFIERE A UN COMPUTE STICK GFORCE 20MB 3.45 RETRO POWER MAX CAPAZ DE FOLLARSE A SUPERMAN
+ <Montana> Además, hago referencia al valor del sexo y a mi falta de actividad sexual.
+ <Montana> Mmm
+ <Montana> ¡Se me olvida lo más importante! ¡La falta de relaciones sociales!
+ <Montana> JODER, subí la persiana, hacía sol y vi a un tío con el pecho hinchado, dije: "¿Qué coño es eso?" Mi padre dijo: "Es una chica". Dije: "¿Qué cojones es una chica?" Y cogí y me descargué 50 GB de porno.
+ <Montana> </fin del chorreo>
+ <Montana> Pero bueno, como decía… voy a cenar… ahora vuelvo
+ <Dauntless> o_o
+
+#409 +(9155)- [X]
+
+<DaZE> en mi colegio… vino un tío a hablarnos de drogas y pasó 3 porros para enseñárselos a la clase… Dijo: "Si no recupero los tres, cerraré el colegio y registraré a cada alumno hasta que aparezcan". 30 minutos después, cuando todo el mundo los había visto y se los devolvieron, había 4
+
+#870063 +(9073)- [X]
+
+<djahandarie> soy el rey de la informática
+ <djahandarie> todo lo hago con mucha práctica
+ <djahandarie> mira cómo lo peta mi rima
+ <djahandarie> en toda esta pantomima
+ <djahandarie> a mí nadie me subestima
+ <djahandarie> ya ves
+ <http402> Vas de buen programador
+ <http402> Pero eres lo peor
+ <http402> Siempre con tu ordenador
+ <http402> Dándole al interruptor.
+ <http402> Deja ya de vacilar
+ <http402> Que no sabes programar
+ <http402> Te crees el puto amo
+ <http402> Cuando eres un pringado
+ <http402> paz
+ <djahandarie> me hablas de programar
+ <djahandarie> y no sabes ni formatear
+ <djahandarie> en tu nuevo curro mucho no vas a durar
+ <djahandarie> no entiendes código fuente
+ <djahandarie> ni aunque lo lleves en la frente
+ <djahandarie> te lo tienes muy creído
+ <djahandarie> ya tendrás tu merecido
+ <http402> Vas de experto por la vida
+ <http402> Más dura será tu caída
+ <http402> ¿Dices que controlas? ¡Déjate de trolas!
+ <http402> Cualquier niñato hoy en día
+ <http402> A ti te vacilaría
+ <http402> Lo tuyo es aporrear el teclado
+ <http402> Como un tonto desquiciado
+ <http402> Asúmelo. Pringado.
+ <djahandarie> Cuando quieras te demuestro
+ <djahandarie> si soy un niñato
+ <djahandarie> ya verás cómo descubres
+ <djahandarie> que lo mío es innato
+ <djahandarie> no intentes estar a mi altura
+ <djahandarie> no sabes ni hacer capturas
+ <djahandarie> todo el día ahí sentado
+ <djahandarie> con el culo pegado
+ <djahandarie> horas y horas frente a la pantalla
+ <djahandarie> para luego no dar la talla
+ <http402>Solo te queda reconocer
+ <http402> Quién de los dos es superior
+ <http402> No hay que ser muy listo para saber
+ <http402> Quién de lo dos es el mejor
+ <http402> Ahora solo hace falta 
+ <http402> Felicitar al vencedor
+ <http402> Y tendrás que asumir
+ <http402> Que no dominas ni el cursor
+ <http402> Mejor vete a dormir
+ <http402> Y descansa tu cerebro
+ <http402> A ver si así te despiertas cuerdo
+ <djahandarie> Mi madre, no puedo responder a eso :P
+ <djahandarie> Tú ganas, jaja
+ * http402 saluda
+
+#462310 +(9071)- [X]
+
+< robT> Di UNA cosa que tu ordenador windows pueda hacer y mi MAC no pueda
+ < bawss> Clic derecho.
+
+#376790 +(8996)- [X]
+
+Mike3285: wtf es un palíndromo
+ MaroonSand: no, tío, no lo es
+
+#574642 +(8979)- [X]
+
+* Porter se llama ahora PorterCONOVIATÍABUENA
+ <Strayed> ¿sale con su tía?
+
+#214810 +(8939)- [X]
+
+<Fulgore> ¿qué es un niño complejo?
+ <sparks> uno con la madre real y el padre imaginario.
+ <Fulgore> que te den
+
+#583977 +(8799)- [X]
+
+<DannyB> una chica me preguntó por la calle si ya estaba salvado
+ <DannyB> le dije que había guardado en el último control hace un par de minutos
+ <DannyB> y que podía continuar desde allí si moría
+ <DannyB> puso cara de póquer
+
+#352172 +(8768)- [X]
+
+<NHBoy> ¿Cómo se llamará este músculo?
+ <rycool> ...
+ <NHBoy> Trapecio.
+ <NHBoy> Yo a ti también, y mucho.
+
+#365072 +(8702)- [X]
+
+<xxxGirlygirlxxx> Gracias por escucharme.
+ <xxxGirlygirlxxx> Siempre estás dispuesto a escuchar.
+ <xxxGirlygirlxxx> Cariño, dime algo, por favor.
+ <Sandaedar> Vale, ya he vuelto.
+
+#1730 +(8690)- [X]
+
+<Mikkel> Si fueras de camping, te pillaras un ciego TREMENDO con tu amigo 
+ y te despertaras al día siguiente con un condón metido en el culo, ¿se lo contarías a alguien? 
+ <Celestya> no creo 
+ <Mikkel> ¿Nos vamos de camping?
+
+#628630 +(8682)- [X]
+
+<samsim> dicen que un tío se coló en el recinto de un león en el zoo
+ <samsim> y acabó magullado
+ <samsim> la gente dijo que tendría que haber más defensas para evitar que la gente pueda entrar en la jaula
+ <samsim> un amigo mío propuso una forma de disuadir a la gente
+ <samsim> por ejemplo, meter a un animal feroz en la jaula, que ataque a todo el que se acerque
+
+#420855 +(8681)- [X]
+
+gentoogod: madre de dios
+ gentoogod: hoy conocí a las tres personas más cortas del mundo
+ gentoogod: sus 3 cerebros juntos no pudieron resolver el dilema al que se enfrentaron
+ siral21: ¿qué pasó?
+ gentoogod: vale, antes te diré
+ gentoogod: que pasó tal que así, es 100 % verídico
+ gentoogod: una señora fue a mcdonalds y pidió una big mac para ella
+ gentoogod: luego pidió 2 mcgrittles para sus dos hijos. uno con beicon y otro sin
+ gentoogod: los hijos tenían como 18 o 19 años, no eran pequeños
+ gentoogod: fue al mostrador furiosa porque el hijo que quería beicon no tenía y el que no lo quería, sí tenía beicon
+ gentoogod: me tiré al suelo sin parar de reír
+ gentoogod: al final le pedí que me lo repitiera, por si estaba borracha
+ gentoogod: te juro por dios que me miró a la cara y me repitió lo mismo. y los 2 hijos estaban a su lado cabreados por no haber recibido lo que habían pedido
+
+#217453 +(8661)- [X]
+
+<@Chin^> La otra semana, mi hermana me pilló masturbándome y me llamó pervertido
+ <@Chin^> el otro día entré en su cuarto y pillé a mi hermana masturbándose
+ <@Chin^> ¿Y me vuelve a llamar pervertido?
+ <@Chin^> qué mundo tan injusto…
+
+#1578 +(8605)- [X]
+
+<calin> había un tío del instituto que se pintaba los labios de negro... iba de rollo gótico… y un día lo pillamos comprando un vibrador anal 
+ <ecoli> qué asco.
+ <ecoli> espera, ¿cómo que lo pillasteis?
+ <ecoli> ¿estabais en la cola de la tienda de vibradores anales?
+ <Aero> no contesta
+ *** Salidas: calin (sin ruta al anfitrión)
+
+#117002 +(8602)- [X]
+
+<YuFFie> ASÍ QUE ME VAS A HACKEAR, ¿EH?
+ <YuFFie> PUES QUE SEPAS QUE AHORA TENGO MÁS CORTAFUEGOS, ESTOY A SALVO, ADEMÁS USO WINDOWS 98 ASÍ QUE ESTOY A SALVO DE HACKERS COMO TÚ. RÍNDETE YA QUE NO TIENES NADA QUE HACER.
+ * YuFFie (~mirc@3B942731.dsl.stlsmo.swbell.net) Salir (Salir: humillación.)
+ * YuFFie (~mirc@3B942731.dsl.stlsmo.swbell.net) se ha unido a #
+ <YuFFie> AYUDA, MI RATÓN SE MUEVE SOLO
+
+#2999 +(8602)- [X]
+
+<kyourek> Las temperaturas han descendido un 23 %.
+ <nappyjallapy> ¡Eso es casi un 25 %!
+ <kyourek> …ha sido uno de los comentarios más ineptos que he oído.
+
+#424487 +(8597)- [X]
+
+JstWnnaHveFuN08: ¿crees que debería llamar a un amigo para contarle mis problemas? ¿o pasará de mí?
+ Thilo: La cosa funciona así: si un tío te ayuda con tus problemas, estás obligado a hacerle una mamada.
+ JstWnnaHveFuN08: jaja gracias, me has animado
+ Thilo: No hay de qué. Me debes una mamada.
+
+#12431 +(8597)- [X]
+
+<Hiroe> iba disfrazado de demonio
+ <Hiroe> llevaba un disfraz GIGANTE
+ <Hiroe> Alas de lagarto de dos metros, unos cuernos enormes
+ <Hiroe> en una convención de anime de california
+ <Hiroe> resulta que le alquilaron la misma habitación de hotel a un grupo baptista del sur
+ <Hiroe> iba en el ascensor camino de la convención
+ <Hiroe> se abre la puerta y aparece la mujer baptista
+ <Hiroe> y va él y dice "estamos bajando" con una voz de maligno total
+
+#10958 +(8596)- [X]
+
+(morganj): 0 es falso y 1 verdadero, ¿correcto?
+ (alec_eso): 1, morganj
+ (morganj): cabrón.
+
+#139697 +(8593)- [X]
+
+<frank> ¿me ayudas a instalar GTA3?
+ <knightmare> primero, cierra todos los programas que no estés usando
+ frank ha salido de IRC. (Salir)
+ <knightmare> ...
+
+#665807 +(8592)- [X]
+
+coño, es zack, qué fuerte: mi profe de mates grapa solicitudes de empleo de burger king a los que suspenden
+
+#202477 +(8592)- [X]
+
+(Mootar) mamones.
+ (Mootar) los vecinos de mi edificio están conectados a mi wifi
+ (Mootar) deben de creerse unos megahackers por haber entrado en mi red desprotegida
+ (Mootar) por desgracia, la conexión funciona en ambos sentidos
+ (Mootar) conclusión, que ahora tienen el ordenador lleno de porno con caballos
+
+#348498 +(8591)- [X]
+
+<MasterG> .....................................................................
+           ..................................
+ <judas> ¿dónde está pacman cuando lo necesitas?
+
+#283491 +(8591)- [X]
+
+<BronsonTheBeef> Iba a venir un invitado a hablar a una de mis clases
+ <BronsonTheBeef> para hablarnos de diversidad, racismo y esas mierdas
+ <BronsonTheBeef> la profe no lo conocía…
+ <BronsonTheBeef> de repente entra el típico negro con pinta de gánster de gueto
+ <BronsonTheBeef> llevaba una cadena de oro al cuello, vestido con ropa ancha y todo eso
+ <BronsonTheBeef> llevaba un reloj de oro y un anillo en cada dedo, y olía a maría y a birra
+ <BronsonTheBeef> llevaba hasta una media en la cabeza y un cigarrillo detrás de la oreja 
+ <BronsonTheBeef> entró en plan rapero, haciendo gestos con las manos
+ <BronsonTheBeef> la profe le dijo: "¿Eres jeff?"
+ <BronsonTheBeef> dijo: "claro, zorra". Y nos soltó: "¿Qué pasa, mamones?" 
+ <BronsonTheBeef> se puso a mover los brazos y a cantarnos cosas sin sentido
+ <BronsonTheBeef> ella le dijo que nos hablara de diversidad y eso
+ <BronsonTheBeef> y él empezó a hablar del abuso de los blancos, que son unos capullos
+ <BronsonTheBeef> un minuto después entró otro negro trajeado
+ <BronsonTheBeef> y dijo: "Siento el retraso"
+ <BronsonTheBeef> resulta que el primer negro estaba fumado. no iba ni a la universidad
+ <BronsonTheBeef> quería vender maría en la residencia universitaria
+
+#369 +(8591)- [X]
+
+<Beeth> Las tías son como los nombres de dominios, las que me gustan ya están pilladas.
+ <honx> bueno, siempre puedes conseguir una de un país raro :-P
+
+#514353 +(8590)- [X]
+
+<Insomniak`> puto Google de mierda
+ <Insomniak`> "The" es una palabra común y no se ha incluido en tu búsqueda
+ <Insomniak`> "Who" es una palabra común y no se ha incluido en tu búsqueda

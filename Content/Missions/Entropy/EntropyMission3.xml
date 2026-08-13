@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission03">
+  <goals>
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS.rar" path="bin" />
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Data.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#IS" file="HacknetOS_Content.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS.rar" path="bin" />
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Data.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#MF" file="HacknetOS_Content.xnb" path="bin" />
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS.rar_backup" path="bin" />
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Data.xnb_backup" path="bin" />
+    <goal type="FileDeletion" target="corp0#BU" file="HacknetOS_Content.xnb_backup" path="bin" />
+  </goals>
+  <missionStart val="0">entropyEndMissionSetup</missionStart>
+  <nextMission>AlphaCreditsMission.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>A Final Task</subject>
+    <body>
+#PLAYERNAME#, 
+
+This is the final thing the entropy group will directly ask of you - if you succeed or fail, it will be far too risky for us to maintain such.. personal contact.
+
+This mission is one of eradication. A large corporation we have been keeping tabs on for some time is developing a new operating system known as "HacknetOS", based on the research of the recently deceased hacker "Bit".
+This is a huge threat to the security of the digital world as we know it - the tools this system provides can make the process of hacking possible for even the most basic user with some small training.
+
+This threat needs to be completely eliminated.
+You have the *full* support of entropy on this matter, and as such, two powerful (and expensive) new tools have been added to the Entropy asset server for you to use in this task. You will likely need them. I suggest retrieving them immediately.
+
+Attached is a link to the internal services machine of the corporation responsible for this. They will have several backups, no doubt, and you will need to scan their network thoroughly to make sure all traces of this threat are completely removed.
+
+We wish you the best of luck. Do not fail us.
+-Tex
+    </body>
+    <attachments>
+      <link comp="corp0#IS" />
+    </attachments>
+  </email>
+</mission>

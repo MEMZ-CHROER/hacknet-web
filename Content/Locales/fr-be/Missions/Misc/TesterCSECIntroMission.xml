@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitMission00">
+  <goals>
+    <goal type="getAdmin" target="practiceServer"/>
+  </goals>
+  <missionStart val="0">CSECTesterGameWorldSetup</missionStart>
+  <missionEnd val="0">AffecterJoueurFactionServeurHub </missionEnd>
+  <nextMission>MainHub/Intro/Intro01.xml</nextMission>
+  <email>
+    <sender>Matt Trobbiani</sender>
+    <subject>Mission secrète de test super spéciale</subject>
+    <body>
+    Hé,
+      
+ Merci pour ton aide ! Ceci est une mission conçue pour te familiariser de nouveau avec les mécanismes de piratage.
+    Tu as a ta disposition une série de nœuds admin et ton ensemble de 4 programmes de base (SSHCrack, WebServerWorm, SMTPOVerflow, FTPBounce).
+       
+ Obtient l'admin sur l'ordinateur relié et répond à ceci pour continuer.
+    En faisant cela tu seras envoyé directement au niveau CSEC où tu pourras commencer à accepter des contrats plus récents.
+    N'oublie pas de te rendre sur le serveur d'actifs CSEC d'abord !
+       
+   -Matt   
+    
+    
+ .
+    
+    
+    </body>
+    <attachments>
+      <link comp="practiceServer"/>
+    </attachments>
+  </email>
+</mission>

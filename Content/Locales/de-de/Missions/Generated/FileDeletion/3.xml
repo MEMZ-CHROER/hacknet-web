@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <generationKeys File="#LC_CLIENT#_delivery.zip" Path="home"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# : Geschäft geplatzt">
+Eine Firma hat kürzlich eine wertvolle Software "erworben", weigert sich aber zu bezahlen. Lösche, was ihnen nicht zusteht.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - Widerrufsbelehrung</subject>
+    <body>
+Guten Tag,
+
+ein Geschäftskunde hat vor einiger Zeit ein kostspieliges Softwarepaket von uns, #CLIENT#,  gekauft. Doch scheint das Unternehmen nicht gewillt, dieses auch zu bezahlen. Außerdem können wir nicht rechtlich gegen sie vorgehen, da sie sich eine Gesetzeslücke zu Nutze gemacht haben, die dies verhindert.
+Da kommen Sie ins Spiel. Wir hätten gerne, dass Sie ihrem Server einen Besuch abstatten und das unrechtmäßig erworbene Paket entfernen. Wir liefern unsere Softwarepakete als Archiv, welches "#FILE#" benannt sein sollte.
+
+Vielen Dank für Ihre Unterstützung.
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

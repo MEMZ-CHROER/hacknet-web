@@ -1,0 +1,59 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="producerComp" ip="37.187.27.55" name="El LackBook Pro de Jason" security="2" allowsDefaultBootModule="false" icon="laptop" type="2"> <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <adminPass pass="DANGER"/>
+  <!-- Security Stuff -->
+  <trace time="-1"/> <!-- Adds a trace timer - set to -1 to remove -->
+  <firewall level="6" solution="DANGER"/>
+  
+  <file path="sys" name="x-server.sys">#WHITE_THEME#</file>
+
+  <file path="home/scripts" name="DANGER.txt">
+    ¿Por qué la palabra «peligro» es tan buena? No «peligro» sin más, sino PELIGRO, todo en mayúsculas. Objetivamente, es la mejor palabra.
+    ¿La mejor zona? La zona de PELIGRO. ¿El mejor apellido? PELIGRO.
+    Ojalá pudiera usar esa palabra para todo.
+  </file>
+
+  <encryptedFile path="home/scripts" name="T2_Screenplay.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc">
+    Titanic 2: La venganza del iceberg
+    - Un guion - 
+
+JACK DAWSON: «Nadie ha pensado en esto, pero el iceberg no nos golpeó... ¡NOSOTROS LO GOLPEAMOS!» 
+ROSE DEWITT BUKATER: «¡¿Cómo?! ¿La loca operación científica que te resucitó te afectó la cabeza? ¡Te he traído de vuelta porque te *AMO*!». 
+JACK DAWSON: «Lo sé, pero aquí estamos en peligro. Ese iceberg tenía familia y quiere vengarse. Me lo dijeron cuando estaba a punto de morir... no esperaban...». 
+- JACK DAWSON sacude sus GAFAS DE SOL MOLONAS y se las pone. 
+JACK DAWSON: «Volveré». 
+
+Corte al litoral de California. 
+
+Un iceberg aparece en el agua y se aproxima a la ciudad a una velocidad increíble. 
+Empiezan a sonar sirenas de evacuación, la gente en la playa grita, lo señala y huye para salvar la vida.
+ Junto a él aparecen más icebergs, que también se dirigen rápidamente hacia la orilla. 
+
+ROSE DEWITT BUKATER: «¡Socorro!». 
+JACK DAWSON: «¡Rose! ¡Estoy aquí por ti! ¡Nunca te abandonaré!». 
+
+El primer iceberg ya está en la orilla y se desliza hacia los dos protagonistas. Saca una pistola. 
+
+ROSE DEWITT BUKATER: «¡JAAAAACCCKKKKKKK!».
+
+  </encryptedFile>
+
+  <encryptedFile path="home/scripts" name="GHL_ChapterList.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc">
+    La leyenda del héroe galáctico 
+   -Índice-  
+
+  CAPÍTULO 1: Entrada en la estratosfera 
+   CAPÍTULO 2: Impacto profundo
+    CAPÍTULO 3: Impulso hacia atrás
+    CAPÍTULO 4: Hasta el corazón
+    CAPÍTULO 5: Temblores intensos
+    CAPÍTULO 6: Ataque al contralmirante
+    CAPÍTULO 7: Los cuatro botines de guerra
+    CAPÍTULO 8: El alcance de su gratitud
+    CAPÍTULO 9: Remordimientos, miedos y deseos 
+   CAPÍTULO 10: Explosiones en las profundidades
+    CAPÍTULO 11: Con un ritmo estricto
+    CAPÍTULO 12: Amable al principio, con gran furia después
+  </encryptedFile>
+  
+</Computer>

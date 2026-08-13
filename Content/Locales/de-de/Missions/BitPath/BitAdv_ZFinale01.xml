@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_finale01" >
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission> <!-- For real this time :D -->
+  <email>
+    <sender>Bit</sender>
+    <subject>Terminal</subject>
+    <body>Hi,
+ich bin mir nicht sicher, wie sinnvoll es ist das hier zuerst zu schreiben - wenn alles nach Plan verlaufen ist, sollte dies im Grunde das Letzte sein, was du von mir hörst.
+Vielleicht auch das Letzte, was je jemand von mir hört... Aber hey, ich bin mal optimistisch! Wenn dich das jemals erreicht, ist all das eingetreten, was ich mir erhofft hatte.
+
+Also, vielen Dank. Ich kann mir vorstellen, dass es nicht leicht wird - (leicht gewesen sein wird?)... diese Tempus-Sache ist gewöhnungsbedürftig.
+
+Es gibt allerdings noch immer eine letzte Sache, um die ich dich bitten möchte - nicht, dass ich dich nicht schon um genug (zu viel?) gebeten hätte. Porthack ist kein Standalone - Einst war es das; aber, du wirst dir mittlerweile wahrscheinlich denken können, warum man es nicht einfach so kopieren und weitergeben kann.
+Es ist der Kern - das 'heart' - das letzte fehlende Stück. Es wurde so konzipiert, dass es vor jedem Angriff sicher ist; aber ich habe getan was ich konnte. Das ist meine letzte Bitte. Auch wenn es davor schon zu viele waren.
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <link comp="porthackHeart" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase8_WIN" activeCheck="true">
+  <goals>
+    <goal type="delay" time="15"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_ZFinale01.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Voltooing</subject>
+    <body>En zo eindigt het.
+Als wraak is het ondiep voor me. Gewoon slaan naar wat hij was en te laat om hem te helpen. Maar het voelt goed.
+Ik neem aan dat ik er aan gewend had moeten raken - niemand zal het doorhebben, hè. Niemand behalve die boos worden over het verlies. Niemand gaat ons bedanken, hoe veel schade we ook zouden hebben aangedaan.
+Zo gaat dat nou eenmaal, denk ik.
+Je hebt veel geholpen, en ik ben dankbaar.
+Er is slechts weinig dat ik kan doen met deze sluier van anonimiteit aan (en na wat een slechte tijd lijkt om het aftedoen), dus ik zie je terug bij CSEC.
+
+Er is daar altijd chaos, ik vind binnenkort wel een manier om je terugtebetalen.
+
+Bedankt. Echt.
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

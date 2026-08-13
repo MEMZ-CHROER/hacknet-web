@@ -1,0 +1,25 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="advStartPoint" 
+          name="Adventure Startpoint PC" 
+          ip="167.194.132.5"
+          security="0"
+          type="2" >
+
+  <!-- ВАЖНАЯ ИНФОРМАЦИЯ: Id "advStartPoint" всегда будет отображаться в начале режима сеанса adventure
+  Используй этот компьютер как базовую точка для создания своей сети -
+  вероятно, в нем должны быть какие-то файлы и выходы к каким-то ресурсам.
+  -->
+  
+  <dlink target="advExamplePC" />
+  
+  <!-- Файлы -->
+  <file path="home" name="Test_File">Это тестовый файл в корневом каталоге </file>
+  
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <!-- port 1433 -->
+
+</Computer>

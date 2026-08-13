@@ -1,0 +1,8 @@
+﻿﻿Vous êtes authentifié pour uploader des fichiers sur ce serveur.
+Utilisez la commande "upload [LOCAL_FILENAME]" pour uploader des fichiers.
+
+
+RAPPEL : Les fichiers téléchargés avec [scp] sont téléchargés vers ~/home
+(ou ~/bin pour les exécutables)
+Les uploads à partir de là nécessitent que leur chemin soit traité comme tel :  home/[FILENAME]
+La touche Tab peut être utilisée pour autocompléter les chemins et noms des fichiers locaux à uploader.

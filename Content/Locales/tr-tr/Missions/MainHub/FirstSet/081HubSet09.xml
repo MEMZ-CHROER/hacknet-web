@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="getString" target="AAX1BB7"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="eOS Aygıtının Çözümlenmesi">
+Müşterimiz bir eOS aygıtında tutulduğuna inandığı bazı bilgileri hedefinden almamızı istedi.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Kaçış</subject>
+    <body> Kısa tutacağım.
+Müşterilerimizden birisi belirtilen hedefin bilgisayar ve aygıtlarında "Registration ID" diye adlandırdıkları bir şeyi aramamızı istedi. Müşterimiz aradığı şeyin hedefin ana bilgisayarına senkronize edilmiş bir eOS aygıtında olduğunu düşünüyor (link verildi).
+
+Bu ID'yi aldığın zaman e-postaya ekleyerek buradan cevapla. Kalanını biz halledeceğiz.
+
+Kolay gelsin.
+-CSEC
+    </body>
+    <attachments>
+      <link comp="hubEosMisison" />
+      <note title="Ayrıntılar">
+Hedef bilgisayardaki eOS aygıtlarını tara
+Aygıtlarda "Registration ID" ibaresini ara
+Belirtilen ID'yi CSEC'e gönder</note>
+    </attachments>
+  </email>
+</mission>

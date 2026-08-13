@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMissionFail01">
+  <goals>
+    <goal type="getString" target="168.61.82.246"/>
+  </goals>
+  <nextMission>Entropy/PostBranch/EntropyAdv01.xml</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>Das sollte reichen</subject>
+    <body>
+Es scheint, als hättest du deinen Auftrag erfüllt - Ich hoffe, es wahrt das Ansehen unserer Community ein wenig länger.
+
+Auch wenn dein Auftrag für's Erste abgeschlossen ist, bin ich nicht davon überzeugt, dass das alle Kopien waren - Ich hatte erwartet, dass irgendjemand in meinen IRC Chats darüber tuschelt - aber bisher nichts. Hoffe, es braucht einfach noch ein bisschen; oder sie versuchen, es zu vertuschen.
+Wenn du dich nochmal umsehen willst, kannst du das gerne machen.
+
+Währenddessen gibt es da eine andere Sache, bei der du mir behilflich sein könntest - Einer meiner Chatkontakte hat von Naix' Aktion gesprochen - Er sagt, er hat die IP von dem Server, von dem die Daten stammen.
+
+Könntest du die besorgen? Antworte einfach mit der IP als Inhalt. Ich hab mal ein paar einfache Tracker laufen lassen - und hab dir eine IP verlinkt - da solltest du anfangen. 
+
+Danke,
+-Tex
+
+    </body>
+    <attachments>
+      <link comp="entropyAdvFail01" />
+    </attachments>
+  </email>
+</mission>

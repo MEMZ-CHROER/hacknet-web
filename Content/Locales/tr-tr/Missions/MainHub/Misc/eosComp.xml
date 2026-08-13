@@ -1,0 +1,85 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hubEosMisison" 
+          name="Sal_Home_Workstation" 
+          security="4"
+          type="2" >
+
+  <file path="home/docs" name="Anastasia.txt">
+[swinters77] Bu hafta sonu ne yaptın?
+[jlogan74] Pek bir şey yapmadım. Jerry yine şehir dışındaydı.
+[swinters77] Sanırım bu sende evde değildin demek oluyor.
+[jlogan74] Eh....Rhys'ın evine gitmiş olabilirim...
+[swinters77] Jane, bu iş kontrolden çıkmaya başladı.
+[swinters77] Bunu daha ne kadar devam ettirebilirsin ki?
+[jlogan74] Biliyorum. Biliyorum. Sadece... bunun zor olduğunu sende biliyorsun.
+[jlogan74] Jerry sürekli çalışmak için şehir dışında oluyor. Eve döndüğünde de seyahatlerden ötürü yorgun oluyor.
+[jlogan74] En son ne zaman dışarı çıktığımızı hatırlamıyorum. Buna kahve içmek de dahil.
+[jlogan74] O yokken Rhys vardı. En başta bu bir hataydı, ancak artık başka bir şeye döndüğünü hissediyorum.
+[jlogan74] Açmaza girdim.
+[swinters77] Sana Anastasia demeye başlayacağım :P
+  </file>
+  
+  <file path="home/docs" name="lab_nightmare.txt">
+[137847] Sonuçlar geldi mi?
+[137849] Geldi. Etkisizmiş.
+[137847] Gerçekten mi? Bu sefer patlattığımızı sanmıştım.
+[137849] Hücre sayısı son seferden çok daha fazlaymış.
+[137849] Ancak yığına saldırmıyorlarmış, öylece duruyorlarmış.
+[137847] Bu projeye kaç ayımı daha verebilirim bilmiyorum.
+[137849] Roma bir günde kurulmadı ya. Tanrılar güçlerini kazanmak zorundaydılar.
+[137847] En son ne zaman kendi yatağımda uyudum onu bile hatırlamıyorum.
+[137849] Biliyorum. Horuldamaların tüm laboratuvarda yankı yapıyor.
+[137847] Gerçekten mi? Lanet olsun. Bunun için özür dilerim.
+[137849] Çok şirindin.
+[137849] Peki şimdi ne yapacağız?
+[137847] Sanırım son örneği alıp genetik yapıya katmalı ve yeni bir yola dönüştürmeyi denemeliyiz.
+[137849] Tamamdır. Öğle yemeğini birlikte yemek ister misin?
+[137847] Duruma göre değişir.
+[137849] Ne durumu?
+[137847] Bize yine o lanet Slasbury Bifteği yedirmeye çalışıp çalışmamaları durumu.
+  </file>
+  
+  <eosDevice name="Elanor Helleran's ePhone 4S" id="salEosPhone">
+    <note>
+ids
+Registration :
+AAX1BB7
+      
+Steam :
+RWINC-HQQAP-WY4VZ
+D04J0-NJZKB-NIAK2
+LQ5TN-687II-PEM99
+LYWYG-H864Y-BVN3M
+47AQ8-8FLQ8-37PKR
+3PIPG-ETMTR-JMXX9
+8PVRG-W9WW5-070VB
+CG0TB-TNBFQ-HNDLV
+JAALV-CDHAD-HJNZB
+NJ38F-PQ388-LEV6N
+LXIIR-XLVYB-V3R66
+VDG22-APHH3-VQCDW
+2RB4T-XW6PF-MX06B
+TJ0KB-CPX0Q-ZT2PM
+0NCV5-NGVV3-59E76
+00Y38-PQ2ZE-FH32Y
+HGWBV-M7N7T-W5K0Q
+    </note>
+    <note>
+Alışveriş
+      
+Coffee
+Monster
+Rockstar
+NOS
+Amp
+Full Throttle
+Xyience
+Arizona Energy
+Rip It
+Venom
+Food x lots
+    </note>
+    <mail username="sal@jmail.com" pass="22foxhound" />
+  </eosDevice>
+
+</Computer>

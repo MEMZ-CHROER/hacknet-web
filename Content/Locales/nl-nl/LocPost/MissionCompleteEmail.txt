@@ -1,0 +1,8 @@
+Gefeliciteerd,
+De klant van je recente contract heeft succes geraporteerd en is tevreden met je werk.
+Je staat vrij nieuwe contracten te accepteren uit de contract databank.
+
+Je Huidig Rang is {0} van de {1}.
+
+Bedankt,
+{2}

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="beepbeep"/>
+  </goals>
+  <missionEnd val="1">addFlags:dechead</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Track an Encrypted File">
+Мы, кажется, нашли способ отследить, где были зашифрованы DEC-файлы - у нас есть запароленный файл, и его нужно открыть. Там должно быть достаточно зацепок.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>RE: Сквозь подзорную трубу</subject>
+    <body>
+Отлично, есть что-то интересное?
+
+ Итак, нужный файл CSEC_encode_1.dec лежит на общем сервере - мы его переименовали, чтобы люди не трогали. Изначально он назывался WinCE_FirmwareSpecs.dec, если эта информация как-то поможет. 
+В любом случае, посмотри его заголовки, узнай, где его зашифровали, и взломай этот пароль! Укажи в ответе пароль, а мы позаботимся об остальном. 
+
+Спасибо за помощь. 
+-CT Team
+    </body>
+    <attachments>
+      <link comp="hubCrossroads"/>
+    </attachments>
+  </email>
+</mission>

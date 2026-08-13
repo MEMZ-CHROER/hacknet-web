@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="ham2">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Hermetic Alchemists - D3f4ult">
+Der Administrator des Serversystems einer seltsamen philosophischen Gruppe hat Software entwickelt, die wir für künftige Projekte brauchen.
+    </posting>
+  <email>
+    <sender>Krypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,137 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="hubCrossroads" name="CSEC Crossroads Server" security="0">
+
+  <positionNear target="mainHub" position="1" total="6" />
+
+  <file path="home" name="REQUEST.zip">#BINARY##BINARY#</file>
+  <file path="home" name="CT2.zip">#BINARY##BINARY#</file>
+
+  <encryptedFile path="home" name="encrypt_source.dec" ip="101.0.89.154" header="Secured Source Code" extension=".cs">
+    
+        private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data[i] * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + " ");
+            }
+            return ret.ToString().Trim();
+        }
+        
+        /// özet
+        /// Sıralam İçeriği Dönütü
+        /// [0] Başlık İletisi
+        /// [1] IP Linki
+        /// [2] İleti Verisi
+        /// [3] Varsa, dosya uzantısı, yoksa boşluk
+        /// [4] Geçerliyse şifre, "1" değilse, "0"
+        /// özet
+        public static string[] DecryptString(string data, string pass = "")
+        {
+            string[] ret = new string[5];
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string[] split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+            string[] headersSplit = split[0].Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException("Tried to decrypt an invalid valid DEC ENC file");
+
+            string headerMsg = Decrypt(headersSplit[1], passcode);
+            string ipLink = Decrypt(headersSplit[2], passcode);
+            string check = Decrypt(headersSplit[3], passcode);
+            string fileExtension = null;
+            if (headersSplit.Length > 4) fileExtension = Decrypt(headersSplit[4], passcode);
+            string message;
+            string passValid = "1";
+            if (check == "ENCODED") {
+                //Doğru şifre!
+                message = Decrypt(split[1], passcode);
+            }
+            else {
+                //geçersiz şifre
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+                passValid = "0";
+            }
+            ret[0] = headerMsg;
+            ret[1] = ipLink;
+            ret[2] = message;
+            ret[3] = fileExtension;
+            ret[4] = passValid;
+            return ret;
+        }
+  </encryptedFile>
+
+  <encryptedFile path="home" name="CSEC_encode_1.dec" ip="168.61.82.245" header="WinC Firmware Specifications" extension=".pdf" pass="beepbeep">
+    WinCE Yazılım Sürücüsü Geliştirme Rehberi
+    ------------------------------------------------------
+    WinCE işletim sistemini çalıştıran gömülü bilgisayarlarda sürücü ve yazılım geliştirmek içindir. Binlerce araba aygıtlarından oyuncu ekipmanlarına kadar binlerce cihaz bu işletim sistemini kullanmaktadır. Sürücülerini ve/veya yazılımlarınızı geliştirirken kodlarınız çalışabileceği cihaz çeşitliliğinizi aklınızda bulundurun.
+    ------------------------------------------------------
+
+    Birçok WinCE aygıt sürücüsü akış arabirimi yürütür. Merkezi akış arabiriminin giriş noktaları XXX_Open (Aygıt Yöneticisi), XXX_Close (Aygıt Yöneticisi), XXX_Read (Aygıt Yöneticisi) ve XXX_Write (Aygıt Yöneticisi)'dir. Daha fazla bilgi için lütfen Akış Arabirimi Sürücüleri'ne göz atın.
+    Ağ bağdaştırıcıları, görüntü bağdaştırıcıları, fare aygıtları, klavyeler ve diğer özel amaçlı aygıtlarda akış arabirimi kullanılmaz. Bu aygıtar, aygıtın fonksiyonlarına uyan bir arabirim kullanır.
+    Aygıt sürücününüz kullandığı arabirim ne olursa olsun kesme hizmeti yordamı (ISR) kullanmak zorunda kalabilirsiniz. Kesme ve ISR hakkında daha fazla bilgi almak için Kesme'ye göz atın.
+    Farklı işlemler farklı sürücüler yükler. Aşağıdaki tabloda sürücü yükleyen işlemler ve işlemlerin yüklemiş olduğu sürücüler yer almaktadır.
+
+    Sürücülerinize kod eklemek için aşağıdaki adresleri kullanmalısınız:
+
+    %_WINCEROOT%\Platform\%_TGTPLAT%
+    Donanmı platformunun bağıl kodunu içerir. Bu dizin öncelikli olarak OAL, yapılandırma dosyaları ve BSP sürücüleri içerir. %_WINCEROOT%\Platform\%_TGTPLAT%\Drivers dizinindeki donanım platformu bağıl sürücülerini düzenlemenize gerek kalmaz.
+    %_WINCEROOT%\Platform\Common\Src\SOC
+    Yüksek-entegreli ve iç-ekipmanlı mikroişlemciler veya mikroişlemci yardımcılarının SOC sürücülerini içerir. SOC sürücüleri gerçek zamanlı saatler, sayaçlar, hata ayıklayıcı Ethernet kartları ve benzeri şeylerin mikroişlemci özellikli OAL sürücülerini içerir. SDBlerde kullanılan mikroişlemciler aynı tür SOC sürücülerinde de kullanılabilir.
+    %_WINCEROOT%\Public\Common\OAK\Drivers
+    Devre kartına kabloyla bağlanan veya takılabilen dış-periferiklerin yaygın sürücülerini içerir. Yaygın sürücüler, yeni donanım sürücüsü oluşturmak için bağımlı-platform koduna bağlanan bağımsız-platform kodunu içerir. Yaygın sürücüler donanım platformuna ve mikroişlemciye özgü değillerdir. Tüm SDBler yaygın sürücülerle kullanılabilir.
+  </encryptedFile>
+
+  <file path="home" name="FOF_Screenplay.doc">
+    UMURSUZLUK
+    -Senaryo-
+
+    Sahne: Arkaplanda hafif bir piyano müziği çalınmaktadır. Golf arabasının gösterge tablosundaki saate bakıyoruz - saat 19.22.
+    Kötü giyimli bir adam çaldığı belli olan şarap şişesinden bir yudum alır. Onu yargılamamalı - şarap rahatlatıcı ve tatlıdır. 
+	Elbette kötü giyimli derken sadece mayo giydiğini demek istemedim. Anahatları açıkça görünmekte.
+
+    Golf arabası bir kafeyi saatte 40 km hızla geçip (arkasında türbokompresör bulunuyor) seyrine devam eder. Sürekli olarak hız limitini aşar ve iş adamının kahvesinin dökülmesine sebep verir.
+
+    2 engelli park alanının karşısındaki boşluğa durur. İnip dolanmaya başlar. Şişeyi kafasına diker ve hiç umurunda değilmiş gibi yola fırlatır.
+    Müzik oturmaya başlar. Borulara üflenirken bir anda dramatik noktaya geçilir. Kahramanımız yakınlardaki çöp tenekesine doğru cesurca yürür. Üstüne çıkar. Hiç çekinmeden "pantolonunu" indirir ve uzun, tatmin edici bir bırakım seansına başlar.
+
+    Yaşlı kadının yüzünde dehşet dolu bir ifade oluşur. Gösteri başlığı.
+  </file>
+
+  <encryptedFile path="home" name="T2_Screenplay.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" pass="DANGER">
+    Titanik 2: Buzdağı'nın İntikamı
+    -Senaryo-
+
+JACK DAWSON: "Kimsenin aklına bile gelmemiştir. Buzdağı bize çarpmadı... BİZ BUZDAĞINA ÇARPTIK!"
+ROSE DEWITT BUKATER: "Ne? Seni hayata döndüren çılgın operasyonu aklını yitirmene mi sebep oldu? Seni geri getirttim çünkü seni *SEVİYORUM*!"
+JACK DAWSON: "Biliyorum. Fakat burada tehlikedeyiz. O buzdağının bir ailesi vardı. İntikam istiyorlar. Ölmek üzereyken bana söylediler... bunu asla..."
+-JACK DAWSON ŞEKİLLİ DÜRBÜNÜNÜ çıkartır ve bakmaya başlar
+JACK DAWSON: "Geri Döneceğim"
+
+Kaliforniye Sahili Sahnesi
+
+Aşırı hızla şehre yaklaşan bir buzdağı suda görünür.
+Tahliye sirenleri çalmaya başlar. Sahildeki insanlar çığlıklar atar, buzdağını işaret eder ve kaçmaya başlarlar.
+Sahile doğru yaklaşan başka buzdağları da görünmeye başlar.
+
+ROSE DEWITT BUKATER: "İmdat!"
+JACK DAWSON: "Rose! Senin için döndüm! Seni asla bırakmam!"
+
+Büyük buzdağı kıyıya vurur ve iki karakterin üzerine doğru ilerlemeye başlar. Silahını çeker.
+
+ROSE DEWITT BUKATER: "JAAAAACCCKKKKKKK!"
+
+  </encryptedFile>
+  
+  <encryptedFile path="home" name="C_EXE_contact.dec" ip="74.125.237.119" header="Encrypted Messaging Systems inc" extension=".txt" pass="quinnoq">
+
+    Kişi, "dlocke" adlı JMail hesabının sahibi.
+    
+    Uzun süredir bunun peşinde olduğumuzu biliyorum. Bu sağlam bir ipucu olabilir ancak acele etmemeliyiz. Yavaştan almalıyız.
+    Plan yaptığım zaman gelişmeleri sana bildireceğim.
+
+  </encryptedFile>
+</Computer>

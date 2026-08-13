@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileUpload" target="hubCrossroads" file="FOF_Screenplay.doc" path="home" destTarget="producerComp" destPath="home/scripts" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Help an aspiring writer" reqs="dechead,decypher">
+An aspiring writer wants us to get one of his scripts to a producer.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>A Convincing Application</subject>
+    <body>
+A writer wants to get a draft of their latest work to a producer and has had some trouble getting past secretaries and the like.
+He wants us to just break in and drop his work in the target's scripts to review folder so his gets looked at.
+
+His script, "FOF_Screenply.doc" has been uploaded to the crossroads.
+He also provided an encrypted script that his was to compete with, that we can use to trace.
+This is also on the crossroads, "T2_Screenply.dec"
+      
+Upload his script to the scripts folder of the target machine.
+As always, remember to tab complete upload commands - "upload bin/" then press the tab key to get a list of local file to upload and autocomplete.
+
+Good luck,
+-CSEC
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+      <note title="Contract Details">Download FOF_Screenply.doc
+      
+Trace T2_Screenplay.dec
+
+Upload FOF_Screenply.doc to target scripts folder.</note>
+    </attachments>
+  </email>
+</mission>

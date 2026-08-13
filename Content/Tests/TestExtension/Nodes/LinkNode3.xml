@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="linkNode3" 
+          name="Link Node 3" 
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="chip" 
+          type="1" >
+
+  <dlink target="linkNode1" />
+  <positionNear target="linkNode1" position="90" total="360" />
+  
+</Computer>

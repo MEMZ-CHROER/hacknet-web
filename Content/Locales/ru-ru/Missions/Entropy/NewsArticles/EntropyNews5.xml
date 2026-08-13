@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyNews05">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="New Opbol Dongle patent will Tantalize Fanboys">
+Преданные фанаты  Opbol,  приводите ваши дела в порядок и готовьте свои кошельки.  Новый патент поданый технологически золотым ребенком  Opbol Computing сегодня, доказывает, что компания может выдвигаться на рынок домашних консолей.   Патент, для расширяемого донгла может быть компонентом в новой игровой 
+системе,- говорят эксперты - возможно контроллер или датчик движения. Пока что, только дизайн - телескопического цилиндра с закругленными концами - получил патентный статус, но наши источники говорят, новости касательно функциональности устройства могут поступить только через несколько дней. Следи за ситуацией! 
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Должна Быть Остановлена</subject>
+    <body>
+Уничтожьте entropy Базу Данных 
+    </body>
+    <attachments>
+      <link comp="entropy01"/>
+    </attachments>
+  </email>
+</mission>

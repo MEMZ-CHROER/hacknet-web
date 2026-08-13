@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dPets_Engineer2" name="Ash-ALIENGEAR13" security="2" ip="54.192.234.65" icon="DLCPC2">
+
+  <!-- Neopals artist - contains eos device hint for other comp  -->
+  
+  
+  <dlink target="dPets_VC" />
+
+  <positionNear target="dPets_MF" position="220" total="360" extraDistance="0.05"/>
+
+  <file name="IMPORTANT_SusanLog.txt" path="home">
+
+[S.Bonesau] Niemand sagt, dass du einen Grafikstil ändern MUSST, nur ...
+[S.Bonesau] du kriegst unheimlich viele Änderungsanfragen nach dem Einreichen
+[S.Bonesau] und ich glaube, wir könnten die Effizienz verbessern, wenn du das mal ein bisschen ernster nehmen würdest
+[S.Bonesau] Also beim künftigen Werken das bisherige Feedback berücksichtigst.
+[Ash] Ok, das verstehe ich, aber an dieses Design glaube ich echt
+[S.Bonesau] Ich weiß. Ich verstehe, es ist nur ...
+[S.Bonesau] Es soll ein gruseliges Geisterhaus werden, und in deinen Zeichnungen sitzen sie alle in Panzern.
+[S.Bonesau] Schon wieder.
+[Ash] Ich mag Panzer. Panzer sind gruselig.
+[S.Bonesau] Ich weiß, dass du Panzer magst.
+[Ash] Glaubst du nicht, dass es den Rumänen vor den deutschen Panzern gegruselt hat?
+[S.Bonesau] Nein, das heißt, natürlich, aber darum geht es nicht. Warte mal einen Moment
+[Ash] Das sind 25 Tonnen tödliche deutsche Technik, die auf dich zurollen. Das ist dir nicht gruselig genug?
+[S.Bonesau] Warte!
+[S.Bonesau] Ich glaube einfach nicht, dass unsere Spieler da den gleichen Draht zu haben wie du.
+[S.Bonesau] Muss ich dich daran erinnern, dass du sie für das Feen-Event auch alle in Panzern gezeichnet hast?
+[Ash] Panzer haben viel mit Feen gemeinsam
+[S.Bonesau] ...
+[Ash] Ich mag niedliche Sachen und Militaria aus dem 2. Weltkrieg, was willst du also von mir?
+[S.Bonesau] Ich will, dass du die Neopals in Dracula-Kostümen und sowas zeichnest
+[Ash] Wenn wir später ein Panzer-Event machen, mach ich das für dich
+[S.Bonesau] Das ist wirklich nicht verhandelbar
+[Ash] Ich wette, Dracula hatte jede Menge Panzer
+[S.Bonesau] Um Himmels willen, also gut, zeichne einfach die Sprites.
+[Ash] Ich werde dieses Protokoll speichern, nur damit du es weißt. Es wird dazu kommen.
+[S.Bonesau] Ich hab‘s auf meinem Handy, keine Sorge
+  </file>
+
+  <file name="DRACULATANK.psd" path="home">#BINARY##BINARY#</file>
+  <file name="asdf.psd" path="home">#BINARY#</file>
+  <file name="asdf2.psd" path="home">#BINARY##BINARY#</file>
+  <file name="asdfasdf.psd" path="home">#BINARY#</file>
+
+  <!-- Memory dump with viewable sketches of Dracula tank -->
+  <Memory>
+    <Data>
+      <Block>
+STEAM_CHAT:activewindow
+4e0f622c-c5f1-4959-902d-bd2c1009a4cb
+Protokoll:
+KONSOLE: Teile niemals irgendjemandem dein Passwort mit.
+2:46 PM - Jigxor: Diese Automaton-Videos sind krass
+2:47 PM - Jigxor: oh Mann, ich schaue mit gerade noch eins an über einen 240 Jahre alten Automaton, den sogenannten „Schreiber“. Das ist ein mechanischer Junge, der richtig mit einem echten Stift und Papier in seinen Händen ein oder zwei ganze Sätze schreiben kann. Und alles per Uhrwerk mechanisch betrieben. Unglaublich.
+2:48 PM - Jigxor: Und dabei blinzelt er und bewegt seinen Kopf und so
+2:48 PM - [P]Ash: Mein Gott, warum hast du mir die gezeigt. Ich wollte heute doch Sachen erledigen ;_;
+2:48 PM - Jigxor: das ist ja Wahnsinn
+KONSOLE: Jigxor getrennt
+KONSOLE: Jigxor wieder mit Chat verbunden
+3:18 PM - Jigxor: Ich fühle mich clever
+3:18 PM - Jigxor: auch wenn ich nur Regex von StackOverflow kopiert habe
+3:18 PM - [P]Ash: >my_life.txt
+      </Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Misc/DraculaTank</Image>
+    </Images>
+  </Memory>
+  
+  
+</Computer>

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education07">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="*Nix Not Sistemi">
+*Nix işletim sistemini temel alan tüm terminal işletim sistemlerinin not programında ("notes" şeklinde girerek çalıştırın) uygun bir yapı sistemi bulunmaktadır. 
+Genellikle gerekli şekilde kullanılmamıştır. Nispeten verimli ve çoğu posta sunucusu ve programla uyumlu çalışmaktadır. (rahatlıkla sizin için
+notları otomatik olarak doldurabilir).
+    
+Çalıştırılması "notes" komutunu kullanmak kadar basittir. Notlar kullanıcılar tarafından Arayüz üzerinden veya "addNote [NOT]" komutu kullanılarak eklenebilir.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>HATA</subject>
+    <body>
+Bu postayı almanız beklenmedik bir hatanın oluştuğunu göstermektedir.
+Lütfen panikleyiniz.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

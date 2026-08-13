@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission00" name="Bitwise Test PC" security="1">
+  <file path="home" name="Test_File.txt">Congratulations, You win!</file>
+  <file path="home" name="L-E_x-server.sys">#PURPLE_THEME#</file>
+  <file path="sys" name="x-server.sys">#PURPLE_THEME#</file>
+
+<file path="home" name="Hobbes_TerminalGuide.txt.txt">
+Handige lijst van commando's die je wil gebruiken in de commandline:
+
+cat [bestandsnaam] - laat de tekst van het bestand gespecificeerd zien
+
+cd / - stuurt je naar de root map van het bestandssysteem
+
+ls - laat de inhoud van de map waar je in zit zien
+
+cd .. - trekt je een niveau hoger van waar je bent
+
+replace [bestandsnaam] "[tekst1]" "[tekst2]" - vervangt de gespecificeerde inhoud van het doelwit (tekst1) met waarmee je het wil vervangen (tekst2).
+
+mv [bestandsnaam] [doel] - verplaatst OF hernoemt een bestand, als je het bestand wil verplaatsen, moet je de map waarheen je het wil verplaatsen geven zoals:
+
+mv config.sys /misc/
+
+als je het bestand wil hernoemen dan kan je gewoon de nieuwe bestandsnaam geven zoals
+
+mv config.sys config.old
+
+Help 1, Help 2, Help 3 - Het help bestand, alle drie de pagina's. Lees en leer.
+
+forkbomb - Niet gespecificeerd, maar handige paniekknop als je een systeem snel moet uitschakelen. je zal adminrechten nodig hebben. je KAN je eigen systeem forkbommen als verdedigingsmechanisme.
+
+shell - zet een remote host op op het systeem waar je admin voor hebt, dit KAN op je eigen systeem worden gebruikt als verdedigingsmechanisme (zie "trap" voor meer details)
+</file>
+
+<file path="home/autolog_reports" name="log01332.txt">
+[shinterland] Wacht op de baas om weg te gaan
+[shinterland] Dan ontmoet ik je achterom
+[jwalter] Denk je dat hij er een idee van heeft?
+[shinterland] Pfft, Ik betwijfel het.
+[shinterland] Hij heeft geen idee van de shitstroom die komt.
+[jwalter] Vergeet niet je internetgeschiedenis te wissen, we willen niet dat dit teruggekoppeld word aan ons.
+[shinterland] Ja ja ja, het is geregeld.
+[shinterland] Hij heeft net ze jas gepakt, loopt uit de deur....nu.
+[jwalter] Okay, geef me een minuut om de camera's op te zetten.....
+[jwalter] Klaar. Je hebt drie minuten voor het statische beeld wegvalt.
+[shinterland] Ik pak de lijst en dan pakken we een biertje om het te vieren.
+</file>
+
+<file path="home/autolog_reports" name="log0177_F.txt">
+[vope] je zou het niet geloven als ik het zei
+[r@$put1n] wat?
+[r@$put1n] werkte het?
+[vope] heb bakken met idioten aan de deur die de broncode willen
+[r@$put1n] damn son, klinkt alsof je de top hebt bereikt!
+[r@$put1n] betaalt het een beetje?
+[vope] 12k, niet slecht voor twee maande werk
+[vope] vraag me af waar ze het voor gaan gebruiken
+[r@$put1n] waarschijnlijk om je rekening te legen
+[vope] veel geluk, ik heb geen geld voor hun om te stelen
+
+-- bevestigd nep --
+</file>
+
+<file path="home/autolog_reports" name="log01009.txt">
+[felix] Alles goed bij mij, die idioot Bill is onstlagen en ik ben veilig
+[bleedingcool] Great.
+[felix] Ik heb Bill altijd gehaten. Je deed mij een lol.
+[bleedingcool] Niet te vergeten die 10k betaling toch?
+[felix] Nou dat hielp ook.
+[felix] Dus we zijn klaar hier?
+[bleedingcool] Alles goed. Ik heb maanden exclusieven hier. Ik zie je wel als de nieuwe Brisby film uitkomt.
+[felix] later baas.
+</file>
+
+</Computer>

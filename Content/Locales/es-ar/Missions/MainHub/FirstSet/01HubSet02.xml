@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="AddDegree" owner="John Stalvern" degree="Masters in Digital Security" uni="Manchester University" gpa="3.0"/>
+  </goals>
+  <missionEnd val="1">changeSong</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Teach an old dog new tricks [Int.Academic]">
+Un amigo potencial del grupo necesita que su CV tenga un título universitario más.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Universo(idad) Binaria</subject>
+    <body>Es bueno tener amigos en las altas esferas de las empresas de seguridad digital. *Sobre todo* amigos que no saben nada de seguridad informática. 
+Un agente ha contactado con una de esas amabilísimas personas y necesitamos una pequeña demostración de poder para ganárnosla.
+
+ Nos gustaría darle un nuevo título, de su universidad local de Manchester. 
+
+Nombre: John Stalvern 
+Título: Máster en Seguridad Digital 
+Universidad: Universidad de Manchester.
+ Nota: Sobresaliente o más 
+
+IMPORTANTE: No olvides limpiar tu rastro; las instituciones internacionales dependen de su reputación para seguir siendo importantes y tú la vas a poner en peligro. Si lo descubren, no tendrán compasión. 
+
+Buena suerte, 
+- CSEC
+    </body>
+    <attachments>
+      <link comp="academic"/>
+      <note title="Datos del título">Nombre: John Stalvern 
+Título: Máster en Seguridad Digital 
+Universidad: Universidad de Manchester. 
+Nota: Sobresaliente o más</note>
+    </attachments>
+  </email>
+</mission>

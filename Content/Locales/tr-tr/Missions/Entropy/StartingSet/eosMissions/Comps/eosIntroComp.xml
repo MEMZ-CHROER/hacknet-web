@@ -1,0 +1,79 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="eosIntroComp" name="Jason's PowerBook Plus" security="2" icon="laptop">
+
+<file path="home/documents" name="Kelly.txt">
+[valley] eve gelirken almamı istediğin bir şey var mı?
+[kittyhat22] sormaya neden zahmet ediyorsun ki?
+[valley] hadi ama... bunu hallettiğimizi sanıyordum.
+[kittyhat22] neyi hallettiğimizi sanıyordun?
+[valley] tüm bu gereksiz tartışma sorununu.
+[kittyhat22] neredeyse hiç eve gelmiyorsun ve geldiğinde de benimle konuşma zahmetine girmiyorsun
+[valley] belki de borcumuzu kapatıp bizi bu boktan yerden kurtarma çabamı biraz takdir etmelisin
+[valley] peki sen bütün gün n'apıyorsun?
+[kittyhat22] şimdi suçlu ben mi oldum?
+[kittyhat22] iş aradığımı bilmiyorsun sanki. en azından hayatında neler olup bittiğini anlamaya çalışıyorum. sen hatrımı dahi sormuyorsun.
+[valley] neyse işte. evde görüşürüz.
+</file>
+  
+<file path="home/documents" name="lmao.txt">
+[dirtweed] Haftasonun nasıldı?
+[willow] Çamaşırhaneden kovulduğum ana kadar güzeldi.
+[dirtweed] Gülerken sandalyeden düştüm amk.
+[dirtweed] O lanet yerden bile kovuldun demek. Ne bok yedin ki?
+[willow] Şey....sanırım kafam fena dumanlıydı ve güvenlik de beni o halde yakaladı.
+[dirtweed] LOL
+[willow] Beni kapı önüne attıklarında "SARHOŞ DEĞİLİM" diye bağırmışım.
+[willow] Sonra da güvenliğin üzerine kusmuşum. Etrafta da yaklaşık 30 kişi varmış.
+[dirtweed] Vay anasını!
+[willow] Ben yatmaya gidiyorum. Kafam hala dumanlı. İyi geceler.
+</file>
+  
+<file path="home/documents" name="lmao.txt" EduSafe="false">
+[budzyyy] noluyo amınakoyim
+[heller] Neredesin lan sen?
+[budzyyy] bilmiyorum
+[budzyyy] uyandığımda kıyafetlerim yoktu ve bir çalının içindeydim
+[heller] Saatlerdir seni arıyoruz.
+[heller] Seni son gördüğümde uyuşturucu almış halde dondurma arabasının peşinden koşuyordun.
+[budzyyy] buralarda dondurma arabası mı var?
+[heller] Hayır, yok. Fakat dün gece var sandın.
+[budzyyy] benden geçmiş bunlar.
+</file>
+  
+  <eosDevice name="Jason's ePhone 4S" id="eosIntroPhone">
+    <note>Domuz Etli Çörek
+    
+  ----------------------
+  1.5 çk pudra şekeri
+  250ml sıcak su
+  1.5 çk bira mayası
+  1 çk bitkisel yağ
+  1.5 çk kabartma tozu
+  400g un
+  ----------------------
+  
+  Şeker ve suyu kaba ekleyin. Eritin. Bira mayasını ekleyin. Üstünü kapatın ve 10 dakika bekleyin.
+  
+  Kalan malzemeleri elekten geçirin. Karıştırın. Hamur haline gelene kadar yoğurun. Havluyla sarın ve 1 saat bekleyin.
+  
+  Yuvarlak parçalara bölün. İsterseniz içlerini doldurun. 20 dakika boyunca pişirin.
+  
+    </note>
+    <note>Tortilla
+
+----------------------
+2 bd un
+1/2 çk tuz
+1 çk kabartma tozu
+1 çk domuz yağı
+3/4 bd su
+----------------------
+
+Un ve kabartma tozunu karıştırıp yağı katın. Suyu ekleyin ve hamur haline getirin. Yumuşayana kadar yoğurun.
+
+Yufka haline getirin ve altın rengini alana kadar pişirin.</note>
+    <mail username="jjstacks@jmail.com" pass="tintin7" />
+  </eosDevice>
+  
+  <account username="admin" password="tintin7" />
+</Computer>

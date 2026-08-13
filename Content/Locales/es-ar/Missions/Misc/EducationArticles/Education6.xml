@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Traces - Active">
+Como respuesta a un mundo cada vez más hostil y activo en la seguridad informática y el pirateo, los nuevos conjuntos de seguridad digital normalmente incluyen métodos para rastrear la ubicación de cualquier actividad «hostil» contra dicho servidor. 
+
+Esto, claro, es una ciencia inexacta, por lo que los rastreos generalmente pueden tomar 2 formas: 
+
+activos y pasivos. Este artículo describe los rastreos activos. 
+
+2: Rastreos activos
+----------------
+Un rastreo activo es una acción de rastreo efectuada por una persona respecto a una conexión activa actualmente o, de forma más habitual, respecto a registros dejados en un servidor por un hacker descuidado. 
+Un rastreo activo es indetectable y, por lo general, se hace intentando vulnerar la seguridad de los nodos empleados en la ruta de direccionamiento y observando los registros de la ruta de conexión. 
+Un rastreo activo se puede evitar si se borra una cadena en el enlace de conexión, para que el perseguidor no tenga nada que seguir. Por eso, se recomienda que si se monta un rastreo activo contra un asaltante, este se lleve a cabo lo antes posible
+
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Si recibe este correo electrónico, es que se ha producido un error inesperado. 
+Échese a temblar.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

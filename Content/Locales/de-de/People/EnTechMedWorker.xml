@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="entechboss" handle="Jojo" firstName="Joseph" lastName="Jorioni" isMale="true">
+  <Birthplace name="Califonia" />
+  <Degrees>
+    <Degree uni="University of California" gpa="2.9">Bachelor of Software Engineering</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>AA</Blood>
+    <Height>178</Height>
+    <Allergies>KEINE</Allergies>
+    <Perscription> Spironolactone x70 zwei-monatlich :: Aldosteron Inhibitor als Herzschlagregler </Perscription>
+    <Notes>Der Patient leidet an einem akuten Fall von Angina - Blutdruck und Sauerstoffversorgung des Herzens sind seit Geburt auf Grund von vaskulärer Defekte erheblich geringer als gewöhnlich.
+Dem Patinent wurde ein Überwachungsmonitor eingesetzt, der bei geringem SpO2-Gehalt Alarm schlägt, da der Patient ein erheblich höheres Risiko auf ein Herzversagen hat und dies eine schnelle Reaktion erfordert.
+Dies ist kein Herzschrittmacher, sondern lediglich ein Frühwarnsystem.</Notes>
+  </Medical>
+  <Notes>
+  </Notes>
+</Person>

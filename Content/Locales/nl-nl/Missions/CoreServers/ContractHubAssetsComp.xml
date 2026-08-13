@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mainHubAssets" name="CSEC Assets Server" security="4">
+  <adminPass pass="csec-5xg3D11" />
+  <admin type="fast" resetPassword="false"/>
+  <positionNear target="mainHub" position="5" total="6" />
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="template.txt">[VOORNAAM]#[ACHTERNAAM]#[LIJST_NUM]#32#Rural#N/A#N/A#N/A#[LAATSTE_WOORDEN]</file>
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="FileNamingScheme.txt">
+Death row databank bestands namings schema:
+
+Achternaam_Voornaam[LijstNummer]
+
+Het is aanbevolen dat je een kopie van template.txt download, het lokaal bewerkt, het hernoemt volgens het schema, voordat je het upload naar de databank.
+Voorbeeld: Doe_John[12345]
+
+Omdat je waarschijnlijk alle variabelen wil vervangen in het template bestand, zou je deze afsnijweg kunnen gebruiken:
+1: Markeer het bestand als "active" in je besturingssysteem (makkelijkst met het cat commando - "cat template.txt")
+2: gebruik replace zonder bestandsnaam - (replace "[VOORNAAM]" "John")
+3: Gebruik stap 2 tot het bestand er goed uit ziet
+4: Hernoem het bestand (mv template.txt Doe_John[12345])
+5: Upload het bestand naar de databank (verbind met de databank, "upload home/Doe_John[12345]" - Zorg ervoor dat je in de juiste volder zit voor het uploaden!)
+</file>
+
+  <file path="bin/SQL_Mem_Corrupter" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+  <file path="bin/SQL_Mem_Corrupter" name="info.txt">
+--SQL Memory Corruption Injector Leesmij--
+
+De SQL Geheugen Corruptie Injector (SQL_MemCorrupt.exe) is een uitbuiting van naar buiten gerichte SQL poorten (Standaard nummer 1433).
+Het injecteert een post in de tabel die, wanneer gelezen, een geheugen corruptie fout veroorzaakt in de databank, dan onmiddelijk de tabel opvraagt, zorgend voor een onmiddelijke SQL databank crash en core dump.
+Dit zal tijdelijk onbevoegde toegang toestaan op de SQL servers poort voordat het doel OS de stervende SQL verbinding opschoont en herstart.
+
+Het programma, wanneer zichtbaar, zal de status weergeven bovenaan, en de sql server informatie (Het liefst een geheugen dump van de geïnjecteerde post) daaronder.
+</file>
+
+  <file path="bin/WebServerWorm" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin/WebServerWorm" name="info.txt">
+--Web Server Worm Leesmij--
+
+Deze web server snelle-toegang worm is een uitbuitingsprogramma dat HTTP web servers kan aanvallen (normaliter op poort 80 of 8080).
+Dit programma gebruikt een fout in de huidig actieve versies van web server software, een buffer overflow uitbuitend, om de injectie van extra code (de worm zelf) toe te staan.
+Deze worm, wanneer actief op de sever, zal al het verkeer van buiten doorlaten vai de web poort naar het besturingssysteem, oftewel langs de beveiliging van de poort.
+Dit werkt om de poort te openen voor vrij gebruik.
+
+De worm zal *niet* de normale acties van de web server verstoren, omdat dit vaak leidt tot makkelijkere detectie en omdat het vrij duidelijk wordt voor buitenstaanders dat er iets ongebruikelijks gebeurt.
+
+</file>
+
+  <file path="bin/Sequencer" name="Sequencer.exe">#SEQUENCER_EXE#</file>
+
+  <file path="Themes" name="CSEC_x-server.sys">#WHITE_THEME#</file>
+  <file path="Themes" name="Mint_x-server.sys">#MINT_THEME#</file>
+  <file path="Themes" name="Teal_x-server.sys">#TEAL_THEME#</file>
+  <file path="Themes" name="Blue_x-server.sys">#BASE_THEME#</file>
+
+
+</Computer>

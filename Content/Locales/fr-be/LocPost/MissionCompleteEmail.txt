@@ -1,0 +1,8 @@
+﻿﻿Félicitations,
+Le client de votre récent contrat a signalé un succès, et il est ravi de votre travail.
+Vous êtes désormais libre d'accepter d'autres contrats à partir de la base de données de contacts.
+
+Votre rang actuel est {0} sur {1}.
+
+Merci,
+{2}

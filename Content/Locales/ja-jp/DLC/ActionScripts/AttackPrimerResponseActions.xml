@@ -1,0 +1,53 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+    <!-- Coel was on Alchemists cleanup duty, Default was on "Personal Ties" 
+    We want to delay the player for 30 seconds here so they can get hacked without starting the next mission...
+    -->
+    
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-10.0">任務完了だ、 @Coel - 悪いな、本来君の仕事だったのに。でも、なるべくきれいにこなしたつもりだよ。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="0.1">ありがとう。自分の後始末くらい自分でやりたかったけど…感謝してる。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="3">わかるよ、でも気にすんなって。そっちの進捗は？</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="5.0">この件を引き受けてくれて助かりました、 @D3f4ult</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="9.0">まかせてくれよ、隊長。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="15.2">さっき、Hermetic Alchemistのサーバーを全部調べ直して、痕跡がないことを確認したわ。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="20.2">誰かが切断ログをあちこちに残してたけど、気にしないで、わざわざ嗅ぎ回ったりしないから。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="24.5">うわー。 @Kaguya - 切断ログを消すツールは？</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="28.1">それってForkBomb以外で？</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="32.1">そんなの乱暴じゃん :\</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="35.1">うーん、この話はやめよう。</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="37.1">調べるだけ調べてみますが、ご期待に添えるとは限りません。</AddIRCMessage>
+    
+  </OnConnect>
+
+  <!-- These trigger when the player has passed the recovery and connects back to IRC for the first time -->
+  <OnConnect target="dhs" needsMissionComplete="false" requiredFlags="startupBreakinTrapPassed">
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-220.0">@channel EMERGENCY - @#PLAYERNAME# が警報を引き起こしています。トラブルのようです。</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-210.0">@Coel - 進行中ミッションを中断して、こちらの対処を。</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-200.0">!ATTACHMENT:link#%##PLAYERNAME# PC#%##PLAYER_IP#</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-194.0">@#PLAYERNAME# のマシンです。事態を把握して、問題を解決してください。</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-185.0">@Kaguya 了解</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-180">俺にできることは？</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-175.0">そうですねえ…</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-160.0">では、 @#PLAYERNAME# が進めていたプロジェクトを引き継いでもらいます。このトラブルの原因を探ってください。くれぐれも気を付けて。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-155">了解。</AddIRCMessage>
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-120.0">仮想マシンレベルの攻撃だったわ。やれるだけのことはやってきたけど、復帰できるかは @#PLAYERNAME# 次第ね…</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-115.0">素晴らしい対処ですね、 @Coel - 私は監視を続けます。</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-110.0">@D3f4ult はどうですか？</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-90.0">いくつかリンクを掴んだ。なるべくクリーンにやってるよ。</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-85.0">そのまま続けてください。</AddIRCMessage>
+
+    <!-- After this displays in real-time -->
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="1.0">@#PLAYERNAME# お帰りなさい</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="8.0">さすがね #PLAYERNAME#</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="14.0">よう @#PLAYERNAME# - Kaguyaに頼まれて掘ってたんだけど、どうやら周到に保護されたプロキシみたいだ。そっちのログから追跡できるはずだ。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="25.0">筋を通すなら、こいつは君の獲物だ。でも、D3f4ult式奥義、地獄の雨を降らしてやりたいなら、IPを投げてくれ。</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="40.0">それと、自分用メモ - 他のハッカーとやり合うなら、自分のマシンにShellを立ち上げてトラップの準備をしておくこと、っと...〆（-o- ）</AddIRCMessage>
+
+  </OnConnect>
+  
+</ConditionalActions>

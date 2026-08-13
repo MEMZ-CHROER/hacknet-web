@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="csec_med_01" handle="Ehwitt" firstName="Elliot" lastName="Whit" isMale="true">
+  <Birthplace name="London" />
+  <Degrees>
+    <Degree uni="Manchester University" gpa="3.3">Masters of Law</Degree>
+    <Degree uni="Manchester University" gpa="3.1">Bachelor of Political Sciences</Degree>
+  </Degrees>
+  <DOB>09/09/1961 22:00:00</DOB>
+  <Medical>
+    <Blood>BO</Blood>
+    <Height>166</Height>
+    <Allergies>KEINE</Allergies>
+    <Perscription>Ivermectin x35 monatlich :: Herzfrequenzregulierung </Perscription>
+    <Notes>Wegen der häufigen und kritischen Herzfrequenzprobleme wurde dem Patienten ein Herzschrittmacher eingesetzt, der bei unvorhergesehenen Problemen rekalibriert werden kann, wodurch eine invasive Operation vermieden werden konnte.
+    
+Referenz:
+. 
+. 
+Schrittmacher IP:           202.6.141.219
+Dokumentation and Hinweise: 66.96.147.84
+. 
+.
+Zusätzliche Details:
+Vor jeder Art von Eingriff - ob technischer oder chirurgischer Natur - den Hersteller kontaktieren, um die Stabilität des Systems zu bestätigen.
+    </Notes>
+  </Medical>
+  <Notes>Pacemaker mission case</Notes>
+</Person>

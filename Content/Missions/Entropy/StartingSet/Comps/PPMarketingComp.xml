@@ -1,0 +1,138 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ppMarketing" name="PP Marketing Inc." security="2" type="4">
+  
+  <proxy time="1.1" />
+  <portsForCrack val="2" />
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1" />
+  <trace time="400" />
+  
+  <account username="admin" password="willsmith" />
+
+  <encryptedFile path="home/WORKSPACE" name="SECURE_MAILLIST.dec" ip="74.125.237.119" header="Marketing encryption lv.2">Jokes on you, Hacker, wrong list. Like we'd leave our data just lying around on our public facing servers like that - especially when we know someone's after it!
+  Here, take some junk binary data to make this filesize look appropriate.
+  
+  #BINARY#
+  
+  Love, 
+  - An actual security expert
+  XOXO
+  </encryptedFile>
+
+  <file path="home/WORKSPACE/INDUCTION" name="welcome.docx">
+Hello employee. Welcome to your first day on the front lines of P.P Marketing. Don't let the corporate image fool you - this is a war, and you are fighting the good fight. Working here for America's number one corporate marketing firm is no easy task - each and every client is a stronghold. Each and every product is a weapon. Each and every campaign is just another battle that we must fight to ensure that our clients come out on top. 
+
+It's always important to ensure that our internal presence matches up with the external communications to increase the synergy between the brands. If you have any questions on how you should maximise the exposure of campaigns via your own online presence, please organise a Shared Learning Sessions with your line amanger. 
+
+As head of Human Resources, I wish you all the best during this exciting transitional period of your career. 
+	
+Jane Halliday - Human Resource Manager, P.P Marketing</file>
+  
+  <file path="home/WORKSPACE/INDUCTION" name="dresscode.docx">
+All employees, except for the IT Department and Facilities, are required to conform to the following dress code to improve the external imaging of P.P Marketing: 
+	
+- Business suits in black, charcoal, obsidian or navy blue must be worn at all times.
+- White, light blue, ivory or grey button up shirts, long sleeved to match the suit you are wearing on any given day
+- Black, red, blue, purple or green ties are to be worn by all male staff. Solid colours only - no patterns allowed as research shows this intimidates our clients. 
+- Females are to wear open collar shirts, or are permitted to wear a plain colored scarf during the winter months. 
+- Black or brown polished shoes
+	
+The IT and Facilities staff are given a plain navy blue work uniform, which must be cleaned and pressed regularly to maintain a healthy corporate image. 
+	
+We appreciate your understanding in our strict dress code. P.P Marketing is a firm that prides itself on its external appearance. 
+	
+Jane Halliday - Human Resource Manager, P.P Marketing</file>
+  
+  <file path="home/WORKSPACE" name="Maillist_info.txt">This is the maillist we got from the hacker (who charged through the nose, by the way). Turns out there's some sort of encryption on it? What did we even pay the guy for anyway?
+HR's saying they'll get someone ELSE to try and decrypt it, or whatever will make it usable, but according to the first guy it's the right size, so it's gotta be the right data if we can break into it.
+What a disaster. Well, at least we got something out of it, even if we cant use it yet...</file>
+  
+  <file path="home/WORKSPACE/INDUCTION" name="complaint_procedure.docx">
+All employees who wish to file a grievance with a co-worker, or the practice of the agency, must submit a 106B form to their line manager, or department head. The grievance must be outlined, complete with evidence, withing thirty (30) days of the incident taking place to be investigated. All complaints will be investigated extensively by the HR department, which will ensure that a satisfactory solution is delivered within 12 months of the investigation taking place.
+</file>
+  
+  <file path="home/WORKSPACE/INVESTIGATIONS" name="winters_kevin.txt">
+It has been requested that all emails sent from employee Kevin Winters to any external addresses be scanned for malicious information regarding internal practices of P.P Marketing. This request has been approved by the Head of Operations, James Wilson. We are specifically looking for evidence that Winters has shared trade secrets with competing firms.
+</file>
+  
+  <file path="home/WORKSPACE/INVESTIGATIONS" name="kw_evidenceA01.txt" EduSafe="false">
+[winters] Terry, I'm telling you there's some seriously shady stuff going on.
+[craigmore] Everyone knows that they're shady.
+[winters] They literally just purchase their lists from other companies. Usually ad buys that work from the j-mail database. 
+[craigmore] How does that help them?
+[winters] They have their own dev team that works on algorithms, working out on email behaviors, which products they are likely to take notice of. 
+[craigmore] Really? That's some pretty dark shit. 
+[winters] Rumours going round that they are working on some kind of AI chat bot that will essentially mimic users on forums and gracefully slip marketing materials into convos.
+[winters] A form of AI subliminal marketing
+[craigmore] Shit. 
+[winters] Listen. I'll dump as much as I can onto hard drives and leave if you give me a position.
+[winters] I need to get out of here.
+</file>
+  
+  <file path="home/WORKSPACE/INVESTIGATIONS" name="kw_evidenceA01.txt" EduSafeOnly="true">
+[winters] Terry, I'm telling you there's some seriously shady stuff going on.
+[craigmore] Everyone knows that they're shady.
+[winters] They literally just purchase their lists from other companies. Usually ad buys that work from the j-mail database. 
+[craigmore] How does that help them?
+[winters] They have their own dev team that works on algorithms, working out on email behaviors, which products they are likely to take notice of. 
+[craigmore] Really? That's some pretty dark stuff... 
+[winters] Rumours going round that they are working on some kind of AI chat bot that will essentially mimic users on forums and gracefully slip marketing materials into convos.
+[winters] A form of AI subliminal marketing
+[craigmore] damn.. 
+[winters] Listen. I'll dump as much as I can onto hard drives and leave if you give me a position.
+[winters] I need to get out of here.
+</file>
+    
+  <file path="home/documents" name="IncidentLog1.txt" EduSafe="false">
+[nem] Were you logging into the S3 on the weekend?
+[felix] no, why?
+[nem] There are files missing, and our bandwidth usage is off the charts, but there are no logs.
+[felix] that's weird.
+[felix] did you check to see if the firewall is down?
+[nem] not yet.
+[nem] shit.
+[felix] what?
+[nem] RDP to the mailserver is down.
+[nem] going to the server room to check it out.
+[nem] brb.
+</file>
+  
+  <file path="home/documents" name="IncidentLog1.txt" EduSafeOnly="true">
+[nem] Were you logging into the S3 on the weekend?
+[felix] no, why?
+[nem] There are files missing, and our bandwidth usage is off the charts, but there are no logs.
+[felix] that's weird.
+[felix] did you check to see if the firewall is down?
+[nem] not yet.
+[nem] ....
+[felix] what?
+[nem] RDP to the mailserver is down.
+[nem] going to the server room to check it out.
+[nem] brb.
+</file>
+  
+<file path="home/documents" name="IncidentLog2.txt">
+[nem] Okay, I'm packaging everything up and sending it through
+[felix] I'll store it off-site and we can retrieve it later
+[felix] this is total BS btw. 
+[nem] Can't believe they go through our security.
+[nem] Months of emails gone.
+[nem] I bet Letterman is going to be pissed about this.
+[felix] Weinstein is probably going to flip his lid.
+[nem] just make sure you don't get fired too. 
+[nem] I'll talk to you later.
+</file>
+  
+  <file path="home/documents" name="logs.txt">
+[gscott] Did you read the memo that was circulated this morning?
+[cgershwin] Ha, can you believe they expect us to work overtime and not get paid for it?
+[gscott] Doesn't surprise me. Seriously, I know this is a start up operation, but they need to start treating us better.
+[gscott] I took a huge pay cut just to be here.
+[cgershwin] They have three months to turn it around.
+[cgershwin] Or I'm outta here.
+[gscott] Might join you.
+[gscott] Wanna grab a beer after work?
+[cgershwin] If you're buying! 
+</file>
+  
+</Computer>

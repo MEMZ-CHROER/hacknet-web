@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle05">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0015 - Schrittmacher v2.44 Firmware und Patching">
+Hier werden die Sicherheitsmechanismen des v2.44 Herzschrittmacher näher beschrieben. Für reguläre Informationen, konsultieren Sie bitte das mitgelieferte Handbuch. Sollten Sie dieses nicht erhalten oder verloren haben, fordern Sie bitte eine neue Kopie an: support@kellisBio.com
+---------------------------------------------
+
+Die Firmware des v2.44 Chipsatz wurde von Eidolon Soft entwickelt. Versionsverwaltung, Anfragen und Updates werden vom Eidolon-Zentralserver verarbeitet:
+
+111.105.22.1
+
+Da der Chipsatz nur Firmware-Builds, die von unseren Systemen stammen und mit unserem Schlüssel signiert sind, ausführt, kann kein Dritter funktionierenden Code für unsere Chipsätze produzieren (es sei denn, dieser wird von Eidolon kompiliert).
+Sollten Probleme mit dem Herzmonitor-Interface oder der Fernwartung auftreten, sollten die Berichte und/oder Anfragen an Eidolon Soft gerichtet werden: support@eidolonsoft.com
+
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Wenn du diese Nachricht erhältst, ist irgendetwas furchtbar schiefgegangen. Oje.
+Bitte in Panik geraten.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

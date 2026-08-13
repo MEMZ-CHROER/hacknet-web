@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDownload" target="jscottHome" file="DECHead.exe" path="home/work" />
+  </goals>
+  <nextMission>MainHub/DecypherSet/DECHeadMission02.xml</nextMission>
+  <posting title="Volg een Versleuteld Bestand">
+We denken dat we een manier hebben gevonden om nategaan waar DEC versleutelde bestanden zijn versleuteld - we hebben een met wachtwoord beschermd bestand die we open willen. Dat zou genoeg moeten zijn.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Door de Kijker</subject>
+    <body>
+Blijkbaar slaan DEC versleutelde bestanden het IP op van waar ze gecodeerd zijn (met wat extra berichten) op in de headers - vermoedelijk voor debug doeleinden, maar voor ons lijkt het een grote beveilingskwetsbaarheid - wat goed is, omdat we iets met een wachtwoord hebben dat ontsleuteld moet worden en we geen idee hebben van het wachtwoord.
+
+Dus, eerste stap - vind een manier om deze headers uit te lezen. We hebben wat rondgezocht en vonden uit dat een van de medewerkers van DEC solutions wellicht een manier heeft gevonden zonder dat het wachtwoord nodig is.
+Kijk eerst naar zijn computer en beantwoord als je iets nuttigs vind. We hebben meer te doen als daarna.
+
+-CT Team
+    </body>
+    <attachments>
+      <link comp="jscottHome" />
+    </attachments>
+  </email>
+</mission>

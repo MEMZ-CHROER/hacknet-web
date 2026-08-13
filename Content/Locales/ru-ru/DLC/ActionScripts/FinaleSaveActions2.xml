@@ -1,0 +1,20 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="1.2">Мы в безопасности.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="5.2">И можем снова вздохнуть.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="10.2">Не могу поверить, что они это сделали.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="14.2">Самолет... С ЛЮДЬМИ...</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="20.2">Ну да ладно. Мы должны залечь на дно на некоторое время. И лучше временно не выходить на связь.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="27.2">Спасибо за помощь. Твоя помощь оказалась очень кстати.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="33.2">Я позабочусь и сотру все что осталось после нас. Так как ты выходил на связь с этим самолетом, лучше держись подальше от их серверов на некоторое время. Я проверю, чтобы после нас осталось следов.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="36.2">Ах да, и вот что тут нашлось в конфигурационном файле этого сервака. Похоже, это восстановит твой интерфейс и удалит программу слежения Kaguya.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="40.2">С тобой было приятно поработать, #PLAYERNAME#. Удачи и береги себя.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="42.2">-С</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="44.0">!ATTACHMENT:link#%#Kaguya_Projects#%#54.183.231.34</AddIRCMessage>
+  
+  </OnConnect>
+
+</ConditionalActions>

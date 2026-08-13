@@ -1,0 +1,9 @@
+1: Consigue acceso de administrador en un ordenador que creas que tiene un dispositivo eOS sincronizado
+2: Ejecuta eosdevicescanner.exe
+para escanear dispositivos conectados y abrir la conexión automáticamente
+3: conéctate al dispositivo encontrado
+4: entra con
+usuario: "admin"
+contraseña: "alpine"
+
+¡La contraseña es la misma para todos los dispositivos eOS!

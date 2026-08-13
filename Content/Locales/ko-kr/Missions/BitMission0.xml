@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitMission00">
+  <goals>
+    <goal type="getAdmin" target="bitMission00"/>
+  </goals>
+  <missionStart val="7">changeSong</missionStart>
+  <nextMission>BitMission1.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>처녀항해</subject>
+    <body>축하해! 
+솔직히 말해서 당신이 과연 성공했는지 알 수는 없지만, 이것을 보고 있다면 적어도 무언가는 발견했다는 뜻이겠지. 기왕이면 쓸만한 것이 좋은데. 
+
+내 예전 테스트 서버를 뚫어보시는 게 좋겠어. Viper가 소문대로 이것 저것 주워 모으는 타입이라면, 아마 뚫는 데 필요한 모든 것을 갖추고 있을 거야. 
+기본 프로그램 이외에는 모두 실행하려면 포트 번호가 필요하지 - 예:
+
+&gt;SSHCrack 22 
+^filename ^portnumber
+     
+그냥 뚫고자 하는 포트를 찾아서 거기에 실행하면 돼.
+
+ 그리고 혹시 모를까봐 하는 말인데, 탭 키를 누르면 명령어가 자동완성되지. &quot;ssh&quot;까지 치고 탭 키를 누르면 나머지가 자동으로 뜨는 식으로 말이야. 모든 명령어에 해당 돼! 
+
+그럼, 행운을 빌어!
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <note title="보안의 기초 가이드">보안의 기초
+      
+Probe를 사용해 열려 있는 포트를 확인하세요. 
+프로그램이 있는 것을 대상으로 지정하고 해당하는 포트를 지정하세요. 
+예: &quot;SSHCrack 22&quot;
+      ^filename ^portnumber 
+포트를 충분히 뚫으면 &quot;Porthack&quot;을 사용해 대상의 보안을 침해할 수 있습니다.
+      </note>
+      <link comp="bitMission00"/>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entRep01" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+ERREUR DE PUBLICATION INCONNUE
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>RE : De retour à l'école</subject>
+    <body>
+OK, vraiment ?
+
+ *******... Waouh. J'arrive pas à savoir si c'est un génie ou un imbécile. Peut-être un peu des deux ? 
+Merde, j'ai essayé parce que le script de vérification disait que ça fonctionnait et que je voulais tester ce *machin* moi-même ! 
+
+Ha... Ça va être... une réponse un peu confuse aux administrateurs de l'école. Eurk.
+
+ Beau travail, c'est parti. 
+-Les admins
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

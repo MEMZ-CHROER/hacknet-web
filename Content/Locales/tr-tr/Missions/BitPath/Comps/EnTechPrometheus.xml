@@ -1,0 +1,93 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechPrometheus" name="En_Prometheus" security="5" ip="156.151.1.1">
+
+  <adminPass pass="d88vAnnX" />
+
+  <dlink target="enMail" />
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+
+  <positionNear target="EnTechMainframe" position="3" total="6" />
+
+  <file path="STORE/Hacknet_Project" name="Hacknet_NetCore.dll">#BINARY##BINARY#</file>
+  <file path="STORE/Hacknet_Project" name="HN_Connect_doc.txt">Hacknet Projesi
+--EnTech - Gizli--
+
+KOMUT: "connect"
+Harici iletişim kanallarındaki (genellikle SHH) bağlantı metodlarını harici hizmetlerde birleştirmek üzere bağlayıcı olarak kullanılır.
+Komut, geçerli bir bağlantı metodu bulmak için mevcut portları ve destekli hizmetleri tarar, bulduğunda kullanır ve 
+standart bağlantıyı benzetmek için bağlar.
+Gerçekte, Hacknet'in bağlantı metodları evrensel ve standarttır. Alt seviyedeyken tüm bilindik 
+(ve de bazı bilinmedik) bağlantı metodlarını neredeyse tüm kullanıcı hizmetlerinde kullanabilme özelliğine sahiptir. 
+  </file>
+    <file path="STORE/Hacknet_Project" name="HN_Connect_TESTGUIDE.txt">Hacknet Projesi
+--EnTech - Gizli--
+
+KOMUT: "connect"
+REHBER:
+
+İş istasyonları ve şirket ana sunucuları arasındaki bağlantının sağlanmasının yanı sıra, kablosuz ve kısıtlı işletim sistemlerine de bağlatılmasını desteklemeliyiz.
+Deneme planımızda birkaç mobil aygıta (bazıları kırılmış, diğerleri fabrika çıktısı) da bağlantı hizmeti sağlanmasını içermekte. Bu aygıtlar destek ekibinin 
+Prometheus sunucusuyla senkronize edilecek. Eğer denemek için (fiziksel çıktı incelemesi, her yerden bağlanılabilir) aygıta ihtiyacınız olursa, sunucu ekibiyle iletişime geçin.
+  </file>
+  
+  <file path="STORE/Hacknet_Project" name="SyncedDevices.txt">Hacknet Projesi
+--EnTech - Gizli--
+
+Hacknet bağlantı modülünün testinde kullanılacak mobil ve kablosuz aygıtlar (eOS aygıtları dahil) bu sunucuyla senkronize edilecektir.
+Bazen hepsi tarafımızdan silinecektir (her ihtimale karşı). An itibariyle yapılacak en iyi şey bu. Bu aygıtları diğer makinelerle eşleştirmeyiniz!
+İnsanlar bu aygıtları kullanarak çalışacağı için zamanla etrafa saçılacaklar. Eğer şarjları biterse, veya silinmeye veya senkronizasyona ihtiyaçları olursa, Prometheus sunucusunu kullanın.
+  </file>
+  
+  <file path="STORE/Hacknet_Project" name="Hacknet_Project_Contacts.txt">Hacknet Projesi
+--EnTech - Gizli--
+
+İletişim ve Kaynaklar
+
+Hacknet Projesi'nin duyarlılığı göz önünde bulundurulursa (herkesin dahil olduğu NDA sıkılığı da), sorular, değişiklik talepleri, veya diğer yönetim meseleleri Hacknet Yönetimi postasına bildirilecektir:
+hnManager@entech.com
+Bu ileti tüm çalışanlara gönderilecektir. Çalışanlardan bazıları eğer çalışma alanları sizinkiyle ilgiliyse, sizinle özel olarak iletişime geçebilir.
+
+  </file>
+
+  <file path="STORE/EnSec_Project" name="EnSec_Invioability_Project.txt">
+EnSec Dokunulmazlık Projesi, tüm yetkilendirme girişimleri ve yönetici komutlarının geçerliliği olan, tüm basmakalıp (ve birçok da alışılmadık) penetrasyon ve güvenlik aşım metodlarına karşı benzersiz bir güvenliğe sahip işletim sistemi düzeyi güvenlik katmanıdır.
+Amacı son kullanıcıya karşı tamamen şeffaf olmak (EnTech Inc. tarafından ayarlanan acil durum güncellemeleri hariç) ve zayıf ve gizli bilgisayarlara son seviye güvenlik sağlamaktır.
+
+Şu anki güvenlik sistemlerindeki kusurları ortaya çıkaran Hacknet projesiyle birlikte yürütülen EnSec, neden gerçek dijital güvenliğin ve güvenin kabul görmüş standart birimi olması gerektiğini açıkça göstermektedir.
+
+ - EnSec - 
+ İstediğiniz özgürlük, hak ettiğiniz güvenlik...
+  </file>
+
+  <file path="STORE/EnSec_Project" name="EnSec_Core_11-05.dll">#BINARY#</file>
+  
+  
+  
+  <eosDevice id="enPrometheus_eos1" name="ENTECH_TEST_01's ePhone 4S">
+    <note>passes
+1
+1
+3</note>
+    <note>HN
+Bu aygıt Standart Kırılmamış ePhone 4S olarak tasarlanmıştır.
+Harici etki olmadan açık terminal bağlantısı metodları kullanılmayacağından 
+bağlantı BAŞARISIZLIKLA sonuçlanmalı.</note>
+    <mail username="nstanford@entech.com" pass="murloc33" />
+  </eosDevice>
+  
+  <eosDevice id="enPrometheus_eos2" name="ENTECH_TEST_02's ePhone 4S">
+    <note>HN
+Bu aygıt Özel Kırılmış ePhone 4S olarak tasarlanmıştır.
+Bu aygıt SSH bağlantılarına izin verecek şekilde ayarlandığından bağlantı BAŞARIYLA kurulmalı.</note>
+    <note>KULLANIM
+NOT: Bu aygıt test hedefi için *kasıtlı olarak güven sağlamamaktadır*. Hiçbir iç hizmete veya e-posta sunucusuna BAĞLANMAMALI 
+ve hiçbir test veya geliştirme verisi BARINDIRMAMALIDIR.</note>
+    <note>Harici Oluşturma Testi
+asdf asdf harici not yazımı</note>
+    <note>Harici Test 2
+12345678</note>
+  </eosDevice>
+  
+</Computer>

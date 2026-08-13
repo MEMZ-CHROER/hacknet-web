@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission02" name="Entropy test Server" ip="199.59.149.230" security="1" type="4">
+  <file path="home" name="Entropy_Induction_Test">
+Tebrikler,
+  
+Alım testinizi tamamlamak için bu dosyayı indirin.
+    
+Entropy kısa bir süre içinde sizinle iletişime geçecek.
+  </file>
+  <file path="bin" name="e_admins_are_lazy.txt">Kimse bin klasörünün temizlenmesi gerektiğini bile hatırlamıyor. Bu, deneme sunucusu aptal herifler. İnsanların buraya girmesi gerek! En azından burayı temizleyin!</file>
+
+  <file path="bin/zer0cool" name="hack_the_planet.txt">SİZ APTALLAR BANA BOYUN EĞECEKSİNİZ! BENİM SİZDE OLMAYAN ÇILGIN YETENEKLERİM VAR!</file>
+  <file path="bin/zer0cool" name="retort.txt">Mukabelenin ne olduğunu bildiğini varsayıyorum... şunu söyleyerek başlayayım; sen noob'dan başka bir şey değilsin. 
+Muhtemelen bu proxy'i nasıl aşacağını çözmek için bütün hafta uğraştın. Bahse varım henüz 12 yaşındasın ve annenin i386'sını kullanarak "gezegeni ele geçirebileceğini" zannediyorsun. Bol şans veletcik. Çekil de profesyoneller işlerini halletsin.</file>
+
+  <file path="bin/OP_Stormwind" name="need_help.txt">Eğer buradaysan, senin olmayan yerlere girmekle ilgili bir iki yol biliyor olmalısın. Stormwind'da ki aptallar son müzayede yamasıyla Shaytan 3'te ki dengeleri tamamen alt üst etti. Orjinal Shaytan'ın 96'da ki çıkışından beridir tamtakır takipçisiyim. Bence müzayede sistemini mahvedip onlara günlerini göstermeliyiz. Eğer bana katılıyorsan, buraya bir metin dosyası ekle. Seni bulurum.
+-slaggedfire</file>
+
+  <file path="bin/OP_Stormwind" name="Wo_lai_bang.txt">
+400 Jin Stormwind Online.
+</file>
+
+  <file path="bin/OP_Stormwind" name="lulz.txt">
+yöneticiler senin şu slaggedfire olayına epey kızdı. Çinliler bütün gece boyunda altın isteyip sunucuların içine etti. 
+</file>
+
+  <file path="bin" name="SOgold.txt">
+Zamanını tükettiğin o lanet görevlerden bıktın mı? Para sıkıntısı yaşamadan uzuk ve mutlu bir yaşam sürmek mi istiyorsun? O halde çareyi Stormwind Online oyuncularının efsanevi farm hizmetkârı SOgold'da buldun. Ufak bir ücret karşılığında hesabını devralıyoruz, istediğin her nesneyi satın alabilecek kadar altının olmasını sağlıyoruz. Tek yapman gereken 29.99$ değerindeki ücreti ödemek ve Stormwind Online hesabının detaylarını da yanında göndermek. Sonrasında hayal bile edemeyeceğin kadar fazla altın senin olacak. 
+</file>
+
+<file path="bin" name="BIT_PLZ_READ.txt">
+Bit eğer gizlenirsan, acaba bir süreliğine gölgelerden dışarıya adım atabilir misin? Seninle konuşmam gerekiyor.
+Vap0r bir şeylerin ters gittiğini söyledikten sonra öylece yakamı bırakmayacak. Bir şeylerin ters gittiğinden kesinlikle emin. Bana haber ver tamam mı?
+-T
+</file>
+  
+  <proxy time="0.3" />
+</Computer>
+

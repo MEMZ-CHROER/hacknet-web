@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyNews02">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Suspicions arise over Entropy">
+Интернет-группа Entropy известная некоторое время в качестве надежного источника информации о последних разработках в интернет- мире, однако последние действия группы, такие как закрытие их публичного терминала  посредством, которого они  закупали эту информацию, была поставлена под сомнение, вызвала подозрения журналистов и компаний.
+
+ Хотя группа давно известна открытостью информации, если  она добыта не законными способами, действия должны быть предприняты. 
+Подробности , по мере развития событий. 
+
+Репортер:  Том Вилкинс 
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Должна Быть Остановлена</subject>
+    <body>
+Уничтожьте entropy Базу Данных 
+    </body>
+    <attachments>
+      <link comp="entropy01"/>
+    </attachments>
+  </email>
+</mission>

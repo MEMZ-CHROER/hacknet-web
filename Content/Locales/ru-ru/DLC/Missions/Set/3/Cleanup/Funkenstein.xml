@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="ds3_fn" name="Лаборатория Funkenstein'а" security="1" type="4" icon="DLCPC1" ip="21.32.43.54">
+
+  <proxy time="-1" />
+  <portsForCrack val="3" />
+  <ports>6881, 443, 22, 21</ports>
+  <portRemap>6881=69,22=1999</portRemap>
+  <trace time="200" />
+
+  <adminPass pass="redwood" />
+
+  <file path="home" name="d3f_ROOTKIT.zip">#BINARY#</file>
+  <file path="home" name="d3f_ROOTKIT_extras.zip.zip">#BINARY#</file>
+  <file path="home" name="d3f_ROOTKIT_REMINDER-DELETEMEt.txt">ЕСЛИ ВЫ ЭТО ВИДИТЕ, ДЕЛА У ВАС СЕЙЧАС ХУЖЕ, ЧЕМ ВЫ ДУМАЕТЕ</file>
+
+
+  <file path="home/ableton" name="We_Are_Number_Onederwall.mp3">#BINARY#</file>
+  <file path="home/ableton/finished" name="Wonderwall_But_Every_Time_They_Say_Wonderwall_It_Gets_Faster.mp3">#BINARY#</file>
+  <file path="home/ableton" name="note.txt">
+Нужно добавить это в альбом
+
+
+home/ableton/samples/burp.mp3
+home/ableton/samples/pointclicker_click.mp3
+home/ableton/samples/pointclicker_win.mp3
+home/ableton/samples/pointclicker_lose.mp3
+home/ableton/samples/noticemesenpai.mp3
+home/ableton/samples/ohno.mp3
+home/ableton/samples/madonna.mp3
+home/ableton/samples/windowsXP_error_sound.mp3
+home/ableton/samples/windows98_login_sound.mp3
+  </file>
+  
+  
+  <file path="home/ableton" name="samples.zip">#BINARY#</file>
+  
+  
+  <file path="home/ableton" name="todo.txt">
+Микс Wonderwall
+Микс "Все звезды"
+Микс "Wonderwall и все звезды"
+
+Сделать резервные копии текущих треков для выдачи вшивому дистрибьютору
+
+</file>
+  
+  
+  <Memory>
+    <Commands>
+      <Command>FTPZilla -connect 32.43.54.65
+...идет подключение...
+...соединение установлено.
+...выгружается (1/12)...
+...выгружается (2/12)...
+...выгружается (3/12)...
+...выгружается (4/12)...
+...выгружается (5/12)...
+...выгружается (6/12)...
+...выгружается (7/12)...
+...выгружается (8/12)...
+...выгружается (9/12)...
+...выгружается (10/12)...
+...выгружается (11/12)...
+...выгружается (12/12)... готово!
+...запаковка 12 файлов в архив hells_maw.dec...готово!
+...соединение разорвано.
+выход.</Command>
+    </Commands>
+  </Memory>
+
+
+</Computer>

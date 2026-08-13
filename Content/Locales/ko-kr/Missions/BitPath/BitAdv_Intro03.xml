@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bit02_Phase3" activeCheck="true">
+  <goals>
+    <goal type="getAdmin" target="EnTechPrometheus"/>
+  </goals>
+  <missionStart val="11" suppress="true">changeSong</missionStart>
+  <nextMission>BitPath/BitAdv_Intro04.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- 조사</subject>
+    <body>흐음.
+    
+나도 살 만큼 살았지만, 이런 건 처음 보는군. 난공불락이라고 단정 짓기에는 아직 이르지만... 새로운 것만은 틀림없어. 신선하군. 흐음. 
+EnTech란 말이지? 그냥 그런 바이러스 백신을 만드는 회사 아냐? 이게 뭔진 몰라도 이걸 팔았다면 떼돈을 벌었을 텐데. 
+
+그 회사 대표 제품은 이렇게 고급지지 않아. 웹 서버 쪽에서 좀 더 파볼게. 어느 지점에서부터 이게 시작하는지 확인하려고. 깊숙한 걸 보니 왜인지 몰라도 놈들이 숨기려고 한 모양이군. 
+이유는 모르겠지만 말이야. 뚫으려면 골치 아프겠어. 큰 회사들은 그런 걸 좋아하지. 이건 신선한데다 화려하기까지 해. 
+
+수상한 냄새가 나는 걸. 
+당신도 어디까지 들어갈 수 있나 직접 해봐. 왠지 이거야말로 기대 이상의 단서인 것 같은데.
+
+ 가능한 한 많이 확인하고 나서 연락 줘. 꼼꼼히 살펴봐.
+
+-V    
+    </body>
+    <attachments>
+      <link comp="EnTechWeb"/>
+    </attachments>
+  </email>
+</mission>

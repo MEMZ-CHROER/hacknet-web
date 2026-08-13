@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dhaAdminHome" name="Nate Wesson Privat" security="4" ip="66.175.58.9" type="4" icon="DLCPC1">
+  
+  <!-- This is the home computer of the architect of the system, it's more personal, less formal, and contains WIP files -->
+  
+  <proxy time="-1" />
+  <trace time="300" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 443, 80, 6881</ports>
+  
+  <positionNear target="dhaComp2" position="300" total="360" extraDistance="0.01"/>
+
+  <file path="sys" name="STOR-DRIVE_activesync.log">Lokales Speicherbild erstellt
+Sicheres Remote-Laufwerk reagiert auf Ping-Befehl
+BOOTEN ERFOLGREICH
+Fehler: 0</file>
+
+  <file path="bin" name="SignalScrambler.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+
+  <file path="home/wip" name="todo_books.txt">Zu schreibende Bücher
+
+in Arbeit
+- Leitfaden zum Abnehmen
+
+Fertig
+- Fibel über hermetische Alchemie (warum verkauft sie sich nicht gut? Muss ich untersuchen)
+- Komplexitäten des Lebensbaums (muss mit Verlag reden)
+
+todo
+- Metaphysik der Nahrung
+- Kochbuch für CfC
+- Ein Drehbuch über Bienen (sprechende Bienen liegen momentan im Trend)</file>
+
+  <file path="home/wip" name="weightloss.txt">Es ist alles in deinem Kopf: Zum Abnehmen braucht es nur einen positiven Gedanken!
+oder:
+Die Wesson-Methode
+
+Einleitung
+
+Medikamente sind toll! Nahrungsmittel sind Heilungsmittel für alle Krankheiten! Alles ist tutti und gut für dich! 
+
+Das behaupten jedenfalls alle Bücher, die ich gelesen habe, und ich muss sagen, das ist Blödsinn! Leute versuchen abzunehmen, und sie sagen mir: „Ich kann einfach nicht abnehmen, obwohl ich weniger esse, Sport treibe und gesund bin! Mein ganzes Gewicht verwandelt sich in Muskeln und ich bin fit, aber das Gewicht wird einfach nicht weniger!“
+
+Lass. Es. Dir. Sagen. Es geht nicht nur darum, weniger zu essen und Sport zu treiben und laut der Definition des Lexikons und der „Ärzte“ gesund zu leben. Was du brauchst, sind positive Gedanken. Und in diesem umfassenden Leitfaden sage ich dir ganz genau, welche Art von Gedanken du brauchst.</file>
+  
+  <file path="home/wip" name="weightloss_parody.txt">Hinweis für mögliche Verlage: Ich bin kein Spinner, das ist eine Parodie auf Diätbücher, gedacht für Leute in ihren 30ern, die es in ihr Regal stellen können, damit andere denken, sie wären clever und witzig. Bitte leg mich in den Stapel der Dinge, die noch zu lesen sind.
+</file>
+  
+  <file path="home/wip" name="weightloss_c2.txt">Kapitel 2
+
+Iss einfach alles, um deine Reise ins Unbekannte zu beschleunigen
+
+Notizen zur Struktur:
+-Iss alles, was du willst
+-Denke Diätgedanken
+-Du nimmst nur dann ab, wenn du dich auf die Perfektion zubewegst.
+-Mit zunehmender Perfektion nimmst du auch ab.
+-Ziehe zum Vergleich traditionelle Alchemietexte herbei
+</file>
+
+
+  <file path="home/wip" name="weightloss_c3.txt">Kapitel 3
+
+-Iss nichts Schlechtes, wie Terpentin und Zigarettenkippen aus der Gosse, das bringt dich um. Aber massig Junk-Food ist ok (besonders von CfC).</file>
+
+  <file path="home/wip" name="weightloss_c4.txt">Kapitel 4
+
+-Erwähne einen Anhang voller guter Gedanken. Separat erhältlich.</file>
+  
+  
+  <Memory>
+    <Commands>
+      <Command>STOR-DRIVE upkeep ping @ 66.175.58.11 _ ACTIVE</Command>
+    </Commands>
+    <Images>
+      <Image>DLC/Sprites/Misc/Alchemy</Image>
+    </Images>
+  </Memory>
+  
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/RiptideTheme.xml"/>
+
+
+</Computer>

@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet09">
+  <goals>
+    <goal type="getString" target="AAX1BB7"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="eOSデバイスに侵入せよ">
+とあるクライアントから、eOSデバイスに保存されているとある情報を入手してほしいとの依頼がありました。
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>ジェイルブレイク</subject>
+    <body> 簡略に説明します。
+とあるクライアントが、コンピュータやデバイス等を探し、「Registration ID」と呼ばれるものを探してほしいと依頼をしてきました。ターゲットのコンピュータに同期してあるeOSデバイスに保存してあると依頼主は睨んでいます（リンクは添付してあります）。
+
+目標のIDを添付して返信してください。後のことはこちらで対処します。
+
+健闘を祈ります。
+-CSEC
+    </body>
+    <attachments>
+      <link comp="hubEosMisison" />
+      <note title="依頼内容詳細">
+目標のコンピュータに同期してあるeOSデバイスをスキャン
+デバイスの中にある「Registration ID」を見つける
+目的のIDを添付しCSECに返信</note>
+    </attachments>
+  </email>
+</mission>

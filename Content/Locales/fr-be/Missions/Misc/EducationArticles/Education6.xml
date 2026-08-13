@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Traçage - Actif">
+En réponse à ce monde de sécurité informatique et de piratage de plus en plus hostile et actif, les nouvelles suites de sécurité numérique comprennent généralement des méthodes de localisation de toute activité « hostile » contre ledit serveur.
+
+C'est naturellement une science imparfaite, il existe donc 2 formes de traçages généralement reconnus : actifs et passifs.
+
+Cet article décrit les traçages actifs.
+
+2 : Traçages actifs
+----------------
+Un traçage actif est un effort de traque entrepris par un individu à l'encontre d'une connexion active ou, plus couramment contre des logs laissés sur un serveur par un hacker négligent.
+Un traçage actif est indétectable et est généralement effectué en tentant de déjouer la sécurité des nœuds utilisés dans le chemin de routage et en observant les logs de la route de connexion.
+Un traçage actif peut être évité en effaçant un maillon dans la route de connexion afin que le poursuivant n'ai rien à suivre, et à ce titre, il est recommandé de le faire dès que possible si un traçage actif peut être envisagé contre un assaillant.
+
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERREUR</subject>
+    <body>
+Recevoir cet email indique qu'une erreur inattendue est survenue.
+Veuillez paniquer.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

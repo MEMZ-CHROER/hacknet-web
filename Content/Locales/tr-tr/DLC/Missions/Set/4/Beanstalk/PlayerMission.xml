@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dBeanstalkMission">
+  <goals>
+    <goal type="fileupload" target="ds4_laptop" file="038457_doc.pdf" path="home/dagrunsdottir_leak" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Fasülye Sapı">Bir kanunun taslağını çalmak için kafeye sık sık gelen bir müşterinin bilgisayarına sız. Siyasi anlamda bu durumla ilgimiz bulunmuyor. Sadece, bilgisayardaki bilgiler için verilecek para az değil.</posting>
+  <email>
+    <sender>Biblioteqhue</sender>
+    <subject>Fasülye Sapı</subject>
+    <body>
+Bir kanunun taslağını çalmak için kafeye sık sık gelen bir müşterinin bilgisayarına sız. Siyasi anlamda bu durumla ilgimiz bulunmuyor. Sadece, bilgisayardaki bilgiler için verilecek para az değil.
+----
+Avrupalı siyasetçi Asdis Dagrunsdottir sanayimizle ilgili bazı şeylere etki edecek bir kanunu partisiyle birlikte gizlice meclisten geçirmeye çalışıyor. Hackerlar meraklıdır bilirsin. Bu işin ucunda az para yok.
+
+Evinin yakınlarındaki bir kafede sık sık zaman geçirdiğine dair bilgiler elde ettik. Şansımıza kafenin yönlendiricisinin IP adresini bulmamız zor olmadı.
+
+Dosyaları bul. Drop Server'a yükle. Kalanını bana bırak.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="ds4_cafe" />
+      <note title="Görev Kılavuzu">Kafenin yönlendirici listesinden Asdis Dagrunsdottir'ı bul.
+Kanun dosyalarını bul.
+Dosyaları Drop Server'a yükle.</note>
+    </attachments>
+  </email>
+</mission>

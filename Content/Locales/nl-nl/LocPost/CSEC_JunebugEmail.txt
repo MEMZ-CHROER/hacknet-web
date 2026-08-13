@@ -1,0 +1,7 @@
+Agent,
+
+Administrators hebben jouw account permissie toegezegd om een kritiek contract te accepteren.
+Deze staat als {0} op de contracten lijst.
+Wees bewust dat dit contract accepteren wellicht tijd kost of vertrouwlijkheid vereist en een afzondering van andere projecten voor een periode zal moeten worden ondernemen slechts met de verwachting dat andere contracten en mogelijk {0} diensten niet toegankelijk kunnen zijn tijdens het contract.
+Bedankt,
+{0}

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="csec_med_01" handle="Whitewash" firstName="Jonas" lastName="Sandburg" isMale="true">
+  <Birthplace name="ロンドン" />
+  <Degrees>
+    <Degree uni="マンチェスター大学" gpa="2.9">コンピュータサイエンス修士</Degree>
+  </Degrees>
+  <DOB>05/03/1993 14:00:00</DOB>
+  <Medical>
+    <Blood>BO</Blood>
+    <Height>166</Height>
+    <Allergies>なし</Allergies>
+    <Perscription>アルベンダゾール x70 隔月 :: Notes 参照</Perscription>
+    <Perscription>イベルメクチン x35 毎月 :: Notes 参照</Perscription>
+    <Notes>患者は深刻な象皮病を患っており、8歳の時に発症が確認された。定期的に行われている治療は素晴らしい効果を上げている。患部の腫れは非常に顕著ではあるものの、優れた衛生指導と治療の継続によって日常生活は送れる程度に回復している。 
+    </Notes>
+  </Medical>
+  <Notes>CSEC Med case for M_09  </Notes>
+</Person>

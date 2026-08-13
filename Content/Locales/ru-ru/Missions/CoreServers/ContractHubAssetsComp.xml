@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="mainHubAssets" name="Cервере ресурсов CSEC" security="4">
+  <adminPass pass="csec-5xg3D11"/>
+  <admin type="fast" resetPassword="false"/>
+  <positionNear target="mainHub" position="5" total="6"/>
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="template.txt">[FIRST_NAME]#[LAST_NAME]#[RECORD_NUM]#32#Rural#N/A#N/A#N/A#[LAST_WORDS]</file>
+  <file path="home/Templates/DeathRowDatabaseTemplate" name="FileNamingScheme.txt">
+Именование файлов базы данных смертников схема:
+
+LastName_FirstName[RecordNumber]     
+
+ Рекомендовал бы сгрузить себе копию файла template.txt, отредактировать и преименовать по схеме, а потом вставить в базу.
+ Пример: Doe_John[12345] 
+
+     Поскольку удобно заменить все звёздочки в файле шаблона, можно применить такой быстрый ход: 
+1: Пометить файл как «активный» для вашей операционной системы  (простейший способ — прочитать его содержимое командой cat - cat template.txt) 
+2: Запустить replace, не добавляя имя файла (replace [FIRST_NAME] John)
+3: Повторять шаг 2, пока файл не будет выглядеть подходящим образом 
+4: Переименовать файл (mv template.txt Doe_John[12345]) 
+5:Загрузить файл обратно в базу данных (подключиться к базе, upload /home/Doe_John[12345] — Убедись, что ты в целевой директории!)
+</file>
+  
+  <file path="bin/SQL_Mem_Corrupter" name="SQL_MemCorrupt.exe">#SQL_CRACK#</file>
+  <file path="bin/SQL_Mem_Corrupter" name="info.txt">
+--Обзор инжекционного SQL-корруптора памяти--
+    
+SQL-корруптор памяти инжекционного типа (SQL_MemCorrupt.exe) - управляемый эксплойт, работающий через публично доступные SQL-порты(По умолчанию - номер 1433).
+ Он внедряет в базу элемент таблицы, который при чтении вызывает ошибку повреждения памяти, а затем сразу читает эту таблицу, чем и роняет базу.
+ Это даёт временную возможность посылать другой, неавторизованный трафик на SQL-порт, пока целевая ОС не заметит дохнущее SQL-соединение и не перезапустит сервис. 
+
+В режиме отображения программа выводит состояние вверху экрана, а вывод SQL-сервера (в идеале это карта памяти внедряемого элемента) внизу.
+</file>
+
+  <file path="bin/WebServerWorm" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin/WebServerWorm" name="info.txt">
+Обзор вебсерверного червя-- 
+
+Этот червь для вебсерверов - целевой исполняемый файл, атакующий HTTP-сервера (работающие обычно на порту 80 или 8080). 
+Эта программа использует уязвимости в текущих версиях веб-серверного ПО, вызывая переполнение буфера, что позволяет забросить на сервер произвольный код (себя самого). 
+Когда этот червь запускается на сервере, он форвардит весь трафик веб-сервера прямо через операционную систему, в обход всех механизмов безопасности.
+ Так он открывает порт для свободного использования. 
+
+Червь не нарушает нормальную работу самого веб-сервера, сразу по двум причинам - чтобы не выдавать своё присутствие, и чтобы не подавать внешним наблюдателям сигналов о том, что происходит что-то ненормальное.
+
+</file>
+
+  <file path="bin/Sequencer" name="Sequencer.exe">#SEQUENCER_EXE#</file>
+
+  <file path="Themes" name="CSEC_x-server.sys">#WHITE_THEME#</file>
+  <file path="Themes" name="Mint_x-server.sys">#MINT_THEME#</file>
+  <file path="Themes" name="Teal_x-server.sys">#TEAL_THEME#</file>
+  <file path="Themes" name="Blue_x-server.sys">#BASE_THEME#</file>
+  
+  
+</Computer>

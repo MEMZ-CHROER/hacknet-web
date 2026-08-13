@@ -1,0 +1,77 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dPsyInternal" name="Psylance Internal Services" security="4" type="empty" icon="Psylance">
+
+  <portsForCrack val="6" />
+  <ports>21, 22, 25, 443, 80, 1433</ports>
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="90" />
+  <portRemap>22=340</portRemap>
+  <adminPass pass="catsarebestpet" />
+  <dlink targer="dPsyArchives" />
+
+  <account username="faithless" password="catsarebestpet" type="2" />
+  
+  <file path="home" name="Organization.txt">私が設定した自動アーカイブシステムの運営上、全レポート、全ファイルをルートフォルダ"projects"で扱ってください。プログラム等がhomeディレクトリに出すジャンクが仕事のファイルと混ざるのを避けるため、空白に保っています。
+ご協力お願いします！
+-Faith
+  </file>
+
+  <encryptedFile path="projects/investigations" name="PA_0022_Incident.dec" ip="209.68.41.129" header="Psylance cyber security internal investigations division inc.">
+Psylance Cyber Security - 調査課
+---------------------------------------
+
+Pacific Air Flight PA_0022は飛行中に制御不能に陥り、墜落のリスクをともなう極端なスピード低下を招く事象があった。短時間で操縦系は回復し、パイロットは致命的事態を回避することができた。
+着陸時の機体検査では、ハードウェア上の問題は一切なく、ソフトウェア、ファームウェアも正常と見られた。
+調査のため、ソフトウェアの完全なコピーがPsylanceに提供された。
+
+直接的な混入ファイルや削除されたファイルは確認されなかったが、綿密な調査により、その事象に関するログが「欠落」しているという驚くべき事実が判明した。この調査結果は、ソフトウェアの不正な改変が行われた可能性を意味していた。即時、全ログの検査が行われた。
+その時点では推測に過ぎなかったが、当社は本格的調査を開始し、既存のサーバーを徹底的に検査した。
+
+1箇所だけ異常が発覚した――Pacific_ATC_Skylink (208.91.196.94)に、未承認のIPで切断ログが記録されていた。その未承認IPは208.73.210.214。
+正式にこのIPを追跡したところ、"Coel"というハッカーのゲートウェイであることが判明した。当社はこのハッカーが障害の原因であると確信している。
+
+本事象はさらなる徹底調査が求められる。
+Psylanceは顧客サーバーのセキュリティーに尽力し、ネットワーク上の全システムを保護するため、これまで以上に監視態勢を強化する。
+  </encryptedFile>
+
+  <file path="projects/investigations" name="WhitelistGlitches.zip">#BINARY#</file>
+
+  <file path="projects/misc" name="IRC_Config.txt">//IRC Baseline setup for roaming admins - copy over to new client accounts for easy maintenance
+Color=67,204,148 //PSYLANCE GREEN
+//CORE USER SET
+:user name="faithless" color="0,209,232"
+:user name="dardypants" color="202,98,0"
+:user name="da_vito" color="0,196,82"
+//Admin Config
+:Auth public="false" sec="restricted"
+  </file>
+
+  <file path="projects/misc" name="IRC_setup.zip">#BINARY#</file>
+  
+  <file path="projects/clients" name="Nisei_MK_III.txt">Jintech Inc.から、サーバーのセキュリティーを刷新したいとの要請があった。
+どうやら、最近ある種のグループから超重量級の攻撃があったらしい――Niseiプロジェクトの全アーカイブを失ったとのこと。その後、ハードコピーを安全な場所へ物理的に（！！）飛ばしたとか。
+彼らはデータを転記し次第、送り先に関わらず即時手元から削除すると言っている。
+
+Jintechの記録は「信じられないほど」クリーンだ――現実に誰かがハードコピーを運んでるってことだが、そんなプレッシャーに耐えられるのだろうか。うちでやるとなったら、100%の自信は正直ない。 
+
+まるで社会的に死ぬかどうか選択を迫られている気分だ。辞退の方向で調整しよう。
+</file>
+
+  <Memory>
+    <Commands>
+      <Command>cd /projects</Command>
+      <Command>scp * ARCHIVE_LINK.bat</Command>
+    </Commands>
+    <Data>
+      <Block>PA_0022_todo.txt
+-------------
+うちが動揺していないように見せかける書き方はないものだろうか――ことによっては、うちが無能集団だと思われてしまう。
+できるだけ言いくるめる感じで書けたつもりだ――もうこのまま目をつぶって送信して、追求されないよう祈るしかない…  :/</Block>
+    </Data>
+    <Images>
+      <Image>DLC/Sprites/Misc/Psylance_Big</Image>
+    </Images>
+  </Memory>
+  
+</Computer>

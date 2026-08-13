@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="GenMission">
+  <generationKeys File="#LC_CLIENT#_delivery.zip" Path="home"/>
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Sale for #CLIENT# Gone Awry">
+Un &quot;cliente&quot; nuestro ha adquirido hace poco una valiosa pieza de software y se niega a pagar. Borra lo que tiene ahora de forma injusta.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - Política de devoluciones</subject>
+    <body>
+Hola, agente: 
+
+Una compañía cliente solicitó hace poco comprar un paquete de software muy caro a #CLIENT#, nuestra compañía, pero parece que nunca tuvieron ninguna intención de pagar. Debido a un ardid legal muy astuto por su parte, no podemos encargarnos de esto por las vías legales. 
+Y ahí es donde entras tú. Nos gustaría pedirte que visites su sistema y elimines el software que ilegítimamente han conseguido de nosotros. Transferimos nuestro software en formatos de archivo, generalmente etiquetados como &quot;#FILE#&quot;. 
+
+Gracias por tu ayuda en esta delicada y frustrante cuestión. 
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>

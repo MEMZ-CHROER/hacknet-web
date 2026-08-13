@@ -1,0 +1,30 @@
+notes
+------------------------------------------
+#Speech
+So what's with the Notes program? Why is it such total garbage?
+Why goes the string "test note" take up like, 100mb of ram? How is that even possible?
+------------------------------------------
+>Why is it such total garbage?
+Sigh. Really? You dont get it?
+------------------------------------------
+>Notes
+>Garbage
+Oh boy here we go, someone get duck guy in here
+------------------------------------------
+#Duck
+>someone get duck guy in here
+ 
+>implying i wasn't here already
+------------------------------------------
+#Academic
+Ok, I hate spoonfeeding as much as the next guy but this idiocy just has to stop. Notes is an incredibly well designed piece of software and you're obviously misunderstanding it's purpose.
+
+OBVIOUSLY it doesn't take that much ram to store a string, it's just exploiting the RAM display to keep the note onscreen all the time by filing up exactly as much space as it needs with junk data.
+It's a hack, sure, but it means it's a generic notes program that'll have an output on any os with a ram monitor - meaning that it's a notes program that doesn't need special UI coded for it.
+Which means it's always going to be available, incase you need something written down and you're too lazy to get a god damn pen.
+
+
+
+
+
+------------------------------------------

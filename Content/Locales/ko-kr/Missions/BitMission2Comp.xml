@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="bitMission02" name="Entropy 테스트 서버" ip="199.59.149.230" security="1" type="4">
+  <file path="home" name="Entropy_Induction_Test">
+축하합니다, 
+ 
+가입 테스트를 마치려면 이 파일을 다운로드하십시오.
+    
+Entropy에서 곧 연락이 갈 것입니다.
+  </file>
+  <file path="bin" name="e_admins_are_lazy.txt">다들 bin 폴더를 정리하는 걸 깜빡 잊곤 하지요. 사람들이 뚫으라고 만들어진 테스트 서버 스크럽입니다! 최소한 청소는 제 때 하세요!</file>
+
+  <file path="bin/zer0cool" name="hack_the_planet.txt">나를 경배하라, 머저리들이여! 내 실력은 너와 비교할 수 없이 출중하지.</file>
+  <file path="bin/zer0cool" name="retort.txt">이거 뭐라고 대꾸해야 되나. 일단, 넌 일개 스크럽일 뿐이야. 
+그 프록시 뚫는 데 일주일은 걸렸을 테지. 아마 엄마의 386 가지고 행성을 해킹할 수 있다고 생각하는 12살 꼬맹이겠지. 잘해봐. 일은 전문가에게 맡겨라 </file>
+
+  <file path="bin/OP_Stormwind" name="need_help.txt">여기에 있다는 건 있으면 안 되는 장소에 들어가는 법을 좀 안다는 얘기겠지. 스톰윈드의 멍텅구리들이 이번 경매장 패치에서 샤이탄3의 밸런스를 완전히 파괴해버렸어. 나는 96년에 샤이탄이 처음 발매되었을 때부터 쭉 팬이었거든, 그래서 말인데 그 경매장을 먹통으로 만들어주자고. 같이 하고 싶으면 여기에 텍스트 파일을 남겨놓으면 내가 찾아가지
+-slaggedfire</file>
+
+  <file path="bin/OP_Stormwind" name="Wo_lai_bang.txt">
+400 진 스톰윈드 온라인.
+</file>
+
+  <file path="bin/OP_Stormwind" name="lulz.txt">
+관리자들이 많이 화가 났어, slaggedfire - 중국 쪽에서 밤새 골드를 요청하면서 서버를 공격했더군. 
+</file>
+
+  <file path="bin" name="SOgold.txt">
+퀘스트하는 거 지겹나요? 탈 것 사는데 필요한 돈 걱정 없이 오래 오래 행복하게 지내고 싶은가요? 그럼 스톰윈드 온라인 플레이어들에게 최고의 파밍 서비스인 SOgold를 찾으십시오. 소정의 금액만 지불하시면 원하는 아이템을 마음껏 살 수 있는 골드를 소지하도록 여러분의 계정을 손봐드립니다. 그저 미화 $29.99를 지불하시고 스톰윈드 온라인 계정의 정보를 제공하시면 상상할 수 없을 만큼의 골드를 드립니다. 
+</file>
+
+<file path="bin" name="BIT_PLZ_READ.txt">
+Bit, 눈팅하는 중이라면 좀 나와 줘. 얘기 좀 해. 
+Vap0r가 뭔가 잘못됐다고 자꾸 걱정해 - 뭔가 안 좋은 일이 생겼다고 확신하고 있어. 연락해줘
+-T
+</file>
+  
+  <proxy time="0.3"/>
+</Computer>
+
+

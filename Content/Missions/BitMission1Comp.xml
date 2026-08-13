@@ -1,0 +1,75 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bitMission01" name="P. Anderson's Bedroom PC" security="1" type="4">
+  <file path="log" name="@18907 Connection From XXX.XXX.XXX.XXX" >Connection from [IP MASKED] established.</file>
+  <file path="log" name="@18922 XXX.XXX.XXX.XXX Given Administrator Access">Connection from [IP MASKED] given administrator privileges.</file>
+  <file path="log" name="@18928 XXX.XXX.XXX.XXX Acessed File [Valence_Dossier.pdf]">File [Valence_Dossier.pdf] was read by [IP MASKED] -- System Administrator</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Deleted File [Valence_Dossier.pdf]">File [Valence_Dossier.pdf] was deleted by [IP MASKED] -- System Administrator</file>
+  <file path="log" name="@19002 XXX.XXX.XXX.XXX Disconnected">[IP MASKED] Disconnected from system</file>
+
+  <file path="home/Documents" name="Laptop_PoliceReport.txt">
+police num
+14 L 510 66
+
+
+claim num
+AAH 886</file>
+  
+  <file path="home/Documents/personal" name="letter_draft.txt">
+[DRAFT]
+
+05/08
+
+Dad.
+
+I know you don't understand the choices that I've made, and I don't expect you to. What I do expect however, is the common decency to respect those choices, and to continue treating me as your child. 
+
+Until you are willing to that, I'm sorry but I need to leave Boston. I can't bare to be in the same city knowing that my hero, my role model, is living in the same place, ignoring my existence. 
+
+I've tried my hardest to be accommodating, understanding, and to try and explain this transition, but I can't handle it anymore.
+
+I'm going to head out to LA with James. If you want to talk, you have my numbers. 
+
+Please know that I haven't made this decision lightly. This is something that I have to do, and I hope that in time, you will learn to accept me for who I really am.
+
+I love you.
+
+Paul
+  </file>
+
+  <file path="home/Documents" name="chatlog.txt" EduSafe="false">
+[HotRice] Are you guys ready to stream?
+[Kiah] That depends.....
+[Kiah] Are you ready to die?
+[M4cr0b4t] LOL
+[HotRice] Shut up Johnson! 
+[HotRice] Don't make me get the peanut butter and microchips :P
+[M4cr0b4t] IT WAS ONE GOD DAMN TIME
+[HotRice] One time is all it takes
+[HotRice] Where is Hellerphant? Anyone heard from him?
+[Kiah] No one really knows where he is.
+[Kiah] A mystical magical beast who just appears when you least expect it.
+[HotRice] Seriously, our streaming schedule is messed up.
+[HotRice] Everytime I hop on it's not what I expected this schedule is a mess of guesswork and broken dreams.
+  </file>
+  
+  <file path="home/Documents" name="Laptop.txt">
+    Convention insurance wont cover (claims, rights etc? ??)
+    Personal insurance
+    "Not declared prior to incident"
+    (need to declare valuables before they were stolen???)
+    
+    Police:
+    "Can investigate, cant cover"
+    unlikely anything comes of that...
+  </file>
+  
+  <file path="home/Documents" name="TaxReturn002.TAX">#BINARY#</file>
+
+  <file path="home/Work" name="ReportEmailDraft.txt">
+    -Intro
+    -Nothing conclusive, got leads
+    -laptop was stolen at convention, contained the dossier reports
+    -had copied the most likely one over here  --- ????? Was sure I had?
+    -Will submit with details of what we found soon
+  </file>
+</Computer>

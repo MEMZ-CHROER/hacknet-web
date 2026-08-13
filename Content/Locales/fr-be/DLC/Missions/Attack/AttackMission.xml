@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dAttackMission_P">
+  <goals>
+    <goal type="fileupload" target="dAttackTarget" file="MemDumpGenerator.exe" path="bin" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="1">scanAndStartDLCVenganceHack</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Archives de Striker">
+Un hackeur inconnu du nom de « Striker » aurait bâti un joli générateur de vidage de mémoire. On en voudrait une copie.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Planque de Striker</subject>
+    <body>
+Un hackeur relativement inconnu du nom de « Striker » aurait bâti un joli générateur de vidage de mémoire. On en voudrait une copie.
+----
+Le système de la cible est relativement bien défendu, mais rien d'insurmontable pour toi. J'aimerais que tu t'en occupes proprement, aucune destruction système ni problème occasionné, si tu peux.
+Attrape une copie du générateur de vidage de mémoire et mets-la sur le serveur de stockage.
+
+Bonne chance,
+-Kaguya</body>
+    <attachments>
+      <note title="Objectifs de mission">
+Examiner la machine de Striker
+Chercher le générateur de vidage de mémoire et télécharger une copie.
+Le mettre sur le serveur de stockage.
+      </note>
+      
+      <link comp="dAttackTarget" />
+      
+    </attachments>
+  </email>
+</mission>

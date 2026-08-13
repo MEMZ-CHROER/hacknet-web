@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_Phase8_WIN" activeCheck="true">
+  <goals>
+    <goal type="delay" time="15"/>
+  </goals>
+  <nextMission>BitPath/BitAdv_ZFinale01.xml</nextMission>
+  <email>
+    <sender> V </sender>
+    <subject>Bit -- Tamamlama</subject>
+    <body>İşte bu kadar.
+İntikam olarak biraz üstünkörü oldu. Sadece onu eleştirmekle kaldım, şimdiyse ona yardım etmek için çok geç. Yine bu yaptığımız doğruymuş gibi geldi.
+Sanırım buna alışsam iyi olacak... gerçi kimse farkına bile varmayacak. Tabi kayıplarından ötürü hiddete bürünenler hariç. Bunu yapmasaydık oluşacak zararlar düşünülse dahi kimse bize teşekkür etmeyecek.
+Anladığım kadarıyla işler bu şekilde yürüyor.
+Bana çok yardım ettin. Sana minnettarım.
+Bu anonim duruşumla yapabileceğim o kadar şey var ki (bunu ortaya dökmem için kötü bir zamanmış tabi)... CSEC'de görüşürüz.
+
+Kargaşa her zaman hakim gelir. Çok yakında sana borcumu ödemenin bir yolunu bulacağım.
+
+Teşekkür ederim, içten.
+-V
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

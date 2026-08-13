@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="csec_med_01" handle="Ehwitt" firstName="Elliot" lastName="Whit" isMale="true">
+  <Birthplace name="London" />
+  <Degrees>
+    <Degree uni="Manchester University" gpa="3.3">Masters in Rechten</Degree>
+    <Degree uni="Manchester University" gpa="3.1">Bachelor in Politieke Wetenschap</Degree>
+  </Degrees>
+  <DOB>09/09/1961 22:00:00</DOB>
+  <Medical>
+    <Blood>BO</Blood>
+    <Height>166</Height>
+    <Allergies>NONE</Allergies>
+    <Perscription>Ivermectin x35 maandelijks :: Hartslag regulatie</Perscription>
+    <Notes>Vanwege terugkomende en kritieke aritmische problemen heeft de patient een pacemaker gekregen die kan worden afgesteld voor onbekende variabelen zonder invasieve operaties.
+
+Referenties:
+.
+.
+Pacemaker Verbindings ID: 202.6.141.219
+Documentatie en Notities: 66.96.147.84
+.
+.
+Extra Details:
+Voor het ondernemen van actie die de pacemaker kan verstoren of het doen van invasieve operaties, contacteer de producent om stabiliteit te verzekeren.
+    </Notes>
+  </Medical>
+  <Notes>Pacemaker mission case</Notes>
+</Person>

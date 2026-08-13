@@ -1,0 +1,148 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="enMail" name="EnTech Mail Server" security="5" ip="156.151.59.82">
+
+  <adminPass pass="ax889msjA" />
+
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+
+  <positionNear target="EnTechMainframe" position="5" total="6" />
+  <account username="nstanford" password="murloc33" type="2" />
+  <account username="hnManager" password="hnmanager22" type="2" />
+  <account username="bcarter" password="dota4lyf" type="2" />
+  <account username="rc" password="byC89kMMe" type="2" />
+  
+  <mailServer name="EnTech Mail" color="0,129,242">
+    <email recipient="nstanford" sender="EnTech Management" subject="Hacknet Project Update">
+Hallo allen,
+
+Laat me eerst zeggen dat vooruitgang exceptioneel is geweest. Ondanks wat tegenvallers die we tegenkwamen in verbindings module, zijn we vooralsnog uitgekomen binnen onze doel deadline marges. Jullie hebben allemaal fantastisch werk verricht. Sommigen probleempunten die we eerder vaststelde worden verwerkt door wat mensen buitenshuis, wie indrukwekkende resultaten laten zien!
+
+Het project was, denk ik, verlichtend voor iedereen, en blijft mij gedachten versterken dat dit het goede pad is om digitale beveiligingsproblemen tegen te gaan.
+Door het huidig systeem tot zijn limieten te duwen hebben we grote voor sprongen gemaakt voor EnSec ontwikkeling en theorie - de projecten helpen elkaar nu meer dan ooit en het is zo bemoedigend om te zien.
+
+Meer updates komen snel,
+Ga zo door,
+-RC
+    </email>
+    
+    <email recipient="nstanford" sender="EnTech Management" subject="Hacknet Project concerns and responses">
+Hallo allen,
+Een van onze ingenieurs heeft laten weten dat hij bezorgd is over de richting waar dit project naar toe gaat. Ik quote:
+"Als het kwaardaardig wordt gebruikt, zou dit een enorm gevaarlijk programma kunnen zijn dat we bouwen. Tenzij je kan garanderen dat de distributie extreem wordt gevolgd en gemonitord, weet ik niet zeker of ik met een goed geval kan blijven werken aan dit project".
+
+Het is een uitstekent punt en ten behoeve van doorzichtigheid, iets waarmee ik het wil hebben met het hele bedrijf.
+Zoals ik eerder zei, deze versie is versleutelen en volgen was iets wat we indentificeerde al vroeg in het ontwerp als iets problematisch. Een van de gegarandeerde problemen met het maken van krachtige programma's is dat misbruik krachtige gevolgen heeft. Het probleem in dit gebied is iets waarbij ik voelde dat consulteren met een buitenshuize expert de beste weg was en zij zijn een van de mensen die goeie resultaten boeken.
+Hoewel ik nog geen volledig product heb om het te demonstreren, wees gerust dat dit een probleem is waar ik me van bewust ben en dat ik er over wil blijven praten. Voor nu, *alle* versies komen met een beveilingsvolger ge?nstalleerd die automatisch activeert op willekeurige momenten, om rogue versies te volgen zelfs in deze vroege stage.
+
+Ga zo door,
+-RC
+    </email>
+    
+    <email recipient="nstanford" sender="bcarter@entech.com" subject="Re: Romulus passwd"> 
+Hey,
+
+Je zou dit eigenlijk vanaf het begin al hebben moeten gekregen, maar het Romulus adminstrator wachtwoord is:
+
+h7ggNKl2
+
+Er zou een link moeten zijn op je bureaublad, maar zo niet verbind dan met 156.151.1.12 en dan zou je aan de slag kunnen.
+
+succes,
+-Ben
+    </email>
+
+    <email recipient="nstanford" sender="Hacknet team Management" subject="Welcome to the Hacknet Team">
+Hallo, en welkom bij het Hacknet team. Vanwege de tere aard van het project, veel van jouw medewerking in het team zal apart worden gehouden van andere onderdelen in het project en het zien van volledig samengestelde versies van het project zullen zeldzaam zijn, mocht je ze zien.
+Daarom willen we iedereen wat meer context geven over de doelen van het project.
+
+Hacknet OS is een van de grond op gebouwd computer beveiligings observatie en penetratie framework.
+EnTech maakt dit als een metgezel bij het nieuwe beveiligins software (EnSec), als een marketing en presentatie apperaat om de suprioriteit te demonstreren over conventionele beveilingspakketen.
+In de kern is hacknet een markting apperaat, maar als een individueel project is het een van de meest krachtige en ambitieuze AntiSec apperaten ooit.
+
+Welkom bij het team - Ik weet zeker dat je het eens bent dat dit een verschrikkelijk opwindend project is om onderdeel van uit te maken.
+-Hacknet Team Management
+    </email>
+
+    <email recipient="nstanford" sender="EnTech Management" subject="EnTech Current projects and Direction">
+Hallo, en welkom bij EnTech!
+We werken momenteel aan twee grote projecten en je zal binnenkort een getailleerde project introductie voor jouw team krijgen, maar deze email is om een overzicht te geven over de huidige richting en hoe de projecten bij elkaar passen.
+Het eerste is EnSec, een compleet nieuw computure beveilings programma, ontworpen om computerbeveiling te revolutioneren. Menselijke fouten zullen altijd het probleem zijn van elke beveilingssysteem, maar we geloven dat dat het *enige* probleemgebied zou moeten zijn. Door het verwijderen en minimaliseren van kansen voor menselijke fouten, en door gebruik te maken van onze nieuwe gepantenteerde systemen is digitale beveiling geen baan mee - het wordt een keuze.
+Hacknet OS is het metgezel project voor EnSec, geschreven om te huidige beveiligingsproblemen te demonstreren en een sterk waarde voorstel te doen voor iederen om te upgraden naar wat wij geloven dat de beste beveilingsoptie is.
+
+Welkom aan boord!
+-RC
+    </email>
+    
+    
+    <!-- CEO emails -->
+
+    <email recipient="rc" sender="Anonymous" subject="RE(5): New Case - Bit">
+
+      Betaling is ontvangen en onze zaken zijn afgesloten.
+      ---
+
+      Fuckfuckfuck, wat heb je gedaan? Dit is niet wat ik wilde.
+      Dit is niet wat ik wilde fucking psychopaat! Jezus Christus.
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="RE(4): New Case - Bit">
+
+      Het doelwit is overleden.
+      Betaling zal doorgaan ZOALS BELOOFD of mijn werknemers krijgen misschien problemen met hun klant.
+      ---
+      
+      Het is nog niet te fucking laat als hij nog niet dood is. Stop dit nu meteen, ik trek betaling in. Dit is niet waar ik je voor heb ingehuurd, verdomme.
+      Persoonlik belang tot het project daarbuiten, Ik ga niet een godverdomme medeplichtige zijn voor moord vanwege dit stomme misverstand.
+
+    </email>
+    
+    <email recipient="rc" sender="bcarter@entech.com" subject="RE: Mainframe Access Emergency">
+
+      Natuurlijk,
+
+      Gebruiker: admin
+      Wachtwoord: v19328hQ9
+
+      Ik zet de automatisch wachtwoord veranding stop totdat je klaar bent.
+      -Ben      
+      
+      ----
+      Er is iets opgekomen, ik heb toegang tot het mainframe nodig om rond te kunnen kijken. Ik zal recentelijke toegang en versies onderzoeken, dus ik heb admin nodig.
+
+    </email>
+    
+    <email recipient="rc" sender="Anonymous" subject="RE(3): New Case - Bit">
+
+      Het is te laat, ik kan het niet tegenhouden. Het is annoniem. Je moet helderder zijn als je een specefieke actie ondernomen wil hebben.
+      ---
+      Dood? Waar de fuck praat je over? Ik wilde dat je zijn computers kapotsloeg en hem arresteerde niet fucking vermoorden. Stop dit onmiddelijk, dit is ver genoeg gegaan, ik regel het zelf wel.
+      
+      De man is een genie, zelfs als hij tegen het project is wil ik hem dichtbij houden. Vind een manier om het te stoppen godverdomme.
+      ALs je serieus hierover bent houd ik jouw persoonlijk verantwoordelijk. Dont fuck with me here.
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="RE(2): New Case - Bit">
+
+      Ik heb het order uitgedaan. Duur, maar hij zal dood zijn binnen een week.
+      Van jouw rekening zoals gewoonlijk.
+      ---
+
+      Goed om je aan boord te hebben. Wat zijn excact je plannen deze keer? Hij is belangrijk en goed op de hoogte.
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="RE: New Case - Bit">
+      
+      Begrepen, ik regel het.
+      ---
+
+      Een ex-werknemer rogue en bedrijgt het project. In tegenstelling tot de meeste denk ik dat hij weet wat hij doet en hij zou een echt probleem kunnen vormen. Hoe erg ik het haat om zo bot te zijn, dit project is te belangrijk voor mij en voor de wereld om het te riskeren over iets zoals dit. Kan je hem ontmoedigen?
+      Details zijn bijgevoegd. Noem hem "Bit".
+      
+      -rc
+    </email>
+
+  </mailServer>
+  
+</Computer>

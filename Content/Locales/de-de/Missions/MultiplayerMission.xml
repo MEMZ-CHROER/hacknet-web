@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="multiplayerMission" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="opponent#0" file="system32.sys" path="home" />
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Anonym</sender>
+    <subject>Die Hackordnung Festlegen</subject>
+    <body>
+Willkommen, Hacker.
+
+Du bist gerade Ziel eines gegnerischen Hackers. Gib dein bestes, ihr oder sein System lahmzulegen, bevor dir dasselbe passiert.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

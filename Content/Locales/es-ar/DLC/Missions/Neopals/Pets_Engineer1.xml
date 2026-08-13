@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dPets_Engineer1" name="Thomas_Office" security="3" ip="104.95.129.117" icon="DLCPC1">
+  <!-- No critical mission link here, but should contain custom theme -->
+  
+  <dlink target="dPets_VC" />
+
+  <ports>22, 21, 6881, 9418</ports>
+
+  <positionNear target="dPets_MF" position="160" total="360" extraDistance="0.05"/>
+
+  <file path="home/work" name="SecurityBreaches.txt">
+Mantener un registro de las infracciones de la política de seguridad para la posteridad.
+
+1: Tiff tenía contraseñas de administrador para el ordenador principal en TEXTO PLANO por todo el servidor de autenticación. No importa lo seguro que sea. Asegúrate de que este no sea el único punto de error, ¡es una locura poner contraseñas de texto plano en cualquier parte!
+Borrado del archivo con todo incluido.
+
+2: Ash escribe la contraseña del wifi en papel y lo pega en la pared. Venga ya, ¡tenemos ventanas!
+
+3: Susan dejó un ordenador conectado durante la noche. Comprensible, pero, eh, ¿ahora hacemos listas, no?
+
+4: Tiff probablemente guarda datos confidenciales en su teléfono, pero lo comprueba constantemente.
+Suena algo paranoico, pero nunca se sabe.
+
+CONTINUARÁ, DESAFORTUNADAMENTE
+  </file>
+
+  <file path="home/work" name="Developer_SetupGuide.txt">
+--Guía del desarrollador de Neopals v1--
+
+¡Bienvenido al equipo de desarrollo activo de Neopals! Comenzar debería ser fácil. ¿Serías capaz de empezar a ser productivo en solo unos minutos, verdad?
+
+¡TE EQUIVOCAS, PERRA! BIENVENIDO AL INFIERNO.
+¿Qué? ¿De verdad pensaste seriamente que este sitio web de 10 millones de años tendría una base de código limpia y fácil de mantener? ¡Bienvenido a la dolorosa zona del archivo web PHP de 200 páginas!
+Lo que estás viendo es el esfuerzo concentrado por agotados desarrolladores que tras años de trabajo harán que tu vida futura sea tan dolorosa e insufrible como sea posible. ¿Qué? ¿Quieres consejos reales sobre la base de código? Sí, abre esa mierda y empieza, esperaré.
+O, no, porque cuando termines de entenderlo, estaré muerto como un cabrón. ¿Qué es ese sonido? ¿Te arrepientes de no haberte unido al equipo artístico? Comprensible, a veces también quiero dejar este lugar para crear diseños de inocentes personajes y observar a la gente haciendo terabites de pornografía de baja calidad de la noche a la mañana. 10/10.
+
+Aquí está tu guía de inicio:
+
+Paso 1: Encuentra un revólver cargado
+Paso 2: Rastrea a todos los responsables de este desastre
+Paso 3: ???
+Paso 4: AÚN ESTÁ BIEN JODIDO.
+
+Una vez cambié el color del botón inicio y destruí el sistema de batallas. Qué cojones.
+
+En fin, ¡eso debería servirte! Si tienes alguna pregunta, te sugiero que reces por la dulce liberación de la muerte.
+-Thomas
+  </file>
+
+  <file path="home" name="SECRET_DOTA_STRATS.txt">
+#1: Sniper, CM, Dazzle, Death Prophet, Offlaner con lockdown
+Sniper en trilane/CM/Dazzle, línea media DP, offlaner avanza y consigue XP. Orden de build de un Sniper:
+Rapier
+Rapier
+Botas de velocidad
+Estilo Manta
+Rapier
+Actualización opcional de las botas.
+
+¡5 hombres avanzarán para que ganes desde que cojas el rifle! El trabajo de Dazzle es enterrar al sniper cuando el enemigo se le eche encima, los demás simplemente bloquean y presionan.
+Literalmente no ha perdido ni una vez.
+
+
+#2: Bounty Hunter Ofensivo de la Jungla.
+BH, salud nvl 1, vive en la jungla y roba los últimos golpes de sus jungler. Básicamente hace que la partida sea un 4v4 muy tedioso donde tienen que comprar polvo y eso hace que las estadísticas de su equipo empiecen superbajas.
+
+#3: Dazzle a línea media
+Dazzle a línea media, usar máx. de veneno lo antes posible, construir Botas de Fase-> Urns -> Deso y gankear al 6 con armadura weave y nd crazy op slow. 
+Las animaciones y los clics derechos de Dazzle son muy buenos, ir a línea está bien, el ganking es fuerte y tiene una armadura grande y lenta, ir a roaming y conseguir un Deso tan pronto como sea posible para conseguir mejores ganks y avance. ¡Es la línea media la que sigue manteniéndonos a raya!
+  </file>
+  
+  <file path="home" name="AnalyticsApp_designNotes.txt">
+Utiliza API para descargar la repetición de las partidas, usa el analizador de detalles estadísticos sobre la partida.
+Último análisis de aciertos -calcular la frecuencia con la que se perdió el último golpe- muestra las métricas sobre las posibilidades de perder con un héroe a distancia y la frecuencia con la que pierde.
+Muestra las ocasiones en las que los hechizos son lanzados sin ningún efecto, consigue los datos de hechizos que no golpean, las veces que falla, etc.
+Datos sobre cosas de apoyo, como la cobertura de la sala a lo largo del tiempo, ubicaciones que con el tiempo tienen una alta concentración de tráfico enemigo sin una visión aliada.
+Análisis detallado de XP -obtener mejores datos sobre los puntos del juego de los xp por segundo que pierde- encuentra momentos en los que los jugadores puedan moverse poco a poco y hacer esto más obvio.
+Métricas detalladas sobre los momentos en que los aliados o enemigos tenían largos bloques de granjas no protegidas (no había héroes enemigos en la vecindad durante varios minutos).
+  </file>
+
+  <customthemefile path="sys" name="Riptide_x-server.sys" themePath="DLC/Themes/RiptideTheme.xml"/>
+  
+</Computer>

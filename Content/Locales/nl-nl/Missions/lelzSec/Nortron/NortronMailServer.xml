@@ -1,0 +1,94 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nortronMail" name="Nortron Mail Server" security="1">
+  <ports>25</ports>
+  <trace time="10.0" />
+  <firewall level="17" solution="123456789ABC" />
+  <link target="nortronMainframe" />
+  <positionNear target="nortronMainframe" position="2" total="3" />
+
+  <!-- Mail Server Accounts -->
+  <account username="j.abrams" password="bootyking420" type="2" />
+
+  <mailServer name="Nortron Mail" color="220,208,69">
+    <email recipient="j.abrams" sender="Peter Evans" subject="Waar is dat verslag?">
+John,
+
+Ik wacht nog stees op dat Rootkit Analyze verslag - voortgang?
+We proberen de nieuwe reclamecampagne af te maken en de hoge piefen
+willen wat verzekering dat de marketing mensen weten wat ze doen.
+
+Probeer het maandag af te hebben als dat kan - Ik haat het om je zoe te pushen
+maar je houd andere mensen hier op.
+
+Bedankt,
+-Peter
+    </email>
+    <email recipient="j.abrams" sender="hornberg@gmx.de" subject="Fw:Fw: Best Graffiti">
+      -------- Origineel Bericht -------- Onderwerp: 	Fw: Best Graffiti
+      Datum: 	Wed, 31 Oct 2012 18:54:54 +1300
+      Van  : 	TK Skull tkn.skull@xtra.co.nz
+      Aan  : 	skull1@ntlworld.com
+          , "JJ SK" e4@bigpond.com
+            , "G?nter Hornberg" ghornberg@gmx.de
+              , "Andrea Senior" senior@xtra.co.nz
+                , "Cols" C.D.Wilson@xtra.co.nz
+                  , "Flo Wilson" FloJoW@xtra.co.nz
+
+From: gandgrichards@xtra.co.nz
+Sent: Wednesday, October 31, 2012 2:58 PM
+To: gandgrichards@xtra.co.nz
+Subject: Fw: Best Graffiti
+
+Subject: : Best Graffiti
+
+ >
+ >
+ > Deze zijn fantastisch.... plezier
+ >
+
+ --Wellicht is niet alles geladen--
+    </email>
+        <email recipient="j.abrams" sender="gandgrichrds@xtra.co.nz " subject="Fw: Aircraft Shots!">
+From: gandgrichrds@xtra.co.nz
+Sent: Friday, October 19, 2012 8:41 AM
+To: gandgrichrds@xtra.co.nz
+Subject: Fw: Vliegtuig fotos
+
+Subject: .... Vliegtuig Fotos....
+
+Open de pps.Attach: bestand...
+
+
+Gratis Emoticons voor je email - door IncrediMail
+
+--Toevoegingen verwijderd vanwege verdachte exe handtekening--
+    </email>
+    <email recipient="j.abrams" sender="Nortron IT Support" subject="RE:Cant Log In">
+Dhr. Abrams,
+
+Dit is de vierde keer dat we u hieraan hebben herinnerd. Er hangt een groot bord boven uw bureau dat u zeker is opgevallen, dat u er aan het firewall beleid hier bij Nortron herinnerd. We nemen beveiliging erg serieus en eisen van u dat u inlogt om langs de firewall te komen voordat u het internet opgraat, dit is essentieel voor de beveiliging van het bedrijf.
+
+Zoals eerder, het firewall wachtwoord voor alle interne servers is:
+
+123456789ABC
+
+Schrijf dit ergens op zodat u het niet vergeet.
+
+-ICT
+
+
+  | ICT,
+  | dit is NOG STEEDS NIET GEREPAREERD!
+  | Ik kan het internet weer niet op!
+  | Hoe kan ik mijn werk doen zonder internet!
+  | Het vraagd naar een firewall wachtwoord.
+  | Is het kapot? WAarom kunnen jullie dit niet voor mij regelen, het blijft gebeuren!
+  |
+  | Hoe kom ik op het internet, dit is ERG BELANGRIJK!
+  |
+  | Dhr. J. Abrams
+  | Nortron Marketing
+    </email>
+
+  </mailServer>
+</Computer>

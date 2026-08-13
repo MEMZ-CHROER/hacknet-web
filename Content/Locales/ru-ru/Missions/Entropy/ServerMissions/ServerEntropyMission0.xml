@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="entropyMission1.1">
+  <goals>
+    <goal type="FileDeletion" target="entropy01.1" file="config.sys" path="MsgBoard"/>
+  </goals>
+  <nextMission>Entropy/EntropyMission1.2.xml</nextMission>
+  <posting title="Entropy Database Test Mission">
+Подтверди заврешение твоей тестовой миссии - Вали новый сервер. 
+  </posting>
+  <email>
+    <sender>Entropy</sender>
+    <subject>TestMission</subject>
+    <body>
+Привет Агент, 
+
+ Это  тестовая миссия с сервером. 
+ Которую, ты уже должен был завершить. Если нет, пока смирись с этим, и закончи свое первое задание.
+ Положи новостной сервер.
+
+-Entropy
+    </body>
+    <attachments>
+      <link comp="entropy01.1"/>
+    </attachments>
+  </email>
+</mission>

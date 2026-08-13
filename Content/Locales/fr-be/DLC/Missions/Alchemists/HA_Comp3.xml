@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dhaComp3" name="HA_Rebis" security="4" ip="66.96.149.16" type="4" icon="Alchemist">
+  
+  <proxy time="-1" />
+  <trace time="180" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dhaComp2" position="160" total="360"/>
+  
+  <firewall level="20" solution="clarity" additionalTime="6.2"/>
+
+  <!-- This server should contain "revelations" - the architect designed this one to be the end of the line. -->
+
+  <file path="home" name="behindthecurtain.txt">Le cycle du changement
+
+1. Concentré actif (Feu)
+2. Diffusion active (Air)
+3. Contrat passif (Eau)
+4. Diffusion passive (Terre)
+
+Historiquement, les gens pensaient que les métaux avaient une âme. La croyance selon laquelle chaque métal subit une croissance évolutive lente et progressive vers la perfection ; cela reflète les théories contemporaines sur le rapprochement de la « mort thermique ».
+
+La forme métallique la plus primitive, dont tout débute, est le plomb. Avec le temps, le plomb évoluera et s'améliorera lentement, de l'étain au fer, avant d'atteindre sa forme la plus parfaite : l'or. C'est un voyage à travers le superficiel et l'astrologique : un voyage depuis Saturne, vers Jupiter, puis Mars, Vénus, Mercure, la Lune et, pour finir, le Soleil. Le Soleil est la perfection. Nous deviendrons tous des êtres des étoiles, un jour.
+
+L'alchimie accélère juste le processus. Les alchimistes sont les esprits jouant avec les simplicités et les complexités de l'univers... Ils sont ceux qui cherchent à atteindre la perfection, même s'il semble que le reste de l'humanité ne voit pas cela d'un bon oeil.
+</file>
+
+  <file path="sys" name="eos_sync.log">JOURNAL_SYNC :  hard reset initialisé
+Cause : Réinitialisation automatique suite à une détection de tentative de débridage
+Code problème : JA6629B_43</file>
+  
+  <file path="home" name="rebis.txt">La fin est le début et le début est la fin, plomb, étain, fer, cuivre, mercure, argent, or, vers le début et la fin et le début et la fin et le début de l'addition vitale parfaite et la perfection en soi et un retour vers le début.
+
+Ce n'est pas de la magie noire, simplement la vérité.</file>
+
+  <file path="home" name="nameofgod.txt">Yod
+Hé
+Vav
+HÉ
+
++o
+o+
+++
+oo
+
+un
+deux
+trois
+quatre
+
+point
+ligne
+plat
+solide
+
+arcane I : la pierre philosophale
+arcane II : SOLVE
+arcane III : COAGULA
+arcane IV : illusions et manifestation
+arcane V : changement
+</file>
+  
+  
+  <eosDevice name="ePhone 4S de Nate" id="dhaAdminPhone" icon="ePhone2">
+    <note>Maison :
+66.175.58.9
+
+Travail :
+66.96.149.16
+</note>
+    <note>
+Calcination :
+réduction chimique des corps sans perdre leurs propriétés minérales.
+La découverte du soi intérieur, tel qu'en médiation, est par définition une diminution de la conscience de son propre corps, et l'ouverture aux délicates énergies qui constituent les fondements de toute vie.
+</note>
+<note>
+Fixation :
+fixer le composant volatile est un processus continu qui débute du noir vers le blanc, et atteint sa fixation au degré maximal avec le rouge. 
+</note>
+<note>
+Projection :
+les philosophes hermétiques appellent leur projection la poudre, fruit de leur art, qu'ils projettent en petites quantités sur les métaux imparfaits en fusion, afin qu'ils soient transmutés en argent ou en or, selon leur degré de perfection. Il faut savoir que, lors de la projection, le métal sur lequel la poudre est projetée ne se transmutera pas entièrement en argent ou en or, si la poudre n'a pas été bien purifiée préalablement au mélange.
+</note>
+    <mail username="AlchemistNate@jmail.com" pass="manifestation" />
+  </eosDevice>
+
+  <LogoDaemon Name="REBIS" ShowsTitle="false" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/Alchemists3" />
+
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/RiptideTheme.xml"/>
+</Computer>

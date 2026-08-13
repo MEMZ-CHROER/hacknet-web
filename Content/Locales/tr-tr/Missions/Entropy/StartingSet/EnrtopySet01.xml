@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="FileDeletion" target="pointclicker" file="Mengsk.pcsav" path="PointClicker/Saves" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Point Clicker">
+İyi niyetli bir müşterimizin verimliliğini yeniden kazanabilmesi için bazı verilerinin bir oyun sunucusundan silinmesi gerekiyor.
+  </posting>
+  <email>
+    <sender>Entropy Mailbot</sender>
+    <subject>Point Clicker</subject>
+    <body>Sayın temsilci,
+    
+Ciddi bir sorunum var. Yetkisiz elemanlarımdan hiçbiri benim yerime bu sorunu çözmeyi başaramadı. Her ne kadar bundan hoşlanmasam da, dışarıdan yardım almak zorunda kaldım.
+Kaynaklarım bu hattın güvenli olduğunu söyledi. Uzatmayacağım. "PointClicker" isimli oyunda en iyilerdendim. Yine oyundaki hakimiyetimi kanıtlamak istiyorum. Fakat oyunun yeniden başla tuşu veya benzeri bir seçeneği bulunmuyor. 
+Sunucuya girmen ve kayıt dosyamı silmen gerekiyor. Ancak bu şekilde yeniden oyuna dönebilirim. Kullanıcı adım "Mengsk". Sıfırlamadan önce başarılarıma göz atmaktan da çekinme sakın.
+
+İşinin başına dönebilirsin,
+-M
+    </body>
+    <attachments>
+      <link comp="pointclicker" />
+      <note title="Sözleşme İlişiği">Sözleşme İlişiği
+"Mengsk"</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pacemakerHWArticle03">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="#0E0014 - Pacemaker v2.44 Remote tools">
+Deze post geeft details van het remote monitoren en updaten van de v2.44 pacemaker. Voor algemene functies refereer naar de documentatie kopie of vraag een nieuwe kopie aan via support@kellisBio.com
+---------------------------------------------
+
+De Kellis Biotech v2.44 Pacemaker (vanaf hier: "pacemaker") is ontworpen voor patienten die worden gezien als hoog risico of die constant monitoren nodig hebben, maar niet in een ziekenhuis kunnen blijven.
+De pacemaker kan vanaf afstand verbonden worden, wat de observeerder real-time informatie geeft en wat kleine update mogelijkheden. Vanwege de gevoelige aard van het systeem (vereist 100% uptime), is het syteem ontworpen om slechts binaire update pakketen gesigneerd door de bouw server van de chip's ontwerper te accepteren.
+
+Updates worden over het algemeen alleen per persoon toegekent (als een patient lichte verandering nodig hebben voor natuurlijke veranderingen in hartritme als gevolg van leeftijd of gebruik).
+Kellis' update systeem maakt die veranderingen mogelijk zonder dat er nog extra operaties nodig zijn. Hoewel eerdere versies ook handmatig instellingen konden veranderen, zijn deze verwijderd vanwege beveiligingszorgen en deze huidige versie staat alleen pacemaker gedragsveranderingen toe via firmware updates (die draadloos gedaan kunnen worden zodat er geen operatie nodig is).
+
+Als uw client zo een update vereist, contacteer dan uw aangewezen Kellis Biotech vertegenwoordiger voor hulp en budgetering.
+  </posting>
+    <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Het ontvangen van deze email betekent dat er een onverwachte fout is opgetreden.
+Raak in paniek.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

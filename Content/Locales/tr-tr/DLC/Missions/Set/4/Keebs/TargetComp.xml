@@ -1,0 +1,120 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dKeebs" name="ClickLab Productions" security="1" type="4" icon="DLCPC1">
+
+  <proxy time="1" />
+  <portsForCrack val="3" />
+  <ports>21, 6881, 443</ports>
+  <trace time="85" />
+
+  <file path="home/keebs" name="Switches.txt">Klavye Tuşu Satın Alma Kılavuzu
+----------------------
+Klavye tuşları kişisel zevklere hitap eder. Satın almadan önce bir mağazaya gidip farklı türleri denemenizi şiddetle öneririm. Eğer gidemem diyorsanız, sizin için klavye tuşlarının üzerinden geçtiğim bu özeti okuyabilirsiniz.
+Öncelikle tiplerden, sonra da aralarındaki farklılıklardan bahsedeceğim.
+
+Kahverengiler:
+"Tipik" mekanik tuşlardır. Dokunma duyusu (bastığınızda yumruyu hissedersiniz ve tuşun işlediğini anlarsınız) hissedilir, oldukça hafiftir ve fazladan dokunmanız gerekmez.
+İlk defa mekanik tuş satın alacaklara bunu almalarını öneririm. Harikadırlar. Ayrıca ilk seferden hayal kırıklığına uğramadan klavyenizden ne istediğinizi öğrenmenizi sağlarlar. 
+Kısacası herkes kahverengi tuşları sever. Sevdiğiniz tuşlara sizi yönlendirebildikleri için de iyidirler.
+
+Kırmızılar:
+Kahverengilerin çizgisel hali olarak tasarlanmışlardır. Çizgisel olması demek etkinleştirildiklerinde yumru hissedilmemesi, parmak çekilene kadar aynı direnci göstermesine demektir. Genellikle "oyuncular için daha iyi" denilerek pazarlanırlar. Dürüst olmak gerekirse bana çok aptalca geliyor.
+Çoğu insan (bende dahil) kırmızların yazma konusunda karışık olduğunu düşünür. Ben ve benim gibiler tuş etkinleştirildiğinde oluşan o yumruyu gerçekten özlerken bazıları da kırmızılara bayılıyor.
+
+Maviler:
+Maviler için kahverengilerin basıldıkları zaman fazladan ses çıkartmasını sağlayan ufak bir mekanizmalı sürümü denilebilir. Aşırı gürültülüler (özellikle benim için) ama bu eklenti sağolsun yazı yazarken çok iyi hissetmenizi sağlarlar.
+Eğer başka insanlarla beraber çalışıyorsanız veya yaşıyorsanız kahverengiler ile başlayın. Ayrıca kulaklığınızı taktığınızda dahi bu sesleri duyacağınızı unutmayın.
+
+Bir de iki ağır çeşit bulunur. Bunlar tasarım olarak diğerleriyle aynıdır ancak yayları daha ağırdır. Tuşlara basmak daha zordur.
+Bu ağırlıkla klavyeler daha güçlü ve pahalı durur. Bu duruş her ne kadar güzel olsa da uzun süre masa başında oturduğunuzda parmaklarınızın ağrımasına sebep olur. Alışması da biraz zaman alır.
+
+Yeşiller, Mavilerin daha ağır olanı,
+Siyahlar, Kırmızıların daha ağır olanı,
+Beyazlar, Kahverengilerin daha ağır olanıdır.
+
+Gateron ve Cherry bilindik üreticilerdir.
+Gateron tuşlar (maviler, kahverengiler ve yeşiller), Cherry tuşlardan daha hafiftir ve daha ucuzdur. Bu yüzden alınabilirler.
+Gateron beyazları kahverengilerin ağır olanları DEĞİLDİR. Bunlara bazı sebeplerden ötürü daha hafif kırmızlar denilebilir (?!??!?!?!?!!). Bunu zor ve pahalı (bayağı) yoldan öğrendiğimi söyleyebilirim.
+Gateron'un çizgisel tuşları pek sağlam değildir. Bu anlamda Cherry tercih edilmelidir. Sözün özü, Cherry'de sıkıntı yaşamazsınız. Harikalardır. Gerçi Gateron'un kahverengileri de ayrı güzeldir.
+
+  </file>
+
+  <file path="home/keebs" name="Advanced_Switches.txt">İleri Düzey ve Bilinmeyen Tuşlar
+------------------------
+
+Biraz da Topre'den bahsedelim.
+Topre bir harikadır. Şu anda Topre RF87U klavyemden yazıyorum. 55g ile ömür geçirirsiniz. O kadar yani.
+
+Topre elektrostatik kapasitif akımı olan özel tuşlar üreten bir Japon firmasıdır. Klasik mekanik tuşlardan biraz farklıdırlar. Beğenip beğenmemekte kişinin zevkine göre değişir.
+Bazı insanlar pahalı kauçuk-döküm klavye kullanıyormuş gibi hissettiklerini, bazıları da klavyenin bir harika olduğunu söyler. Topre herkese uymaz denilebilir... her ne kadar bu görüşe karşı olsam da. İlginç. Harika. En sevdiğim.
+
+Tek olumsuz yanı üzerlerine özel kapak yerleştirememenizdir. Özel kapaklarda Cherry MX gövdeler bulunmaz. Ancak bu sorunu çözmek için yeni gövdeleri olan klavyeler üretiliyor. Aşırıyuvar susturma çeperlerinden alın ve tuşlarınıza takın. Yanan kapaklarla (dream) birlikte mükemmel olacak. Güvenin bana. 
+
+Zealios
+ve MOD-X tuşları. Bu tuşlar, özel ağırlıkları ve üretim prosedürleri olan özel topluluk tuşlarıdır. Zealios tuşları için "Pembe Gateron" da denir.
+Kahverengi ve Beyaz Cherry arasındadırlar. Gateron'un pürüzsüzlüğü tuşlarda görülebilir. Ayrıca birçok kullanıcı Zealios'u seçtikten sonra başka bir markaya dönmemektedir. Gerçi bu tuşlara sahip olmak için kendi klavyenizi yaratmanız gerekir. Yani yakın gelecekte sahip olmanız mümkün olmayabilir.
+  </file>
+  
+  <file path="home/keebs" name="Keycaps.txt">Keycap Guide
+------------------------
+Massdrop'a kaydolun, /r/MechanicalKeyboards başlığının altına abone olun ve klavye tuşu dünyasının yeniliklerine ayak uydurun. Bu arada, güzelim plastik parçacıklarınız için 200 $ ödemeyi ve 9 ay beklemeyi de unutmayın.
+
+ABD'den Signature Plastics, Tayvan'dan TaiHao ve Almanya'dan GMK şu anda en fazla üreten ve satan firmalar. TaiHao iyidir, ucuzdur; GMK pahalı olsa da *çok iyidir*; SP ise pahalıdır ama SA ve DSA kesitinde tektir.
+
+Geldik kesitlere. Sıradan mekanik klavyeler OEM kesitindendir. OEM kesiti, "Cherry" kesitine benzer (neredeyse aynı). TaiHao ve GMK ise Cherry kesitini kullanır.
+
+SA ve DSA SP'de üretilir. SA parlak, yuvarlak ve büyüktür. DSA kapakları ise küçük, düz ve tekdüzedir; daha çok dizüstü bilgisayar tuşlarına benzer. Resimlerine bakmaya değer en azından!
+Asıl sorun bu ikisinin stoğunun pek bulunmamasıdır. Yani doğru olan sürekli satışları incelemek ve yeni klavye setlerini birden fazla olacak şekilde almaktır. Toplulukta bu tarz klavyeler tasarlayan bir dolu üye var. Onları takip edebilirsiniz.
+Bu klavyeler acayip eğlencelidir! Örnek olarak:
+
+GMK Carbon
+DSA Dolch
+TaiHao Sunset
+SA CalmDepths
+  </file>
+  
+  
+  <file path="home/keebs" name="BoardLayout_Design_Notes.txt">
+TenKeyless (numpad olmayan) modeller güzel kabul edilir. Bunun sebebi el ve fare arasında numpad bulunmasının kişiyi yavaşlatması ve klavyelerin ağır olmasıdır. 
+Bence gelecekte numpadler sol tarafta (Monarch gibi) yer alacak. 
+Yönlendirme kümesi de aynı şekilde kalacaktır.
+
+Yine bence özel görünümler de ayrı bir güzel. Herkesin klavyesinin farklı olduğunu bir düşünsenize. Ben işime yaramayan tuşları kesinlikle atardım.
+Bir süre WhiteFox kullandıktan sonra küçük klavyelerin daha iyi olduğuna karar verdim. Normal boyutlardaki klavyeler artık devasa ve kullanımsız geliyor.
+
+Caps Lock boşuna yer kaplayan korkunç bir tuş. Onun yerine Control gelebilir. 
+Daha da iyisi yerine Control gelebilir ve ctrl'nin yerine başka bir tuş atanabilir. Kıytırık Caps'de başka bir yere yerleştirilir işte.
+
+Yönlendirme Kümesi: Denemelerime göre ok tuşlarımı kör gibi sağ ok tuşunun yanındaki boşlukta arıyorum. Tuşun üzerinde en azından 1U'luk boşluk oldukça kümeyi bulmakta zorlanmam.
+WhiteFox'un ok kümesinin sol tarafında 1U'luk boşlukta fena değil ama bir cacığa da yaramıyor. Yine de tasarımlarımda oraya yeni bir tuş eklemeyi düşünmüyorum. Muhtemelen iki boşluğu da tutacağım.
+  </file>
+  
+  <file path="home/keebs" name="the_dream.txt">
+Özel Kesit -> Sol numpad, kompakt yönlendirme kümesi
+55g tekdüze topre tuşları - novatouch imleçi
+Aşırıyuvar susturma çeperi
+Kapakları daha sık değiştir (DSA Dolch ile başla) 
+İki kat ince alimünyum çerçeve ve alttan ışıklandırmalı reçine gövde - Monarch tarzı.
+input.club - yeniden programlanabilir olacak şekilde
+
+Ceviz ağacından avuç desteği.
+</file>
+  
+  <file path="home/keebs" name="purchase_blacklist.txt">
+ChucklingKumquat
+</file>
+
+  <file path="home/projects" name="Adonis87U_PCB_Spec.gbr">#BINARY#</file>
+  <file path="home/projects" name="Adonis68ISO_PCB_Spec.gbr">#BINARY#</file>
+  <file path="home/projects" name="layout_wip.txt">http://www.keyboard-layout-editor.com/#/gists/0ffdf87af5ba50af1a1018052012832b</file>
+  
+  <file path="home/records" name="purchase_blacklist.txt">
+ChucklingKumquat
+</file>
+  
+  <Memory>
+    <Data>
+      <Block>http://imgur.com/a/B1Iox</Block>
+    </Data>
+  </Memory>
+
+</Computer>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyMission02" activeCheck="true">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Entropy</sender>
+    <subject>RE: Willkommen</subject>
+    <body>
+#PLAYERNAME#, 
+
+Exzellent - Lass mich dich als Erster formell dazu einladen, Aufträge anzunehmen. Im Anhang findest du unsere geheime Auftragsdatenbank, inklusive der notwendigen Zugangsdaten.
+Nimm ruhig ein paar der Aufträge an.
+
+Ich werde dich bald wieder kontaktieren, um deinen Fortschritt zu beurteilen.
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy00" />
+      <account comp="entropy00" user="#PLAYERNAME#" pass="rosebud" type="3" />
+    </attachments>
+  </email>
+</mission>

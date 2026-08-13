@@ -1,0 +1,65 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="producerComp" 
+          ip="37.187.27.55"
+          name="Jason's LackBook Pro" 
+          security="2"
+          allowsDefaultBootModule="false"
+          icon="laptop"
+          type="2" > <!-- 1=  corporate, 2 = Home, 3 = server -->
+  <adminPass pass="DANGER" />
+  <!-- Security Stuff -->
+  <trace time="-1" /> <!-- Adds a trace timer - set to -1 to remove -->
+  <firewall level="6" solution="DANGER"/>
+  
+  <file path="sys" name="x-server.sys">#WHITE_THEME#</file>
+
+  <file path="home/scripts" name="DANGER.txt">
+    Bu tehlike kelimesi neden bu kadar iyi? Sadece tehlike de değil, TEHLİKE yani. Tamamı büyük harflerle. Objektif olursak, en iyi kelime diyebiliriz.
+    Peki ya en iyi bölge? TEHLİKE BÖLGESİ. En iyi başlangıç sözcüğü peki? TEHLİKE.
+    Keşke bu sözcüğü her şey için kullanabilsem.
+  </file>
+
+  <encryptedFile path="home/scripts" name="T2_Screenplay.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" >
+    Titanik 2: Buzdağı'nın İntikamı
+    -Senaryo-
+
+JACK DAWSON: "Kimsenin aklına bile gelmemiştir. Buzdağı bize çarpmadı... BİZ BUZDAĞINA ÇARPTIK!"
+ROSE DEWITT BUKATER: "Ne? Seni hayata döndüren çılgın operasyonu aklını yitirmene mi sebep oldu? Seni geri getirttim çünkü seni *SEVİYORUM*!"
+JACK DAWSON: "Biliyorum. Fakat burada tehlikedeyiz. O buzdağının bir ailesi vardı. İntikam istiyorlar. Ölmek üzereyken bana söylediler... bunu asla..."
+-JACK DAWSON ŞEKİLLİ DÜRBÜNÜNÜ çıkartır ve bakmaya başlar
+JACK DAWSON: "Geri Döneceğim"
+
+Kaliforniye Sahili Sahnesi
+
+Aşırı hızla şehre yaklaşan bir buzdağı suda görünür.
+Tahliye sirenleri çalmaya başlar. Sahildeki insanlar çığlıklar atar, buzdağını işaret eder ve kaçmaya başlarlar.
+Sahile doğru yaklaşan başka buzdağları da görünmeye başlar.
+
+ROSE DEWITT BUKATER: "İmdat!"
+JACK DAWSON: "Rose! Senin için döndüm! Seni asla bırakmam!"
+
+Büyük buzdağı kıyıya vurur ve iki karakterin üzerine doğru ilerlemeye başlar. Silahını çeker.
+
+ROSE DEWITT BUKATER: "JAAAAACCCKKKKKKK!"
+
+  </encryptedFile>
+
+  <encryptedFile path="home/scripts" name="GHL_ChapterList.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" >
+    Galaktik Kahraman Efsanesi
+    -İçerik Listesi-
+
+    1. BÖLÜM: Stratosfere Giriş
+    2. BÖLÜM: Derin Etki
+    3. BÖLÜM: Ters İtiş
+    4. BÖLÜM: Kalbe Giden Yol
+    5. BÖLÜM: Ağır Sarsıntı
+    6. BÖLÜM: Gerideki Amirale Saldırı
+    7. BÖLÜM: Savaşın Dört Ganimeti
+    8. BÖLÜM: Derin Minnettarlık
+    9. BÖLÜM: Pişmanlık, Korku ve Arzu
+    10. BÖLÜM: Derinlerdeki Patlamalar
+    11. BÖLÜM: Mutlak Ritmin Devamı
+    12. BÖLÜM: Başta Nazikçe, Sonradan Hiddetle
+  </encryptedFile>
+  
+</Computer>

@@ -1,0 +1,132 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="portcrack01" name="Viper-Battlestation" security="0" type="4">
+
+  <dlink target="viperScanEarlyGame" />
+
+  <file path="bin" name="SSHcrack.exe">#SSH_CRACK#</file>
+  <file path="home" name="Youtubers.txt" >
+youtubers om te bekijken:
+
+captainspinifex
+rockleesmile
+northernlion
+officialcalemgames
+jonathancrowgamer
+
+  </file>
+  <file path="home" name="Notes.txt" >
+    Eindelijk gelukt om het nieuwe haxxor programma te torrenten van de server Gollum me over vertelde - dit is awesome!
+
+    Kan niet wachten om het te proberen - eerst uitvinden hoe ik het moet gebruiken
+  </file>
+  <file path="home" name="asdf.txt" >
+    Toelatingstest?
+    199.59.149.230
+    Proxy server
+
+    ..
+
+    Moet iets weten over het overloaden?
+    Moet dit verder onderzoeken. Misschien is er een programma dat helpt? Moet vragen voor meer geld..
+  </file>
+  <file path="home" name="EmailDraft.txt" >
+    Pap,
+    Sorry dat ik je in tijden niet meer heb geemaild - Ik heb het druk gehad met school - jaar 11 is moeilijk, maar het gaat goed.
+    Ik wilde je eigenlijk vragen om wat hulp - Ik heb niewe software nodig voor een schoolproject. Het heet 'FTPBounce.exe'. Het is erg handig! Het kost vrij veel en ik ben door het geld heen wat je me de laatste keer hebt gestuurd - het is een ICT project en is erg duur.
+    Is er een kans dat je nog een keer $2.000 naar mijn rekening stort? Het zou erg helpen.
+
+    Bedankt!
+    Love you,
+    Tim
+  </file>
+
+  <file path="home/work" name="jasperlog.txt" >
+[viper] heb je de sleutels waar ik om gevraagd heb?
+[jasper] heb jij het geld?
+[viper] klaar om gestuurd te worden
+[jasper] De eerste helft staat op de drop server. Als de transfer klaar is krijg je de laatste sleutels.
+[viper] cool. ik bekijk ze nu.
+[viper] awesome. ze werken.
+[jasper] krijg ik dan nu mijn geld?
+[viper] gestuurd
+[jasper] ontvangen. wie zou gedacht hebben dat call of soldier zou populair zou worden dit jaar.
+[viper] coolste ding dit jaar.
+[jasper] gamers.
+  </file>
+
+  <file path="home/work" name="TARGET.txt" >
+[viper] Ik wil mijn geld terug.
+[cs#1575] Sorry meneer, maar we kunnen uw geld niet terugstorten om een gedachteverandering.
+[cs#1575] Kan ik u voorstellen dat u het opnieuw op J-Bay zet?
+[viper] Ik wil het niet op je stomme veilingssite zetten.
+[viper] Ik zeg toch, Ik drukte perongeluk op bid in plaats van watch
+[cs#1575] Het spijt me zeer, maar ons beleid verzekert geen misklikken.
+[cs#1575] Dus je moet accepteren dat de Penetrator 9000 van u is of u kan proberen het opnieuw via de veiling te verkopen.
+[viper] Je hebt met de verkeerde klant lastig gevallen. Jullie zullen spijt krijgen.
+[cs#1575] Bedankt meneer, en ik wens u een goede avond.
+  </file>
+
+    <file path="home/work" name="ripped_prerelease.log" >
+[glaylor] JE HEBT HET VERPEST
+[glaylor] 18 MAANDEN ONTWIKKELING
+[glaylor] 3 MILJOEN DOLLAR
+[glaylor] VOOR EEN SPEL OVER HET BEKIJKEN VAN MOBIELE SCHERMEN
+[glaylor] ..................
+[glaylor] FUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+[hoops] Whoa, kalmeer man, mensen gaan dit opvreten
+[hoops] Het is, een statement, op de staat van woorden.
+[hoops] Zoals, heb je ooit de straat afgelopen laatst?
+[hoops] Mensen zitten constant op hun telefoon, ze hebben het niet eens door.
+[hoops] Dus we hebben een spel gemaakt dat je laat rijden, lopen, schieten en hacken, terwijl je constant naar je telefoon kijkt.
+[hoops] Het is geniaal.
+[glaylor] Het bestuur hakt mijn hoofd er af.
+[glaylor] We moeten het een goede naam geven.
+[glaylor] En meester boxart.
+[glaylor] En wat bloom effecten. Dat helpt bij de kinderen.
+  </file>
+
+  <file path="home/work" name="seb.txt" EduSafe="false">
+[viper] Hoe ging het?
+[lilsebastian] Het was een nachtmerrie.
+[viper] Waarom?
+[lilsebastian] We waren de hele avond op de uitkijkpost. Het was super romantisch.
+[lilsebastian] Toen begonnen we te kussen.
+[lilsebastian] Toen starten we te rotzooien, je weet wel.
+[lilsebastian] En toen, er.
+[viper] Wat?
+[viper] Zeg het gewoon.
+[lilsebastian] Het ehm, was sneller klaar dan verwacht. Zoals. Kleren nog aan sneller.
+[viper]......
+[viper]......
+[viper] HAHAHAHAHAHHAHAHAHAHAHHAA
+[lilsebastian] Shut up.
+[viper] Dude, god dude, geef dat nooit aan iemand toe ooit.
+[viper] Je hebt geluk dat we vrienden zijn, anders zou ik het aan iedereen vertellen.
+[viper] Hoe dan ook, moet gaan. Nog meer programmeren.
+[lisebastian] Is goed. Zie je morgen op school.
+[viper] Wees niet te vroeg.
+  </file>
+  
+  <eosDevice name="Tim's ePhone 4S">
+    <note>POORT NUMBERS
+Web Browsers en web diensten: 80 (8080 soms?)
+SSH: 22 (####program for this one)
+FTP: 21
+SQL: 1433
+    </note>
+    <note>entropy
+een soort hacker groep?
+lijkt klein en niet veel nieuws over ze?
+Behalve dat slashbot ze haat voor een reden?
+"vind en versla onze test server" - hoe?
+Berichtenbord heeft geen andere gegevens?
+
+Misschien is het ergens geindexeert? Vind een net registery en zoek voor entropy?
+    </note>
+    <note>daves
+H22 to Westfield st (stop 22)
+4:25 - 5:12
+4:55 e.30m
+    </note>
+  </eosDevice>
+</Computer>

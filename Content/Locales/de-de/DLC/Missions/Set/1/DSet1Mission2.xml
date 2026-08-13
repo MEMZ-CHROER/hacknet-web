@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dRicerMission">
+  <goals>
+    <goal type="fileupload" target="dRicer" file="SSLTrojan.dec" path="home/projects" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="The Ricer">
+Ich habe vom Aufenthaltsort einer Person erfahren, die etwas entwickelt, mit dem man SSL-Ports öffnen kann. Leider ist ihr Setup etwas ungewöhnlich.
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>The Ricer</subject>
+    <body>
+Ich habe vom Aufenthaltsort einer Person erfahren, die etwas entwickelt, mit dem man SSL-Ports öffnen kann. Leider ist ihr Setup etwas ungewöhnlich.
+----
+Das Ziel scheint besessen von Customization zu sein – ein Ricer – und hat entsprechende Sicherheitssysteme. Überall sind Nicht-Standardmäßige-Config-, Port- und Dienstzuordnungen.
+Sobald du einen Weg hinein gefunden hast, wollen wir eine Kopie der neuesten SSL-Breaker-Software. Sie könnte verschlüsselt oder irgendwie gesichert sein, aber das ist okay. Lade, was du finden kannst, einfach auf unseren Drop-Server (verlinkt) hoch und wir kümmern uns darum, alles zum Laufen zu bringen.
+    </body>
+    <attachments>
+      <link comp="dhsDrop" />
+      <link comp="dRicer" />
+      <note title="Mission Guidelines">Verbinde dich mit dem Ricer-Server und umgehe die Sicherheitssysteme.
+Suche nach der neuesten Version eines SSL-Port-Breaker-Programms.
+Hinweis: Sie könnte verschlüsselt oder versteckt sein.
+Lade die Datei auf den Drop-Server, sobald du etwas Vielversprechendes gefunden hast.</note>
+    </attachments>
+  </email>
+</mission>

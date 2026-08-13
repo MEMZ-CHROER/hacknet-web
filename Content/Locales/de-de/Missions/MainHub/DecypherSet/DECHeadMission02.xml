@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="getString" target="beepbeep"/>
+  </goals>
+  <missionEnd val="1">addFlags:dechead</missionEnd>
+  <nextMission>MainHub/Misc/Faction_Gain_Helper.xml</nextMission>
+  <posting title="Eine verschlüsselte Datei aufspüren">
+Wir glauben, einen Weg gefunden zu haben, DEC-verschlüsselte Dateien zu ihrem Ursprungsort zurückzuverfolgen - Wir haben eine mit einem Passwort versehene Datei, die wir einsehen wollen. Das sollte reichen, um der Sache auf die Spur zu kommen.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>RE: Unter der Lupe</subject>
+    <body>
+Klasse, du hast was gefunden?
+
+Die Datei liegt auf dem Crossroads-Server - "CSEC_encode_1.dec" - wir haben sie umbenannt, damit keiner auf dumme Ideen kommt. Der ursprüngliche Dateiname war "WinCE_FirmwareSpecs.dec", wenn das relevant sein sollte.
+Wie dem auch sei: Lies den Header aus, finde heraus, wo die Datei verschlüsselt wurde und finde das Passwort! Schreibe das Passwort in deine Antwort auf diese Mail. Wir übernehmen dann den Rest.
+
+Danke für deine Hilfe,
+-CT Team
+    </body>
+    <attachments>
+      <link comp="hubCrossroads" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dCleanupMission">
+  <goals>
+    <goal type="clearfolder" target="ds3_fn" path="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Temizlik">D3f4ult kişisel sebeplerden ötürü hackleme işlemi sırasında bilgisayarının başından kalmak zorunda kaldı. Hedefin bilgisayarına sız, işi tamamla ve kayıtları sil.</posting>
+  <email>
+    <sender>Biblioteqhue</sender>
+    <subject>Temizlik</subject>
+    <body>
+D3f4ult kişisel sebeplerden ötürü hackleme işlemi sırasında bilgisayarının başından kalmak zorunda kaldı. Hedefin bilgisayarına sız, işi tamamla ve kayıtları sil.
+----
+Kişisel meseleleri D3f4ult'u iş başındayken AFK kalmak zorunda bıraktı. O bilgisayara sızmanı, işi bitirmeni ve izleri silmeni istiyorum.
+
+"Funkenstein" ile ilgili yayınlanmamış projeleri arıyordum. Sunucuyu e-postaya ekledim. Bulduğun her şeyi indir ve Drop Server'a yükle.
+D3f4ult'un çıkmadan önceki kayıtları:
+
+Kaguya: Sorun değil.
+D3f4ult: Gerçekten çok özür dilerim.
+Kaguya: Kafana takma.
+D3f4ult: Ayrıntılar bunlar:
+D3f4ult: IP: 21.32.43.54
+D3f4ult: k.adı: admin
+D3f4ult: şifre: redwood
+D3f4ult: Sunucunun işini çoktan hallettim. 
+D3f4ult: Tek yapman gereken şifreli dosyaları bulmak, indirmek ve Drop Server'a yüklemek.
+D3f4ult: Müşteri yayınlanmayan müziklerle ilgili bir şeyler demişti.
+D3f4ult: Ayrıca kayıtlarımı silme fırsatı bulamadım. Lütfen benim için bunu da hallet.
+
+Bol şans.
+-Kaguya
+    </body>
+    <attachments>
+      <link comp="ds3_fn" />
+      <note title="Görev Kılavuzu">Suncuda D3F4ult ile bağlantılı olan tüm dosyaları sil.
+Yayınlanmayan projeleri araştır.
+Dosyaları Drop Server'a yükle.</note>
+    </attachments>
+  </email>
+</mission>

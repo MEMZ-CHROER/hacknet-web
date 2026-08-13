@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="pressdemoMission03">
+  <goals>
+    <goal type="FileDownload" target="bitStashDemo" file="SQL_MemCorrupt.exe" path="bin" />
+    <goal type="FileDownload" target="bitStashDemo" file="SMTPOverflow.exe" path="bin" />
+    <goal type="FileDownload" target="bitStashDemo" file="Sequencer.exe" path="bin" />
+  </goals>
+  <nextMission>Demo/PressBuild/DemoMission04.xml</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Gear up</subject>
+    <body>Perfect,
+Bedankt voor je hulp. Ik neem aan dat dat genoeg bewijs is dat jij de goede persoon hiervoor bent. Wat nu komt is een stuk moeilijker - dus ik geef je het gereedschap.
+
+Ik heb een link naar een van mijn drop servers bijgevoegt, met admin login details. Daarop, in de /bin/ map, vind je een paar nieuwe programma's.
+Ze zijn niet het soort dat ik rond wil slingeren op het web, dus je krijgt ze nu omdat ik geen andere opties heb - en je bewezen hebt dat je kan helpen.
+
+Terwijl jij ze allemaal gaat halen, "Sequencer" is erg belangrijk - het is iets wat ik een tijd geleden geschreven heb om meerder hackers te anoniem te helpen, maar ik heb het herschreven voor deze versie voor jou.
+Ik leg later uit wat het doet als je alles gedownload en klaar hebt.
+
+De andere twee zijn poort krakers - SMTPOverflow overstroomd een SMTP (mail server) poort - meestal #25
+SQL_MemCorrupt is een injectie aanval op een SQL server - zij zijn standaard op poort 1433.
+
+Zorg er voor dat je alles ophaalt,
+--Bit
+0
+    </body>
+    <attachments>
+      <link comp="bitStashDemo" />
+      <account comp="bitStashDemo" user="admin" pass="traxxex12" />
+    </attachments>
+  </email>
+</mission>

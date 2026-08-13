@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mission id="dFollowsMission">
+  <goals>
+    <goal type="clearfolder" target="ds3_dest" path="home"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Te sigue">Alguien dice tener trapos sucios sobre Kaguya. Descubre quién es y comprueba si es cierto. Si es necesario, siléncialo. Necesitamos mantener esto a flote.</posting>
+  <email>
+    <sender>Biblioteca</sender>
+    <subject>Te sigue</subject>
+    <body>
+Alguien dice tener trapos sucios sobre Kaguya. Descubre quién es y comprueba si es cierto. Si es necesario, siléncialo. Necesitamos mantener esto a flote.
+----
+Un usuario anónimo ha empezado a armarla en foros de hackers y dice que tiene trapos sucios sobre mí. No soy tan importante como para que la comunidad hacker me haga caso y este individuo era el hazmerreír del canal de IRC en cuestión, pero algunas de las cosas que dice son muy específicas y me preocupa.
+
+Uno de mis contactos me ha enviado su IP. No tengo tiempo, así que necesito que te encargues tú. 
+
+Comprueba si es cierto. Si tienen alguna prueba que parezca cierta, bórrala junto al resto de sus archivos. Tienen que enterarse de que no pueden jugar con nosotros: Tenemos que parecer impenetrables. Y si ves códigos de encriptación, ponlos en el IRC. Ya los miraré más tarde.
+
+-Kaguya</body>
+    <attachments>
+      <link comp="ds3_entry" />
+      <note title="Objetivos de la misión">Comprueba si es cierto. Si las pruebas parecen "reales" o mencionan a alguien llamado "Dreadnought", destruye los archivos.</note>
+    </attachments>
+  </email>
+</mission>

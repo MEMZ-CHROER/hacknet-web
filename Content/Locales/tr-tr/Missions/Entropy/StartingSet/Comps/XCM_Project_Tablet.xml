@@ -1,0 +1,74 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="xcTablet" name="X-C Project Tablet#001//RESEARCH" security="2" icon="tablet" type="4">
+  
+  <proxy time="1.0" />
+  <portsForCrack val="1" />
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1" />
+
+  <adminPass pass="cyberdisk" />
+  
+  <file path="X" name="LaserRifle_mk2.spec">
+X-C_PROJECT:ID#1299
+
+ÇİZİMLİ ARAŞTIRMA RAPORU
+Kod Adı: Güneş Işını 
+
+Gelişmiş optiklerle ilgili yaptığımız son araştırmaya göre uzaylı cihazları gayet başarıyla çalışmaktaydı. Ayrıca uzaylı teknolojisini kendi silah sistemlerimize adapte etme çabalarımız ümit verici.
+MK2 Lazer Tüfeği, elektrik yettiğince sonsuz ateş gücü sağlama çalışmamıza uymuyor. Sebebi ise silahın aşırı ısınması. MK2 tüfeği uzun süre ateşlendikten sonra ısı dağılımına ihtiyaç duyuyor, aynı balistik silahlarında doldurma işlemi gibi.
+Henüz kusursuz olmasa da, önceki denemelerimizden çok daha hassas ve ölümcül bir silah geliştirdiğimizi kabul etmeliyiz. Ayrıca düşünürsek, mevcut silahlarımızdan çok daha fazla saygıyı hak eden bir proje bu.
+
+Tüfekleri üretmek için gereken malzemeler fazla pahalı olmasa da (ayarlı alaşımlara duyulan gereksinimi azaltıyoruz), şu anki üretim yöntemlerimiz uygun netlik ve durağanlıktaki odaklama merceklerini üretmek için pek çok deneme gerektirecek. Biz ise bu sistemi henüz mükemmel hale getiremedik.
+Bu yüzden şans eseri olarak yüksek kaliteye erişebilmemiz için (aynı zamanda makine merceği üretiminin de sorunlarından) 100 mercek sistemi üretmemiz gerekiyor. Daha fazla mühendis bize katılacak olursa, bazı arkadaşlarımız bu alanda ek çalışma yapıp uzmanlaşabilir ve böylece bu sorunu çözüp üretim maliyetini azaltabiliriz.
+
+Üretim çizimleri ID#1300 kodlu ana mühendislik sunucusunda bulunuyor.
+  </file>
+  
+    <file path="X" name="FlightComputers.rep">
+X-C_PROJECT:ID#1938
+
+ARAŞTIRMA RAPORU
+Kod Adı: Denizfeneri
+
+Uzaylı uçuş bilgisayarı oldukça ilginç bir araştırma parçasıydı. Uzaylı veri sistemini çözümleyecek uzman araştırma ekibinin yokluğunda çok az ilerleme kaydedebildik. Bilgisayarın yürütülebilir ve program bazlı işlevleri ile ilgili elimizde hiçbir şey yok. Verilerin çoğunu çözümledik ve aygıtın içerisindeki bazı görsel ve ses dosyalarına ulaşmayı başardık. Ancak dillerinin de yer aldığı dokusal dosyalara henüz erişim sağlayamadık.
+Veriler incelendiğinde bu bilgisayarın hem gezegen menzili hem de galaktik ölçek işlevi bulunan aşırı uzak menzilli bir navigasyon aygıtı görevi gördüğü belli oluyor. Ayrıca aşırı hızlı çarpışmaların önlenmesi ile ilgili kafa karıştırıcı veriler de bulduk. Uzay gemisinin asıl özelliği seyahat sırasında gezegensel kitlelerden kaçınmak. Bu  bilgiler sayesinde ileriki araştırmalarımızda işimize yarayacak olan hafif itiş teknolojisine yönelik ipuçları elde etmiş olduk.
+
+Buna ek olarak aygıtın içerisinde şaşırtıcı görüntüler de bulduk. En başta geminin mürettebatının anatomik ve tıbbi verileri olduğunu sandığımız bu resimler aslında uzaylı pornografisi ile ilgili. Görünürde üreme organı yok fakat bu türün boyun yapısı ve çene altı büyüleyici duruyor. Bunun sebebini ise henüz netleştiremedik.
+Somut bilgiler olmasa da... savaşla karşı karşıya kalabileceğimizi düşünürsek orduya bu bölgelerin zayıf nokta olabileceğine dair rapor göndermemiz gerekebilir.
+
+  </file>
+  
+ <file path="X" name="WIP_Xenogenetics.txt">
+X-C_PROJECT:ID#2133
+
+Ele geçirdiğimiz türler sadece görünüşte değil, ayrıca genetik yapı anlamında da birbirine aşırı benziyor. Klon olduklarını belirterek yanlış görüş bildirmiş olabilirim. Bu varlıkların DNA'ları kesinlikle özdeş. Belki de bu türlerinin ortak özelliklerinden biridir. Bireysel farklılıkları tamamen zihinsel anlamda şekilleniyor.
+
+Bu türlerin sinir sistemleri kara memelilerinde (insanlar da dahil) görülen sinir sistemlerine aşırı benziyor. Buradan yola çıkarak kendi kökenimizle ilgili nasıl bir yorumda bulunabiliriz? Acaba evrenin kalanıyla benzer miyiz? Peki neden?
+
+Saptadığımız türlerin hiçbirinde koku hissine rastlamadık. Görme duyuları ise bazı böceklerde görülenlere çok benziyor. Bazılarının ki ise böceklere oranla daha gelişmiş seviyede. Burun bölgesi ise hemen hemen aynı işlevi görmesine rağmen tatma duyusuna aitmiş gibi görünüyor.
+  </file>
+
+  <file path="X/Personal" name="Penetrator_mk1.spec">
+X-C_PROJECT:ID#4991
+
+ÇİZİMLİ ARAŞTIRMA RAPORU
+Kod Adı: Şaşkın Ejder
+
+Gerekenler:
+22x  Alaşım
+2x   UFO Güç Kaynağı
+10x  Eleryum
+185x Kredi
+
+Eleryum kaynaklı bu aygıt ek güç kaynağı gerektirmeden bir saniye 200 osilasyon boyutundaki dayanıklı alaşım çubuğunu 60.96 santimetreye kadar uzatıp geri kısaltabiliyor.
+Keskin kenarlı güç kaynağı daha önce erişemediğimiz çalışma sürelerine ve yoğunluklarına erişebilmemizi sağladı. Kolun dış dirsek kısmına işlem sırasında dikkat edilmesi gerek. Bu sayede birden çok "başlığın" takılmasını sağlayabiliriz. Bu uyumu güvenli olacak şekilde sağlamalıyız.
+
+A-12 notunda açıklandığı üzere çubuğun çıkarılabilir olması gerektiğini unutmayın.
+Bu aygıt sayesinde... araştırma verimliliğimizi büyük ölçüde artırıp en üst düzeye çıkartabiliriz. Gerekli şemalar Dr. Shen'e gönderildi. Üretime başlayabiliriz.
+
+ÇİZİM VERİSİ:
+#BINARY#
+
+  </file>
+  
+</Computer>

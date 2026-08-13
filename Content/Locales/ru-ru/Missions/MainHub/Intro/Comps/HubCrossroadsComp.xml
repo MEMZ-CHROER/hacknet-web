@@ -1,0 +1,137 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="hubCrossroads" name="Общий сервер CSEC" security="0">
+
+  <positionNear target="mainHub" position="1" total="6"/>
+
+  <file path="home" name="REQUEST.zip">#BINARY##BINARY#</file>
+  <file path="home" name="CT2.zip">#BINARY##BINARY#</file>
+
+  <encryptedFile path="home" name="encrypt_source.dec" ip="101.0.89.154" header="Secured Source Code" extension=".cs">
+    
+        private static string Encrypt(string data, ushort passcode)
+        {
+            StringBuilder ret = new StringBuilder();
+            for (int i = 0; i LESS_THAN data.Length; i++) {
+                int newVal = ((ushort)data[i] * 1822) + ushort.MaxValue / 2 + passcode;
+                ret.Append(newVal + &quot; &quot;);
+            }
+            return ret.ToString().Trim();
+        }
+        
+        ///summary
+        /// Returns an array containing
+        /// [0] Header Message
+        /// [1] IP Link
+        /// [2] Message Data
+        /// [3] File extension if provided, else null
+        /// [4] &quot;1&quot; is password is valid, &quot;0&quot; if not
+        ///summary
+        public static string[] DecryptString(string data, string pass = &quot;&quot;)
+        {
+            string[] ret = new string[5];
+            ushort passcode = GetPassCodeFromString(pass);
+
+
+            string[] split = data.Split(Utils.robustNewlineDelim, StringSplitOptions.RemoveEmptyEntries);
+            if (split.Length LESS_THAN 2) throw new FormatException(&quot;Tried to decrypt an invalid valid DEC ENC file&quot;);
+            string[] headersSplit = split[0].Split(HeaderSplitDelimiters, StringSplitOptions.None);
+            if (headersSplit.Length LESS_THAN 4) throw new FormatException(&quot;Tried to decrypt an invalid valid DEC ENC file&quot;);
+
+            string headerMsg = Decrypt(headersSplit[1], passcode);
+            string ipLink = Decrypt(headersSplit[2], passcode);
+            string check = Decrypt(headersSplit[3], passcode);
+            string fileExtension = null;
+            if (headersSplit.Length &gt; 4) fileExtension = Decrypt(headersSplit[4], passcode);
+            string message;
+            string passValid = &quot;1&quot;;
+            if (check == &quot;ENCODED&quot;) {
+                //Password was correct!
+                message = Decrypt(split[1], passcode);
+            }
+            else {
+                //invalid password
+                headerMsg = null;
+                ipLink = null;
+                message = null;
+                passValid = &quot;0&quot;;
+            }
+            ret[0] = headerMsg;
+            ret[1] = ipLink;
+            ret[2] = message;
+            ret[3] = fileExtension;
+            ret[4] = passValid;
+            return ret;
+        }
+  </encryptedFile>
+
+  <encryptedFile path="home" name="CSEC_encode_1.dec" ip="168.61.82.245" header="WinC Firmware Specifications" extension=".pdf" pass="beepbeep">
+    Инструкция по разработке драйверов для WinCE
+    ------------------------------------------------------  
+  Для разработки драйверов и прошивок для применения во встроенных системах, работающих на ОС WinCE. Тысячи устройств используют данную операционную систему, от автомобилей до медиаплееров. При разработке драйверов и/или прошивок не забывайте о разнообразии устройств, для которых они могут применяться.
+    ------------------------------------------------------  
+
+  Многие драйвера для WinCE устройств внедряют потоковый интерфейс. Основными командами потокового интерфейса являются: XXX_Open (Управление устройствами), XXX_Close (Управление устройствами), XXX_Read (Управление устройствами) и XXX_Write (Управление устройствами). Подробнее читайте в разделе Драйверы для потокового интерфейса.
+    Сетевые адаптеры, видеоадаптеры, мышки, клавиатуры и другие специальные устройства не используют потоковый интерфейс. Эти устройства используют интерфейсы, соответствующие их функционалу.
+    Независимо от интерфейса, используемого вашим устройством, вероятно, вам придется внедрить обработчик прерываний (ISR). Подробнее о прерываниях и их обработчиках читайте в разделе Прерывания.
+    Разные процессы загружают разные драйвера. Список процессов и загружаемых ими драйверов смотрите в таблице ниже.
+
+    Для внедрения кода вашего драйвера используйте следующий путь: 
+
+   %_WINCEROOT%\Platform\%_TGTPLAT% 
+   Содержит платформозависимый код. В этой директории хранится OAL, файлы конфигурации и драйвера загрузочного процессора. Вам не нужно менять платформозависимые драйвера в %_WINCEROOT%\Platform\%_TGTPLAT%\Drivers.
+    %_WINCEROOT%\Platform\Common\Src\SOC 
+   Содержит SOC драйвера для высокоинтегрируемых микропроцессоров или сопроцессоров многих родных периферийных устройств, встроенных в микропроцессор. SOC драйвера включают различные OAL драйвера для часов, таймеров, Ethernet-плат и т.д. Стандартные панели разработчиков (SDBs) с одинаковыми микропроцессорами могут использовать одни и те же SOC драйвера.
+    %_WINCEROOT%\Public\Common\OAK\Drivers
+    Содержит обычные драйвера для сторонних периферийных устройств, таких как устройства на съемной плате или подключенные напрямую к монтажной плате. Обычные драйвера содержат платформонезависимый код, который обращается к платформозависимому коду для создания драйвера для устройства. Обычные драйвера не привязаны к платформе устройства или к микропроцессору. Любая стандартная панель разработчиков использует обычные драйвера.
+  </encryptedFile>
+
+  <file path="home" name="FOF_Screenplay.doc">
+    ПОЛНЫЙ ПОФИГИЗМ 
+   -Сценарий-
+
+    Вступительная сцена: Вдалеке тихо играет пианино. Мы смотрим на панель гольфмобиля - на часах 07:22.
+    Плохо одетый мужчина отпивает из явно украденной коробки с вином. Не суди его строго - это вкусно и удобно. Под плохо одетым,
+    я, конечно, подразумеваю, что на нем только плавки. Его очертания можно хорошо рассмотреть.
+
+    Проезжая мимо кафе на максимальной скорости гольфмобиля в 40 км/ч (сзади у него турбозарядка), он протягивает руку и небрежно переворачивает кофе одного бизнесмена.
+
+Он останавливается со скрежетом поперек двух парковочных мест для инвалидов, идет по дороге, допивая остатки вина в коробке, и выбрасывает ее на дорогу, как будто ему совсем наплевать. совершенно.
+    Музыка становится громче. До кульминационной точки, с горнами и так далее. Наш герой изящно направляется к ближайшей мусорке, взбирается на нее и, не раздумывая, снимает штаны, и долго с удовольствием испражняется.
+
+Смена кадра на застывшую в ужасе пожилую женщину. Показать название.
+  </file>
+
+  <encryptedFile path="home" name="T2_Screenplay.dec" ip="37.187.27.55" header="Secure Script Encryption inc (c)" extension=".doc" pass="DANGER">
+    Титаник 2: Месть айсберга
+    -Сценарий-
+
+ДЖЕК ДОУСОН: &quot;Никто даже не думал об этом, но айсберг не просто ударил по нам... МЫ УДАРИЛИ ПО НЕМУ!&quot; 
+РОУЗ ДЬЮИТ БУКЭЙТЕР: &quot;Что?! Во время этой безумной операции по возвращению к жизни тебе задели мозг? Я вернула тебя обратно, потому что я *ЛЮБЛЮ* тебя! 
+ДЖЕК ДОУСОН: Я знаю, но здесь мы в опасности. У этого айсберга была семья, и она жаждет отмщения. Когда я был при смерти, они сказали мне... они такого не ожидали...&quot;
+-ДЖЕК ДОУСОН вылавливает его ХОЛОДНОЕ ОТРАЖЕНИЕ и натягивает его на себя. 
+ДЖЕК ДОУСОН: &quot;Я еще вернусь.&quot;
+
+Переход кадра к калифорнийскому берегу 
+
+В воде появляется айсберг, надвигающийся на город с невероятной скоростью. 
+Включается рев сирен, призывающий к эвакуации, люди бегут, пытаясь спастись. 
+Рядом с ним появляются новые айсберги, они тоже стремятся к берегу. 
+
+РОУЗ ДЬЮИТ БУКЭЙТЕР: &quot;На помощь!&quot; 
+ДЖЕК ДОУСОН: &quot;Роуз! Я с тобой! Я никогда тебя не брошу!&quot;
+
+ Крупная часть айсберга оказывается на берегу и направляется к главным героям. Он достает оружие. 
+
+РОУЗ ДЬЮИТ БУКЭЙТЕР: ДЖЕ-Е-Е-Е-ЕК!
+
+  </encryptedFile>
+  
+  <encryptedFile path="home" name="C_EXE_contact.dec" ip="74.125.237.119" header="Encrypted Messaging Systems inc" extension=".txt" pass="quinnoq">
+
+    Контактное лицо использует Jmail под &quot;dlocke&quot;.
+      
+  Я знаю, что мы долго этого добивались, но не стоит спешить только потому, что это весомое преимущество - у нас все идет своим чередом.
+    Об остальном проинформирую, как только у меня появится план.
+
+  </encryptedFile>
+</Computer>

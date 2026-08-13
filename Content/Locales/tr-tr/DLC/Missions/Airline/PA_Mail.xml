@@ -1,0 +1,140 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dpa_mail" name="PacificAir_Mail" security="5" type="4" icon="PacificAir">
+
+  <!-- The mail server, will need to have three accounts. Two of these are critical, one is just flavor.
+  The player will never be able to break in here, so we only need to populate the contents of those three
+  accounts, nothing else.-->
+  
+  <proxy time="4" />
+  <trace time="75" />
+  <portsForCrack val="5" />
+  <ports>22, 25, 443, 1433, 192</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dpa_nethub" position="90" total="360" extraDistance="0.03"/>
+  
+  <!--TRANSLATORS: Do not translate these account lines -->
+  <account username="awilburn" password="1234" type="2" />
+  <account username="kburnaby" password="noneofyourbusiness" type="2" />
+  <account username="YasuArai" password="9NINETWO2" type="2" />
+  
+  <mailServer name="Pacific Air Mail" color="153,195,209">
+    <email recipient="kburnaby" sender="YasuArai" subject="Siber Güvenlikçiler">Tanrım, sinir bozucular...
+Bunlardan birindne bilgisayarıma bir şey yapmasını istedim. Adam çıldırdı resmen. Şifremi değiştirtti bana.
+Hatırlamakta zorlanmayayım diye sonuna 1 ekledim. Yine de sinir bozucu bir durum.
+Bunların olayı ne?
+-Yasu</email>
+    
+    <email recipient="kburnaby" sender="sp_alerts" subject="2. HAFTA DOLANDIRICILIK UYARISI">Bu gönderi {$ActiveMonth} ayının ikinci haftasında yapılan uyarıların özetini içerir.
+Pazartesi: 3 Uyarı
+Salı: 0 Uyarı
+Çarşamba: 4 Uyarı
+Perşembe: 1 Uyarı
+Cuma: 2 Uyarı</email>
+
+    <email recipient="kburnaby" sender="YasuArai" subject="Yanıt: Öğle Yemeği">Teşekkür ederim ama olmaz. İlişkimizi profesyonel seviyede tutmak istiyorum.
+-Yasu</email>
+
+    <email recipient="kburnaby" sender="MailAdmin" subject="[DKKT: Yöneticiler] Toplantı Raporları">Hadi ama millet... toplantı raporlarınızı yazmaya başlamalısınız yoksa başımız belaya girecek.
+Özellikle de benim başım.
+Lütfen?</email>
+
+    <email recipient="kburnaby" sender="awilburn" subject="Dolandırıcılık E-Postası?">Merhaba Kim,
+Etraftaki personele sordum da, anladığım kadarıyla bunu sorabileceğim en doğru kişi senmişsin.
+Şifre sıfırlama ile ilgili bir e-posta aldım ancak bunun sahte olup olmadığından emin değilim. Doğrulayabilir misin acaba?
+> admin_password_security_reset@pacifiicaircom.org gönderdi:
+> ""Merhaba sayın çalışan,
+> Şifre sıfırlama e-postanız aşağıda;
+> Şifrenizi sıfırlamak için linke tıklayın.
+> Güvenliğimiz için bu çok önemli.
+> Teşekkürler.
+> Yönetici""
+- Alexina</email>
+    
+    <!-- NetAdmin Emails -->
+  
+  <email recipient="YasuArai" sender="kburnaby" subject="Yanıt: Siber Güvenlikçiler">Merhaba J,
+E-postalarının içeriklerini işle alakalı tutmanı rica etmek zorundayım. Buradaki şikayetin profesyone değilde kişisel bir sorun üzerineymiş gibi görünüyor.
+Teşekkür ederim.
+-Kim</email>
+
+    <email recipient="YasuArai" sender="athurlow" subject="Yanıt: Yanıt: Şifre Sıfırlama">Sen ne halt ediyorsun? Senden bir şey yapmanı istedim. Bunu neden yapamıyorsun ki?
+> NetAdmin@pacificair.com gönderdi:
+> Hayır.
+> > athurlow@pacificair.com gönderdi:
+> > Dostum, şifremi sıfırlayabilir misin? Teşekkür ederim.</email>
+
+    <email recipient="YasuArai" sender="kburnaby" subject="Gnd: Dolandırıcılık E-Postası?">Bir tane daha.
+-Kim
+> awilburn@pacificair.com sent:
+> Merhaba Kim,
+> Etraftaki personele sordum da, anladığım kadarıyla bunu sorabileceğim en doğru kişi senmişsin.
+> Şifre sıfırlama ile ilgili bir e-posta aldım ancak bunun sahte olup olmadığından emin değilim. Doğrulayabilir misin acaba?
+> > admin_password_security_reset@pacifiicaircom.org gönderdi:
+> > ""Merhaba sayın çalışan,
+> > Şifre sıfırlama e-postanız aşağıda;
+> > Şifrenizi sıfırlamak için linke tıklayın.
+> > Güvenliğimiz için bu çok önemli.
+> > Teşekkürler.
+> > Yönetici""
+> - Alexina</email>
+
+    <email recipient="YasuArai" sender="kburnaby" subject="Öğle Yemeği">Merhaba J! Bu haftasonu kave içmeye gidelim mi? Seni daha yakından tanımak istiyorum. Aylardır beraber çalışıyoruz ve birbirimizi neredeyse hiç tanımıyoruz. Yanıtını bekliyorum :)</email>
+
+    <email recipient="YasuArai" sender="MailAdmin" subject="[DKKT: Yöneticiler] Toplantı Raporları">Hadi ama millet... toplantı raporlarınızı yazmaya başlamalısınız yoksa başımız belaya girecek.
+Özellikle de benim başım.
+Lütfen?</email>
+
+    <email recipient="YasuArai" sender="sp_alerts" subject="2. HAFTA DOLANDIRICILIK UYARISI">Bu gönderi {$ActiveMonth} ayının ikinci haftasında yapılan uyarıların özetini içerir.
+Pazartesi: 3 Uyarı
+Salı: 0 Uyarı
+Çarşamba: 4 Uyarı
+Perşembe: 1 Uyarı
+Cuma: 2 Uyarı</email>
+    
+    
+  <!-- MiscPerson Email -->
+
+    <email recipient="awilburn" sender="temp_0340" subject="eylül çizelgesi">merhaba alexina, saatlerimi önümüzdeki haftaya alabilir misin? teşekkürler, j</email>
+
+    <email recipient="awilburn" sender="dwiklowski" subject="Ofis Kurası">Merhaba millet! Ofiste çekeceğimiz kuranın etrelendiğini haber vermek istedim. Anthony henüz iPad'i almadı. Dolayısıyla kurayı çekmenin bir anlamı yok. Kurayı elbette çekeceğiz fakat yılın yoğunluk dönemi geldi. Bu yüzden birkaç hafta beklemek zorunda kalabiliriz.
+Saygılarımla, Dan
+NOT: Marta ve Benita'yı sevimli oğulları için tebrik ederim! Yakında ikisi ile de görüşmek dileğiyle!</email>
+
+    <email recipient="awilburn" sender="jadams" subject="Perşembe Günkü Toplantı">Alexina,
+Seni bilgilendirmek istedim; şu anda Ayın Çalışanı olma yolunda emin adımlarla ilerliyorsun. 
+Perşembe günü Ayın Çalışanına karar vermek için toplantı yapacağız. Seni de toplantıda göreceğimize inanıyorum.
+Jeremey</email>
+
+    <email recipient="awilburn" sender="employee_promotions" subject="[DKKT: SÖZLEŞMESİZ ÇALIŞANLAR] Seyahat İzinleri ve Siz">~Please think of the environment before printing this email.~
+Merhaba millet! Ben Brandi. Bu e-posta yıllık seyahat izinleriniz ile ilgili bilgi ve açıklamalar içermekte.
+Hepinizin bildiği üzere bu sene birkaç kişinin gitmesine izin vermiştik. Bu şirketimizin kemer sıkma politikasının bir parçasıydı. Sizin *kesintileriniz* artmasın diye CEO'muz bile kendi maaşının bir kısmından feragat etti. Hepsi kafanızda bir şeyler oluşsun diye yapıldı.
+Her neyse, orta ve üstündeki seviyedeki Pacific Air çalışanlarına sunulan ücretsiz seyahat programı belirsizliklerin ortadan kaldırılması ve alt seviye çalışanların da programa dahil olabilmesi için büyük ölçüde düzenlendi.
+Bu konudaki tüm ayrıntılara şirket portalımızdaki ""HABERLER"" başlığı altından ulaşabilirsiniz.
+Eğer sorunuz varsa bana sorabilirsiniz.
+Saygılarımla,
+İK'dan Brandi</email>
+
+    <email recipient="awilburn" sender="mb_5f_broadcast" subject="[DKKT: BEŞİNCİ KAT] Tuvalet Sorunu">HEY
+ZEMİNE HER KİM TUVALETİNİ YAPIYORSA KOVULACAK
+KABİNLERİN DIŞINA KAMERA KURDUK
+BULUNACAKSIN
+VE KOVULACAKSIN
+TEMİZLİKÇİLERİ DELİRTMEYİ KES
+
+Saygılarımla,
+Ramiro
+""Dünyada görmek istediğin değişimin bir parçası ol."" - Gandhi, muhtemelen</email>
+
+    <email recipient="awilburn" sender="admin_password_security_reset@pacifiicaircom.org" subject="Şifre Sıfırlama">Merhaba sayın çalışan,
+Şifre sıfırlama e-postanız aşağıda;
+Şifrenizi sıfırlamak için linke tıklayın.
+Güvenliğimiz için bu çok önemli.
+Teşekkürler.
+Yönetici</email>
+    
+    
+  </mailServer>
+  
+</Computer>

@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="WipeDegrees" owner="Jacob Stevens"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Tabula rasa">
+Ein CSEC Mitglied, das anonym bleiben möchte, möchte einen kleinen Auftrag erledigt haben. Sie sind aus Gründen des Selbstschutzes nicht selbst dazu im Stande.
+
+Ein ehemaliger Arbeitgeber hat wiederholt unterbezahlt und ist generell auf einer Sparschiene gefahren, zu Lasten von Geundheit und Wohlbefinden seiner Angestellten.
+Der besagte Agent möchte die akademischen Aufzeichnungen seines Arbeitgebers vollständig ausgelöscht haben, um dessen Verhalten zu ahnden.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Tabula rasa</subject>
+    <body>Dieser Auftrag wurde von einem anonymen CSEC Mitglied hinzugefügt. Auch wenn es möglich ist, dessen Identität festzustellen, bittet CSEC darum, die Privatsphäre und Anonymität seiner Mitglieder zu respektieren und dies nicht zu tun.
+
+Auftrag:
+Ein ehemaliger Mitarbeiter möchte die akademischen Aufzeichnungen seines Arbeitgebers von allen Abschlüssen bereinigt haben.
+
+Name: Jacob Stevens
+    
+WICHTIG: Achte darauf, deine Spuren zu verwischen - internationale Organisationen müssen sich auf ihren Ruf verlassen können - dem du schadest. Und wenn sie das herausfinden, werden sie ziemlich ungemütlich werden.
+      
+-CSEC
+    </body>
+    <attachments>
+      <link comp="academic" />
+      <note title="Missionsübersicht">Aufzeichnungen löschen
+Name: Jacob Stevens</note>
+    </attachments>
+  </email>
+</mission>

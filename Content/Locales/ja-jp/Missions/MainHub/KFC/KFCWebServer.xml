@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kfcWebServer" name="www.cfc.com" security="2" type="4">
+  <ports>80,25</ports>
+  <trace time="0" />
+  <addWebServer name="CFC Homepage" url="Content/Web/Presets/KFC/KFCHomePage.html" />
+  <positionNear target="kfcMainframe" position="0" total="3" />
+  <link target="kfcMainframe" />
+
+  <file path="home" name="ServerStructure.txt">管理者へ - このサーバーに置いていいのは、Webページなどのフロントエンドコンテンツ「のみ」です！
+会社の情報に関するファイルは全て、より安全なメインフレームと内部サーバーで保管します。
+このサーバーとメインフレームは、定期アップデートやメンテナンスの目的でしか接続されません。この設定は変えないこと！</file>
+  
+</Computer>

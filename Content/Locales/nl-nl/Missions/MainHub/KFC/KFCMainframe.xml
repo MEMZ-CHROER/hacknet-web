@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kfcMainframe" name="CFC Corporate Mainframe" security="5" type="4">
+  <trace time="320" />
+  <proxy time="0" />
+  <firewall level="0" />
+  <dlink target="kfcWebServer" />
+  <dlink target="kfcRecordsRepo" />
+  <admin type="fast" resetPassword="true"/>
+
+  <file path="home/training_files" name="New_Employee_Welcome_Email.txt">
+    %NAME%,
+
+    Welkom bij de CFC familie!
+
+    Colonels Food Corner biedt grootste carrieremogelijkheden, spannend werk, vriendelijke teams, we hopen dat je het leuk hebt!
+    Als een teamlid heb je recht op 12% korting via je werknemerskortingskaart, die je kan bij deze brief gevoegd kan vinden - geniet ervan!
+
+    Je zal een formele introductie tot de winkel en onze praktijken krijgen op je eerste werkdag, maar vooralsnog, welkom bij de familie.
+
+    -Management
+  </file>
+
+  <file path="home/training_files" name="11_Secret_Herbs_And_Spices.txt">
+    Veel nieuwe werknemers willen de geheime recept weten, uit nieuwsgierigheid of omdat ze betrokkener willen zijn. Helaas is het recept te belangrijk om aan alle werknemers te geven (zeker met de recentelijke onslagsgolven) en daarom is het beschermd.
+    De combinatie is regelmatig naar winkels gestuurd in onopvallende witte plastic zakken en moet naar instructie met het frituurvet gemengt worden.
+
+    Zelfs het management mag niet de formule weten. Om precies te zijn, slechts 2 mensen in de wereld kennen het recept op een tijd (en zij mogen uiteraard niet samen in hetzelfde voertuig reizen).
+
+    Wees gerust dat ons recept voor onze perfecte kip voorzichtig wordt gemaakt en besteld en het een goed bewaard geheim is.
+  </file>
+  <file path="home/training_files" name="Order_Records_Guide.txt">
+    Bestelgegevens voor elke winkel moeten logisch opgeslagen worden en gearchieveerde updates moeten jaarlijks naar de centrale cfc dossier databank worden gestuurd.
+    Bestellingen worden daar ook bewaard en dossiers zijn slechts in noodgevallen beschikbaar (meestal om voedselvergiftiging na te gaan) en worden slechts persoonlijk, geprint, gedistribueerd na verzoek.
+
+    CFC Dossier Opslag: 202.7.177.65
+
+  </file>
+
+
+  <file path="home/Media" name="Logo.png">#BINARY#</file>
+  <file path="home/Media" name="Logo_Small.png">#BINARY#</file>
+  <file path="home/Media" name="MediaKit_2011.zip">#BINARY##BINARY#</file>
+  <file path="home/Media" name="Guide.txt">
+    Bij Colonels Food Corner hebben we een missie: serveer de best smakende kip ter wereld.
+    Dus starten we slechts met de beste ingredienten, hele kip die vers wordt bezorgd.
+    Dan wordt het vers bereid, met de hand in onze geheime recepten en vers gekookt voor jouw door gecertificeerde CFC koks in al onze restauranten.
+    Makkelijk? Nee. Maar er is slechts een hap nodig om te herinneren waarom het de moeite waard is.
+    Omdat vers beter smaakt. Stop bij je lokale CFC en proef het zelf.
+  </file>
+
+</Computer>

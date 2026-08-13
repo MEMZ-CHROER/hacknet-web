@@ -1,0 +1,94 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="nortronMail" name="Servidor de correo de Nortron" security="1">
+  <ports>25</ports>
+  <trace time="10.0"/>
+  <firewall level="17" solution="123456789ABC"/>
+  <link target="nortronMainframe"/>
+  <positionNear target="nortronMainframe" position="2" total="3"/>
+  
+  <!-- Mail Server Accounts -->
+  <account username="j.abrams" password="bootyking420" type="2"/>
+  
+  <mailServer name="Nortron Mail" color="220,208,69">
+    <email recipient="j.abrams" sender="Peter Evans" subject="Where's that report?">
+John, 
+
+aún estoy esperando ese informe de análisis de rootkits, ¿alguna novedad? 
+Estamos tratando de lanzar una nueva campaña 
+y los demás directores quieren alguna clase de seguridad de que la gente de marketing sabe lo que está haciendo.
+
+ Intenta tenérmelo para el lunes si puedes. 
+Odio tener que meterte prisa, pero lo necesitan. 
+
+Gracias, 
+-Peter
+    </email>
+    <email recipient="j.abrams" sender="hornberg@gmx.de" subject="Fw:Fw: Best Graffiti">
+      -------- Mensaje original -------- Asunto:     Rv: Mejor grafiti
+      Fecha:     Mié, 31 oct 2012 18:54:54 +1300
+      De:     TK Skull tkn.skull@xtra.co.nz
+        A:     skull1@ntlworld.com
+          , &quot;JJ SK&quot; e4@bigpond.com
+            , &quot;G?nter Hornberg&quot; ghornberg@gmx.de
+              , &quot;Andrea Senior&quot; senior@xtra.co.nz
+                , &quot;Cols&quot; C.D.Wilson@xtra.co.nz
+                  , &quot;Flo Wilson&quot; FloJoW@xtra.co.nz
+
+From: gandgrichards@xtra.co.nz
+ Enviado: Miércoles, 31 octubre 2012 2:58 PM
+A: gandgrichards@xtra.co.nz 
+Asunto: Rv: Mejor grafiti
+
+Asunto: : Mejor grafiti 
+
+&gt;  
+&gt; 
+ &gt; Son totalmente increíbles... disfruta 
+&gt; 
+ 
+--Algún contenido puede que no se haya cargado--
+    </email>
+        <email recipient="j.abrams" sender="gandgrichrds@xtra.co.nz " subject="Fw: Aircraft Shots!">
+De: gandgrichrds@xtra.co.nz 
+Enviado: Viernes, 19 octubre 2012 8:41 AM
+A: gandgrichrds@xtra.co.nz 
+Asunto: Rv: Disparos de aviones
+
+Asunto: .... Disparos de aviones...
+ 
+Abre el pps.Adjunto: archivo... 
+
+
+Emoticonos GRATIS para tu email - por IncrediMail
+
+--Adjuntos eliminados debido a una firma exe sospechosa--
+    </email>
+    <email recipient="j.abrams" sender="Nortron IT Support" subject="RE:Cant Log In">
+Sr. Abrams: 
+
+Esta es la cuarta ver que le recordamos esto. Hay un gran cartel encima de su escritorio que seguramente habrá visto recordándole la política de cortafuegos de Nortron. Nos tomamos muy en serio la seguridad y requerirle que inicie sesión para evitar el cortafuegos antes de acceder a Internet es vital para mantener la compañía segura. 
+
+Como le hemos indicado anteriormente, la contraseña para evitar el cortafuegos para todos los servidores internos es: 
+
+123456789ABC 
+
+Anótela donde no la olvide. 
+
+-TI 
+
+
+ | TI, 
+ | ¡esto AÚN NO ESTÁ ARREGLADO!
+  | ¡No tengo acceso a internet!  
+  | ¿Cómo voy a trabajar sin internet?
+  | Me pide una contraseña para el cortafuegos.
+  | ¿Se ha roto? ¿Tíos, por qué no lo arregláis? ¡No deja de pasar!
+  | 
+  | ¿Cómo entro a internet? ¡Es MUY IMPORTANTE!
+  | 
+ | Mr. J. Abrams 
+ | Nortron Marketing
+    </email>
+    
+  </mailServer>
+</Computer>

@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Einschüchterungstaktiken">
+Ein Kollege hat sich gegenüber einem unserer geschätzten Kunden respektlos verhalten und wir wollen ihm eine Warnung senden.
+Sein jüngstes Server-Backup soll gelöscht werden.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Einschüchterungstaktiken</subject>
+    <body>
+Guten Tag,
+
+Einer unserer Kollegen hat in letzter Zeit häufiger... über die Stränge geschlagen. Wir würden ihm gerne eine Warnung senden.
+
+Unseren Informationen nach hat diese Person vor Kurzem ein firmenweites Backup gemacht, welches auf einem seperaten Server gespeichert wird. Das Löschen dieses Backups sollte als Warnung reichen, auch ohne das das Original beschädigt wird.
+Alle nötigen Informationen sind angehängt.
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

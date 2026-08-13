@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="dAttackMission_P">
+  <goals>
+    <goal type="fileupload" target="dAttackTarget" file="MemDumpGenerator.exe" path="bin" destTarget="dhsDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionEnd val="1">scanAndStartDLCVenganceHack</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Strikerの秘蔵庫">
+あまり知られていないStrikerというハッカーが優秀なメモリダンプジェネレーターを完成させたと評判です。コピーを入手しましょう。
+  </posting>
+  <email>
+    <sender>Kaguya</sender>
+    <subject>Strikerの秘蔵庫</subject>
+    <body>
+あまり知られていないStrikerというハッカーが優秀なメモリダンプジェネレーターを完成させたと評判です。コピーを入手しましょう。
+----
+標的は比較的防御が固いシステムですが、みなさんが突破できないレベルではありません。このミッションはなるべく事を荒立てずに、無用な破壊行為やトラブルを避けて進めてください。
+メモリダンプジェネレーターをコピーしたらドロップサーバーにアップロードしてください。
+
+健闘を祈ります。
+-Kaguya</body>
+    <attachments>
+      <note title="Mission Guidelines">
+Strikerのサーバーを調査。
+メモリダンプジェネレーターのプログラムを捜索。
+コピーをダウンロードし、ドロップサーバーへ。
+      </note>
+      
+      <link comp="dAttackTarget" />
+      
+    </attachments>
+  </email>
+</mission>

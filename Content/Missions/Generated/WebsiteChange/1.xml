@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="generatedWebVandal01">
+  <generationKeys Data="Content/Web/BaseCorporateRecruiterPage.html"/>
+  <goals>
+    <goal type="FileChange" target="#COMP#" file="#FILE#" path="#PATH#" keyword="#LC_CLIENT#@jmail.com" />
+  </goals>
+  <missionEnd val="5">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Aid a recruitment drive for #CLIENT#">
+#CLIENT# is looking to aid their currently struggling staff recruitment effort by redirecting some applications for a rival company to their email.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Recruitment Drive</subject>
+    <body>
+Agent,
+
+Lately our company has been struggling with finding new staff, mostly due to the overwhelmingly successful recruitment efforts made by some of our competitors.
+We'd like to level the playing field, but temporarily redirecting some of their recruitment traffic to us.
+
+Their hiring website is located at the given link below. We'd like you to replace their contact email address with our own:
+
+#LC_CLIENT#@jmail.com
+
+
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

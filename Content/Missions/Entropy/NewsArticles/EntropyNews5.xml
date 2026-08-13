@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews05">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="New Opbol Dongle patent will Tantalize Fanboys">
+Hardcore Opbol fans, get your affairs in order and prepare your wallets.  A new patent filed by Technological golden child Opbol Computing today suggests that the company could be moving into the home console market. The patent, for an extensible "dongle" could be a component in a new gaming system
+experts say - perhaps a controller or motion sensor. As of yet, only the design - a telescoping cylinder with rounded ends - has been granted patent status, but our sources say news on the device's functionality may only be a few days away. Watch this space!
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Must Be Stopped</subject>
+    <body>
+Destroy the entropy Database
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

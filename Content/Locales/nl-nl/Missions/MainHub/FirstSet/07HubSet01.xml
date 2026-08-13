@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="WipeDegrees" owner="Jacob Stevens"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="Verschoon een academisch dossier">
+Een CSEC lid die anoniem wenst te blijven heeft een kleine klus. Ze kunnnen het niet zelf vanwege anoniemiteits en  motiefbewijzende redenen.
+
+Een exwerkgever blijft onderbetalen en algemeen geld besparen, maar werknemerswelzijn gaat naar beneden voor alle werknemers voor al een tijd.
+De agent wil dat je zijn academisch dossier leegmaakt, als onderdeel van een extra project om zijn fouten te verbeteren.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Veeg het dossier leeg</subject>
+    <body>Dit contract is toegevoegd door een anoniem CSEC lid. Als je de identiteit van dit lid weet te achterhalen dan eist CSEC dat je zoals altijd anonimiteit en privacy waarborgt van zijn leden.
+
+Contract:
+Een exwerknemer heeft een leeg academisch dossier nodig - alle diploma's volledig gewist.
+
+Naam: Jacob Stevens
+
+BELANGRIJK: Vergeet niet je sporen weg te halen - internationale instituten hebben hun reputatie nodig als bestaansrecht - dat ben jij aan het aantasten. Als ze dit ontdekken, zullen ze niet vergevingsgezind zijn.
+
+-CSEC
+    </body>
+    <attachments>
+      <link comp="academic" />
+      <note title="Contact Naam">Leeg dossier
+Naam: Jacob Stevens</note>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMission00">
+  <goals>
+    
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>
+Something about a test - investigate the linked server.
+Look for executables and try them out.
+    </body>
+    <attachments>
+      <link comp="bitMission00" />
+    </attachments>
+  </email>
+</mission>

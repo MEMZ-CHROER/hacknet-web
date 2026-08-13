@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ds2m1">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="暗号化されたSSLブレーカーの復号と構成">SSLブレーカーを復号して再構成し、チームで使えるようにしてください。柔軟性とモジュール性を持たせ、できれば手引き書の作成も。
+  </posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

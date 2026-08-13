@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="xcRepOK" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="ERROR">
+НЕИЗВЕСТНАЯ ОШИБКА СООБЩЕНИЯ
+  </posting>
+  <email>
+    <sender>X-C Proj. : Bradford</sender>
+    <subject>Re: внутреннее расследование</subject>
+    <body>
+Отличная работа, гражданские, вы ничего не пустили на самотек и это окупилось . 
+
+Похоже, что все в порядке - я надеялся, что именно такие файлы у нас буду в работе. Надеюсь, трудолюбие команды в реализации этих проектов даст нам преимущество в будущих engagements.
+
+Спасибо.
+-C.O Bradford
+    </body>
+    <attachments></attachments>
+  </email>
+</mission>

@@ -1,0 +1,81 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kfcRecordsRepo" ip="202.7.177.65" name="CFC Records Repository" security="2" type="4">
+  <ports>80,25</ports>
+  <trace time="125" />
+  <proxy time="0" />
+  <firewall level="2" solution="CHICKEN" />
+  <positionNear target="kfcMainframe" position="1" total="3" />
+  <link target="kfcMainframe" />
+
+  <file path="home/Ordering" name="Seasoning_Order_Guidelines.docx">
+GETRENNTE BESTELLUNG: HINWEISE
+    
+Bestellungen für die Gewürzmischung müssen an zwei unterschiedliche Firmen vergeben werden, von denen je eine Hälfte der Mischung abpackt wird (die Produktionsstätte in New Mexico ist derzeit für die Gewürze 1 bis 6 zuständig, unsere Produktionsstätte in Kentucky mischt die restlichen 5).
+Beide Teile werden dann vor Ort beim CFC Distributions HQ zusammengemischt und in unmarkierten weißen Säcken an unsere Filialen ausgeliefert.
+
+Die fertige Gewürzmischung wird anschließend in der Filiale mit einer Teigbasis aus Mehl, Trockenei, Milchpulver und Salz vermischt, um die fertige Panade herzustellen.
+So ist sichergestellt, dass zu keinem Zeitpunkt digitale Aufzeichnungen der gesamten Formel existieren.
+  </file>
+
+  <file path="home/Ordering" name="Seasoning_Order_Placement_Template_Pt1.docx">
+    CFC GEWÜRZLIEFERUNG: BESTELLVORLAGE
+
+Produktionsstätte: 228 Esperenza Rd. New Mexico
+Produkt: Kräuter- und Gewürzmischung
+Volumen (Stück): 1kg
+Stückzahl: [BITTE_ANGEBEN]
+
+Zusammensetzung:
+
+    Formel --
+    16% | Paprika.
+    09% | Salbei (gerieben).
+    24% | Knoblauch (Pulver).
+    28% | Piment.
+    07% | Oregano.
+    16% | Marjoram. 
+
+  </file>
+  
+    <file path="home/Ordering" name="Seasoning_Order_Placement_Template_Pt2.docx">
+    CFC GEWÜRZLIEFERUNG: BESTELLVORLAGE
+
+Produktionsstätte: 11 Mt Eden Rd. Shelbyville, Kentucky
+Produkt: Kräuter- und Gewürzmischung
+Volumen (Stück): 1kg
+Stückzahl: [BITTE_ANGEBEN]
+
+Zusammensetzung:
+
+    Formel --
+    14% | Basilikum.
+    04% | Chilli (Pulver).
+    42% | Mononatriumglutamat.
+    24% | Zwiebel(Pulver).
+    16% | Cayennepfeffer.
+
+  </file>
+
+  <file path="home/Ordering" name="Order_Requirement_Certs.docx">
+Food Manager Certification - English PDF / Spanish PDF 
+
+DBPR Form HR 5030-080, cut-sheet used by Division of Hotels and Restaurants' inspectors to remind licensees of food manager requirement. (May 7, 2010) 
+Food Recovery Resource Guide - PDF 
+
+Florida Department of Agriculture and Consumer Services guide to organizations that have indicated their interest in participating in the Food Recovery Program, to provide surplus or excess canned or perishable food for the needy or collect and transport food to such organizations.
+Food Service Inspection Report - PDF 
+
+DBPR Form HR 5022-015, sample of form used by the Division of Hotels and Restaurants to record inspections at public food service establishments. (Revised October 1, 2009)
+  </file>
+  
+  <file path="home/Media" name="Logo.png">#BINARY#</file>
+  <file path="home/Media" name="Logo_Small.png">#BINARY#</file>
+  <file path="home/Media" name="MediaKit_2011.zip">#BINARY##BINARY#</file>
+  <file path="home/Media" name="Guide.txt">
+    Hier bei Kernel's Food Corner gibt es nur eine Regel: Wir servieren nur das leckerste Hühnchen der Welt.
+    Aus besten Zutaten - und vom ganzen Huhn, immer frisch geliefert.
+    Frisch zubereitet, von Hand paniert in unserer geheimen Gewürzmischung und frisch von unseren zertifizierten CFC Köchen gekocht. In jeder unserer Filialen.
+    Ob das leicht ist? Nein. Aber jeder Bissen erinnert uns daran, warum es den Aufwand wert ist.
+    Weil frisch einfach besser schmeckt. Komm' vorbei und überzeuge dich selbst.
+  </file>
+</Computer>

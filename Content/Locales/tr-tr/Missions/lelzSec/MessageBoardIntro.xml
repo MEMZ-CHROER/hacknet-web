@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="lelzSec2" activeCheck="true">
+  <goals>
+  </goals>
+  <missionStart>assignPlayerToLelzSec</missionStart>
+  <nextMission>lelzSec/CompletedPathMission.xml</nextMission>
+  <email>
+    <sender>Naix</sender>
+    <subject>Önemli Bağlantı</subject>
+    <body>
+Biliyor musun, seni yanlış değerlendirmişim. Doğru olanı yapıp senden özür dileyeceğim. Bu iyiydi.
+
+Kendini gayet iyi kanıtladın, bende diğerleriyle konuştum. Kabul edildin.
+IP adresini beyaz listeye aldık (IP'ni değiştirmene gerek yok). Girmekte sıkıntı yaşamayacaksın.
+
+Aramıza hoşgeldin.
+
+-Naix
+    </body>
+    <attachments>
+      <link comp="lelzSecHub" />
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dhaComp1" name="HA_Coagula" security="4" icon="Alchemist" type="empty">
+  
+  <proxy time="-1" />
+  <trace time="200" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dhaComp2" position="320" total="360"/>
+
+  <file path="home" name="alchemy.txt">Los alquimistas de antaño creían (algunos dicen que por error) que los metales tenían algo parecido a la vida. Que al principio eran plomo, representado por Saturno, y con el tiempo evolucionaban a otros elementos hasta llegar al oro (el Sol).
+
+Más tarde, se descubrió que era una metáfora. La vida y la sustancia, la Materia, evoluciona en ciclos. "Lo que está arriba es como lo que está abajo", reza la Tabla de Esmeralda. 
+
+Amigo mío, evolucionarás y dará comienzo un nuevo ciclo, uno glorioso.</file>
+
+  <!-- Translators note: Do not translate this file! It's meant to stay in Latin -->
+  <file path="home" name="tablet_latin.txt">Tabula Smaragdina
+
+Verum, sine Mendacio, certum et verissimum:
+
+Quod est Inferius est sicut quod est Superius, et quod est Superius est sicut quod est Inferius, ad perpetranda Miracula Rei Unius. Et sicut res omnes fuerunt ab Uno, meditatione inius, sic Omnes Res natae ab hac una Re, adaptatione.
+
+Pater eius est Sol. Mater eius est Luna. Portavit illud Ventus in Ventre suo. Nutrix eius Terra est. Pater omnis Telesmi totius Mundi est hic. Virtus eius integra est si versa fuerit in Terram. Separabis Terram ab Igne, subtile ab spisso, suaviter, magno cum ingenio.
+
+Ascendit a Terra in Coelum, iterumque descendit in Terram, et recipit Vim superiorum et inferiorum. Sic habebis Gloriam totius Mundi. Idio fugiet a te omnis Obscuritas. Haec est totius Fortitudinis Fortitudo fortis, quia vincet Omnem rem subtilem, Omnemque Solidam penetrabit.
+
+Sic Mundus creatus est. Hic erunt Adaptationes Mirabiles, quarum Modus est hic. Itaque vocatus sum Hermis Trismegistus, habens tres partes Philosophiae totius Mundi.
+
+Completum est quod dixi de Operatione Solis.</file>
+
+  
+  <file path="home" name="tablet_newton.txt">La Tabla de Esmeralda
+
+Lo que digo no es ficticio, sino digno de crédito y cierto.
+
+Lo que está abajo es como lo que está arriba y lo que está arriba es como lo que está abajo, y todo tiene un único propósito.
+
+Y así como todas las cosas fueron y nacieron de la mediación del Uno, también esas cosas nacieron a partir del Uno y se adaptaron.
+
+Su padre es el Sol y su madre la Luna. El Viento lo lleva en su vientre, su nodriza es la Tierra.
+
+He aquí el padre de toda la perfección del mundo.
+
+Su fuerza o su energía se completan al formar parte de la Tierra.
+
+Separa pues la Tierra del Fuego, lo sutil de lo tosco, con cuidado, con diligencia.
+
+Asciende de la Tierra al Cielo y luego desciende de nuevo a la Tierra para captar la energía de lo de arriba y de lo de abajo.
+
+Es así como alcanzarás la gran gloria del mundo entero
+y rechazarás toda obscuridad.
+
+Su fuerza está por encima de cualquier otra. Lo está porque acaba con todo lo sutil y penetra en todo lo sólido.
+
+Así se creó el mundo.
+
+El resto son adaptaciones admirables que se han creado (o procesado) a través de lo aquí descrito. Por ello me llamo Hermes Trimegisto, poseedor de las tres partes de la filosofía cósmica.
+
+Terminado y acabado está lo que he dicho sobre el funcionamiento del Sol.</file>
+
+  <file path="home" name="nameofgod.txt">yod
+HE
+vau
+he
+</file>
+
+  <!-- This should be more cryptic than this, and require, ideally, a player to have read 
+  something on the entry comp to understand it properly. It does need to be an explicit hint 
+  for gameplay purposes though. -->
+  <file path="home" name="Rebis.txt">Los patrones de cambio e ilusión se manifiestan en ciclos, se repiten y se imitan a lo largo de generaciones, áreas y materias.
+  
+Esto también se aplica a la tecnología de esta era si interpretamos literalmente los textos alquímicos.
+
+El firewall no es un símbolo religioso ni un acto de guerra, sino una herramienta de la sociedad. Y se dice de la misma manera, se usa la misma palabra.
+Tierra, Materia Primigenia, K'un.
+
+De Rebis, búsqueda de la sabiduría del movimiento, conexión, movilidad.
+</file>
+
+  <LogoDaemon Name="COAGULA" ShowsTitle="true" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/Alchemists1">
+De Tao surge Uno.
+De Uno surgen Dos.
+De Dos surgen Tres.
+De Tres surgen todas las cosas.
+  </LogoDaemon>
+  
+</Computer>

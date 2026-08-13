@@ -1,0 +1,53 @@
+<ConditionalActions>
+  
+  <OnConnect target="dhs" needsMissionComplete="true">
+
+    <!-- Coel was on Alchemists cleanup duty, Default was on "Personal Ties" 
+    We want to delay the player for 30 seconds here so they can get hacked without starting the next mission...
+    -->
+    
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-10.0">@Coel, iş tamamdır. Bu kadar uğraşman gerektiği için üzgünüm. Temiz bir şekilde halletmek için elimden geleni yaptım.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="0.1">Teşekkür ederim. Keşke bu işi kendim halledebilseydim ama... işte.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="3">Anlıyorum. Canını sıkma. Senin iş ne oldu?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="5.0">İşi hallettiğin için teşekkürler @D3f4ult</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="9.0">Ne demek patron.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="15.2">Az önce Hermetik Simyager sunucularını kontrol ettim ve her şeyin yolunda olduğundan emin oldum. Artık erişmekte sorun yaşamayız.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="20.2">Birisi bağlantı kesilim girdilerini ortada bırakmış ama sıkıntı yok. Başkasının işine burnumu sokmam.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="24.5">Evet... @Kaguya şu bağlantı kesim girdilerinden kurtulmamızı sağlayacak bir şey bulabildin mi?</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="28.1">Forkbomb'u kast etmiyorsun, değil mi?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="32.1">O çok acemiceydi :\</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="35.1">Hmm... bunu tartışamam.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="37.1">Elimden geleni yapacağım ama bulacağımın sözünü veremem.</AddIRCMessage>
+    
+  </OnConnect>
+
+  <!-- These trigger when the player has passed the recovery and connects back to IRC for the first time -->
+  <OnConnect target="dhs" needsMissionComplete="false" requiredFlags="startupBreakinTrapPassed">
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-220.0">@channel ACİL DURUM - @#PLAYERNAME# her yere uyarı bırakıyor. Başımıza dert açacak.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-210.0">@Coel - elinde işe ara ver, sana burada ihtiyacım var.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-200.0">!ATTACHMENT:link#%##PLAYERNAME# PC#%##PLAYER_IP#</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-194.0">@#PLAYERNAME# - neler olduğunu öğren ve sorunu düzelt.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-185.0">@Kaguya ben hallediyorum.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-180">Bana ihtiyacın var mı?</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-175.0">Evet. Bekle.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-160.0">Tamam, @#PLAYERNAME# 'in işiyle ilgilen. Bu şeyin kaynağını öğrenmeye çalış. DİKKATLİ OL.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-155">Anlaşıldı.</AddIRCMessage>
+
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="-120.0">VM saldırısıymış. Elimden geleni yaptım ancak bu noktadan sonra iş @#PLAYERNAME# de bitiyor...</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-115.0">Harikaydın @Coel - Bir gözüm burada olacak.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-110.0">Gelişme var mı @D3f4ult ?</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="-90.0">Bağlantıları bir araya getiriyorum. Temizlemeye çalışıyorum.</AddIRCMessage>
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="-85.0">Aynen devam et.</AddIRCMessage>
+
+    <!-- After this displays in real-time -->
+
+    <AddIRCMessage Author="Kaguya" TargetComp="dhs" Delay="1.0">@#PLAYERNAME# tekrar hoşgeldin.</AddIRCMessage>
+    <AddIRCMessage Author="Coel" TargetComp="dhs" Delay="8.0">Aferin #PLAYERNAME#</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="14.0">Hey @#PLAYERNAME# - Kaguya bana araştırmamı söylemişti. Anlaşılan bayağı sağlam korunan bir proxy'e denk gelmişsin. Girdi geçmişine bakarak izlerini bulabilirsin.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="25.0">Bu senin ilk avındı. D3f4ult tarzı; gol olup yağalım dersen eğer bana IP'yi göndermen yeter.</AddIRCMessage>
+    <AddIRCMessage Author="D3f4ult" TargetComp="dhs" Delay="40.0">Ayrıca gelecekteki ben'e notum olsun: eğer diğer hackerlar'a yakalanırsam, tuzak olarak kullanmak üzere bilgisayarında kabuk programlama bulundur..</AddIRCMessage>
+
+  </OnConnect>
+  
+</ConditionalActions>

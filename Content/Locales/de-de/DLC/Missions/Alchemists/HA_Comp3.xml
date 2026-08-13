@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dhaComp3" name="HA_Rebis" security="4" ip="66.96.149.16" type="4" icon="Alchemist">
+  
+  <proxy time="-1" />
+  <trace time="180" />
+  <portsForCrack val="2" />
+  <ports>6881, 21, 443</ports>
+  <portRemap>ssl=80</portRemap>
+  <admin type="progress"/>
+
+  <positionNear target="dhaComp2" position="160" total="360"/>
+  
+  <firewall level="20" solution="clarity" additionalTime="6.2"/>
+
+  <!-- This server should contain "revelations" - the architect designed this one to be the end of the line. -->
+
+  <file path="home" name="behindthecurtain.txt">Der Zyklus der Veränderungen
+
+1. Aktives Konzentrat (Feuer)
+2. Aktive Expansion (Luft)
+3. Passive Kontraktion (Wasser)
+4. Passive Expansion (Erde)
+
+In der Vergangenheit glaubte man, dass Metalle auf gewisse Weise lebendig waren. Man glaubte, dass jedes Metall eine sehr langsame, allmähliche Entwicklung bis zur Perfektion durchläuft, was sich in zeitgenössischen Theorien widerspiegelt, dass sich das Universum auf einen Hitzetod zubewegt.
+
+Die primitivste Form des Metalls - der Ausgangspunkt aller Dinge - ist Blei. Ungestört wird Blei sich allmählich weiterentwickeln, zu Zinn und Eisen, bis es schließlich den Zustand reiner Perfektion erlangt: Gold. Das ist eine Reise durch das Mondäne und Astrologische: eine Reise vom Saturn über Jupiter bis zum Mars, zur Venus, zum Merkur, zum Mond und schließlich zur Sonne. Die Sonne ist die Perfektion. Irgendwann werden wir alle Sternenwesen werden.
+
+Mit Alchemie verläuft der Prozess nur schneller. Alchemisten sind die Denker, die an den Einfachheiten und Komplexitäten des Universums herumdoktern ... Sie streben nach Perfektion, auch wenn es scheint, als würde sich der Rest der Menschheit dagegen sträuben.
+</file>
+
+  <file path="sys" name="eos_sync.log">SYNC_LOG: Factory-Reset initiiert
+Grund: Automatischer Reset nach erkanntem Jailbreak
+Ausgabe-Code: JA6629B_43</file>
+  
+  <file path="home" name="rebis.txt">Das Ende ist der Anfang ist das Ende ist der Anfang ist Blei zu Zinn zu Eisen zu Kupfer zu Quecksilber zu Silber zu Gold zum Anfang bis zum Ende bis zum Anfang bis zum Ende bis zum Anfang die perfekte Summierung des Lebens und Perfektion in sich selbst und wieder zurück zum Anfang
+
+Das ist keine schwarze Magie, nur die Wahrheit.</file>
+
+  <file path="home" name="nameofgod.txt">yod
+he
+vau
+HE
+
++o
+o+
+++
+oo
+
+eins
+zwei
+drei
+vier
+
+Punkt
+Linie
+Ebene
+Feststoff
+
+arcanum I: Der Stein des Weisen
+arcanum II: SOLVE
+arcanum III: COAGULA
+arcanum IV: Illusionen der Manifestation
+arcanum v: Änderung
+</file>
+  
+  
+  <eosDevice name="Nates ePhone 4S" id="dhaAdminPhone" icon="ePhone2">
+    <note>Privat:
+66.175.58.9
+
+Geschäftlich:
+66.96.149.16
+</note>
+    <note>
+Kalzinierung:
+Rückführung von Körpern auf ihre ersten Prinzipien, ohne ihre Anfangseigenschaften zu zerstören.
+Wenn man das Innere selbst entdeckt, wie beim Meditieren, ist das eine Verringerung des körperlichen Bewusstseins und damit ein erhöhtes Bewusstsein für die subtileren Energien, die die Grundlage unseres Lebens bilden.
+</note>
+<note>
+Fixierung:
+Fixieren des Flüchtigen ist ein fortlaufender Prozess, der in dem Moment beginnt, an dem Schwärze aus Weiß entsteht, und mit Röte ist die maximale Fixierung erreicht. 
+</note>
+<note>
+Projektion:
+Die hermetischen Philosophen nennen ihre Projektion Pulver, ein Pulver als Ergebnis ihrer Kunst, das sie in sehr kleinen Mengen auf die imperfekten Metalle in der Fusion geben, damit sie je nach dem Grad der Perfektion in Gold oder Silber verwandelt werden. Man muss wissen, dass sich in der Projektion das ganze Metall, auf das man des Pulver gibt, nicht in Silber oder Gold verwandelt, falls das Pulver vor der Zugabe nicht gründlich purifiziert wurde.
+</note>
+    <mail username="AlchemistNate@jmail.com" pass="manifestation" />
+  </eosDevice>
+
+  <LogoDaemon Name="REBIS" ShowsTitle="false" TextColor="220, 220, 220, 200" LogoImagePath="DLC/Sprites/Alchemists/Alchemists3" />
+
+
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/RiptideTheme.xml"/>
+</Computer>

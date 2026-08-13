@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="airline2_player">
+  <goals>
+  </goals>
+  
+  <nextMission>NONE</nextMission>
+  <posting title="D3f4ult - Decypher Pacific Air Protocols">
+PortSmasherは入手できましたが、私たちはPacific Airのより高度なシステムに侵入しなければなりません。プロトコルを解析して、察知されずにセキュリティーをすり抜ける方法を探してください。
+  </posting>
+  <email>
+    <sender>blank</sender>
+    <subject>blank</subject>
+    <body>
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

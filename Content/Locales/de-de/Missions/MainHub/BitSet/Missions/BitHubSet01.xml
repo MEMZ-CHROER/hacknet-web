@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitHubSet01">
+  <goals>
+    <goal type="FileUpload" target="bitDropBox" file="READ_all_hackers.txt" path="Drop/Uploads" destTarget="hubPubDrop" destPath="Drop/Uploads" />
+  </goals>
+  <missionStart val="8" suppress="true">changeSong</missionStart>
+  <nextMission>MainHub/BitSet/Missions/BitHubSet01_REPLY.xml</nextMission>
+  <posting title=" [UPDATE] Untersuche das Verschwinden eines CSEC Mitglieds">
+Bit, ein Freund und geschätztes Mitglied von CSEC ist vor über 2 Wochen ohne jede Spur verschwunden. Keiner hat seitdem mit ihm gesprochen.
+Auch wenn sicher zahlreiche Leute nach ihm suchen werden, würde ich doch gerne einen Auftrag ausstellen, um alle, die helfen wollen, zusammenzubringen.
+Jede Information zu seinem Verschwinden - oder besser noch Aufenthaltsort - ist hilfreich.
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Bits Verschwinden</subject>
+    <body>Hi,
+    
+das wird eine etwas persönlichere Angelegenheit. Werde mit meinem Alias unterschreiben. Anonymität ist mir hier nicht so wichtig, wir suchen immerhin nach einem Freund.
+Bit ist vor etwas mehr als 2 Wochen komplett vom Radar verschwunden, was ziemlich ungewöhlich ist. Also nicht, dass er für ne Weile untertaucht. Aber ohne jemandem Bescheid zu geben? 2 Wochen? Irgendwas stimmt da nicht.
+
+Ich habe dir ein paar Links zu seinen Servern angehängt, schau dich auf denen mal um. Wenn du etwas findest, lad es auf den CSEC Drop-Server hoch und ich werde es mir dann genauer ansehen. 
+
+Danke,
+-Vapor 
+    </body>
+    <attachments>
+      <link comp="bitMission00" />
+      <link comp="bitRelay01" />
+      <link comp="hubPubDrop" />
+    </attachments>
+  </email>
+</mission>

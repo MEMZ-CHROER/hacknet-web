@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dhaAdminHome" name="Casa de Nate Wesson" security="4" ip="66.175.58.9" type="4" icon="DLCPC1">
+  
+  <!-- This is the home computer of the architect of the system, it's more personal, less formal, and contains WIP files -->
+  
+  <proxy time="-1" />
+  <trace time="300" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 443, 80, 6881</ports>
+  
+  <positionNear target="dhaComp2" position="300" total="360" extraDistance="0.01"/>
+
+  <file path="sys" name="STOR-DRIVE_activesync.log">Imagen de memoria local verificada
+la memoria remota segura en la nube responde al ping
+INICIADO CON ÉXITO
+Errores: 0</file>
+
+  <file path="bin" name="SignalScrambler.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+
+  <file path="home/wip" name="todo_books.txt">Libros por escribir
+
+en progreso
+- guía de pérdida de peso
+
+terminado
+- manual básico de alquimia hermética (¿por qué no vende bien? investigar)
+- complejidades del árbol de la vida (hablar con la editorial)
+
+pendiente
+- metafísica de los alimentos
+- guía de comida del cfc
+- guión de cine sobre abejas (las abejas están de moda)</file>
+
+  <file path="home/wip" name="weightloss.txt">Todo está en tu cabeza: ¡Perder peso solo requiere pensar en positivo!
+o:
+El método Wesson
+
+Introducción
+
+¡Las drogas son lo más! ¡La comida cura todo los males! ¡Todo es maravilloso y bueno para ti! 
+
+Eso es lo que dicen todos los libros que he leído y ¿sabes una cosa? ¡son una mierda! La gente intenta perder peso y me dice: "¡No consigo perder peso a pesar de que como menos, hago ejercicio y llevo una vida más sana! ¡Todo mi peso se convierte en masa muscular y estoy más saludable, pero peso lo mismo!"
+
+Deja. Que. Te. Diga. No solo es necesario comer menos, hacer ejercicio y hacer lo que el diccionario y los "doctores" consideran "saludable". También hay que tener pensamientos positivos, y en esta completa guía te diré exactamente el tipo de pensamientos a los que me refiero.</file>
+  
+  <file path="home/wip" name="weightloss_parody.txt">Nota para las posibles editoriales: No soy un tarado, este es un libro que parodia las guías para perder peso dirigido a treintañeros sarcásticos, para que lo pongan en la estantería y sus amigos vean que son listos y divertidos. Por favor, pónganme en su lista de manuscritos a revisar.
+</file>
+  
+  <file path="home/wip" name="weightloss_c2.txt">Capítulo 2
+
+Come de todo y acelera tu viaje hacia lo desconocido
+
+estructura del capítulo:
+-Come lo que quieras
+-Piensa en perder peso
+-Solo perderás peso cuando te acerques a la perfección
+-Acercarse a la perfección te hará perder peso
+-Compara y contrasta con textos alquímicos tradicionales
+</file>
+
+
+  <file path="home/wip" name="weightloss_c3.txt">Capítulo 3
+
+-No ingieras cosas perjudiciales como aguarrás o colillas de la basura, morirás. Pero sí toneladas de comida basura (mejor la del CFC).</file>
+
+  <file path="home/wip" name="weightloss_c4.txt">Capítulo 4
+
+-Seguir hablando de un apéndice de buenos pensamientos que se venda por separado</file>
+  
+  
+  <Memory>
+    <Commands>
+      <Command>STOR-DRIVE upkeep ping @ 66.175.58.11 _ ACTIVE</Command>
+    </Commands>
+    <Images>
+      <Image>DLC/Sprites/Misc/Alquimia</Image>
+    </Images>
+  </Memory>
+  
+  <customthemefile path="sys" name="x-server.sys" themePath="DLC/Themes/RiptideTheme.xml"/>
+
+
+</Computer>

@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="Entropy_DLC_End" activeCheck="true">
+  <goals>
+    <!-- No goals and autocomplete here - this exists to clear player missions and also send them back to their faction -->
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="">
+  </posting>
+  <email>
+    <sender>Tex</sender>
+    <subject>大丈夫か？</subject>
+    <body>#PLAYERNAME#,
+    
+Kaguya Trialsに挑戦してからログインしていないようだが、大丈夫か？
+当然、別派閥が関わっているのは承知しているが、あれからだいぶ時間がたった。
+
+Entropyから一時的に離れているだけなら、いつ戻ってきても歓迎するからな。
+
+-Tex
+    </body>
+    <attachments>
+      <link comp="entropy00" />
+    </attachments>
+  </email>
+</mission>

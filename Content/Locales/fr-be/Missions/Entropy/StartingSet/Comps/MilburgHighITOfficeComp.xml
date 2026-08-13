@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<Computer id="milburgHigh" name="Bureau informatique de Milburg High" security="2" type="4">
+  
+  <proxy time="0.9"/>
+  <portsForCrack val="1"/>
+  <!-- Number of ports to be open to allow porthack to run -->
+  <firewall level="-1"/>
+
+  <adminPass pass="*******"/>
+  
+  <file path="home/misc" name="People_not_To_Trust.txt" EduSafe="false">
+[jinkle] hé mec, tu sais où je peux trouver de la beuh ?
+ [jinkle] un gars à Lacy m'a donné ton contact 
+[marcy] pas de soucis, mec, t'en veux combien ?
+ [jinkle] super, on va dire 30 grammes ?
+ [marcy] 145 $ 
+[jinkle] ça marche On se voit où ?
+ [marcy] ça marche alors ? 145 $ pour 30 grammes de beuh de premier choix ?
+ [jinkle] ouais mec, c'est bon. 
+[marcy] Cool. J'ai ton adresse IP. J'arrive. 
+[jinkle] hein quoi comment ça ? 
+[marcy] Il y a des avantages à être flic... 
+[jinkle] merde maman va me tuer.
+  </file>
+  
+  <file path="home/MH_STAFF" name="Student_TopSearchHistory.txt" EduSafe="false">
+1  Google
+2  Nichons
+3  Nichon
+4  Sexe
+5  Côté de nichon
+6  Porno
+7  comment désactiver le filtre antiporno
+8  trucs qui passent au travers du filtre antiporno
+9  peintures de la guerre civile
+10 GTA
+11 Twerking
+12 c'est quoi le Twerking
+13 techniques de Twerking
+14 fille seins nus dans peinture de guerre française
+15 Sports
+16 Sportsball
+....
+  </file>
+  
+  <file path="home/MH_STAFF" name="Announcements.txt">
+Au sujet des annonces de pannes d'Internet/de serveur de proxy, 
+
+Si une partie de notre personnel ne comprend pas la phrase « le serveur de proxy est en rade », ce n'est pas le cas de nos étudiants. 
+Pendant la panne annoncée d'hier soir, certains d'entre eux ont compris qu'Internet était toujours actif, mais pas le filtre de recherche. En 20 min, ils ont téléchargé 22 téraoctets de pornographie sur les serveurs de l'école et sur les ordinateurs personnels.
+ Nous aimerions trouver une façon de sécuriser les serveurs, mais une autre manière d'empêcher cela aurait peut-être été de ne pas annoncer la panne ?
+
+ Merci, 
+-L'administration
+  </file>
+  
+  <file path="home/MH_STAFF" name="pw_memo.log">
+16:37 - MBIT : Je réfléchissais au sujet de la sécurité... 
+16:37 - JBrooks : ouais ? 
+16:37 - MBIT : Ouais, et je pensais que ces mises à jour allaient vraiment faire chier pour bosser et tout ça  
+16:37 - MBIT : mais écoute-moi ça 
+16:38 - MBIT : une solution facile : 
+16:38 - MBIT : on change le mot de passe du service informatique comme ça : 
+16:38 - MBIT : ******* 
+16:38 - JBrooks : Je comprends pas 
+16:38 - MBIT : Exactement ! 
+16:38 - MBIT : Juste 7 * 
+16:38 - MBIT : c'est ça le mot de passe, juste des étoiles 
+16:38 - MBIT : Qui pourrait deviner ça ? Personne. Et si quelqu'un le pirate ? Ça aura toujours l'air protégé ! 
+16:38 - MBIT : C'est incraquable !
+  </file>
+  
+  <file path="home/MH_STAFF/PRIVATE_STUDENT_EMAILS" name="mail.txt">Si un étudiant m'envoie un email reconnaissant, je le stockerai ici. 
+Bon Dieu que je me sens seul. Notepad.exe, tu es le seul qui me comprend :(</file>
+  
+</Computer>

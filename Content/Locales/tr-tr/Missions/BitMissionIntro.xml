@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bitMissionIntro">
+  <goals>
+    <goal type="FileDeletion" target="playerComp" file="SecurityTracer.exe" path="bin" />
+  </goals>
+  <nextMission>SSHCrackMission.xml</nextMission>
+  <branchMissions>
+    <branch>BitMission2.xml</branch>
+  </branchMissions>
+  <email>
+    <sender>Bit</sender>
+    <subject>İlk Temas</subject>
+    <body>Merhaba,
+
+Seni tanımıyorum ve bunu söylediğim için üzgünüm ancak hiçbir zaman da tanıyamayacağım. Eğer bunu okuyorsan bu muhtemelen işleri düzeltebilecek tek kişi olduğun anlamına geliyor.
+
+Kapana kısıldım. Çıkış yolu da yeterli zaman da yok. Yardımına ihtiyacım var.
+
+Fakat öncelikle halletmen gereken bir şey var - ne kadar çabuk halledersen o kadar iyi olur.
+HacknetOS'in şu anda olduğu gibi yayınlanmaması gerekiyordu - bir süre sonra otomatik bir izlence kendi kendine etkinleşecek - bunun olmasına izin veremeyiz.
+Kendi bilgisayarına bağlan (netMap'de yeşil çember şeklinde görünüyor), sonra da "SecurityTracer.exe" isimli komut dosyasını bul ve sil.
+
+İşi bitirdiğin zaman bu e-postayı yanıtla.
+
+Acele et!
+-Bit
+0
+    </body>
+    <attachments>
+      <note title="Hacknet Gezinti Kılavuzu">Hacknet Gezinti Kılavuzu
+      
+Dosyalarda dolaşmak ya da dosyaları okumak için gösterge modülünü kullanın veya terminale "cd [Klasor Adı]" ve "cat [Dosya Adı]" komutlarını girin.
+
+"rm [Dosya Adı]" komutunu kullanarak dosyaları silin.
+
+Komutları veya dosya adlarını otomatik olarak tamamlamak için Tab tuşunu kullanın.
+      </note>
+    </attachments>
+  </email>
+</mission>

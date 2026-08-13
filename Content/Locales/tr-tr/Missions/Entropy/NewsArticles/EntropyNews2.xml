@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="entropyNews02">
+  <goals>
+    <goal type="getAdmin" target="entropy01"/>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Entropy Şüphesi">
+İnternetteki gruplardan Entropy bir süredir internet dünyasındaki güvenilir bilgi kaynaklarından biri olarak tanınıyordu fakat gerçekleştirdikleri son eylemler gazeteciler ve firmalarda kuşku uyandırdı. Bu eylemlere örnek olarak bilgilerini paylaştıkları kaynakların tartışılması üzerine kamu erişim terminallerini kapatmaları verilebilir.
+
+Grup uzun süredir paylaştığı açık bilgilerle sektördeki yerini almış olsa da eğer bunu kansunsuz yollardan gerçekleştiriyorduysa, derhal harekete geçilmelidir.
+Gelişmeler yaşandıkça sizlerle paylaşacağız.
+
+Muhabir: Tom Wilkins
+  </posting>
+  <email>
+    <sender>Tom Wilkins</sender>
+    <subject>Entropy Durdurulmalı</subject>
+    <body>
+Entropy veritabanını yok et.
+    </body>
+    <attachments>
+      <link comp="entropy01" />
+    </attachments>
+  </email>
+</mission>

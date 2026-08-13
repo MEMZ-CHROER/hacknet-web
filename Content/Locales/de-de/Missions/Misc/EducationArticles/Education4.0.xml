@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Proxy-Server Schnellanleitung">
+Proxy-Server agieren als Pufferzone zwischen einem Zielcomputer und einem verbundenen Gegenstück, die filtert, zwischenspeichert und eingehende Verbindungen überwacht, wiederholte Anfragen abfängt und ein paar Arten von Angriffen vorbeugt.
+
+Der bekannteste Schwachstelle von Proxy-Servern ist ihre Speichergrenze - Welche, wenn erreicht, jeglichem Traffic Zugang gewährt.
+
+Um das auszunutzen, lassen Hacker und Tester oft Shells auf anderen Computern laufen, auf die sie Zugriff haben (häufig über den eingebauten "shell"-Befehl), mit deren Hilfe sie dann den Proxy des Zielcomputers überlasten. "Überlasten" überflutet den Proxy mit Datenmüll, um potenziell gefährlichen Traffic durchzulassen.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Wenn Sie diese Mail erhalten, ist ein unerwarteter Fehler aufgetreten.
+Bitte geraten Sie in Panik.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

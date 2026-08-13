@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="bit02_finale01" >
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission> <!-- For real this time :D -->
+  <email>
+    <sender>Bit</sender>
+    <subject>Terminal</subject>
+    <body>Hey,
+İlk önce bunu yazmamın mantıklı olup olmadığından emin değilim. Eğer her şey plana uygun gittiyse, bu benden alacağın son ileti olacak.
+Belki de birinin benden alacağı son ileti... Ancak dur bakalım, bu sefer iyimser bir ileti yolluyorum! Eğer bu ileti sana ulaştıysa, bu bugüne kadar duymuş olmayı umduğum en iyi haber olacak.
+
+Teşekkür ederim. Kolay olmadığını hayal edebiliyorum - (kolay mıydı?) - Cümlelerime biraz geçmiş zaman eklesem daha iyi olur gibi.
+
+Yine de senden istediğim son bir şey daha var - sanki yeterince şey istememişim gibi - Porthack aslında tek başına işleyen bir şey değil. Aslında bir zamanlar tek başına işliyordu. Ancak, neden Porthack'ın öylece insanların eline geçmemesi gerektiğini biliyorsun işte...
+Core - Heart , geriye bir tek o kaldı. Kurcalanamaz olacak şekilde yapıldı. Ben elimden geleni yaptım. Bu senden istediğim son şey.
+
+--Bit
+0
+      
+    </body>
+    <attachments>
+      <link comp="porthackHeart" />
+    </attachments>
+  </email>
+</mission>

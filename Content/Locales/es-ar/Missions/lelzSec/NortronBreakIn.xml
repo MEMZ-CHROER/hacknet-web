@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="lelzSec1">
+  <goals>
+    <goal type="getAdmin" target="nortronMainframe"/>
+  </goals>
+  <nextMission>lelzSec/MessageBoardIntro.xml</nextMission>
+  <email>
+    <sender>Naix</sender>
+    <subject>Qué divertido.</subject>
+    <body>
+Ja, ja... Bien, bien. Una obra de arte.
+
+ Vale, así está mejor. ¿Qué tal algo más difícil? 
+¿Puedes encargarte del sistema principal de Nortron? Sinceramente, esperaba más de una empresa de seguridad, pero su cortafuegos sí es bastante robusto. 
+Desactivarlo de manera convencional sería muy difícil, así que buena suerte. 
+
+¿Crees que puedes entrar? No me importa lo que hagas si consigues entrar. Si te haces administrador, me impresionarás.
+
+ Y en ese caso, quizá tenga algo para ti. -
+
+ Naix
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

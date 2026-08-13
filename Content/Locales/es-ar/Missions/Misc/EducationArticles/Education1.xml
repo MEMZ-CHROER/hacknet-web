@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="education01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Firewall Analysis and Solutions">
+Hace mucho tiempo que existen los cortafuegos en la seguridad informática, que sobre todo sirven para impedir el tráfico de red externo y automatizado, aunque no protegen contra los hackers concienzudos.
+ Pero los cortafuegos modernos se pueden configurar para impedir *todo* el tráfico crítico para la seguridad si no se autoriza en el cortafuegos (lo que a veces se conoce como contraseña para los usuarios finales, aunque sean dos cosas distintas). 
+
+En esta situación, el cortafuegos debe implementarse antes de que se puedan intentar intrusiones no autorizadas, lo que, en esencia, hará que cualquier software de descodificación de contraseñas sea inútil mientras el cortafuegos esté activo. 
+
+La complejidad del cortafuegos se puede examinar con el comando «analyze». Si se ejecuta varias veces, detecta automáticamente patrones en los encabezados de datos y eliminará caracteres que puede garantizar que no son parte del cortafuegos correcto.
+ Cuando se encuentra una solución potencial, puede usarse el comando «solve [SOLUCIÓN DE CORTAFUEGOS]» para intentar una entrada autorizada.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Si recibe este correo electrónico, es que se ha producido un error inesperado. 
+Échese a temblar.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

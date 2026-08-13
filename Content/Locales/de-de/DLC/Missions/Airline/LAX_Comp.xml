@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Computer id="dal_lax" name="LAX_Pacific_Server" security="5" type="4">
+
+  <!-- This is a server for Pacific Air located in LAX Airport - kaguya or someone else went there physically and scanned for its signal.
+  I don't have many thoughts on what should be on here. It's also valid to keep it empty. Up to you!
+  -->
+  
+  <firewall level="-1"/>
+  <proxy time="1" />
+  <trace time="49" />
+  <portsForCrack val="3" />
+  <ports>22, 21, 443</ports>
+  <portRemap>22=340</portRemap>
+  <admin type="fast" resetPassword="true" isSuper="false"/>
+
+  
+  <dlink target="dpa_nethub" />
+
+  <file path="home" name="settings_default.cfg">?cfg version = "1.0" encoding = "UTF-8" ?
+//Diese Datei ist nicht für die Änderung durch User vorgesehen;
+//sie wird autom. ausgefüllt, sobald die Webapplikation zur Routereinrichtung von Schiss-Co
+//auf einem lokalen Client ausgeführt wird.
+</file>
+  
+  <file path="home" name="settings_custom.cfg">
+?cfg version = "1.0" encoding = "UTF-8" ?
+//Hier eigene Einstellungen eingeben oder diese Datei mittels der
+//Webapplikation zur Routereinrichtung von Schiss-Co einrichten, die auf unserem Online-Portal erhältlich ist.
+  </file>
+  
+  <file path="home" name="readme.txt">
+Herzlichen Glückwunsch zum Kauf Ihres drahtlosen Routing-Servers von Schiss-Co! Sie haben mit die sicherste Netzwerk-Hardware auf dem Planeten gekauft, und nach einigen Einstellungen werden Ihre Systeme kugelsicher sein.
+
+Aus Sicherheitsgründen empfehlen wir, die Standardeinstellungen umgehend zu ändern. Wenn Sie Ihren Schiss-Co Router erstmals einschalten, ist er offen, damit Sie ungehindert auf ihn zugreifen und ihn konfigurieren können.
+
+Als nächstes müssen Sie den Schiss-Co Authentifizierungsschlüssel in einen verfügbaren USB-Port des Clients, den Sie für die Einrichtung verwenden, einstecken. Dieser kann unter allen Windows-, Mac- oder allen Linux-Distributionen und -Fassungen laufen, die im Handbuch oder auf unserer Website aufgeführt sind. Dieser Schritt ist obligatorisch. Es muss sichergestellt werden, dass Sie eine von Schiss-Co unterstützte Hardware/Software-Kombination verwenden.
+
+Damit wird der Einrichtungsassistent gestartet.
+
+Zum Offline-Setup rufen Sie uns während regulärer Geschäftszeiten an der amerikanischen Westküste unter 555-0167 an - ein ausgebildeter Mitarbeiter hilft Ihnen gerne weiter.
+
+Beachten Sie bitte, dass wir die Nutzung von Drittsoftware auf Schiss-Co Routing-Hardware nicht dulden. 
+  </file>
+  
+  <positionNear target="dpa_nethub" position="90" total="360" extraDistance="0.12"/>
+  
+</Computer>

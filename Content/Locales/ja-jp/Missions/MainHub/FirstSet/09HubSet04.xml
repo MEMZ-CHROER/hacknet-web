@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="hubSet01">
+  <goals>
+    <goal type="modifyDeathRowRecord" name="John Boorman">I'm ready, Warden</goal>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="家族のために - 死刑記録の追加">
+刑死した人物の家族が、その死刑記録を公式の記録名簿に載せてほしいと依頼してきました。
+判決内容には明らかに不審な点があり（家族によれば、不正な方法で判決が下されたらしいとのことです）、またその人物の記録を、公式の名簿に載せない動きもあったとのことです。家族からの言葉です。「少なくとも、彼の最後の言葉だけは残してあげたいのです」
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>不当な欠如</subject>
+    <body>
+死刑記録を新しく作ってください。刑死した人物の家族が、その記録をデータベースに追加してほしいと依頼してきました。記録の詳細は以下に記す通りです。
+
+------------------------------------
+名前: "John"
+
+苗字 : "Boorman"
+
+最後の言葉: "I'm ready, Warden"
+------------------------------------
+
+これ以外の内容は特に気にしないとのことですが、できるだけ他の記録の真似をしてください。死刑記録のテンプレートをCSECのアセットサーバーにアップロードしておきました
+（/home/Templatesの中にあります）。テンプレートをコピーして自分のコンピュータで編集してから記録をアップロードするとよいでしょう。その際、名前と記録番号を反映
+させてファイル名を変更（コマンド”mv”）しておくことを忘れずに。
+
+依頼主からのメッセージ:
+「協力してくださって本当にありがとうございます。思い返してみれば、裁判は始めから不審な点だらけでした。私たちは彼の無実を固く信じています。この不正について世に知って
+もらうため、私たちは今も全力で戦っています。今なおデータベースに記載がないことは、彼の存在に対する侮辱です。少なくとも、最後の言葉ぐらいは残してあげたいのです。
+重ねて、ご協力ありがとうございます。」 
+    </body>
+    <attachments>
+      <link comp="mainHubAssets" />
+      <link comp="deathRow" />
+      <note title="Record Details">名前: "John"
+苗字: "Boorman"
+最後の言葉: "I'm ready, Warden"</note>
+    </attachments>
+  </email>
+</mission>

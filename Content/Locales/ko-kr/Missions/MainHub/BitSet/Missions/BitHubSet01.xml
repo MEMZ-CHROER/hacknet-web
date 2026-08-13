@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="bitHubSet01">
+  <goals>
+    <goal type="FileUpload" target="bitDropBox" file="READ_all_hackers.txt" path="Drop/Uploads" destTarget="hubPubDrop" destPath="Drop/Uploads"/>
+  </goals>
+  <missionStart val="8" suppress="true">changeSong</missionStart>
+  <nextMission>MainHub/BitSet/Missions/BitHubSet01_REPLY.xml</nextMission>
+  <posting title=" [NEW] Investigate a CSEC member's disappearance">
+CSEC의 매우 인정받는 멤버이자, 이곳에서 많은 사람들의 개인적인 친구인 Bit은 2주 전에 실종됬으며, 누구와도 연락을 취하지 않았습니다.
+분명 다방면으로 은밀한 수사가 진행 중이지만, 도움을 주고자 하는 사람들을 위해 이를 CSEC의 공식 게시글로 만들려고 합니다.
+우리는 그의 실종, 또는 이상적으로는 현재 상태에 관해 입수 가능한 모든 정보를 찾고 있습니다.  
+  </posting>
+  <email>
+    <sender>CSEC Hub Services</sender>
+    <subject>Bit 실종 수사</subject>
+    <body>이봐,
+  
+이건 덜 공식적인 이메일인데, 내 직함으로 서명할 거야, 여기서 익명은 필요치 않아, 우리는 친구를 찾는 거니까.
+Bit은 약 2주 전에 사라졌는데 그건 꽤 이상한 일이야. 내 말은, 잠깐 사라지는 건 괜찮지만, 여기 누구와도 연락하지 않는다고? 2 주? 무슨 일 있네.
+
+그가 소유/사용중인 몇몇 서버에 링크 몇개를 보냈으니 거기서 찾아보는 게 어떤가. 뭔가를 찾는다면, CSEC 드롭 서버에 올리면 내가 확인해 보지. 
+
+고맙다,
+-Vapor 
+    </body>
+    <attachments>
+      <link comp="bitMission00"/>
+      <link comp="bitRelay01"/>
+      <link comp="hubPubDrop"/>
+    </attachments>
+  </email>
+</mission>

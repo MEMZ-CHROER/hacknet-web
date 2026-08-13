@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education02">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Proxy Servers - Geavanceerd">
+Proxy servers zijn feitelijk een tweede computer waaraan je doorheen aan een doelwit verbind, het filtert en cachet netwerkverkeer om beveiliging te geven en web prestaties te verbeteren op veelgevraagde informatie.
+
+Proxies zijn per standaard geconfigureerd om verkeer dat gevaarlijk kan zijn af te slaan (zoals FTP overvloeding), ten koste van het nodig hebben van een whitelist voor gewenst verkeer (zoals youtube video steaming).
+Dit beteknt dat hoewel ze onhandig kunnen zijn voor wat gebruikers, dat als ze correct gebruikt worden ze het gebruik van programma's volledig kunnen blokkeren als deze een beveilingsrisico vormen.
+
+De meest bekende fout in proxy servers is het maximale geheugenlimiet - dat als bereikt het hele netwerk uitschakelt waaraan ze verbonden zijn (een optie die weinig gebruikt wordt) of ze ongereguleerd verkeer doorlaten.
+Hierom hebben groeiende netwerkbeveiligingsbudgetten geleid tot robuustere proxy servers met significant meer geheugen, wat het proces van overladen een lange en ontmoedigende taak maakt, bijna onmogelijk met één machine.
+
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Ontvangen van deze email betekent dat er een onverwachte fout is opgetreden.
+Raak in paniek.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#" />
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Stop de oogsters">
+Een klant is opgevallen dat een rivaal vooruit trekt door het illegaal oogsten van klantendata en dat verkopen aan reclamebureau's.
+Stop dit.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>#CLIENT# - Mislukte oogst</subject>
+    <body>
+Agent,
+
+Ons bedrijf viel onslangs op dat een concurrent oneerlijk en ILLEGAAL voordeel doet aan het oogsten van klantendata (emails, naam, voorkeuren etc) en dat verkopen aan reclamenbedrijven met winst.
+Dit is uiteraard onaanvaardbaar, voor piraterij, eerlijkheid en fair-use redenen, maar ook vanwege de Data Verdedigings Wet van 1998.
+
+We willen dat je toegang krijgt tot hun servers en hun gebruikersdetailsarchief vernietigen. We zullen apart juridische actie ondernemen (Bewijs is al geen probleem meer).
+
+Bedankt,
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#" />
+    </attachments>
+  </email>
+</mission>

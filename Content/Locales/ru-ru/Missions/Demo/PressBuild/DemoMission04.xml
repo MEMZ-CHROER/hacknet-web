@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="pressdemoMission04" activeCheck="true">
+  <goals>
+    <goal type="FileDeletion" target="finalNodeDemo" file="@19002_185.11.124.4_Disconnected" path="log"/>
+    <goal type="FileDeletion" target="finalNodeDemo" file="@19002_logarchive" path="log"/>
+    <goal type="FileDeletion" target="finalNodeDemo" file="x-server.sys" path="sys"/>
+    <goal type="FileDeletion" target="finalNodeDemo" file="netcfgx.dll" path="sys"/>
+  </goals>
+  <missionStart>demoFinalMissionStart</missionStart>
+  <missionEnd>demoFinalMissionEnd</missionEnd>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>Bit</sender>
+    <subject>Vindication</subject>
+    <body>Мы готовы. 
+
+Мне нужно , чтобы ты подключился. Возможно, ты уже догадался, все что было до этого, было  просто разминкой, - теперь все реально начинается. 
+Когда, ты запустишь  Sequencer, это активирует скрипт, который я оставил на одном  из моих серверов. Он подключится к веб-серверу и я хочу, чтобы этот сервер был уничтожен: зайди туда и удали все в /sys/ папке. 
+
+Не будет  так как раньше, - этот сервер скрыт специально. На нем будут трекеры в большом количестве. Вот где sequencer помогает: он будет поддерживать подключение, так долго как сможет, и подкармливать  твой UI информацией о том, сколько времени у тебя осталось. Убедись, что он запущен.
+
+ Детали  прилагаются, как всегда. 
+На данный момент, это последнее, что ты услышишь от меня - в любом случае, эта сборка  задумывалась временной - передышка, чтобы подготовится к настоящему делу. 
+
+Удачи. 
+Борись.
+ --Bit
+0
+    </body>
+    <attachments>
+      <note title="Mission Overview">Перед тем как начать, выучи эти записи, затем удали их - тебе понадобятся все твои системные ресурсы. 
+
+Запусти Sequencer
+Connect to EnTech
+Probe the system
+Run your port breakers
+Porthack
+Move to the /sys/ folder
+Delete everything (rm *)
+Delete all logs
+Disconnect
+      </note>
+    </attachments>
+  </email>
+</mission>

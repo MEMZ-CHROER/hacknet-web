@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<mission id="GenMission">
+  <goals>
+    <goal type="FileDeletion" target="#COMP#" file="#FILE#" path="#PATH#"/>
+  </goals>
+  <missionEnd val="1">addRank</missionEnd>
+  <nextMission>NONE</nextMission>
+  <posting title="#CLIENT# - Intimidation Tactics">
+Los colegas de un valorado cliente han sido irrespetuosos y necesita enviar un mensaje. 
+Destruye su copia de seguridad del servidor recientemente creada.
+  </posting>
+  <email>
+    <sender>#CLIENT#</sender>
+    <subject>Tácticas intimidatorias</subject>
+    <body>
+Saludos, agente: 
+
+Un colega de un cliente nuestro se ha pasado de la raya recientemente, de una manera muy irrespetuosa. Queremos enviarle un mensaje. 
+
+Según nuestra información, han completado hace poco una copia de seguridad de toda la empresa y han almacenado los datos en un servidor independiente. Sin dañar su copia actual, creemos que si eliminamos este archivo será una señal suficiente. 
+Encontrarás adjunta la información del objetivo. 
+
+-#CLIENT#
+    </body>
+    <attachments>
+      <link comp="#COMP#"/>
+    </attachments>
+  </email>
+</mission>
