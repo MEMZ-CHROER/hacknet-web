@@ -35,7 +35,11 @@
         window.BrotliDecode = BrotliDecode;
         // Set this to enable Brotli (.br) decompression on static webServers
         // that don't support content compression and http://.
-        var enableBrotliDecompression = true;
+        // 已禁用：Kni 模板在非 localhost 强制 fetch 每个资源的 .br 版（无 fallback），
+        // 而本发布禁用 Blazor 压缩（boot.json 引用原始文件 + sha256 匹配），
+        // 线上 .br 不存在会 404 → "Failed to load config"。禁用后走默认加载，
+        // GitHub Pages 动态 gzip 由浏览器自动解压，字节与 boot.json hash 一致。
+        var enableBrotliDecompression = false;
         Blazor.start({
             loadBootResource: function (type, name, defaultUri, integrity)
             {
