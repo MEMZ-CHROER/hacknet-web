@@ -43,22 +43,35 @@
         Blazor.start({
             loadBootResource: function (type, name, defaultUri, integrity)
             {
-                if (enableBrotliDecompression === true && type !== 'dotnetjs' && location.hostname !== 'localhost')
+                // 统一带重试的资源加载（除 dotnetjs 运行时脚本，它由 <script> 标签加载）。
+                // 背景：GitHub Pages 首次冷加载极慢（部分网络 10-30s/文件），
+                // 209 个 wasm 并发下载必然有随机文件 fetch 失败 → mono_download_assets 崩。
+                // 这里对每个资源加最多 6 次重试（指数退避），保证最终能下载完成进入游戏。
+                // 加载原始文件（boot.json 引用原始 + sha256 校验），浏览器自动解压服务器 gzip。
+                if (type !== 'dotnetjs')
                 {
                     return (async function()
                     {
-                        const response = await fetch(defaultUri + '.br', { cache: 'no-cache' });
-                        if (!response.ok)
-                            throw new Error(response.statusText);
-                        const originalResponseBuffer = await response.arrayBuffer();
-                        const originalResponseArray = new Int8Array(originalResponseBuffer);
-                        const contentType = (type === 'dotnetwasm')
-                                          ? 'application/wasm'
-                                          : 'application/octet-stream';
-                        const decompressedResponseArray = BrotliDecode(originalResponseArray);
-                        return new Response(decompressedResponseArray,
-                                            { headers: { 'content-type': contentType }
-                                   });
+                        for (let attempt = 0; attempt < 6; attempt++)
+                        {
+                            try
+                            {
+                                const response = await fetch(defaultUri, { cache: 'no-cache' });
+                                if (response.ok)
+                                {
+                                    const originalResponseBuffer = await response.arrayBuffer();
+                                    const contentType = (type === 'dotnetwasm')
+                                                      ? 'application/wasm'
+                                                      : 'application/octet-stream';
+                                    return new Response(originalResponseBuffer,
+                                                        { headers: { 'content-type': contentType }
+                                                       });
+                                }
+                            }
+                            catch (e) { /* 网络失败，退避后重试 */ }
+                            await new Promise(r => setTimeout(r, 1000 * (attempt + 1)));
+                        }
+                        throw new Error('Failed to load resource after retries: ' + name);
                     })();
                 }
             }
